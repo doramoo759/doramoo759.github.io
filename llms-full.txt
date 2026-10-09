@@ -1,0 +1,2170 @@
+# Ramoo Hub
+
+> Ramoo Hub 기술 기록과 실험을 정리하는 Hugo 블로그
+
+--------------------------------------------------------------------------------
+title: "Home"
+url: https://doramoo759.github.io/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "About"
+url: https://doramoo759.github.io/about/index.md
+description: About ramoo and this personal site.
+--------------------------------------------------------------------------------
+
+## About
+
+I'm a senior developer who makes a living developing software. I made this site to keep occasional thoughts and notes on things that interest me.
+
+Keeping a site updated regularly isn't easy, but I'm going to try.
+
+
+--------------------------------------------------------------------------------
+title: "Contact"
+url: https://doramoo759.github.io/contact/index.md
+description: Contact information for ramoo.net.
+--------------------------------------------------------------------------------
+Contact information for ramoo.net.
+
+--------------------------------------------------------------------------------
+title: "블로그"
+url: https://doramoo759.github.io/blog/index.md
+description: ramoo.net 글 목록
+--------------------------------------------------------------------------------
+ramoo.net 글 목록
+
+--------------------------------------------------------------------------------
+title: "Money"
+url: https://doramoo759.github.io/money-log/index.md
+description: 투자와 돈에 관한 공부
+--------------------------------------------------------------------------------
+투자와 돈에 관한 공부
+
+--------------------------------------------------------------------------------
+title: "주린이 벗어나기 3탄: 포트폴리오를 나눌 때 확인할 것"
+url: https://doramoo759.github.io/money-log/jurini-portfolio-3/index.md
+date: "2026-04-29"
+description: ETF의 편입 종목이 겹치는지, 투자금이 어디에 쏠리는지, 환율과 비용을 반영했는지 확인하는 메모.
+--------------------------------------------------------------------------------
+
+![주린이 벗어나기 3탄 커버 이미지](images/trends/jurin3/cover.png)
+
+[지표](/money-log/jurini-indicators-1/)와 [배당주·성장주](/money-log/jurini-dividend-vs-growth-2/)를 공부해도 어떤 종목을 얼마나 살지는 여전히 어렵다. 종목을 하나씩 보다 보면 전체 계좌가 어디에 쏠려 있는지도 놓치기 쉽다.
+
+포트폴리오를 생각할 때 확인할 내용을 적어 둔다. 실제 보유 종목이나 계좌 비중은 따로 기록해야 한다.
+
+## 종목을 늘리면 분산이 될까
+
+여러 종목을 가지고 있어도 모두 같은 산업에 속하면 비슷한 이유로 함께 움직일 수 있다. 종목 수와 함께 어떤 사업에 투자하고 있는지 볼 필요가 있다.
+
+ETF도 마찬가지다. S&P500 ETF에 테크 ETF를 더하면 이름은 둘이지만, 담고 있는 기업이 겹칠 수 있다. 상품을 하나 더 사기 전에 편입 종목과 비중을 확인해 둘 필요가 있다. [Investor.gov의 분산 투자 설명](https://www.investor.gov/introduction-investing/getting-started/asset-allocation)에서도 여러 펀드를 보유할 때 주요 보유 종목이 겹치는지 살펴보라고 안내한다.
+
+## 비중을 정하기 전에
+
+시장 전체를 담는 ETF를 중심에 두고, 개별 성장주나 배당 자산을 더하는 구성을 생각할 수 있다. 하지만 각각 몇 퍼센트를 담을지는 투자 기간과 자금 사정에 따라 달라진다.
+
+우선 전체 투자금 중 가까운 시일 안에 꺼내야 할 돈이 얼마인지, 계좌가 하락하면 어디까지 감당할 수 있는지를 확인해야 한다. 이 부분이 정해져야 개별 종목 비중도 이야기할 수 있다.
+
+주식, 채권, 현금 등을 나눠 보는 자산 배분과 주식 안에서 여러 기업을 담는 분산은 함께 살펴볼 내용이다. ETF라는 이름만으로 자산의 성격이 정해지지는 않는다.
+
+## 아는 분야를 보는 장점과 한계
+
+개발자라면 기술이나 제품 변화가 눈에 익을 수 있다. 사업을 이해하는 데는 도움이 되겠지만, 익숙한 제품을 만드는 회사라고 해서 주가까지 판단하기 쉬운 것은 아니다.
+
+제품의 장점과 회사가 돈을 버는 방식, 그 기대가 이미 가격에 얼마나 들어 있는지는 각각 살펴봐야 한다. 뉴스나 업계 이야기를 빨리 접했다는 것만으로 투자 수익을 기대하기도 어렵다.
+
+## 계좌에 남는 금액 보기
+
+해외 자산은 주가와 함께 환율도 봐야 한다. 현지 통화로 수익이 나도 원화로 환산한 결과는 달라질 수 있다.
+
+배당과 매매 차익에는 세금이 붙을 수 있고, 거래 비용도 있다. 구체적인 세율은 여기서 다루지 않는다. 수익을 계산할 때 이런 항목까지 반영했는지는 확인할 필요가 있다.
+
+종목마다 좋아 보이는 이유를 찾는 것과, 그 종목을 더 담아도 되는지는 다른 고민이다. 새로 담기 전에 기존 보유 자산과 얼마나 겹치는지부터 확인할 것.
+
+
+--------------------------------------------------------------------------------
+title: "주린이 벗어나기 2탄: 배당주와 성장주를 보며 든 생각"
+url: https://doramoo759.github.io/money-log/jurini-dividend-vs-growth-2/index.md
+date: "2026-04-29"
+description: 배당과 성장에서 기대하는 것, 투자 기간, 복리 계산, 숏커버를 공부한 메모.
+--------------------------------------------------------------------------------
+
+![주린이 벗어나기 2탄 커버 이미지](images/trends/jurin2/cover.png)
+
+배당을 받는 쪽과 앞으로의 성장을 기대하는 쪽. 둘 중 어디에 비중을 둘지 생각하다 보면, 결국 투자한 돈을 언제 쓸 것인지도 같이 따져야 한다.
+
+배당주와 성장주의 차이를 공부하며 적어 둔다. 각각 무엇을 기대하고 사는지부터 살펴본다.
+
+## 배당과 성장에서 기대하는 것
+
+배당주는 회사가 주주에게 나눠 주는 현금에 관심을 두고 본다. 배당을 얼마나 주는지뿐 아니라, 그 배당을 유지할 이익과 현금이 있는지도 확인할 부분이다. 배당을 준다고 주가가 덜 떨어지거나 사업이 항상 안정적인 것은 아니다.
+
+성장주는 앞으로 사업과 이익이 커질 것이라는 기대가 가격에 많이 반영된다. 지금 이익이 작아도 기대를 받을 수 있지만, 성장이 예상에 못 미치면 가격도 흔들릴 수 있다.
+
+회사가 성장하면서 배당도 줄 수 있으니 둘을 완전히 다른 부류로 나눌 필요는 없다.
+
+## 금리만으로 방향을 정하기는 어렵다
+
+금리가 달라지면 미래 이익에 매기는 가치도 영향을 받는다. 그래서 성장주를 볼 때 금리 이야기가 자주 나온다.
+
+다만 금리가 오르면 배당주, 내려가면 성장주라는 식으로 바로 매수 결정을 내리기는 어렵다. 기업의 실적과 이미 주가에 반영된 기대도 함께 봐야 한다.
+
+## 나이보다 돈을 쓸 시점
+
+20대라도 곧 보증금으로 써야 할 돈이라면 긴 투자를 하기 어렵다. 은퇴를 앞두고 있어도 당장 쓸 돈과 오래 투자할 돈은 구분할 수 있다.
+
+비중을 정할 때는 나이만으로 답을 내리기보다 투자 기간과 감당할 수 있는 손실을 생각하는 편이 낫겠다. [Investor.gov의 자산 배분 설명](https://www.investor.gov/introduction-investing/getting-started/asset-allocation)도 투자 기간과 위험 감수 능력을 기준으로 설명한다.
+
+## 복리 계산과 실제 수익은 다르다
+
+![장기 투자와 복리 성장 이미지](images/trends/jurin2/long_term_growth.png)
+
+매년 7% 수익을 내고 전부 재투자한다고 가정하면, 10년 뒤에는 약 1.97배, 20년 뒤에는 약 3.87배가 된다. 세금과 비용을 빼기 전의 단순 계산이다.
+
+시간이 길어질수록 재투자의 차이가 커지는 건 계산으로 확인할 수 있다. 다만 실제 주식 수익이 매년 7%씩 나는 것은 아니고, 오래 보유했다는 이유만으로 수익이 보장되는 것도 아니다.
+
+## 공부하다 함께 본 용어: 숏커버
+
+공매도는 주식을 빌려 먼저 판 뒤, 나중에 다시 사서 돌려주는 거래다. 다시 사서 포지션을 정리하는 것을 숏커버라고 한다.
+
+주가가 올라 공매도한 쪽이 손실을 줄이려고 매수하면 상승 압력이 더해질 수 있다. 이 압력이 크게 몰리는 상황을 숏스퀴즈라고 부른다. 다만 주가가 급등했다는 사실만으로 원인을 숏커버라고 단정할 수는 없다.
+
+배당주와 성장주를 살펴보다가 장기 투자와 공매도까지 이야기가 넓어졌다.
+
+관련 메모: [포트폴리오를 나눌 때 확인할 것](/money-log/jurini-portfolio-3/)
+
+
+--------------------------------------------------------------------------------
+title: "주린이 벗어나기 1탄: PER, PBR, PSR을 읽을 때 놓치기 쉬운 것"
+url: https://doramoo759.github.io/money-log/jurini-indicators-1/index.md
+date: "2026-04-29"
+description: PER, PBR, PSR을 볼 때 이익·자산·매출에서 같이 확인할 내용을 적은 공부 메모.
+--------------------------------------------------------------------------------
+
+![주린이 벗어나기 1탄 커버 이미지](images/trends/jurin1/cover.png)
+
+주식 지표를 보다 보면 PER이 낮은 종목이 먼저 눈에 들어온다. 숫자가 작으면 싸 보이는데, 그 숫자가 왜 낮은지까지 보려니 생각보다 어렵다.
+
+PER, PBR, PSR을 볼 때 같이 확인할 내용을 적었다. 계산식을 외우는 것보다 분모에 들어가는 이익, 자산, 매출을 이해하는 쪽에 초점을 맞췄다.
+
+## PER: 지금 이익이 계속 날까
+
+PER은 주가를 주당순이익으로 나눈 값이다. 이익이 같다면 주가가 낮을수록 PER도 낮아진다.
+
+PER 10을 보고 '현재 이익의 10년 치 가격'이라고 이해할 수는 있다. 하지만 10년 뒤 투자금을 돌려받는다는 뜻은 아니다. 이익도 주가도 바뀌고, 회사 이익이 전부 배당으로 들어오는 것도 아니다.
+
+성장 중인 회사는 현재 이익이 작아서 PER이 높게 나올 수 있다. 반대로 경기를 많이 타는 회사는 한창 이익이 좋을 때 PER이 낮아 보일 수 있다. 숫자를 비교하려면 그 이익이 일시적인지부터 확인해야 한다.
+
+## PBR: 장부에 있는 자산을 살펴보기
+
+PBR은 주가를 주당순자산으로 나눈 값이다. 1보다 낮으면 장부상 순자산보다 낮은 가격에 거래되고 있다는 뜻이다.
+
+여기서 장부상 순자산을 그대로 청산가치로 받아들이면 곤란하다. 부동산, 재고, 부실 자산을 실제로 처분했을 때 받을 금액은 장부와 다를 수 있다. 자산이 많은 업종과 기술·플랫폼 기업을 같은 기준으로 비교하기도 어렵다.
+
+PBR이 낮다는 이유로 관심이 생겼다면, 자산 내역과 함께 그 자산으로 이익을 얼마나 내고 있는지 확인할 필요가 있다.
+
+## PSR: 매출이 이익으로 이어질까
+
+PSR은 시가총액을 매출액으로 나눈 값이다. 아직 이익이 나지 않는 회사는 PER로 비교하기 어려워서 매출을 기준으로 보기도 한다.
+
+그렇다고 매출 증가가 곧 좋은 사업이라는 뜻은 아니다. 할인이나 마케팅 비용을 크게 늘려 매출을 키울 수도 있다. 매출이 늘어날수록 손실도 커진다면 PSR 하나로 판단하기 어렵다.
+
+매출 규모와 함께 비용 구조, 이익률, 흑자로 전환할 수 있을지를 살펴봐야 한다.
+
+## 부채와 단기 자금도 같이 보기
+
+부채비율은 부채를 자기자본과 비교한 값이고, 유동비율은 유동자산을 유동부채로 나눈 값이다. 회사의 부채 규모와 단기 지급 능력을 살펴볼 때 쓰인다.
+
+여기서도 특정 비율 하나를 안전선으로 정하기보다는 같은 업종의 회사와 비교하고, 어떤 부채와 자산이 들어 있는지 봐야 한다. 만기가 가까운 부채를 갚을 현금이 있는지도 별개의 문제다.
+
+싼 종목을 골라내는 공식으로 외우기에는 지표마다 빠지는 부분이 많다. 숫자가 눈에 들어오면 재무제표를 더 읽어 보는 출발점 정도로 쓴다.
+
+관련 메모: [배당주와 성장주](/money-log/jurini-dividend-vs-growth-2/)
+
+
+--------------------------------------------------------------------------------
+title: "Dev Log"
+url: https://doramoo759.github.io/lab-log/index.md
+description: 개발, 서버, NAS를 만지며 남긴 기록
+--------------------------------------------------------------------------------
+개발, 서버, NAS를 만지며 남긴 기록
+
+--------------------------------------------------------------------------------
+title: "Apache Guacamole를 사내망에서 테스트해 봤다"
+url: https://doramoo759.github.io/lab-log/apache-guacamole-intro/index.md
+date: "2026-04-24"
+description: 브라우저 SSH 접속은 편했지만 LDAP 연동과 계정·세션 관리가 걸렸다. 사내망 테스트에서 멈춘 기록.
+--------------------------------------------------------------------------------
+
+![Apache Guacamole 소개 이미지](/images/server/apache-guacamole-cover.webp)
+
+사내 서버에 Apache Guacamole를 설치해서 원격접속을 테스트했다. 사내망에서만 접근할 수 있게 열어 두었고, 기본 기능을 확인한 뒤 정식 운영으로 이어가지는 않았다.
+
+브라우저에서 SSH에 접속할 수 있는 건 편했다. 다만 LDAP 연동이 기대만큼 안정적이지 않았고, 계정과 세션을 관리할 부담도 있었다.
+
+## 브라우저로 원격접속하기
+
+Guacamole는 웹에서 RDP, VNC, SSH 연결을 사용할 수 있게 해 주는 도구다. 접속하는 PC에 별도 클라이언트를 설치하지 않아도 된다. 관리자가 계정별로 연결 대상을 등록하면 사용자는 로그인해서 자신에게 허용된 장비를 선택한다.
+
+[공식 사이트](https://guacamole.apache.org/)와 [설치·운영 매뉴얼](https://guacamole.apache.org/doc/gug/)을 참고했다. 아래는 공식 사이트의 데모 영상이다.
+
+<div style="margin: 2rem 0;">
+  <video controls preload="metadata" style="width: 100%; border-radius: 12px;">
+    <source src="https://guacamole.apache.org/videos/guacamole-0.9.4-demo.mp4" type="video/mp4" />
+    브라우저가 동영상 재생을 지원하지 않는다.
+  </video>
+</div>
+
+## 테스트에서 확인한 기능
+
+관리자 로그인, 계정별 연결 목록, SSH 접속, 연결 로그, 세션 재생, 사용자 설정을 확인했다. 현재 연결된 세션을 관리자가 종료하는 기능도 있다.
+
+접속 대상과 이력을 한 화면에서 볼 수 있다는 점은 좋았다. 사용자마다 원격접속 프로그램을 준비할 필요도 줄어든다.
+
+## 운영까지 가져가지 않은 이유
+
+LDAP 연동에서 불안정한 부분이 있었다. 테스트에서는 다시 확인해 보면 되지만, 실제 운영에서 계정 연동이 흔들리면 접속 자체에 문제가 생긴다. 이 상태로 운영을 시작하기는 어려웠다.
+
+보안과 사용자 관리도 걸렸다. 누가 어떤 서버에 접근할 수 있는지 정하고, 계정이 바뀔 때 권한을 수정하고, 로그와 세션 기록도 관리해야 한다. 사용자가 로그아웃하지 않고 세션을 남겨 두거나 인증 정보를 노출하는 상황도 고려해야 했다.
+
+웹으로 접속을 모으는 편의성은 확인했다. 하지만 당시 테스트한 환경에서는 그 편의성만으로 운영 부담을 감수하기는 어렵다고 판단했다. 기본 기능을 확인한 기록으로 남겨 둔다.
+
+
+--------------------------------------------------------------------------------
+title: "FlatBuffers 기본 개념과 Ubuntu 22.04 빌드 메모"
+url: https://doramoo759.github.io/lab-log/flatbuffers-in-real-systems/index.md
+date: "2026-04-23"
+description: FlatBuffers가 버퍼를 읽는 방식과 스키마·생성 코드, Ubuntu 22.04 소스 빌드 명령.
+--------------------------------------------------------------------------------
+
+![FlatBuffers 개념과 설치 가이드 이미지](images/tech/flatbuffer-cover.png)
+
+FlatBuffers에서 눈여겨볼 부분은 데이터를 읽는 방식이다. 직렬화된 버퍼를 객체로 전부 풀어 놓지 않고, 필요한 필드에 직접 접근한다.
+
+기본 개념과 Ubuntu 22.04에서 소스로 빌드하는 방법을 적어 둔다. 성능 측정과 실제 적용 후기는 아직 없다.
+
+## 버퍼를 읽기까지
+
+먼저 `.fbs` 파일에 데이터 구조를 정의한다. 테이블, 구조체, 열거형, 벡터 같은 타입을 쓸 수 있다. `flatc`로 이 스키마에서 언어별 코드를 생성하고, 애플리케이션은 생성된 API로 버퍼를 만들거나 읽는다.
+
+읽을 때 전체 데이터를 별도 객체로 변환하는 과정이 필요 없다는 것이 특징이다. 흔히 말하는 zero-copy 읽기가 이 부분이다. 필요한 데이터에 접근하므로 읽기 비용과 추가 메모리 할당을 줄이는 데 도움이 된다. 자세한 설명은 [FlatBuffers 공식 문서](https://flatbuffers.dev/)에 있다.
+
+스키마를 여러 언어에서 공유할 수 있다는 점도 쓸모가 있다. C++ 프로그램과 다른 언어로 만든 프로그램이 같은 데이터 형식을 써야 할 때, `.fbs`를 기준으로 코드를 생성할 수 있다.
+
+## 쓰기 전에 생각할 점
+
+스키마 파일과 생성 코드를 함께 관리해야 한다. 데이터 구조가 바뀌면 이미 배포한 프로그램과의 호환성도 확인해야 한다.
+
+직렬화된 데이터를 수정할 때는 새 버퍼를 만들어야 하는 경우가 있다. 사람이 파일을 열어 값을 고치는 용도라면 JSON 같은 텍스트 형식이 더 편할 수 있다.
+
+게임 리소스, 센서 데이터, 네트워크 메시지처럼 읽기 비용을 줄이고 싶은 곳에서 검토할 수 있다. 다만 이 글에는 다른 형식과 비교한 벤치마크가 없으므로, 어느 정도 빨라지는지는 실제 데이터로 따로 확인해야 한다.
+
+## Ubuntu 22.04에서 소스 빌드
+
+빌드 도구를 설치한다.
+
+```bash
+sudo apt update
+sudo apt install -y cmake g++ zlib1g-dev
+```
+
+소스를 받은 뒤 빌드 디렉토리를 만든다.
+
+```bash
+git clone https://github.com/google/flatbuffers.git
+cd flatbuffers
+mkdir build
+cd build
+```
+
+`flatc` 빌드와 설치 옵션을 켜고 Release로 빌드한다.
+
+```bash
+cmake .. -DCMAKE_BUILD_TYPE=Release -DFLATBUFFERS_BUILD_FLATC=ON -DFLATBUFFERS_INSTALL=ON
+make -j$(nproc)
+```
+
+설치 후 라이브러리 캐시를 갱신한다.
+
+```bash
+sudo make install
+sudo ldconfig
+```
+
+위 명령은 저장소의 기본 브랜치를 받는다. 특정 버전을 계속 사용할 프로젝트라면 사용할 태그를 정해 두는 편이 재현하기 쉽다.
+
+
+--------------------------------------------------------------------------------
+title: "ZeroMQ를 살펴보며 적어 둔 메시징 패턴"
+url: https://doramoo759.github.io/lab-log/zeromq-patterns/index.md
+date: "2026-04-23"
+description: REQ/REP, PUB/SUB, PUSH/PULL, PAIR의 메시지 흐름과 애플리케이션에서 정할 부분.
+--------------------------------------------------------------------------------
+
+![ZeroMQ 개념과 메시징 패턴 이미지](images/tech/zeromq-cover.png)
+
+ZeroMQ는 프로그램 안에서 메시지를 주고받는 데 쓰는 라이브러리다. 별도 브로커를 설치하지 않고 프로세스나 장비 사이를 연결할 수 있다.
+
+처음 살펴볼 때는 소켓 종류부터 보면 이해하기 편하다. 연결된 상대에게 메시지를 어떤 방식으로 보낼지가 소켓 패턴에 따라 달라진다.
+
+## 메시지를 어떻게 나눠 보낼까
+
+| 패턴 | 메시지 흐름 |
+| --- | --- |
+| `REQ/REP` | 요청을 보내고 응답을 받는다. |
+| `PUB/SUB` | 발행한 메시지를 구독자들에게 전달한다. |
+| `PUSH/PULL` | 작업을 여러 수신자에게 나눠 보낸다. |
+| `PAIR` | 두 소켓을 1:1로 연결한다. |
+
+요청 하나에 응답 하나가 필요한 통신이라면 `REQ/REP`, 여러 곳으로 데이터를 내보내려면 `PUB/SUB`, 작업을 나눠 처리하려면 `PUSH/PULL`부터 살펴볼 수 있다. 예제와 각 패턴의 제약은 [ZeroMQ Guide 첫 장](https://zguide.zeromq.org/docs/chapter1/)에 나온다.
+
+## 별도 브로커 없이 시작할 수 있다
+
+메시징 서버를 따로 운영하지 않아도 된다는 점은 작은 구성에서 편하다. 애플리케이션에 라이브러리를 넣고 소켓을 연결해 통신을 시작할 수 있다. 서로 다른 프로세스나 머신을 연결할 수 있고, 여러 언어의 바인딩도 있다.
+
+전송과 큐 처리를 라이브러리에 맡기고 메시지 흐름에 집중할 수 있다. 센서 값을 모으거나, 프로세스끼리 작업을 나누거나, 내부 서비스 사이에 메시지를 전달하는 구성을 생각해 볼 수 있다.
+
+## 애플리케이션에서 정할 부분도 있다
+
+브로커 설치가 없다고 해서 시스템 설계까지 끝나는 것은 아니다. 상대가 끊겼을 때 어떻게 처리할지, 응답을 얼마나 기다릴지, 메시지를 다시 보낼지 같은 동작은 별도로 정해야 한다.
+
+패턴마다 메시지를 전달하는 방식과 제약이 다르다. `PUB/SUB`로 보낸 메시지를 모든 구독자가 반드시 받는다고 가정하거나, `REQ/REP`의 순서를 무시하면 기대와 다르게 동작할 수 있다. 적용 전에 사용할 패턴의 예제를 먼저 실행해 볼 것.
+
+여기에는 기본 패턴만 적었다. 실제 구성에 적용하려면 정상 송수신뿐 아니라 연결이 끊기거나 수신이 늦어지는 경우도 함께 확인해야 한다.
+
+
+--------------------------------------------------------------------------------
+title: "DS918+에 USB 2.5G LAN을 붙였다가 뺀 이야기"
+url: https://doramoo759.github.io/lab-log/ds918-plus-25g-upgrade/index.md
+date: "2022-11-16"
+description: ipTIME U2500과 r8152 드라이버로 구성한 DS918+ 2.5G 연결. 설치 과정과 전송 속도, 철거한 이유.
+--------------------------------------------------------------------------------
+
+![DS918+ 2.5G 네트워크 구성 이미지](/images/server/ds918-25g/cover.png)
+
+PC에서 2.5G LAN을 쓸 수 있으니 DS918+도 같은 속도로 연결해 보고 싶었다. NAS를 바꾸는 대신 USB LAN 어댑터와 2.5G 스위칭 허브를 붙였다.
+
+속도는 잘 나왔다. PC에서 NAS로 복사할 때 약 290MB/s, 반대 방향은 약 220MB/s였다. 다만 쓰다 보니 간헐적으로 네트워크가 먹통이 됐고, 결국 어댑터를 빼고 원래 구성으로 돌아갔다.
+
+## 사용한 장비
+
+- 2.5G LAN을 지원하는 PC
+- ipTIME USB 3.0 U2500 (`RTL8156` 칩셋)
+- 2.5G 스위칭 허브
+- Synology DS918+
+
+DSM에서 USB LAN을 쓰려면 별도 드라이버가 필요하다. 어댑터를 고를 때는 [r8152 호환 목록](https://github.com/bb-qq/r8152/wiki/Compatibility)을 확인했다.
+
+내 DS918+에서는 후면 USB 포트의 인식이 불안정했고, 전면 포트에서는 비교적 잘 잡혔다. 그래서 전면 포트에 연결해서 사용했다.
+
+## r8152 드라이버 설치
+
+[bb-qq/r8152 릴리스](https://github.com/bb-qq/r8152/releases)에서 NAS 모델과 DSM 버전에 맞는 `spk` 파일을 받는다. DSM 패키지 센터의 **수동 설치**로 진행하면 된다.
+
+![DSM 패키지 수동 설치 화면](/images/server/ds918-25g/manual-install.webp)
+
+설치 중 오류가 나서 SSH로 접속해 아래 명령을 실행한 뒤 다시 설치했다. 당시 사용한 패키지에서 필요한 조치였다.
+
+```bash
+sudo install -m 4755 -o root -D /var/packages/r8152/target/r8152/spk_su /opt/sbin/spk_su
+```
+
+설치가 끝나면 패키지 센터에서 드라이버 상태를 확인한다.
+
+![DSM r8152 드라이버 설치 확인](/images/server/ds918-25g/driver-installed.webp)
+
+## 인터페이스 설정과 연결
+
+제어판의 **네트워크 인터페이스**에 USB LAN이 추가된 것을 확인하고, 편집 화면에서 `Jumbo Frame`을 `9K`로 설정했다. 아래는 당시 사용한 설정이다.
+
+![점보 프레임 9K 설정 화면](/images/server/ds918-25g/jumbo-frame.webp)
+
+PC와 NAS를 직접 연결해 수동 IP를 잡는 방법도 있지만, 나는 2.5G 스위칭 허브에 연결했다.
+
+![2.5G 스위칭 허브 구성 예시 1](/images/server/ds918-25g/switch-01.webp)
+
+![2.5G 스위칭 허브 구성 예시 2](/images/server/ds918-25g/switch-02.webp)
+
+이 구성에서 측정한 전송 속도는 다음과 같다. 내 환경에서 파일을 복사하며 확인한 수치이다.
+
+| 방향 | 전송 속도 |
+| --- | --- |
+| PC → NAS | 약 290MB/s |
+| NAS → PC | 약 220MB/s |
+
+1GbE로 쓰던 때보다 파일 복사는 확실히 빨라졌다.
+
+## 결국 철거했다
+
+처음에는 잘 썼지만, 사용을 이어 가면서 간헐적으로 네트워크가 멈추는 문제가 생겼다. 드라이버를 중지했다가 다시 로드하면 복구됐다. 계속 켜 두는 NAS에서 그 작업을 반복해야 한다는 게 불편했다.
+
+전면 포트를 써야 하는 것도 마음에 걸렸다. 어댑터와 랜선이 앞에 계속 꽂혀 있으니 케이블 정리가 깔끔하지 않았다.
+
+속도만 보면 아쉬운 업그레이드는 아니었다. 그래도 내 NAS에서는 안정성과 케이블 정리 문제 때문에 오래 유지하지 못했다.
+
+
+--------------------------------------------------------------------------------
+title: "Synology GitLab CE 컨테이너 업데이트 메모"
+url: https://doramoo759.github.io/lab-log/synology-gitlab-docker-update/index.md
+date: "2022-03-22"
+description: GitLab CE 14.8.3에서 14.8.4로 업데이트할 때 사용한 DSM Docker 화면과 설정 내보내기·가져오기 기록.
+--------------------------------------------------------------------------------
+
+GitLab CE를 Docker Registry에서 받아 설치해 두었다. 설치한 이미지를 업데이트하는 방법을 찾아보다가 기록으로 남긴다.
+
+2022년에 `14.8.3-ce.0`에서 `14.8.4-ce.0`으로 바꿀 때 사용한 DSM Docker 화면 기준이다.
+
+## 새 이미지 받기
+
+`DSM > Docker > Registry`에서 gitlab을 검색해 필요한 버전을 다운로드한다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 1](/images/server/blog-nas/synology-gitlab-docker-update/photo-01.png)
+
+`latest`보다 버전을 지정해 두는 편이 다음 업데이트 때 관리하기 편하다. 당시에는 `14.8.4-ce.0`을 받았다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 2](/images/server/blog-nas/synology-gitlab-docker-update/photo-02.png)
+
+## 설정 내보내기
+
+`DSM > Docker > Container`에서 기존 GitLab CE 컨테이너를 선택하고, 우클릭 메뉴의 `설정 > 내보내기`를 선택한다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 3](/images/server/blog-nas/synology-gitlab-docker-update/photo-03.png)
+
+적당한 폴더를 골라 내보낸다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 4](/images/server/blog-nas/synology-gitlab-docker-update/photo-04.png)
+
+선택한 폴더에 JSON 파일이 생긴다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 5](/images/server/blog-nas/synology-gitlab-docker-update/photo-05.png)
+
+텍스트 편집기로 연다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 6](/images/server/blog-nas/synology-gitlab-docker-update/photo-06.png)
+
+이미지 이름의 버전을 새로 받은 버전으로 바꾸고 저장한다.
+
+```json
+"image": "gitlab/gitlab-ce:14.8.3-ce.0"
+```
+
+위 값을 다음과 같이 바꿨다.
+
+```json
+"image": "gitlab/gitlab-ce:14.8.4-ce.0"
+```
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 7](/images/server/blog-nas/synology-gitlab-docker-update/photo-07.png)
+
+## 컨테이너 교체
+
+기존 컨테이너를 중지한다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 8](/images/server/blog-nas/synology-gitlab-docker-update/photo-08.png)
+
+중지한 컨테이너를 삭제한다. 삭제하기 전에는 데이터를 백업하고, 버전 사이에 필요한 마이그레이션 경로도 확인해야 한다. 내보낸 설정 파일만으로 데이터 백업을 대신할 수는 없다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 9](/images/server/blog-nas/synology-gitlab-docker-update/photo-09.png)
+
+`DSM > Docker > Container > 설정 > 가져오기`에서 수정한 파일을 선택한다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 10](/images/server/blog-nas/synology-gitlab-docker-update/photo-10.png)
+
+새 버전으로 GitLab CE를 실행한다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 11](/images/server/blog-nas/synology-gitlab-docker-update/photo-11.png)
+
+다른 Docker 이미지도 설정을 내보내고 이미지 버전을 바꾸는 방식으로 교체할 수 있다. 다만 애플리케이션마다 데이터와 버전 호환 조건은 따로 확인할 것.
+
+
+--------------------------------------------------------------------------------
+title: "Synology DNS Server 설치와 레코드 설정 메모"
+url: https://doramoo759.github.io/lab-log/synology-dns-server/index.md
+date: "2021-07-31"
+description: DSM 7.0에서 DNS Server를 설치하고 정방향 영역, A·PTR 레코드, 네임서버 설정을 살펴본 기록.
+--------------------------------------------------------------------------------
+
+![Synology DNS Server 메인 화면](images/server/synology-dns/cover-synology-dns-server.png)
+
+Synology NAS의 DNS Server 패키지를 설치하고 영역과 레코드를 설정한 기록이다. DSM 7.0, `DNS Server 9.11.23-6069` 기준이라 다른 버전에서는 화면이 달라질 수 있다.
+
+예시에는 `example.com`과 `12.23.34.56`을 사용했다. 설정할 때는 사용할 도메인과 서버 IP로 바꿔야 한다.
+
+## 패키지 설치
+
+패키지 센터에서 `DNS Server`를 설치한다.
+
+![DNS Server 설치 화면](/images/server/synology-dns/step-01-install.webp)
+
+{{< notice "info" >}}
+다른 네트워크에서 조회하려면 공유기와 방화벽 설정도 필요하다. DNS에 사용하는 UDP·TCP 53번을 조회가 필요한 범위에 허용한다. 내부망에서만 쓸 때는 인터넷에 포트를 열 필요가 없다.
+{{< /notice >}}
+
+## 정방향 영역 만들기
+
+도메인 이름으로 IP를 조회하는 영역이다. **생성 > Master 영역 설정**으로 들어간다.
+
+![Master 영역 생성 시작 화면](/images/server/synology-dns/step-02-zone-start.webp)
+
+당시 외부 네임서버 구성 예시에서는 아래처럼 입력했다.
+
+- 도메인 유형: `정방향 영역`
+- 도메인 이름: 사용할 도메인
+- 마스터 DNS 서버: 공인 IP 주소
+
+![정방향 영역 설정 화면](/images/server/synology-dns/step-02-forward-zone.webp)
+
+내부망 DNS를 구성한다면 서버 주소와 레코드에는 그 환경에서 접근할 수 있는 내부 IP를 사용한다.
+
+영역이 만들어지면 목록에 나타난다.
+
+![정방향 영역 생성 완료 화면](/images/server/synology-dns/step-02-forward-complete.webp)
+
+## A 레코드 추가
+
+`example.com`을 선택하고 **편집 > 리소스 레코드 > 생성 > A 유형**으로 들어간다. 예를 들어 `www.example.com`에 연결할 IP를 등록한다.
+
+![정방향 리소스 레코드 진입 화면](/images/server/synology-dns/step-04-records-menu.webp)
+
+![A 레코드 생성 화면](/images/server/synology-dns/step-04-a-record.webp)
+
+TTL은 조회한 레코드를 캐시에 보관하는 시간이다. 주소를 바꾼 뒤에도 이전 조회 결과가 남을 수 있으니, 변경할 때는 이 값도 함께 확인한다.
+
+## 역방향 영역과 PTR 레코드
+
+역방향은 IP로 이름을 조회할 때 사용한다. IPv4에서는 주소를 거꾸로 적고 `in-addr.arpa`를 붙인다. 예를 들어 `12.23.34.56`의 PTR 조회 이름은 `56.34.23.12.in-addr.arpa`이다. [Cloudflare의 PTR 설명](https://www.cloudflare.com/learning/dns/dns-records/dns-ptr-record/)에 예시가 있다.
+
+`12.23.34.0/24` 범위의 역방향 영역이라면 이름은 `34.23.12.in-addr.arpa`이고, 그 안에 `56`에 해당하는 PTR을 추가하는 식이다. 이전 글의 `56.34.23` 예시는 주소 순서가 잘못되어 수정했다. 아래 이미지는 당시 화면으로, 입력값보다 메뉴 위치를 참고하면 된다.
+
+![정방향과 역방향 영역 목록](/images/server/synology-dns/step-03-zones-list.webp)
+
+역방향 영역을 선택한 뒤 **편집 > 리소스 레코드 > 생성 > PTR 유형**에서 IP에 대응하는 이름을 등록한다.
+
+![역방향 리소스 레코드 진입 화면](/images/server/synology-dns/step-05-ptr-menu.webp)
+
+![PTR 레코드 생성 화면](/images/server/synology-dns/step-05-ptr-record.webp)
+
+내부 DNS에서 조회할 PTR을 등록하는 것과 공인 IP의 인터넷 역방향 조회를 설정하는 것은 별개다. 공인 IP의 PTR은 IP 관리 주체에 확인해야 한다.
+
+## 외부 네임서버로 사용할 경우
+
+내부 장비의 이름을 조회하는 용도라면 도메인 등록 업체의 네임서버를 변경할 필요가 없다. 클라이언트가 NAS의 DNS를 조회하도록 설정하면 된다.
+
+소유한 도메인의 외부 네임서버로 NAS를 쓰려는 경우에는 등록 업체에서 네임서버 설정을 변경한다. 당시에는 whois의 설정 화면을 사용했다.
+
+![도메인 등록 업체의 네임서버 설정 화면](/images/server/synology-dns/step-06-provider.webp)
+
+![네임서버 설정 예시](/images/server/synology-dns/step-06-example.webp)
+
+등록 업체가 요구하는 네임서버 수와 등록 조건도 확인해야 한다. DDNS 주소가 있다는 것만으로 외부 위임 설정까지 끝나는 것은 아니다.
+
+## 조회 확인
+
+먼저 NAS의 DNS를 직접 지정해서 등록한 레코드를 확인한다. 아래의 `NAS_DNS_IP`는 실제 DNS 서버 주소로 바꾼다.
+
+```bash
+nslookup www.example.com NAS_DNS_IP
+dig @NAS_DNS_IP www.example.com A
+dig @NAS_DNS_IP -x 12.23.34.56
+```
+
+외부 네임서버까지 변경했다면 외부 네트워크에서도 조회한다.
+
+```bash
+nslookup example.com
+dig example.com
+dig example.com NS
+```
+
+NAS에 직접 물었을 때 레코드가 나오는지, 일반 DNS 조회에서도 설정이 반영되는지를 나눠 확인하면 문제가 생긴 위치를 찾기 쉽다.
+
+
+--------------------------------------------------------------------------------
+title: "C++ tuple로 여러 결과 반환하기"
+url: https://doramoo759.github.io/lab-log/cpp11-tuple/index.md
+date: "2021-06-26"
+description: 함수 결과를 tuple로 묶고 get과 tie로 꺼내는 예제. 마지막 구조적 바인딩은 C++17 문법이다.
+--------------------------------------------------------------------------------
+
+함수에서 결과 두 개를 반환해야 할 때가 있다. 결과를 받을 변수를 참조로 넘기는 방법도 있지만, `std::tuple`로 묶으면 간결하게 쓸 수 있다.
+
+짝수 여부와 짝수일 때 1을 더한 값을 함께 반환하는 예제를 적어 두었다.
+
+```cpp
+#include <iostream>
+#include <tuple>
+
+std::tuple<bool,int> isEvenAdd(int val) {
+    bool bis_even = (val % 2 == 0);
+    int ret = val;
+    if (bis_even) {
+        ret = val+1;
+    }
+    return std::make_tuple(bis_even, ret);
+}
+
+int main()
+{
+    auto ret = isEvenAdd(10);
+    std::cout << "ret contains: ";
+    std::cout << std::get<0>(ret) << ' ';
+    std::cout << std::get<1>(ret) << '\n';
+    
+    std::tie (myResult, myValue) = ret;
+    std::cout << "tie contains: ";
+    std::cout << myResult << ' ';
+    std::cout << myValue << '\n';
+    
+    auto [bis_even, val] = isEvenAdd(11);
+    std::cout << "auto tie contains: ";
+    std::cout << bis_even << ' ';
+    std::cout << val << '\n';
+}
+```
+
+`std::get<index>(instance)`로 각 원소에 접근한다. `std::tie`로 여러 값을 한 번에 풀어 받을 수도 있다.
+
+마지막 `auto [bis_even, val]` 형태는 C++17의 구조적 바인딩이다. `tuple` 자체는 C++11부터 사용할 수 있지만 이 부분은 버전이 다르다.
+
+원문 예제의 `myResult`, `myValue`는 사용하는 곳에서 따로 선언해야 한다.
+
+
+--------------------------------------------------------------------------------
+title: "C++ 람다를 쓰며 적어 둔 메모"
+url: https://doramoo759.github.io/lab-log/cpp11-lambda/index.md
+date: "2021-01-30"
+description: 캡처 방식과 std::function 콜백, 정렬에 람다를 쓰는 형태를 적어 둔 메모.
+--------------------------------------------------------------------------------
+
+람다는 이름 없는 함수처럼 쓸 수 있다. 사용 빈도가 늘어나서 필요한 내용을 적어 둔다.
+
+[람다 설명](https://en.cppreference.com/w/cpp/language/lambda)
+
+## 형태와 캡처
+
+```cpp
+[capture] (params) -> return_type { body }
+[capture] (params) { body }
+```
+
+- `[&]`: 필요한 주변 자동 변수를 참조로 캡처한다.
+- `[=]`: 필요한 주변 자동 변수를 복사로 캡처한다.
+- `[&, a]`: 기본은 참조 캡처, `a`만 복사한다.
+- `[=, &a]`: 기본은 복사 캡처, `a`만 참조로 잡는다.
+- `[&, &a]`: 기본 참조 캡처와 같은 방식을 중복 지정해서 오류가 난다.
+
+복사로 캡처한 값을 람다 안에서 바꾸려면 `mutable` 같은 조건도 확인해야 한다.
+
+## 저장과 콜백
+
+`std::function`에 담아 둘 수 있다.
+
+```cpp
+#include <vector>
+#include <functional>
+std::function<int(int)> func = [](int i)->int{ return i+1; };
+```
+
+콜백을 받는 형태로도 쓸 수 있다. 아래는 당시 적어 둔 코드 조각이다.
+
+```cpp
+class Foo {
+public:
+	void SetCallback(std::function<void(const char*)> cb){
+		m_fcb = std::move(cb);
+	}
+	void ReqPrint(const char* pszText){
+		m_fcb(pszText);
+	}
+	
+private:
+	std::function<void(const char*)>	m_fcb;	
+}
+
+int main(){
+	Foo	_f;
+	_f.SetCallback([](const char* pszText){
+		std::cout << "callback: " << pszText << '\n';
+	});
+	
+	_f.ReqPrint("myFoo");
+	
+	return 0;
+}
+```
+
+## 정렬에 사용
+
+비교용 함수 객체를 따로 만드는 대신 람다를 넘기면 짧게 쓸 수 있다.
+
+```cpp
+#include <algorithm>
+#include <functional>
+#include <array>
+ 
+int main()
+{
+    std::array<int, 10> s = {5, 7, 4, 2, 8, 6, 1, 9, 0, 3};
+ 
+	// case 1 
+    struct {
+        bool operator()(int a, int b) const { return a < b; }
+    } customLess;
+    std::sort(s.begin(), s.end(), customLess);
+
+ 	// case 2
+    std::sort(s.begin(), s.end(), [](int a, int b) {
+        return a > b;
+    });
+}
+```
+
+
+--------------------------------------------------------------------------------
+title: "Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다"
+url: https://doramoo759.github.io/lab-log/synology-wildcard-certbot-mac/index.md
+date: "2021-01-09"
+description: Mac에서 Certbot을 실행하고 NAS DNS에 TXT 레코드를 추가한 뒤 인증서를 가져온 기록. 2021년 화면 기준.
+--------------------------------------------------------------------------------
+
+예전에는 인증서를 발급해 주는 사이트를 이용했다. 유료로 바뀐 뒤에는 Mac에서 직접 발급해 NAS에 적용하고 있다.
+
+3개월마다 갱신할 때 방법을 다시 찾곤 해서 적어 둔다. 아래는 2021년에 사용한 Certbot과 DSM 화면 기준이다.
+
+## Mac에서 Certbot 설치
+
+```bash
+brew install certbot
+```
+
+설치가 끝나면 수동 발급 명령을 실행한다.
+
+```bash
+sudo certbot certonly --manual
+```
+
+인증받을 도메인을 입력한다. 와일드카드는 `*.도메인이름` 형식이다.
+
+```text
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Plugins selected: Authenticator manual, Installer None
+Please enter in your domain name(s) (comma and/or space separated)  (Enter 'c'
+to cancel): *.ramoo.net
+```
+
+## DNS TXT 레코드 추가
+
+Certbot이 안내한 이름과 값으로 TXT 레코드를 등록한다. 아래 값은 당시 실행 결과다. 다음 발급 때는 새로 출력된 값을 써야 한다.
+
+```text
+Cert is due for renewal, auto-renewing...
+Renewing an existing certificate for *.ramoo.net
+Performing the following challenges:
+dns-01 challenge for ramoo.net
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Please deploy a DNS TXT record under the name
+_acme-challenge.ramoo.net with the following value:
+
+IfxVNiyITgNqAAyfb6hVlRZ0PIKqIHxZD_Li-isWfbs
+
+Before continuing, verify the record is deployed.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Press Enter to Continue
+```
+
+NAS에서 DNS 서버를 운영하고 있어서 여기에 추가했다.
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 1](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-01.png)
+
+Certbot에 출력된 값으로 레코드를 등록한다.
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 2](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-02.png)
+
+등록한 뒤 콘솔에서 Enter를 눌러 진행한다.
+
+```text
+Waiting for verification...
+Cleaning up challenges
+
+IMPORTANT NOTES:
+ - Congratulations! Your certificate and chain have been saved at:
+   /etc/letsencrypt/live/ramoo.net/fullchain.pem
+   Your key file has been saved at:
+   /etc/letsencrypt/live/ramoo.net/privkey.pem
+   Your cert will expire on 2021-04-08. To obtain a new or tweaked
+   version of this certificate in the future, simply run certbot
+   again. To non-interactively renew *all* of your certificates, run
+   "certbot renew"
+ - If you like Certbot, please consider supporting our work by:
+
+   Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+   Donating to EFF:                    https://eff.org/donate-le
+```
+
+검증이 끝나면 `/etc/letsencrypt/live/ramoo.net/`에 인증서 파일이 생성된다. 필요한 파일 3개를 따로 복사해 둔다.
+
+## NAS에 인증서 적용
+
+발급한 인증서를 NAS에 가져온다.
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 3](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-03.png)
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 4](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-04.png)
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 5](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-05.png)
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 6](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-06.png)
+
+확인을 누르고 적용된 인증서를 확인한다.
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 7](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-07.png)
+
+자동 갱신도 알아봤지만, 당시에는 수동으로 3개월마다 하기로 했다. 핑계 삼아 관리도 할 겸.
+
+관련 메모: [Synology DNS Server 설정](/lab-log/synology-dns-server/)
+
+
+--------------------------------------------------------------------------------
+title: "TL-SG2008로 DS918+ 링크통합을 시도했다"
+url: https://doramoo759.github.io/lab-log/tl-sg2008-lacp/index.md
+date: "2021-01-01"
+description: DS918+의 두 LAN 포트를 쓰려고 고른 TL-SG2008. 동적 링크통합에서 오류가 나 설정을 바꿨다.
+--------------------------------------------------------------------------------
+
+DS918+에는 LAN 포트가 두 개 있다. 하나만 쓰고 있자니 허전해서 둘 다 써 볼 생각으로 LACP를 구성해 보기로 했다.
+
+LACP를 지원하는 스위치를 찾다가 TL-SG2008을 골랐다.
+
+## 가격이 마음에 들었다
+
+집에서 취미로 쓰는 장비라 비싼 제품은 부담스럽다. 당시에는 국내에서 7만 원 이하로 살 수 있었다. 2020년 12월 구매 기준이다.
+
+![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 1](/images/server/blog-nas/tl-sg2008-lacp/photo-01.jpg)
+
+제품 사양의 프로토콜 항목에 `IEEE 802.3ad`가 있는지 봤다. 링크통합을 지원하는지 확인하면서 살펴본 부분이다.
+
+![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 2](/images/server/blog-nas/tl-sg2008-lacp/photo-02.png)
+
+## 실제 연결 결과
+
+생각처럼 동작할까 싶어서 연결했다.
+
+![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 3](/images/server/blog-nas/tl-sg2008-lacp/photo-03.png)
+
+동적 Link Aggregation에서는 오류와 경고가 나왔다. 결국 원문에서 'v1'이라고 적어 둔 방식으로 바꿔 사용했다. 당시 기록에는 그 설정 이름을 더 자세히 남기지 않았다.
+
+![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 4](/images/server/blog-nas/tl-sg2008-lacp/photo-04.png)
+
+아쉬움은 있지만 가격을 생각하면 용서가 된다.
+
+
+--------------------------------------------------------------------------------
+title: "ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다"
+url: https://doramoo759.github.io/lab-log/iptime-a3004ns-m/index.md
+date: "2020-07-26"
+description: VPN과 USB 간이 NAS에서는 문제가 있었지만, 공유기 기능만 쓰니 안정적이었다. 2020년 사용 기록.
+--------------------------------------------------------------------------------
+
+사용하던 공유기가 오래돼서 ipTIME A3004NS-M을 골랐다. 가격과 기능을 보고 적당하겠다 싶어 산 5만 원대 가정용 공유기다.
+
+![ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다 — 화면 1](/images/server/blog-nas/iptime-a3004ns-m/photo-01.png)
+
+우연히 같은 제품을 두 개 샀다. 거실에 놓고 쓴 지 1년쯤 됐을 때의 기록이다.
+
+## VPN과 간이 NAS는 포기
+
+처음 한두 달은 회사에서 VPN이 필요해서 써 봤다. 연결이 하루를 못 가고 자주 끊겨서 포기했다.
+
+USB 3.0에 저장 장치를 붙여 간이 NAS로도 써 봤지만, 3개월을 못 가고 제품이 먹통이 됐다.
+
+고장 난 제품은 A/S를 보내고, 다른 한 대를 거실에 두었다. 이번에는 공유기 기능 외에는 쓰지 않았다.
+
+![ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다 — 화면 2](/images/server/blog-nas/iptime-a3004ns-m/photo-02.png)
+
+## 공유기로만 쓰니 안정적이었다
+
+그렇게 8개월 동안 한 번도 끊기지 않고 돌아갔다. 당연한 일이라고 할 수도 있지만 기대가 크지 않았던 만큼 의외로 만족했다.
+
+고장 났던 제품은 일반 인터넷 연결도 자주 끊겨 새벽에 재부팅하도록 설정해 쓰고 있었다.
+
+사용량이 많지는 않았다. BTV, 인터넷, 휴대폰 3~4대, NAS 연결, 가끔 토렌트 정도다. 내 환경에서는 공유기 본래 기능만 쓸 때 꽤 잘 버텼다.
+
+
+--------------------------------------------------------------------------------
+title: "C++11 emplace_back 메모"
+url: https://doramoo759.github.io/lab-log/cpp11-emplace/index.md
+date: "2020-04-17"
+description: 생성자 인자를 바로 넘겨 원소를 만드는 emplace_back과 push_back을 비교한 코드 조각.
+--------------------------------------------------------------------------------
+
+`vector`에 원소를 넣을 때 보통 `push_back`을 쓴다. C++11에서는 생성자 인자를 바로 전달할 수 있는 `emplace_back`도 있다.
+
+당시 적어 둔 비교 예제다. `AClass` 정의는 생략된 코드 조각이다.
+
+```cpp
+void main(){
+    std::vector<AClass> vA;
+    va.push_back(AClass(1,"a"));
+}
+```
+
+```cpp
+void main(){
+    std::vector<AClass>	va;
+    va.emplace_back(1,"a");
+}
+```
+
+`emplace_back`은 컨테이너 안에서 원소를 생성한다. 임시 객체를 만든 뒤 옮기는 일을 줄일 수 있다는 점을 기억해 둔다.
+
+다만 `vector`가 커지면서 재할당되면 기존 원소의 이동이나 복사가 생길 수 있으니, 호출 전체에서 이동이 전혀 없다고 생각하면 안 된다.
+
+
+--------------------------------------------------------------------------------
+title: "SSL For Free에서 와일드카드 인증서를 받았던 기록"
+url: https://doramoo759.github.io/lab-log/synology-wildcard-sslforfree/index.md
+date: "2019-12-11"
+description: 2019년에 SSL For Free에서 와일드카드 인증서를 발급했던 기록. 이후에는 Mac의 Certbot으로 바꿨다.
+--------------------------------------------------------------------------------
+
+블로그를 처음 만들 때 인증서를 살 생각으로 가격을 알아봤다. 여러 도메인을 쓰려니 비용이 올라가 최소 30만 원 이상이 필요해서 무료 발급 방법을 찾았다.
+
+당시에는 SSL For Free에서 와일드카드 인증서를 받을 수 있었다. 대신 3개월마다 갱신해야 했다. 아래는 2019년에 이용했던 화면과 절차다.
+
+## 도메인 입력
+
+[SSL For Free](https://www.sslforfree.com/)에 접속해 원하는 도메인을 입력했다. 와일드카드는 `*.도메인이름` 형식으로 넣는다.
+
+![SSL For Free에서 와일드카드 인증서를 받았던 기록 — 화면 1](/images/server/blog-nas/synology-wildcard-sslforfree/photo-01.png)
+
+## TXT 레코드로 도메인 확인
+
+수동 도메인 확인을 선택해서 TXT 레코드를 받는다.
+
+![SSL For Free에서 와일드카드 인증서를 받았던 기록 — 화면 2](/images/server/blog-nas/synology-wildcard-sslforfree/photo-02.png)
+
+도메인을 관리하는 DNS에 안내된 TXT 레코드를 추가한다. 당시 화면에서는 TTL을 1로 설정하라고 했지만 설정 항목이 없어 반영될 때까지 기다렸다.
+
+입력한 도메인의 `_acme-challenge` 확인 버튼으로 레코드가 조회되는지 확인한 뒤 인증서를 다운로드했다.
+
+메일 주소를 입력하면 만료 전에 알림을 받을 수 있다고 했다.
+
+이후에는 Mac에서 직접 발급하는 방식으로 바꿨다. 그 기록은 [Certbot으로 발급해 NAS에 적용한 메모](/lab-log/synology-wildcard-certbot-mac/)에 남겼다.
+
+
+--------------------------------------------------------------------------------
+title: "DS918+ 메모리 업그레이드"
+url: https://doramoo759.github.io/lab-log/ds918-memory-upgrade/index.md
+date: "2019-11-02"
+description: DS918+에 CT2K102464BF186D 메모리를 장착한 기록. 사용 중 느낀 변화와 남은 기존 메모리 이야기.
+--------------------------------------------------------------------------------
+
+DS918+를 사고 메모리를 늘리려고 알아봤다. 아무 메모리나 사서 꽂으면 되는 것은 아니어서 아래 모델을 골랐다.
+
+```text
+DDR3L 1866 MT/s (PC3-14900)
+Unbuffered SODIMM 204-Pin
+CT2K102464BF186D
+```
+
+![DS918+ 메모리 업그레이드 — 화면 1](/images/server/blog-nas/ds918-memory-upgrade/photo-01.jpeg)
+
+아마존에서 샀다. 처음에는 8GB 하나만 사려고 했는데, 해외에서 오는 김에 세트로 주문했다.
+
+## 장착 후
+
+메모리 용량이 많이 남았다. 돈을 너무 쓴 건 아닌가 싶었지만 체감상 확실히 빠릿해진 느낌이었다.
+
+![DS918+ 메모리 업그레이드 — 화면 2](/images/server/blog-nas/ds918-memory-upgrade/photo-02.png)
+
+당시 사용 중에는 안정적으로 동작했다. 메모리가 넉넉하니 이것저것 올리는 데 부담이 줄어 만족했다.
+
+기존 Synology 4GB 메모리는 어떻게 처분할지 고민이었다.
+
+
+--------------------------------------------------------------------------------
+title: "Mac에 Jenkins를 설치했던 기록"
+url: https://doramoo759.github.io/lab-log/mac-jenkins-install/index.md
+date: "2019-10-29"
+description: Homebrew로 Jenkins를 설치하고 Java 8 오류를 해결했던 2019년 기록.
+--------------------------------------------------------------------------------
+
+2019년에 Mac에 Jenkins를 설치했던 기록이다. 당시 Homebrew와 Java 8을 기준으로 적어 둔 명령이다.
+
+## Homebrew 설치
+
+이미 설치되어 있다면 넘어간다. 당시 사용한 설치 명령은 아래와 같다.
+
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+## Jenkins 설치
+
+```bash
+brew install jenkins
+```
+
+설치 중 다음 오류를 만났다.
+
+```text
+jenkins: Java 1.8 is required to install this formula.
+Install AdoptOpenJDK 8 with Homebrew Cask:
+brew cask install homebrew/cask-versions/adoptopenjdk8
+Error: An unsatisfied requirement failed this build.
+```
+
+Java 8을 설치한 뒤 다시 진행했다.
+
+```bash
+brew cask install homebrew/cask-versions/adoptopenjdk8
+```
+
+설치가 끝나면 `http://localhost:8080`에서 확인한다. 초기 비밀번호는 사용자 폴더의 `.jenkins/secrets/initialAdminPassword`에서 찾는다.
+
+## 접속 주소와 포트
+
+아래 경로로 이동했다.
+
+```bash
+cd /usr/local/opt/jenkins
+```
+
+Xcode로 `homebrew.mxcl.jenkins.plist`를 열어 주소와 포트를 바꿨다.
+
+![Mac에 Jenkins를 설치했던 기록 — 화면 1](/images/off-duty/mac-jenkins-install/photo-01.png)
+
+```text
+--httpListenAddress=127.0.0.1 → --httpListenAddress=0.0.0.0
+--httpPort=8080 → --httpPort=9090
+```
+
+그 뒤 포트 포워딩이나 nginx 리버스 프록시를 통해 접속하는 구성을 생각했다.
+
+
+--------------------------------------------------------------------------------
+title: "Synology NAS에서 특정 지역 접속을 차단했다"
+url: https://doramoo759.github.io/lab-log/synology-region-firewall/index.md
+date: "2019-10-27"
+description: 반복되는 admin 로그인 시도를 보고 DSM 방화벽에서 지역별 규칙을 만들었다. 이후 특정 포트만 차단하도록 바꿨다.
+--------------------------------------------------------------------------------
+
+NAS에 admin 계정으로 로그인하려는 흔적이 계속 보여서 IP 위치를 찾아봤다.
+
+[IP 주소를 지도에서 확인하는 도구](https://www.ipvoid.com/ip-to-google-maps/)
+
+2단계 인증을 켜 두고 비밀번호도 간단하게 쓰지 않았지만, 계속 시도가 보이니 기분이 좋지는 않았다.
+
+## DSM 방화벽 설정
+
+하는 김에 방화벽에서 특정 지역을 차단했다.
+
+`DSM > 제어판 > 보안 > 방화벽 > 방화벽 프로파일 규칙 편집`
+
+![Synology NAS에서 특정 지역 접속을 차단했다 — 화면 1](/images/server/blog-nas/synology-region-firewall/photo-01.png)
+
+![Synology NAS에서 특정 지역 접속을 차단했다 — 화면 2](/images/server/blog-nas/synology-region-firewall/photo-02.png)
+
+지역이나 IP 주소로 규칙을 만들 수 있었다.
+
+처음에는 모든 포트를 막았는데, 다시 생각해 보니 그럴 필요는 없을 것 같았다. 글을 쓴 뒤 특정 포트만 차단하는 것으로 바꿨다.
+
+
+--------------------------------------------------------------------------------
+title: "Pages"
+url: https://doramoo759.github.io/pages/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "AI & Crawling Policy"
+url: https://doramoo759.github.io/ai-crawling-policy/index.md
+date: "2026-01-01"
+description: Conditions for search indexing, automated collection, AI training, and dataset use.
+--------------------------------------------------------------------------------
+
+This policy addresses automated access to ramoo.net content. Reuse and attribution requirements are set out in the [Content License](/license/).
+
+## Search indexing
+
+Ordinary search-engine crawling for indexing, search previews, and links to the original pages is permitted.
+
+## Limited collection and AI use
+
+Limited automated collection for technical review, partial quotations for personal study, and summaries that link to the original page are permitted under the Content License.
+
+Use for AI training, dataset preparation, or text collection must identify the source and retain links to the original pages. Attribution alone does not authorize the bulk uses restricted below.
+
+## Restricted uses
+
+Without separate permission, do not:
+
+- Collect the entire site or large numbers of pages in bulk, except for ordinary search indexing described above.
+- Reproduce complete site content in a separate dataset, paid service, or closed knowledge base.
+- Use content in AI answers, documents, or datasets without original source links.
+- Send excessive requests that disrupt the site.
+- Conceal the source or present the material as another author's work.
+
+## Permission requests
+
+For collection, training, or dataset uses that need separate permission, see the [Contact page](/contact/).
+
+---
+
+Last updated: October 9, 2026
+
+
+--------------------------------------------------------------------------------
+title: "Content License"
+url: https://doramoo759.github.io/license/index.md
+date: "2026-01-01"
+description: Permissions and restrictions for reusing original ramoo.net content.
+--------------------------------------------------------------------------------
+
+Unless otherwise stated, original articles, example code, original images, diagrams, and other original editorial material on ramoo.net are copyrighted by ramoo. This page sets out the permissions granted for reusing that material.
+
+## Permitted reuse
+
+You may quote, share, adapt, summarize, translate, or reuse original content for learning, technical review, documentation, internal training, blog citations, and commercial reference purposes, subject to these conditions:
+
+- Include a link to the original page.
+- Identify changes when you modify, summarize, translate, or otherwise adapt the material.
+- Do not present altered content as the author's original words or views.
+
+Attribution should include the site name, original title, original URL, and author where practical. A quotation of only part of an article must still link to its source.
+
+## Restrictions
+
+These permissions do not allow:
+
+- Hiding the source or misrepresenting authorship.
+- Republishing an entire article on another site or in another document without separate permission.
+- Reselling complete copies as paid products, course materials, ebooks, or members-only content.
+- Using the content to operate malware, phishing, spam, or unlawful services.
+
+Commercial reuse is permitted within the conditions above; it does not grant permission to resell or republish complete copies.
+
+## Code and configuration examples
+
+Original examples may be used under these conditions unless a separate license is stated. Examples copied from an open-source project remain governed by that project's license. Technical risks and responsibility for applying examples are described in the [Disclaimer](/disclaimer/).
+
+## Third-party material
+
+This license grants rights only to material owned by the author. Product names, trademarks, logos, service interfaces, screenshots containing third-party works, and externally sourced images may be subject to separate rights.
+
+Editing an external image does not remove its original license obligations. Follow the source license, including attribution and modification notices where required. See [Third-Party Notices](/third-party-notices/) for related software and asset information.
+
+## Automated collection
+
+The [AI & Crawling Policy](/ai-crawling-policy/) sets out additional conditions for automated collection, AI training, and dataset use.
+
+## Questions and changes
+
+For reuse or licensing questions, see the [Contact page](/contact/). Updates will be published here and apply to subsequent use of the content.
+
+© 2026 ramoo. Rights are reserved except for the permissions expressly granted above or in a separate license.
+
+---
+
+Last updated: October 9, 2026
+
+
+--------------------------------------------------------------------------------
+title: "Cookie Policy"
+url: https://doramoo759.github.io/cookie-policy/index.md
+date: "2026-01-01"
+description: Cookies, browser storage, and controls available to visitors to ramoo.net.
+--------------------------------------------------------------------------------
+
+This policy covers cookies and similar browser storage used by ramoo.net or services loaded through the site. Personal information processing is described in the [Privacy Policy](/privacy-policy/).
+
+## Cookies and similar storage
+
+Cookies are small pieces of data stored by a browser for a website. Other browser storage can also remember preferences or support site features. Depending on the service, these technologies may support functionality, security, analytics, or advertising.
+
+## Current use and external services
+
+The current site configuration does not enable Google Analytics, Google AdSense, Google Tag Manager, or the theme's cookie consent banner. A disabled banner does not establish that external services use no cookies.
+
+External media, hosting, or security services may use cookies or similar technologies when you interact with them. The provider's policy describes its own use. For Google services, see [How Google uses cookies](https://policies.google.com/technologies/cookies).
+
+## Managing browser storage
+
+You can block or delete cookies and other site data in your browser settings. Some browsers also provide controls for third-party cookies. Blocking storage may affect saved preferences, embedded media, or external service features.
+
+## Changes
+
+Updates to this policy will be published here, including changes related to newly enabled services.
+
+---
+
+Last updated: October 9, 2026
+
+
+--------------------------------------------------------------------------------
+title: "Disclaimer"
+url: https://doramoo759.github.io/disclaimer/index.md
+date: "2026-01-01"
+description: Limitations of the information, instructions, and external services mentioned on ramoo.net.
+--------------------------------------------------------------------------------
+
+Content on ramoo.net is provided for general information and reference. It records personal experience and study notes, which may not apply to another environment or situation.
+
+## Accuracy and currency
+
+The author aims to provide accurate information but does not guarantee its completeness, reliability, or currency. Software, hardware, services, and available information can change after a post is written.
+
+## Technical instructions
+
+Code, commands, configurations, and installation procedures may behave differently in your environment. Evaluate and test them before applying them to a live system.
+
+You are responsible for changes you make based on the content. To the extent permitted by applicable law, the author is not liable for resulting downtime, data loss, security issues, or other losses.
+
+## External services and links
+
+References to external websites, products, or services do not guarantee their quality, availability, or accuracy. Those services are governed by their providers' own terms and policies.
+
+## Advertising and affiliate links
+
+The site may include advertisements or affiliate links and may receive revenue from them. Such links do not guarantee a particular result from a product or service.
+
+For rules on using the site, see the [Terms of Use](/terms/).
+
+---
+
+Last updated: October 9, 2026
+
+
+--------------------------------------------------------------------------------
+title: "Open Source"
+url: https://doramoo759.github.io/open-source/index.md
+date: "2026-01-01"
+description: Open-source tools used to build and maintain ramoo.net.
+--------------------------------------------------------------------------------
+
+ramoo.net is built with open-source software. The main tools include Hugo for static-site generation, the Hugoplate theme, Tailwind CSS, and Prettier, along with Hugo modules and npm packages.
+
+## Software and content licenses
+
+Each software component is governed by its own upstream license. The [Third-Party Notices](/third-party-notices/) page is the reference for the main components, license links, and external assets used by the site.
+
+Those software licenses do not automatically apply to blog articles, original examples, or original images. Reuse of that material is covered by the [Content License](/license/). Examples with a separate stated license follow that license.
+
+## License records
+
+Copyright notices, license texts, and redistribution conditions supplied with software must be preserved where required. This overview does not replace the licenses distributed with individual components.
+
+For questions about software attribution or license notices, see the [Contact page](/contact/).
+
+---
+
+Last updated: October 9, 2026
+
+
+--------------------------------------------------------------------------------
+title: "Privacy Policy"
+url: https://doramoo759.github.io/privacy-policy/index.md
+date: "2026-01-01"
+description: How ramoo.net handles visitor information and third-party services.
+--------------------------------------------------------------------------------
+
+This policy explains how ramoo.net handles information related to visits and inquiries. The site does not offer account registration.
+
+## Information processed
+
+Hosting, CDN, and security providers may process IP addresses, requested URLs, access times, browser and device information, and connection logs when delivering and protecting the site.
+
+If you voluntarily send an inquiry, the information you provide is used to respond to it.
+
+The contact form sends your name, email address, and message to Formspree to deliver the inquiry to the site operator. Formspree's handling of this information is described in its [Privacy Policy](https://formspree.io/legal/privacy-policy/).
+
+## Purposes
+
+Information may be processed to deliver pages, maintain the site, investigate errors, prevent abuse, and respond to inquiries. Visitor statistics or advertising may involve additional processing if those services are enabled.
+
+Google Analytics, Google AdSense, and Google Tag Manager are not enabled in the current site configuration. This policy will be updated if the site's use of these services changes.
+
+## Third-party services
+
+Information handled by external providers is also subject to their own policies. Depending on the hosting and delivery setup, relevant policies may include the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) and [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/).
+
+Loading externally hosted resources, embedded media, or linked services may send connection information to those providers. Following an external link takes you to a service with its own privacy practices.
+
+## Comments
+
+Where Giscus comments are enabled, comments and reactions are stored in public GitHub Discussions. Posting requires GitHub sign-in and authorization through Giscus. Your public GitHub profile and the content you post are visible to other visitors. Loading the comment widget connects your browser to Giscus; signing in also involves GitHub. These services are subject to their own policies, including the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). Do not include private information in a public comment.
+
+## Storage and retention
+
+Retention of provider-managed access logs depends on the provider's settings and policies. No single retention period is specified here for all external services.
+
+Browser storage and the controls available to visitors are described in the [Cookie Policy](/cookie-policy/).
+
+## Questions and changes
+
+For privacy questions, see the [Contact page](/contact/). Updates to this policy will be published here.
+
+---
+
+Last updated: October 9, 2026
+
+
+--------------------------------------------------------------------------------
+title: "Terms of Use"
+url: https://doramoo759.github.io/terms/index.md
+date: "2026-01-01"
+description: Rules for accessing and using ramoo.net.
+--------------------------------------------------------------------------------
+
+These terms govern use of ramoo.net. By using the site, you agree to these terms.
+
+## Site content and availability
+
+The site publishes personal notes, technical information, experiences, and other content. Pages and services may be changed or discontinued without prior notice.
+
+Limitations concerning accuracy, technical instructions, and reliance on the content are described in the [Disclaimer](/disclaimer/).
+
+## Acceptable use
+
+Do not use the site for unlawful purposes, interfere with its operation, or send requests that disrupt its availability.
+
+Copying and redistribution must follow the permissions and restrictions in the [Content License](/license/). Automated access is also subject to the [AI & Crawling Policy](/ai-crawling-policy/).
+
+## Ownership and permissions
+
+Original content belongs to its author unless otherwise indicated. Third-party material remains subject to its owner's rights and applicable license. The [Content License](/license/) explains reuse of site content, while [Third-Party Notices](/third-party-notices/) identify software and external assets.
+
+## Related policies
+
+Visitor information is covered by the [Privacy Policy](/privacy-policy/) and [Cookie Policy](/cookie-policy/). External websites linked from this site have their own terms and policies.
+
+## Changes
+
+Updates to these terms will be published here.
+
+---
+
+Last updated: October 9, 2026
+
+
+--------------------------------------------------------------------------------
+title: "Third-Party Notices"
+url: https://doramoo759.github.io/third-party-notices/index.md
+date: "2026-01-01"
+description: Attribution and license references for software and external assets used by ramoo.net.
+--------------------------------------------------------------------------------
+
+The software and third-party assets used by ramoo.net remain subject to their owners' rights and upstream licenses.
+
+## Main software components
+
+| Component | Role | License reference |
+| --- | --- | --- |
+| [Hugo](https://gohugo.io/) | Static-site generator | [Apache License 2.0](https://github.com/gohugoio/hugo/blob/master/LICENSE) |
+| [Hugoplate by Zeon Studio](https://github.com/zeon-studio/hugoplate) | Theme and project scaffold | [MIT](https://github.com/zeon-studio/hugoplate/blob/main/LICENSE) |
+| [Tailwind CSS](https://tailwindcss.com/) | CSS tooling | [MIT](https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE) |
+| [Prettier](https://prettier.io/) | Source formatting | [MIT](https://github.com/prettier/prettier/blob/main/LICENSE) |
+
+Additional Hugo modules, frontend libraries, and transitive dependencies retain their own licenses. This table lists the main components; it is not a complete dependency inventory or a replacement for the copyright notices and license texts supplied with the software.
+
+## External assets and attribution
+
+Product names, logos, trademarks, product designs, screenshots, and captured service interfaces may contain material owned by third parties. This site does not claim ownership of those elements.
+
+For externally sourced images or assets, source information and attribution should be recorded with the relevant article or asset notice. Where the source license requires it, this includes the original URL, creator or distributor, license link, and a description of changes.
+
+## Site-owned content
+
+Permissions for the author's original material are described in the [Content License](/license/). The [Open Source](/open-source/) page explains how the site's software and content licenses are distinguished.
+
+## Questions
+
+For copyright, attribution, or asset questions, see the [Contact page](/contact/).
+
+---
+
+Last updated: October 9, 2026
+
+
+--------------------------------------------------------------------------------
+title: "Country Home"
+url: https://doramoo759.github.io/house-project/index.md
+description: 언젠가 지을 집을 위한 메모
+--------------------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------------------
+title: "목구조에 대한 오해를 끝내야 할때!"
+url: https://doramoo759.github.io/house-project/jungmog-gujo-jutaeg/index.md
+date: "2025-08-17"
+description: 목구조에 대한 편견은 없다. 대지가 마음에 들어 스크랩했고, 주차 공간과 전망, 주방 배치를 함께 적어 뒀다.
+--------------------------------------------------------------------------------
+
+![목구조에 대한 오해를 끝내야 할때!](/images/house-project/timber-frame/cover.png)
+
+## 나의 의견
+
+사실 목구조에 대한 편견은 없다. 제목은 영상 제목을 따라 적었지만, 이 영상을 스크랩한 이유는 대지가 너무 마음에 들었기 때문이다. 나중에 다시 보고 싶어서 기록해 둔 것이다.
+
+차 두 대를 넉넉하게 댈 수 있는 공간과 전망을 해치지 않는 높이가 눈에 들어왔다. 아래 목구조 관련 내용은 영상을 보며 함께 남긴 참고 메모다.
+
+## 왜 좋은가
+
+- 공기가 짧아 빠른 시간 안에 건축이 가능하다.
+- 공장에서 미리 재단하여 결구하는 방식이라 오차가 적다.
+- 건조목을 사용하여 뒤틀림도 적다.
+- 자연 친화적이다.
+
+영상에서는 철근콘크리트 집보다 목조주택 거주자의 스트레스 비율이 40% 줄고, 아토피와 진드기도 절반 이상 줄어든다는 국립산림과학원 연구 내용을 소개했다. 원자료는 나중에 따로 확인해 둘 것.
+
+![중목구조 주택의 외관과 배치](/images/house-project/timber-frame/photo-01.png)
+
+## 대지
+
+- 개인적으로 주차장은 차 2대를 넉넉하게 댈 수 있으면 좋겠다.
+- 전망을 해치지 않는 적절한 높이도 중요하다.
+
+## 중목구조
+
+공학 목재로 기둥과 보를 구성하고, 하중을 기둥과 보가 직접 지탱하는 가구식 구조다.
+
+![중목구조의 기둥과 보](/images/house-project/timber-frame/photo-02.png)
+
+## 집성재
+
+건조된 목재를 섬유 방향이 평행하도록 집성하고 접착한 공학 재료다.
+
+![집성재 설명 화면](/images/house-project/timber-frame/photo-03.png)
+
+## 주방 구조
+
+대면형 주방에서 다용도실과 외부 데크까지 접근하기 쉬운 설계가 눈에 들어왔다.
+
+![주방과 다용도실, 외부 데크 배치](/images/house-project/timber-frame/photo-04.png)
+
+## 골조를 정하기 전에 비교할 것
+
+중목구조가 마음에 들기는 하지만, 목재가 보이는 분위기만으로 결정하고 싶지는 않다. 같은 평면과 마감 조건으로 다른 골조 방식의 견적을 받아 봐야 비교가 될 것 같다. 영상에서 말하는 짧은 공기도 골조 작업 기간인지, 입주할 때까지의 전체 기간인지 나눠서 물어볼 것. 건강 관련 수치는 원자료를 확인하기 전까지 선택 근거로 삼지 않는다.
+
+공장 재단의 장점과 현장 시공을 확인하는 과정도 따로 보고 싶다. 미리 잘 만들어 온 부재라도 현장에서 어떻게 조립하고 점검하는지는 확인해야 하니까. [직결 배관 메모](/house-project/gieog-haja-jiggyeol-baegwan/)에서 적었듯, 공법 설명과 함께 실제 점검 기록을 보여 줄 수 있는지가 궁금하다.
+
+골조와 별개로 가져오고 싶은 것은 주방에서 다용도실과 데크로 이어지는 배치다. 차 두 대를 댄 뒤 장 본 물건을 주방으로 옮기는 길까지 도면에 그려 보면 좋겠다. 전망을 위한 창의 위치와 주차장 높이도 같이 놓고 봐야 한다. 결국 이 집을 다시 볼 때는 목재 사진뿐 아니라 생활 동선을 함께 볼 것.
+
+## 참고 영상
+
+{{< youtube BpgknC0i13E >}}
+
+[EBS 건축탐구 집 — 중목구조 주택을 지어야 할 다섯 가지 이유](https://www.youtube.com/watch?v=BpgknC0i13E)
+
+영상과 캡처 화면에 포함된 제3자 자료의 권리는 원저작자에게 있다.
+
+
+--------------------------------------------------------------------------------
+title: "보는 순간 스크랩 하지 않을 수 없었다."
+url: https://doramoo759.github.io/house-project/boneun-sungan-seukeuraeb-haji-anhgo-neomeogal-su-eobseossdeon-jib/index.md
+date: "2025-07-26"
+description: 지대가 좀 높긴 하지만 영구 전망과 공간 구성이 마음에 들어 스크랩했다. 집 구조 자체는 사실 그다지 마음에 들지 않는다.
+--------------------------------------------------------------------------------
+
+![보는 순간 스크랩 하지 않을 수 없었다.](/images/house-project/single-storey-home/cover.png)
+
+## 나의 의견
+
+지대가 좀 높긴 하지만 영구 전망과 공간 구성이 마음에 들었다. 보는 순간 스크랩한 이유도 그 때문이다. 집 구조 자체는 사실 그다지 마음에 들지 않는다.
+
+## 좋았던 점
+
+- 영구 전망과 생활 공간, 취미 공간, 창고를 나눠 놓은 구성.
+- 컨테이너에 별도 취미 공간을 만든 게 마음에 든다.
+- 딱 필요한 수준의 창고.
+- 아기자기한 소품이 잘 어울리게 배치되어 있다.
+- 과하지 않은 담장 옆 화단.
+
+## 아쉬운 점
+
+- 파고라까지의 동선이 너무 떨어져 있다.
+- 개러지가 있으면 더 좋았을 듯하다.
+- 작은 방 구조는 아쉽다.
+
+## 이 집에서 가져오고 싶은 것
+
+마음에 드는 것은 집을 크게 만들지 않고도 생활 공간, 취미 공간, 창고를 나눠 놓은 점이다. 방을 하나 더 늘리는 것과 컨테이너를 따로 두는 것을 비교해 보고 싶다. 취미 물건이 거실까지 넘어오지 않는 구성은 좋지만, 비 오는 날에도 편하게 오갈 수 있을지는 따로 봐야 한다.
+
+파고라가 멀다는 아쉬움도 같은 이유다. 보기 좋은 마당보다 주방에서 음식을 들고 나갔다가 치우러 돌아오는 길이 먼저 떠오른다. 내 계획에 옮긴다면 주방, 데크, 파고라 사이의 거리를 도면에 표시해 볼 것. 개러지도 주차만 하는 공간으로 볼지, 취미 공간과 연결할지 같이 생각해 두고 싶다.
+
+작은 방은 영상만으로 쓸 만한 크기인지 판단하기 어렵다. 침대와 책상, 수납장을 놓고도 문을 열고 다닐 자리가 남는지 봐야 한다. [둘이 살 공간으로 적어 둔 집](/house-project/simpeulhan-oegwan-ggalggeumhan-silnae-interieo/)과 함께 보면서, 방의 개수보다 실제로 쓰는 방의 크기를 비교해 볼 생각이다.
+
+## 참고 영상
+
+{{< youtube Ph-zdn-3KWA >}}
+
+[네이처하우징 — 30평대 포천 전원주택](https://www.youtube.com/watch?v=Ph-zdn-3KWA)
+
+영상과 캡처 화면에 포함된 제3자 자료의 권리는 원저작자에게 있다.
+
+
+--------------------------------------------------------------------------------
+title: "심플한 외관 깔끔한 실내 인테리어"
+url: https://doramoo759.github.io/house-project/simpeulhan-oegwan-ggalggeumhan-silnae-interieo/index.md
+date: "2025-07-23"
+description: 생각보다 집 구조와 인테리어가 깔끔하다. 나중에 집을 지을 때 참고할 만해서 기록해 둔다.
+--------------------------------------------------------------------------------
+
+![심플한 외관 깔끔한 실내 인테리어](/images/house-project/simple-interior/cover.png)
+
+## 나의 의견
+
+생각보다 집 구조나 인테리어가 깔끔하다. 나중에 참고할 만해서 기록해 둔다.
+
+## 눈에 들어온 것
+
+- 건물 외관은 특별할 것 없다.
+- 거실, 안방, 작은방 모두 전망 좋은 창이 잘 배치되어 있다.
+- 거실 한쪽 고정창과 벤치장이 시야를 넓혀 주고 공간을 풍요롭게 만든다.
+- 라운드 코너 등을 보면 시공사가 디자인에 신경을 많이 쓴 것 같다.
+- 노년에 2인 가족이 넉넉하게 사용할 수 있는 공간이다.
+- 손님이 올 때를 대비해 다락방이 있었으면 하는 아쉬움이 있다.
+- 건축비가 합리적으로 보인다.
+
+![안방 화장실](/images/house-project/simple-interior/photo-01.png)
+
+안방 화장실.
+
+## 둘이 살 집으로 다시 보기
+
+이 집은 외관보다 안에서 창밖을 보는 모습이 마음에 든다. 노년에 둘이 살 집을 생각하면 방을 많이 만드는 것보다 자주 머무는 거실과 침실이 편한지가 먼저다. 고정창 옆 벤치도 예쁘지만, 내가 놓을 소파와 식탁까지 그려 봤을 때 통로가 충분한지 확인해 보고 싶다.
+
+손님용 다락이 있으면 좋겠다고 적었는데, 매일 쓰지 않는 공간을 얼마나 둘지는 고민이다. 다락으로 만들지, 작은 방 하나를 평소에는 다른 용도로 쓰다가 손님이 오면 비울지 비교해 볼 것. 계단을 오르내리는 일과 청소할 공간도 늘어나니, [단층 집의 별도 취미 공간](/house-project/boneun-sungan-seukeuraeb-haji-anhgo-neomeogal-su-eobseossdeon-jib/)과도 같이 생각해 보고 싶다.
+
+건축비가 합리적으로 보인다는 첫인상은 아직 견적 비교가 아니다. 같은 크기의 집이라도 영상에 나온 창, 벤치장, 욕실 마감이 어디까지 포함된 가격인지 확인해야 한다. 나중에 견적을 받으면 기본 공사와 추가 선택 항목을 나눠 적고, 내가 마음에 들어 한 구성을 넣었을 때의 금액으로 비교할 것.
+
+## 참고 영상
+
+{{< youtube BBq7f-8iRBU >}}
+
+[심플한 외관과 실내 인테리어 참고 영상](https://www.youtube.com/watch?v=BBq7f-8iRBU)
+
+영상과 캡처 화면에 포함된 제3자 자료의 권리는 원저작자에게 있다.
+
+
+--------------------------------------------------------------------------------
+title: "기억 하자! 직결 배관"
+url: https://doramoo759.github.io/house-project/gieog-haja-jiggyeol-baegwan/index.md
+date: "2025-07-22"
+description: 감성주택은 나중에 상담을 한번 받아 보고 싶은 업체다. 하자 관리에 중점을 두는 듯한 인상과 처음 알게 된 이중 배관을 기록해 둔다.
+--------------------------------------------------------------------------------
+
+![기억 하자! 직결 배관](/images/house-project/direct-plumbing/cover.png)
+
+## 나의 의견
+
+감성주택은 나중에 상담을 한번 받아 보고 싶은 업체다. 집을 짓는 것도 중요하지만, 영상을 보면 하자 관리에도 중점을 두는 듯하다.
+
+이중 배관은 이 영상을 보면서 처음 알았다. 유용한 정보라 나중에 다시 보려고 기록해 둔다.
+
+실제 현장에서도 어떻게 적용하고 관리하는지는 상담할 때 물어보고 싶다. 대표가 모든 공사를 쫓아다닐 수는 없으니, 현장마다 시공 상태를 확인하고 하자를 관리하는 과정도 궁금하다.
+
+## 나중에 시공사에 물어볼 것
+
+공법 이름을 기억하는 데서 끝나면 별 도움이 안 될 것 같다. 내 집에 적용한다면 배관이 어디로 지나가는지, 연결 부위는 어디에 있는지, 문제가 생겼을 때 어느 부분을 열어야 하는지부터 설명을 듣고 싶다. 영상만으로는 이 공법의 적용 범위나 수리 과정을 알 수 없다.
+
+벽과 바닥을 덮기 전에 배관 위치를 사진과 도면으로 남겨 주는지도 물어볼 것. 시공한 사람과 확인하는 사람이 누구인지, 확인 결과를 건축주도 볼 수 있는지가 궁금하다. 대표가 현장에 오는 날뿐 아니라 평소에도 같은 방식으로 점검하는지가 더 중요한 비교 항목이다.
+
+견적을 비교할 때도 ‘이 공법을 쓴다’는 설명 옆에 점검 기록과 인수인계 자료가 포함되는지 적어 두려고 한다. 하자가 생기면 어디로 연락하고 어떤 순서로 확인하는지도 미리 물어봐야겠다. 아직 업체를 비교하거나 직접 시공을 확인한 기록은 아니고, 상담할 때 놓치지 않으려는 메모다.
+
+## 참고 영상
+
+{{< youtube cg9G01GnYes >}}
+
+[감성주택 — 실전 건축 강의, 건축 디테일](https://www.youtube.com/watch?v=cg9G01GnYes)
+
+영상과 캡처 화면에 포함된 제3자 자료의 권리는 원저작자에게 있다.
+
+
+--------------------------------------------------------------------------------
+title: "자연의 감성을 담은 창원시 45평 전원주택 - 더존하우징"
+url: https://doramoo759.github.io/house-project/jayeonyi-gamseongeul-dameun-cangweonsi-45pyeong-jeonweonjutaeg-deojonhaujing-scrap/index.md
+date: "2025-07-21"
+description: 더존하우징의 창원 45평 주택. 비탈진 경사지에 벙커 주차장으로 구조를 잡은 점이 인상적이다. 다만 토목 공사비는 더 들 것 같다.
+--------------------------------------------------------------------------------
+
+![자연의 감성을 담은 창원시 45평 전원주택 - 더존하우징](/images/house-project/changwon-house/cover.png)
+
+## 나의 의견
+
+더존하우징은 고급 주택을 시공하는 업체로 알고 있다. 이 집에서 가장 인상적인 것은 비탈진 경사지에 벙커 주차장으로 구조를 잡은 점이다. 이런 땅에도 주차 공간과 집을 배치할 수 있다는 게 눈에 들어왔다.
+
+다만 이렇게 지으려면 토목 공사비는 더 들겠지. 경사진 땅을 보게 되면 참고할 만한 구조라 기록해 둔다.
+
+## 특징
+
+- 경사면에 토목공사를 해서 층을 올렸다.
+- 넉넉한 벙커 주차장과 가운데 출입문이 마음에 든다.
+- 지상 생활 공간이 도로보다 높아 도로에서의 시선을 어느 정도 가릴 수 있다.
+- 경사진 저렴한 토지가 있다면 매력적인 건물 구조다.
+- 건설비가 더 들 수 있겠지만 토지 가격에서 어느 정도 상쇄되지 않을까?
+
+## 땅값과 공사비를 같이 놓고 보기
+
+경사진 땅이 저렴하다면 끌릴 것 같다. 그래도 땅값에서 아낀 만큼 공사비가 늘어나면 생각이 달라진다. 평지에 짓는 경우와 비교할 때는 토지 가격, 토목공사, 옹벽과 배수, 벙커 주차장 공사를 각각 나눠 견적을 받아 보고 싶다. 영상에는 내 조건에 맞는 비용 내역이 없으니, 토지 가격으로 상쇄될지는 아직 질문으로 남겨 둔다.
+
+주차장은 차 두 대를 놓은 상태로 보고 싶다. 두 대가 들어간다는 것과 문을 열고 짐을 내리기 편하다는 것은 별개다. 가운데 출입문이 마음에 들었던 만큼 주차한 차가 길을 막지 않는지, 장 본 물건을 들고 주방까지 가는 길은 어떤지도 확인할 것. 주차장과 생활층 사이를 얼마나 오르내려야 하는지도 궁금하다.
+
+도로보다 생활 공간을 높인 점은 좋다. 다만 도로에서 덜 보이는 것과 원하는 전망을 얻는 것은 따로 확인해야 한다. [충주 집의 안쪽 마당](/house-project/geoncugtamgu-jib-cungju/)처럼 배치로 시선을 가리는 방법도 있으니, 땅을 볼 때 두 방식을 같이 떠올려 볼 생각이다.
+
+## 참고 영상
+
+{{< youtube y5LuxksulEM >}}
+
+[더존하우징 — 창원 주택전시장 45평 전원주택](https://www.youtube.com/watch?v=y5LuxksulEM)
+
+영상과 캡처 화면에 포함된 제3자 자료의 권리는 원저작자에게 있다.
+
+
+--------------------------------------------------------------------------------
+title: "건축탐구 집 - 중목/콘트리트 취향이 담긴 집"
+url: https://doramoo759.github.io/house-project/geoncugtamgu-jib-cungju/index.md
+date: "2025-07-19"
+description: 특이해서 기록하지만 내 기준에는 집이 너무 크다. 파인 지형을 어떻게 다룰지 참고하기 좋은 사례다.
+--------------------------------------------------------------------------------
+
+![건축탐구 집 - 중목/콘트리트 취향이 담긴 집](/images/house-project/chungju-house/cover.png)
+
+## 나의 의견
+
+특이해서 기록해 두지만 내 기준에는 집이 너무 크다. 건축주가 건축업에 종사하는 사람이라 이런 집을 짓는 게 가능했을 듯하다.
+
+여튼 파인 지형을 어떻게 다룰지 보여 주는 좋은 예가 아닌가 싶다. 집 전체를 따라 짓고 싶다기보다, 이런 지형을 만나면 어떻게 활용할 수 있을지 참고하려고 남겨 둔다.
+
+## 특징
+
+- 경사면을 그대로 살린 형태.
+- 건축주가 건축 관련 종사자라 자유도가 높게 지어졌다.
+- 일반인이 시도하기에는 어려움이 있을 듯하다.
+- 사방을 둘러싼 건축물이 안정감 있는 구조다.
+- 경사면을 살린 만큼 건물 안에 계단이 있다.
+- 경사진 땅이라 토지 비용을 상대적으로 낮게 접근했다.
+- 시선을 가린 프라이빗한 마당이 인상적이다.
+
+## 마당은 좋고, 계단은 고민이다
+
+이 집에서는 밖의 시선을 가린 마당이 가장 기억에 남는다. 담장만 높이는 대신 건물 배치로 안쪽 공간을 만든 점이 좋다. 다만 이런 배치를 내 계획에 가져오려면 마당이 어느 방에서 보이는지, 햇빛은 얼마나 들어오는지도 같이 봐야겠다. 영상에서 느낀 아늑함만으로 정하기는 어렵다.
+
+경사를 살린 모습은 재미있지만, 매일 다니는 길에 계단이 들어가는 것은 고민이다. 장을 보고 들어올 때 주차장에서 주방까지 어떻게 움직이는지, 침실과 욕실 사이에도 높이 차이가 있는지 도면으로 보고 싶다. 단층 집과 비교할 때는 외관보다 이 동선부터 볼 것.
+
+토지 가격이 낮다는 점도 총비용과 묶어 봐야 한다. [창원 주택](/house-project/jayeonyi-gamseongeul-dameun-cangweonsi-45pyeong-jeonweonjutaeg-deojonhaujing-scrap/)은 경사를 주차장과 생활 공간의 높이 차이에 활용했다. 두 집 모두 경사지가 출발점이지만, 하나는 안쪽 마당이, 다른 하나는 주차장이 눈에 들어온다. 실제 견적을 받은 것은 아니라 어느 쪽이 경제적인지는 아직 판단하지 않는다.
+
+## 참고 영상
+
+{{< youtube 5FJlLZODRMQ >}}
+
+[EBS 건축탐구 집 — 충주, 경사면을 살린 집](https://www.youtube.com/watch?v=5FJlLZODRMQ)
+
+영상과 캡처 화면에 포함된 제3자 자료의 권리는 원저작자에게 있다.
+
+
+--------------------------------------------------------------------------------
+title: "Off Duty"
+url: https://doramoo759.github.io/off-duty/index.md
+description: 일상과 관심사, 가끔의 딴짓
+--------------------------------------------------------------------------------
+일상과 관심사, 가끔의 딴짓
+
+--------------------------------------------------------------------------------
+title: "LG 43UN700 모니터, 2주 사용 기록"
+url: https://doramoo759.github.io/off-duty/lg-43un700-monitor/index.md
+date: "2021-01-01"
+description: 큰 화면과 USB-C 허브 기능은 편했다. CalDigit TS3 Plus에 연결했을 때 붉게 보이던 화면은 DP 설정을 바꿔 해결했다.
+--------------------------------------------------------------------------------
+
+LG 43UN700을 약 2주 사용하고 적은 후기다. 설치 기사가 빠르게 설치해 주고 가서 언박싱 사진은 없다.
+
+## 크기
+
+회사에서 40인치 커브드 모니터를 쓰고 있어 큰 화면 자체는 익숙했다. 42.5인치라 조금 더 큰 느낌이지만 적당해 보였다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 1](/images/off-duty/lg-43un700-monitor/photo-01.jpg)
+
+모니터 아래에 놓인 CalDigit TS3 Plus와 비교하면 크기가 짐작된다.
+
+## 색상 때문에 한참 헤맸다
+
+기존 모니터의 색감이 좋지 않아 MacBook 화면과 맞추는 데 시간을 쓰곤 했다. 그래서 이번에는 색상을 중요하게 봤다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 2](/images/off-duty/lg-43un700-monitor/photo-02.png)
+
+그런데 연결하니 화면이 붉게 보였다. 방법을 찾아보고 서비스센터에도 문의했지만 제품에는 이상이 없다는 답변이었다. 아마존 후기에서도 비슷한 이야기를 보고 며칠은 그냥 쓰다가 원인을 찾았다.
+
+내 구성에서는 모니터의 DP 버전과 CalDigit TS3 Plus 연결이 관련 있었다. 모니터의 DP 설정을 1.2로 낮춘 뒤 원하는 색상을 볼 수 있었다. USB-C로 연결했는데 왜 DP 단자 설정의 영향을 받는지는 당시에도 잘 모르겠었다.
+
+DP 1.4에서 HDR이 자동으로 켜지면 색상 조정 메뉴를 쓸 수 없어 더 답답했다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 3](/images/off-duty/lg-43un700-monitor/photo-03.png)
+
+## 연결과 편의 기능
+
+USB 허브 기능이 의외로 마음에 들었다. USB-C 하나로 화면과 USB 기기를 연결해서 별도 허브를 치웠다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 4](/images/off-duty/lg-43un700-monitor/photo-04.png)
+
+앱으로 모니터를 제어하는 기능도 있었다. 여러 입력을 쓰면 편하겠지만 MacBook 하나만 연결해서 실제로 써 보지는 않았다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 5](/images/off-duty/lg-43un700-monitor/photo-05.png)
+
+높이 조절이 없는 것은 아쉽다. 큰 모니터를 책상에 올려 놓으면 높이를 낮춰야 편한데, 위를 올려다보게 되면 불편하다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 6](/images/off-duty/lg-43un700-monitor/photo-06.png)
+
+큰 화면과 USB-C 연결, 별도 스피커가 필요 없을 정도의 소리는 괜찮았다. 다만 모니터가 두꺼워 TV 프레임을 그대로 쓴 것 같은 느낌이었다.
+
+
+--------------------------------------------------------------------------------
+title: "Catalina에서 사라진 iTunes를 찾다가"
+url: https://doramoo759.github.io/off-duty/macos-catalina-itunes/index.md
+date: "2019-11-01"
+description: iTunes를 찾다가 Catalina에서는 Finder로 기기를 동기화한다는 것을 알게 됐다.
+--------------------------------------------------------------------------------
+
+개발하다 앱에 파일을 올릴 일이 있어 iTunes를 찾았는데 아무리 봐도 없었다.
+
+![Catalina에서 사라진 iTunes를 찾다가 — 화면 1](/images/off-duty/macos-catalina-itunes/photo-01.png)
+
+macOS Catalina에서는 iTunes의 기능이 나뉘고, 기기 동기화는 Finder에서 할 수 있었다.
+
+Finder를 열면 왼쪽에 연결한 기기가 나타난다. 선택하면 예전에 iTunes에서 보던 동기화 화면이 나온다.
+
+![Catalina에서 사라진 iTunes를 찾다가 — 화면 2](/images/off-duty/macos-catalina-itunes/photo-02.png)
+
+찾았으니 이제 하던 일을 계속한다.
+
+
+--------------------------------------------------------------------------------
+title: "Mac Finder에서 숨김 파일 표시"
+url: https://doramoo759.github.io/off-duty/mac-finder-hidden-files/index.md
+date: "2019-10-29"
+description: 한 번 설정하고 잊기 쉬운 Finder 숨김 파일 표시 명령과 재실행 방법.
+--------------------------------------------------------------------------------
+
+Finder에서 숨김 파일을 표시하는 명령을 적어 둔다. 한 번 설정하면 다시 만질 일이 별로 없어서 잊기 쉽다.
+
+터미널에서 실행한다.
+
+```bash
+defaults write com.apple.Finder AppleShowAllFiles TRUE
+```
+
+Finder를 다시 실행하면 숨김 파일이 보인다.
+
+```bash
+killall Finder
+```
+
+
+--------------------------------------------------------------------------------
+title: "Mac Time Machine 백업 속도 메모"
+url: https://doramoo759.github.io/off-duty/mac-time-machine-speed/index.md
+date: "2019-09-26"
+description: 업데이트 문제를 Time Machine으로 복원한 뒤 백업 속도를 조정해 본 기록.
+--------------------------------------------------------------------------------
+
+Mac을 업데이트하다 한 번 날려 먹은 적이 있다. 그때 Time Machine으로 복원하고 안도의 한숨을 쉬었다.
+
+이후로 꾸준히 백업하고 있지만 속도가 느려서, 당시 찾아 쓴 명령을 적어 둔다.
+
+```bash
+sudo sysctl debug.lowpri_throttle_enabled=0
+```
+
+낮은 우선순위 작업의 제한을 조정하는 설정이다. 내 환경에서는 엄청나게 빨라지는 정도는 아니었지만 어느 정도 효과가 있었다.
+
+
+--------------------------------------------------------------------------------
+title: "Authors"
+url: https://doramoo759.github.io/authors/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "ramoo"
+url: https://doramoo759.github.io/authors/ramoo/index.md
+description: ramoo.net 작성자
+--------------------------------------------------------------------------------
+
+ramoo.net에 글을 기록하는 작성자이다.
+
+
+--------------------------------------------------------------------------------
+title: "Sections"
+url: https://doramoo759.github.io/sections/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Categories"
+url: https://doramoo759.github.io/categories/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Country Home"
+url: https://doramoo759.github.io/categories/country-home/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Dev Log"
+url: https://doramoo759.github.io/categories/dev-log/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Money"
+url: https://doramoo759.github.io/categories/money/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Off Duty"
+url: https://doramoo759.github.io/categories/off-duty/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Tags"
+url: https://doramoo759.github.io/tags/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "2.5G"
+url: https://doramoo759.github.io/tags/2.5g/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "A3004NS-M"
+url: https://doramoo759.github.io/tags/a3004ns-m/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Apache Guacamole"
+url: https://doramoo759.github.io/tags/apache-guacamole/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Certbot"
+url: https://doramoo759.github.io/tags/certbot/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Distributed Systems"
+url: https://doramoo759.github.io/tags/distributed-systems/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "DNS"
+url: https://doramoo759.github.io/tags/dns/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Docker"
+url: https://doramoo759.github.io/tags/docker/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Domain"
+url: https://doramoo759.github.io/tags/domain/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "DS918+"
+url: https://doramoo759.github.io/tags/ds918+/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "DSM"
+url: https://doramoo759.github.io/tags/dsm/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "DSM 7.0"
+url: https://doramoo759.github.io/tags/dsm-7.0/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "ETF"
+url: https://doramoo759.github.io/tags/etf/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Firewall"
+url: https://doramoo759.github.io/tags/firewall/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "FlatBuffers"
+url: https://doramoo759.github.io/tags/flatbuffers/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "GitLab"
+url: https://doramoo759.github.io/tags/gitlab/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "HomeLab"
+url: https://doramoo759.github.io/tags/homelab/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "IpTIME"
+url: https://doramoo759.github.io/tags/iptime/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "LACP"
+url: https://doramoo759.github.io/tags/lacp/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Let's Encrypt"
+url: https://doramoo759.github.io/tags/lets-encrypt/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Life"
+url: https://doramoo759.github.io/tags/life/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Mac"
+url: https://doramoo759.github.io/tags/mac/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "MacOS"
+url: https://doramoo759.github.io/tags/macos/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Memory"
+url: https://doramoo759.github.io/tags/memory/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Messaging"
+url: https://doramoo759.github.io/tags/messaging/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "NAS"
+url: https://doramoo759.github.io/tags/nas/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Networking"
+url: https://doramoo759.github.io/tags/networking/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "PBR"
+url: https://doramoo759.github.io/tags/pbr/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "PER"
+url: https://doramoo759.github.io/tags/per/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Performance"
+url: https://doramoo759.github.io/tags/performance/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "PSR"
+url: https://doramoo759.github.io/tags/psr/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "RDP"
+url: https://doramoo759.github.io/tags/rdp/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Remote Access"
+url: https://doramoo759.github.io/tags/remote-access/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "RTL8156"
+url: https://doramoo759.github.io/tags/rtl8156/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Serialization"
+url: https://doramoo759.github.io/tags/serialization/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "SSH"
+url: https://doramoo759.github.io/tags/ssh/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "SSL"
+url: https://doramoo759.github.io/tags/ssl/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Synology"
+url: https://doramoo759.github.io/tags/synology/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "System Design"
+url: https://doramoo759.github.io/tags/system-design/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "TL-SG2008"
+url: https://doramoo759.github.io/tags/tl-sg2008/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Ubuntu 22.04"
+url: https://doramoo759.github.io/tags/ubuntu-22.04/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "USB LAN"
+url: https://doramoo759.github.io/tags/usb-lan/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "VNC"
+url: https://doramoo759.github.io/tags/vnc/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "VPN"
+url: https://doramoo759.github.io/tags/vpn/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Wildcard"
+url: https://doramoo759.github.io/tags/wildcard/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "ZeroMQ"
+url: https://doramoo759.github.io/tags/zeromq/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "가치평가"
+url: https://doramoo759.github.io/tags/%EA%B0%80%EC%B9%98%ED%8F%89%EA%B0%80/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "배당주"
+url: https://doramoo759.github.io/tags/%EB%B0%B0%EB%8B%B9%EC%A3%BC/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "성장주"
+url: https://doramoo759.github.io/tags/%EC%84%B1%EC%9E%A5%EC%A3%BC/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "숏커버"
+url: https://doramoo759.github.io/tags/%EC%88%8F%EC%BB%A4%EB%B2%84/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "장기투자"
+url: https://doramoo759.github.io/tags/%EC%9E%A5%EA%B8%B0%ED%88%AC%EC%9E%90/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "전원주택"
+url: https://doramoo759.github.io/tags/%EC%A0%84%EC%9B%90%EC%A3%BC%ED%83%9D/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "주식"
+url: https://doramoo759.github.io/tags/%EC%A3%BC%EC%8B%9D/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "주택 스크랩"
+url: https://doramoo759.github.io/tags/%EC%A3%BC%ED%83%9D-%EC%8A%A4%ED%81%AC%EB%9E%A9/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "투자기초"
+url: https://doramoo759.github.io/tags/%ED%88%AC%EC%9E%90%EA%B8%B0%EC%B4%88/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "포트폴리오"
+url: https://doramoo759.github.io/tags/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/index.md
+--------------------------------------------------------------------------------
+<no value>
