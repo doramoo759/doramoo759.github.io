@@ -3,134 +3,134 @@
 > Ramoo Hub 기술 기록과 실험을 정리하는 Hugo 블로그
 
 ## Pages
-- [Home](https://doramoo759.github.io/index.md)
-- [About](https://doramoo759.github.io/about/index.md): About ramoo and this personal site.
-- [Contact](https://doramoo759.github.io/contact/index.md): Contact information for ramoo.net.
-- [블로그](https://doramoo759.github.io/blog/index.md): ramoo.net 글 목록
+- [Home](https://www.ramoo.net/index.md)
+- [About](https://www.ramoo.net/about/index.md): About ramoo and this personal site.
+- [Contact](https://www.ramoo.net/contact/index.md): Contact information for ramoo.net.
+- [블로그](https://www.ramoo.net/blog/index.md): ramoo.net 글 목록
 
 ## Money
-- [Money](https://doramoo759.github.io/money-log/index.md): 투자와 돈에 관한 공부
+- [Money](https://www.ramoo.net/money-log/index.md): 투자와 돈에 관한 공부
 
-- [주린이 벗어나기 3탄: 포트폴리오를 나눌 때 확인할 것](https://doramoo759.github.io/money-log/jurini-portfolio-3/index.md): ETF의 편입 종목이 겹치는지, 투자금이 어디에 쏠리는지, 환율과 비용을 반영했는지 확인하는 메모.
-- [주린이 벗어나기 2탄: 배당주와 성장주를 보며 든 생각](https://doramoo759.github.io/money-log/jurini-dividend-vs-growth-2/index.md): 배당과 성장에서 기대하는 것, 투자 기간, 복리 계산, 숏커버를 공부한 메모.
-- [주린이 벗어나기 1탄: PER, PBR, PSR을 읽을 때 놓치기 쉬운 것](https://doramoo759.github.io/money-log/jurini-indicators-1/index.md): PER, PBR, PSR을 볼 때 이익·자산·매출에서 같이 확인할 내용을 적은 공부 메모.
+- [주린이 벗어나기 3탄: 포트폴리오를 나눌 때 확인할 것](https://www.ramoo.net/money-log/jurini-portfolio-3/index.md): ETF의 편입 종목이 겹치는지, 투자금이 어디에 쏠리는지, 환율과 비용을 반영했는지 확인하는 메모.
+- [주린이 벗어나기 2탄: 배당주와 성장주를 보며 든 생각](https://www.ramoo.net/money-log/jurini-dividend-vs-growth-2/index.md): 배당과 성장에서 기대하는 것, 투자 기간, 복리 계산, 숏커버를 공부한 메모.
+- [주린이 벗어나기 1탄: PER, PBR, PSR을 읽을 때 놓치기 쉬운 것](https://www.ramoo.net/money-log/jurini-indicators-1/index.md): PER, PBR, PSR을 볼 때 이익·자산·매출에서 같이 확인할 내용을 적은 공부 메모.
 
 ## Dev Log
-- [Dev Log](https://doramoo759.github.io/lab-log/index.md): 개발, 서버, NAS를 만지며 남긴 기록
+- [Dev Log](https://www.ramoo.net/lab-log/index.md): 개발, 서버, NAS를 만지며 남긴 기록
 
-- [Apache Guacamole를 사내망에서 테스트해 봤다](https://doramoo759.github.io/lab-log/apache-guacamole-intro/index.md): 브라우저 SSH 접속은 편했지만 LDAP 연동과 계정·세션 관리가 걸렸다. 사내망 테스트에서 멈춘 기록.
-- [FlatBuffers 기본 개념과 Ubuntu 22.04 빌드 메모](https://doramoo759.github.io/lab-log/flatbuffers-in-real-systems/index.md): FlatBuffers가 버퍼를 읽는 방식과 스키마·생성 코드, Ubuntu 22.04 소스 빌드 명령.
-- [ZeroMQ를 살펴보며 적어 둔 메시징 패턴](https://doramoo759.github.io/lab-log/zeromq-patterns/index.md): REQ/REP, PUB/SUB, PUSH/PULL, PAIR의 메시지 흐름과 애플리케이션에서 정할 부분.
-- [DS918+에 USB 2.5G LAN을 붙였다가 뺀 이야기](https://doramoo759.github.io/lab-log/ds918-plus-25g-upgrade/index.md): ipTIME U2500과 r8152 드라이버로 구성한 DS918+ 2.5G 연결. 설치 과정과 전송 속도, 철거한 이유.
-- [Synology GitLab CE 컨테이너 업데이트 메모](https://doramoo759.github.io/lab-log/synology-gitlab-docker-update/index.md): GitLab CE 14.8.3에서 14.8.4로 업데이트할 때 사용한 DSM Docker 화면과 설정 내보내기·가져오기 기록.
-- [Synology DNS Server 설치와 레코드 설정 메모](https://doramoo759.github.io/lab-log/synology-dns-server/index.md): DSM 7.0에서 DNS Server를 설치하고 정방향 영역, A·PTR 레코드, 네임서버 설정을 살펴본 기록.
-- [C++ tuple로 여러 결과 반환하기](https://doramoo759.github.io/lab-log/cpp11-tuple/index.md): 함수 결과를 tuple로 묶고 get과 tie로 꺼내는 예제. 마지막 구조적 바인딩은 C++17 문법이다.
-- [C++ 람다를 쓰며 적어 둔 메모](https://doramoo759.github.io/lab-log/cpp11-lambda/index.md): 캡처 방식과 std::function 콜백, 정렬에 람다를 쓰는 형태를 적어 둔 메모.
-- [Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다](https://doramoo759.github.io/lab-log/synology-wildcard-certbot-mac/index.md): Mac에서 Certbot을 실행하고 NAS DNS에 TXT 레코드를 추가한 뒤 인증서를 가져온 기록. 2021년 화면 기준.
-- [TL-SG2008로 DS918+ 링크통합을 시도했다](https://doramoo759.github.io/lab-log/tl-sg2008-lacp/index.md): DS918+의 두 LAN 포트를 쓰려고 고른 TL-SG2008. 동적 링크통합에서 오류가 나 설정을 바꿨다.
-- [ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다](https://doramoo759.github.io/lab-log/iptime-a3004ns-m/index.md): VPN과 USB 간이 NAS에서는 문제가 있었지만, 공유기 기능만 쓰니 안정적이었다. 2020년 사용 기록.
-- [C++11 emplace_back 메모](https://doramoo759.github.io/lab-log/cpp11-emplace/index.md): 생성자 인자를 바로 넘겨 원소를 만드는 emplace_back과 push_back을 비교한 코드 조각.
-- [SSL For Free에서 와일드카드 인증서를 받았던 기록](https://doramoo759.github.io/lab-log/synology-wildcard-sslforfree/index.md): 2019년에 SSL For Free에서 와일드카드 인증서를 발급했던 기록. 이후에는 Mac의 Certbot으로 바꿨다.
-- [DS918+ 메모리 업그레이드](https://doramoo759.github.io/lab-log/ds918-memory-upgrade/index.md): DS918+에 CT2K102464BF186D 메모리를 장착한 기록. 사용 중 느낀 변화와 남은 기존 메모리 이야기.
-- [Mac에 Jenkins를 설치했던 기록](https://doramoo759.github.io/lab-log/mac-jenkins-install/index.md): Homebrew로 Jenkins를 설치하고 Java 8 오류를 해결했던 2019년 기록.
-- [Synology NAS에서 특정 지역 접속을 차단했다](https://doramoo759.github.io/lab-log/synology-region-firewall/index.md): 반복되는 admin 로그인 시도를 보고 DSM 방화벽에서 지역별 규칙을 만들었다. 이후 특정 포트만 차단하도록 바꿨다.
+- [Apache Guacamole를 사내망에서 테스트해 봤다](https://www.ramoo.net/lab-log/apache-guacamole-intro/index.md): 브라우저 SSH 접속은 편했지만 LDAP 연동과 계정·세션 관리가 걸렸다. 사내망 테스트에서 멈춘 기록.
+- [FlatBuffers 기본 개념과 Ubuntu 22.04 빌드 메모](https://www.ramoo.net/lab-log/flatbuffers-in-real-systems/index.md): FlatBuffers가 버퍼를 읽는 방식과 스키마·생성 코드, Ubuntu 22.04 소스 빌드 명령.
+- [ZeroMQ를 살펴보며 적어 둔 메시징 패턴](https://www.ramoo.net/lab-log/zeromq-patterns/index.md): REQ/REP, PUB/SUB, PUSH/PULL, PAIR의 메시지 흐름과 애플리케이션에서 정할 부분.
+- [DS918+에 USB 2.5G LAN을 붙였다가 뺀 이야기](https://www.ramoo.net/lab-log/ds918-plus-25g-upgrade/index.md): ipTIME U2500과 r8152 드라이버로 구성한 DS918+ 2.5G 연결. 설치 과정과 전송 속도, 철거한 이유.
+- [Synology GitLab CE 컨테이너 업데이트 메모](https://www.ramoo.net/lab-log/synology-gitlab-docker-update/index.md): GitLab CE 14.8.3에서 14.8.4로 업데이트할 때 사용한 DSM Docker 화면과 설정 내보내기·가져오기 기록.
+- [Synology DNS Server 설치와 레코드 설정 메모](https://www.ramoo.net/lab-log/synology-dns-server/index.md): DSM 7.0에서 DNS Server를 설치하고 정방향 영역, A·PTR 레코드, 네임서버 설정을 살펴본 기록.
+- [C++ tuple로 여러 결과 반환하기](https://www.ramoo.net/lab-log/cpp11-tuple/index.md): 함수 결과를 tuple로 묶고 get과 tie로 꺼내는 예제. 마지막 구조적 바인딩은 C++17 문법이다.
+- [C++ 람다를 쓰며 적어 둔 메모](https://www.ramoo.net/lab-log/cpp11-lambda/index.md): 캡처 방식과 std::function 콜백, 정렬에 람다를 쓰는 형태를 적어 둔 메모.
+- [Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다](https://www.ramoo.net/lab-log/synology-wildcard-certbot-mac/index.md): Mac에서 Certbot을 실행하고 NAS DNS에 TXT 레코드를 추가한 뒤 인증서를 가져온 기록. 2021년 화면 기준.
+- [TL-SG2008로 DS918+ 링크통합을 시도했다](https://www.ramoo.net/lab-log/tl-sg2008-lacp/index.md): DS918+의 두 LAN 포트를 쓰려고 고른 TL-SG2008. 동적 링크통합에서 오류가 나 설정을 바꿨다.
+- [ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다](https://www.ramoo.net/lab-log/iptime-a3004ns-m/index.md): VPN과 USB 간이 NAS에서는 문제가 있었지만, 공유기 기능만 쓰니 안정적이었다. 2020년 사용 기록.
+- [C++11 emplace_back 메모](https://www.ramoo.net/lab-log/cpp11-emplace/index.md): 생성자 인자를 바로 넘겨 원소를 만드는 emplace_back과 push_back을 비교한 코드 조각.
+- [SSL For Free에서 와일드카드 인증서를 받았던 기록](https://www.ramoo.net/lab-log/synology-wildcard-sslforfree/index.md): 2019년에 SSL For Free에서 와일드카드 인증서를 발급했던 기록. 이후에는 Mac의 Certbot으로 바꿨다.
+- [DS918+ 메모리 업그레이드](https://www.ramoo.net/lab-log/ds918-memory-upgrade/index.md): DS918+에 CT2K102464BF186D 메모리를 장착한 기록. 사용 중 느낀 변화와 남은 기존 메모리 이야기.
+- [Mac에 Jenkins를 설치했던 기록](https://www.ramoo.net/lab-log/mac-jenkins-install/index.md): Homebrew로 Jenkins를 설치하고 Java 8 오류를 해결했던 2019년 기록.
+- [Synology NAS에서 특정 지역 접속을 차단했다](https://www.ramoo.net/lab-log/synology-region-firewall/index.md): 반복되는 admin 로그인 시도를 보고 DSM 방화벽에서 지역별 규칙을 만들었다. 이후 특정 포트만 차단하도록 바꿨다.
 
 ## Pages
-- [Pages](https://doramoo759.github.io/pages/index.md)
+- [Pages](https://www.ramoo.net/pages/index.md)
 
-- [AI & Crawling Policy](https://doramoo759.github.io/ai-crawling-policy/index.md): Conditions for search indexing, automated collection, AI training, and dataset use.
-- [Content License](https://doramoo759.github.io/license/index.md): Permissions and restrictions for reusing original ramoo.net content.
-- [Cookie Policy](https://doramoo759.github.io/cookie-policy/index.md): Cookies, browser storage, and controls available to visitors to ramoo.net.
-- [Disclaimer](https://doramoo759.github.io/disclaimer/index.md): Limitations of the information, instructions, and external services mentioned on ramoo.net.
-- [Open Source](https://doramoo759.github.io/open-source/index.md): Open-source tools used to build and maintain ramoo.net.
-- [Privacy Policy](https://doramoo759.github.io/privacy-policy/index.md): How ramoo.net handles visitor information and third-party services.
-- [Terms of Use](https://doramoo759.github.io/terms/index.md): Rules for accessing and using ramoo.net.
-- [Third-Party Notices](https://doramoo759.github.io/third-party-notices/index.md): Attribution and license references for software and external assets used by ramoo.net.
+- [AI & Crawling Policy](https://www.ramoo.net/ai-crawling-policy/index.md): Conditions for search indexing, automated collection, AI training, and dataset use.
+- [Content License](https://www.ramoo.net/license/index.md): Permissions and restrictions for reusing original ramoo.net content.
+- [Cookie Policy](https://www.ramoo.net/cookie-policy/index.md): Cookies, browser storage, and controls available to visitors to ramoo.net.
+- [Disclaimer](https://www.ramoo.net/disclaimer/index.md): Limitations of the information, instructions, and external services mentioned on ramoo.net.
+- [Open Source](https://www.ramoo.net/open-source/index.md): Open-source tools used to build and maintain ramoo.net.
+- [Privacy Policy](https://www.ramoo.net/privacy-policy/index.md): How ramoo.net handles visitor information and third-party services.
+- [Terms of Use](https://www.ramoo.net/terms/index.md): Rules for accessing and using ramoo.net.
+- [Third-Party Notices](https://www.ramoo.net/third-party-notices/index.md): Attribution and license references for software and external assets used by ramoo.net.
 
 ## Country Home
-- [Country Home](https://doramoo759.github.io/house-project/index.md): 언젠가 지을 집을 위한 메모
+- [Country Home](https://www.ramoo.net/house-project/index.md): 언젠가 지을 집을 위한 메모
 
-- [목구조에 대한 오해를 끝내야 할때!](https://doramoo759.github.io/house-project/jungmog-gujo-jutaeg/index.md): 목구조에 대한 편견은 없다. 대지가 마음에 들어 스크랩했고, 주차 공간과 전망, 주방 배치를 함께 적어 뒀다.
-- [보는 순간 스크랩 하지 않을 수 없었다.](https://doramoo759.github.io/house-project/boneun-sungan-seukeuraeb-haji-anhgo-neomeogal-su-eobseossdeon-jib/index.md): 지대가 좀 높긴 하지만 영구 전망과 공간 구성이 마음에 들어 스크랩했다. 집 구조 자체는 사실 그다지 마음에 들지 않는다.
-- [심플한 외관 깔끔한 실내 인테리어](https://doramoo759.github.io/house-project/simpeulhan-oegwan-ggalggeumhan-silnae-interieo/index.md): 생각보다 집 구조와 인테리어가 깔끔하다. 나중에 집을 지을 때 참고할 만해서 기록해 둔다.
-- [기억 하자! 직결 배관](https://doramoo759.github.io/house-project/gieog-haja-jiggyeol-baegwan/index.md): 감성주택은 나중에 상담을 한번 받아 보고 싶은 업체다. 하자 관리에 중점을 두는 듯한 인상과 처음 알게 된 이중 배관을 기록해 둔다.
-- [자연의 감성을 담은 창원시 45평 전원주택 - 더존하우징](https://doramoo759.github.io/house-project/jayeonyi-gamseongeul-dameun-cangweonsi-45pyeong-jeonweonjutaeg-deojonhaujing-scrap/index.md): 더존하우징의 창원 45평 주택. 비탈진 경사지에 벙커 주차장으로 구조를 잡은 점이 인상적이다. 다만 토목 공사비는 더 들 것 같다.
-- [건축탐구 집 - 중목/콘트리트 취향이 담긴 집](https://doramoo759.github.io/house-project/geoncugtamgu-jib-cungju/index.md): 특이해서 기록하지만 내 기준에는 집이 너무 크다. 파인 지형을 어떻게 다룰지 참고하기 좋은 사례다.
+- [목구조에 대한 오해를 끝내야 할때!](https://www.ramoo.net/house-project/jungmog-gujo-jutaeg/index.md): 목구조에 대한 편견은 없다. 대지가 마음에 들어 스크랩했고, 주차 공간과 전망, 주방 배치를 함께 적어 뒀다.
+- [보는 순간 스크랩 하지 않을 수 없었다.](https://www.ramoo.net/house-project/boneun-sungan-seukeuraeb-haji-anhgo-neomeogal-su-eobseossdeon-jib/index.md): 지대가 좀 높긴 하지만 영구 전망과 공간 구성이 마음에 들어 스크랩했다. 집 구조 자체는 사실 그다지 마음에 들지 않는다.
+- [심플한 외관 깔끔한 실내 인테리어](https://www.ramoo.net/house-project/simpeulhan-oegwan-ggalggeumhan-silnae-interieo/index.md): 생각보다 집 구조와 인테리어가 깔끔하다. 나중에 집을 지을 때 참고할 만해서 기록해 둔다.
+- [기억 하자! 직결 배관](https://www.ramoo.net/house-project/gieog-haja-jiggyeol-baegwan/index.md): 감성주택은 나중에 상담을 한번 받아 보고 싶은 업체다. 하자 관리에 중점을 두는 듯한 인상과 처음 알게 된 이중 배관을 기록해 둔다.
+- [자연의 감성을 담은 창원시 45평 전원주택 - 더존하우징](https://www.ramoo.net/house-project/jayeonyi-gamseongeul-dameun-cangweonsi-45pyeong-jeonweonjutaeg-deojonhaujing-scrap/index.md): 더존하우징의 창원 45평 주택. 비탈진 경사지에 벙커 주차장으로 구조를 잡은 점이 인상적이다. 다만 토목 공사비는 더 들 것 같다.
+- [건축탐구 집 - 중목/콘트리트 취향이 담긴 집](https://www.ramoo.net/house-project/geoncugtamgu-jib-cungju/index.md): 특이해서 기록하지만 내 기준에는 집이 너무 크다. 파인 지형을 어떻게 다룰지 참고하기 좋은 사례다.
 
 ## Off Duty
-- [Off Duty](https://doramoo759.github.io/off-duty/index.md): 일상과 관심사, 가끔의 딴짓
+- [Off Duty](https://www.ramoo.net/off-duty/index.md): 일상과 관심사, 가끔의 딴짓
 
-- [LG 43UN700 모니터, 2주 사용 기록](https://doramoo759.github.io/off-duty/lg-43un700-monitor/index.md): 큰 화면과 USB-C 허브 기능은 편했다. CalDigit TS3 Plus에 연결했을 때 붉게 보이던 화면은 DP 설정을 바꿔 해결했다.
-- [Catalina에서 사라진 iTunes를 찾다가](https://doramoo759.github.io/off-duty/macos-catalina-itunes/index.md): iTunes를 찾다가 Catalina에서는 Finder로 기기를 동기화한다는 것을 알게 됐다.
-- [Mac Finder에서 숨김 파일 표시](https://doramoo759.github.io/off-duty/mac-finder-hidden-files/index.md): 한 번 설정하고 잊기 쉬운 Finder 숨김 파일 표시 명령과 재실행 방법.
-- [Mac Time Machine 백업 속도 메모](https://doramoo759.github.io/off-duty/mac-time-machine-speed/index.md): 업데이트 문제를 Time Machine으로 복원한 뒤 백업 속도를 조정해 본 기록.
+- [LG 43UN700 모니터, 2주 사용 기록](https://www.ramoo.net/off-duty/lg-43un700-monitor/index.md): 큰 화면과 USB-C 허브 기능은 편했다. CalDigit TS3 Plus에 연결했을 때 붉게 보이던 화면은 DP 설정을 바꿔 해결했다.
+- [Catalina에서 사라진 iTunes를 찾다가](https://www.ramoo.net/off-duty/macos-catalina-itunes/index.md): iTunes를 찾다가 Catalina에서는 Finder로 기기를 동기화한다는 것을 알게 됐다.
+- [Mac Finder에서 숨김 파일 표시](https://www.ramoo.net/off-duty/mac-finder-hidden-files/index.md): 한 번 설정하고 잊기 쉬운 Finder 숨김 파일 표시 명령과 재실행 방법.
+- [Mac Time Machine 백업 속도 메모](https://www.ramoo.net/off-duty/mac-time-machine-speed/index.md): 업데이트 문제를 Time Machine으로 복원한 뒤 백업 속도를 조정해 본 기록.
 
 ## Authors
-- [Authors](https://doramoo759.github.io/authors/index.md)
+- [Authors](https://www.ramoo.net/authors/index.md)
 
-- [ramoo](https://doramoo759.github.io/authors/ramoo/index.md): ramoo.net 작성자
+- [ramoo](https://www.ramoo.net/authors/ramoo/index.md): ramoo.net 작성자
 
 ## Categories
-- [Categories](https://doramoo759.github.io/categories/index.md)
-- [Country Home](https://doramoo759.github.io/categories/country-home/index.md)
-- [Dev Log](https://doramoo759.github.io/categories/dev-log/index.md)
-- [Money](https://doramoo759.github.io/categories/money/index.md)
-- [Off Duty](https://doramoo759.github.io/categories/off-duty/index.md)
+- [Categories](https://www.ramoo.net/categories/index.md)
+- [Country Home](https://www.ramoo.net/categories/country-home/index.md)
+- [Dev Log](https://www.ramoo.net/categories/dev-log/index.md)
+- [Money](https://www.ramoo.net/categories/money/index.md)
+- [Off Duty](https://www.ramoo.net/categories/off-duty/index.md)
 
 ## Tags
-- [Tags](https://doramoo759.github.io/tags/index.md)
-- [2.5G](https://doramoo759.github.io/tags/2.5g/index.md)
-- [A3004NS-M](https://doramoo759.github.io/tags/a3004ns-m/index.md)
-- [Apache Guacamole](https://doramoo759.github.io/tags/apache-guacamole/index.md)
-- [Certbot](https://doramoo759.github.io/tags/certbot/index.md)
-- [Distributed Systems](https://doramoo759.github.io/tags/distributed-systems/index.md)
-- [DNS](https://doramoo759.github.io/tags/dns/index.md)
-- [Docker](https://doramoo759.github.io/tags/docker/index.md)
-- [Domain](https://doramoo759.github.io/tags/domain/index.md)
-- [DS918+](https://doramoo759.github.io/tags/ds918+/index.md)
-- [DSM](https://doramoo759.github.io/tags/dsm/index.md)
-- [DSM 7.0](https://doramoo759.github.io/tags/dsm-7.0/index.md)
-- [ETF](https://doramoo759.github.io/tags/etf/index.md)
-- [Firewall](https://doramoo759.github.io/tags/firewall/index.md)
-- [FlatBuffers](https://doramoo759.github.io/tags/flatbuffers/index.md)
-- [GitLab](https://doramoo759.github.io/tags/gitlab/index.md)
-- [HomeLab](https://doramoo759.github.io/tags/homelab/index.md)
-- [IpTIME](https://doramoo759.github.io/tags/iptime/index.md)
-- [LACP](https://doramoo759.github.io/tags/lacp/index.md)
-- [Let's Encrypt](https://doramoo759.github.io/tags/lets-encrypt/index.md)
-- [Life](https://doramoo759.github.io/tags/life/index.md)
-- [Mac](https://doramoo759.github.io/tags/mac/index.md)
-- [MacOS](https://doramoo759.github.io/tags/macos/index.md)
-- [Memory](https://doramoo759.github.io/tags/memory/index.md)
-- [Messaging](https://doramoo759.github.io/tags/messaging/index.md)
-- [NAS](https://doramoo759.github.io/tags/nas/index.md)
-- [Networking](https://doramoo759.github.io/tags/networking/index.md)
-- [PBR](https://doramoo759.github.io/tags/pbr/index.md)
-- [PER](https://doramoo759.github.io/tags/per/index.md)
-- [Performance](https://doramoo759.github.io/tags/performance/index.md)
-- [PSR](https://doramoo759.github.io/tags/psr/index.md)
-- [RDP](https://doramoo759.github.io/tags/rdp/index.md)
-- [Remote Access](https://doramoo759.github.io/tags/remote-access/index.md)
-- [RTL8156](https://doramoo759.github.io/tags/rtl8156/index.md)
-- [Serialization](https://doramoo759.github.io/tags/serialization/index.md)
-- [SSH](https://doramoo759.github.io/tags/ssh/index.md)
-- [SSL](https://doramoo759.github.io/tags/ssl/index.md)
-- [Synology](https://doramoo759.github.io/tags/synology/index.md)
-- [System Design](https://doramoo759.github.io/tags/system-design/index.md)
-- [TL-SG2008](https://doramoo759.github.io/tags/tl-sg2008/index.md)
-- [Ubuntu 22.04](https://doramoo759.github.io/tags/ubuntu-22.04/index.md)
-- [USB LAN](https://doramoo759.github.io/tags/usb-lan/index.md)
-- [VNC](https://doramoo759.github.io/tags/vnc/index.md)
-- [VPN](https://doramoo759.github.io/tags/vpn/index.md)
-- [Wildcard](https://doramoo759.github.io/tags/wildcard/index.md)
-- [ZeroMQ](https://doramoo759.github.io/tags/zeromq/index.md)
-- [가치평가](https://doramoo759.github.io/tags/%EA%B0%80%EC%B9%98%ED%8F%89%EA%B0%80/index.md)
-- [배당주](https://doramoo759.github.io/tags/%EB%B0%B0%EB%8B%B9%EC%A3%BC/index.md)
-- [성장주](https://doramoo759.github.io/tags/%EC%84%B1%EC%9E%A5%EC%A3%BC/index.md)
-- [숏커버](https://doramoo759.github.io/tags/%EC%88%8F%EC%BB%A4%EB%B2%84/index.md)
-- [장기투자](https://doramoo759.github.io/tags/%EC%9E%A5%EA%B8%B0%ED%88%AC%EC%9E%90/index.md)
-- [전원주택](https://doramoo759.github.io/tags/%EC%A0%84%EC%9B%90%EC%A3%BC%ED%83%9D/index.md)
-- [주식](https://doramoo759.github.io/tags/%EC%A3%BC%EC%8B%9D/index.md)
-- [주택 스크랩](https://doramoo759.github.io/tags/%EC%A3%BC%ED%83%9D-%EC%8A%A4%ED%81%AC%EB%9E%A9/index.md)
-- [투자기초](https://doramoo759.github.io/tags/%ED%88%AC%EC%9E%90%EA%B8%B0%EC%B4%88/index.md)
-- [포트폴리오](https://doramoo759.github.io/tags/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/index.md)
+- [Tags](https://www.ramoo.net/tags/index.md)
+- [2.5G](https://www.ramoo.net/tags/2.5g/index.md)
+- [A3004NS-M](https://www.ramoo.net/tags/a3004ns-m/index.md)
+- [Apache Guacamole](https://www.ramoo.net/tags/apache-guacamole/index.md)
+- [Certbot](https://www.ramoo.net/tags/certbot/index.md)
+- [Distributed Systems](https://www.ramoo.net/tags/distributed-systems/index.md)
+- [DNS](https://www.ramoo.net/tags/dns/index.md)
+- [Docker](https://www.ramoo.net/tags/docker/index.md)
+- [Domain](https://www.ramoo.net/tags/domain/index.md)
+- [DS918+](https://www.ramoo.net/tags/ds918+/index.md)
+- [DSM](https://www.ramoo.net/tags/dsm/index.md)
+- [DSM 7.0](https://www.ramoo.net/tags/dsm-7.0/index.md)
+- [ETF](https://www.ramoo.net/tags/etf/index.md)
+- [Firewall](https://www.ramoo.net/tags/firewall/index.md)
+- [FlatBuffers](https://www.ramoo.net/tags/flatbuffers/index.md)
+- [GitLab](https://www.ramoo.net/tags/gitlab/index.md)
+- [HomeLab](https://www.ramoo.net/tags/homelab/index.md)
+- [IpTIME](https://www.ramoo.net/tags/iptime/index.md)
+- [LACP](https://www.ramoo.net/tags/lacp/index.md)
+- [Let's Encrypt](https://www.ramoo.net/tags/lets-encrypt/index.md)
+- [Life](https://www.ramoo.net/tags/life/index.md)
+- [Mac](https://www.ramoo.net/tags/mac/index.md)
+- [MacOS](https://www.ramoo.net/tags/macos/index.md)
+- [Memory](https://www.ramoo.net/tags/memory/index.md)
+- [Messaging](https://www.ramoo.net/tags/messaging/index.md)
+- [NAS](https://www.ramoo.net/tags/nas/index.md)
+- [Networking](https://www.ramoo.net/tags/networking/index.md)
+- [PBR](https://www.ramoo.net/tags/pbr/index.md)
+- [PER](https://www.ramoo.net/tags/per/index.md)
+- [Performance](https://www.ramoo.net/tags/performance/index.md)
+- [PSR](https://www.ramoo.net/tags/psr/index.md)
+- [RDP](https://www.ramoo.net/tags/rdp/index.md)
+- [Remote Access](https://www.ramoo.net/tags/remote-access/index.md)
+- [RTL8156](https://www.ramoo.net/tags/rtl8156/index.md)
+- [Serialization](https://www.ramoo.net/tags/serialization/index.md)
+- [SSH](https://www.ramoo.net/tags/ssh/index.md)
+- [SSL](https://www.ramoo.net/tags/ssl/index.md)
+- [Synology](https://www.ramoo.net/tags/synology/index.md)
+- [System Design](https://www.ramoo.net/tags/system-design/index.md)
+- [TL-SG2008](https://www.ramoo.net/tags/tl-sg2008/index.md)
+- [Ubuntu 22.04](https://www.ramoo.net/tags/ubuntu-22.04/index.md)
+- [USB LAN](https://www.ramoo.net/tags/usb-lan/index.md)
+- [VNC](https://www.ramoo.net/tags/vnc/index.md)
+- [VPN](https://www.ramoo.net/tags/vpn/index.md)
+- [Wildcard](https://www.ramoo.net/tags/wildcard/index.md)
+- [ZeroMQ](https://www.ramoo.net/tags/zeromq/index.md)
+- [가치평가](https://www.ramoo.net/tags/%EA%B0%80%EC%B9%98%ED%8F%89%EA%B0%80/index.md)
+- [배당주](https://www.ramoo.net/tags/%EB%B0%B0%EB%8B%B9%EC%A3%BC/index.md)
+- [성장주](https://www.ramoo.net/tags/%EC%84%B1%EC%9E%A5%EC%A3%BC/index.md)
+- [숏커버](https://www.ramoo.net/tags/%EC%88%8F%EC%BB%A4%EB%B2%84/index.md)
+- [장기투자](https://www.ramoo.net/tags/%EC%9E%A5%EA%B8%B0%ED%88%AC%EC%9E%90/index.md)
+- [전원주택](https://www.ramoo.net/tags/%EC%A0%84%EC%9B%90%EC%A3%BC%ED%83%9D/index.md)
+- [주식](https://www.ramoo.net/tags/%EC%A3%BC%EC%8B%9D/index.md)
+- [주택 스크랩](https://www.ramoo.net/tags/%EC%A3%BC%ED%83%9D-%EC%8A%A4%ED%81%AC%EB%9E%A9/index.md)
+- [투자기초](https://www.ramoo.net/tags/%ED%88%AC%EC%9E%90%EA%B8%B0%EC%B4%88/index.md)
+- [포트폴리오](https://www.ramoo.net/tags/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/index.md)

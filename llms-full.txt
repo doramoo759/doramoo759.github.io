@@ -4,13 +4,13 @@
 
 --------------------------------------------------------------------------------
 title: "Home"
-url: https://doramoo759.github.io/index.md
+url: https://www.ramoo.net/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "About"
-url: https://doramoo759.github.io/about/index.md
+url: https://www.ramoo.net/about/index.md
 description: About ramoo and this personal site.
 --------------------------------------------------------------------------------
 
@@ -23,28 +23,28 @@ Keeping a site updated regularly isn't easy, but I'm going to try.
 
 --------------------------------------------------------------------------------
 title: "Contact"
-url: https://doramoo759.github.io/contact/index.md
+url: https://www.ramoo.net/contact/index.md
 description: Contact information for ramoo.net.
 --------------------------------------------------------------------------------
 Contact information for ramoo.net.
 
 --------------------------------------------------------------------------------
 title: "블로그"
-url: https://doramoo759.github.io/blog/index.md
+url: https://www.ramoo.net/blog/index.md
 description: ramoo.net 글 목록
 --------------------------------------------------------------------------------
 ramoo.net 글 목록
 
 --------------------------------------------------------------------------------
 title: "Money"
-url: https://doramoo759.github.io/money-log/index.md
+url: https://www.ramoo.net/money-log/index.md
 description: 투자와 돈에 관한 공부
 --------------------------------------------------------------------------------
 투자와 돈에 관한 공부
 
 --------------------------------------------------------------------------------
 title: "주린이 벗어나기 3탄: 포트폴리오를 나눌 때 확인할 것"
-url: https://doramoo759.github.io/money-log/jurini-portfolio-3/index.md
+url: https://www.ramoo.net/money-log/jurini-portfolio-3/index.md
 date: "2026-04-29"
 description: ETF의 편입 종목이 겹치는지, 투자금이 어디에 쏠리는지, 환율과 비용을 반영했는지 확인하는 메모.
 --------------------------------------------------------------------------------
@@ -86,7 +86,7 @@ ETF도 마찬가지다. S&P500 ETF에 테크 ETF를 더하면 이름은 둘이�
 
 --------------------------------------------------------------------------------
 title: "주린이 벗어나기 2탄: 배당주와 성장주를 보며 든 생각"
-url: https://doramoo759.github.io/money-log/jurini-dividend-vs-growth-2/index.md
+url: https://www.ramoo.net/money-log/jurini-dividend-vs-growth-2/index.md
 date: "2026-04-29"
 description: 배당과 성장에서 기대하는 것, 투자 기간, 복리 계산, 숏커버를 공부한 메모.
 --------------------------------------------------------------------------------
@@ -138,7 +138,7 @@ description: 배당과 성장에서 기대하는 것, 투자 기간, 복리 계�
 
 --------------------------------------------------------------------------------
 title: "주린이 벗어나기 1탄: PER, PBR, PSR을 읽을 때 놓치기 쉬운 것"
-url: https://doramoo759.github.io/money-log/jurini-indicators-1/index.md
+url: https://www.ramoo.net/money-log/jurini-indicators-1/index.md
 date: "2026-04-29"
 description: PER, PBR, PSR을 볼 때 이익·자산·매출에서 같이 확인할 내용을 적은 공부 메모.
 --------------------------------------------------------------------------------
@@ -186,14 +186,14 @@ PSR은 시가총액을 매출액으로 나눈 값이다. 아직 이익이 나지
 
 --------------------------------------------------------------------------------
 title: "Dev Log"
-url: https://doramoo759.github.io/lab-log/index.md
+url: https://www.ramoo.net/lab-log/index.md
 description: 개발, 서버, NAS를 만지며 남긴 기록
 --------------------------------------------------------------------------------
 개발, 서버, NAS를 만지며 남긴 기록
 
 --------------------------------------------------------------------------------
 title: "Apache Guacamole를 사내망에서 테스트해 봤다"
-url: https://doramoo759.github.io/lab-log/apache-guacamole-intro/index.md
+url: https://www.ramoo.net/lab-log/apache-guacamole-intro/index.md
 date: "2026-04-24"
 description: 브라우저 SSH 접속은 편했지만 LDAP 연동과 계정·세션 관리가 걸렸다. 사내망 테스트에서 멈춘 기록.
 --------------------------------------------------------------------------------
@@ -234,7 +234,7 @@ LDAP 연동에서 불안정한 부분이 있었다. 테스트에서는 다시 �
 
 --------------------------------------------------------------------------------
 title: "FlatBuffers 기본 개념과 Ubuntu 22.04 빌드 메모"
-url: https://doramoo759.github.io/lab-log/flatbuffers-in-real-systems/index.md
+url: https://www.ramoo.net/lab-log/flatbuffers-in-real-systems/index.md
 date: "2026-04-23"
 description: FlatBuffers가 버퍼를 읽는 방식과 스키마·생성 코드, Ubuntu 22.04 소스 빌드 명령.
 --------------------------------------------------------------------------------
@@ -298,7 +298,7 @@ sudo ldconfig
 
 --------------------------------------------------------------------------------
 title: "ZeroMQ를 살펴보며 적어 둔 메시징 패턴"
-url: https://doramoo759.github.io/lab-log/zeromq-patterns/index.md
+url: https://www.ramoo.net/lab-log/zeromq-patterns/index.md
 date: "2026-04-23"
 description: REQ/REP, PUB/SUB, PUSH/PULL, PAIR의 메시지 흐름과 애플리케이션에서 정할 부분.
 --------------------------------------------------------------------------------
@@ -337,7 +337,7 @@ ZeroMQ는 프로그램 안에서 메시지를 주고받는 데 쓰는 라이브�
 
 --------------------------------------------------------------------------------
 title: "DS918+에 USB 2.5G LAN을 붙였다가 뺀 이야기"
-url: https://doramoo759.github.io/lab-log/ds918-plus-25g-upgrade/index.md
+url: https://www.ramoo.net/lab-log/ds918-plus-25g-upgrade/index.md
 date: "2022-11-16"
 description: ipTIME U2500과 r8152 드라이버로 구성한 DS918+ 2.5G 연결. 설치 과정과 전송 속도, 철거한 이유.
 --------------------------------------------------------------------------------
@@ -407,7 +407,7 @@ PC와 NAS를 직접 연결해 수동 IP를 잡는 방법도 있지만, 나는 2.
 
 --------------------------------------------------------------------------------
 title: "Synology GitLab CE 컨테이너 업데이트 메모"
-url: https://doramoo759.github.io/lab-log/synology-gitlab-docker-update/index.md
+url: https://www.ramoo.net/lab-log/synology-gitlab-docker-update/index.md
 date: "2022-03-22"
 description: GitLab CE 14.8.3에서 14.8.4로 업데이트할 때 사용한 DSM Docker 화면과 설정 내보내기·가져오기 기록.
 --------------------------------------------------------------------------------
@@ -481,7 +481,7 @@ GitLab CE를 Docker Registry에서 받아 설치해 두었다. 설치한 이미�
 
 --------------------------------------------------------------------------------
 title: "Synology DNS Server 설치와 레코드 설정 메모"
-url: https://doramoo759.github.io/lab-log/synology-dns-server/index.md
+url: https://www.ramoo.net/lab-log/synology-dns-server/index.md
 date: "2021-07-31"
 description: DSM 7.0에서 DNS Server를 설치하고 정방향 영역, A·PTR 레코드, 네임서버 설정을 살펴본 기록.
 --------------------------------------------------------------------------------
@@ -583,7 +583,7 @@ NAS에 직접 물었을 때 레코드가 나오는지, 일반 DNS 조회에서�
 
 --------------------------------------------------------------------------------
 title: "C++ tuple로 여러 결과 반환하기"
-url: https://doramoo759.github.io/lab-log/cpp11-tuple/index.md
+url: https://www.ramoo.net/lab-log/cpp11-tuple/index.md
 date: "2021-06-26"
 description: 함수 결과를 tuple로 묶고 get과 tie로 꺼내는 예제. 마지막 구조적 바인딩은 C++17 문법이다.
 --------------------------------------------------------------------------------
@@ -633,7 +633,7 @@ int main()
 
 --------------------------------------------------------------------------------
 title: "C++ 람다를 쓰며 적어 둔 메모"
-url: https://doramoo759.github.io/lab-log/cpp11-lambda/index.md
+url: https://www.ramoo.net/lab-log/cpp11-lambda/index.md
 date: "2021-01-30"
 description: 캡처 방식과 std::function 콜백, 정렬에 람다를 쓰는 형태를 적어 둔 메모.
 --------------------------------------------------------------------------------
@@ -724,7 +724,7 @@ int main()
 
 --------------------------------------------------------------------------------
 title: "Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다"
-url: https://doramoo759.github.io/lab-log/synology-wildcard-certbot-mac/index.md
+url: https://www.ramoo.net/lab-log/synology-wildcard-certbot-mac/index.md
 date: "2021-01-09"
 description: Mac에서 Certbot을 실행하고 NAS DNS에 TXT 레코드를 추가한 뒤 인증서를 가져온 기록. 2021년 화면 기준.
 --------------------------------------------------------------------------------
@@ -829,7 +829,7 @@ IMPORTANT NOTES:
 
 --------------------------------------------------------------------------------
 title: "TL-SG2008로 DS918+ 링크통합을 시도했다"
-url: https://doramoo759.github.io/lab-log/tl-sg2008-lacp/index.md
+url: https://www.ramoo.net/lab-log/tl-sg2008-lacp/index.md
 date: "2021-01-01"
 description: DS918+의 두 LAN 포트를 쓰려고 고른 TL-SG2008. 동적 링크통합에서 오류가 나 설정을 바꿨다.
 --------------------------------------------------------------------------------
@@ -863,7 +863,7 @@ LACP를 지원하는 스위치를 찾다가 TL-SG2008을 골랐다.
 
 --------------------------------------------------------------------------------
 title: "ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다"
-url: https://doramoo759.github.io/lab-log/iptime-a3004ns-m/index.md
+url: https://www.ramoo.net/lab-log/iptime-a3004ns-m/index.md
 date: "2020-07-26"
 description: VPN과 USB 간이 NAS에서는 문제가 있었지만, 공유기 기능만 쓰니 안정적이었다. 2020년 사용 기록.
 --------------------------------------------------------------------------------
@@ -895,7 +895,7 @@ USB 3.0에 저장 장치를 붙여 간이 NAS로도 써 봤지만, 3개월을 �
 
 --------------------------------------------------------------------------------
 title: "C++11 emplace_back 메모"
-url: https://doramoo759.github.io/lab-log/cpp11-emplace/index.md
+url: https://www.ramoo.net/lab-log/cpp11-emplace/index.md
 date: "2020-04-17"
 description: 생성자 인자를 바로 넘겨 원소를 만드는 emplace_back과 push_back을 비교한 코드 조각.
 --------------------------------------------------------------------------------
@@ -925,7 +925,7 @@ void main(){
 
 --------------------------------------------------------------------------------
 title: "SSL For Free에서 와일드카드 인증서를 받았던 기록"
-url: https://doramoo759.github.io/lab-log/synology-wildcard-sslforfree/index.md
+url: https://www.ramoo.net/lab-log/synology-wildcard-sslforfree/index.md
 date: "2019-12-11"
 description: 2019년에 SSL For Free에서 와일드카드 인증서를 발급했던 기록. 이후에는 Mac의 Certbot으로 바꿨다.
 --------------------------------------------------------------------------------
@@ -957,7 +957,7 @@ description: 2019년에 SSL For Free에서 와일드카드 인증서를 발급�
 
 --------------------------------------------------------------------------------
 title: "DS918+ 메모리 업그레이드"
-url: https://doramoo759.github.io/lab-log/ds918-memory-upgrade/index.md
+url: https://www.ramoo.net/lab-log/ds918-memory-upgrade/index.md
 date: "2019-11-02"
 description: DS918+에 CT2K102464BF186D 메모리를 장착한 기록. 사용 중 느낀 변화와 남은 기존 메모리 이야기.
 --------------------------------------------------------------------------------
@@ -987,7 +987,7 @@ CT2K102464BF186D
 
 --------------------------------------------------------------------------------
 title: "Mac에 Jenkins를 설치했던 기록"
-url: https://doramoo759.github.io/lab-log/mac-jenkins-install/index.md
+url: https://www.ramoo.net/lab-log/mac-jenkins-install/index.md
 date: "2019-10-29"
 description: Homebrew로 Jenkins를 설치하고 Java 8 오류를 해결했던 2019년 기록.
 --------------------------------------------------------------------------------
@@ -1047,7 +1047,7 @@ Xcode로 `homebrew.mxcl.jenkins.plist`를 열어 주소와 포트를 바꿨다.
 
 --------------------------------------------------------------------------------
 title: "Synology NAS에서 특정 지역 접속을 차단했다"
-url: https://doramoo759.github.io/lab-log/synology-region-firewall/index.md
+url: https://www.ramoo.net/lab-log/synology-region-firewall/index.md
 date: "2019-10-27"
 description: 반복되는 admin 로그인 시도를 보고 DSM 방화벽에서 지역별 규칙을 만들었다. 이후 특정 포트만 차단하도록 바꿨다.
 --------------------------------------------------------------------------------
@@ -1075,13 +1075,13 @@ NAS에 admin 계정으로 로그인하려는 흔적이 계속 보여서 IP 위�
 
 --------------------------------------------------------------------------------
 title: "Pages"
-url: https://doramoo759.github.io/pages/index.md
+url: https://www.ramoo.net/pages/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "AI & Crawling Policy"
-url: https://doramoo759.github.io/ai-crawling-policy/index.md
+url: https://www.ramoo.net/ai-crawling-policy/index.md
 date: "2026-01-01"
 description: Conditions for search indexing, automated collection, AI training, and dataset use.
 --------------------------------------------------------------------------------
@@ -1119,7 +1119,7 @@ Last updated: October 9, 2026
 
 --------------------------------------------------------------------------------
 title: "Content License"
-url: https://doramoo759.github.io/license/index.md
+url: https://www.ramoo.net/license/index.md
 date: "2026-01-01"
 description: Permissions and restrictions for reusing original ramoo.net content.
 --------------------------------------------------------------------------------
@@ -1174,7 +1174,7 @@ Last updated: October 9, 2026
 
 --------------------------------------------------------------------------------
 title: "Cookie Policy"
-url: https://doramoo759.github.io/cookie-policy/index.md
+url: https://www.ramoo.net/cookie-policy/index.md
 date: "2026-01-01"
 description: Cookies, browser storage, and controls available to visitors to ramoo.net.
 --------------------------------------------------------------------------------
@@ -1206,7 +1206,7 @@ Last updated: October 9, 2026
 
 --------------------------------------------------------------------------------
 title: "Disclaimer"
-url: https://doramoo759.github.io/disclaimer/index.md
+url: https://www.ramoo.net/disclaimer/index.md
 date: "2026-01-01"
 description: Limitations of the information, instructions, and external services mentioned on ramoo.net.
 --------------------------------------------------------------------------------
@@ -1240,7 +1240,7 @@ Last updated: October 9, 2026
 
 --------------------------------------------------------------------------------
 title: "Open Source"
-url: https://doramoo759.github.io/open-source/index.md
+url: https://www.ramoo.net/open-source/index.md
 date: "2026-01-01"
 description: Open-source tools used to build and maintain ramoo.net.
 --------------------------------------------------------------------------------
@@ -1266,7 +1266,7 @@ Last updated: October 9, 2026
 
 --------------------------------------------------------------------------------
 title: "Privacy Policy"
-url: https://doramoo759.github.io/privacy-policy/index.md
+url: https://www.ramoo.net/privacy-policy/index.md
 date: "2026-01-01"
 description: How ramoo.net handles visitor information and third-party services.
 --------------------------------------------------------------------------------
@@ -1314,7 +1314,7 @@ Last updated: October 9, 2026
 
 --------------------------------------------------------------------------------
 title: "Terms of Use"
-url: https://doramoo759.github.io/terms/index.md
+url: https://www.ramoo.net/terms/index.md
 date: "2026-01-01"
 description: Rules for accessing and using ramoo.net.
 --------------------------------------------------------------------------------
@@ -1352,7 +1352,7 @@ Last updated: October 9, 2026
 
 --------------------------------------------------------------------------------
 title: "Third-Party Notices"
-url: https://doramoo759.github.io/third-party-notices/index.md
+url: https://www.ramoo.net/third-party-notices/index.md
 date: "2026-01-01"
 description: Attribution and license references for software and external assets used by ramoo.net.
 --------------------------------------------------------------------------------
@@ -1391,7 +1391,7 @@ Last updated: October 9, 2026
 
 --------------------------------------------------------------------------------
 title: "Country Home"
-url: https://doramoo759.github.io/house-project/index.md
+url: https://www.ramoo.net/house-project/index.md
 description: 언젠가 지을 집을 위한 메모
 --------------------------------------------------------------------------------
 
@@ -1399,7 +1399,7 @@ description: 언젠가 지을 집을 위한 메모
 
 --------------------------------------------------------------------------------
 title: "목구조에 대한 오해를 끝내야 할때!"
-url: https://doramoo759.github.io/house-project/jungmog-gujo-jutaeg/index.md
+url: https://www.ramoo.net/house-project/jungmog-gujo-jutaeg/index.md
 date: "2025-08-17"
 description: 목구조에 대한 편견은 없다. 대지가 마음에 들어 스크랩했고, 주차 공간과 전망, 주방 배치를 함께 적어 뒀다.
 --------------------------------------------------------------------------------
@@ -1465,7 +1465,7 @@ description: 목구조에 대한 편견은 없다. 대지가 마음에 들어 �
 
 --------------------------------------------------------------------------------
 title: "보는 순간 스크랩 하지 않을 수 없었다."
-url: https://doramoo759.github.io/house-project/boneun-sungan-seukeuraeb-haji-anhgo-neomeogal-su-eobseossdeon-jib/index.md
+url: https://www.ramoo.net/house-project/boneun-sungan-seukeuraeb-haji-anhgo-neomeogal-su-eobseossdeon-jib/index.md
 date: "2025-07-26"
 description: 지대가 좀 높긴 하지만 영구 전망과 공간 구성이 마음에 들어 스크랩했다. 집 구조 자체는 사실 그다지 마음에 들지 않는다.
 --------------------------------------------------------------------------------
@@ -1509,7 +1509,7 @@ description: 지대가 좀 높긴 하지만 영구 전망과 공간 구성이 �
 
 --------------------------------------------------------------------------------
 title: "심플한 외관 깔끔한 실내 인테리어"
-url: https://doramoo759.github.io/house-project/simpeulhan-oegwan-ggalggeumhan-silnae-interieo/index.md
+url: https://www.ramoo.net/house-project/simpeulhan-oegwan-ggalggeumhan-silnae-interieo/index.md
 date: "2025-07-23"
 description: 생각보다 집 구조와 인테리어가 깔끔하다. 나중에 집을 지을 때 참고할 만해서 기록해 둔다.
 --------------------------------------------------------------------------------
@@ -1553,7 +1553,7 @@ description: 생각보다 집 구조와 인테리어가 깔끔하다. 나중에 
 
 --------------------------------------------------------------------------------
 title: "기억 하자! 직결 배관"
-url: https://doramoo759.github.io/house-project/gieog-haja-jiggyeol-baegwan/index.md
+url: https://www.ramoo.net/house-project/gieog-haja-jiggyeol-baegwan/index.md
 date: "2025-07-22"
 description: 감성주택은 나중에 상담을 한번 받아 보고 싶은 업체다. 하자 관리에 중점을 두는 듯한 인상과 처음 알게 된 이중 배관을 기록해 둔다.
 --------------------------------------------------------------------------------
@@ -1587,7 +1587,7 @@ description: 감성주택은 나중에 상담을 한번 받아 보고 싶은 업
 
 --------------------------------------------------------------------------------
 title: "자연의 감성을 담은 창원시 45평 전원주택 - 더존하우징"
-url: https://doramoo759.github.io/house-project/jayeonyi-gamseongeul-dameun-cangweonsi-45pyeong-jeonweonjutaeg-deojonhaujing-scrap/index.md
+url: https://www.ramoo.net/house-project/jayeonyi-gamseongeul-dameun-cangweonsi-45pyeong-jeonweonjutaeg-deojonhaujing-scrap/index.md
 date: "2025-07-21"
 description: 더존하우징의 창원 45평 주택. 비탈진 경사지에 벙커 주차장으로 구조를 잡은 점이 인상적이다. 다만 토목 공사비는 더 들 것 같다.
 --------------------------------------------------------------------------------
@@ -1627,7 +1627,7 @@ description: 더존하우징의 창원 45평 주택. 비탈진 경사지에 벙�
 
 --------------------------------------------------------------------------------
 title: "건축탐구 집 - 중목/콘트리트 취향이 담긴 집"
-url: https://doramoo759.github.io/house-project/geoncugtamgu-jib-cungju/index.md
+url: https://www.ramoo.net/house-project/geoncugtamgu-jib-cungju/index.md
 date: "2025-07-19"
 description: 특이해서 기록하지만 내 기준에는 집이 너무 크다. 파인 지형을 어떻게 다룰지 참고하기 좋은 사례다.
 --------------------------------------------------------------------------------
@@ -1669,14 +1669,14 @@ description: 특이해서 기록하지만 내 기준에는 집이 너무 크다.
 
 --------------------------------------------------------------------------------
 title: "Off Duty"
-url: https://doramoo759.github.io/off-duty/index.md
+url: https://www.ramoo.net/off-duty/index.md
 description: 일상과 관심사, 가끔의 딴짓
 --------------------------------------------------------------------------------
 일상과 관심사, 가끔의 딴짓
 
 --------------------------------------------------------------------------------
 title: "LG 43UN700 모니터, 2주 사용 기록"
-url: https://doramoo759.github.io/off-duty/lg-43un700-monitor/index.md
+url: https://www.ramoo.net/off-duty/lg-43un700-monitor/index.md
 date: "2021-01-01"
 description: 큰 화면과 USB-C 허브 기능은 편했다. CalDigit TS3 Plus에 연결했을 때 붉게 보이던 화면은 DP 설정을 바꿔 해결했다.
 --------------------------------------------------------------------------------
@@ -1724,7 +1724,7 @@ USB 허브 기능이 의외로 마음에 들었다. USB-C 하나로 화면과 US
 
 --------------------------------------------------------------------------------
 title: "Catalina에서 사라진 iTunes를 찾다가"
-url: https://doramoo759.github.io/off-duty/macos-catalina-itunes/index.md
+url: https://www.ramoo.net/off-duty/macos-catalina-itunes/index.md
 date: "2019-11-01"
 description: iTunes를 찾다가 Catalina에서는 Finder로 기기를 동기화한다는 것을 알게 됐다.
 --------------------------------------------------------------------------------
@@ -1744,7 +1744,7 @@ Finder를 열면 왼쪽에 연결한 기기가 나타난다. 선택하면 예전
 
 --------------------------------------------------------------------------------
 title: "Mac Finder에서 숨김 파일 표시"
-url: https://doramoo759.github.io/off-duty/mac-finder-hidden-files/index.md
+url: https://www.ramoo.net/off-duty/mac-finder-hidden-files/index.md
 date: "2019-10-29"
 description: 한 번 설정하고 잊기 쉬운 Finder 숨김 파일 표시 명령과 재실행 방법.
 --------------------------------------------------------------------------------
@@ -1766,7 +1766,7 @@ killall Finder
 
 --------------------------------------------------------------------------------
 title: "Mac Time Machine 백업 속도 메모"
-url: https://doramoo759.github.io/off-duty/mac-time-machine-speed/index.md
+url: https://www.ramoo.net/off-duty/mac-time-machine-speed/index.md
 date: "2019-09-26"
 description: 업데이트 문제를 Time Machine으로 복원한 뒤 백업 속도를 조정해 본 기록.
 --------------------------------------------------------------------------------
@@ -1784,13 +1784,13 @@ sudo sysctl debug.lowpri_throttle_enabled=0
 
 --------------------------------------------------------------------------------
 title: "Authors"
-url: https://doramoo759.github.io/authors/index.md
+url: https://www.ramoo.net/authors/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "ramoo"
-url: https://doramoo759.github.io/authors/ramoo/index.md
+url: https://www.ramoo.net/authors/ramoo/index.md
 description: ramoo.net 작성자
 --------------------------------------------------------------------------------
 
@@ -1799,372 +1799,372 @@ ramoo.net에 글을 기록하는 작성자이다.
 
 --------------------------------------------------------------------------------
 title: "Sections"
-url: https://doramoo759.github.io/sections/index.md
+url: https://www.ramoo.net/sections/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Categories"
-url: https://doramoo759.github.io/categories/index.md
+url: https://www.ramoo.net/categories/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Country Home"
-url: https://doramoo759.github.io/categories/country-home/index.md
+url: https://www.ramoo.net/categories/country-home/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Dev Log"
-url: https://doramoo759.github.io/categories/dev-log/index.md
+url: https://www.ramoo.net/categories/dev-log/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Money"
-url: https://doramoo759.github.io/categories/money/index.md
+url: https://www.ramoo.net/categories/money/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Off Duty"
-url: https://doramoo759.github.io/categories/off-duty/index.md
+url: https://www.ramoo.net/categories/off-duty/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Tags"
-url: https://doramoo759.github.io/tags/index.md
+url: https://www.ramoo.net/tags/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "2.5G"
-url: https://doramoo759.github.io/tags/2.5g/index.md
+url: https://www.ramoo.net/tags/2.5g/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "A3004NS-M"
-url: https://doramoo759.github.io/tags/a3004ns-m/index.md
+url: https://www.ramoo.net/tags/a3004ns-m/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Apache Guacamole"
-url: https://doramoo759.github.io/tags/apache-guacamole/index.md
+url: https://www.ramoo.net/tags/apache-guacamole/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Certbot"
-url: https://doramoo759.github.io/tags/certbot/index.md
+url: https://www.ramoo.net/tags/certbot/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Distributed Systems"
-url: https://doramoo759.github.io/tags/distributed-systems/index.md
+url: https://www.ramoo.net/tags/distributed-systems/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "DNS"
-url: https://doramoo759.github.io/tags/dns/index.md
+url: https://www.ramoo.net/tags/dns/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Docker"
-url: https://doramoo759.github.io/tags/docker/index.md
+url: https://www.ramoo.net/tags/docker/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Domain"
-url: https://doramoo759.github.io/tags/domain/index.md
+url: https://www.ramoo.net/tags/domain/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "DS918+"
-url: https://doramoo759.github.io/tags/ds918+/index.md
+url: https://www.ramoo.net/tags/ds918+/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "DSM"
-url: https://doramoo759.github.io/tags/dsm/index.md
+url: https://www.ramoo.net/tags/dsm/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "DSM 7.0"
-url: https://doramoo759.github.io/tags/dsm-7.0/index.md
+url: https://www.ramoo.net/tags/dsm-7.0/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "ETF"
-url: https://doramoo759.github.io/tags/etf/index.md
+url: https://www.ramoo.net/tags/etf/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Firewall"
-url: https://doramoo759.github.io/tags/firewall/index.md
+url: https://www.ramoo.net/tags/firewall/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "FlatBuffers"
-url: https://doramoo759.github.io/tags/flatbuffers/index.md
+url: https://www.ramoo.net/tags/flatbuffers/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "GitLab"
-url: https://doramoo759.github.io/tags/gitlab/index.md
+url: https://www.ramoo.net/tags/gitlab/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "HomeLab"
-url: https://doramoo759.github.io/tags/homelab/index.md
+url: https://www.ramoo.net/tags/homelab/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "IpTIME"
-url: https://doramoo759.github.io/tags/iptime/index.md
+url: https://www.ramoo.net/tags/iptime/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "LACP"
-url: https://doramoo759.github.io/tags/lacp/index.md
+url: https://www.ramoo.net/tags/lacp/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Let's Encrypt"
-url: https://doramoo759.github.io/tags/lets-encrypt/index.md
+url: https://www.ramoo.net/tags/lets-encrypt/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Life"
-url: https://doramoo759.github.io/tags/life/index.md
+url: https://www.ramoo.net/tags/life/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Mac"
-url: https://doramoo759.github.io/tags/mac/index.md
+url: https://www.ramoo.net/tags/mac/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "MacOS"
-url: https://doramoo759.github.io/tags/macos/index.md
+url: https://www.ramoo.net/tags/macos/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Memory"
-url: https://doramoo759.github.io/tags/memory/index.md
+url: https://www.ramoo.net/tags/memory/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Messaging"
-url: https://doramoo759.github.io/tags/messaging/index.md
+url: https://www.ramoo.net/tags/messaging/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "NAS"
-url: https://doramoo759.github.io/tags/nas/index.md
+url: https://www.ramoo.net/tags/nas/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Networking"
-url: https://doramoo759.github.io/tags/networking/index.md
+url: https://www.ramoo.net/tags/networking/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "PBR"
-url: https://doramoo759.github.io/tags/pbr/index.md
+url: https://www.ramoo.net/tags/pbr/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "PER"
-url: https://doramoo759.github.io/tags/per/index.md
+url: https://www.ramoo.net/tags/per/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Performance"
-url: https://doramoo759.github.io/tags/performance/index.md
+url: https://www.ramoo.net/tags/performance/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "PSR"
-url: https://doramoo759.github.io/tags/psr/index.md
+url: https://www.ramoo.net/tags/psr/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "RDP"
-url: https://doramoo759.github.io/tags/rdp/index.md
+url: https://www.ramoo.net/tags/rdp/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Remote Access"
-url: https://doramoo759.github.io/tags/remote-access/index.md
+url: https://www.ramoo.net/tags/remote-access/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "RTL8156"
-url: https://doramoo759.github.io/tags/rtl8156/index.md
+url: https://www.ramoo.net/tags/rtl8156/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Serialization"
-url: https://doramoo759.github.io/tags/serialization/index.md
+url: https://www.ramoo.net/tags/serialization/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "SSH"
-url: https://doramoo759.github.io/tags/ssh/index.md
+url: https://www.ramoo.net/tags/ssh/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "SSL"
-url: https://doramoo759.github.io/tags/ssl/index.md
+url: https://www.ramoo.net/tags/ssl/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Synology"
-url: https://doramoo759.github.io/tags/synology/index.md
+url: https://www.ramoo.net/tags/synology/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "System Design"
-url: https://doramoo759.github.io/tags/system-design/index.md
+url: https://www.ramoo.net/tags/system-design/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "TL-SG2008"
-url: https://doramoo759.github.io/tags/tl-sg2008/index.md
+url: https://www.ramoo.net/tags/tl-sg2008/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Ubuntu 22.04"
-url: https://doramoo759.github.io/tags/ubuntu-22.04/index.md
+url: https://www.ramoo.net/tags/ubuntu-22.04/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "USB LAN"
-url: https://doramoo759.github.io/tags/usb-lan/index.md
+url: https://www.ramoo.net/tags/usb-lan/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "VNC"
-url: https://doramoo759.github.io/tags/vnc/index.md
+url: https://www.ramoo.net/tags/vnc/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "VPN"
-url: https://doramoo759.github.io/tags/vpn/index.md
+url: https://www.ramoo.net/tags/vpn/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "Wildcard"
-url: https://doramoo759.github.io/tags/wildcard/index.md
+url: https://www.ramoo.net/tags/wildcard/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "ZeroMQ"
-url: https://doramoo759.github.io/tags/zeromq/index.md
+url: https://www.ramoo.net/tags/zeromq/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "가치평가"
-url: https://doramoo759.github.io/tags/%EA%B0%80%EC%B9%98%ED%8F%89%EA%B0%80/index.md
+url: https://www.ramoo.net/tags/%EA%B0%80%EC%B9%98%ED%8F%89%EA%B0%80/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "배당주"
-url: https://doramoo759.github.io/tags/%EB%B0%B0%EB%8B%B9%EC%A3%BC/index.md
+url: https://www.ramoo.net/tags/%EB%B0%B0%EB%8B%B9%EC%A3%BC/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "성장주"
-url: https://doramoo759.github.io/tags/%EC%84%B1%EC%9E%A5%EC%A3%BC/index.md
+url: https://www.ramoo.net/tags/%EC%84%B1%EC%9E%A5%EC%A3%BC/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "숏커버"
-url: https://doramoo759.github.io/tags/%EC%88%8F%EC%BB%A4%EB%B2%84/index.md
+url: https://www.ramoo.net/tags/%EC%88%8F%EC%BB%A4%EB%B2%84/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "장기투자"
-url: https://doramoo759.github.io/tags/%EC%9E%A5%EA%B8%B0%ED%88%AC%EC%9E%90/index.md
+url: https://www.ramoo.net/tags/%EC%9E%A5%EA%B8%B0%ED%88%AC%EC%9E%90/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "전원주택"
-url: https://doramoo759.github.io/tags/%EC%A0%84%EC%9B%90%EC%A3%BC%ED%83%9D/index.md
+url: https://www.ramoo.net/tags/%EC%A0%84%EC%9B%90%EC%A3%BC%ED%83%9D/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "주식"
-url: https://doramoo759.github.io/tags/%EC%A3%BC%EC%8B%9D/index.md
+url: https://www.ramoo.net/tags/%EC%A3%BC%EC%8B%9D/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "주택 스크랩"
-url: https://doramoo759.github.io/tags/%EC%A3%BC%ED%83%9D-%EC%8A%A4%ED%81%AC%EB%9E%A9/index.md
+url: https://www.ramoo.net/tags/%EC%A3%BC%ED%83%9D-%EC%8A%A4%ED%81%AC%EB%9E%A9/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "투자기초"
-url: https://doramoo759.github.io/tags/%ED%88%AC%EC%9E%90%EA%B8%B0%EC%B4%88/index.md
+url: https://www.ramoo.net/tags/%ED%88%AC%EC%9E%90%EA%B8%B0%EC%B4%88/index.md
 --------------------------------------------------------------------------------
 <no value>
 
 --------------------------------------------------------------------------------
 title: "포트폴리오"
-url: https://doramoo759.github.io/tags/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/index.md
+url: https://www.ramoo.net/tags/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/index.md
 --------------------------------------------------------------------------------
 <no value>
