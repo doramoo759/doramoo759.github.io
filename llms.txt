@@ -60,6 +60,10 @@
 ## Off Duty
 - [Off Duty](https://www.ramoo.net/off-duty/index.md): 일상과 관심사, 가끔의 딴짓
 
+- [트럼프, 유네스코 탈퇴 결정… "친팔레스타인·친중국 성향"](https://www.ramoo.net/off-duty/teureompeu-yuneseuko-taltoe-gyeoljeong-cinpalreseutain-cinjunggug-seonghyang/index.md): "상식적인 정책과 완전히 어긋나…미국 최우선으로 생각할 것" 2023년 조 바이든 전 대통령 재가입 이후 2년 만
+- ["지금 이 난리에!" 시민들 분노…'덩실덩실' 구리시장 "술은 안 마셨다" / SBS 8뉴스](https://www.ramoo.net/off-duty/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/index.md): 참 이 물난리에 잠깐 참석이라도 하지 말았어야 한다. 그 시간에 야유회 참석 안 한다고 누가 뭐라 하겠는가.. 같은 시간 공무원들은 비상 근무를 하고 있었다는데
+- [Weekly hot issue - 강선우 후보자를 둘러싼 보좌진 갑질 논란](https://www.ramoo.net/off-duty/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/index.md): 최근 강선우 여성가족부 장관 후보자를 둘러싼 ‘보좌진 갑질 논란’이 정치권을 흔들고 있습니다. 이번 논란은 인사청문회 과정에서 전·현직 보좌진들의 폭로로 촉발되었습니다.
+- [Weekly News (2025년 7월 18일)](https://www.ramoo.net/off-duty/weekly-news-2025nyeon-7weol-18il/index.md): 이재명 대통령은 전국적인 폭우 피해로 인해 부산 타운홀 미팅 일정을 취소하고 피해 상황 점검에 집중했다.
 - [LG 43UN700 모니터, 2주 사용 기록](https://www.ramoo.net/off-duty/lg-43un700-monitor/index.md): 큰 화면과 USB-C 허브 기능은 편했다. CalDigit TS3 Plus에 연결했을 때 붉게 보이던 화면은 DP 설정을 바꿔 해결했다.
 - [Catalina에서 사라진 iTunes를 찾다가](https://www.ramoo.net/off-duty/macos-catalina-itunes/index.md): iTunes를 찾다가 Catalina에서는 Finder로 기기를 동기화한다는 것을 알게 됐다.
 - [Mac Finder에서 숨김 파일 표시](https://www.ramoo.net/off-duty/mac-finder-hidden-files/index.md): 한 번 설정하고 잊기 쉬운 Finder 숨김 파일 표시 명령과 재실행 방법.
@@ -105,6 +109,7 @@
 - [Messaging](https://www.ramoo.net/tags/messaging/index.md)
 - [NAS](https://www.ramoo.net/tags/nas/index.md)
 - [Networking](https://www.ramoo.net/tags/networking/index.md)
+- [News](https://www.ramoo.net/tags/news/index.md)
 - [PBR](https://www.ramoo.net/tags/pbr/index.md)
 - [PER](https://www.ramoo.net/tags/per/index.md)
 - [Performance](https://www.ramoo.net/tags/performance/index.md)

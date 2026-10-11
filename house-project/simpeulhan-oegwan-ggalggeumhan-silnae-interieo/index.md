@@ -7,8 +7,6 @@ date: 2025-07-23
 
 ![심플한 외관 깔끔한 실내 인테리어](/images/house-project/simple-interior/cover.png)
 
-## 나의 의견
-
 생각보다 집 구조나 인테리어가 깔끔하다. 나중에 참고할 만해서 기록해 둔다.
 
 ## 눈에 들어온 것
