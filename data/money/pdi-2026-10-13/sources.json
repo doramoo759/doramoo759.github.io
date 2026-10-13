@@ -1,0 +1,95 @@
+{
+  "retrieved_on_kst": "2026-10-13",
+  "prices": {
+    "url": "https://stockanalysis.com/stocks/pdi/history/",
+    "provider": "S&P Global Market Intelligence via Stock Analysis",
+    "column": "Close, not Adj. Close",
+    "period": "2026-09-01 through 2026-10-12",
+    "note": "Daily closing prices manually transcribed from the cited table. No distribution reinvestment. No interpolation of missing NAV observations."
+  },
+  "nav": {
+    "url": "https://www.cefconnect.com/fund/PDI?view=fund",
+    "date": "2026-10-09",
+    "usd": 15.09,
+    "note": "Pair with the October 9 closing price of 14.36 for the premium/discount calculation. The page's current price has a later date."
+  },
+  "monthly_distribution": {
+    "url": "https://www.businesswire.com/news/home/20261001603417/en/PIMCO-Closed-End-Funds-Declare-Monthly-Common-Share-Distributions",
+    "usd": 0.2205,
+    "ex_date": "2026-10-13",
+    "payable_date": "2026-11-02"
+  },
+  "fed_sep": {
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
+    "published_on": "2026-09-16",
+    "years": [
+      2026,
+      2027,
+      2028,
+      2029
+    ],
+    "policy_rate_medians_percent": [
+      4.1,
+      4.1,
+      3.9,
+      3.6
+    ],
+    "pce_medians_percent": [
+      3.7,
+      2.3,
+      2.1,
+      2.0
+    ],
+    "note": "Conditional year-end policy-rate projections, not futures probabilities or committed policy decisions."
+  },
+  "form4": "https://www.sec.gov/Archives/edgar/data/1510599/000120191726000004/xslF345X06/form4-10082026_041001.xml",
+  "form4_screenshot": {
+    "url": "https://csv-storage.forexpros.com/filings/https%3A__www.streetinsider.com_images_secattach_20261008_27167010.html",
+    "captured_on_kst": "2026-10-13",
+    "file": "/images/money/pdi-nav-rate-outlook/form4-full.png",
+    "pixels": [
+      1804,
+      2046
+    ],
+    "note": "Full-document browser capture of the Investing.com article iframe source, including all table columns, signature and attachments list."
+  },
+  "macro": [
+    {
+      "series": "VIXCLS",
+      "date": "2026-10-09",
+      "value": 14.84,
+      "unit": "index",
+      "url": "https://fred.stlouisfed.org/series/VIXCLS"
+    },
+    {
+      "series": "BAMLH0A0HYM2",
+      "date": "2026-10-08",
+      "value": 3.15,
+      "unit": "percent",
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2"
+    },
+    {
+      "series": "DGS10",
+      "date": "2026-10-08",
+      "value": 5.22,
+      "unit": "percent",
+      "url": "https://fred.stlouisfed.org/series/DGS10"
+    },
+    {
+      "series": "DCOILWTICO",
+      "date": "2026-10-06",
+      "value": 96.24,
+      "unit": "USD per barrel, spot",
+      "url": "https://fred.stlouisfed.org/series/DCOILWTICO"
+    },
+    {
+      "series": "DEXKOUS",
+      "date": "2026-10-02",
+      "value": 1345.75,
+      "unit": "KRW per USD, New York noon",
+      "url": "https://fred.stlouisfed.org/series/DEXKOUS"
+    }
+  ],
+  "scenario_chart": "Hypothetical NAV levels and discounts; these are calculations, not price forecasts.",
+  "distribution_history_check": "/data/money/pdi-2026-10-13/distribution-history-check.json"
+}

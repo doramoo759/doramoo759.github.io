@@ -1,0 +1,59 @@
+{
+  "source": "https://dividendhistory.org/payout/PDI/",
+  "checked_on_kst": "2026-10-13",
+  "regular_filter": "Exclude estimated and explicitly special rows, and amounts above $0.25; coverage grouped by ex-dividend month, completed pay dates only.",
+  "first_regular": {
+    "ex_date": "2012-07-10",
+    "pay_date": "2012-08-01",
+    "amount": 0.177,
+    "status": ""
+  },
+  "last_completed_regular": {
+    "ex_date": "2026-09-11",
+    "pay_date": "2026-10-01",
+    "amount": 0.2205,
+    "status": ""
+  },
+  "completed_regular_rows": 171,
+  "months_expected": 171,
+  "missing_ex_months": [],
+  "regular_amount_changes": [
+    {
+      "ex_date": "2012-07-10",
+      "amount": 0.177
+    },
+    {
+      "ex_date": "2013-10-09",
+      "amount": 0.191
+    },
+    {
+      "ex_date": "2015-04-09",
+      "amount": 0.21
+    },
+    {
+      "ex_date": "2015-09-09",
+      "amount": 0.2205
+    }
+  ],
+  "scope_note": "Public historical table, grouped by ex-dividend month; not an audit of every original issuer announcement or every investor account credit. October 2026 is announced but not yet paid.",
+  "historical_returns": [
+    {
+      "period": "2020 calendar year",
+      "market_total_return_percent": -9.45,
+      "nav_total_return_percent": 2.47,
+      "source": "https://www.cefconnect.com/fund/PDI?view=fund"
+    },
+    {
+      "period": "1 year as of 2022-12-31",
+      "market_total_return_percent": -16.02,
+      "nav_total_return_percent": -14.82,
+      "source": "https://www.pimco.com/us/en/documents/5247cf24bf1548b13af1c353bc0001557e3c98b1890d2df2493e929961081f5a9a3d72e22a05a9f36e3b2360b24d06224501fbad4eaceb3cecf2d8ac8b7f177d?app=dot"
+    },
+    {
+      "period": "2026 year to date as of 2026-09-30",
+      "market_total_return_percent": -10.55,
+      "nav_total_return_percent": 0.61,
+      "source": "https://www.cefconnect.com/fund/PDI?view=fund"
+    }
+  ]
+}
