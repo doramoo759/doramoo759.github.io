@@ -46,7 +46,7 @@ date: 2026-10-13
 
 현장 취재기자가 당시 상황을 설명한 **연합뉴스TV 보도 영상**을 함께 남긴다. 사건 당일 오후 3시 31분 보도라 피의자 나이와 피해 상황 등은 위에서 정리한 저녁 후속 보도와 차이가 있다.
 
-<video controls playsinline preload="metadata" poster="/images/off-duty/news/incheon-guwol-stabbing/cover.jpg" aria-label="연합뉴스TV 인천 구월동 흉기 난동 현장 보도" style="display: block; width: 100%; aspect-ratio: 16 / 9; background: #000;">
+<video controls playsinline preload="metadata" poster="{{< image-url "/images/off-duty/news/incheon-guwol-stabbing/cover.jpg" >}}" aria-label="연합뉴스TV 인천 구월동 흉기 난동 현장 보도" style="display: block; width: 100%; aspect-ratio: 16 / 9; background: #000;">
   <source src="https://media.yonhapnewstv.co.kr/article/MYH/20261013/MYH20261013153108Z2T_700M1.mp4" type="video/mp4">
   영상을 재생하려면 <a href="https://www.yonhapnewstv.co.kr/news/MYH20261013153108Z2T">연합뉴스TV 원문</a>에서 확인할 수 있다.
 </video>
