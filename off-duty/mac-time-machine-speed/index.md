@@ -1,4 +1,4 @@
-# Mac Time Machine 백업 속도 메모
+# 맥 타임머신(Time Machine) 최초 백업 속도 느릴 때 원인과 해결 팁
 
 date: 2019-09-26
 

@@ -1,4 +1,4 @@
-# Apache Guacamole를 사내망에서 테스트해 봤다
+# 웹 브라우저 기반 원격 접속 Apache Guacamole 사내망 구축 및 RDP/SSH 테스트
 
 date: 2026-04-24
 

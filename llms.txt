@@ -12,22 +12,22 @@
 - [Dev Log](https://www.ramoo.net/lab-log/index.md): 개발, 서버, NAS를 만지며 남긴 기록
 
 - [내 IP 주소 확인하기](https://www.ramoo.net/lab-log/check-my-ip/index.md): 내 IP 주소를 무료로 확인하세요. 공인 IP 조회, IPv4·IPv6 구분, IP 위치 지도, 통신사·ASN과 연결 정보를 확인하고 주소를 바로 복사할 수 있습니다.
-- [Apache Guacamole를 사내망에서 테스트해 봤다](https://www.ramoo.net/lab-log/apache-guacamole-intro/index.md): 브라우저 SSH 접속은 편했지만 LDAP 연동과 계정·세션 관리가 걸렸다. 사내망 테스트에서 멈춘 기록.
+- [웹 브라우저 기반 원격 접속 Apache Guacamole 사내망 구축 및 RDP/SSH 테스트](https://www.ramoo.net/lab-log/apache-guacamole-intro/index.md): 브라우저 SSH 접속은 편했지만 LDAP 연동과 계정·세션 관리가 걸렸다. 사내망 테스트에서 멈춘 기록.
 - [FlatBuffers 기본 개념과 Ubuntu 22.04 빌드 메모](https://www.ramoo.net/lab-log/flatbuffers-in-real-systems/index.md): FlatBuffers가 버퍼를 읽는 방식과 스키마·생성 코드, Ubuntu 22.04 소스 빌드 명령.
 - [ZeroMQ를 살펴보며 적어 둔 메시징 패턴](https://www.ramoo.net/lab-log/zeromq-patterns/index.md): REQ/REP, PUB/SUB, PUSH/PULL, PAIR의 메시지 흐름과 애플리케이션에서 정할 부분.
-- [DS918+에 USB 2.5G LAN을 붙였다가 뺀 이야기](https://www.ramoo.net/lab-log/ds918-plus-25g-upgrade/index.md): ipTIME U2500과 r8152 드라이버로 구성한 DS918+ 2.5G 연결. 설치 과정과 전송 속도, 철거한 이유.
+- [시놀로지 DS918+ USB 2.5G 랜카드 설치 후기와 인식 불안정으로 원복한 이유](https://www.ramoo.net/lab-log/ds918-plus-25g-upgrade/index.md): ipTIME U2500과 r8152 드라이버로 구성한 DS918+ 2.5G 연결. 설치 과정과 전송 속도, 철거한 이유.
 - [Synology GitLab CE 컨테이너 업데이트 메모](https://www.ramoo.net/lab-log/synology-gitlab-docker-update/index.md): GitLab CE 14.8.3에서 14.8.4로 업데이트할 때 사용한 DSM Docker 화면과 설정 내보내기·가져오기 기록.
-- [Synology DNS Server 설치와 레코드 설정 메모](https://www.ramoo.net/lab-log/synology-dns-server/index.md): DSM 7.0에서 DNS Server를 설치하고 정방향 영역, A·PTR 레코드, 네임서버 설정을 살펴본 기록.
-- [C++ tuple로 여러 결과 반환하기](https://www.ramoo.net/lab-log/cpp11-tuple/index.md): 함수 결과를 tuple로 묶고 get과 tie로 꺼내는 예제. 마지막 구조적 바인딩은 C++17 문법이다.
+- [시놀로지 DNS Server 구축 및 내부 도메인 레코드 설정 방법](https://www.ramoo.net/lab-log/synology-dns-server/index.md): DSM 7.0에서 DNS Server를 설치하고 정방향 영역, A·PTR 레코드, 네임서버 설정을 살펴본 기록.
+- [C++ std::tuple 활용법: 함수에서 여러 값 반환하고 std::tie로 받는 방법](https://www.ramoo.net/lab-log/cpp11-tuple/index.md): 함수 결과를 tuple로 묶고 get과 tie로 꺼내는 예제. 마지막 구조적 바인딩은 C++17 문법이다.
 - [C++ 람다를 쓰며 적어 둔 메모](https://www.ramoo.net/lab-log/cpp11-lambda/index.md): 캡처 방식과 std::function 콜백, 정렬에 람다를 쓰는 형태를 적어 둔 메모.
-- [Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다](https://www.ramoo.net/lab-log/synology-wildcard-certbot-mac/index.md): Mac에서 Certbot을 실행하고 NAS DNS에 TXT 레코드를 추가한 뒤 인증서를 가져온 기록. 2021년 화면 기준.
+- [맥(Mac)에서 Let's Encrypt 와일드카드 SSL 인증서 발급 후 시놀로지 NAS 적용 가이드](https://www.ramoo.net/lab-log/synology-wildcard-certbot-mac/index.md): Mac에서 Certbot을 실행하고 NAS DNS에 TXT 레코드를 추가한 뒤 인증서를 가져온 기록. 2021년 화면 기준.
 - [TL-SG2008로 DS918+ 링크통합을 시도했다](https://www.ramoo.net/lab-log/tl-sg2008-lacp/index.md): DS918+의 두 LAN 포트를 쓰려고 고른 TL-SG2008. 동적 링크통합에서 오류가 나 설정을 바꿨다.
-- [ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다](https://www.ramoo.net/lab-log/iptime-a3004ns-m/index.md): VPN과 USB 간이 NAS에서는 문제가 있었지만, 공유기 기능만 쓰니 안정적이었다. 2020년 사용 기록.
-- [C++11 emplace_back 메모](https://www.ramoo.net/lab-log/cpp11-emplace/index.md): 생성자 인자를 바로 넘겨 원소를 만드는 emplace_back과 push_back을 비교한 코드 조각.
+- [ipTIME A3004NS-M 가성비 기가 와이파이 공유기 실사용기: 간이 NAS 끄고 공유기로만 쓴 이유](https://www.ramoo.net/lab-log/iptime-a3004ns-m/index.md): VPN과 USB 간이 NAS에서는 문제가 있었지만, 공유기 기능만 쓰니 안정적이었다. 2020년 사용 기록.
+- [C++11 push_back vs emplace_back 차이점과 객체 생성 최적화 원리](https://www.ramoo.net/lab-log/cpp11-emplace/index.md): 생성자 인자를 바로 넘겨 원소를 만드는 emplace_back과 push_back을 비교한 코드 조각.
 - [SSL For Free에서 와일드카드 인증서를 받았던 기록](https://www.ramoo.net/lab-log/synology-wildcard-sslforfree/index.md): 2019년에 SSL For Free에서 와일드카드 인증서를 발급했던 기록. 이후에는 Mac의 Certbot으로 바꿨다.
-- [DS918+ 메모리 업그레이드](https://www.ramoo.net/lab-log/ds918-memory-upgrade/index.md): DS918+에 CT2K102464BF186D 메모리를 장착한 기록. 사용 중 느낀 변화와 남은 기존 메모리 이야기.
+- [시놀로지 DS918+ RAM 메모리 16GB 업그레이드 방법 및 호환 메모리 확인기](https://www.ramoo.net/lab-log/ds918-memory-upgrade/index.md): DS918+에 CT2K102464BF186D 메모리를 장착한 기록. 사용 중 느낀 변화와 남은 기존 메모리 이야기.
 - [Mac에 Jenkins를 설치했던 기록](https://www.ramoo.net/lab-log/mac-jenkins-install/index.md): Homebrew로 Jenkins를 설치하고 Java 8 오류를 해결했던 2019년 기록.
-- [Synology NAS에서 특정 지역 접속을 차단했다](https://www.ramoo.net/lab-log/synology-region-firewall/index.md): 반복되는 admin 로그인 시도를 보고 DSM 방화벽에서 지역별 규칙을 만들었다. 이후 특정 포트만 차단하도록 바꿨다.
+- [시놀로지(Synology) NAS 해외 IP 및 특정 국가 접속 차단 방화벽 설정 방법](https://www.ramoo.net/lab-log/synology-region-firewall/index.md): 반복되는 admin 로그인 시도를 보고 DSM 방화벽에서 지역별 규칙을 만들었다. 이후 특정 포트만 차단하도록 바꿨다.
 
 ## Money
 - [Money](https://www.ramoo.net/money-log/index.md): 투자와 돈에 관한 공부
@@ -48,10 +48,10 @@
 - ["지금 이 난리에!" 시민들 분노…'덩실덩실' 구리시장 "술은 안 마셨다" / SBS 8뉴스](https://www.ramoo.net/off-duty/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/index.md): 참 이 물난리에 잠깐 참석이라도 하지 말았어야 한다. 그 시간에 야유회 참석 안 한다고 누가 뭐라 하겠는가.. 같은 시간 공무원들은 비상 근무를 하고 있었다는데
 - [Weekly hot issue - 강선우 후보자를 둘러싼 보좌진 갑질 논란](https://www.ramoo.net/off-duty/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/index.md): 최근 강선우 여성가족부 장관 후보자를 둘러싼 ‘보좌진 갑질 논란’이 정치권을 흔들고 있습니다. 이번 논란은 인사청문회 과정에서 전·현직 보좌진들의 폭로로 촉발되었습니다.
 - [Weekly News (2025년 7월 18일)](https://www.ramoo.net/off-duty/weekly-news-2025nyeon-7weol-18il/index.md): 이재명 대통령은 전국적인 폭우 피해로 인해 부산 타운홀 미팅 일정을 취소하고 피해 상황 점검에 집중했다.
-- [LG 43UN700 모니터, 2주 사용 기록](https://www.ramoo.net/off-duty/lg-43un700-monitor/index.md): 큰 화면과 USB-C 허브 기능은 편했다. CalDigit TS3 Plus에 연결했을 때 붉게 보이던 화면은 DP 설정을 바꿔 해결했다.
-- [Catalina에서 사라진 iTunes를 찾다가](https://www.ramoo.net/off-duty/macos-catalina-itunes/index.md): iTunes를 찾다가 Catalina에서는 Finder로 기기를 동기화한다는 것을 알게 됐다.
-- [Mac Finder에서 숨김 파일 표시](https://www.ramoo.net/off-duty/mac-finder-hidden-files/index.md): 한 번 설정하고 잊기 쉬운 Finder 숨김 파일 표시 명령과 재실행 방법.
-- [Mac Time Machine 백업 속도 메모](https://www.ramoo.net/off-duty/mac-time-machine-speed/index.md): 업데이트 문제를 Time Machine으로 복원한 뒤 백업 속도를 조정해 본 기록.
+- [LG 43UN700 43인치 4K 모니터 실사용기 — 맥북 연결 및 CalDigit DP 색상 왜곡 해결법](https://www.ramoo.net/off-duty/lg-43un700-monitor/index.md): 큰 화면과 USB-C 허브 기능은 편했다. CalDigit TS3 Plus에 연결했을 때 붉게 보이던 화면은 DP 설정을 바꿔 해결했다.
+- [macOS 카탈리나에서 아이튠즈(iTunes) 사라졌을 때 아이폰 백업 및 동기화 방법](https://www.ramoo.net/off-duty/macos-catalina-itunes/index.md): iTunes를 찾다가 Catalina에서는 Finder로 기기를 동기화한다는 것을 알게 됐다.
+- [Mac Finder 숨김 파일·폴더 보기 단축키(Cmd+Shift+.) 및 터미널 명령어 정리](https://www.ramoo.net/off-duty/mac-finder-hidden-files/index.md): 한 번 설정하고 잊기 쉬운 Finder 숨김 파일 표시 명령과 재실행 방법.
+- [맥 타임머신(Time Machine) 최초 백업 속도 느릴 때 원인과 해결 팁](https://www.ramoo.net/off-duty/mac-time-machine-speed/index.md): 업데이트 문제를 Time Machine으로 복원한 뒤 백업 속도를 조정해 본 기록.
 
 ## Pages
 - [Pages](https://www.ramoo.net/pages/index.md)
@@ -69,10 +69,10 @@
 ## Country Home
 - [Country Home](https://www.ramoo.net/house-project/index.md): 언젠가 지을 집을 위한 메모
 
-- [목구조에 대한 오해를 끝내야 할때!](https://www.ramoo.net/house-project/jungmog-gujo-jutaeg/index.md): 목구조에 대한 편견은 없다. 대지가 마음에 들어 스크랩했고, 주차 공간과 전망, 주방 배치를 함께 적어 뒀다.
-- [보는 순간 스크랩 하지 않을 수 없었다.](https://www.ramoo.net/house-project/boneun-sungan-seukeuraeb-haji-anhgo-neomeogal-su-eobseossdeon-jib/index.md): 지대가 좀 높긴 하지만 영구 전망과 공간 구성이 마음에 들어 스크랩했다. 집 구조 자체는 사실 그다지 마음에 들지 않는다.
-- [심플한 외관 깔끔한 실내 인테리어](https://www.ramoo.net/house-project/simpeulhan-oegwan-ggalggeumhan-silnae-interieo/index.md): 생각보다 집 구조와 인테리어가 깔끔하다. 나중에 집을 지을 때 참고할 만해서 기록해 둔다.
-- [기억 하자! 직결 배관](https://www.ramoo.net/house-project/gieog-haja-jiggyeol-baegwan/index.md): 감성주택은 나중에 상담을 한번 받아 보고 싶은 업체다. 하자 관리에 중점을 두는 듯한 인상과 처음 알게 된 이중 배관을 기록해 둔다.
+- [목조주택에 대한 흔한 오해와 진실: 내진 성능, 화재 안전성과 수명 비교](https://www.ramoo.net/house-project/jungmog-gujo-jutaeg/index.md): 목구조에 대한 편견은 없다. 대지가 마음에 들어 스크랩했고, 주차 공간과 전망, 주방 배치를 함께 적어 뒀다.
+- [영구 조망과 별도 취미 컨테이너가 돋보이는 40평형 단층 전원주택 설계 사례](https://www.ramoo.net/house-project/boneun-sungan-seukeuraeb-haji-anhgo-neomeogal-su-eobseossdeon-jib/index.md): 지대가 좀 높긴 하지만 영구 전망과 공간 구성이 마음에 들어 스크랩했다. 집 구조 자체는 사실 그다지 마음에 들지 않는다.
+- [화이트톤 모던 전원주택 외관과 실내 인테리어 구조 스크랩](https://www.ramoo.net/house-project/simpeulhan-oegwan-ggalggeumhan-silnae-interieo/index.md): 생각보다 집 구조와 인테리어가 깔끔하다. 나중에 집을 지을 때 참고할 만해서 기록해 둔다.
+- [전원주택 설비 하자 예방: 이중 배관(직결 배관) 시공 방식의 장점과 점검 포인트](https://www.ramoo.net/house-project/gieog-haja-jiggyeol-baegwan/index.md): 감성주택은 나중에 상담을 한번 받아 보고 싶은 업체다. 하자 관리에 중점을 두는 듯한 인상과 처음 알게 된 이중 배관을 기록해 둔다.
 - [자연의 감성을 담은 창원시 45평 전원주택 - 더존하우징](https://www.ramoo.net/house-project/jayeonyi-gamseongeul-dameun-cangweonsi-45pyeong-jeonweonjutaeg-deojonhaujing-scrap/index.md): 더존하우징의 창원 45평 주택. 비탈진 경사지에 벙커 주차장으로 구조를 잡은 점이 인상적이다. 다만 토목 공사비는 더 들 것 같다.
 - [건축탐구 집 - 중목/콘트리트 취향이 담긴 집](https://www.ramoo.net/house-project/geoncugtamgu-jib-cungju/index.md): 특이해서 기록하지만 내 기준에는 집이 너무 크다. 파인 지형을 어떻게 다룰지 참고하기 좋은 사례다.
 

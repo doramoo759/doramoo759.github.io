@@ -1,4 +1,4 @@
-# Mac Finder에서 숨김 파일 표시
+# Mac Finder 숨김 파일·폴더 보기 단축키(Cmd+Shift+.) 및 터미널 명령어 정리
 
 date: 2019-10-29
 

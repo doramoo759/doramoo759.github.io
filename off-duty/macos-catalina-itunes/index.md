@@ -1,4 +1,4 @@
-# Catalina에서 사라진 iTunes를 찾다가
+# macOS 카탈리나에서 아이튠즈(iTunes) 사라졌을 때 아이폰 백업 및 동기화 방법
 
 date: 2019-11-01
 

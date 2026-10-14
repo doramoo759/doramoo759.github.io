@@ -1,4 +1,4 @@
-# Synology NAS에서 특정 지역 접속을 차단했다
+# 시놀로지(Synology) NAS 해외 IP 및 특정 국가 접속 차단 방화벽 설정 방법
 
 date: 2019-10-27
 

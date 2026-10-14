@@ -123,7 +123,7 @@ IP 위치는 네트워크 대역에 연결된 지리 정보를 기반으로 추�
 
 
 --------------------------------------------------------------------------------
-title: "Apache Guacamole를 사내망에서 테스트해 봤다"
+title: "웹 브라우저 기반 원격 접속 Apache Guacamole 사내망 구축 및 RDP/SSH 테스트"
 url: https://www.ramoo.net/lab-log/apache-guacamole-intro/index.md
 date: "2026-04-24"
 description: 브라우저 SSH 접속은 편했지만 LDAP 연동과 계정·세션 관리가 걸렸다. 사내망 테스트에서 멈춘 기록.
@@ -267,7 +267,7 @@ ZeroMQ는 프로그램 안에서 메시지를 주고받는 데 쓰는 라이브�
 
 
 --------------------------------------------------------------------------------
-title: "DS918+에 USB 2.5G LAN을 붙였다가 뺀 이야기"
+title: "시놀로지 DS918+ USB 2.5G 랜카드 설치 후기와 인식 불안정으로 원복한 이유"
 url: https://www.ramoo.net/lab-log/ds918-plus-25g-upgrade/index.md
 date: "2022-11-16"
 description: ipTIME U2500과 r8152 드라이버로 구성한 DS918+ 2.5G 연결. 설치 과정과 전송 속도, 철거한 이유.
@@ -411,7 +411,7 @@ GitLab CE를 Docker Registry에서 받아 설치해 두었다. 설치한 이미�
 
 
 --------------------------------------------------------------------------------
-title: "Synology DNS Server 설치와 레코드 설정 메모"
+title: "시놀로지 DNS Server 구축 및 내부 도메인 레코드 설정 방법"
 url: https://www.ramoo.net/lab-log/synology-dns-server/index.md
 date: "2021-07-31"
 description: DSM 7.0에서 DNS Server를 설치하고 정방향 영역, A·PTR 레코드, 네임서버 설정을 살펴본 기록.
@@ -517,7 +517,7 @@ NAS에 직접 물었을 때 레코드가 나오는지, 일반 DNS 조회에서�
 
 
 --------------------------------------------------------------------------------
-title: "C++ tuple로 여러 결과 반환하기"
+title: "C++ std::tuple 활용법: 함수에서 여러 값 반환하고 std::tie로 받는 방법"
 url: https://www.ramoo.net/lab-log/cpp11-tuple/index.md
 date: "2021-06-26"
 description: 함수 결과를 tuple로 묶고 get과 tie로 꺼내는 예제. 마지막 구조적 바인딩은 C++17 문법이다.
@@ -658,7 +658,7 @@ int main()
 
 
 --------------------------------------------------------------------------------
-title: "Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다"
+title: "맥(Mac)에서 Let's Encrypt 와일드카드 SSL 인증서 발급 후 시놀로지 NAS 적용 가이드"
 url: https://www.ramoo.net/lab-log/synology-wildcard-certbot-mac/index.md
 date: "2021-01-09"
 description: Mac에서 Certbot을 실행하고 NAS DNS에 TXT 레코드를 추가한 뒤 인증서를 가져온 기록. 2021년 화면 기준.
@@ -797,7 +797,7 @@ LACP를 지원하는 스위치를 찾다가 TL-SG2008을 골랐다.
 
 
 --------------------------------------------------------------------------------
-title: "ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다"
+title: "ipTIME A3004NS-M 가성비 기가 와이파이 공유기 실사용기: 간이 NAS 끄고 공유기로만 쓴 이유"
 url: https://www.ramoo.net/lab-log/iptime-a3004ns-m/index.md
 date: "2020-07-26"
 description: VPN과 USB 간이 NAS에서는 문제가 있었지만, 공유기 기능만 쓰니 안정적이었다. 2020년 사용 기록.
@@ -829,7 +829,7 @@ USB 3.0에 저장 장치를 붙여 간이 NAS로도 써 봤지만, 3개월을 �
 
 
 --------------------------------------------------------------------------------
-title: "C++11 emplace_back 메모"
+title: "C++11 push_back vs emplace_back 차이점과 객체 생성 최적화 원리"
 url: https://www.ramoo.net/lab-log/cpp11-emplace/index.md
 date: "2020-04-17"
 description: 생성자 인자를 바로 넘겨 원소를 만드는 emplace_back과 push_back을 비교한 코드 조각.
@@ -891,7 +891,7 @@ description: 2019년에 SSL For Free에서 와일드카드 인증서를 발급�
 
 
 --------------------------------------------------------------------------------
-title: "DS918+ 메모리 업그레이드"
+title: "시놀로지 DS918+ RAM 메모리 16GB 업그레이드 방법 및 호환 메모리 확인기"
 url: https://www.ramoo.net/lab-log/ds918-memory-upgrade/index.md
 date: "2019-11-02"
 description: DS918+에 CT2K102464BF186D 메모리를 장착한 기록. 사용 중 느낀 변화와 남은 기존 메모리 이야기.
@@ -981,7 +981,7 @@ Xcode로 `homebrew.mxcl.jenkins.plist`를 열어 주소와 포트를 바꿨다.
 
 
 --------------------------------------------------------------------------------
-title: "Synology NAS에서 특정 지역 접속을 차단했다"
+title: "시놀로지(Synology) NAS 해외 IP 및 특정 국가 접속 차단 방화벽 설정 방법"
 url: https://www.ramoo.net/lab-log/synology-region-firewall/index.md
 date: "2019-10-27"
 description: 반복되는 admin 로그인 시도를 보고 DSM 방화벽에서 지역별 규칙을 만들었다. 이후 특정 포트만 차단하도록 바꿨다.
@@ -1902,7 +1902,7 @@ description: 이재명 대통령은 전국적인 폭우 피해로 인해 부산 
 
 
 --------------------------------------------------------------------------------
-title: "LG 43UN700 모니터, 2주 사용 기록"
+title: "LG 43UN700 43인치 4K 모니터 실사용기 — 맥북 연결 및 CalDigit DP 색상 왜곡 해결법"
 url: https://www.ramoo.net/off-duty/lg-43un700-monitor/index.md
 date: "2021-01-01"
 description: 큰 화면과 USB-C 허브 기능은 편했다. CalDigit TS3 Plus에 연결했을 때 붉게 보이던 화면은 DP 설정을 바꿔 해결했다.
@@ -1950,7 +1950,7 @@ USB 허브 기능이 의외로 마음에 들었다. USB-C 하나로 화면과 US
 
 
 --------------------------------------------------------------------------------
-title: "Catalina에서 사라진 iTunes를 찾다가"
+title: "macOS 카탈리나에서 아이튠즈(iTunes) 사라졌을 때 아이폰 백업 및 동기화 방법"
 url: https://www.ramoo.net/off-duty/macos-catalina-itunes/index.md
 date: "2019-11-01"
 description: iTunes를 찾다가 Catalina에서는 Finder로 기기를 동기화한다는 것을 알게 됐다.
@@ -1970,7 +1970,7 @@ Finder를 열면 왼쪽에 연결한 기기가 나타난다. 선택하면 예전
 
 
 --------------------------------------------------------------------------------
-title: "Mac Finder에서 숨김 파일 표시"
+title: "Mac Finder 숨김 파일·폴더 보기 단축키(Cmd+Shift+.) 및 터미널 명령어 정리"
 url: https://www.ramoo.net/off-duty/mac-finder-hidden-files/index.md
 date: "2019-10-29"
 description: 한 번 설정하고 잊기 쉬운 Finder 숨김 파일 표시 명령과 재실행 방법.
@@ -1992,7 +1992,7 @@ killall Finder
 
 
 --------------------------------------------------------------------------------
-title: "Mac Time Machine 백업 속도 메모"
+title: "맥 타임머신(Time Machine) 최초 백업 속도 느릴 때 원인과 해결 팁"
 url: https://www.ramoo.net/off-duty/mac-time-machine-speed/index.md
 date: "2019-09-26"
 description: 업데이트 문제를 Time Machine으로 복원한 뒤 백업 속도를 조정해 본 기록.
@@ -2379,7 +2379,7 @@ description: 언젠가 지을 집을 위한 메모
 
 
 --------------------------------------------------------------------------------
-title: "목구조에 대한 오해를 끝내야 할때!"
+title: "목조주택에 대한 흔한 오해와 진실: 내진 성능, 화재 안전성과 수명 비교"
 url: https://www.ramoo.net/house-project/jungmog-gujo-jutaeg/index.md
 date: "2025-08-17"
 description: 목구조에 대한 편견은 없다. 대지가 마음에 들어 스크랩했고, 주차 공간과 전망, 주방 배치를 함께 적어 뒀다.
@@ -2443,7 +2443,7 @@ description: 목구조에 대한 편견은 없다. 대지가 마음에 들어 �
 
 
 --------------------------------------------------------------------------------
-title: "보는 순간 스크랩 하지 않을 수 없었다."
+title: "영구 조망과 별도 취미 컨테이너가 돋보이는 40평형 단층 전원주택 설계 사례"
 url: https://www.ramoo.net/house-project/boneun-sungan-seukeuraeb-haji-anhgo-neomeogal-su-eobseossdeon-jib/index.md
 date: "2025-07-26"
 description: 지대가 좀 높긴 하지만 영구 전망과 공간 구성이 마음에 들어 스크랩했다. 집 구조 자체는 사실 그다지 마음에 들지 않는다.
@@ -2485,7 +2485,7 @@ description: 지대가 좀 높긴 하지만 영구 전망과 공간 구성이 �
 
 
 --------------------------------------------------------------------------------
-title: "심플한 외관 깔끔한 실내 인테리어"
+title: "화이트톤 모던 전원주택 외관과 실내 인테리어 구조 스크랩"
 url: https://www.ramoo.net/house-project/simpeulhan-oegwan-ggalggeumhan-silnae-interieo/index.md
 date: "2025-07-23"
 description: 생각보다 집 구조와 인테리어가 깔끔하다. 나중에 집을 지을 때 참고할 만해서 기록해 둔다.
@@ -2527,7 +2527,7 @@ description: 생각보다 집 구조와 인테리어가 깔끔하다. 나중에 
 
 
 --------------------------------------------------------------------------------
-title: "기억 하자! 직결 배관"
+title: "전원주택 설비 하자 예방: 이중 배관(직결 배관) 시공 방식의 장점과 점검 포인트"
 url: https://www.ramoo.net/house-project/gieog-haja-jiggyeol-baegwan/index.md
 date: "2025-07-22"
 description: 감성주택은 나중에 상담을 한번 받아 보고 싶은 업체다. 하자 관리에 중점을 두는 듯한 인상과 처음 알게 된 이중 배관을 기록해 둔다.

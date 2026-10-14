@@ -1,4 +1,4 @@
-# Synology DNS Server 설치와 레코드 설정 메모
+# 시놀로지 DNS Server 구축 및 내부 도메인 레코드 설정 방법
 
 date: 2021-07-31
 
