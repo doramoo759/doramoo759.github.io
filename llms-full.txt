@@ -37,6 +37,984 @@ description: ramoo.net 글 목록
 ramoo.net 글 목록
 
 --------------------------------------------------------------------------------
+title: "Dev Log"
+url: https://www.ramoo.net/lab-log/index.md
+description: 개발, 서버, NAS를 만지며 남긴 기록
+--------------------------------------------------------------------------------
+
+네트워크 연결을 확인할 때는 [내 IP 주소 확인하기 — 공인 IP 조회와 위치 지도](/lab-log/check-my-ip/)에서 현재 IP와 통신사 정보를 바로 볼 수 있습니다.
+
+
+--------------------------------------------------------------------------------
+title: "내 IP 주소 확인하기"
+url: https://www.ramoo.net/lab-log/check-my-ip/index.md
+date: "2026-10-14"
+description: 내 IP 주소를 무료로 확인하세요. 공인 IP 조회, IPv4·IPv6 구분, IP 위치 지도, 통신사·ASN과 연결 정보를 확인하고 주소를 바로 복사할 수 있습니다.
+--------------------------------------------------------------------------------
+
+![내 IP 주소 확인과 공인 IP 조회를 설명하는 노트북·공유기·인터넷 네트워크 일러스트](/images/tech/check-my-ip/cover.png)
+
+내 IP 주소가 궁금할 때 브라우저에서 **공인 IP(외부 아이피)**를 바로 확인하는 무료 도구입니다. 현재 연결의 IPv4·IPv6 주소, 통신사·ASN, 시간대와 IP 위치 지도를 조회하고 주소를 복사할 수 있습니다.
+
+페이지를 열면 현재 네트워크를 자동 조회합니다. VPN을 켜거나 와이파이·모바일 데이터를 바꾼 뒤 **다시 조회**를 누르면 변경된 IP를 확인할 수 있습니다.
+
+{{< ip-check >}}
+
+## 내 IP 주소 확인 방법
+
+1. 위 조회 도구에서 **공인 IP 주소**를 확인합니다. 별도 프로그램을 설치하지 않아도 됩니다.
+2. **IP 주소 복사**를 누르면 표시된 주소를 클립보드로 복사할 수 있습니다.
+3. 네트워크나 VPN 연결을 바꾼 뒤 **다시 조회**를 누르면 현재 연결을 다시 확인합니다.
+4. **즐겨찾기 추가**를 누르면 PC·모바일에 맞는 저장 방법을 안내합니다. 자주 확인할 때 현재 페이지를 북마크로 저장해두면 편리합니다.
+5. 위도·경도가 제공되면 지도에서 대략적인 위치를 봅니다. **세계 지도**와 **내 위치로** 버튼으로 표시 범위를 바꿀 수 있습니다.
+
+
+## 공인 IP 조회 결과와 네트워크 정보 읽기
+
+- **공인 IP**는 인터넷에서 보이는 현재 연결의 주소입니다. 같은 공유기를 사용하는 기기들은 같은 IPv4 주소를 공유할 수 있습니다.
+- **네트워크 운영 기관**은 IP 대역을 운영하는 통신사나 기관입니다. VPN을 사용하면 VPN 출구의 IP와 네트워크가 표시될 수 있습니다.
+- **위치 정보**는 IP 기반 추정입니다. 실제 위치, GPS 좌표나 정확한 집 주소를 의미하지 않으며, 일부 정보는 제공되지 않을 수 있습니다. 위도·경도가 있으면 국가·해안선 지도에 추정 위치를 표시합니다.
+- **HTTP·TLS 정보**는 이 브라우저와 API 사이의 연결 정보입니다. 브라우저나 접속 환경에 따라 달라집니다.
+
+## 공인 IP와 사설 IP는 무엇이 다를까?
+
+기기의 `192.168.x.x`, `10.x.x.x` 같은 주소는 보통 내부망에서 사용하는 사설 IP입니다. 이 페이지는 브라우저의 요청이 인터넷에 나갈 때 사용하는 공인 IP를 보여줍니다. IPv6 환경에서는 IPv6 주소가 표시될 수 있습니다.
+
+Windows에서 명령 프롬프트의 `ipconfig`로 확인하는 어댑터 주소와 이 페이지의 외부 IP가 다를 수 있습니다. [Microsoft의 ipconfig 안내](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ipconfig)는 기기의 IP·서브넷·기본 게이트웨이 확인 방법을 설명합니다.
+
+## 내 IP 확인에 관한 자주 묻는 질문
+
+### IP 주소 확인은 무료인가요?
+
+이 페이지의 IP 조회와 지도 보기는 무료이며 회원가입이나 별도 앱 설치가 필요하지 않습니다. IP 주소를 확인하려면 브라우저에서 JavaScript를 사용할 수 있어야 합니다.
+
+### 컴퓨터와 휴대폰의 공인 IP가 같을 수 있나요?
+
+두 기기가 같은 공유기의 와이파이를 사용하고 같은 IPv4 연결로 인터넷에 나간다면 같은 공인 IP가 표시될 수 있습니다. 휴대폰을 모바일 데이터로 전환하거나 VPN을 사용하면 다른 IP가 표시될 수 있습니다.
+
+### IP 위치 지도와 실제 위치가 다른 이유는 무엇인가요?
+
+IP 위치는 네트워크 대역에 연결된 지리 정보를 기반으로 추정합니다. 통신사나 VPN 출구의 위치가 표시될 수 있으며 실제 집 주소나 GPS 위치를 의미하지 않습니다. 지도는 국가·해안선을 보여주는 개략도입니다.
+
+### IPv4와 IPv6를 동시에 확인할 수 있나요?
+
+이 도구는 현재 API 요청에 사용된 주소를 표시하므로 IPv4 또는 IPv6 중 하나가 나옵니다. 점으로 구분한 숫자 주소는 IPv4, 콜론을 포함한 주소는 IPv6입니다. 한 번의 조회로 두 주소를 모두 확인하는 기능은 제공하지 않습니다.
+
+### VPN을 켜면 내 IP가 바뀌나요?
+
+브라우저의 요청이 VPN을 통해 나가면 VPN 출구 IP가 표시될 수 있습니다. VPN 연결 전후에 다시 조회해서 비교하세요. 분할 터널링 등 설정에 따라 브라우저 요청이 VPN을 사용하지 않을 수도 있습니다.
+
+### 공유기를 재부팅하면 공인 IP가 바뀌나요?
+
+바뀔 수 있지만 항상 바뀌는 것은 아닙니다. 고정 IP 사용 여부와 통신사의 주소 할당 방식에 따라 이전 IP를 다시 받을 수도 있습니다. 네트워크를 다시 연결한 뒤 재조회해서 확인하세요.
+
+### 다른 사람의 IP나 정확한 주소도 조회할 수 있나요?
+
+이 페이지는 현재 방문자의 연결 정보를 확인하는 도구입니다. 임의의 IP를 입력해 다른 사람의 위치를 찾는 기능은 없으며, IP만으로 정확한 개인 주소를 알 수 있는 도구도 아닙니다.
+
+### IP 조회가 안 되면 어떻게 하나요?
+
+인터넷 연결과 브라우저의 JavaScript 설정을 확인하고 **다시 조회**를 눌러보세요. 응답이 지연되거나 API에 접근할 수 없으면 오류 안내가 표시됩니다. 일부 위치·네트워크 정보가 제공되지 않으면 해당 항목만 ‘정보 없음’으로 나옵니다.
+
+## 함께 읽으면 좋은 네트워크 글
+
+- [Synology DNS Server 설치와 A·PTR 레코드 설정](/lab-log/synology-dns-server/)
+- [Synology NAS의 지역별 방화벽 설정 기록](/lab-log/synology-region-firewall/)
+
+{{< ip-check-tags >}}
+
+
+--------------------------------------------------------------------------------
+title: "Apache Guacamole를 사내망에서 테스트해 봤다"
+url: https://www.ramoo.net/lab-log/apache-guacamole-intro/index.md
+date: "2026-04-24"
+description: 브라우저 SSH 접속은 편했지만 LDAP 연동과 계정·세션 관리가 걸렸다. 사내망 테스트에서 멈춘 기록.
+--------------------------------------------------------------------------------
+
+![Apache Guacamole 소개 이미지](/images/server/apache-guacamole-cover.webp)
+
+사내 서버에 Apache Guacamole를 설치해서 원격접속을 테스트했다. 사내망에서만 접근할 수 있게 열어 두었고, 기본 기능을 확인한 뒤 정식 운영으로 이어가지는 않았다.
+
+브라우저에서 SSH에 접속할 수 있는 건 편했다. 다만 LDAP 연동이 기대만큼 안정적이지 않았고, 계정과 세션을 관리할 부담도 있었다.
+
+## 브라우저로 원격접속하기
+
+Guacamole는 웹에서 RDP, VNC, SSH 연결을 사용할 수 있게 해 주는 도구다. 접속하는 PC에 별도 클라이언트를 설치하지 않아도 된다. 관리자가 계정별로 연결 대상을 등록하면 사용자는 로그인해서 자신에게 허용된 장비를 선택한다.
+
+[공식 사이트](https://guacamole.apache.org/)와 [설치·운영 매뉴얼](https://guacamole.apache.org/doc/gug/)을 참고했다. 아래는 공식 사이트의 데모 영상이다.
+
+<div style="margin: 2rem 0;">
+  <video controls preload="metadata" style="width: 100%; border-radius: 12px;">
+    <source src="https://guacamole.apache.org/videos/guacamole-0.9.4-demo.mp4" type="video/mp4" />
+    브라우저가 동영상 재생을 지원하지 않는다.
+  </video>
+</div>
+
+## 테스트에서 확인한 기능
+
+관리자 로그인, 계정별 연결 목록, SSH 접속, 연결 로그, 세션 재생, 사용자 설정을 확인했다. 현재 연결된 세션을 관리자가 종료하는 기능도 있다.
+
+접속 대상과 이력을 한 화면에서 볼 수 있다는 점은 좋았다. 사용자마다 원격접속 프로그램을 준비할 필요도 줄어든다.
+
+## 운영까지 가져가지 않은 이유
+
+LDAP 연동에서 불안정한 부분이 있었다. 테스트에서는 다시 확인해 보면 되지만, 실제 운영에서 계정 연동이 흔들리면 접속 자체에 문제가 생긴다. 이 상태로 운영을 시작하기는 어려웠다.
+
+보안과 사용자 관리도 걸렸다. 누가 어떤 서버에 접근할 수 있는지 정하고, 계정이 바뀔 때 권한을 수정하고, 로그와 세션 기록도 관리해야 한다. 사용자가 로그아웃하지 않고 세션을 남겨 두거나 인증 정보를 노출하는 상황도 고려해야 했다.
+
+웹으로 접속을 모으는 편의성은 확인했다. 하지만 당시 테스트한 환경에서는 그 편의성만으로 운영 부담을 감수하기는 어렵다고 판단했다. 기본 기능을 확인한 기록으로 남겨 둔다.
+
+
+--------------------------------------------------------------------------------
+title: "FlatBuffers 기본 개념과 Ubuntu 22.04 빌드 메모"
+url: https://www.ramoo.net/lab-log/flatbuffers-in-real-systems/index.md
+date: "2026-04-23"
+description: FlatBuffers가 버퍼를 읽는 방식과 스키마·생성 코드, Ubuntu 22.04 소스 빌드 명령.
+--------------------------------------------------------------------------------
+
+![FlatBuffers 개념과 설치 가이드 이미지](images/tech/flatbuffer-cover.png)
+
+FlatBuffers에서 눈여겨볼 부분은 데이터를 읽는 방식이다. 직렬화된 버퍼를 객체로 전부 풀어 놓지 않고, 필요한 필드에 직접 접근한다.
+
+기본 개념과 Ubuntu 22.04에서 소스로 빌드하는 방법을 적어 둔다. 성능 측정과 실제 적용 후기는 아직 없다.
+
+## 버퍼를 읽기까지
+
+먼저 `.fbs` 파일에 데이터 구조를 정의한다. 테이블, 구조체, 열거형, 벡터 같은 타입을 쓸 수 있다. `flatc`로 이 스키마에서 언어별 코드를 생성하고, 애플리케이션은 생성된 API로 버퍼를 만들거나 읽는다.
+
+읽을 때 전체 데이터를 별도 객체로 변환하는 과정이 필요 없다는 것이 특징이다. 흔히 말하는 zero-copy 읽기가 이 부분이다. 필요한 데이터에 접근하므로 읽기 비용과 추가 메모리 할당을 줄이는 데 도움이 된다. 자세한 설명은 [FlatBuffers 공식 문서](https://flatbuffers.dev/)에 있다.
+
+스키마를 여러 언어에서 공유할 수 있다는 점도 쓸모가 있다. C++ 프로그램과 다른 언어로 만든 프로그램이 같은 데이터 형식을 써야 할 때, `.fbs`를 기준으로 코드를 생성할 수 있다.
+
+## 쓰기 전에 생각할 점
+
+스키마 파일과 생성 코드를 함께 관리해야 한다. 데이터 구조가 바뀌면 이미 배포한 프로그램과의 호환성도 확인해야 한다.
+
+직렬화된 데이터를 수정할 때는 새 버퍼를 만들어야 하는 경우가 있다. 사람이 파일을 열어 값을 고치는 용도라면 JSON 같은 텍스트 형식이 더 편할 수 있다.
+
+게임 리소스, 센서 데이터, 네트워크 메시지처럼 읽기 비용을 줄이고 싶은 곳에서 검토할 수 있다. 다만 이 글에는 다른 형식과 비교한 벤치마크가 없으므로, 어느 정도 빨라지는지는 실제 데이터로 따로 확인해야 한다.
+
+## Ubuntu 22.04에서 소스 빌드
+
+빌드 도구를 설치한다.
+
+```bash
+sudo apt update
+sudo apt install -y cmake g++ zlib1g-dev
+```
+
+소스를 받은 뒤 빌드 디렉토리를 만든다.
+
+```bash
+git clone https://github.com/google/flatbuffers.git
+cd flatbuffers
+mkdir build
+cd build
+```
+
+`flatc` 빌드와 설치 옵션을 켜고 Release로 빌드한다.
+
+```bash
+cmake .. -DCMAKE_BUILD_TYPE=Release -DFLATBUFFERS_BUILD_FLATC=ON -DFLATBUFFERS_INSTALL=ON
+make -j$(nproc)
+```
+
+설치 후 라이브러리 캐시를 갱신한다.
+
+```bash
+sudo make install
+sudo ldconfig
+```
+
+위 명령은 저장소의 기본 브랜치를 받는다. 특정 버전을 계속 사용할 프로젝트라면 사용할 태그를 정해 두는 편이 재현하기 쉽다.
+
+
+--------------------------------------------------------------------------------
+title: "ZeroMQ를 살펴보며 적어 둔 메시징 패턴"
+url: https://www.ramoo.net/lab-log/zeromq-patterns/index.md
+date: "2026-04-23"
+description: REQ/REP, PUB/SUB, PUSH/PULL, PAIR의 메시지 흐름과 애플리케이션에서 정할 부분.
+--------------------------------------------------------------------------------
+
+![ZeroMQ 개념과 메시징 패턴 이미지](images/tech/zeromq-cover.png)
+
+ZeroMQ는 프로그램 안에서 메시지를 주고받는 데 쓰는 라이브러리다. 별도 브로커를 설치하지 않고 프로세스나 장비 사이를 연결할 수 있다.
+
+처음 살펴볼 때는 소켓 종류부터 보면 이해하기 편하다. 연결된 상대에게 메시지를 어떤 방식으로 보낼지가 소켓 패턴에 따라 달라진다.
+
+## 메시지를 어떻게 나눠 보낼까
+
+| 패턴 | 메시지 흐름 |
+| --- | --- |
+| `REQ/REP` | 요청을 보내고 응답을 받는다. |
+| `PUB/SUB` | 발행한 메시지를 구독자들에게 전달한다. |
+| `PUSH/PULL` | 작업을 여러 수신자에게 나눠 보낸다. |
+| `PAIR` | 두 소켓을 1:1로 연결한다. |
+
+요청 하나에 응답 하나가 필요한 통신이라면 `REQ/REP`, 여러 곳으로 데이터를 내보내려면 `PUB/SUB`, 작업을 나눠 처리하려면 `PUSH/PULL`부터 살펴볼 수 있다. 예제와 각 패턴의 제약은 [ZeroMQ Guide 첫 장](https://zguide.zeromq.org/docs/chapter1/)에 나온다.
+
+## 별도 브로커 없이 시작할 수 있다
+
+메시징 서버를 따로 운영하지 않아도 된다는 점은 작은 구성에서 편하다. 애플리케이션에 라이브러리를 넣고 소켓을 연결해 통신을 시작할 수 있다. 서로 다른 프로세스나 머신을 연결할 수 있고, 여러 언어의 바인딩도 있다.
+
+전송과 큐 처리를 라이브러리에 맡기고 메시지 흐름에 집중할 수 있다. 센서 값을 모으거나, 프로세스끼리 작업을 나누거나, 내부 서비스 사이에 메시지를 전달하는 구성을 생각해 볼 수 있다.
+
+## 애플리케이션에서 정할 부분도 있다
+
+브로커 설치가 없다고 해서 시스템 설계까지 끝나는 것은 아니다. 상대가 끊겼을 때 어떻게 처리할지, 응답을 얼마나 기다릴지, 메시지를 다시 보낼지 같은 동작은 별도로 정해야 한다.
+
+패턴마다 메시지를 전달하는 방식과 제약이 다르다. `PUB/SUB`로 보낸 메시지를 모든 구독자가 반드시 받는다고 가정하거나, `REQ/REP`의 순서를 무시하면 기대와 다르게 동작할 수 있다. 적용 전에 사용할 패턴의 예제를 먼저 실행해 볼 것.
+
+여기에는 기본 패턴만 적었다. 실제 구성에 적용하려면 정상 송수신뿐 아니라 연결이 끊기거나 수신이 늦어지는 경우도 함께 확인해야 한다.
+
+
+--------------------------------------------------------------------------------
+title: "DS918+에 USB 2.5G LAN을 붙였다가 뺀 이야기"
+url: https://www.ramoo.net/lab-log/ds918-plus-25g-upgrade/index.md
+date: "2022-11-16"
+description: ipTIME U2500과 r8152 드라이버로 구성한 DS918+ 2.5G 연결. 설치 과정과 전송 속도, 철거한 이유.
+--------------------------------------------------------------------------------
+
+![DS918+ 2.5G 네트워크 구성 이미지](/images/server/ds918-25g/cover.png)
+
+PC에서 2.5G LAN을 쓸 수 있으니 DS918+도 같은 속도로 연결해 보고 싶었다. NAS를 바꾸는 대신 USB LAN 어댑터와 2.5G 스위칭 허브를 붙였다.
+
+속도는 잘 나왔다. PC에서 NAS로 복사할 때 약 290MB/s, 반대 방향은 약 220MB/s였다. 다만 쓰다 보니 간헐적으로 네트워크가 먹통이 됐고, 결국 어댑터를 빼고 원래 구성으로 돌아갔다.
+
+## 사용한 장비
+
+- 2.5G LAN을 지원하는 PC
+- ipTIME USB 3.0 U2500 (`RTL8156` 칩셋)
+- 2.5G 스위칭 허브
+- Synology DS918+
+
+DSM에서 USB LAN을 쓰려면 별도 드라이버가 필요하다. 어댑터를 고를 때는 [r8152 호환 목록](https://github.com/bb-qq/r8152/wiki/Compatibility)을 확인했다.
+
+내 DS918+에서는 후면 USB 포트의 인식이 불안정했고, 전면 포트에서는 비교적 잘 잡혔다. 그래서 전면 포트에 연결해서 사용했다.
+
+## r8152 드라이버 설치
+
+[bb-qq/r8152 릴리스](https://github.com/bb-qq/r8152/releases)에서 NAS 모델과 DSM 버전에 맞는 `spk` 파일을 받는다. DSM 패키지 센터의 **수동 설치**로 진행하면 된다.
+
+![DSM 패키지 수동 설치 화면](/images/server/ds918-25g/manual-install.webp)
+
+설치 중 오류가 나서 SSH로 접속해 아래 명령을 실행한 뒤 다시 설치했다. 당시 사용한 패키지에서 필요한 조치였다.
+
+```bash
+sudo install -m 4755 -o root -D /var/packages/r8152/target/r8152/spk_su /opt/sbin/spk_su
+```
+
+설치가 끝나면 패키지 센터에서 드라이버 상태를 확인한다.
+
+![DSM r8152 드라이버 설치 확인](/images/server/ds918-25g/driver-installed.webp)
+
+## 인터페이스 설정과 연결
+
+제어판의 **네트워크 인터페이스**에 USB LAN이 추가된 것을 확인하고, 편집 화면에서 `Jumbo Frame`을 `9K`로 설정했다. 아래는 당시 사용한 설정이다.
+
+![점보 프레임 9K 설정 화면](/images/server/ds918-25g/jumbo-frame.webp)
+
+PC와 NAS를 직접 연결해 수동 IP를 잡는 방법도 있지만, 나는 2.5G 스위칭 허브에 연결했다.
+
+![2.5G 스위칭 허브 구성 예시 1](/images/server/ds918-25g/switch-01.webp)
+
+![2.5G 스위칭 허브 구성 예시 2](/images/server/ds918-25g/switch-02.webp)
+
+이 구성에서 측정한 전송 속도는 다음과 같다. 내 환경에서 파일을 복사하며 확인한 수치이다.
+
+| 방향 | 전송 속도 |
+| --- | --- |
+| PC → NAS | 약 290MB/s |
+| NAS → PC | 약 220MB/s |
+
+1GbE로 쓰던 때보다 파일 복사는 확실히 빨라졌다.
+
+## 결국 철거했다
+
+처음에는 잘 썼지만, 사용을 이어 가면서 간헐적으로 네트워크가 멈추는 문제가 생겼다. 드라이버를 중지했다가 다시 로드하면 복구됐다. 계속 켜 두는 NAS에서 그 작업을 반복해야 한다는 게 불편했다.
+
+전면 포트를 써야 하는 것도 마음에 걸렸다. 어댑터와 랜선이 앞에 계속 꽂혀 있으니 케이블 정리가 깔끔하지 않았다.
+
+속도만 보면 아쉬운 업그레이드는 아니었다. 그래도 내 NAS에서는 안정성과 케이블 정리 문제 때문에 오래 유지하지 못했다.
+
+
+--------------------------------------------------------------------------------
+title: "Synology GitLab CE 컨테이너 업데이트 메모"
+url: https://www.ramoo.net/lab-log/synology-gitlab-docker-update/index.md
+date: "2022-03-22"
+description: GitLab CE 14.8.3에서 14.8.4로 업데이트할 때 사용한 DSM Docker 화면과 설정 내보내기·가져오기 기록.
+--------------------------------------------------------------------------------
+
+GitLab CE를 Docker Registry에서 받아 설치해 두었다. 설치한 이미지를 업데이트하는 방법을 찾아보다가 기록으로 남긴다.
+
+2022년에 `14.8.3-ce.0`에서 `14.8.4-ce.0`으로 바꿀 때 사용한 DSM Docker 화면 기준이다.
+
+## 새 이미지 받기
+
+`DSM > Docker > Registry`에서 gitlab을 검색해 필요한 버전을 다운로드한다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 1](/images/server/blog-nas/synology-gitlab-docker-update/photo-01.png)
+
+`latest`보다 버전을 지정해 두는 편이 다음 업데이트 때 관리하기 편하다. 당시에는 `14.8.4-ce.0`을 받았다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 2](/images/server/blog-nas/synology-gitlab-docker-update/photo-02.png)
+
+## 설정 내보내기
+
+`DSM > Docker > Container`에서 기존 GitLab CE 컨테이너를 선택하고, 우클릭 메뉴의 `설정 > 내보내기`를 선택한다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 3](/images/server/blog-nas/synology-gitlab-docker-update/photo-03.png)
+
+적당한 폴더를 골라 내보낸다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 4](/images/server/blog-nas/synology-gitlab-docker-update/photo-04.png)
+
+선택한 폴더에 JSON 파일이 생긴다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 5](/images/server/blog-nas/synology-gitlab-docker-update/photo-05.png)
+
+텍스트 편집기로 연다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 6](/images/server/blog-nas/synology-gitlab-docker-update/photo-06.png)
+
+이미지 이름의 버전을 새로 받은 버전으로 바꾸고 저장한다.
+
+```json
+"image": "gitlab/gitlab-ce:14.8.3-ce.0"
+```
+
+위 값을 다음과 같이 바꿨다.
+
+```json
+"image": "gitlab/gitlab-ce:14.8.4-ce.0"
+```
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 7](/images/server/blog-nas/synology-gitlab-docker-update/photo-07.png)
+
+## 컨테이너 교체
+
+기존 컨테이너를 중지한다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 8](/images/server/blog-nas/synology-gitlab-docker-update/photo-08.png)
+
+중지한 컨테이너를 삭제한다. 삭제하기 전에는 데이터를 백업하고, 버전 사이에 필요한 마이그레이션 경로도 확인해야 한다. 내보낸 설정 파일만으로 데이터 백업을 대신할 수는 없다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 9](/images/server/blog-nas/synology-gitlab-docker-update/photo-09.png)
+
+`DSM > Docker > Container > 설정 > 가져오기`에서 수정한 파일을 선택한다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 10](/images/server/blog-nas/synology-gitlab-docker-update/photo-10.png)
+
+새 버전으로 GitLab CE를 실행한다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 11](/images/server/blog-nas/synology-gitlab-docker-update/photo-11.png)
+
+다른 Docker 이미지도 설정을 내보내고 이미지 버전을 바꾸는 방식으로 교체할 수 있다. 다만 애플리케이션마다 데이터와 버전 호환 조건은 따로 확인할 것.
+
+
+--------------------------------------------------------------------------------
+title: "Synology DNS Server 설치와 레코드 설정 메모"
+url: https://www.ramoo.net/lab-log/synology-dns-server/index.md
+date: "2021-07-31"
+description: DSM 7.0에서 DNS Server를 설치하고 정방향 영역, A·PTR 레코드, 네임서버 설정을 살펴본 기록.
+--------------------------------------------------------------------------------
+
+![Synology DNS Server 메인 화면](images/server/synology-dns/cover-synology-dns-server.png)
+
+Synology NAS의 DNS Server 패키지를 설치하고 영역과 레코드를 설정한 기록이다. DSM 7.0, `DNS Server 9.11.23-6069` 기준이라 다른 버전에서는 화면이 달라질 수 있다.
+
+예시에는 `example.com`과 `12.23.34.56`을 사용했다. 설정할 때는 사용할 도메인과 서버 IP로 바꿔야 한다.
+
+## 패키지 설치
+
+패키지 센터에서 `DNS Server`를 설치한다.
+
+![DNS Server 설치 화면](/images/server/synology-dns/step-01-install.webp)
+
+{{< notice "info" >}}
+다른 네트워크에서 조회하려면 공유기와 방화벽 설정도 필요하다. DNS에 사용하는 UDP·TCP 53번을 조회가 필요한 범위에 허용한다. 내부망에서만 쓸 때는 인터넷에 포트를 열 필요가 없다.
+{{< /notice >}}
+
+## 정방향 영역 만들기
+
+도메인 이름으로 IP를 조회하는 영역이다. **생성 > Master 영역 설정**으로 들어간다.
+
+![Master 영역 생성 시작 화면](/images/server/synology-dns/step-02-zone-start.webp)
+
+당시 외부 네임서버 구성 예시에서는 아래처럼 입력했다.
+
+- 도메인 유형: `정방향 영역`
+- 도메인 이름: 사용할 도메인
+- 마스터 DNS 서버: 공인 IP 주소
+
+![정방향 영역 설정 화면](/images/server/synology-dns/step-02-forward-zone.webp)
+
+내부망 DNS를 구성한다면 서버 주소와 레코드에는 그 환경에서 접근할 수 있는 내부 IP를 사용한다.
+
+영역이 만들어지면 목록에 나타난다.
+
+![정방향 영역 생성 완료 화면](/images/server/synology-dns/step-02-forward-complete.webp)
+
+## A 레코드 추가
+
+`example.com`을 선택하고 **편집 > 리소스 레코드 > 생성 > A 유형**으로 들어간다. 예를 들어 `www.example.com`에 연결할 IP를 등록한다.
+
+![정방향 리소스 레코드 진입 화면](/images/server/synology-dns/step-04-records-menu.webp)
+
+![A 레코드 생성 화면](/images/server/synology-dns/step-04-a-record.webp)
+
+TTL은 조회한 레코드를 캐시에 보관하는 시간이다. 주소를 바꾼 뒤에도 이전 조회 결과가 남을 수 있으니, 변경할 때는 이 값도 함께 확인한다.
+
+## 역방향 영역과 PTR 레코드
+
+역방향은 IP로 이름을 조회할 때 사용한다. IPv4에서는 주소를 거꾸로 적고 `in-addr.arpa`를 붙인다. 예를 들어 `12.23.34.56`의 PTR 조회 이름은 `56.34.23.12.in-addr.arpa`이다. [Cloudflare의 PTR 설명](https://www.cloudflare.com/learning/dns/dns-records/dns-ptr-record/)에 예시가 있다.
+
+`12.23.34.0/24` 범위의 역방향 영역이라면 이름은 `34.23.12.in-addr.arpa`이고, 그 안에 `56`에 해당하는 PTR을 추가하는 식이다. 이전 글의 `56.34.23` 예시는 주소 순서가 잘못되어 수정했다. 아래 이미지는 당시 화면으로, 입력값보다 메뉴 위치를 참고하면 된다.
+
+![정방향과 역방향 영역 목록](/images/server/synology-dns/step-03-zones-list.webp)
+
+역방향 영역을 선택한 뒤 **편집 > 리소스 레코드 > 생성 > PTR 유형**에서 IP에 대응하는 이름을 등록한다.
+
+![역방향 리소스 레코드 진입 화면](/images/server/synology-dns/step-05-ptr-menu.webp)
+
+![PTR 레코드 생성 화면](/images/server/synology-dns/step-05-ptr-record.webp)
+
+내부 DNS에서 조회할 PTR을 등록하는 것과 공인 IP의 인터넷 역방향 조회를 설정하는 것은 별개다. 공인 IP의 PTR은 IP 관리 주체에 확인해야 한다.
+
+## 외부 네임서버로 사용할 경우
+
+내부 장비의 이름을 조회하는 용도라면 도메인 등록 업체의 네임서버를 변경할 필요가 없다. 클라이언트가 NAS의 DNS를 조회하도록 설정하면 된다.
+
+소유한 도메인의 외부 네임서버로 NAS를 쓰려는 경우에는 등록 업체에서 네임서버 설정을 변경한다. 당시에는 whois의 설정 화면을 사용했다.
+
+![도메인 등록 업체의 네임서버 설정 화면](/images/server/synology-dns/step-06-provider.webp)
+
+![네임서버 설정 예시](/images/server/synology-dns/step-06-example.webp)
+
+등록 업체가 요구하는 네임서버 수와 등록 조건도 확인해야 한다. DDNS 주소가 있다는 것만으로 외부 위임 설정까지 끝나는 것은 아니다.
+
+## 조회 확인
+
+먼저 NAS의 DNS를 직접 지정해서 등록한 레코드를 확인한다. 아래의 `NAS_DNS_IP`는 실제 DNS 서버 주소로 바꾼다.
+
+```bash
+nslookup www.example.com NAS_DNS_IP
+dig @NAS_DNS_IP www.example.com A
+dig @NAS_DNS_IP -x 12.23.34.56
+```
+
+외부 네임서버까지 변경했다면 외부 네트워크에서도 조회한다.
+
+```bash
+nslookup example.com
+dig example.com
+dig example.com NS
+```
+
+NAS에 직접 물었을 때 레코드가 나오는지, 일반 DNS 조회에서도 설정이 반영되는지를 나눠 확인하면 문제가 생긴 위치를 찾기 쉽다.
+
+## 현재 외부 IP 확인
+
+인터넷에서 보이는 현재 주소가 궁금하다면 [내 IP 주소 확인하기](/lab-log/check-my-ip/)에서 공인 IP와 네트워크 정보를 조회할 수 있습니다. 기기의 내부 주소와 외부에 표시되는 주소가 다를 수 있으므로 DNS 레코드를 설정할 때 사용할 주소를 구분해서 확인합니다.
+
+
+--------------------------------------------------------------------------------
+title: "C++ tuple로 여러 결과 반환하기"
+url: https://www.ramoo.net/lab-log/cpp11-tuple/index.md
+date: "2021-06-26"
+description: 함수 결과를 tuple로 묶고 get과 tie로 꺼내는 예제. 마지막 구조적 바인딩은 C++17 문법이다.
+--------------------------------------------------------------------------------
+
+함수에서 결과 두 개를 반환해야 할 때가 있다. 결과를 받을 변수를 참조로 넘기는 방법도 있지만, `std::tuple`로 묶으면 간결하게 쓸 수 있다.
+
+짝수 여부와 짝수일 때 1을 더한 값을 함께 반환하는 예제를 적어 두었다.
+
+```cpp
+#include <iostream>
+#include <tuple>
+
+std::tuple<bool,int> isEvenAdd(int val) {
+    bool bis_even = (val % 2 == 0);
+    int ret = val;
+    if (bis_even) {
+        ret = val+1;
+    }
+    return std::make_tuple(bis_even, ret);
+}
+
+int main()
+{
+    auto ret = isEvenAdd(10);
+    std::cout << "ret contains: ";
+    std::cout << std::get<0>(ret) << ' ';
+    std::cout << std::get<1>(ret) << '\n';
+    
+    std::tie (myResult, myValue) = ret;
+    std::cout << "tie contains: ";
+    std::cout << myResult << ' ';
+    std::cout << myValue << '\n';
+    
+    auto [bis_even, val] = isEvenAdd(11);
+    std::cout << "auto tie contains: ";
+    std::cout << bis_even << ' ';
+    std::cout << val << '\n';
+}
+```
+
+`std::get<index>(instance)`로 각 원소에 접근한다. `std::tie`로 여러 값을 한 번에 풀어 받을 수도 있다.
+
+마지막 `auto [bis_even, val]` 형태는 C++17의 구조적 바인딩이다. `tuple` 자체는 C++11부터 사용할 수 있지만 이 부분은 버전이 다르다.
+
+원문 예제의 `myResult`, `myValue`는 사용하는 곳에서 따로 선언해야 한다.
+
+
+--------------------------------------------------------------------------------
+title: "C++ 람다를 쓰며 적어 둔 메모"
+url: https://www.ramoo.net/lab-log/cpp11-lambda/index.md
+date: "2021-01-30"
+description: 캡처 방식과 std::function 콜백, 정렬에 람다를 쓰는 형태를 적어 둔 메모.
+--------------------------------------------------------------------------------
+
+람다는 이름 없는 함수처럼 쓸 수 있다. 사용 빈도가 늘어나서 필요한 내용을 적어 둔다.
+
+[람다 설명](https://en.cppreference.com/w/cpp/language/lambda)
+
+## 형태와 캡처
+
+```cpp
+[capture] (params) -> return_type { body }
+[capture] (params) { body }
+```
+
+- `[&]`: 필요한 주변 자동 변수를 참조로 캡처한다.
+- `[=]`: 필요한 주변 자동 변수를 복사로 캡처한다.
+- `[&, a]`: 기본은 참조 캡처, `a`만 복사한다.
+- `[=, &a]`: 기본은 복사 캡처, `a`만 참조로 잡는다.
+- `[&, &a]`: 기본 참조 캡처와 같은 방식을 중복 지정해서 오류가 난다.
+
+복사로 캡처한 값을 람다 안에서 바꾸려면 `mutable` 같은 조건도 확인해야 한다.
+
+## 저장과 콜백
+
+`std::function`에 담아 둘 수 있다.
+
+```cpp
+#include <vector>
+#include <functional>
+std::function<int(int)> func = [](int i)->int{ return i+1; };
+```
+
+콜백을 받는 형태로도 쓸 수 있다. 아래는 당시 적어 둔 코드 조각이다.
+
+```cpp
+class Foo {
+public:
+	void SetCallback(std::function<void(const char*)> cb){
+		m_fcb = std::move(cb);
+	}
+	void ReqPrint(const char* pszText){
+		m_fcb(pszText);
+	}
+	
+private:
+	std::function<void(const char*)>	m_fcb;	
+}
+
+int main(){
+	Foo	_f;
+	_f.SetCallback([](const char* pszText){
+		std::cout << "callback: " << pszText << '\n';
+	});
+	
+	_f.ReqPrint("myFoo");
+	
+	return 0;
+}
+```
+
+## 정렬에 사용
+
+비교용 함수 객체를 따로 만드는 대신 람다를 넘기면 짧게 쓸 수 있다.
+
+```cpp
+#include <algorithm>
+#include <functional>
+#include <array>
+ 
+int main()
+{
+    std::array<int, 10> s = {5, 7, 4, 2, 8, 6, 1, 9, 0, 3};
+ 
+	// case 1 
+    struct {
+        bool operator()(int a, int b) const { return a < b; }
+    } customLess;
+    std::sort(s.begin(), s.end(), customLess);
+
+ 	// case 2
+    std::sort(s.begin(), s.end(), [](int a, int b) {
+        return a > b;
+    });
+}
+```
+
+
+--------------------------------------------------------------------------------
+title: "Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다"
+url: https://www.ramoo.net/lab-log/synology-wildcard-certbot-mac/index.md
+date: "2021-01-09"
+description: Mac에서 Certbot을 실행하고 NAS DNS에 TXT 레코드를 추가한 뒤 인증서를 가져온 기록. 2021년 화면 기준.
+--------------------------------------------------------------------------------
+
+예전에는 인증서를 발급해 주는 사이트를 이용했다. 유료로 바뀐 뒤에는 Mac에서 직접 발급해 NAS에 적용하고 있다.
+
+3개월마다 갱신할 때 방법을 다시 찾곤 해서 적어 둔다. 아래는 2021년에 사용한 Certbot과 DSM 화면 기준이다.
+
+## Mac에서 Certbot 설치
+
+```bash
+brew install certbot
+```
+
+설치가 끝나면 수동 발급 명령을 실행한다.
+
+```bash
+sudo certbot certonly --manual
+```
+
+인증받을 도메인을 입력한다. 와일드카드는 `*.도메인이름` 형식이다.
+
+```text
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Plugins selected: Authenticator manual, Installer None
+Please enter in your domain name(s) (comma and/or space separated)  (Enter 'c'
+to cancel): *.ramoo.net
+```
+
+## DNS TXT 레코드 추가
+
+Certbot이 안내한 이름과 값으로 TXT 레코드를 등록한다. 아래 값은 당시 실행 결과다. 다음 발급 때는 새로 출력된 값을 써야 한다.
+
+```text
+Cert is due for renewal, auto-renewing...
+Renewing an existing certificate for *.ramoo.net
+Performing the following challenges:
+dns-01 challenge for ramoo.net
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Please deploy a DNS TXT record under the name
+_acme-challenge.ramoo.net with the following value:
+
+IfxVNiyITgNqAAyfb6hVlRZ0PIKqIHxZD_Li-isWfbs
+
+Before continuing, verify the record is deployed.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Press Enter to Continue
+```
+
+NAS에서 DNS 서버를 운영하고 있어서 여기에 추가했다.
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 1](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-01.png)
+
+Certbot에 출력된 값으로 레코드를 등록한다.
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 2](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-02.png)
+
+등록한 뒤 콘솔에서 Enter를 눌러 진행한다.
+
+```text
+Waiting for verification...
+Cleaning up challenges
+
+IMPORTANT NOTES:
+ - Congratulations! Your certificate and chain have been saved at:
+   /etc/letsencrypt/live/ramoo.net/fullchain.pem
+   Your key file has been saved at:
+   /etc/letsencrypt/live/ramoo.net/privkey.pem
+   Your cert will expire on 2021-04-08. To obtain a new or tweaked
+   version of this certificate in the future, simply run certbot
+   again. To non-interactively renew *all* of your certificates, run
+   "certbot renew"
+ - If you like Certbot, please consider supporting our work by:
+
+   Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+   Donating to EFF:                    https://eff.org/donate-le
+```
+
+검증이 끝나면 `/etc/letsencrypt/live/ramoo.net/`에 인증서 파일이 생성된다. 필요한 파일 3개를 따로 복사해 둔다.
+
+## NAS에 인증서 적용
+
+발급한 인증서를 NAS에 가져온다.
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 3](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-03.png)
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 4](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-04.png)
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 5](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-05.png)
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 6](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-06.png)
+
+확인을 누르고 적용된 인증서를 확인한다.
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 7](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-07.png)
+
+자동 갱신도 알아봤지만, 당시에는 수동으로 3개월마다 하기로 했다. 핑계 삼아 관리도 할 겸.
+
+관련 메모: [Synology DNS Server 설정](/lab-log/synology-dns-server/)
+
+
+--------------------------------------------------------------------------------
+title: "TL-SG2008로 DS918+ 링크통합을 시도했다"
+url: https://www.ramoo.net/lab-log/tl-sg2008-lacp/index.md
+date: "2021-01-01"
+description: DS918+의 두 LAN 포트를 쓰려고 고른 TL-SG2008. 동적 링크통합에서 오류가 나 설정을 바꿨다.
+--------------------------------------------------------------------------------
+
+DS918+에는 LAN 포트가 두 개 있다. 하나만 쓰고 있자니 허전해서 둘 다 써 볼 생각으로 LACP를 구성해 보기로 했다.
+
+LACP를 지원하는 스위치를 찾다가 TL-SG2008을 골랐다.
+
+## 가격이 마음에 들었다
+
+집에서 취미로 쓰는 장비라 비싼 제품은 부담스럽다. 당시에는 국내에서 7만 원 이하로 살 수 있었다. 2020년 12월 구매 기준이다.
+
+![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 1](/images/server/blog-nas/tl-sg2008-lacp/photo-01.jpg)
+
+제품 사양의 프로토콜 항목에 `IEEE 802.3ad`가 있는지 봤다. 링크통합을 지원하는지 확인하면서 살펴본 부분이다.
+
+![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 2](/images/server/blog-nas/tl-sg2008-lacp/photo-02.png)
+
+## 실제 연결 결과
+
+생각처럼 동작할까 싶어서 연결했다.
+
+![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 3](/images/server/blog-nas/tl-sg2008-lacp/photo-03.png)
+
+동적 Link Aggregation에서는 오류와 경고가 나왔다. 결국 원문에서 'v1'이라고 적어 둔 방식으로 바꿔 사용했다. 당시 기록에는 그 설정 이름을 더 자세히 남기지 않았다.
+
+![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 4](/images/server/blog-nas/tl-sg2008-lacp/photo-04.png)
+
+아쉬움은 있지만 가격을 생각하면 용서가 된다.
+
+
+--------------------------------------------------------------------------------
+title: "ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다"
+url: https://www.ramoo.net/lab-log/iptime-a3004ns-m/index.md
+date: "2020-07-26"
+description: VPN과 USB 간이 NAS에서는 문제가 있었지만, 공유기 기능만 쓰니 안정적이었다. 2020년 사용 기록.
+--------------------------------------------------------------------------------
+
+사용하던 공유기가 오래돼서 ipTIME A3004NS-M을 골랐다. 가격과 기능을 보고 적당하겠다 싶어 산 5만 원대 가정용 공유기다.
+
+![ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다 — 화면 1](/images/server/blog-nas/iptime-a3004ns-m/photo-01.png)
+
+우연히 같은 제품을 두 개 샀다. 거실에 놓고 쓴 지 1년쯤 됐을 때의 기록이다.
+
+## VPN과 간이 NAS는 포기
+
+처음 한두 달은 회사에서 VPN이 필요해서 써 봤다. 연결이 하루를 못 가고 자주 끊겨서 포기했다.
+
+USB 3.0에 저장 장치를 붙여 간이 NAS로도 써 봤지만, 3개월을 못 가고 제품이 먹통이 됐다.
+
+고장 난 제품은 A/S를 보내고, 다른 한 대를 거실에 두었다. 이번에는 공유기 기능 외에는 쓰지 않았다.
+
+![ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다 — 화면 2](/images/server/blog-nas/iptime-a3004ns-m/photo-02.png)
+
+## 공유기로만 쓰니 안정적이었다
+
+그렇게 8개월 동안 한 번도 끊기지 않고 돌아갔다. 당연한 일이라고 할 수도 있지만 기대가 크지 않았던 만큼 의외로 만족했다.
+
+고장 났던 제품은 일반 인터넷 연결도 자주 끊겨 새벽에 재부팅하도록 설정해 쓰고 있었다.
+
+사용량이 많지는 않았다. BTV, 인터넷, 휴대폰 3~4대, NAS 연결, 가끔 토렌트 정도다. 내 환경에서는 공유기 본래 기능만 쓸 때 꽤 잘 버텼다.
+
+
+--------------------------------------------------------------------------------
+title: "C++11 emplace_back 메모"
+url: https://www.ramoo.net/lab-log/cpp11-emplace/index.md
+date: "2020-04-17"
+description: 생성자 인자를 바로 넘겨 원소를 만드는 emplace_back과 push_back을 비교한 코드 조각.
+--------------------------------------------------------------------------------
+
+`vector`에 원소를 넣을 때 보통 `push_back`을 쓴다. C++11에서는 생성자 인자를 바로 전달할 수 있는 `emplace_back`도 있다.
+
+당시 적어 둔 비교 예제다. `AClass` 정의는 생략된 코드 조각이다.
+
+```cpp
+void main(){
+    std::vector<AClass> vA;
+    va.push_back(AClass(1,"a"));
+}
+```
+
+```cpp
+void main(){
+    std::vector<AClass>	va;
+    va.emplace_back(1,"a");
+}
+```
+
+`emplace_back`은 컨테이너 안에서 원소를 생성한다. 임시 객체를 만든 뒤 옮기는 일을 줄일 수 있다는 점을 기억해 둔다.
+
+다만 `vector`가 커지면서 재할당되면 기존 원소의 이동이나 복사가 생길 수 있으니, 호출 전체에서 이동이 전혀 없다고 생각하면 안 된다.
+
+
+--------------------------------------------------------------------------------
+title: "SSL For Free에서 와일드카드 인증서를 받았던 기록"
+url: https://www.ramoo.net/lab-log/synology-wildcard-sslforfree/index.md
+date: "2019-12-11"
+description: 2019년에 SSL For Free에서 와일드카드 인증서를 발급했던 기록. 이후에는 Mac의 Certbot으로 바꿨다.
+--------------------------------------------------------------------------------
+
+블로그를 처음 만들 때 인증서를 살 생각으로 가격을 알아봤다. 여러 도메인을 쓰려니 비용이 올라가 최소 30만 원 이상이 필요해서 무료 발급 방법을 찾았다.
+
+당시에는 SSL For Free에서 와일드카드 인증서를 받을 수 있었다. 대신 3개월마다 갱신해야 했다. 아래는 2019년에 이용했던 화면과 절차다.
+
+## 도메인 입력
+
+[SSL For Free](https://www.sslforfree.com/)에 접속해 원하는 도메인을 입력했다. 와일드카드는 `*.도메인이름` 형식으로 넣는다.
+
+![SSL For Free에서 와일드카드 인증서를 받았던 기록 — 화면 1](/images/server/blog-nas/synology-wildcard-sslforfree/photo-01.png)
+
+## TXT 레코드로 도메인 확인
+
+수동 도메인 확인을 선택해서 TXT 레코드를 받는다.
+
+![SSL For Free에서 와일드카드 인증서를 받았던 기록 — 화면 2](/images/server/blog-nas/synology-wildcard-sslforfree/photo-02.png)
+
+도메인을 관리하는 DNS에 안내된 TXT 레코드를 추가한다. 당시 화면에서는 TTL을 1로 설정하라고 했지만 설정 항목이 없어 반영될 때까지 기다렸다.
+
+입력한 도메인의 `_acme-challenge` 확인 버튼으로 레코드가 조회되는지 확인한 뒤 인증서를 다운로드했다.
+
+메일 주소를 입력하면 만료 전에 알림을 받을 수 있다고 했다.
+
+이후에는 Mac에서 직접 발급하는 방식으로 바꿨다. 그 기록은 [Certbot으로 발급해 NAS에 적용한 메모](/lab-log/synology-wildcard-certbot-mac/)에 남겼다.
+
+
+--------------------------------------------------------------------------------
+title: "DS918+ 메모리 업그레이드"
+url: https://www.ramoo.net/lab-log/ds918-memory-upgrade/index.md
+date: "2019-11-02"
+description: DS918+에 CT2K102464BF186D 메모리를 장착한 기록. 사용 중 느낀 변화와 남은 기존 메모리 이야기.
+--------------------------------------------------------------------------------
+
+DS918+를 사고 메모리를 늘리려고 알아봤다. 아무 메모리나 사서 꽂으면 되는 것은 아니어서 아래 모델을 골랐다.
+
+```text
+DDR3L 1866 MT/s (PC3-14900)
+Unbuffered SODIMM 204-Pin
+CT2K102464BF186D
+```
+
+![DS918+ 메모리 업그레이드 — 화면 1](/images/server/blog-nas/ds918-memory-upgrade/photo-01.jpeg)
+
+아마존에서 샀다. 처음에는 8GB 하나만 사려고 했는데, 해외에서 오는 김에 세트로 주문했다.
+
+## 장착 후
+
+메모리 용량이 많이 남았다. 돈을 너무 쓴 건 아닌가 싶었지만 체감상 확실히 빠릿해진 느낌이었다.
+
+![DS918+ 메모리 업그레이드 — 화면 2](/images/server/blog-nas/ds918-memory-upgrade/photo-02.png)
+
+당시 사용 중에는 안정적으로 동작했다. 메모리가 넉넉하니 이것저것 올리는 데 부담이 줄어 만족했다.
+
+기존 Synology 4GB 메모리는 어떻게 처분할지 고민이었다.
+
+
+--------------------------------------------------------------------------------
+title: "Mac에 Jenkins를 설치했던 기록"
+url: https://www.ramoo.net/lab-log/mac-jenkins-install/index.md
+date: "2019-10-29"
+description: Homebrew로 Jenkins를 설치하고 Java 8 오류를 해결했던 2019년 기록.
+--------------------------------------------------------------------------------
+
+2019년에 Mac에 Jenkins를 설치했던 기록이다. 당시 Homebrew와 Java 8을 기준으로 적어 둔 명령이다.
+
+## Homebrew 설치
+
+이미 설치되어 있다면 넘어간다. 당시 사용한 설치 명령은 아래와 같다.
+
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+## Jenkins 설치
+
+```bash
+brew install jenkins
+```
+
+설치 중 다음 오류를 만났다.
+
+```text
+jenkins: Java 1.8 is required to install this formula.
+Install AdoptOpenJDK 8 with Homebrew Cask:
+brew cask install homebrew/cask-versions/adoptopenjdk8
+Error: An unsatisfied requirement failed this build.
+```
+
+Java 8을 설치한 뒤 다시 진행했다.
+
+```bash
+brew cask install homebrew/cask-versions/adoptopenjdk8
+```
+
+설치가 끝나면 `http://localhost:8080`에서 확인한다. 초기 비밀번호는 사용자 폴더의 `.jenkins/secrets/initialAdminPassword`에서 찾는다.
+
+## 접속 주소와 포트
+
+아래 경로로 이동했다.
+
+```bash
+cd /usr/local/opt/jenkins
+```
+
+Xcode로 `homebrew.mxcl.jenkins.plist`를 열어 주소와 포트를 바꿨다.
+
+![Mac에 Jenkins를 설치했던 기록 — 화면 1](/images/off-duty/mac-jenkins-install/photo-01.png)
+
+```text
+--httpListenAddress=127.0.0.1 → --httpListenAddress=0.0.0.0
+--httpPort=8080 → --httpPort=9090
+```
+
+그 뒤 포트 포워딩이나 nginx 리버스 프록시를 통해 접속하는 구성을 생각했다.
+
+
+--------------------------------------------------------------------------------
+title: "Synology NAS에서 특정 지역 접속을 차단했다"
+url: https://www.ramoo.net/lab-log/synology-region-firewall/index.md
+date: "2019-10-27"
+description: 반복되는 admin 로그인 시도를 보고 DSM 방화벽에서 지역별 규칙을 만들었다. 이후 특정 포트만 차단하도록 바꿨다.
+--------------------------------------------------------------------------------
+
+NAS에 admin 계정으로 로그인하려는 흔적이 계속 보여서 IP 위치를 찾아봤다.
+
+[IP 주소를 지도에서 확인하는 도구](https://www.ipvoid.com/ip-to-google-maps/)
+
+2단계 인증을 켜 두고 비밀번호도 간단하게 쓰지 않았지만, 계속 시도가 보이니 기분이 좋지는 않았다.
+
+## DSM 방화벽 설정
+
+하는 김에 방화벽에서 특정 지역을 차단했다.
+
+`DSM > 제어판 > 보안 > 방화벽 > 방화벽 프로파일 규칙 편집`
+
+![Synology NAS에서 특정 지역 접속을 차단했다 — 화면 1](/images/server/blog-nas/synology-region-firewall/photo-01.png)
+
+![Synology NAS에서 특정 지역 접속을 차단했다 — 화면 2](/images/server/blog-nas/synology-region-firewall/photo-02.png)
+
+지역이나 IP 주소로 규칙을 만들 수 있었다.
+
+처음에는 모든 포트를 막았는데, 다시 생각해 보니 그럴 필요는 없을 것 같았다. 글을 쓴 뒤 특정 포트만 차단하는 것으로 바꿨다.
+
+## 내 네트워크의 IP 확인
+
+지금 사용하는 인터넷 연결의 IP와 추정 위치는 [내 IP 주소 확인하기 — 공인 IP·통신사·위치 지도](/lab-log/check-my-ip/)에서 볼 수 있습니다. 현재 방문자의 연결을 조회하는 도구이며, 위에서 사용한 임의 IP 위치 조회 도구와는 용도가 다릅니다.
+
+
+--------------------------------------------------------------------------------
 title: "Money"
 url: https://www.ramoo.net/money-log/index.md
 description: 투자와 돈에 관한 공부
@@ -1034,895 +2012,6 @@ sudo sysctl debug.lowpri_throttle_enabled=0
 
 
 --------------------------------------------------------------------------------
-title: "Dev Log"
-url: https://www.ramoo.net/lab-log/index.md
-description: 개발, 서버, NAS를 만지며 남긴 기록
---------------------------------------------------------------------------------
-개발, 서버, NAS를 만지며 남긴 기록
-
---------------------------------------------------------------------------------
-title: "Apache Guacamole를 사내망에서 테스트해 봤다"
-url: https://www.ramoo.net/lab-log/apache-guacamole-intro/index.md
-date: "2026-04-24"
-description: 브라우저 SSH 접속은 편했지만 LDAP 연동과 계정·세션 관리가 걸렸다. 사내망 테스트에서 멈춘 기록.
---------------------------------------------------------------------------------
-
-![Apache Guacamole 소개 이미지](/images/server/apache-guacamole-cover.webp)
-
-사내 서버에 Apache Guacamole를 설치해서 원격접속을 테스트했다. 사내망에서만 접근할 수 있게 열어 두었고, 기본 기능을 확인한 뒤 정식 운영으로 이어가지는 않았다.
-
-브라우저에서 SSH에 접속할 수 있는 건 편했다. 다만 LDAP 연동이 기대만큼 안정적이지 않았고, 계정과 세션을 관리할 부담도 있었다.
-
-## 브라우저로 원격접속하기
-
-Guacamole는 웹에서 RDP, VNC, SSH 연결을 사용할 수 있게 해 주는 도구다. 접속하는 PC에 별도 클라이언트를 설치하지 않아도 된다. 관리자가 계정별로 연결 대상을 등록하면 사용자는 로그인해서 자신에게 허용된 장비를 선택한다.
-
-[공식 사이트](https://guacamole.apache.org/)와 [설치·운영 매뉴얼](https://guacamole.apache.org/doc/gug/)을 참고했다. 아래는 공식 사이트의 데모 영상이다.
-
-<div style="margin: 2rem 0;">
-  <video controls preload="metadata" style="width: 100%; border-radius: 12px;">
-    <source src="https://guacamole.apache.org/videos/guacamole-0.9.4-demo.mp4" type="video/mp4" />
-    브라우저가 동영상 재생을 지원하지 않는다.
-  </video>
-</div>
-
-## 테스트에서 확인한 기능
-
-관리자 로그인, 계정별 연결 목록, SSH 접속, 연결 로그, 세션 재생, 사용자 설정을 확인했다. 현재 연결된 세션을 관리자가 종료하는 기능도 있다.
-
-접속 대상과 이력을 한 화면에서 볼 수 있다는 점은 좋았다. 사용자마다 원격접속 프로그램을 준비할 필요도 줄어든다.
-
-## 운영까지 가져가지 않은 이유
-
-LDAP 연동에서 불안정한 부분이 있었다. 테스트에서는 다시 확인해 보면 되지만, 실제 운영에서 계정 연동이 흔들리면 접속 자체에 문제가 생긴다. 이 상태로 운영을 시작하기는 어려웠다.
-
-보안과 사용자 관리도 걸렸다. 누가 어떤 서버에 접근할 수 있는지 정하고, 계정이 바뀔 때 권한을 수정하고, 로그와 세션 기록도 관리해야 한다. 사용자가 로그아웃하지 않고 세션을 남겨 두거나 인증 정보를 노출하는 상황도 고려해야 했다.
-
-웹으로 접속을 모으는 편의성은 확인했다. 하지만 당시 테스트한 환경에서는 그 편의성만으로 운영 부담을 감수하기는 어렵다고 판단했다. 기본 기능을 확인한 기록으로 남겨 둔다.
-
-
---------------------------------------------------------------------------------
-title: "FlatBuffers 기본 개념과 Ubuntu 22.04 빌드 메모"
-url: https://www.ramoo.net/lab-log/flatbuffers-in-real-systems/index.md
-date: "2026-04-23"
-description: FlatBuffers가 버퍼를 읽는 방식과 스키마·생성 코드, Ubuntu 22.04 소스 빌드 명령.
---------------------------------------------------------------------------------
-
-![FlatBuffers 개념과 설치 가이드 이미지](images/tech/flatbuffer-cover.png)
-
-FlatBuffers에서 눈여겨볼 부분은 데이터를 읽는 방식이다. 직렬화된 버퍼를 객체로 전부 풀어 놓지 않고, 필요한 필드에 직접 접근한다.
-
-기본 개념과 Ubuntu 22.04에서 소스로 빌드하는 방법을 적어 둔다. 성능 측정과 실제 적용 후기는 아직 없다.
-
-## 버퍼를 읽기까지
-
-먼저 `.fbs` 파일에 데이터 구조를 정의한다. 테이블, 구조체, 열거형, 벡터 같은 타입을 쓸 수 있다. `flatc`로 이 스키마에서 언어별 코드를 생성하고, 애플리케이션은 생성된 API로 버퍼를 만들거나 읽는다.
-
-읽을 때 전체 데이터를 별도 객체로 변환하는 과정이 필요 없다는 것이 특징이다. 흔히 말하는 zero-copy 읽기가 이 부분이다. 필요한 데이터에 접근하므로 읽기 비용과 추가 메모리 할당을 줄이는 데 도움이 된다. 자세한 설명은 [FlatBuffers 공식 문서](https://flatbuffers.dev/)에 있다.
-
-스키마를 여러 언어에서 공유할 수 있다는 점도 쓸모가 있다. C++ 프로그램과 다른 언어로 만든 프로그램이 같은 데이터 형식을 써야 할 때, `.fbs`를 기준으로 코드를 생성할 수 있다.
-
-## 쓰기 전에 생각할 점
-
-스키마 파일과 생성 코드를 함께 관리해야 한다. 데이터 구조가 바뀌면 이미 배포한 프로그램과의 호환성도 확인해야 한다.
-
-직렬화된 데이터를 수정할 때는 새 버퍼를 만들어야 하는 경우가 있다. 사람이 파일을 열어 값을 고치는 용도라면 JSON 같은 텍스트 형식이 더 편할 수 있다.
-
-게임 리소스, 센서 데이터, 네트워크 메시지처럼 읽기 비용을 줄이고 싶은 곳에서 검토할 수 있다. 다만 이 글에는 다른 형식과 비교한 벤치마크가 없으므로, 어느 정도 빨라지는지는 실제 데이터로 따로 확인해야 한다.
-
-## Ubuntu 22.04에서 소스 빌드
-
-빌드 도구를 설치한다.
-
-```bash
-sudo apt update
-sudo apt install -y cmake g++ zlib1g-dev
-```
-
-소스를 받은 뒤 빌드 디렉토리를 만든다.
-
-```bash
-git clone https://github.com/google/flatbuffers.git
-cd flatbuffers
-mkdir build
-cd build
-```
-
-`flatc` 빌드와 설치 옵션을 켜고 Release로 빌드한다.
-
-```bash
-cmake .. -DCMAKE_BUILD_TYPE=Release -DFLATBUFFERS_BUILD_FLATC=ON -DFLATBUFFERS_INSTALL=ON
-make -j$(nproc)
-```
-
-설치 후 라이브러리 캐시를 갱신한다.
-
-```bash
-sudo make install
-sudo ldconfig
-```
-
-위 명령은 저장소의 기본 브랜치를 받는다. 특정 버전을 계속 사용할 프로젝트라면 사용할 태그를 정해 두는 편이 재현하기 쉽다.
-
-
---------------------------------------------------------------------------------
-title: "ZeroMQ를 살펴보며 적어 둔 메시징 패턴"
-url: https://www.ramoo.net/lab-log/zeromq-patterns/index.md
-date: "2026-04-23"
-description: REQ/REP, PUB/SUB, PUSH/PULL, PAIR의 메시지 흐름과 애플리케이션에서 정할 부분.
---------------------------------------------------------------------------------
-
-![ZeroMQ 개념과 메시징 패턴 이미지](images/tech/zeromq-cover.png)
-
-ZeroMQ는 프로그램 안에서 메시지를 주고받는 데 쓰는 라이브러리다. 별도 브로커를 설치하지 않고 프로세스나 장비 사이를 연결할 수 있다.
-
-처음 살펴볼 때는 소켓 종류부터 보면 이해하기 편하다. 연결된 상대에게 메시지를 어떤 방식으로 보낼지가 소켓 패턴에 따라 달라진다.
-
-## 메시지를 어떻게 나눠 보낼까
-
-| 패턴 | 메시지 흐름 |
-| --- | --- |
-| `REQ/REP` | 요청을 보내고 응답을 받는다. |
-| `PUB/SUB` | 발행한 메시지를 구독자들에게 전달한다. |
-| `PUSH/PULL` | 작업을 여러 수신자에게 나눠 보낸다. |
-| `PAIR` | 두 소켓을 1:1로 연결한다. |
-
-요청 하나에 응답 하나가 필요한 통신이라면 `REQ/REP`, 여러 곳으로 데이터를 내보내려면 `PUB/SUB`, 작업을 나눠 처리하려면 `PUSH/PULL`부터 살펴볼 수 있다. 예제와 각 패턴의 제약은 [ZeroMQ Guide 첫 장](https://zguide.zeromq.org/docs/chapter1/)에 나온다.
-
-## 별도 브로커 없이 시작할 수 있다
-
-메시징 서버를 따로 운영하지 않아도 된다는 점은 작은 구성에서 편하다. 애플리케이션에 라이브러리를 넣고 소켓을 연결해 통신을 시작할 수 있다. 서로 다른 프로세스나 머신을 연결할 수 있고, 여러 언어의 바인딩도 있다.
-
-전송과 큐 처리를 라이브러리에 맡기고 메시지 흐름에 집중할 수 있다. 센서 값을 모으거나, 프로세스끼리 작업을 나누거나, 내부 서비스 사이에 메시지를 전달하는 구성을 생각해 볼 수 있다.
-
-## 애플리케이션에서 정할 부분도 있다
-
-브로커 설치가 없다고 해서 시스템 설계까지 끝나는 것은 아니다. 상대가 끊겼을 때 어떻게 처리할지, 응답을 얼마나 기다릴지, 메시지를 다시 보낼지 같은 동작은 별도로 정해야 한다.
-
-패턴마다 메시지를 전달하는 방식과 제약이 다르다. `PUB/SUB`로 보낸 메시지를 모든 구독자가 반드시 받는다고 가정하거나, `REQ/REP`의 순서를 무시하면 기대와 다르게 동작할 수 있다. 적용 전에 사용할 패턴의 예제를 먼저 실행해 볼 것.
-
-여기에는 기본 패턴만 적었다. 실제 구성에 적용하려면 정상 송수신뿐 아니라 연결이 끊기거나 수신이 늦어지는 경우도 함께 확인해야 한다.
-
-
---------------------------------------------------------------------------------
-title: "DS918+에 USB 2.5G LAN을 붙였다가 뺀 이야기"
-url: https://www.ramoo.net/lab-log/ds918-plus-25g-upgrade/index.md
-date: "2022-11-16"
-description: ipTIME U2500과 r8152 드라이버로 구성한 DS918+ 2.5G 연결. 설치 과정과 전송 속도, 철거한 이유.
---------------------------------------------------------------------------------
-
-![DS918+ 2.5G 네트워크 구성 이미지](/images/server/ds918-25g/cover.png)
-
-PC에서 2.5G LAN을 쓸 수 있으니 DS918+도 같은 속도로 연결해 보고 싶었다. NAS를 바꾸는 대신 USB LAN 어댑터와 2.5G 스위칭 허브를 붙였다.
-
-속도는 잘 나왔다. PC에서 NAS로 복사할 때 약 290MB/s, 반대 방향은 약 220MB/s였다. 다만 쓰다 보니 간헐적으로 네트워크가 먹통이 됐고, 결국 어댑터를 빼고 원래 구성으로 돌아갔다.
-
-## 사용한 장비
-
-- 2.5G LAN을 지원하는 PC
-- ipTIME USB 3.0 U2500 (`RTL8156` 칩셋)
-- 2.5G 스위칭 허브
-- Synology DS918+
-
-DSM에서 USB LAN을 쓰려면 별도 드라이버가 필요하다. 어댑터를 고를 때는 [r8152 호환 목록](https://github.com/bb-qq/r8152/wiki/Compatibility)을 확인했다.
-
-내 DS918+에서는 후면 USB 포트의 인식이 불안정했고, 전면 포트에서는 비교적 잘 잡혔다. 그래서 전면 포트에 연결해서 사용했다.
-
-## r8152 드라이버 설치
-
-[bb-qq/r8152 릴리스](https://github.com/bb-qq/r8152/releases)에서 NAS 모델과 DSM 버전에 맞는 `spk` 파일을 받는다. DSM 패키지 센터의 **수동 설치**로 진행하면 된다.
-
-![DSM 패키지 수동 설치 화면](/images/server/ds918-25g/manual-install.webp)
-
-설치 중 오류가 나서 SSH로 접속해 아래 명령을 실행한 뒤 다시 설치했다. 당시 사용한 패키지에서 필요한 조치였다.
-
-```bash
-sudo install -m 4755 -o root -D /var/packages/r8152/target/r8152/spk_su /opt/sbin/spk_su
-```
-
-설치가 끝나면 패키지 센터에서 드라이버 상태를 확인한다.
-
-![DSM r8152 드라이버 설치 확인](/images/server/ds918-25g/driver-installed.webp)
-
-## 인터페이스 설정과 연결
-
-제어판의 **네트워크 인터페이스**에 USB LAN이 추가된 것을 확인하고, 편집 화면에서 `Jumbo Frame`을 `9K`로 설정했다. 아래는 당시 사용한 설정이다.
-
-![점보 프레임 9K 설정 화면](/images/server/ds918-25g/jumbo-frame.webp)
-
-PC와 NAS를 직접 연결해 수동 IP를 잡는 방법도 있지만, 나는 2.5G 스위칭 허브에 연결했다.
-
-![2.5G 스위칭 허브 구성 예시 1](/images/server/ds918-25g/switch-01.webp)
-
-![2.5G 스위칭 허브 구성 예시 2](/images/server/ds918-25g/switch-02.webp)
-
-이 구성에서 측정한 전송 속도는 다음과 같다. 내 환경에서 파일을 복사하며 확인한 수치이다.
-
-| 방향 | 전송 속도 |
-| --- | --- |
-| PC → NAS | 약 290MB/s |
-| NAS → PC | 약 220MB/s |
-
-1GbE로 쓰던 때보다 파일 복사는 확실히 빨라졌다.
-
-## 결국 철거했다
-
-처음에는 잘 썼지만, 사용을 이어 가면서 간헐적으로 네트워크가 멈추는 문제가 생겼다. 드라이버를 중지했다가 다시 로드하면 복구됐다. 계속 켜 두는 NAS에서 그 작업을 반복해야 한다는 게 불편했다.
-
-전면 포트를 써야 하는 것도 마음에 걸렸다. 어댑터와 랜선이 앞에 계속 꽂혀 있으니 케이블 정리가 깔끔하지 않았다.
-
-속도만 보면 아쉬운 업그레이드는 아니었다. 그래도 내 NAS에서는 안정성과 케이블 정리 문제 때문에 오래 유지하지 못했다.
-
-
---------------------------------------------------------------------------------
-title: "Synology GitLab CE 컨테이너 업데이트 메모"
-url: https://www.ramoo.net/lab-log/synology-gitlab-docker-update/index.md
-date: "2022-03-22"
-description: GitLab CE 14.8.3에서 14.8.4로 업데이트할 때 사용한 DSM Docker 화면과 설정 내보내기·가져오기 기록.
---------------------------------------------------------------------------------
-
-GitLab CE를 Docker Registry에서 받아 설치해 두었다. 설치한 이미지를 업데이트하는 방법을 찾아보다가 기록으로 남긴다.
-
-2022년에 `14.8.3-ce.0`에서 `14.8.4-ce.0`으로 바꿀 때 사용한 DSM Docker 화면 기준이다.
-
-## 새 이미지 받기
-
-`DSM > Docker > Registry`에서 gitlab을 검색해 필요한 버전을 다운로드한다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 1](/images/server/blog-nas/synology-gitlab-docker-update/photo-01.png)
-
-`latest`보다 버전을 지정해 두는 편이 다음 업데이트 때 관리하기 편하다. 당시에는 `14.8.4-ce.0`을 받았다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 2](/images/server/blog-nas/synology-gitlab-docker-update/photo-02.png)
-
-## 설정 내보내기
-
-`DSM > Docker > Container`에서 기존 GitLab CE 컨테이너를 선택하고, 우클릭 메뉴의 `설정 > 내보내기`를 선택한다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 3](/images/server/blog-nas/synology-gitlab-docker-update/photo-03.png)
-
-적당한 폴더를 골라 내보낸다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 4](/images/server/blog-nas/synology-gitlab-docker-update/photo-04.png)
-
-선택한 폴더에 JSON 파일이 생긴다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 5](/images/server/blog-nas/synology-gitlab-docker-update/photo-05.png)
-
-텍스트 편집기로 연다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 6](/images/server/blog-nas/synology-gitlab-docker-update/photo-06.png)
-
-이미지 이름의 버전을 새로 받은 버전으로 바꾸고 저장한다.
-
-```json
-"image": "gitlab/gitlab-ce:14.8.3-ce.0"
-```
-
-위 값을 다음과 같이 바꿨다.
-
-```json
-"image": "gitlab/gitlab-ce:14.8.4-ce.0"
-```
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 7](/images/server/blog-nas/synology-gitlab-docker-update/photo-07.png)
-
-## 컨테이너 교체
-
-기존 컨테이너를 중지한다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 8](/images/server/blog-nas/synology-gitlab-docker-update/photo-08.png)
-
-중지한 컨테이너를 삭제한다. 삭제하기 전에는 데이터를 백업하고, 버전 사이에 필요한 마이그레이션 경로도 확인해야 한다. 내보낸 설정 파일만으로 데이터 백업을 대신할 수는 없다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 9](/images/server/blog-nas/synology-gitlab-docker-update/photo-09.png)
-
-`DSM > Docker > Container > 설정 > 가져오기`에서 수정한 파일을 선택한다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 10](/images/server/blog-nas/synology-gitlab-docker-update/photo-10.png)
-
-새 버전으로 GitLab CE를 실행한다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 11](/images/server/blog-nas/synology-gitlab-docker-update/photo-11.png)
-
-다른 Docker 이미지도 설정을 내보내고 이미지 버전을 바꾸는 방식으로 교체할 수 있다. 다만 애플리케이션마다 데이터와 버전 호환 조건은 따로 확인할 것.
-
-
---------------------------------------------------------------------------------
-title: "Synology DNS Server 설치와 레코드 설정 메모"
-url: https://www.ramoo.net/lab-log/synology-dns-server/index.md
-date: "2021-07-31"
-description: DSM 7.0에서 DNS Server를 설치하고 정방향 영역, A·PTR 레코드, 네임서버 설정을 살펴본 기록.
---------------------------------------------------------------------------------
-
-![Synology DNS Server 메인 화면](images/server/synology-dns/cover-synology-dns-server.png)
-
-Synology NAS의 DNS Server 패키지를 설치하고 영역과 레코드를 설정한 기록이다. DSM 7.0, `DNS Server 9.11.23-6069` 기준이라 다른 버전에서는 화면이 달라질 수 있다.
-
-예시에는 `example.com`과 `12.23.34.56`을 사용했다. 설정할 때는 사용할 도메인과 서버 IP로 바꿔야 한다.
-
-## 패키지 설치
-
-패키지 센터에서 `DNS Server`를 설치한다.
-
-![DNS Server 설치 화면](/images/server/synology-dns/step-01-install.webp)
-
-{{< notice "info" >}}
-다른 네트워크에서 조회하려면 공유기와 방화벽 설정도 필요하다. DNS에 사용하는 UDP·TCP 53번을 조회가 필요한 범위에 허용한다. 내부망에서만 쓸 때는 인터넷에 포트를 열 필요가 없다.
-{{< /notice >}}
-
-## 정방향 영역 만들기
-
-도메인 이름으로 IP를 조회하는 영역이다. **생성 > Master 영역 설정**으로 들어간다.
-
-![Master 영역 생성 시작 화면](/images/server/synology-dns/step-02-zone-start.webp)
-
-당시 외부 네임서버 구성 예시에서는 아래처럼 입력했다.
-
-- 도메인 유형: `정방향 영역`
-- 도메인 이름: 사용할 도메인
-- 마스터 DNS 서버: 공인 IP 주소
-
-![정방향 영역 설정 화면](/images/server/synology-dns/step-02-forward-zone.webp)
-
-내부망 DNS를 구성한다면 서버 주소와 레코드에는 그 환경에서 접근할 수 있는 내부 IP를 사용한다.
-
-영역이 만들어지면 목록에 나타난다.
-
-![정방향 영역 생성 완료 화면](/images/server/synology-dns/step-02-forward-complete.webp)
-
-## A 레코드 추가
-
-`example.com`을 선택하고 **편집 > 리소스 레코드 > 생성 > A 유형**으로 들어간다. 예를 들어 `www.example.com`에 연결할 IP를 등록한다.
-
-![정방향 리소스 레코드 진입 화면](/images/server/synology-dns/step-04-records-menu.webp)
-
-![A 레코드 생성 화면](/images/server/synology-dns/step-04-a-record.webp)
-
-TTL은 조회한 레코드를 캐시에 보관하는 시간이다. 주소를 바꾼 뒤에도 이전 조회 결과가 남을 수 있으니, 변경할 때는 이 값도 함께 확인한다.
-
-## 역방향 영역과 PTR 레코드
-
-역방향은 IP로 이름을 조회할 때 사용한다. IPv4에서는 주소를 거꾸로 적고 `in-addr.arpa`를 붙인다. 예를 들어 `12.23.34.56`의 PTR 조회 이름은 `56.34.23.12.in-addr.arpa`이다. [Cloudflare의 PTR 설명](https://www.cloudflare.com/learning/dns/dns-records/dns-ptr-record/)에 예시가 있다.
-
-`12.23.34.0/24` 범위의 역방향 영역이라면 이름은 `34.23.12.in-addr.arpa`이고, 그 안에 `56`에 해당하는 PTR을 추가하는 식이다. 이전 글의 `56.34.23` 예시는 주소 순서가 잘못되어 수정했다. 아래 이미지는 당시 화면으로, 입력값보다 메뉴 위치를 참고하면 된다.
-
-![정방향과 역방향 영역 목록](/images/server/synology-dns/step-03-zones-list.webp)
-
-역방향 영역을 선택한 뒤 **편집 > 리소스 레코드 > 생성 > PTR 유형**에서 IP에 대응하는 이름을 등록한다.
-
-![역방향 리소스 레코드 진입 화면](/images/server/synology-dns/step-05-ptr-menu.webp)
-
-![PTR 레코드 생성 화면](/images/server/synology-dns/step-05-ptr-record.webp)
-
-내부 DNS에서 조회할 PTR을 등록하는 것과 공인 IP의 인터넷 역방향 조회를 설정하는 것은 별개다. 공인 IP의 PTR은 IP 관리 주체에 확인해야 한다.
-
-## 외부 네임서버로 사용할 경우
-
-내부 장비의 이름을 조회하는 용도라면 도메인 등록 업체의 네임서버를 변경할 필요가 없다. 클라이언트가 NAS의 DNS를 조회하도록 설정하면 된다.
-
-소유한 도메인의 외부 네임서버로 NAS를 쓰려는 경우에는 등록 업체에서 네임서버 설정을 변경한다. 당시에는 whois의 설정 화면을 사용했다.
-
-![도메인 등록 업체의 네임서버 설정 화면](/images/server/synology-dns/step-06-provider.webp)
-
-![네임서버 설정 예시](/images/server/synology-dns/step-06-example.webp)
-
-등록 업체가 요구하는 네임서버 수와 등록 조건도 확인해야 한다. DDNS 주소가 있다는 것만으로 외부 위임 설정까지 끝나는 것은 아니다.
-
-## 조회 확인
-
-먼저 NAS의 DNS를 직접 지정해서 등록한 레코드를 확인한다. 아래의 `NAS_DNS_IP`는 실제 DNS 서버 주소로 바꾼다.
-
-```bash
-nslookup www.example.com NAS_DNS_IP
-dig @NAS_DNS_IP www.example.com A
-dig @NAS_DNS_IP -x 12.23.34.56
-```
-
-외부 네임서버까지 변경했다면 외부 네트워크에서도 조회한다.
-
-```bash
-nslookup example.com
-dig example.com
-dig example.com NS
-```
-
-NAS에 직접 물었을 때 레코드가 나오는지, 일반 DNS 조회에서도 설정이 반영되는지를 나눠 확인하면 문제가 생긴 위치를 찾기 쉽다.
-
-
---------------------------------------------------------------------------------
-title: "C++ tuple로 여러 결과 반환하기"
-url: https://www.ramoo.net/lab-log/cpp11-tuple/index.md
-date: "2021-06-26"
-description: 함수 결과를 tuple로 묶고 get과 tie로 꺼내는 예제. 마지막 구조적 바인딩은 C++17 문법이다.
---------------------------------------------------------------------------------
-
-함수에서 결과 두 개를 반환해야 할 때가 있다. 결과를 받을 변수를 참조로 넘기는 방법도 있지만, `std::tuple`로 묶으면 간결하게 쓸 수 있다.
-
-짝수 여부와 짝수일 때 1을 더한 값을 함께 반환하는 예제를 적어 두었다.
-
-```cpp
-#include <iostream>
-#include <tuple>
-
-std::tuple<bool,int> isEvenAdd(int val) {
-    bool bis_even = (val % 2 == 0);
-    int ret = val;
-    if (bis_even) {
-        ret = val+1;
-    }
-    return std::make_tuple(bis_even, ret);
-}
-
-int main()
-{
-    auto ret = isEvenAdd(10);
-    std::cout << "ret contains: ";
-    std::cout << std::get<0>(ret) << ' ';
-    std::cout << std::get<1>(ret) << '\n';
-    
-    std::tie (myResult, myValue) = ret;
-    std::cout << "tie contains: ";
-    std::cout << myResult << ' ';
-    std::cout << myValue << '\n';
-    
-    auto [bis_even, val] = isEvenAdd(11);
-    std::cout << "auto tie contains: ";
-    std::cout << bis_even << ' ';
-    std::cout << val << '\n';
-}
-```
-
-`std::get<index>(instance)`로 각 원소에 접근한다. `std::tie`로 여러 값을 한 번에 풀어 받을 수도 있다.
-
-마지막 `auto [bis_even, val]` 형태는 C++17의 구조적 바인딩이다. `tuple` 자체는 C++11부터 사용할 수 있지만 이 부분은 버전이 다르다.
-
-원문 예제의 `myResult`, `myValue`는 사용하는 곳에서 따로 선언해야 한다.
-
-
---------------------------------------------------------------------------------
-title: "C++ 람다를 쓰며 적어 둔 메모"
-url: https://www.ramoo.net/lab-log/cpp11-lambda/index.md
-date: "2021-01-30"
-description: 캡처 방식과 std::function 콜백, 정렬에 람다를 쓰는 형태를 적어 둔 메모.
---------------------------------------------------------------------------------
-
-람다는 이름 없는 함수처럼 쓸 수 있다. 사용 빈도가 늘어나서 필요한 내용을 적어 둔다.
-
-[람다 설명](https://en.cppreference.com/w/cpp/language/lambda)
-
-## 형태와 캡처
-
-```cpp
-[capture] (params) -> return_type { body }
-[capture] (params) { body }
-```
-
-- `[&]`: 필요한 주변 자동 변수를 참조로 캡처한다.
-- `[=]`: 필요한 주변 자동 변수를 복사로 캡처한다.
-- `[&, a]`: 기본은 참조 캡처, `a`만 복사한다.
-- `[=, &a]`: 기본은 복사 캡처, `a`만 참조로 잡는다.
-- `[&, &a]`: 기본 참조 캡처와 같은 방식을 중복 지정해서 오류가 난다.
-
-복사로 캡처한 값을 람다 안에서 바꾸려면 `mutable` 같은 조건도 확인해야 한다.
-
-## 저장과 콜백
-
-`std::function`에 담아 둘 수 있다.
-
-```cpp
-#include <vector>
-#include <functional>
-std::function<int(int)> func = [](int i)->int{ return i+1; };
-```
-
-콜백을 받는 형태로도 쓸 수 있다. 아래는 당시 적어 둔 코드 조각이다.
-
-```cpp
-class Foo {
-public:
-	void SetCallback(std::function<void(const char*)> cb){
-		m_fcb = std::move(cb);
-	}
-	void ReqPrint(const char* pszText){
-		m_fcb(pszText);
-	}
-	
-private:
-	std::function<void(const char*)>	m_fcb;	
-}
-
-int main(){
-	Foo	_f;
-	_f.SetCallback([](const char* pszText){
-		std::cout << "callback: " << pszText << '\n';
-	});
-	
-	_f.ReqPrint("myFoo");
-	
-	return 0;
-}
-```
-
-## 정렬에 사용
-
-비교용 함수 객체를 따로 만드는 대신 람다를 넘기면 짧게 쓸 수 있다.
-
-```cpp
-#include <algorithm>
-#include <functional>
-#include <array>
- 
-int main()
-{
-    std::array<int, 10> s = {5, 7, 4, 2, 8, 6, 1, 9, 0, 3};
- 
-	// case 1 
-    struct {
-        bool operator()(int a, int b) const { return a < b; }
-    } customLess;
-    std::sort(s.begin(), s.end(), customLess);
-
- 	// case 2
-    std::sort(s.begin(), s.end(), [](int a, int b) {
-        return a > b;
-    });
-}
-```
-
-
---------------------------------------------------------------------------------
-title: "Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다"
-url: https://www.ramoo.net/lab-log/synology-wildcard-certbot-mac/index.md
-date: "2021-01-09"
-description: Mac에서 Certbot을 실행하고 NAS DNS에 TXT 레코드를 추가한 뒤 인증서를 가져온 기록. 2021년 화면 기준.
---------------------------------------------------------------------------------
-
-예전에는 인증서를 발급해 주는 사이트를 이용했다. 유료로 바뀐 뒤에는 Mac에서 직접 발급해 NAS에 적용하고 있다.
-
-3개월마다 갱신할 때 방법을 다시 찾곤 해서 적어 둔다. 아래는 2021년에 사용한 Certbot과 DSM 화면 기준이다.
-
-## Mac에서 Certbot 설치
-
-```bash
-brew install certbot
-```
-
-설치가 끝나면 수동 발급 명령을 실행한다.
-
-```bash
-sudo certbot certonly --manual
-```
-
-인증받을 도메인을 입력한다. 와일드카드는 `*.도메인이름` 형식이다.
-
-```text
-Saving debug log to /var/log/letsencrypt/letsencrypt.log
-Plugins selected: Authenticator manual, Installer None
-Please enter in your domain name(s) (comma and/or space separated)  (Enter 'c'
-to cancel): *.ramoo.net
-```
-
-## DNS TXT 레코드 추가
-
-Certbot이 안내한 이름과 값으로 TXT 레코드를 등록한다. 아래 값은 당시 실행 결과다. 다음 발급 때는 새로 출력된 값을 써야 한다.
-
-```text
-Cert is due for renewal, auto-renewing...
-Renewing an existing certificate for *.ramoo.net
-Performing the following challenges:
-dns-01 challenge for ramoo.net
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Please deploy a DNS TXT record under the name
-_acme-challenge.ramoo.net with the following value:
-
-IfxVNiyITgNqAAyfb6hVlRZ0PIKqIHxZD_Li-isWfbs
-
-Before continuing, verify the record is deployed.
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Press Enter to Continue
-```
-
-NAS에서 DNS 서버를 운영하고 있어서 여기에 추가했다.
-
-![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 1](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-01.png)
-
-Certbot에 출력된 값으로 레코드를 등록한다.
-
-![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 2](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-02.png)
-
-등록한 뒤 콘솔에서 Enter를 눌러 진행한다.
-
-```text
-Waiting for verification...
-Cleaning up challenges
-
-IMPORTANT NOTES:
- - Congratulations! Your certificate and chain have been saved at:
-   /etc/letsencrypt/live/ramoo.net/fullchain.pem
-   Your key file has been saved at:
-   /etc/letsencrypt/live/ramoo.net/privkey.pem
-   Your cert will expire on 2021-04-08. To obtain a new or tweaked
-   version of this certificate in the future, simply run certbot
-   again. To non-interactively renew *all* of your certificates, run
-   "certbot renew"
- - If you like Certbot, please consider supporting our work by:
-
-   Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
-   Donating to EFF:                    https://eff.org/donate-le
-```
-
-검증이 끝나면 `/etc/letsencrypt/live/ramoo.net/`에 인증서 파일이 생성된다. 필요한 파일 3개를 따로 복사해 둔다.
-
-## NAS에 인증서 적용
-
-발급한 인증서를 NAS에 가져온다.
-
-![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 3](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-03.png)
-
-![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 4](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-04.png)
-
-![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 5](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-05.png)
-
-![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 6](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-06.png)
-
-확인을 누르고 적용된 인증서를 확인한다.
-
-![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 7](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-07.png)
-
-자동 갱신도 알아봤지만, 당시에는 수동으로 3개월마다 하기로 했다. 핑계 삼아 관리도 할 겸.
-
-관련 메모: [Synology DNS Server 설정](/lab-log/synology-dns-server/)
-
-
---------------------------------------------------------------------------------
-title: "TL-SG2008로 DS918+ 링크통합을 시도했다"
-url: https://www.ramoo.net/lab-log/tl-sg2008-lacp/index.md
-date: "2021-01-01"
-description: DS918+의 두 LAN 포트를 쓰려고 고른 TL-SG2008. 동적 링크통합에서 오류가 나 설정을 바꿨다.
---------------------------------------------------------------------------------
-
-DS918+에는 LAN 포트가 두 개 있다. 하나만 쓰고 있자니 허전해서 둘 다 써 볼 생각으로 LACP를 구성해 보기로 했다.
-
-LACP를 지원하는 스위치를 찾다가 TL-SG2008을 골랐다.
-
-## 가격이 마음에 들었다
-
-집에서 취미로 쓰는 장비라 비싼 제품은 부담스럽다. 당시에는 국내에서 7만 원 이하로 살 수 있었다. 2020년 12월 구매 기준이다.
-
-![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 1](/images/server/blog-nas/tl-sg2008-lacp/photo-01.jpg)
-
-제품 사양의 프로토콜 항목에 `IEEE 802.3ad`가 있는지 봤다. 링크통합을 지원하는지 확인하면서 살펴본 부분이다.
-
-![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 2](/images/server/blog-nas/tl-sg2008-lacp/photo-02.png)
-
-## 실제 연결 결과
-
-생각처럼 동작할까 싶어서 연결했다.
-
-![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 3](/images/server/blog-nas/tl-sg2008-lacp/photo-03.png)
-
-동적 Link Aggregation에서는 오류와 경고가 나왔다. 결국 원문에서 'v1'이라고 적어 둔 방식으로 바꿔 사용했다. 당시 기록에는 그 설정 이름을 더 자세히 남기지 않았다.
-
-![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 4](/images/server/blog-nas/tl-sg2008-lacp/photo-04.png)
-
-아쉬움은 있지만 가격을 생각하면 용서가 된다.
-
-
---------------------------------------------------------------------------------
-title: "ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다"
-url: https://www.ramoo.net/lab-log/iptime-a3004ns-m/index.md
-date: "2020-07-26"
-description: VPN과 USB 간이 NAS에서는 문제가 있었지만, 공유기 기능만 쓰니 안정적이었다. 2020년 사용 기록.
---------------------------------------------------------------------------------
-
-사용하던 공유기가 오래돼서 ipTIME A3004NS-M을 골랐다. 가격과 기능을 보고 적당하겠다 싶어 산 5만 원대 가정용 공유기다.
-
-![ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다 — 화면 1](/images/server/blog-nas/iptime-a3004ns-m/photo-01.png)
-
-우연히 같은 제품을 두 개 샀다. 거실에 놓고 쓴 지 1년쯤 됐을 때의 기록이다.
-
-## VPN과 간이 NAS는 포기
-
-처음 한두 달은 회사에서 VPN이 필요해서 써 봤다. 연결이 하루를 못 가고 자주 끊겨서 포기했다.
-
-USB 3.0에 저장 장치를 붙여 간이 NAS로도 써 봤지만, 3개월을 못 가고 제품이 먹통이 됐다.
-
-고장 난 제품은 A/S를 보내고, 다른 한 대를 거실에 두었다. 이번에는 공유기 기능 외에는 쓰지 않았다.
-
-![ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다 — 화면 2](/images/server/blog-nas/iptime-a3004ns-m/photo-02.png)
-
-## 공유기로만 쓰니 안정적이었다
-
-그렇게 8개월 동안 한 번도 끊기지 않고 돌아갔다. 당연한 일이라고 할 수도 있지만 기대가 크지 않았던 만큼 의외로 만족했다.
-
-고장 났던 제품은 일반 인터넷 연결도 자주 끊겨 새벽에 재부팅하도록 설정해 쓰고 있었다.
-
-사용량이 많지는 않았다. BTV, 인터넷, 휴대폰 3~4대, NAS 연결, 가끔 토렌트 정도다. 내 환경에서는 공유기 본래 기능만 쓸 때 꽤 잘 버텼다.
-
-
---------------------------------------------------------------------------------
-title: "C++11 emplace_back 메모"
-url: https://www.ramoo.net/lab-log/cpp11-emplace/index.md
-date: "2020-04-17"
-description: 생성자 인자를 바로 넘겨 원소를 만드는 emplace_back과 push_back을 비교한 코드 조각.
---------------------------------------------------------------------------------
-
-`vector`에 원소를 넣을 때 보통 `push_back`을 쓴다. C++11에서는 생성자 인자를 바로 전달할 수 있는 `emplace_back`도 있다.
-
-당시 적어 둔 비교 예제다. `AClass` 정의는 생략된 코드 조각이다.
-
-```cpp
-void main(){
-    std::vector<AClass> vA;
-    va.push_back(AClass(1,"a"));
-}
-```
-
-```cpp
-void main(){
-    std::vector<AClass>	va;
-    va.emplace_back(1,"a");
-}
-```
-
-`emplace_back`은 컨테이너 안에서 원소를 생성한다. 임시 객체를 만든 뒤 옮기는 일을 줄일 수 있다는 점을 기억해 둔다.
-
-다만 `vector`가 커지면서 재할당되면 기존 원소의 이동이나 복사가 생길 수 있으니, 호출 전체에서 이동이 전혀 없다고 생각하면 안 된다.
-
-
---------------------------------------------------------------------------------
-title: "SSL For Free에서 와일드카드 인증서를 받았던 기록"
-url: https://www.ramoo.net/lab-log/synology-wildcard-sslforfree/index.md
-date: "2019-12-11"
-description: 2019년에 SSL For Free에서 와일드카드 인증서를 발급했던 기록. 이후에는 Mac의 Certbot으로 바꿨다.
---------------------------------------------------------------------------------
-
-블로그를 처음 만들 때 인증서를 살 생각으로 가격을 알아봤다. 여러 도메인을 쓰려니 비용이 올라가 최소 30만 원 이상이 필요해서 무료 발급 방법을 찾았다.
-
-당시에는 SSL For Free에서 와일드카드 인증서를 받을 수 있었다. 대신 3개월마다 갱신해야 했다. 아래는 2019년에 이용했던 화면과 절차다.
-
-## 도메인 입력
-
-[SSL For Free](https://www.sslforfree.com/)에 접속해 원하는 도메인을 입력했다. 와일드카드는 `*.도메인이름` 형식으로 넣는다.
-
-![SSL For Free에서 와일드카드 인증서를 받았던 기록 — 화면 1](/images/server/blog-nas/synology-wildcard-sslforfree/photo-01.png)
-
-## TXT 레코드로 도메인 확인
-
-수동 도메인 확인을 선택해서 TXT 레코드를 받는다.
-
-![SSL For Free에서 와일드카드 인증서를 받았던 기록 — 화면 2](/images/server/blog-nas/synology-wildcard-sslforfree/photo-02.png)
-
-도메인을 관리하는 DNS에 안내된 TXT 레코드를 추가한다. 당시 화면에서는 TTL을 1로 설정하라고 했지만 설정 항목이 없어 반영될 때까지 기다렸다.
-
-입력한 도메인의 `_acme-challenge` 확인 버튼으로 레코드가 조회되는지 확인한 뒤 인증서를 다운로드했다.
-
-메일 주소를 입력하면 만료 전에 알림을 받을 수 있다고 했다.
-
-이후에는 Mac에서 직접 발급하는 방식으로 바꿨다. 그 기록은 [Certbot으로 발급해 NAS에 적용한 메모](/lab-log/synology-wildcard-certbot-mac/)에 남겼다.
-
-
---------------------------------------------------------------------------------
-title: "DS918+ 메모리 업그레이드"
-url: https://www.ramoo.net/lab-log/ds918-memory-upgrade/index.md
-date: "2019-11-02"
-description: DS918+에 CT2K102464BF186D 메모리를 장착한 기록. 사용 중 느낀 변화와 남은 기존 메모리 이야기.
---------------------------------------------------------------------------------
-
-DS918+를 사고 메모리를 늘리려고 알아봤다. 아무 메모리나 사서 꽂으면 되는 것은 아니어서 아래 모델을 골랐다.
-
-```text
-DDR3L 1866 MT/s (PC3-14900)
-Unbuffered SODIMM 204-Pin
-CT2K102464BF186D
-```
-
-![DS918+ 메모리 업그레이드 — 화면 1](/images/server/blog-nas/ds918-memory-upgrade/photo-01.jpeg)
-
-아마존에서 샀다. 처음에는 8GB 하나만 사려고 했는데, 해외에서 오는 김에 세트로 주문했다.
-
-## 장착 후
-
-메모리 용량이 많이 남았다. 돈을 너무 쓴 건 아닌가 싶었지만 체감상 확실히 빠릿해진 느낌이었다.
-
-![DS918+ 메모리 업그레이드 — 화면 2](/images/server/blog-nas/ds918-memory-upgrade/photo-02.png)
-
-당시 사용 중에는 안정적으로 동작했다. 메모리가 넉넉하니 이것저것 올리는 데 부담이 줄어 만족했다.
-
-기존 Synology 4GB 메모리는 어떻게 처분할지 고민이었다.
-
-
---------------------------------------------------------------------------------
-title: "Mac에 Jenkins를 설치했던 기록"
-url: https://www.ramoo.net/lab-log/mac-jenkins-install/index.md
-date: "2019-10-29"
-description: Homebrew로 Jenkins를 설치하고 Java 8 오류를 해결했던 2019년 기록.
---------------------------------------------------------------------------------
-
-2019년에 Mac에 Jenkins를 설치했던 기록이다. 당시 Homebrew와 Java 8을 기준으로 적어 둔 명령이다.
-
-## Homebrew 설치
-
-이미 설치되어 있다면 넘어간다. 당시 사용한 설치 명령은 아래와 같다.
-
-```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-## Jenkins 설치
-
-```bash
-brew install jenkins
-```
-
-설치 중 다음 오류를 만났다.
-
-```text
-jenkins: Java 1.8 is required to install this formula.
-Install AdoptOpenJDK 8 with Homebrew Cask:
-brew cask install homebrew/cask-versions/adoptopenjdk8
-Error: An unsatisfied requirement failed this build.
-```
-
-Java 8을 설치한 뒤 다시 진행했다.
-
-```bash
-brew cask install homebrew/cask-versions/adoptopenjdk8
-```
-
-설치가 끝나면 `http://localhost:8080`에서 확인한다. 초기 비밀번호는 사용자 폴더의 `.jenkins/secrets/initialAdminPassword`에서 찾는다.
-
-## 접속 주소와 포트
-
-아래 경로로 이동했다.
-
-```bash
-cd /usr/local/opt/jenkins
-```
-
-Xcode로 `homebrew.mxcl.jenkins.plist`를 열어 주소와 포트를 바꿨다.
-
-![Mac에 Jenkins를 설치했던 기록 — 화면 1](/images/off-duty/mac-jenkins-install/photo-01.png)
-
-```text
---httpListenAddress=127.0.0.1 → --httpListenAddress=0.0.0.0
---httpPort=8080 → --httpPort=9090
-```
-
-그 뒤 포트 포워딩이나 nginx 리버스 프록시를 통해 접속하는 구성을 생각했다.
-
-
---------------------------------------------------------------------------------
-title: "Synology NAS에서 특정 지역 접속을 차단했다"
-url: https://www.ramoo.net/lab-log/synology-region-firewall/index.md
-date: "2019-10-27"
-description: 반복되는 admin 로그인 시도를 보고 DSM 방화벽에서 지역별 규칙을 만들었다. 이후 특정 포트만 차단하도록 바꿨다.
---------------------------------------------------------------------------------
-
-NAS에 admin 계정으로 로그인하려는 흔적이 계속 보여서 IP 위치를 찾아봤다.
-
-[IP 주소를 지도에서 확인하는 도구](https://www.ipvoid.com/ip-to-google-maps/)
-
-2단계 인증을 켜 두고 비밀번호도 간단하게 쓰지 않았지만, 계속 시도가 보이니 기분이 좋지는 않았다.
-
-## DSM 방화벽 설정
-
-하는 김에 방화벽에서 특정 지역을 차단했다.
-
-`DSM > 제어판 > 보안 > 방화벽 > 방화벽 프로파일 규칙 편집`
-
-![Synology NAS에서 특정 지역 접속을 차단했다 — 화면 1](/images/server/blog-nas/synology-region-firewall/photo-01.png)
-
-![Synology NAS에서 특정 지역 접속을 차단했다 — 화면 2](/images/server/blog-nas/synology-region-firewall/photo-02.png)
-
-지역이나 IP 주소로 규칙을 만들 수 있었다.
-
-처음에는 모든 포트를 막았는데, 다시 생각해 보니 그럴 필요는 없을 것 같았다. 글을 쓴 뒤 특정 포트만 차단하는 것으로 바꿨다.
-
-
---------------------------------------------------------------------------------
 title: "Pages"
 url: https://www.ramoo.net/pages/index.md
 --------------------------------------------------------------------------------
@@ -2631,6 +2720,12 @@ url: https://www.ramoo.net/tags/certbot/index.md
 <no value>
 
 --------------------------------------------------------------------------------
+title: "Cloudflare"
+url: https://www.ramoo.net/tags/cloudflare/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
 title: "Distributed Systems"
 url: https://www.ramoo.net/tags/distributed-systems/index.md
 --------------------------------------------------------------------------------
@@ -2703,8 +2798,38 @@ url: https://www.ramoo.net/tags/homelab/index.md
 <no value>
 
 --------------------------------------------------------------------------------
+title: "IP"
+url: https://www.ramoo.net/tags/ip/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "IP 위치"
+url: https://www.ramoo.net/tags/ip-%EC%9C%84%EC%B9%98/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "IP 주소 확인"
+url: https://www.ramoo.net/tags/ip-%EC%A3%BC%EC%86%8C-%ED%99%95%EC%9D%B8/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
 title: "IpTIME"
 url: https://www.ramoo.net/tags/iptime/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "IPv4"
+url: https://www.ramoo.net/tags/ipv4/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "IPv6"
+url: https://www.ramoo.net/tags/ipv6/index.md
 --------------------------------------------------------------------------------
 <no value>
 
@@ -2759,6 +2884,12 @@ url: https://www.ramoo.net/tags/nas/index.md
 --------------------------------------------------------------------------------
 title: "NAV"
 url: https://www.ramoo.net/tags/nav/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Network"
+url: https://www.ramoo.net/tags/network/index.md
 --------------------------------------------------------------------------------
 <no value>
 
@@ -2865,6 +2996,12 @@ url: https://www.ramoo.net/tags/tl-sg2008/index.md
 <no value>
 
 --------------------------------------------------------------------------------
+title: "Tools"
+url: https://www.ramoo.net/tags/tools/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
 title: "Ubuntu 22.04"
 url: https://www.ramoo.net/tags/ubuntu-22.04/index.md
 --------------------------------------------------------------------------------
@@ -2919,6 +3056,12 @@ url: https://www.ramoo.net/tags/%EA%B2%BD%EC%A0%9C%EC%A0%84%EB%A7%9D/index.md
 <no value>
 
 --------------------------------------------------------------------------------
+title: "공인 IP"
+url: https://www.ramoo.net/tags/%EA%B3%B5%EC%9D%B8-ip/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
 title: "구월동"
 url: https://www.ramoo.net/tags/%EA%B5%AC%EC%9B%94%EB%8F%99/index.md
 --------------------------------------------------------------------------------
@@ -2943,6 +3086,12 @@ url: https://www.ramoo.net/tags/%EA%B8%88%EB%A6%AC/index.md
 <no value>
 
 --------------------------------------------------------------------------------
+title: "내 IP 확인"
+url: https://www.ramoo.net/tags/%EB%82%B4-ip-%ED%99%95%EC%9D%B8/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
 title: "노벨평화상"
 url: https://www.ramoo.net/tags/%EB%85%B8%EB%B2%A8%ED%8F%89%ED%99%94%EC%83%81/index.md
 --------------------------------------------------------------------------------
@@ -2963,6 +3112,12 @@ url: https://www.ramoo.net/tags/%EB%B6%80%EB%8F%99%EC%82%B0/index.md
 --------------------------------------------------------------------------------
 title: "사건사고"
 url: https://www.ramoo.net/tags/%EC%82%AC%EA%B1%B4%EC%82%AC%EA%B3%A0/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "사설 IP"
+url: https://www.ramoo.net/tags/%EC%82%AC%EC%84%A4-ip/index.md
 --------------------------------------------------------------------------------
 <no value>
 
