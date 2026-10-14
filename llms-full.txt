@@ -1,4 +1,4 @@
-# Ramoo Hub
+# ramoo.net
 
 > 개발·서버 운영, 전원주택, 재테크와 일상을 기록하는 Ramoo의 개인 블로그입니다.
 
@@ -2326,12 +2326,12 @@ Last updated: October 9, 2026
 
 
 --------------------------------------------------------------------------------
-title: "Ramoo Hub in English"
+title: "ramoo.net in English"
 url: https://www.ramoo.net/en/index.md
 description: A personal blog from Korea covering software development, server operations, country home building, investing, interest rates and everyday life.
 --------------------------------------------------------------------------------
 
-Ramoo Hub is my personal blog about work, hobbies, investing and the occasional detour. I write down what I learn while developing software, running servers, planning a country home and following financial markets. I also keep notes about travel and everyday life so I can return to them later.
+ramoo.net is my personal blog about work, hobbies, investing and the occasional detour. I write down what I learn while developing software, running servers, planning a country home and following financial markets. I also keep notes about travel and everyday life so I can return to them later.
 
 This page introduces the blog in English. Most full articles are written in Korean.
 

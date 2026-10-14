@@ -1,10 +1,10 @@
-# Ramoo Hub in English
+# ramoo.net in English
 
 
 > A personal blog from Korea covering software development, server operations, country home building, investing, interest rates and everyday life.
 
 
-Ramoo Hub is my personal blog about work, hobbies, investing and the occasional detour. I write down what I learn while developing software, running servers, planning a country home and following financial markets. I also keep notes about travel and everyday life so I can return to them later.
+ramoo.net is my personal blog about work, hobbies, investing and the occasional detour. I write down what I learn while developing software, running servers, planning a country home and following financial markets. I also keep notes about travel and everyday life so I can return to them later.
 
 This page introduces the blog in English. Most full articles are written in Korean.
 

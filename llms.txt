@@ -1,4 +1,4 @@
-# Ramoo Hub
+# ramoo.net
 
 > 개발·서버 운영, 전원주택, 재테크와 일상을 기록하는 Ramoo의 개인 블로그입니다.
 
@@ -64,7 +64,7 @@
 - [Privacy Policy](https://www.ramoo.net/privacy-policy/index.md): How ramoo.net handles visitor information and third-party services.
 - [Terms of Use](https://www.ramoo.net/terms/index.md): Rules for accessing and using ramoo.net.
 - [Third-Party Notices](https://www.ramoo.net/third-party-notices/index.md): Attribution and license references for software and external assets used by ramoo.net.
-- [Ramoo Hub in English](https://www.ramoo.net/en/index.md): A personal blog from Korea covering software development, server operations, country home building, investing, interest rates and everyday life.
+- [ramoo.net in English](https://www.ramoo.net/en/index.md): A personal blog from Korea covering software development, server operations, country home building, investing, interest rates and everyday life.
 
 ## Country Home
 - [Country Home](https://www.ramoo.net/house-project/index.md): 언젠가 지을 집을 위한 메모
