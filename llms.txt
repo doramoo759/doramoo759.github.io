@@ -11,6 +11,7 @@
 ## Dev Log
 - [Dev Log](https://www.ramoo.net/lab-log/index.md): 개발, 서버, NAS를 만지며 남긴 기록
 
+- [IPv4 CIDR·서브넷 계산기: IP 범위 확인과 클래스 A·B·C 이해하기](https://www.ramoo.net/lab-log/cidr-subnet-calculator/index.md): IPv4 주소와 CIDR 프리픽스로 네트워크 시작·끝, 서브넷 마스크, 브로드캐스트와 호스트 수를 계산합니다. IP 클래스 A·B·C의 의미와 방화벽·공유기 설정 예시도 설명합니다.
 - [내 IP 주소 확인하기](https://www.ramoo.net/lab-log/check-my-ip/index.md): 내 IP 주소를 무료로 확인하세요. 공인 IP 조회, IPv4·IPv6 구분, IP 위치 지도, 통신사·ASN과 연결 정보를 확인하고 주소를 바로 복사할 수 있습니다.
 - [웹 브라우저 기반 원격 접속 Apache Guacamole 사내망 구축 및 RDP/SSH 테스트](https://www.ramoo.net/lab-log/apache-guacamole-intro/index.md): 브라우저 SSH 접속은 편했지만 LDAP 연동과 계정·세션 관리가 걸렸다. 사내망 테스트에서 멈춘 기록.
 - [FlatBuffers 기본 개념과 Ubuntu 22.04 빌드 메모](https://www.ramoo.net/lab-log/flatbuffers-in-real-systems/index.md): FlatBuffers가 버퍼를 읽는 방식과 스키마·생성 코드, Ubuntu 22.04 소스 빌드 명령.
@@ -94,6 +95,7 @@
 - [A3004NS-M](https://www.ramoo.net/tags/a3004ns-m/index.md)
 - [Apache Guacamole](https://www.ramoo.net/tags/apache-guacamole/index.md)
 - [Certbot](https://www.ramoo.net/tags/certbot/index.md)
+- [CIDR](https://www.ramoo.net/tags/cidr/index.md)
 - [Cloudflare](https://www.ramoo.net/tags/cloudflare/index.md)
 - [Distributed Systems](https://www.ramoo.net/tags/distributed-systems/index.md)
 - [DNS](https://www.ramoo.net/tags/dns/index.md)
@@ -137,6 +139,7 @@
 - [Serialization](https://www.ramoo.net/tags/serialization/index.md)
 - [SSH](https://www.ramoo.net/tags/ssh/index.md)
 - [SSL](https://www.ramoo.net/tags/ssl/index.md)
+- [Subnet](https://www.ramoo.net/tags/subnet/index.md)
 - [Synology](https://www.ramoo.net/tags/synology/index.md)
 - [System Design](https://www.ramoo.net/tags/system-design/index.md)
 - [TL-SG2008](https://www.ramoo.net/tags/tl-sg2008/index.md)
@@ -150,6 +153,7 @@
 - [ZeroMQ](https://www.ramoo.net/tags/zeromq/index.md)
 - [가치평가](https://www.ramoo.net/tags/%EA%B0%80%EC%B9%98%ED%8F%89%EA%B0%80/index.md)
 - [경제전망](https://www.ramoo.net/tags/%EA%B2%BD%EC%A0%9C%EC%A0%84%EB%A7%9D/index.md)
+- [공유기](https://www.ramoo.net/tags/%EA%B3%B5%EC%9C%A0%EA%B8%B0/index.md)
 - [공인 IP](https://www.ramoo.net/tags/%EA%B3%B5%EC%9D%B8-ip/index.md)
 - [구월동](https://www.ramoo.net/tags/%EA%B5%AC%EC%9B%94%EB%8F%99/index.md)
 - [국제형사재판소](https://www.ramoo.net/tags/%EA%B5%AD%EC%A0%9C%ED%98%95%EC%82%AC%EC%9E%AC%ED%8C%90%EC%86%8C/index.md)
@@ -157,6 +161,7 @@
 - [금리](https://www.ramoo.net/tags/%EA%B8%88%EB%A6%AC/index.md)
 - [내 IP 확인](https://www.ramoo.net/tags/%EB%82%B4-ip-%ED%99%95%EC%9D%B8/index.md)
 - [노벨평화상](https://www.ramoo.net/tags/%EB%85%B8%EB%B2%A8%ED%8F%89%ED%99%94%EC%83%81/index.md)
+- [방화벽](https://www.ramoo.net/tags/%EB%B0%A9%ED%99%94%EB%B2%BD/index.md)
 - [배당주](https://www.ramoo.net/tags/%EB%B0%B0%EB%8B%B9%EC%A3%BC/index.md)
 - [부동산](https://www.ramoo.net/tags/%EB%B6%80%EB%8F%99%EC%82%B0/index.md)
 - [사건사고](https://www.ramoo.net/tags/%EC%82%AC%EA%B1%B4%EC%82%AC%EA%B3%A0/index.md)
