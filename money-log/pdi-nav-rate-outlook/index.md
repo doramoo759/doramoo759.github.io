@@ -208,7 +208,7 @@ VIX는 S&P 500 옵션을 바탕으로 한 향후 약 30일의 변동성 기대�
 
 아래 차트는 **9월 1일부터 10월 12일까지 실제 일별 종가 29개**를 표시했다. 분배금 재투자를 반영한 총수익률 차트가 아니다. NAV는 확인한 **10월 9일 값 한 점만** 표시했으며, 과거 NAV를 추정해 선으로 연결하지 않았다. [가격 데이터 · Stock Analysis](https://stockanalysis.com/stocks/pdi/history/), [NAV · CEF Connect](https://www.cefconnect.com/fund/PDI?view=fund)
 
-![PDI의 2026년 9월 1일부터 10월 12일까지 일별 종가와 10월 9일 NAV 단일 관측값](/images/money/pdi-nav-rate-outlook/cover.png)
+![PDI의 2026년 9월 1일부터 10월 12일까지 일별 종가와 10월 9일 NAV 단일 관측값](/images/money/pdi-nav-rate-outlook/cover-wide.png)
 
 | 지표 | 값 | 관측일·계산 기준 |
 | --- | ---: | --- |
@@ -267,5 +267,5 @@ NAV가 10% 내려가 13.581달러가 되면 같은 5% 할인 가격은 **12.90�
 
 지정가 주문으로 거래를 나누는 방법도 고려한다. 분배락 직전 매수로 분배금을 받는다고 경제적 수익이 공짜로 늘어나지는 않으므로, 달력보다 NAV 대비 가격과 세후 총수익을 우선 보겠다.
 
-*분석용 차트는 직접 제작했다. [가격 CSV](/data/money/pdi-2026-10-13/prices.csv)와 [관측일·출처·가정 JSON](/data/money/pdi-2026-10-13/sources.json), 원본 그래프 [가격·NAV SVG](/images/money/pdi-nav-rate-outlook/cover.svg) · [연준 전망 SVG](/images/money/pdi-nav-rate-outlook/fed-outlook.svg) · [NAV 시나리오 SVG](/images/money/pdi-nav-rate-outlook/nav-scenarios.svg)를 함께 남긴다. 실제 거래 전에는 해당 날짜의 가격·NAV와 최신 펀드 보고서를 다시 확인해야 한다.*
+*분석용 차트는 직접 제작했다. [가격 CSV](/data/money/pdi-2026-10-13/prices.csv)와 [관측일·출처·가정 JSON](/data/money/pdi-2026-10-13/sources.json), 원본 그래프 [가격·NAV SVG](/images/money/pdi-nav-rate-outlook/cover-wide.svg) · [연준 전망 SVG](/images/money/pdi-nav-rate-outlook/fed-outlook.svg) · [NAV 시나리오 SVG](/images/money/pdi-nav-rate-outlook/nav-scenarios.svg)를 함께 남긴다. 실제 거래 전에는 해당 날짜의 가격·NAV와 최신 펀드 보고서를 다시 확인해야 한다.*
 

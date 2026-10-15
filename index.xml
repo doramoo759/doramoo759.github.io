@@ -1110,7 +1110,7 @@ target="_blank"
 &gt;가격 데이터 · Stock Analysis&lt;/a&gt;, &lt;a href="https://www.cefconnect.com/fund/PDI?view=fund"
 target="_blank"
 &gt;NAV · CEF Connect&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://image.ramoo.net/images/money/pdi-nav-rate-outlook/cover.png" alt="PDI의 2026년 9월 1일부터 10월 12일까지 일별 종가와 10월 9일 NAV 단일 관측값" loading="lazy" decoding="async" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://image.ramoo.net/images/money/pdi-nav-rate-outlook/cover-wide.png" alt="PDI의 2026년 9월 1일부터 10월 12일까지 일별 종가와 10월 9일 NAV 단일 관측값" loading="lazy" decoding="async" class="img-fluid"&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1237,7 +1237,7 @@ target="_blank"
 &lt;p&gt;지정가 주문으로 거래를 나누는 방법도 고려한다. 분배락 직전 매수로 분배금을 받는다고 경제적 수익이 공짜로 늘어나지는 않으므로, 달력보다 NAV 대비 가격과 세후 총수익을 우선 보겠다.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;분석용 차트는 직접 제작했다. &lt;a href="https://www.ramoo.net/data/money/pdi-2026-10-13/prices.csv"
 &gt;가격 CSV&lt;/a&gt;와 &lt;a href="https://www.ramoo.net/data/money/pdi-2026-10-13/sources.json"
-&gt;관측일·출처·가정 JSON&lt;/a&gt;, 원본 그래프 &lt;a href="https://www.ramoo.net/images/money/pdi-nav-rate-outlook/cover.svg"
+&gt;관측일·출처·가정 JSON&lt;/a&gt;, 원본 그래프 &lt;a href="https://www.ramoo.net/images/money/pdi-nav-rate-outlook/cover-wide.svg"
 &gt;가격·NAV SVG&lt;/a&gt; · &lt;a href="https://www.ramoo.net/images/money/pdi-nav-rate-outlook/fed-outlook.svg"
 &gt;연준 전망 SVG&lt;/a&gt; · &lt;a href="https://www.ramoo.net/images/money/pdi-nav-rate-outlook/nav-scenarios.svg"
 &gt;NAV 시나리오 SVG&lt;/a&gt;를 함께 남긴다. 실제 거래 전에는 해당 날짜의 가격·NAV와 최신 펀드 보고서를 다시 확인해야 한다.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>한국은행이 추가 금리 인상을 시사했다, 집값과 주식은 어떻게 움직일까</title><link>https://www.ramoo.net/money-log/bok-rate-hike-property-stock-outlook/</link><pubDate>Mon, 12 Oct 2026 20:30:00 +0900</pubDate><guid>https://www.ramoo.net/money-log/bok-rate-hike-property-stock-outlook/</guid><description>&lt;p&gt;&lt;img src="https://image.ramoo.net/images/money/bok-rate-hike-outlook/cover-wide.png" alt="한국은행 본점과 2026년 8월 27일 기준금리 인상 안내" loading="lazy" decoding="async" class="img-fluid"&gt;&lt;/p&gt;
