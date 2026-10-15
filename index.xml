@@ -341,7 +341,7 @@ target="_blank"
 &lt;h3 id="24의-254개-호스트는-모두-dhcp로-배정할-수-있나요"&gt;/24의 254개 호스트는 모두 DHCP로 배정할 수 있나요?&lt;/h3&gt;
 &lt;p&gt;반드시 그렇지는 않습니다. 254개는 일반 LAN에서 네트워크·브로드캐스트 주소를 뺀 수입니다. 공유기 주소, 수동 고정 IP와 예약 주소 등을 제외하면 실제 DHCP 풀은 더 작아질 수 있습니다.&lt;/p&gt;
 &lt;h3 id="192168110부터-192168120까지를-cidr-하나로-쓸-수-있나요"&gt;192.168.1.10부터 192.168.1.20까지를 CIDR 하나로 쓸 수 있나요?&lt;/h3&gt;
-&lt;p&gt;정확히 그 범위만 CIDR 하나로 표현할 수는 없습니다. 하나의 CIDR은 2의 거듭제곱 크기이며 시작 경계도 맞아야 합니다. 이 예는 11개 주소이므로 여러 CIDR로 분할하거나 장비가 지원하는 시작·끝 범위 입력을 사용해야 합니다. 이 도구는 임의 범위를 여러 CIDR로 변환하는 기능은 제공하지 않습니다.&lt;/p&gt;</description></item><item><title>한국판 공포·탐욕 지수</title><link>https://www.ramoo.net/money-log/korea-fear-greed-index/</link><pubDate>Thu, 15 Oct 2026 00:00:00 +0900</pubDate><guid>https://www.ramoo.net/money-log/korea-fear-greed-index/</guid><description>&lt;link rel="stylesheet" href="https://www.ramoo.net/css/k-fear-greed.min.29188ac5bd8d73d8d3b9f2f08fee324676fdc8eb9f81fbb9d153e9c11b44d25d.css" integrity="sha256-KRiKxb2Nc9jTufLwj&amp;#43;4yRnb9yOufgfu50VPpwRtE0l0=" crossorigin="anonymous"&gt;
+&lt;p&gt;정확히 그 범위만 CIDR 하나로 표현할 수는 없습니다. 하나의 CIDR은 2의 거듭제곱 크기이며 시작 경계도 맞아야 합니다. 이 예는 11개 주소이므로 여러 CIDR로 분할하거나 장비가 지원하는 시작·끝 범위 입력을 사용해야 합니다. 이 도구는 임의 범위를 여러 CIDR로 변환하는 기능은 제공하지 않습니다.&lt;/p&gt;</description></item><item><title>한국판 공포·탐욕 지수</title><link>https://www.ramoo.net/money-log/korea-fear-greed-index/</link><pubDate>Thu, 15 Oct 2026 00:00:00 +0900</pubDate><guid>https://www.ramoo.net/money-log/korea-fear-greed-index/</guid><description>&lt;link rel="stylesheet" href="https://www.ramoo.net/css/k-fear-greed.min.3c1b242fdf11eb26bd0d3715c5a08f6dfa16c337350e66faa60bb7370f6642ec.css" integrity="sha256-PBskL98R6ya9DTcVxaCPbfoWwzc1Dmb6pgu3Nw9mQuw=" crossorigin="anonymous"&gt;
 &lt;section class="kfg not-prose" data-kfg aria-labelledby="kfg-title"&gt;
 &lt;header class="kfg-heading"&gt;&lt;div&gt;&lt;span class="kfg-eyebrow"&gt;RAMOO MARKET MONITOR&lt;/span&gt;&lt;h2 id="kfg-title"&gt;한국판 공포·탐욕 지수&lt;/h2&gt;&lt;p&gt;가격의 흐름, 외국인 수급, 환율로 읽는 코스피 시장 심리&lt;/p&gt;&lt;/div&gt;&lt;span class="kfg-badge"&gt;마지막 공개 지수&lt;/span&gt;&lt;/header&gt;
 &lt;div class="kfg-overview"&gt;
@@ -365,7 +365,7 @@ target="_blank"
 &lt;span class="kfg-eyebrow"&gt;LAST OBSERVATION&lt;/span&gt;
 &lt;h3&gt;극심한 공포 구간입니다&lt;/h3&gt;
 &lt;p&gt;과거 구간에 대한 상대적인 시장 심리입니다. 이후 수익률의 확률이나 매매 신호를 뜻하지 않습니다.&lt;/p&gt;
-&lt;dl class="kfg-meta"&gt;&lt;div&gt;&lt;dt&gt;데이터 기준일&lt;/dt&gt;&lt;dd&gt;&lt;time datetime="2026-10-14" data-kfg-asof&gt;2026-10-14&lt;/time&gt;&lt;/dd&gt;&lt;/div&gt;&lt;div&gt;&lt;dt&gt;이전 계산일 대비&lt;/dt&gt;&lt;dd&gt;-3.48점&lt;/dd&gt;&lt;/div&gt;&lt;div&gt;&lt;dt&gt;결과 생성 시각&lt;/dt&gt;&lt;dd&gt;2026-10-15 13:18 &amp;#43;09:00&lt;/dd&gt;&lt;/div&gt;&lt;div&gt;&lt;dt&gt;수집 주기&lt;/dt&gt;&lt;dd&gt;주 1회 · 수동 갱신&lt;/dd&gt;&lt;/div&gt;&lt;/dl&gt;
+&lt;dl class="kfg-meta"&gt;&lt;div&gt;&lt;dt&gt;데이터 기준일&lt;/dt&gt;&lt;dd&gt;&lt;time datetime="2026-10-14" data-kfg-asof&gt;2026-10-14&lt;/time&gt;&lt;/dd&gt;&lt;/div&gt;&lt;div&gt;&lt;dt&gt;이전 계산일 대비&lt;/dt&gt;&lt;dd&gt;-3.48점&lt;/dd&gt;&lt;/div&gt;&lt;div&gt;&lt;dt&gt;결과 생성 시각&lt;/dt&gt;&lt;dd&gt;2026-10-15 13:18 &amp;#43;09:00&lt;/dd&gt;&lt;/div&gt;&lt;div&gt;&lt;dt&gt;수집 주기&lt;/dt&gt;&lt;dd&gt;매일 09:17 KST · 수동 갱신&lt;/dd&gt;&lt;/div&gt;&lt;/dl&gt;
 &lt;p class="kfg-status" role="status" data-kfg-freshness&gt;수집 시각과 데이터 기준일은 다를 수 있습니다.&lt;/p&gt;
 &lt;a class="kfg-text-link" href="#어떤-자료로-계산하나요"&gt;산식과 구성 지표 알아보기 →&lt;/a&gt;
 &lt;/div&gt;
