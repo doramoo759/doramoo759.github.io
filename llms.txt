@@ -6,7 +6,7 @@
 - [Home](https://www.ramoo.net/index.md): 투자·경제 분석, 시사 이야기, 전원주택·교외 생활, 개발·서버 운영과 전자기기 취미를 담은 Ramoo의 개인 블로그입니다.
 - [About](https://www.ramoo.net/about/index.md): About ramoo and this personal site.
 - [Contact](https://www.ramoo.net/contact/index.md): Contact information for ramoo.net.
-- [블로그](https://www.ramoo.net/blog/index.md): ramoo.net 글 목록
+- [블로그](https://www.ramoo.net/blog/index.md): 투자·경제, 시사, 전원생활, 개발·서버와 전자기기 취미까지 ramoo.net에 기록한 글을 모아 봅니다.
 
 ## Work
 - [Work](https://www.ramoo.net/work/index.md): 프로그래밍·서버 구축·개발 도구와 업무 문제 해결 기록
@@ -27,7 +27,7 @@
 - [시놀로지(Synology) NAS 해외 IP 및 특정 국가 접속 차단 방화벽 설정 방법](https://www.ramoo.net/work/synology-region-firewall/index.md): 반복되는 admin 로그인 시도를 보고 DSM 방화벽에서 지역별 규칙을 만들었다. 이후 특정 포트만 차단하도록 바꿨다.
 
 ## Money
-- [Money](https://www.ramoo.net/money/index.md): 투자·주식·금리와 시장 심리를 공부한 기록
+- [Money](https://www.ramoo.net/money/index.md): 주식·ETF·배당·금리와 시장 심리를 공부한 기록입니다. 투자 지표와 포트폴리오 메모, 한국 시장 심리 대시보드를 모았습니다.
 
 - [한국판 공포·탐욕 지수](https://www.ramoo.net/money/korea-fear-greed-index/index.md): 코스피 모멘텀·외국인 수급·원/달러 환율로 살펴보는 한국 시장 심리 대시보드. 공개 상태와 지수 추이, 산식, 데이터 기준일을 함께 안내합니다.
 - [세금으로 집값 잡지 않겠다던 이재명 대통령, 지금은...](https://www.ramoo.net/money/lee-housing-tax-promises/index.md): 이재명 대통령을 지지하는 입장에서 근로소득세 개편, 부동산 세금 약속과 300만 호 공급의 현실성을 돌아봤다. 관련 영상 세 편과 짧은 요약을 함께 남긴다.
@@ -38,7 +38,7 @@
 - [주린이 벗어나기 1탄: PER, PBR, PSR을 읽을 때 놓치기 쉬운 것](https://www.ramoo.net/money/jurini-indicators-1/index.md): PER, PBR, PSR을 볼 때 이익·자산·매출에서 같이 확인할 내용을 적은 공부 메모.
 
 ## Gossip
-- [Gossip](https://www.ramoo.net/gossip/index.md): 시사 뉴스·사회 이슈와 개인적인 의견
+- [Gossip](https://www.ramoo.net/gossip/index.md): 시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
 
 - [동료에게 듣고 찾아본 인천 구월동 흉기 난동 사건](https://www.ramoo.net/gossip/incheon-guwol-stabbing-news/index.md): 직장 동료에게 소식을 듣고 찾아본 인천 구월동 상업시설 흉기 난동 사건. 기사 네 편과 저녁 후속 보도를 바탕으로 사건 경위와 달라진 내용을 정리하고 관련 영상을 남겼다.
 - [노벨상까지 내놓으라는 트럼프, 후대는 어떻게 기억할까](https://www.ramoo.net/gossip/trump-nobel-peace-prize-icc-sanctions/index.md): 트럼프의 노벨평화상 불만과 미국의 ICC 제재를 다룬 기사 세 편을 짧게 정리하고, 국가 지도자의 책임에 대한 생각을 남긴다.
@@ -85,7 +85,7 @@
 ## Authors
 - [Authors](https://www.ramoo.net/authors/index.md)
 
-- [ramoo](https://www.ramoo.net/authors/ramoo/index.md): ramoo.net 작성자
+- [ramoo](https://www.ramoo.net/authors/ramoo/index.md): ramoo.net 작성자 ramoo의 글 모음입니다. 투자·시사·전원생활·개발·전자기기 취미에 관해 남긴 기록을 확인할 수 있습니다.
 
 ## Categories
 - [Categories](https://www.ramoo.net/categories/index.md)

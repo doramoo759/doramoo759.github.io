@@ -32,9 +32,9 @@ Contact information for ramoo.net.
 --------------------------------------------------------------------------------
 title: "블로그"
 url: https://www.ramoo.net/blog/index.md
-description: ramoo.net 글 목록
+description: 투자·경제, 시사, 전원생활, 개발·서버와 전자기기 취미까지 ramoo.net에 기록한 글을 모아 봅니다.
 --------------------------------------------------------------------------------
-ramoo.net 글 목록
+투자·경제, 시사, 전원생활, 개발·서버와 전자기기 취미까지 ramoo.net에 기록한 글을 모아 봅니다.
 
 --------------------------------------------------------------------------------
 title: "Work"
@@ -993,7 +993,7 @@ NAS에 admin 계정으로 로그인하려는 흔적이 계속 보여서 IP 위�
 --------------------------------------------------------------------------------
 title: "Money"
 url: https://www.ramoo.net/money/index.md
-description: 투자·주식·금리와 시장 심리를 공부한 기록
+description: 주식·ETF·배당·금리와 시장 심리를 공부한 기록입니다. 투자 지표와 포트폴리오 메모, 한국 시장 심리 대시보드를 모았습니다.
 --------------------------------------------------------------------------------
 
 {{< k-fear-greed-link >}}
@@ -1702,9 +1702,9 @@ PSR은 시가총액을 매출액으로 나눈 값이다. 아직 이익이 나지
 --------------------------------------------------------------------------------
 title: "Gossip"
 url: https://www.ramoo.net/gossip/index.md
-description: 시사 뉴스·사회 이슈와 개인적인 의견
+description: 시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
 --------------------------------------------------------------------------------
-시사 뉴스·사회 이슈와 개인적인 의견
+시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
 
 --------------------------------------------------------------------------------
 title: "동료에게 듣고 찾아본 인천 구월동 흉기 난동 사건"
@@ -1893,7 +1893,7 @@ description: 최근 강선우 여성가족부 장관 후보자를 둘러싼 ‘�
 
 **출처**: [한국일보](https://www.hankookilbo.com/News/Read/A2025071007400005702?ref=log.ramoo.net), [한겨레](https://www.hani.co.kr/arti/politics/politics_general/1208020.html?ref=log.ramoo.net)
 
-![](/images/off-duty/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/photo-01.jpg)
+![흰색 재킷을 입은 강선우 후보자](/images/off-duty/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/photo-01.jpg)
 
 출처 :[https://www.nocutnews.co.kr/news/6367282](https://www.nocutnews.co.kr/news/6367282?ref=log.ramoo.net)
 
@@ -1924,7 +1924,7 @@ description: 이재명 대통령은 전국적인 폭우 피해로 인해 부산 
 - **부동산 시장**: 서울 집값이 6월 0.95% 상승하며 82개월 만에 최대 상승폭을 기록했다. 수도권 전셋값은 23개월 연속 상승세다.
 - **기업 동향**: 삼성전자 주가가 이재용 회장의 사법 리스크 해소와 HBM 공급 기대감으로 6만7800원까지 상승, ‘7만전자’를 눈앞에 두었다. 세미파이브는 코스닥 상장 예비심사를 청구하며 반도체 디자인하우스로서의 성장 가능성을 보였다. 반면, 증권주는 밸류에이션 부담으로 하락세를 보였다.
 
-![](/images/off-duty/news/weekly-news-2025nyeon-7weol-18il/photo-01.webp)
+![오산 옹벽 붕괴로 드러난 토사와 도로 아래 잔해](/images/off-duty/news/weekly-news-2025nyeon-7weol-18il/photo-01.webp)
 
 ([https://www.hani.co.kr/arti/area/capital/1208475.html](https://www.hani.co.kr/arti/area/capital/1208475.html?ref=log.ramoo.net)) - 오산 옹벽 붕괴 사고
 
@@ -2858,7 +2858,7 @@ url: https://www.ramoo.net/authors/index.md
 --------------------------------------------------------------------------------
 title: "ramoo"
 url: https://www.ramoo.net/authors/ramoo/index.md
-description: ramoo.net 작성자
+description: ramoo.net 작성자 ramoo의 글 모음입니다. 투자·시사·전원생활·개발·전자기기 취미에 관해 남긴 기록을 확인할 수 있습니다.
 --------------------------------------------------------------------------------
 
 ramoo.net에 글을 기록하는 작성자이다.

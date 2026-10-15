@@ -37,7 +37,7 @@ date: 2025-07-21
 
 **출처**: [한국일보](https://www.hankookilbo.com/News/Read/A2025071007400005702?ref=log.ramoo.net), [한겨레](https://www.hani.co.kr/arti/politics/politics_general/1208020.html?ref=log.ramoo.net)
 
-![](/images/off-duty/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/photo-01.jpg)
+![흰색 재킷을 입은 강선우 후보자](/images/off-duty/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/photo-01.jpg)
 
 출처 :[https://www.nocutnews.co.kr/news/6367282](https://www.nocutnews.co.kr/news/6367282?ref=log.ramoo.net)
 

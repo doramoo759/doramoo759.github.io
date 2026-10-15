@@ -18,7 +18,7 @@ date: 2025-07-19
 - **부동산 시장**: 서울 집값이 6월 0.95% 상승하며 82개월 만에 최대 상승폭을 기록했다. 수도권 전셋값은 23개월 연속 상승세다.
 - **기업 동향**: 삼성전자 주가가 이재용 회장의 사법 리스크 해소와 HBM 공급 기대감으로 6만7800원까지 상승, ‘7만전자’를 눈앞에 두었다. 세미파이브는 코스닥 상장 예비심사를 청구하며 반도체 디자인하우스로서의 성장 가능성을 보였다. 반면, 증권주는 밸류에이션 부담으로 하락세를 보였다.
 
-![](/images/off-duty/news/weekly-news-2025nyeon-7weol-18il/photo-01.webp)
+![오산 옹벽 붕괴로 드러난 토사와 도로 아래 잔해](/images/off-duty/news/weekly-news-2025nyeon-7weol-18il/photo-01.webp)
 
 ([https://www.hani.co.kr/arti/area/capital/1208475.html](https://www.hani.co.kr/arti/area/capital/1208475.html?ref=log.ramoo.net)) - 오산 옹벽 붕괴 사고
 
