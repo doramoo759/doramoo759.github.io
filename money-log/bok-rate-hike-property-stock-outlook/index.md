@@ -5,7 +5,7 @@ date: 2026-10-12
 > 한국은행의 추가 인상 신호와 최신 보도를 바탕으로 연내 3.25%, 내년 초 3.50% 경로를 분석하고, 부동산·주식시장에 미칠 영향을 살펴본다.
 
 
-![한국은행 본점과 2026년 8월 27일 기준금리 인상 안내](/images/money/bok-rate-hike-outlook/cover.png)
+![한국은행 본점과 2026년 8월 27일 기준금리 인상 안내](/images/money/bok-rate-hike-outlook/cover-wide.png)
 
 *이미지 출처: [한국은행 홈페이지](https://www.bok.or.kr/portal/main/main.do). 8월 27일 기준금리를 2.75%에서 3.00%로 인상한 당시의 안내 화면이다.*
 
