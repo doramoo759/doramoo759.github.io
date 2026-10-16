@@ -35,6 +35,2547 @@ description: 투자·경제, 시사, 전원생활, 개발·서버와 전자기�
 투자·경제, 시사, 전원생활, 개발·서버와 전자기기 취미까지 ramoo.net에 기록한 글을 모아 봅니다.
 
 --------------------------------------------------------------------------------
+title: "News"
+url: https://www.ramoo.net/news/index.md
+description: 시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
+--------------------------------------------------------------------------------
+시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
+
+--------------------------------------------------------------------------------
+title: "김용대 KAIST 교수님의 금융회사 보안 뚫린 이유 소설로 풍자"
+url: https://www.ramoo.net/news/security-beyond-tools-a-conversation/index.md
+date: "2026-10-17"
+description: 지디넷코리아에 실린 김용대 KAIST 교수의 보안 풍자 소설을 인물 아이콘과 채팅 말풍선으로 재구성했다. 프롤로그부터 에필로그까지 대사와 지문을 순서대로 읽을 수 있다.
+--------------------------------------------------------------------------------
+
+지디넷코리아에 소개된 김용대 KAIST 교수님의 보안 풍자 소설을 너무 재미있게 읽어서, **인물별 대화를 채팅 화면처럼 보기 편하게 재구성해 보았다.**
+
+분량이 길어 스크롤 압박은 조금 있다. 그래도 재미있게 읽히는 글이니, **에필로그까지 꼭 읽어 보길 추천한다.**
+
+원작은 <strong>김용대 교수님의 「우리는 괜찮나 — 어느 회사 사장실의 두 시간」</strong>이다. 소설 원문의 **프롤로그부터 에필로그까지** 대사와 지문은 그대로 두고, 인물 아이콘과 말풍선으로 보기 편하게 재구성했다. 화자 이름은 지문과 문맥을 바탕으로 덧붙였으며, 원작 속 회사와 대화는 가상의 설정이다. 금융회사 사고에 대한 확정된 조사 보고서가 아니라, 기업 보안의 구조적 문제를 다룬 풍자 소설로 읽으면 된다.
+
+- **김용대 교수님의 소설 원문:** [우리는 괜찮나 — 어느 회사 사장실의 두 시간](https://docs.google.com/document/d/1HRfLUt9_ZafmBnLXW5H8DqFeO3nQ4wVauAZx__NkO1w/edit?tab=t.0)
+- **관련 기사:** [지디넷코리아 · 「한국기업 보안 민낯」…김용대 교수 쓴 SNS글 화제](https://zdnet.co.kr/view/?no=20261011153232) — 방은주 기자, 2026년 10월 11일 입력·10월 12일 수정.
+
+## 읽기 전에, 세 사람의 역할
+
+- **CEO (Chief Executive Officer / 최고경영자):** 회사의 경영 방향과 주요 예산·투자를 결정하는 사람이다. 이 소설에서는 사장으로 등장한다.
+- **CIO (Chief Information Officer / 최고정보책임자):** 회사의 IT 시스템과 인프라, 서비스 운영을 총괄하는 사람이다. 시스템을 바꾸는 비용과 안정적인 운영을 함께 고민한다.
+- **CISO (Chief Information Security Officer / 최고정보보호책임자):** 회사의 정보보호 전략과 보안 위험 관리를 총괄하는 사람이다. 무엇이 위험하고 어떤 보완이 필요한지 설명한다.
+
+이 세 사람이 각자의 입장에서 주고받는 대화다. 인물 아이콘과 이름·색상으로 대사를 구분했고, 지문은 말풍선 사이에 따로 표시했다.
+
+<nav class="article-chat-chapters" aria-label="소설 목차">
+<a href="#prologue">프롤로그</a>
+<a href="#part-1">1부 · 보고</a>
+<a href="#part-2">2부 · 우리는</a>
+<a href="#part-3">3부 · 세는 일은 누구 일인가</a>
+<a href="#part-4">4부 · 끄지도 못하고 고치지도 못한다</a>
+<a href="#part-5">5부 · 돈</a>
+<a href="#part-6">6부 · 그래서 뭐가 달라지나</a>
+<a href="#part-7">에필로그</a>
+</nav>
+
+<span id="prologue" class="article-chat-anchor"></span>
+
+## ■ 프롤로그
+
+이 글은 소설이다.
+
+지금 진행 중인 사건에 대해 내가 아는 것 중에는 말할 수 없는 것이 있고, 말할 수 있는 것 중에는 단정할 수 없는 것이 있다. 그래서 가상의 회사를 하나 만들었다. 유통과 제조를 같이 하는 중견 그룹이고, 금융회사가 아니다. 금융만의 문제가 아니라는 것이 이 글의 전제이기 때문이다.
+
+재료는 세 가지다. 지난 3년 동안 모 언론에 쓴 칼럼들, 올해 7월 코드게이트 오픈토크에서 국내 최전선의 실무자들에게 들은 이야기들, 그리고 여러 기업을 자문하면서 본 것들이다. 등장하는 회사는 어느 한 곳이 아니다. 여러 곳의 조각을 모아 붙였다. 다만 대사는 대부분 어디선가 실제로 들은 말들이다. 글은 클로드와 함께 썼다.
+
+읽기 전에 한 가지만 말해두고 싶다. 소설 속에 나오는 회사는 사정이 나은 편이다. CISO(Chief Information Security Officer, 최고정보보호책임자)가 자기 회사의 문제를 알고 있다. CIO(Chief Information Officer, 최고정보책임자)가 2년 전 보고서를 보관하고 있다. CEO(Chief executive Officer, 최고경영자)가 아침 회의를 취소하고 두 시간을 썼다. 세 사람이 한 방에 앉았다. 이것만으로도 상위권이다.
+
+사업부가 알아서 클라우드 계정을 열고, 알아서 솔루션을 구매하고, IT 조직은 사후에 통보만 받는 회사에서는 이런 대화가 성립하지 않는다. 앉을 사람이 없다.
+
+그리고 공공기관은 누가 CIO 역할을 하는가. 정보화담당관이 있다. 1~2년마다 바뀐다. 2년짜리 계획을 누가 세우고 누가 이어받는가. 세운 사람은 그 계획이 끝날 때 그 자리에 없다. 그래서 이 글은 비관적인 이야기가 아니다. 그나마 잘 되고 있는 쪽의 이야기다.
+
+<span id="part-1" class="article-chat-anchor"></span>
+
+## ■ 1부/보고
+
+{{< chat-conversation label="■ 1부/보고" >}}
+
+{{< chat-narration >}}
+월요일 아침 여덟 시 사십 분, 사장실.
+{{< /chat-narration >}}
+
+{{< chat-narration >}}
+CISO는 주말 사이에 정리한 종이 석 장을 들고 들어갔다. 사장은 이미 신문을 펼쳐놓고 있었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"읽었어. 설명해 봐."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"금융사 일곱 곳입니다. 은행 네 곳, 저축은행 두 곳, 캐피털 한 곳입니다. 9월 중순부터 열흘 남짓한 사이에 연달아 일어났습니다. 여러 회사에서 같은 공격 IP가 나와서 동일 공격자 가능성이 거론되고 있습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"얼마나 나갔어."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"개인 6만 명, 법인 2천여 건으로 발표됐습니다. 다만 그 숫자는 지금까지 확인된 것입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 안경을 올렸다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"인터넷뱅킹이 뚫린 거야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"아닙니다. 고객이 쓰는 뱅킹은 막혔습니다. 뚫린 건 대출모집인용 조회 서비스, 직원용 모바일 업무지원 시스템, 영업지원 시스템입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"직원용?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"네."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그게 왜 인터넷에 있어."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"영업을 밖에서 하니까요. 대출모집인은 사무실에 앉아 있는 사람들이 아닙니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 고개를 끄덕였다. 그건 이해가 됐다. 자기 회사에도 그런 게 있다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"어떻게 들어간 거야."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"두 단계입니다. 먼저 접근 통제가 없었습니다. 휴대전화 인증 같은 절차 없이 페이지가 열렸습니다. 그다음이 더 문제입니다. 들어간 다음에 고객번호를 순서대로 바꿔 넣으면 남의 정보가 나왔습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 종이에서 눈을 들었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"뭐라고?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"번호를 바꿔 넣으면 다른 사람 정보가 나왔습니다. 접속한 사람이 그 정보를 볼 권한이 있는지를 확인하지 않았습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그게 은행에서 가능한 일이야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"고객이 쓰는 쪽에서는 불가능합니다. 거기는 수십 번 점검했을 겁니다. 뚫린 건 직원과 협력사가 쓰는 쪽입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장은 잠시 말이 없었다. 그리고 물었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"공격한 쪽이 AI를 썼다는 건 무슨 얘기야. 그것도 신문에 났어."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"공격에 사용된 것으로 보이는 서버에서 중국어로 된 자율 침투 도구 흔적이 발견됐다는 보도가 있었습니다. 조사 중이라 단정할 수는 없습니다. 다만 정황은 일관됩니다. 서로 다른 일곱 회사의 비슷한 성격의 서비스가 열흘 사이에 차례로 뚫렸습니다. 사람이 하나씩 붙어서 했다고 보기는 어렵습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 신문을 접었다. 그리고 책상 위에 올려놓았다. 여기서 보고의 성격이 바뀌었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"우리도 인증 세 개 받았지."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"받았습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"작년에 그거 받았다고 보도자료도 냈어. 업계 최고 수준이라고. 내가 사인했어."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"했습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"이번에 뚫린 데도 다 받았잖아."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"받았습니다. 세 곳은 더 있습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그리고 걔들 작년에 보안에 쓴 돈이 신문에 나왔어. 은행 세 곳이 천이백억이 넘어. 한 곳은 개인신용정보 관리에서 6년 연속 최고 등급 받았대."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"받았습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 몸을 뒤로 기댔다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 그 돈은 도대체 어디에 쓰는 건데?"
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO는 대답을 준비하지 않았다. 그런데 답은 알고 있었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"고객이 쓰는 쪽에 씁니다. 로그인 강화, 이상거래 탐지, 관제. 그리고 심사 범위에 들어가는 쪽에 씁니다. 마지막으로, 숫자로 보고할 수 있는 쪽에 씁니다. 장비는 대수가 나오고 솔루션은 금액이 나옵니다. 보고서에 쓸 수 있습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"인증받는 데도 돈 들지."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"듭니다. 컨설팅 받고, 증적 만들고, 심사 준비합니다. 그것도 정보보호 예산입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"...그러면 이번에 뚫린 데는 그 돈이 하나도 안 간 거야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"안 갔습니다. 심사 범위가 아니고, 고객이 쓰는 서비스가 아니고, 보고할 숫자가 없습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장은 이번에는 오래 말이 없었다. 그리고 CISO를 보았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그러면 네가 지금 나한테 더 달라고 할 돈도, 결국 거기 쓰이는 거 아냐?"
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO는 아니라고 말해야 했다. 이번엔 다르다고. 그런데 그 말을 하려는 순간 자기 입에서 나올 문장이 어떻게 들릴지가 먼저 들렸다. 작년에도 비슷한 말을 했다. 그때는 장비였다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"...이번엔 성격이 다릅니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"다 그렇게 말하지."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"압니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 시계를 봤다. 아홉 시 회의가 있었다. 그런데 일어나지 않았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그래서, 우리는 어때?"
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO는 석 장의 종이 중 마지막 장을 보았다. 거기에는 아무것도 쓰여 있지 않았다. 주말 동안 쓰려고 했는데 쓸 수가 없었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"모르겠습니다."
+{{< /chat-message >}}
+
+{{< /chat-conversation >}}
+
+<span id="part-2" class="article-chat-anchor"></span>
+
+## ■ 2부/우리는
+
+{{< chat-conversation label="■ 2부/우리는" >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"모르겠다는 게 무슨 뜻이야. 모른다는 거야, 안 봤다는 거야."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"안 본 건 아닙니다. 봤는데 다 못 봤습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 손으로 책상을 한 번 두드렸다. 화를 낸 것은 아니었다. 다음 질문을 고르는 동작이었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"우리는 10년 동안 아무 일 없었어?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"10년 동안, 우리가 알고 있는 해킹 사고는 없었습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 멈췄다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그게 무슨 말이야."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"말씀 그대로입니다. 사고가 없었던 것과 사고를 모르는 것은 밖에서 보면 같습니다. 안에서도 같습니다. 작년에 통신사는 3년 동안 몰랐습니다. 어떤 공공 서비스는 1년 반 동안 몰랐고, 경찰이 다른 사건을 수사하다 우연히 찾아냈습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"우리는 관제를 하잖아."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"합니다. 관제는 우리가 보고 있는 곳만 봅니다. 지금 이야기하고 있는 건 우리가 목록조차 못 만든 곳입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 종이를 손으로 눌렀다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그러면 10년 동안 잘해온 게 아니라는 거야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"잘해온 부분이 있습니다. 고객이 쓰는 쪽은 제대로 해왔습니다. 다만 10년 무사고를 근거로 말씀드릴 수는 없습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그게 지금은 달라졌다는 거야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"사람이 붙지 않아도 됩니다. AI가 사람이 하던 일을 상당 부분 대신합니다. 탐색하고, 분석하고, 시험해보는 일입니다. 과거에는 공격자도 계산을 했습니다. 이 회사를 뚫는 데 두 달이 걸리는데 나오는 게 얼마인가. 그래서 우리 같은 회사는 명단 아래쪽에 있었습니다. 지금은 한 사람이 수백 곳을 동시에 훑습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 잠깐 멈췄다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"우리는 뭐가 달라진 거야."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"우리는 아무것도 달라지지 않았습니다. 사고가 나지 않았던 이유가 사라졌습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장은 그 문장을 한 번 속으로 되풀이하는 것처럼 보였다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 우리 것부터 봐. 뭐가 인터넷에 떠 있어."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"그걸 지금 말씀드릴 수 없습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"도메인이 몇 개야."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"목록이 세 개 있습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"뭐?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"하나는 구매 대장입니다. 재무에서 관리하고, 돈이 나간 기록입니다. 자산번호가 붙어 있고 감가상각이 돌아갑니다. 정확합니다. 다만 돈이 나간 것만 들어 있습니다. 하나는 구축 당시 설계 문서입니다. 시스템을 만들 때 어떤 서버에 무엇을 올리기로 했다는 목록입니다. 만들 때는 맞았습니다. 세 번째가 지금 실제로 돌고 있는 것입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"세 개가 다른 거야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"다릅니다. 세 번째 목록은 완성된 적이 없습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"왜."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"돈이 안 나가도 서버가 생기기 때문입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 눈썹을 올렸다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"클라우드를 씁니다. 사업부에서 필요하면 월 몇십만원으로 서버를 띄웁니다. 구매 절차를 타지 않습니다. 결재가 필요 없으니 재무 대장에 안 올라가고, 설계 문서에도 없습니다. 그리고 한번 띄우면 잘 안 내립니다. 내려도 되는지 확인하는 게 일이라서요."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"몇 개야 그게."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"작년에 사업부 협조를 받아 부분 조사를 했습니다. 살아 있는 도메인이 자산 대장의 세 배로 나왔습니다. 그게 전부였다고는 말씀드릴 수 없습니다. 협조해준 사업부만 센 숫자입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장은 종이를 당겨 숫자를 적었다. 세 배라는 글자 위에 동그라미를 쳤다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"좋아. 그럼 2만 대라고 치자. 세어."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"대수를 세는 게 조사가 아닙니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"또 뭐야."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"서버 한 대를 세었다고 해서 그 안을 아는 게 아닙니다. 클라우드 위에 가상 서버가 떠 있고, 그 아래 호스트에도 운영체제가 있고 가상 서버 안에도 운영체제가 있습니다. 둘은 서로 다른 버전입니다. 그 위에 서비스가 몇 개 올라가 있는지는 그걸 만든 팀만 압니다. 그 팀이 조직개편으로 없어진 것도 있습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"....."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"그리고 어떤 데이터가 어디 있는지를 모릅니다. 작년에 하나 찾았습니다. 개발하다가 테스트하려고 운영 데이터를 복사해둔 것이 관리망에 남아 있었습니다. 3년 전에 복사한 것이었습니다. 복사한 사람은 퇴사했습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장의 손이 멈췄다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그게 거기 왜 있어."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"테스트하려면 실제 데이터가 필요하고, 가짜 데이터를 만드는 건 품이 많이 듭니다. 그래서 복사합니다. 복사한 다음에 지우자고 생각합니다. 그런데 지우는 일은 아무 성과로도 기록되지 않습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그게 몇 개 더 있어?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"모릅니다. 찾는 일이 조사의 일부입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 펜을 내려놓았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그래서 자산이 몇 개야."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"자산이 대수가 아니라 층입니다. 몇 개냐고 물으시면 세는 단위를 먼저 정해야 합니다. 서버 대수로 세면 2만입니다. 그 위에서 돌고 있는 서비스로 세면 모릅니다. 데이터가 들어 있는 곳으로 세면 더 모릅니다. 그리고 보안에서 중요한 건 뒤쪽입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+긴 침묵이 있었다. 사장이 마침내 물었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"얼마나 걸려."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"제대로 하려면 정규직 200명을, 2주 정도 전담으로 주셔야 합니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 웃었다. 그러다 웃음이 멈췄다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"200명을 2주. 말도 안 되는 소리를 하네. 그게 얼만데?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"인건비로 환산하면 금액이 나옵니다. 그런데 금액이 문제가 아닙니다. 그 200명이 2주 동안 지금 하는 일을 멈춥니다. 하반기 전사 시스템 교체도 그 인력입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 외주 줘."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"외주를 주면 돈이 나옵니다. 그리고 외주사는 우리 시스템을 모릅니다. 서버 목록은 밖에서도 만들 수 있습니다. 그런데 이 서버를 누가 왜 쓰는지, 내려도 되는지는 우리 사람만 압니다. 조사의 어려운 부분이 거기입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 의자를 돌렸다. 창밖을 한 번 보고 다시 돌아왔다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그래서 이걸 지금 나한테 왜 얘기하는 거야."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO는 이 말을 할지 잠깐 망설였다. 하지만 하지 않으면 다음이 없었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"자산 조사는 제 역할이 아닙니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 그를 쳐다봤다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"저는 무엇을 점검해야 하는지 알아야 하는 사람입니다. 그런데 자산을 파악하고 유지하는 것은 IT 조직의 업무입니다. 제가 할 수 있는 건 목록을 달라고 요청하는 것까지입니다. 2년째 요청하고 있습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"....."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"CIO와 협의하셔야 합니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장은 한참 그를 보았다. 책임을 넘기는 말처럼 들렸다. 그런데 틀린 말을 한 것 같지도 않았다. 그 둘을 구분할 방법이 사장에게는 없었다.
+{{< /chat-narration >}}
+
+{{< chat-narration >}}
+사장이 전화기를 들었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"CIO 들어오라고 해."
+{{< /chat-message >}}
+
+{{< /chat-conversation >}}
+
+<span id="part-3" class="article-chat-anchor"></span>
+
+## ■ 3부/세는 일은 누구 일인가
+
+{{< chat-conversation label="■ 3부/세는 일은 누구 일인가" >}}
+
+{{< chat-narration >}}
+CIO가 들어왔다. 노트북을 들고 있었다. 들어오면서 CISO를 한 번 봤다. 무슨 이야기가 오갔는지 대략 짐작하는 눈이었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"앉아. 자산 조사 얘기 중이야. 2만 대라고 하던데, 맞아?"
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"서버 기준으로는 비슷합니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"200명 2주 달라는데, 가능해?"
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO는 노트북을 열지 않았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"가능합니다. 세 가지만 말씀드리겠습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"해."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"첫째, 2주로 끝나지 않습니다. 세는 동안 새로 생깁니다. 지난달에도 사업부 두 곳이 서비스를 띄웠습니다. 저한테 보고가 오는 건 예산이 필요할 때뿐입니다. 클라우드 계정을 사업부가 직접 엽니다. 제가 막으면 사업이 느려진다고 합니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그걸 왜 네가 안 막아."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"막으려고 했습니다. 재작년에 클라우드 계정 통합 안을 올렸습니다. 사업부 반대로 보류됐습니다. 사업 속도가 중요한 시기였습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장은 그 시기를 기억했다. 자기가 그렇게 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"둘째를 말씀드리겠습니다. 한 번 세는 것과 계속 맞추는 것은 다른 일입니다. 2주 걸려 목록을 만들어도 6개월 뒤에는 다시 틀립니다. 유지하려면 상시 인력이 붙고, 생성 단계에서 자동으로 등록되는 체계가 있어야 합니다. 그건 프로젝트가 아니라 조직입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"조직을 만들자는 거야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"지금은 세 명이 다른 일과 겸해서 하고 있습니다. 그 세 명이 2만 대를 봅니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"셋째."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO가 처음으로 노트북을 열었다. 파일 하나를 띄웠다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"작년에 부분 조사를 한 건 제 조직입니다. 도메인이 자산 대장의 세 배로 나온 그 조사입니다. 조사 보고서와 함께 자산관리 체계 구축 예산을 올렸습니다. 날짜는 작년 9월입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그래서?"
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"반영되지 않았습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+방이 조용해졌다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"누가 안 줬어."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO는 대답하지 않았다. 화면을 사장 쪽으로 돌리지도 않았다. 그냥 노트북을 반쯤 닫았다.
+{{< /chat-narration >}}
+
+{{< chat-narration >}}
+사장은 작년 9월을 생각했다. 그해 투자 심의에서 무엇을 깎았는지 정확히 기억나지 않았다. 다만 그 자리에 자기가 있었다는 것은 분명했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"...계속해."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"제가 드리고 싶은 말씀은 예산 이야기가 아닙니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO가 CISO를 봤다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"보안팀은 목록을 달라고 합니다. 2년째 요청하고 있다는 말, 사실입니다. 그런데 목록을 만드는 비용은 제 예산에서 나갑니다. 그리고 제가 목록을 만들어 드리면, 그다음에는 고치라고 합니다. 고치는 비용도 제 예산입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO가 입을 열었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"제 예산으로는 서버를 못 삽니다."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"알고 있습니다. 비난하는 게 아닙니다. 구조를 말씀드리는 겁니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 두 사람을 번갈아 봤다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그러니까 보안은 네 일인데 돈은 네가 쓴다고?"
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · CISO (동시에)" role="both" side="left" >}}
+"그렇습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+두 사람이 동시에 대답했다.
+{{< /chat-narration >}}
+
+{{< chat-narration >}}
+사장이 짧게 웃었다. 웃을 일이 아니라는 걸 알면서 웃었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"지금 네 조직에 대기 중인 요청이 몇 건이야."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO가 노트북을 다시 열었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"사업부 요청이 사백서른 건입니다. 이 중 보안 관련은 열아홉 건입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"열아홉 건이 왜 뒤에 있어."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"제가 우선순위를 정하지 않습니다. 매출이 정합니다. 어느 사업부가 더 급한지로 정해집니다. 보안 열아홉 건은 요청한 사업부가 없습니다. 보안팀이 요청한 것이고, 보안팀은 매출이 없습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 펜을 들었다가 다시 놓았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"내가 지금 뭘 듣고 있는 거야."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"작년에도 같은 말씀을 드렸습니다. 그때는 자료를 안 가져왔습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장은 한동안 아무 말도 하지 않았다. 창밖에서 공사 소리가 들렸다. 본사 리모델링 공사였다. 그건 작년 심의에서 통과했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"알았어. 세는 건 하자. 그건 하자고."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그래서 세고 나면 뭘 하면 되는 거야?"
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+두 사람이 서로를 봤다. 이번에는 둘 중 누구도 먼저 입을 열지 않았다.
+{{< /chat-narration >}}
+
+{{< /chat-conversation >}}
+
+<span id="part-4" class="article-chat-anchor"></span>
+
+## ■ 4부/끄지도 못하고 고치지도 못한다
+
+{{< chat-conversation label="■ 4부/끄지도 못하고 고치지도 못한다" >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"뭘 하면 되는 거야. 말을 해."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO가 먼저 입을 열었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"세 가지입니다. 첫째, 인터넷에 떠 있는 것 중에 쓰지 않는 것을 내립니다. 둘째, 남겨야 하는 것은 운영체제와 소프트웨어를 최신으로 올립니다. 셋째, 인증과 권한을 다시 설계합니다. 이번에 은행에서 뚫린 방식은 세 번째 문제였습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그러면 되는 거지? 하자."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"....."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"왜."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO가 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"첫째부터 막힙니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"뭐가."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"어느 것이 쓰지 않는 것인지 아무도 모릅니다. 내려보면 알 수 있습니다. 누가 전화를 하면 쓰고 있는 겁니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 CIO를 봤다. 농담인지 아닌지 판단이 안 됐다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"농담이 아닙니다. 실제로 그렇게 합니다. 작년에 쓰지 않는 것 같은 서버 열두 대를 내렸습니다. 아홉 대는 아무 일 없었습니다. 세 대에서 전화가 왔습니다. 그중 하나는 세무 자료를 뽑는 데 쓰고 있었습니다. 1년에 두 번 씁니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 그런 식으로 다 내려봐."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"협력사 발주 시스템을 그렇게 내릴 수는 없습니다. 반나절 멈추면 전국 물류가 섭니다. 그리고 내렸다가 사고가 나면, 그 책임은 제가 집니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"안 내리고 뚫리면?"
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO가 CISO를 가리키지 않았다. 그래도 방 안의 모든 사람이 누구를 말하는지 알았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"그건 보안 사고입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 손바닥으로 책상을 짚었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"둘째로 가자. 올리는 건 되지."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"소스코드가 없습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO가 말했다.
+{{< /chat-narration >}}
+
+{{< chat-narration >}}
+사장이 멈췄다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"뭐가 없다고?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"협력사 포털, 물류 조회, 발주 시스템. 전부 외주로 만들었습니다. 그중 두 곳은 폐업했습니다. 한 곳은 인수됐는데 인수한 회사가 그 사업을 안 합니다. 유지보수 계약은 3년 전에 끝났습니다. 우리한테 남아 있는 건 돌아가고 있는 프로그램뿐입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 그걸 어떻게 고쳐."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"고치려면 다시 만들어야 합니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 신문을 다시 집었다. 아침에 접어둔 그것이었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"여기 AI가 취약점을 찾는다고 나와 있어. 공격하는 쪽이 AI를 쓴다면, 우리도 AI로 찾아서 고치면 되는 거 아냐?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"찾는 건 됩니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO가 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"소스가 없어도 프로그램 자체를 분석할 수 있습니다. 요즘은 꽤 잘 됩니다. 아마 며칠 안에 목록이 나올 겁니다. 수백 건이 나올 수도 있습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 좋은 거 아니야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"목록이 나온 다음에 고칠 사람이 없습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 신문을 내려놓았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"AI는 고쳐야 할 것의 목록을 더 빨리 만들어 줍니다. 고치는 일은 그대로 남습니다. 지금 우리 상태에서 그 목록을 받으면, 늘어나는 건 고치지 못한 취약점의 기록입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"....."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"그리고 그 기록은 나중에 사고가 났을 때 불리하게 쓰입니다. 알고 있었는데 고치지 않았다는 증거가 됩니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 천천히 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그러니까 찾으면 손해라는 얘기야?"
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO는 그 말을 부정하지 않았다. 부정할 수가 없었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"셋째는 또 뭐가 문제야. 인증 다시 하는 거."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"그건 할 수 있습니다. 다만 어느 시스템에 어떤 권한 체계를 넣을지 정하려면 목록이 있어야 합니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"또 목록이야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"네."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 중요한 것만 먼저 해."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"중요한 것을 고르려면 목록이 있어야 합니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 눈을 감았다가 떴다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"좋아. 운영체제라도 올려. 그건 목록 필요 없지. 지금 돌고 있는 거 그냥 올리면 되잖아."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO가 이번에는 바로 대답했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"올리려면 서비스를 멈춰야 합니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"몇 시간?"
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"시스템에 따라 다릅니다. 문제는 시간이 아닙니다. 멈췄다가 안 올라오는 경우가 있습니다. 올라와도 그 위에서 돌던 프로그램이 안 돌 수 있습니다. 10년 전 기술로 만든 것들입니다. 운영체제를 올리면 안 맞습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 테스트를 하고 올려."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"테스트 환경이 운영과 같지 않습니다. 같게 만들려면 그것도 돈입니다. 작년에 올렸습니다. 미들웨어 하나였습니다. 발주 시스템이 반나절 멈췄습니다. 협력사 전화가 삼백 통 왔습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장도 그 일을 기억했다. 그때 CIO를 불렀다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"그 책임은 제가 졌습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO가 말했다. 그리고 CISO를 봤다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"다시 올리겠습니다. 멈췄다가 안 올라오면, 그 책임 당신이 지겠습니까?"
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO는 대답하지 않았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"대답을 못 하시겠지요. 저도 압니다. 그래서 몇 년째 이 이야기가 끝나지 않습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 두 사람을 봤다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 누가 책임져."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+둘 다 사장을 봤다. 사장은 자기가 왜 그 질문을 했는지 깨달았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"...계속해."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO가 조용해진 방에서 말을 이었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"사장님, 저는 장애를 내지 않는 것으로 평가받습니다. 매년 가용률로 평가받습니다. 저희 핵심 라인은 12년 동안 멈춘 적이 없습니다. 작년 성과 보고에 그걸 썼습니다. 사장님이 칭찬하셨습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"했어."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"그 12년이 제가 걱정하는 이유입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO가 말했다.
+{{< /chat-narration >}}
+
+{{< chat-narration >}}
+CIO가 그를 봤다. 처음으로 목소리가 올라갔다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"그럼 멈추라고 하십시오. 문서로. 서명해서. 그러면 멈춥니다."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"....."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"안 하시겠지요. 그럼 저는 안 멈춥니다. 저는 제 평가 기준대로 움직입니다. 당신도 당신 평가 기준대로 움직이고 있습니다. 당신 평가 기준에 가용률이 있습니까?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"없습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"제 평가 기준에는 취약점이 없습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장은 이 대화를 처음 들었다. 두 사람은 몇 년째 하고 있었다.
+{{< /chat-narration >}}
+
+{{< chat-narration >}}
+CISO가 마지막으로 한 가지를 더 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"한 가지만 더 말씀드리겠습니다. 취약점이 공개되고 우리가 그것을 적용하는 데 평균 몇 달이 걸립니다. 작년 기준으로 넉 달입니다. 공격하는 쪽은 공개된 날부터 며칠 안에 씁니다. 지금은 AI를 쓰면 더 짧아집니다. 그 격차가 우리의 보안 수준입니다. 인증서에는 그 숫자가 없습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 물었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그 넉 달을 줄이면?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"서비스를 멈춰야 합니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+방이 조용해졌다. 처음 질문으로 돌아와 있었다.
+{{< /chat-narration >}}
+
+{{< chat-narration >}}
+CIO가 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"그건 당신 책임입니다."
+{{< /chat-message >}}
+
+{{< /chat-conversation >}}
+
+<span id="part-5" class="article-chat-anchor"></span>
+
+## ■ 5부/돈
+
+{{< chat-conversation label="■ 5부/돈" >}}
+
+{{< chat-narration >}}
+사장이 일어나서 창가로 갔다. 아홉 시 회의는 이미 취소시켰다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"정리를 해보자. 세는 데 200명 2주. 세어도 끄지는 못하고, 고치려면 멈춰야 하고, 멈추는 책임은 아무도 안 진다. 맞아?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"지금 상태로는 그렇습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO가 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"그래서 구조를 바꿔야 합니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"어떻게."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"멈추지 않고 고칠 수 있게 만들어야 합니다. 서비스를 이중으로 띄워두고, 트래픽을 한쪽으로 몰고 나머지 한쪽을 고칩니다. 다 고치면 바꿔서 또 고칩니다. 그렇게 하는 회사들이 있습니다. 그 회사들은 패치가 보안 결정이 아니라 일상 작업입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"우리도 그렇게 하면 되는 거 아냐?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"그 회사들은 그 구조를 만드는 데 십수 년을 썼습니다. 처음부터 그렇게 설계한 것도 있고, 중간에 다 바꾼 것도 있습니다. 비싼 장비를 사서 된 게 아닙니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 돌아섰다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그러니까 우리도 십수 년이 필요하다는 거야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"다 하려면 그렇습니다. 중요한 것부터 하면 2년입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그리고 그다음에 뭐가 필요해."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO가 처음으로 전문 용어를 꺼냈다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"마이크로세그멘테이션이 필요합니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장의 얼굴이 조금 밝아졌다. 드디어 살 수 있는 물건이 나왔다고 생각한 얼굴이었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그건 제품이야? 얼마야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"제품도 있습니다. 사는 건 쉽습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 사."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"사면 쓰지 못합니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 펜을 놓았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"설명해."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"내부를 쪼개는 일입니다. 지금 우리 내부는 하나의 평지입니다. 서버 한 대에 들어온 공격자는 그 망 안의 다른 서버로 걸어갈 수 있습니다. 쪼개면 그걸 막습니다. 뚫리는 것을 막는 게 아니라, 뚫린 다음에 더 못 가게 하는 겁니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"좋은 거잖아."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"좋습니다. 그런데 쪼개려면 두 가지를 알아야 합니다. 어느 서비스가 어느 서비스를 부르는지, 그리고 어떤 데이터가 어디에 있는지."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"설계도 보면 되지 않나."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"설계도는 만들 때의 것입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO가 끼어들었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"그게 제일 어렵습니다, 사장님. 발주 시스템 하나가 재고를 보고, 단가를 보고, 거래처 신용 한도를 보고, 세금계산서 시스템을 부르고, 물류에 전달합니다. 그 다섯 개가 또 각자 다른 걸 부릅니다. 10년 동안 필요할 때마다 붙였습니다. 붙일 때마다 빠른 길로 붙였습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"빠른 길이 뭐야."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"다른 시스템의 데이터베이스를 직접 보는 겁니다. 중간에 아무것도 두지 않습니다. 그게 제일 빠르고 제일 싸게 붙이는 방법입니다. 그때는 그게 잘한 일이었습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO가 말을 이었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"그래서 서비스 의존성 위에 데이터 의존성이 또 겹쳐 있습니다. 어디서 선을 그어도 어딘가가 끊깁니다. 깔끔하게 끊어지는 선이 없습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그러면 그걸 조사해서 그려."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"조사하려면 어떤 서버에서 어떤 서비스가 돌고 있는지를 먼저 알아야 합니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그건 세기로 했잖아. 200명 2주."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"대수를 세는 것과 그 안에서 무엇이 돌고 무엇을 부르는지를 아는 것은 다른 일입니다. 그리고 그 서버 안에 어떤 데이터가 들어 있는지는 더 다른 일입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 그를 봤다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"어떤 서비스가 돌고 있는지를 모르는데, 그 서버에 어떤 데이터가 있는지를 어떻게 알겠습니까."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장은 한참 그 문장을 들여다봤다. 그리고 자기가 아침에 했던 질문 자리로 돌아와 있다는 것을 알았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"...그러면 클라우드로 가면 되는 거야? 아까 그 얘기 했잖아."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"클라우드로 가면 망과 망 사이를 넘어가는 것이 보입니다. 어느 서비스가 어디로 가는지 기록이 남습니다. 기본으로 남습니다. 우리가 뭘 하지 않아도 남습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"지금은 안 남아?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"지금 우리 서버들은 같은 망 안에 있습니다. 같은 망 안에서 서버와 서버가 주고받는 것은 보이지 않습니다. 보려면 따로 장비를 넣어야 하고, 넣어도 다 못 봅니다. 밖에서 들어오는 것만 봅니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그래서 은행들도 그렇게 뚫린 거야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"바깥 한 곳이 열려 있었고, 그 안에서 무슨 일이 있었는지는 아직 발표되지 않았습니다. 발표된 것은 무엇이 나갔는지뿐입니다. 어디까지 들어갔는지는 아무도 말하지 않았습니다. 저는 그쪽이 더 궁금합니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 다시 물었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 클라우드로 옮겨. 그게 답이면."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"옮기려면 그 서비스가 무엇에 의존하는지를 알아야 합니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO가 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"옮기면서 의존 관계가 끊기면 그 자리에서 장애가 납니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 두 사람을 번갈아 봤다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"또 그거야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"네."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+두 사람이 같이 대답했다.
+{{< /chat-narration >}}
+
+{{< chat-narration >}}
+사장이 종이에 뭔가를 그렸다. 동그라미를 하나 그리고 그 안에 화살표를 돌렸다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"내가 지금 세 번 같은 자리로 돌아왔어."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"죄송합니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"죄송할 일이야?"
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO는 그 질문에 답하지 않았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 클라우드로 옮기는 데 얼마 들어?"
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO가 노트북에서 다른 파일을 찾았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"재작년에 검토했습니다. 전수로 하면 3년에 2000억 정도로 추산했습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 펜을 떨어뜨렸다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"2000억? 우리 정보화 예산이 1년에 1000억인데."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"그래서 그 보고서 결론이 단계적 검토였습니다. 단계적 검토는 안 한다는 뜻입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"반만 올려. 중요한 것만."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"반만 올리면 두 환경을 다 관리해야 합니다. 사람이 더 필요하고, 두 쪽을 잇는 구간이 새로 생깁니다. 그 구간이 또 봐야 할 곳입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 펜을 주워 들었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"그리고 사장님, 전환 비용은 사실 두 번째 문제입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"뭐가 첫 번째야."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"운영비입니다. 지금 돌고 있는 서버 중에 상당수는 감가상각이 끝났습니다. 장부상 0원입니다. 전기요금과 상면비만 냅니다. 사실상 공짜로 돌고 있습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"....."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"클라우드로 옮기면 매달 돈이 나갑니다. 끝나지 않습니다. 영구적인 비용입니다. 작년에 사업부 하나를 시범으로 올렸는데, 서버 값은 안 들었지만 월 운영비가 전보다 올라갔습니다. 재무에서 왜 비싸졌냐고 물었습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 천천히 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그러니까... 제일 오래된 서버가 제일 싸다는 거야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"회계상으로는 그렇습니다. 10년 된 서버가 가장 싸고, 새것이 가장 비쌉니다. 감가상각이 끝났으니까요."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그게 제일 위험한 거잖아."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"제일 위험하고 제일 쌉니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO가 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"그래서 안 바꿉니다. 아무도 나쁜 결정을 하지 않았습니다. 매년 가장 합리적인 결정을 했습니다. 12년 동안요."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장은 아무 말도 하지 않았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"한 가지 더 있습니다. 전수로 올릴 수도 없습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"또 뭐가 걸려."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"공장입니다. 2라인 검사 장비 제어기가 아직 윈도 7입니다. 로봇 팔 제어 쪽은 더 오래된 것도 있습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그건 왜 안 올려."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"장비 업체가 안 해줍니다. 그 운영체제에서만 검증된 소프트웨어입니다. 올리면 성능 보증이 끝납니다. 작년에 요청했습니다. 회신은 해당 모델은 지원 종료라는 것이었습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 장비를 바꿔."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"그 장비가 한 대에 수백억입니다. 라인에 여섯 대 있습니다. 그리고 지금 아무 문제 없이 돌아갑니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 입을 열려다 말았다. 설비 투자 심의가 어떻게 돌아가는지는 안다. 고장도 안 난 장비를 보안 때문에 바꾸겠다고 올리면 그 안은 통과하지 못한다. 자기가 통과시키지 않을 것이다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 공장은 어떡해."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"지금은 망으로 막고 있습니다. 생산망을 따로 떼고, 사무망 사이에 통제 구간을 둡니다. 운영체제가 오래됐다는 것은 인정하고, 그 안으로 들어가는 길을 좁히는 방식입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그러면 된 거 아니야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"완전히 떼어져 있지 않습니다. 생산 실적은 사무망으로 올라와야 합니다. 설비 데이터는 분석 서버로 가야 합니다. 장비 업체는 원격으로 점검을 합니다. 길이 세 개 있습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그 길은 보고 있어?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"밖에서 들어오는 건 봅니다. 그 세 길에서 무엇이 오가는지는 충분히 보지 못합니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"....."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"사장님, 공장은 고치는 것이 답이 아닙니다. 못 고친다는 것을 전제로 깔고, 들어가는 길을 줄이고 그 길에서 무슨 일이 일어나는지 보는 것이 답입니다. 그게 제가 아까 말씀드린 그 일입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 아까 그린 동그라미를 다시 보았다. 화살표를 한 번 더 덧그었다.
+{{< /chat-narration >}}
+
+{{< chat-narration >}}
+네 번째였다.
+{{< /chat-narration >}}
+
+{{< chat-narration >}}
+사장이 종이를 한 장 넘겼다. 이제는 아직 끝이 아니라는 것을 알고 있었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"신문에 제로트러스트라는 말도 나왔어. 그건 또 뭐야."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"접근을 신원 중심으로 통제하는 방식입니다. 망 안에 있다는 이유로 믿지 않고, 매번 누가 무엇에 접근하는지를 확인합니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"좋은 거 아니야? 그거 하면 되는 거잖아."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"전제가 하나 있습니다. 신원이 하나로 정의되어 있어야 합니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"사번 있잖아."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"사람에게는 사번이 있습니다. 시스템 안에는 없습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO가 설명을 받았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"윈도우 서버와 직원 PC는 액티브 디렉터리로 묶여 있습니다. 거기는 통합돼 있습니다. 문제는 나머지입니다. 물류 쪽 솔라리스 서버는 로컬 계정입니다. 리눅스 서버는 서버마다 계정을 따로 만듭니다. 공장 제어 단말은 윈도우인데 도메인에 안 붙어 있습니다. 붙이면 장비 소프트웨어가 안 돈다고 해서요. 디자인팀 맥은 또 따로입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그러면 한 사람이 계정을 몇 개 갖고 있어?"
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"정확히 모릅니다. 운영 쪽 엔지니어 한 명이면 열 개는 넘을 겁니다. 그리고 그 사람이 어느 서버에 계정이 있는지는 그 사람만 압니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 펜을 들었다가 다시 놓았다. 적을 가치가 없다고 판단한 동작이었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"그리고 공용 계정이 있습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO가 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"공용이 뭐야."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"root, oracle, admin 같은 것들입니다. 시스템에 원래 있는 관리자 계정입니다. 실제 작업은 그 계정으로 합니다. 비밀번호를 여러 명이 압니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"몇 명이 알아?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"그것도 정확히 모릅니다. 인수인계 문서에 적혀 있는 것도 있습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"....."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"그래서 로그를 보면 누가 들어왔는지 모릅니다. root가 들어왔다고 남습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장은 한동안 아무 말도 하지 않았다. 그러다 가장 무서운 질문을 했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"퇴사한 사람 계정은 어떻게 돼."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO가 잠깐 멈췄다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"작년에 전수 점검을 했습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"결과."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"윈도우 쪽은 깔끔했습니다. 인사 시스템과 연동돼 있어서 퇴사 처리되면 자동으로 막힙니다. 유닉스와 리눅스 쪽은 수동입니다. 서른몇 개가 살아 있었습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"서른몇 개."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"그중 몇 개는 2년 전 퇴사자였습니다. 다 막았습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 지금은 괜찮은 거지."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"작년 기준으로 괜찮습니다. 올해 퇴사자는 아직 안 돌렸습니다. 그리고 협력사 직원 계정은 그때도 못 셌습니다. 발주 시스템과 물류 조회를 쓰는 협력사 담당자들입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"몇 명이야 그게."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"협력사가 사백 몇 곳입니다. 담당자는 바뀝니다. 바뀌었다고 우리에게 알려주는 절차는 없습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 의자에서 자세를 바꿨다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그러니까, 우리 시스템에 들어올 수 있는 사람이 몇 명인지 모른다는 거야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"모릅니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그거부터 세야 하는 거 아니야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"세야 합니다. 그게 자산 조사의 일부입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 눈을 감았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"좋아. 그럼 계정을 통합해. 그건 장비 안 사도 되지."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"통합하려면 각 시스템이 중앙 인증을 받아들이도록 고쳐야 합니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"고쳐."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"소스코드가 없습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+방이 조용해졌다.
+{{< /chat-narration >}}
+
+{{< chat-narration >}}
+사장이 천천히 물었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"...아까 그거야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"같은 시스템들입니다. 협력사 포털, 물류 조회, 발주 시스템."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장은 종이에 그려둔 동그라미를 내려다봤다. 화살표를 한 번 더 덧그었다.
+{{< /chat-narration >}}
+
+{{< chat-narration >}}
+다섯 번째였다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"장비를 먼저 사는 방법도 있습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO가 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"많은 회사가 그렇게 합니다. 사서 넣고, 끊기면 안 되니까 전부 통과 모드로 켜둡니다. 그러면 산 기록이 남습니다. 공시에도 올라갑니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"효과는?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"없습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 펜을 들었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"돈 얘기를 하자. 얼마야."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO가 숫자를 말하기 전에 한 가지를 먼저 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"제 예산으로는 안 됩니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"네 예산이 얼마야."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"올해 60억입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 더 줄게. 얼마가 필요해."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"그게 아닙니다. 필요한 항목이 제 예산으로 집행할 수 있는 항목이 아닙니다. 자산관리 체계, 유지보수 재계약, 이중화, 테스트 환경 구축, 클라우드 정리. 이건 전부 IT 조직 예산입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 CIO를 봤다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"얼마야."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"항목마다 다르지만, 핵심만 하면 150억 정도 봅니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO가 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"2년에 걸쳐서."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 숫자를 적었다. 150. 그리고 그 아래 1000을 적었다. 정보화 예산이었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"150억이면 할 수 있는 거네. 못 할 돈도 아니야."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"할 수 있습니다. 다만 한 가지를 말씀드려야 합니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"또야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"그 150억은 정보화 예산으로 집행됩니다. 정보보호 예산이 아닙니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그게 왜 문제야. 돈은 똑같이 나가는데."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"공시 때문입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO가 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"우리는 매년 정보보호 공시를 합니다. 거기에 정보화 예산 대비 정보보호 투자 비율을 씁니다. 올해 우리 숫자는 정보화 1000억, 정보보호 60억, 6퍼센트입니다. 작년에 업계 평균보다 높다고 홍보했습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그랬지."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"150억을 자산관리와 이중화에 쓰면, 정보화 예산이 1150억이 됩니다. 정보보호 예산은 그대로 60억입니다. 비율은 6퍼센트에서 5.2퍼센트로 떨어집니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장의 펜이 멈췄다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"...다시 말해봐."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"사고를 막기 위해 150억을 제대로 쓰면, 우리 보안 투자 비율은 6퍼센트에서 5.2퍼센트로 떨어집니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 올리려면 어떻게 해야 해."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO가 대답했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"같은 150억으로 보안 솔루션과 장비를 사면 됩니다. 그건 정보보호 투자로 분류됩니다. 정보화 1150억, 정보보호 210억. 비율이 18퍼센트가 됩니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"....."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"같은 돈입니다. 5.2퍼센트와 18퍼센트."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장은 종이를 들여다봤다. 숫자 네 개가 적혀 있었다. 틀린 데가 있는지 두 번 확인했다. 틀린 데가 없었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그러니까 보안을 제대로 하면 보안 투자 비율이 떨어지고, 장비를 사면 올라간다고?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"그렇습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그 비율을 누가 봐?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"투자자가 봅니다. 기자가 봅니다. 평가기관이 봅니다. 그리고 사고가 나면 그 숫자가 기사에 실립니다. 작년에 보안 투자 비율이 몇 퍼센트에 불과했다고요."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 종이를 밀어놓았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그 지표는 누가 만들었어."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"정부 공시 서식입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그걸 고치라고 아무도 말 안 했어?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"했습니다. 칼럼에 쓰는 교수도 있습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그래서 바뀌었어?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"아직입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 의자 등받이에 몸을 기댔다. 한동안 말이 없었다. 그러다 실무적인 해법을 찾아냈다. 경영자는 늘 그렇게 한다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그러면 이렇게 하자. 공시는 지금처럼 하고, 150억은 IT 예산으로 조용히 써."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"그러면 제 예산이 150억 늘어납니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CIO가 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그래서?"
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"제 평가 항목에 IT 예산 효율화가 있습니다. 작년에 운영비를 7퍼센트 줄여서 그걸로 성과를 받았습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 그를 쳐다봤다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"저는 가용률로 평가받고, 예산 절감으로 평가받습니다. 이 일은 서비스를 멈춰야 하고 예산을 늘려야 합니다. 제 평가 항목 두 개를 다 역행합니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그럼 네 평가 항목을 바꿔줄게."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"바꿔주시면 하겠습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 입을 열려고 했다. 그리고 멈췄다. 성과 평가 기준은 연초에 이사회 보수위원회를 거쳐 확정된다. 지금은 10월이었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"내년에."
+{{< /chat-message >}}
+
+{{< chat-message name="CIO · 최고정보책임자" role="cio" side="left" >}}
+"네."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+방 안에서 세 사람이 각자의 종이를 보고 있었다. 셋 중 누구도 거짓말을 하지 않았다. 셋 다 자기 자리에서 가장 합리적인 말을 했다. 그리고 그 합리적인 말들을 모아놓으면 아무것도 할 수 없었다.
+{{< /chat-narration >}}
+
+{{< /chat-conversation >}}
+
+<span id="part-6" class="article-chat-anchor"></span>
+
+## ■ 6부/그래서 뭐가 달라지나
+
+{{< chat-conversation label="■ 6부/그래서 뭐가 달라지나" >}}
+
+{{< chat-narration >}}
+열한 시가 넘었다. 비서가 두 번 들어왔다가 그냥 나갔다.
+{{< /chat-narration >}}
+
+{{< chat-narration >}}
+사장이 종이를 뒤집어 깨끗한 면을 펼쳤다. 거기에 번호를 매겼다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"정리하자. 하나, 센다. 200명 2주. 그리고 계속 유지할 조직이 필요하다. 둘, 끄거나 고친다. 못 끄는 것도 있고 못 고치는 것도 있다. 셋, 멈추지 않고 고칠 수 있게 이중화한다. 넷, 안을 쪼갠다. 다섯, 계정을 하나로 묶는다. 전부 앞의 것이 끝나야 다음 것이 된다. 2년. 150억. 그 150억은 쓰면 쓸수록 우리 보안 투자 비율이 떨어진다. 맞아?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"맞습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 펜을 내려놓았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"3년 계획 가져와. 이사회에 올리자."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO는 바로 대답하지 않았다. 사장이 처음으로 하자고 말한 순간이었다. 그런데 거기서 한 가지를 더 말해야 했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"세울 수 있습니다. 그런데 그 계획을 어디에 제출합니까."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"이사회에 올린다니까."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"이사회 다음입니다. 밖에는 제출할 곳이 없습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"무슨 말이야."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"인증은 1년 단위로 받습니다. 작년에 받은 것을 올해 또 받습니다. 공시도 1년 단위입니다. 그 서식에 3년 계획을 쓰는 칸이 없습니다. 2년 걸려 자산 체계를 만들고 있는 회사와, 아무것도 하지 않는 회사가 내년 공시에서 같습니다. 오히려 우리가 더 나빠 보입니다. 비율이 떨어지니까요."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"....."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"제재는 사고 단위입니다. 사고가 나면 그때 봅니다. 그때 3년 계획을 2년째 이행하고 있었다는 사실이 참작된다는 규정은 없습니다. 반대로 그 계획서에 적힌 '아직 조치하지 못한 항목'이 자료로 쓰일 수 있습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 그를 쳐다봤다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"계획을 세우면 불리해질 수도 있다는 거야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"계획서에는 우리가 무엇을 모르는지, 무엇을 아직 안 고쳤는지가 적힙니다. 그걸 문서로 남기는 겁니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"안 세우면?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"몰랐다고 하게 됩니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장은 그 두 문장 사이에서 한참 머물렀다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"...그럼 왜 세워."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"안 세우면 언젠가 뚫립니다. 그리고 그때는 몰랐다는 말도 통하지 않을 겁니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 창쪽으로 몸을 돌렸다. 공사 소리가 아직 들렸다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"다른 회사들은 어떻게 하고 있어."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"대부분 안 합니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"대부분?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"하는 회사가 몇 곳 있습니다. 서비스를 이중으로 띄워두고 순차적으로 패치하는 회사들, 서버가 들어오는 단계에서 자동으로 목록에 올라가는 회사들. 그런데 그 회사들은 십수 년 전에 시작했습니다. 그리고 그 회사들은 대개 처음부터 인터넷에서 시작한 회사들입니다. 우리처럼 공장과 매장을 먼저 가진 회사가 아닙니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그러면 우리 업종에서는?"
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO는 대답하기 전에 잠시 생각했다. 거짓말을 하지 않으려고 생각한 것이었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"비슷합니다. 어디가 더 낫다고 말씀드릴 만한 근거가 없습니다. 서로 모릅니다. 공시에 나오는 숫자로는 알 수 없습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 돌아섰다. 그리고 하루 중 가장 중요한 질문을 했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그래서, 이걸 다 하면 뭐가 달라져?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"아무 일도 일어나지 않습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"....."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"사고가 나지 않습니다. 그게 전부입니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 웃지 않고 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"지금도 아무 일 안 일어나고 있는데."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO는 대답하지 않았다. 대답할 말이 없어서가 아니라, 사장이 틀린 말을 한 게 아니기 때문이었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"돈은 그때도 썼고. 60억."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 덧붙였다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그리고 네 말이 맞으면, 10년 동안 아무 일이 없었던 것도 우리가 잘해서가 아니야. 그러면 지금 150억을 쓰고 아무 일이 안 일어나도, 그게 돈을 써서 그런 건지 어떻게 알아?"
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO가 처음으로 즉답하지 못했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"...알 수 없습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"알 수 없어?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"사고가 나지 않은 이유를 증명하는 방법이 없습니다. 쓰고도 안 나면 쓴 덕분인지 운인지 알 수 없고, 안 쓰고도 안 나면 다행인지 아직인지 알 수 없습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그러면 우리가 이걸 다 했다는 걸 누가 알아주는데."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"아무도 모릅니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"공시에 쓸 수 있어?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"비율은 떨어집니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"투자자가 알아줘?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"사고가 나지 않으면 투자자가 알 이유가 없습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"정부가 알아줘?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"사고가 나면 압니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장이 책상으로 돌아와 앉았다. 종이를 손으로 쓸었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그러니까 사고를 막은 회사하고, 아직 안 걸린 회사를 밖에서 구별할 방법이 없다는 거야?"
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"없습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"안에서는?"
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO는 그 질문에 대해 주말 내내 생각했다. 그래서 바로 대답할 수 있었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"안에서도 없습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+열한 시 사십 분이었다. 사장은 한참 종이를 보았다. 그리고 결정을 내렸다. 그는 평생 결정을 내리며 살아온 사람이었다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"200명은 못 준다. 하반기 시스템 교체를 멈출 수는 없어."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"알겠습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"스무 명 줄게. 한 달. 그리고 노출된 것부터 봐. 인터넷에 떠 있는 것만. 안쪽은 내년에 보자."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+CISO가 처음으로 알겠습니다를 바로 말하지 않았다.
+{{< /chat-narration >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"한 가지만 더 말씀드리겠습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"해."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"이번에 은행에서 나온 것들은 AI가 대단한 취약점을 찾아낸 게 아닙니다. 제일 찾기 쉬운 것들입니다. 인증이 없는 페이지, 권한을 확인하지 않는 조회 화면. 밖에서 보면 바로 보이는 것들입니다. 그게 시작입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"시작이라는 건 무슨 뜻이야."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"쉬운 것이 먼저 털린 겁니다. 그 단계가 지나면 다음이 옵니다. 제대로 관리된 서비스에도 아직 공개되지 않은 취약점이 있습니다. 전에는 그걸 찾는 데 사람이 몇 달 붙어야 했습니다. 지금은 그 비용이 떨어지고 있습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그래서."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"노출된 것만 막는다는 건, 쉬운 입구만 닫는다는 뜻입니다. 언젠가 잘 관리된 서비스 하나에 새 취약점이 쓰이는 날이 옵니다. 그날 그 서버 한 대를 잡으면, 거기서부터는 걸어 들어옵니다. 우리 안쪽은 평지입니다. 서버와 서버 사이에 문이 없고, 지나간 기록도 남지 않고, 들어간 다음에 쓰는 계정은 root입니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"....."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"바깥만 막는 것으로는 못 막습니다. 바깥은 한 번 열립니다. 중요한 건 열린 다음에 어디까지 가느냐입니다. 그래서 안쪽이 내년이 되면 안 됩니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+사장은 그 말을 끝까지 들었다. 반박하지 않았다. 그리고 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"그래도 올해는 거기까지야."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"알겠습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"150억은 내년 심의에 올려. 올해는 집행할 항목이 없어. 대신 급한 건 올해 예산에서 돌려서 해. 재무한테 내가 말해둘게."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"알겠습니다."
+{{< /chat-message >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"평가 기준은... 내년에 보자고."
+{{< /chat-message >}}
+
+{{< chat-message name="CISO · 최고정보보호책임자" role="ciso" side="right" >}}
+"알겠습니다."
+{{< /chat-message >}}
+
+{{< chat-narration >}}
+세 사람이 일어섰다. 사장이 마지막으로 두 사람을 봤다. 두 시간 전에 그가 물었던 질문은 그 돈을 도대체 어디에 쓰느냐는 것이었다. 이제 그는 답을 알고 있었다. 올라가는 쪽에 쓴다. 그리고 그 사실을 알게 된 다음에도, 그가 방금 내린 결정은 같은 쪽을 향하고 있었다.
+{{< /chat-narration >}}
+
+{{< chat-narration >}}
+문 앞에서 사장이 혼잣말처럼 말했다.
+{{< /chat-narration >}}
+
+{{< chat-message name="사장 · CEO" role="ceo" side="left" >}}
+"도대체 이거 어쩌란 말이야."
+{{< /chat-message >}}
+
+{{< /chat-conversation >}}
+
+<span id="part-7" class="article-chat-anchor"></span>
+
+## ■ 에필로그
+
+그해 겨울, 회사는 정보보호 공시를 제출했다. 정보화 예산 대비 정보보호 투자 비율은 6.1퍼센트였다. 작년보다 0.1퍼센트포인트 올랐다. 급한 건을 올해 예산에서 돌려서 한 결과였고, 돌려서 한 것은 대부분 장비였다. 홍보팀이 보도자료를 냈다. 업계 평균을 상회하는 투자라고 썼다. 사장이 사인했다.
+
+소스코드가 없는 시스템 세 개는 AI로 다시 만들기로 했다. 다른 방법이 없었다. 돌아가고 있는 프로그램을 분석해서 동작을 복원하고, 그걸 토대로 코드를 새로 짜는 방식이었다. 그 일을 할 수 있는 회사는 국내에 몇 곳뿐이었다. 전화를 걸었다. 대기가 길었다. 은행 사고 이후로 요청이 몰려서 연내에는 어렵다고 했다. 우리보다 먼저 전화한 회사들이 있었다.
+
+사고가 나지 않은 회사가 먼저 전화할 이유는 없다. 그래서 먼저 전화한 회사들은 대부분 사고가 난 회사들이었다. 우리는 늦었다. 아직 아무 일도 일어나지 않은 회사가 줄의 뒤에 서는 것은 당연한 일이었다.
+
+순서가 와서 일을 시작한 것은 해를 넘긴 뒤였다. 넉 달 걸렸다. 사람 손으로 했으면 2년이라고 했으니 빠른 편이었다.
+
+코드가 나왔다. 문제는 그다음이었다. 새로 만든 것이 원래 것과 똑같이 동작하는지 확인할 방법이 없었다. 원래 명세가 없었기 때문이다. 명세가 있었다면 애초에 이 일을 할 필요가 없었다. 결국 기존 시스템과 새 시스템을 나란히 돌려보고 결과가 다른 경우를 찾는 방식으로 검증했다. 다른 경우가 나왔다. 어느 쪽이 맞는지는 아무도 몰랐다. 10년 동안 그렇게 돌았으니 기존 쪽이 맞다고 보기로 했다.
+
+AI는 2년을 넉 달로 줄였다. 그리고 아무도 책임질 수 없는 코드 세 벌을 만들었다.
+
+바꿔 올리는 작업은 추석 연휴로 잡혔다. 이 회사가 서비스를 멈출 수 있는 창구는 1년에 두 번이다. 설과 추석. 그래서 이 회사의 패치 주기는 1년이다. 취약점이 공개되고 공격자가 그것을 쓰기까지는 며칠이다.
+
+추석에 셋 중 둘을 올렸다. 하나는 올리다가 되돌렸다. 되돌린 하나는 다음 설로 넘어갔다. 그 시스템은 그때까지 예전 상태로 돌았다.
+
+스무 명이 한 달 동안 센 결과는 인터넷에 노출된 자산 목록이었다. 처음 추정의 두 배가 조금 넘었다. 목록의 마지막 줄에는 담당자를 찾지 못한 서버 열한 대가 적혀 있었다. 그중 일부는 무엇을 하는지 아직 모른다고 되어 있었다. 목록은 이사회 보고 자료 부록에 첨부됐다. 그 부록을 끝까지 읽은 사람은 없었다.
+
+---
+
+- **김용대 교수님의 소설 원문:** [우리는 괜찮나 — 어느 회사 사장실의 두 시간](https://docs.google.com/document/d/1HRfLUt9_ZafmBnLXW5H8DqFeO3nQ4wVauAZx__NkO1w/edit?tab=t.0)
+- **관련 기사:** [지디넷코리아 · 「한국기업 보안 민낯」…김용대 교수 쓴 SNS글 화제](https://zdnet.co.kr/view/?no=20261011153232) — 방은주 기자, 2026년 10월 11일 입력·10월 12일 수정.
+
+이 페이지는 소설 원문의 대사·지문을 그대로 유지하면서 읽기 편하게 재구성한 것으로, 원작의 저자는 김용대 교수님이다. 덧붙임은 이 페이지의 편집 범위에 포함하지 않았다.
+
+
+--------------------------------------------------------------------------------
+title: "동료에게 듣고 찾아본 인천 구월동 흉기 난동 사건"
+url: https://www.ramoo.net/news/incheon-guwol-stabbing-news/index.md
+date: "2026-10-13"
+description: 직장 동료에게 소식을 듣고 찾아본 인천 구월동 상업시설 흉기 난동 사건. 기사 네 편과 저녁 후속 보도를 바탕으로 사건 경위와 달라진 내용을 정리하고 관련 영상을 남겼다.
+--------------------------------------------------------------------------------
+
+직장 동료가 인천 구월동에서 흉기 난동 사건이 났다는 소식을 알려줬다. 무슨 일이 있었던 건지 궁금해 기사를 찾아봤다. 처음에는 짧은 속보부터 읽었는데, 후속 기사를 보니 마트와 식당, 영화관이 함께 있는 건물에서 일어난 사건이었다.
+
+평소처럼 장을 보거나 식사를 하던 사람들이 갑자기 피해를 입었다는데 참담하고 그 자리에 있던 사람들 얼마나 무서웠들까 여튼 뭔일인가 기사 정리해 본다.
+
+![MBC의 인천 구월동 상가 흉기 난동 사건 보도 화면](/images/off-duty/news/incheon-guwol-stabbing/cover-mbc.png)
+
+*이미지 출처: [MBC 뉴스 · 인천 구월동 흉기 난동 관련 보도](https://imnews.imbc.com/news/2026/society/article/6857673_36919.html), 방송 화면 캡처.*
+
+## 무슨 일이 있었나
+
+10월 13일 오후 1시 40분께, 홈플러스 인천 구월점과 식당가·영화관 등이 입점한 인천 남동구 구월동의 복합 상업시설에서 한 남성이 이용객들에게 흉기를 휘둘렀다. 시민들이 그를 제압했고, 경찰이 현장에서 체포했다. 저녁 후속 보도에서 피의자는 **59세 남성**으로 확인됐다. [연합뉴스 · 오후 7시 30분 종합 보도](https://www.yna.co.kr/view/AKR20261013118701065)
+
+**다친 사람은 8명**이다. 이 가운데 20대 여성 1명은 심정지 상태로 병원에 옮겨졌으며, 저녁 보도에서는 수술 뒤 중환자실에 입원한 것으로 전해졌다. 나머지 7명도 병원에서 치료를 받았고, 생명에는 지장이 없는 것으로 보도됐다. 경찰은 위협을 받고 옷이 찢어진 사람 1명까지 포함해 전체 피해자는 9명이라고 밝혔다. 부상자 수와 전체 피해자 수는 구분해 읽어야 한다. [연합뉴스 후속 보도](https://www.yna.co.kr/view/AKR20261013118701065)
+
+처음에는 지하층부터 에스컬레이터를 타고 올라오며 범행했다는 목격자 설명이 전해졌다. 그러나 저녁 보도에 따르면 경찰이 확인한 동선은 **지상 1층으로 들어와 엘리베이터로 2층 식당가에 올라간 뒤, 3층까지 이동한 것**이었다. 4층 영화관 쪽 진입이 막히자 다시 내려왔고, 시민들이 의자를 이용해 제압했다고 한다. [연합뉴스 후속 보도](https://www.yna.co.kr/view/AKR20261013118701065)
+
+*이 글은 10월 13일 확인한 기사와 오후 7시 30분 종합 보도를 기준으로 정리했다. 피해자의 상태와 수사 결과는 이후 달라질 수 있다.*
+
+## 찾아본 기사 네 편은 각각 무엇을 전했나
+
+같은 사건을 다뤘지만 보도 시점과 초점이 조금씩 다르다. 아래 요약은 각 기사가 전한 당시의 내용이다.
+
+| 기사·보도 시각 | 주요 내용 |
+| --- | --- |
+| [한국경제 · 오후 2시 39분](https://www.hankyung.com/article/2026101389117) | 홈플러스가 입점한 상업시설에서 흉기 난동이 발생했고, 이용객들이 피의자를 제압한 뒤 경찰에 인계했다는 초기 경위를 전했다. 당시에는 피의자를 60대 추정으로 소개했다. |
+| [연합뉴스TV · 오후 3시 31분](https://www.yonhapnewstv.co.kr/news/MYH20261013153108Z2T) | 현장 연결을 통해 오후 1시 49분께 신고가 접수됐고, 8명 부상과 1명 심정지 상태가 파악됐다고 보도했다. 건물 1층에 응급의료소가 설치됐다는 소방 대응도 전했다. |
+| [연합뉴스 · 오후 3시 45분](https://www.yna.co.kr/view/AKR20261013132600065?site=mapping_related) | 소방당국이 파악한 부상자 수와 치료 상황을 설명했다. 20대 여성 1명이 심정지 상태로 수술 중이라고 전했으며, 초기에 집계된 부상자 수가 조정된 경위도 담았다. |
+| [연합뉴스 · 오후 3시 52분](https://www.yna.co.kr/view/AKR20261013139700065) | 최초 신고자의 설명을 중심으로 당시의 긴박한 상황과 시민들의 제압 과정을 전했다. 일면식 없는 사람들을 향한 범행 가능성을 다뤘지만, 동기는 조사 중인 단계였다. |
+
+속보를 이어 읽다 보면 숫자나 동선이 달라 보여 혼란스럽다. 이번에는 목격자의 초기 설명과 경찰이 확인한 내용이 구분됐고, 부상자와 피해자라는 집계 기준도 달랐다. 그래서 최초 보도의 표현을 그대로 사건의 최종 경위로 받아들이지 않으려 한다.
+
+## 범행 동기까지 밝혀진 것은 아니다
+
+저녁 후속 보도에는 피의자가 과거 전처에 대한 살인미수로 복역했고, 전자발찌를 착용한 상태였다는 내용이 추가됐다. 범행 전 보호관찰관과 면담하고 식사했다는 법무부 설명도 전해졌다. 다만 **이번 범행의 구체적인 동기는 경찰이 조사 중**이다. 과거 전력이나 보호관찰 사실만으로 이번 범행 이유까지 단정할 수는 없다. [연합뉴스 후속 보도](https://www.yna.co.kr/view/AKR20261013118701065)
+
+기사를 찾아보며 사건의 경위는 조금 더 알게 됐지만, 왜 이런 일이 벌어졌는지는 아직 답이 나온 상태가 아니었다. 피해자들이 회복하고, 현장에서 겁에 질렸을 사람들도 일상을 되찾을 수 있었으면 좋겠다. 시민들이 나서 더 큰 피해를 막았다는 대목에는 고마운 마음과 함께, 그 순간 얼마나 위험하고 두려웠을까 하는 생각이 남는다.
+
+## 관련 보도 영상
+
+현장 취재기자가 당시 상황을 설명한 **연합뉴스TV 보도 영상**을 함께 남긴다. 사건 당일 오후 3시 31분 보도라 피의자 나이와 피해 상황 등은 위에서 정리한 저녁 후속 보도와 차이가 있다.
+
+<video controls playsinline preload="metadata" poster="{{< image-url "/images/off-duty/news/incheon-guwol-stabbing/cover.jpg" >}}" aria-label="연합뉴스TV 인천 구월동 흉기 난동 현장 보도" style="display: block; width: 100%; aspect-ratio: 16 / 9; background: #000;">
+  <source src="https://media.yonhapnewstv.co.kr/article/MYH/20261013/MYH20261013153108Z2T_700M1.mp4" type="video/mp4">
+  영상을 재생하려면 <a href="https://www.yonhapnewstv.co.kr/news/MYH20261013153108Z2T">연합뉴스TV 원문</a>에서 확인할 수 있다.
+</video>
+
+*출처: [연합뉴스TV · 2026년 10월 13일 오후 3시 31분 현장 보도](https://www.yonhapnewstv.co.kr/news/MYH20261013153108Z2T).*
+
+[연합뉴스TV 원문에서 영상 보기](https://www.yonhapnewstv.co.kr/news/MYH20261013153108Z2T)
+
+
+--------------------------------------------------------------------------------
+title: "노벨상까지 내놓으라는 트럼프, 후대는 어떻게 기억할까"
+url: https://www.ramoo.net/news/trump-nobel-peace-prize-icc-sanctions/index.md
+date: "2026-10-12"
+description: 트럼프의 노벨평화상 불만과 미국의 ICC 제재를 다룬 기사 세 편을 짧게 정리하고, 국가 지도자의 책임에 대한 생각을 남긴다.
+--------------------------------------------------------------------------------
+
+![복도를 걸어가는 트럼프의 뒷모습](/images/off-duty/news/trump-nobel-peace-prize-icc-sanctions/cover-16x9.jpg)
+
+뉴스를 읽다가 참 대단하다는 생각이 들었다. 감탄보다는 어이없다는 쪽에 가까운 대단함이다. 아무리 천조국의 대통령이라지만, 노벨평화상까지 이렇게 대놓고 달라고 할 일인가 싶다. 상을 받지 못한 뒤 내놓는 말과 행동을 보니, 후대가 이 장면을 어떻게 기억할지 벌써 눈에 선하다.
+
+## 평화에 대한 평가마저 거래가 되는 걸까
+
+상을 받고 싶은 마음이야 누구에게나 있을 수 있다. 하지만 국가 지도자가 자신에게 상을 주지 않았다고 선정 기관을 공격하고, 몇 개를 받아야 한다고 계산하는 모습을 보니 씁쓸하다. 평화를 위해 무엇을 했는지보다 자신이 얼마나 인정받았는지가 더 앞에 놓인 것처럼 느껴진다.
+
+전쟁을 막았다는 주장도 무게가 큰 말이다. 그런 성과가 있다면 당사국의 상황과 실제 변화로 평가받으면 될 일이다. 스스로 업적을 세고 상의 개수까지 정하는 모습을 보면, 깡패가 따로 없다는 생각이 든다.
+
+특히 마음에 걸리는 것은 국제재판소에 대한 압박이다. 다만 제재 발표 시점이 맞물렸다는 이유만으로 노벨상 불발에 대한 보복이라고 확정할 수는 없다. 머니투데이가 전한 백악관의 설명도 함께 봐야 한다. 그 점을 감안해도, 수상 결과를 향한 거친 반응과 국제사법기관을 겨냥한 강한 조치가 나란히 등장하는 풍경은 충분히 불편하다.
+
+미국은 다른 나라에 규칙과 책임을 요구할 만큼 영향력이 큰 나라다. 그렇다면 자신의 마음에 들지 않는 판단을 대할 때에도 그에 걸맞은 태도를 보여야 하지 않을까. 힘이 크다는 이유로 평가의 기준까지 자기 뜻대로 바꾸려 한다면, 그 힘을 지켜보는 사람들의 신뢰는 조금씩 닳을 수밖에 없다.
+
+## 관련기사
+
+아래는 관련 기사 링크 및 요약 출처
+
+### 경향신문: 수상자가 비판한 국제사법 압박
+
+경향신문은 올해 노벨평화상 수상자로 선정된 나바네템 필레이가 미국의 ICC 제재를 비판했다고 보도했다. 판사들의 판단을 이유로 제재하는 행위가 국제사법의 독립성을 위협한다는 취지다. 기사는 인종차별에 맞선 변호 활동과 국제 인권 분야에서 쌓아온 필레이의 경력도 소개한다.
+
+*출처: [경향신문 원문](https://www.khan.co.kr/article/202610111504001) · 백민정 기자 · 2026년 10월 11일.*
+
+### 머니투데이: 제재 시점과 백악관의 설명
+
+머니투데이는 수상자 발표 몇 시간 뒤 미국이 ICC 자산 동결과 거래 중단 조치를 발표했다고 전했다. 수상 불발에 대한 불만이 반영됐다는 해석과 함께, 제재는 발표 전부터 예정돼 있었다는 백악관의 설명도 실었다. 주요 동맹국들이 재판소의 독립성과 업무 차질을 우려했다는 내용도 담겼다.
+
+*출처: [머니투데이 원문](https://www.mt.co.kr/world/2026/10/12/2026101119371921309) · 유효송 기자 · 2026년 10월 12일.*
+
+### MBC: 트럼프의 반응과 국제사회의 우려
+
+MBC 뉴스데스크는 트럼프가 여러 전쟁을 끝냈다며 노벨평화상을 여덟 개 받아야 한다고 주장한 장면을 전했다. 이어 ICC 제재에 대한 재판소 측의 반발, 유럽연합과 일본의 우려, 이스라엘의 환영 반응을 소개했다. 발언 장면은 아래 관련영상에서 볼 수 있다.
+
+*출처: [MBC 뉴스데스크 원문·영상](https://imnews.imbc.com/replay/2026/nwdesk/article/6856983_37004.html) · 손병산 특파원 · 2026년 10월 10일.*
+
+## 관련영상
+
+{{< youtube CzjAB90MYZo >}}
+
+*출처: [MBCNEWS 공식 YouTube · 2026년 10월 10일 뉴스데스크](https://www.youtube.com/watch?v=CzjAB90MYZo)*
+
+[MBC 뉴스데스크 원문·영상 보기](https://imnews.imbc.com/replay/2026/nwdesk/article/6856983_37004.html)
+
+
+--------------------------------------------------------------------------------
+title: "트럼프, 유네스코 탈퇴 결정… "친팔레스타인·친중국 성향""
+url: https://www.ramoo.net/news/teureompeu-yuneseuko-taltoe-gyeoljeong-cinpalreseutain-cinjunggug-seonghyang/index.md
+date: "2025-07-22"
+description: "상식적인 정책과 완전히 어긋나…미국 최우선으로 생각할 것" 2023년 조 바이든 전 대통령 재가입 이후 2년 만
+--------------------------------------------------------------------------------
+
+6년 전에도 새해 첫날 유네스코 동반 탈퇴 하더니 이번에 또 다시 탈퇴를 선언했다.
+
+{{< youtube fviZIxRy4GA >}}
+
+6년전 유네스코 탈퇴
+
+**AP 통신**2025년 7월 22일 오전 7시 52분
+
+미국은 화요일에 [유엔의](http://globalnews.ca/tag/un?ref=log.ramoo.net) 교육, 과학, 문화 기관에서 다시 탈퇴할 것이라고 발표했습니다. 워싱턴은 유엔이 이스라엘에 대한 편견을 가지고 있다고 보고 있으며, 이는 재가입한 지 불과 2년 만입니다.
+
+백악관 부대변인 애나 켈리는 뉴욕 포스트에 "트럼프 대통령이 미국을 유네스코에서 탈퇴시키기로 결정했습니다. 유네스코는 미국인들이 지난 11월 투표에서 지지했던 상식적인 정책과는 전혀 맞지 않는, 각성되고 분열적인 문화적, 사회적 명분을 지지하고 있습니다."라고 말했습니다. 유네스코와 백악관은 미국의 이러한 움직임을 즉각적으로 확인하지 않았습니다.
+
+미국이 파리에 본부를 둔 유네스코를 탈퇴하는 것은 이번이 세 번째이며, 트럼프 행정부 출범 이후 두 번째입니다. 도널드 트럼프 대통령은 이미 첫 임기 때 탈퇴했으며, 바이든 행정부가 유네스코 재가입을 신청하면서 5년간의 공백 끝에 미국이 유네스코에 복귀했습니다.
+
+해당 결정은 2026년 12월 말에 발효됩니다. ([Global News](https://globalnews.ca/news/11298009/un-withdraw-unesco/?ref=log.ramoo.net))
+
+
+--------------------------------------------------------------------------------
+title: ""지금 이 난리에!" 시민들 분노…'덩실덩실' 구리시장 "술은 안 마셨다" / SBS 8뉴스"
+url: https://www.ramoo.net/news/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/index.md
+date: "2025-07-21"
+description: 참 이 물난리에 잠깐 참석이라도 하지 말았어야 한다. 그 시간에 야유회 참석 안 한다고 누가 뭐라 하겠는가.. 같은 시간 공무원들은 비상 근무를 하고 있었다는데
+--------------------------------------------------------------------------------
+
+참 이 물난리에 잠깐 참석이라도 하지 말았어야 한다. 그 시간에 야유회 참석 안 한다고 누가 뭐라 하겠는가..
+
+같은 시간 공무원들은 비상 근무를 하고 있었다는데
+
+{{< youtube RHf-hbwz1PE >}}
+
+
+--------------------------------------------------------------------------------
+title: "Weekly hot issue - 강선우 후보자를 둘러싼 보좌진 갑질 논란"
+url: https://www.ramoo.net/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/index.md
+date: "2025-07-21"
+description: 최근 강선우 여성가족부 장관 후보자를 둘러싼 ‘보좌진 갑질 논란’이 정치권을 흔들고 있습니다. 이번 논란은 인사청문회 과정에서 전·현직 보좌진들의 폭로로 촉발되었습니다.
+--------------------------------------------------------------------------------
+
+## 강선우 후보자와 보좌진 갑질 논란
+
+최근 강선우 여성가족부 장관 후보자를 둘러싼 보좌진 갑질 의혹이 정치권과 언론을 뜨겁게 달구고 있다. 2025년 7월 9일 SBS의 단독 보도를 시작으로, 강 후보자가 보좌진에게 사적인 일을 지시하고 잦은 인사 교체를 통해 부당한 대우를 했다는 주장이 제기되었다. 이 논란은 단순한 개인적 비판을 넘어, 국회의원의 권력 남용과 보좌진의 노동 환경 문제를 조명하며 사회적 논의로 확산되고 있다. 본 글에서는 국내 10개 주요 언론사의 보도를 바탕으로 이 사건의 전말을 사실에 근거하여 살펴보고, 각 문단마다 출처를 명시한다.
+
+**출처**: [SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008171091&ref=log.ramoo.net)
+
+## 의혹의 시작 - SBS 단독 보도
+
+논란은 2025년 7월 9일 SBS 8뉴스의 단독 보도로 시작되었다. 보도에 따르면, 강선우 후보자가 21대 국회 초선 의원 시절 보좌진에게 사적인 일을 지시한 것으로 드러났다. 예를 들어, 강 후보자는 텔레그램을 통해 보좌진에게 “현관 앞 박스를 놨으니 지역사무실로 가져가 버려주세요”라며 집 쓰레기를 지역구 사무실에 버리도록 지시했다. 또한, 자택 변기 비데 고장 문제를 해결하라는 부당한 지시를 내렸다는 증언도 나왔다. SBS는 이러한 행위가 갑질로 간주될 수 있으며, 다수의 보좌진과 목격자의 증언 및 자료를 확보했다고 밝혔다. 이 보도는 강 후보자의 인사청문회 과정에서 큰 파장을 일으켰다.
+
+**출처**: [SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008171091&ref=log.ramoo.net)
+
+## 잦은 보좌진 교체 숫자의 진실
+
+강선우 후보자가 2020년부터 2025년까지 5년간 보좌진 51명을 임용하고 46명을 면직했다는 보도가 논란을 증폭시켰다. 이는 국민의힘 한지아 의원이 국회 사무처 자료를 통해 밝힌 내용으로, 강 후보자의 보좌진 교체 빈도가 비정상적으로 높다는 비판을 받았다. 중앙일보는 이를 “보기 드문 일”로 평가하며, 다른 의원실에서도 이례적이라는 반응이 나왔다고 전했다. 그러나 서울신문의 후속 보도에 따르면, 2020년 5월부터 2023년 12월까지 304개 의원실의 평균 면직자 수는 23.9명으로, 강 후보자의 23명은 평균 이하였다. 동일인 중복 면직을 제외하면 실제 면직자는 27명으로, 138개 의원실이 강 후보자보다 더 많은 교체를 했다. 이는 초기 보도가 과장되었을 가능성을 시사한다.
+
+**출처**: [중앙일보](https://www.joongang.co.kr/article/25350284?ref=log.ramoo.net), [민들레](https://www.mindlenews.com/news/articleView.html?idxno=14625&ref=log.ramoo.net)
+
+{{< youtube 8AGD_cAqLXg >}}
+
+## 정치권의 반응 - 여야 공방과 보좌진 시위
+
+국민의힘은 강 후보자의 자진 사퇴를 강력히 요구하며 공세를 이어갔다. 특히 국민의힘 보좌진협의회는 인사청문회 당일 국회 본관 앞에서 피켓 시위를 벌이며 “보좌진 권익 보호”와 “강 후보자 사퇴”를 촉구했다. 서울신문은 시위 현장에서 보좌진들이 “강요된 사적지시, 선넘은 갑질행동”이라는 피켓을 들었다고 보도했다. 반면, 더불어민주당은 국민의힘이 검증되지 않은 의혹을 퍼뜨리며 청문회를 조롱으로 몰아간다고 비판했다. KBS 보도에 따르면, 민주당은 국민의힘의 공세가 국정 발목잡기라며 정책 검증에 집중할 것을 요구했다.
+
+**출처**: [서울신문](https://www.seoul.co.kr/news/politics/2025/07/14/20250714500087?ref=log.ramoo.net), [YTN](https://www.ytn.co.kr/_ln/0101_202507141202343865?ref=log.ramoo.net)
+
+## 보좌진 노동 환경 문제
+
+이 논란은 국회 보좌진의 열악한 노동 환경을 조명하는 계기가 되었다. 직장갑질119는 국회 보좌진의 불안정한 고용 구조와 부당한 지시에 대한 실태조사를 제안했다. 한국일보는 보좌진이 “비서는 입이 없다”는 관행 속에서 침묵을 강요받았다고 보도하며, 이 사건이 구조적 문제에 대한 논의를 촉발했다고 평가했다. 이는 단순한 개인적 논란을 넘어 국회 내 노동 환경 개선의 필요성을 제기한다. 한겨레는 보좌진의 잦은 이직과 불안정한 고용이 갑질을 용인하는 구조적 원인이라고 지적했다.
+
+**출처**: [한국일보](https://www.hankookilbo.com/News/Read/A2025071007400005702?ref=log.ramoo.net), [한겨레](https://www.hani.co.kr/arti/politics/politics_general/1208020.html?ref=log.ramoo.net)
+
+![흰색 재킷을 입은 강선우 후보자](/images/off-duty/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/photo-01.jpg)
+
+출처 :[https://www.nocutnews.co.kr/news/6367282](https://www.nocutnews.co.kr/news/6367282?ref=log.ramoo.net)
+
+## 결론: 사실 확인과 공정한 논의의 필요성
+
+강선우 후보자를 둘러싼 보좌진 갑질 논란은 여전히 진행 중이며, 사실 확인과 공정한 논의가 필요하다. 초기 보도가 자극적이었던 점은 부정할 수 없으나, 다수의 증언과 자료는 의혹의 심각성을 보여준다. 반면, 강 후보자의 반박과 후속 보도는 과장된 측면을 지적하며 균형 잡힌 시각을 요구한다. 이 사건은 국회의원의 권력 남용, 보좌진의 노동 환경, 언론의 책임 등 다층적인 문제를 드러냈다. 노컷뉴스는 이 논란이 단순한 개인적 문제가 아닌, 구조적 개선을 요구하는 계기가 되어야 한다고 강조했다. 앞으로의 인사청문회와 법적 절차를 통해 진실이 명확히 밝혀지길 기대한다.
+
+**출처**: [노컷뉴스](https://www.nocutnews.co.kr/news/6367282?ref=log.ramoo.net)
+
+
+--------------------------------------------------------------------------------
+title: "Weekly News (2025년 7월 18일)"
+url: https://www.ramoo.net/news/weekly-news-2025nyeon-7weol-18il/index.md
+date: "2025-07-19"
+description: 이재명 대통령은 전국적인 폭우 피해로 인해 부산 타운홀 미팅 일정을 취소하고 피해 상황 점검에 집중했다.
+--------------------------------------------------------------------------------
+
+- **특검 수사 확대**: 김건희 특검과 채 상병 특검팀은 국민의힘 친윤계 의원인 권성동, 이철규 의원의 사무실을 압수수색하며 수사를 본격화했다. 김건희 특검팀은 통일교 관련 청탁 의혹으로 가평 통일교 본부 등을 압수수색했다. 국민의힘은 이를 "야당 탄압"이라 반발하며, 우원식 국회의장은 기관 간 협조를 통한 임의제출 형식을 권고했다.
+- **장관 임명 및 인사청문회**: 이재명 대통령은 구윤철 경제부총리 겸 기획재정부 장관, 김정관 산업통상자원부 장관, 조현 외교부 장관, 정성호 법무부 장관 후보자 임명안을 재가했다. 윤호중 행정안전부 장관 후보자는 인사청문회에서 검찰 수사·기소권 분리를 검찰 개혁의 핵심 원칙으로 재확인했다. 강선우 여성가족부 장관 후보자의 ‘병원 갑질 의혹’ 논란도 제기되었다.
+- **더불어민주당 당대표 선거**: 정청래·박찬대 의원이 당대표 선거 일정 조정을 요청했다. 박 의원은 폭우 피해로 인해 전당대회 연기를, 정 의원은 조기 경선을 제안하며 대립했다.
+
+{{< youtube RO9gXSnkMHg >}}
+
+## 경제
+
+- **집중호우 피해**: 중부 및 남부지방의 극한호우로 농경지 약 2만 90헥타르(축구장 2만 8천 개 규모)가 침수되었다. 광주·전남 지역에서는 490㎜ 이상의 비로 2명 실종, 도로·건물 침수, 가축 폐사 등이 발생했다. 정부와 금융기관은 피해 복구를 위해 80억 원 이상의 성금을 지원했다.
+- **소비쿠폰 지급**: 민생회복 소비쿠폰 지급이 7월 21일부터 시작된다. GS25 등 편의점 4사는 생필품 및 먹거리 할인 행사를 준비하며 지역경제 활성화를 도모한다.
+- **부동산 시장**: 서울 집값이 6월 0.95% 상승하며 82개월 만에 최대 상승폭을 기록했다. 수도권 전셋값은 23개월 연속 상승세다.
+- **기업 동향**: 삼성전자 주가가 이재용 회장의 사법 리스크 해소와 HBM 공급 기대감으로 6만7800원까지 상승, ‘7만전자’를 눈앞에 두었다. 세미파이브는 코스닥 상장 예비심사를 청구하며 반도체 디자인하우스로서의 성장 가능성을 보였다. 반면, 증권주는 밸류에이션 부담으로 하락세를 보였다.
+
+![오산 옹벽 붕괴로 드러난 토사와 도로 아래 잔해](/images/off-duty/news/weekly-news-2025nyeon-7weol-18il/photo-01.webp)
+
+([https://www.hani.co.kr/arti/area/capital/1208475.html](https://www.hani.co.kr/arti/area/capital/1208475.html?ref=log.ramoo.net)) - 오산 옹벽 붕괴 사고
+
+## 시사
+
+- **오산 옹벽 붕괴 사고**: 7월 16일 오산시 가장교차로 고가도로 옹벽 붕괴로 사망 사고가 발생했다. 7년 전 유사 사고 전력이 있었으며, 4월 정밀안전점검에서 균열이 발견되었으나 보수가 미흡했다는 지적이 나왔다. 국토부는 사고조사위를 구성해 원인 규명에 나섰다.
+- **감염병 예방 조치**: 집중호우로 인한 풍수해 감염병 우려가 커지며, 질병관리청은 지자체에 감염병 예방법 홍보와 모기 방제를 요청했다.
+- **윤석열 전 대통령 관련**: 윤 전 대통령의 구속적부심이 기각되었으며, 지지자들은 서울역 일대에서 석방 촉구 집회를 열었다. 국가인권위에는 윤 전 대통령의 독방 에어컨 설치 요구 진정서가 40건 이상 접수되었다.
+
+
+--------------------------------------------------------------------------------
 title: "Pages"
 url: https://www.ramoo.net/pages/index.md
 --------------------------------------------------------------------------------
@@ -2799,242 +5340,6 @@ PSR은 시가총액을 매출액으로 나눈 값이다. 아직 이익이 나지
 
 
 --------------------------------------------------------------------------------
-title: "News"
-url: https://www.ramoo.net/news/index.md
-description: 시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
---------------------------------------------------------------------------------
-시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
-
---------------------------------------------------------------------------------
-title: "동료에게 듣고 찾아본 인천 구월동 흉기 난동 사건"
-url: https://www.ramoo.net/news/incheon-guwol-stabbing-news/index.md
-date: "2026-10-13"
-description: 직장 동료에게 소식을 듣고 찾아본 인천 구월동 상업시설 흉기 난동 사건. 기사 네 편과 저녁 후속 보도를 바탕으로 사건 경위와 달라진 내용을 정리하고 관련 영상을 남겼다.
---------------------------------------------------------------------------------
-
-직장 동료가 인천 구월동에서 흉기 난동 사건이 났다는 소식을 알려줬다. 무슨 일이 있었던 건지 궁금해 기사를 찾아봤다. 처음에는 짧은 속보부터 읽었는데, 후속 기사를 보니 마트와 식당, 영화관이 함께 있는 건물에서 일어난 사건이었다.
-
-평소처럼 장을 보거나 식사를 하던 사람들이 갑자기 피해를 입었다는데 참담하고 그 자리에 있던 사람들 얼마나 무서웠들까 여튼 뭔일인가 기사 정리해 본다.
-
-![MBC의 인천 구월동 상가 흉기 난동 사건 보도 화면](/images/off-duty/news/incheon-guwol-stabbing/cover-mbc.png)
-
-*이미지 출처: [MBC 뉴스 · 인천 구월동 흉기 난동 관련 보도](https://imnews.imbc.com/news/2026/society/article/6857673_36919.html), 방송 화면 캡처.*
-
-## 무슨 일이 있었나
-
-10월 13일 오후 1시 40분께, 홈플러스 인천 구월점과 식당가·영화관 등이 입점한 인천 남동구 구월동의 복합 상업시설에서 한 남성이 이용객들에게 흉기를 휘둘렀다. 시민들이 그를 제압했고, 경찰이 현장에서 체포했다. 저녁 후속 보도에서 피의자는 **59세 남성**으로 확인됐다. [연합뉴스 · 오후 7시 30분 종합 보도](https://www.yna.co.kr/view/AKR20261013118701065)
-
-**다친 사람은 8명**이다. 이 가운데 20대 여성 1명은 심정지 상태로 병원에 옮겨졌으며, 저녁 보도에서는 수술 뒤 중환자실에 입원한 것으로 전해졌다. 나머지 7명도 병원에서 치료를 받았고, 생명에는 지장이 없는 것으로 보도됐다. 경찰은 위협을 받고 옷이 찢어진 사람 1명까지 포함해 전체 피해자는 9명이라고 밝혔다. 부상자 수와 전체 피해자 수는 구분해 읽어야 한다. [연합뉴스 후속 보도](https://www.yna.co.kr/view/AKR20261013118701065)
-
-처음에는 지하층부터 에스컬레이터를 타고 올라오며 범행했다는 목격자 설명이 전해졌다. 그러나 저녁 보도에 따르면 경찰이 확인한 동선은 **지상 1층으로 들어와 엘리베이터로 2층 식당가에 올라간 뒤, 3층까지 이동한 것**이었다. 4층 영화관 쪽 진입이 막히자 다시 내려왔고, 시민들이 의자를 이용해 제압했다고 한다. [연합뉴스 후속 보도](https://www.yna.co.kr/view/AKR20261013118701065)
-
-*이 글은 10월 13일 확인한 기사와 오후 7시 30분 종합 보도를 기준으로 정리했다. 피해자의 상태와 수사 결과는 이후 달라질 수 있다.*
-
-## 찾아본 기사 네 편은 각각 무엇을 전했나
-
-같은 사건을 다뤘지만 보도 시점과 초점이 조금씩 다르다. 아래 요약은 각 기사가 전한 당시의 내용이다.
-
-| 기사·보도 시각 | 주요 내용 |
-| --- | --- |
-| [한국경제 · 오후 2시 39분](https://www.hankyung.com/article/2026101389117) | 홈플러스가 입점한 상업시설에서 흉기 난동이 발생했고, 이용객들이 피의자를 제압한 뒤 경찰에 인계했다는 초기 경위를 전했다. 당시에는 피의자를 60대 추정으로 소개했다. |
-| [연합뉴스TV · 오후 3시 31분](https://www.yonhapnewstv.co.kr/news/MYH20261013153108Z2T) | 현장 연결을 통해 오후 1시 49분께 신고가 접수됐고, 8명 부상과 1명 심정지 상태가 파악됐다고 보도했다. 건물 1층에 응급의료소가 설치됐다는 소방 대응도 전했다. |
-| [연합뉴스 · 오후 3시 45분](https://www.yna.co.kr/view/AKR20261013132600065?site=mapping_related) | 소방당국이 파악한 부상자 수와 치료 상황을 설명했다. 20대 여성 1명이 심정지 상태로 수술 중이라고 전했으며, 초기에 집계된 부상자 수가 조정된 경위도 담았다. |
-| [연합뉴스 · 오후 3시 52분](https://www.yna.co.kr/view/AKR20261013139700065) | 최초 신고자의 설명을 중심으로 당시의 긴박한 상황과 시민들의 제압 과정을 전했다. 일면식 없는 사람들을 향한 범행 가능성을 다뤘지만, 동기는 조사 중인 단계였다. |
-
-속보를 이어 읽다 보면 숫자나 동선이 달라 보여 혼란스럽다. 이번에는 목격자의 초기 설명과 경찰이 확인한 내용이 구분됐고, 부상자와 피해자라는 집계 기준도 달랐다. 그래서 최초 보도의 표현을 그대로 사건의 최종 경위로 받아들이지 않으려 한다.
-
-## 범행 동기까지 밝혀진 것은 아니다
-
-저녁 후속 보도에는 피의자가 과거 전처에 대한 살인미수로 복역했고, 전자발찌를 착용한 상태였다는 내용이 추가됐다. 범행 전 보호관찰관과 면담하고 식사했다는 법무부 설명도 전해졌다. 다만 **이번 범행의 구체적인 동기는 경찰이 조사 중**이다. 과거 전력이나 보호관찰 사실만으로 이번 범행 이유까지 단정할 수는 없다. [연합뉴스 후속 보도](https://www.yna.co.kr/view/AKR20261013118701065)
-
-기사를 찾아보며 사건의 경위는 조금 더 알게 됐지만, 왜 이런 일이 벌어졌는지는 아직 답이 나온 상태가 아니었다. 피해자들이 회복하고, 현장에서 겁에 질렸을 사람들도 일상을 되찾을 수 있었으면 좋겠다. 시민들이 나서 더 큰 피해를 막았다는 대목에는 고마운 마음과 함께, 그 순간 얼마나 위험하고 두려웠을까 하는 생각이 남는다.
-
-## 관련 보도 영상
-
-현장 취재기자가 당시 상황을 설명한 **연합뉴스TV 보도 영상**을 함께 남긴다. 사건 당일 오후 3시 31분 보도라 피의자 나이와 피해 상황 등은 위에서 정리한 저녁 후속 보도와 차이가 있다.
-
-<video controls playsinline preload="metadata" poster="{{< image-url "/images/off-duty/news/incheon-guwol-stabbing/cover.jpg" >}}" aria-label="연합뉴스TV 인천 구월동 흉기 난동 현장 보도" style="display: block; width: 100%; aspect-ratio: 16 / 9; background: #000;">
-  <source src="https://media.yonhapnewstv.co.kr/article/MYH/20261013/MYH20261013153108Z2T_700M1.mp4" type="video/mp4">
-  영상을 재생하려면 <a href="https://www.yonhapnewstv.co.kr/news/MYH20261013153108Z2T">연합뉴스TV 원문</a>에서 확인할 수 있다.
-</video>
-
-*출처: [연합뉴스TV · 2026년 10월 13일 오후 3시 31분 현장 보도](https://www.yonhapnewstv.co.kr/news/MYH20261013153108Z2T).*
-
-[연합뉴스TV 원문에서 영상 보기](https://www.yonhapnewstv.co.kr/news/MYH20261013153108Z2T)
-
-
---------------------------------------------------------------------------------
-title: "노벨상까지 내놓으라는 트럼프, 후대는 어떻게 기억할까"
-url: https://www.ramoo.net/news/trump-nobel-peace-prize-icc-sanctions/index.md
-date: "2026-10-12"
-description: 트럼프의 노벨평화상 불만과 미국의 ICC 제재를 다룬 기사 세 편을 짧게 정리하고, 국가 지도자의 책임에 대한 생각을 남긴다.
---------------------------------------------------------------------------------
-
-![복도를 걸어가는 트럼프의 뒷모습](/images/off-duty/news/trump-nobel-peace-prize-icc-sanctions/cover-16x9.jpg)
-
-뉴스를 읽다가 참 대단하다는 생각이 들었다. 감탄보다는 어이없다는 쪽에 가까운 대단함이다. 아무리 천조국의 대통령이라지만, 노벨평화상까지 이렇게 대놓고 달라고 할 일인가 싶다. 상을 받지 못한 뒤 내놓는 말과 행동을 보니, 후대가 이 장면을 어떻게 기억할지 벌써 눈에 선하다.
-
-## 평화에 대한 평가마저 거래가 되는 걸까
-
-상을 받고 싶은 마음이야 누구에게나 있을 수 있다. 하지만 국가 지도자가 자신에게 상을 주지 않았다고 선정 기관을 공격하고, 몇 개를 받아야 한다고 계산하는 모습을 보니 씁쓸하다. 평화를 위해 무엇을 했는지보다 자신이 얼마나 인정받았는지가 더 앞에 놓인 것처럼 느껴진다.
-
-전쟁을 막았다는 주장도 무게가 큰 말이다. 그런 성과가 있다면 당사국의 상황과 실제 변화로 평가받으면 될 일이다. 스스로 업적을 세고 상의 개수까지 정하는 모습을 보면, 깡패가 따로 없다는 생각이 든다.
-
-특히 마음에 걸리는 것은 국제재판소에 대한 압박이다. 다만 제재 발표 시점이 맞물렸다는 이유만으로 노벨상 불발에 대한 보복이라고 확정할 수는 없다. 머니투데이가 전한 백악관의 설명도 함께 봐야 한다. 그 점을 감안해도, 수상 결과를 향한 거친 반응과 국제사법기관을 겨냥한 강한 조치가 나란히 등장하는 풍경은 충분히 불편하다.
-
-미국은 다른 나라에 규칙과 책임을 요구할 만큼 영향력이 큰 나라다. 그렇다면 자신의 마음에 들지 않는 판단을 대할 때에도 그에 걸맞은 태도를 보여야 하지 않을까. 힘이 크다는 이유로 평가의 기준까지 자기 뜻대로 바꾸려 한다면, 그 힘을 지켜보는 사람들의 신뢰는 조금씩 닳을 수밖에 없다.
-
-## 관련기사
-
-아래는 관련 기사 링크 및 요약 출처
-
-### 경향신문: 수상자가 비판한 국제사법 압박
-
-경향신문은 올해 노벨평화상 수상자로 선정된 나바네템 필레이가 미국의 ICC 제재를 비판했다고 보도했다. 판사들의 판단을 이유로 제재하는 행위가 국제사법의 독립성을 위협한다는 취지다. 기사는 인종차별에 맞선 변호 활동과 국제 인권 분야에서 쌓아온 필레이의 경력도 소개한다.
-
-*출처: [경향신문 원문](https://www.khan.co.kr/article/202610111504001) · 백민정 기자 · 2026년 10월 11일.*
-
-### 머니투데이: 제재 시점과 백악관의 설명
-
-머니투데이는 수상자 발표 몇 시간 뒤 미국이 ICC 자산 동결과 거래 중단 조치를 발표했다고 전했다. 수상 불발에 대한 불만이 반영됐다는 해석과 함께, 제재는 발표 전부터 예정돼 있었다는 백악관의 설명도 실었다. 주요 동맹국들이 재판소의 독립성과 업무 차질을 우려했다는 내용도 담겼다.
-
-*출처: [머니투데이 원문](https://www.mt.co.kr/world/2026/10/12/2026101119371921309) · 유효송 기자 · 2026년 10월 12일.*
-
-### MBC: 트럼프의 반응과 국제사회의 우려
-
-MBC 뉴스데스크는 트럼프가 여러 전쟁을 끝냈다며 노벨평화상을 여덟 개 받아야 한다고 주장한 장면을 전했다. 이어 ICC 제재에 대한 재판소 측의 반발, 유럽연합과 일본의 우려, 이스라엘의 환영 반응을 소개했다. 발언 장면은 아래 관련영상에서 볼 수 있다.
-
-*출처: [MBC 뉴스데스크 원문·영상](https://imnews.imbc.com/replay/2026/nwdesk/article/6856983_37004.html) · 손병산 특파원 · 2026년 10월 10일.*
-
-## 관련영상
-
-{{< youtube CzjAB90MYZo >}}
-
-*출처: [MBCNEWS 공식 YouTube · 2026년 10월 10일 뉴스데스크](https://www.youtube.com/watch?v=CzjAB90MYZo)*
-
-[MBC 뉴스데스크 원문·영상 보기](https://imnews.imbc.com/replay/2026/nwdesk/article/6856983_37004.html)
-
-
---------------------------------------------------------------------------------
-title: "트럼프, 유네스코 탈퇴 결정… "친팔레스타인·친중국 성향""
-url: https://www.ramoo.net/news/teureompeu-yuneseuko-taltoe-gyeoljeong-cinpalreseutain-cinjunggug-seonghyang/index.md
-date: "2025-07-22"
-description: "상식적인 정책과 완전히 어긋나…미국 최우선으로 생각할 것" 2023년 조 바이든 전 대통령 재가입 이후 2년 만
---------------------------------------------------------------------------------
-
-6년 전에도 새해 첫날 유네스코 동반 탈퇴 하더니 이번에 또 다시 탈퇴를 선언했다.
-
-{{< youtube fviZIxRy4GA >}}
-
-6년전 유네스코 탈퇴
-
-**AP 통신**2025년 7월 22일 오전 7시 52분
-
-미국은 화요일에 [유엔의](http://globalnews.ca/tag/un?ref=log.ramoo.net) 교육, 과학, 문화 기관에서 다시 탈퇴할 것이라고 발표했습니다. 워싱턴은 유엔이 이스라엘에 대한 편견을 가지고 있다고 보고 있으며, 이는 재가입한 지 불과 2년 만입니다.
-
-백악관 부대변인 애나 켈리는 뉴욕 포스트에 "트럼프 대통령이 미국을 유네스코에서 탈퇴시키기로 결정했습니다. 유네스코는 미국인들이 지난 11월 투표에서 지지했던 상식적인 정책과는 전혀 맞지 않는, 각성되고 분열적인 문화적, 사회적 명분을 지지하고 있습니다."라고 말했습니다. 유네스코와 백악관은 미국의 이러한 움직임을 즉각적으로 확인하지 않았습니다.
-
-미국이 파리에 본부를 둔 유네스코를 탈퇴하는 것은 이번이 세 번째이며, 트럼프 행정부 출범 이후 두 번째입니다. 도널드 트럼프 대통령은 이미 첫 임기 때 탈퇴했으며, 바이든 행정부가 유네스코 재가입을 신청하면서 5년간의 공백 끝에 미국이 유네스코에 복귀했습니다.
-
-해당 결정은 2026년 12월 말에 발효됩니다. ([Global News](https://globalnews.ca/news/11298009/un-withdraw-unesco/?ref=log.ramoo.net))
-
-
---------------------------------------------------------------------------------
-title: ""지금 이 난리에!" 시민들 분노…'덩실덩실' 구리시장 "술은 안 마셨다" / SBS 8뉴스"
-url: https://www.ramoo.net/news/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/index.md
-date: "2025-07-21"
-description: 참 이 물난리에 잠깐 참석이라도 하지 말았어야 한다. 그 시간에 야유회 참석 안 한다고 누가 뭐라 하겠는가.. 같은 시간 공무원들은 비상 근무를 하고 있었다는데
---------------------------------------------------------------------------------
-
-참 이 물난리에 잠깐 참석이라도 하지 말았어야 한다. 그 시간에 야유회 참석 안 한다고 누가 뭐라 하겠는가..
-
-같은 시간 공무원들은 비상 근무를 하고 있었다는데
-
-{{< youtube RHf-hbwz1PE >}}
-
-
---------------------------------------------------------------------------------
-title: "Weekly hot issue - 강선우 후보자를 둘러싼 보좌진 갑질 논란"
-url: https://www.ramoo.net/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/index.md
-date: "2025-07-21"
-description: 최근 강선우 여성가족부 장관 후보자를 둘러싼 ‘보좌진 갑질 논란’이 정치권을 흔들고 있습니다. 이번 논란은 인사청문회 과정에서 전·현직 보좌진들의 폭로로 촉발되었습니다.
---------------------------------------------------------------------------------
-
-## 강선우 후보자와 보좌진 갑질 논란
-
-최근 강선우 여성가족부 장관 후보자를 둘러싼 보좌진 갑질 의혹이 정치권과 언론을 뜨겁게 달구고 있다. 2025년 7월 9일 SBS의 단독 보도를 시작으로, 강 후보자가 보좌진에게 사적인 일을 지시하고 잦은 인사 교체를 통해 부당한 대우를 했다는 주장이 제기되었다. 이 논란은 단순한 개인적 비판을 넘어, 국회의원의 권력 남용과 보좌진의 노동 환경 문제를 조명하며 사회적 논의로 확산되고 있다. 본 글에서는 국내 10개 주요 언론사의 보도를 바탕으로 이 사건의 전말을 사실에 근거하여 살펴보고, 각 문단마다 출처를 명시한다.
-
-**출처**: [SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008171091&ref=log.ramoo.net)
-
-## 의혹의 시작 - SBS 단독 보도
-
-논란은 2025년 7월 9일 SBS 8뉴스의 단독 보도로 시작되었다. 보도에 따르면, 강선우 후보자가 21대 국회 초선 의원 시절 보좌진에게 사적인 일을 지시한 것으로 드러났다. 예를 들어, 강 후보자는 텔레그램을 통해 보좌진에게 “현관 앞 박스를 놨으니 지역사무실로 가져가 버려주세요”라며 집 쓰레기를 지역구 사무실에 버리도록 지시했다. 또한, 자택 변기 비데 고장 문제를 해결하라는 부당한 지시를 내렸다는 증언도 나왔다. SBS는 이러한 행위가 갑질로 간주될 수 있으며, 다수의 보좌진과 목격자의 증언 및 자료를 확보했다고 밝혔다. 이 보도는 강 후보자의 인사청문회 과정에서 큰 파장을 일으켰다.
-
-**출처**: [SBS 뉴스](https://news.sbs.co.kr/news/endPage.do?news_id=N1008171091&ref=log.ramoo.net)
-
-## 잦은 보좌진 교체 숫자의 진실
-
-강선우 후보자가 2020년부터 2025년까지 5년간 보좌진 51명을 임용하고 46명을 면직했다는 보도가 논란을 증폭시켰다. 이는 국민의힘 한지아 의원이 국회 사무처 자료를 통해 밝힌 내용으로, 강 후보자의 보좌진 교체 빈도가 비정상적으로 높다는 비판을 받았다. 중앙일보는 이를 “보기 드문 일”로 평가하며, 다른 의원실에서도 이례적이라는 반응이 나왔다고 전했다. 그러나 서울신문의 후속 보도에 따르면, 2020년 5월부터 2023년 12월까지 304개 의원실의 평균 면직자 수는 23.9명으로, 강 후보자의 23명은 평균 이하였다. 동일인 중복 면직을 제외하면 실제 면직자는 27명으로, 138개 의원실이 강 후보자보다 더 많은 교체를 했다. 이는 초기 보도가 과장되었을 가능성을 시사한다.
-
-**출처**: [중앙일보](https://www.joongang.co.kr/article/25350284?ref=log.ramoo.net), [민들레](https://www.mindlenews.com/news/articleView.html?idxno=14625&ref=log.ramoo.net)
-
-{{< youtube 8AGD_cAqLXg >}}
-
-## 정치권의 반응 - 여야 공방과 보좌진 시위
-
-국민의힘은 강 후보자의 자진 사퇴를 강력히 요구하며 공세를 이어갔다. 특히 국민의힘 보좌진협의회는 인사청문회 당일 국회 본관 앞에서 피켓 시위를 벌이며 “보좌진 권익 보호”와 “강 후보자 사퇴”를 촉구했다. 서울신문은 시위 현장에서 보좌진들이 “강요된 사적지시, 선넘은 갑질행동”이라는 피켓을 들었다고 보도했다. 반면, 더불어민주당은 국민의힘이 검증되지 않은 의혹을 퍼뜨리며 청문회를 조롱으로 몰아간다고 비판했다. KBS 보도에 따르면, 민주당은 국민의힘의 공세가 국정 발목잡기라며 정책 검증에 집중할 것을 요구했다.
-
-**출처**: [서울신문](https://www.seoul.co.kr/news/politics/2025/07/14/20250714500087?ref=log.ramoo.net), [YTN](https://www.ytn.co.kr/_ln/0101_202507141202343865?ref=log.ramoo.net)
-
-## 보좌진 노동 환경 문제
-
-이 논란은 국회 보좌진의 열악한 노동 환경을 조명하는 계기가 되었다. 직장갑질119는 국회 보좌진의 불안정한 고용 구조와 부당한 지시에 대한 실태조사를 제안했다. 한국일보는 보좌진이 “비서는 입이 없다”는 관행 속에서 침묵을 강요받았다고 보도하며, 이 사건이 구조적 문제에 대한 논의를 촉발했다고 평가했다. 이는 단순한 개인적 논란을 넘어 국회 내 노동 환경 개선의 필요성을 제기한다. 한겨레는 보좌진의 잦은 이직과 불안정한 고용이 갑질을 용인하는 구조적 원인이라고 지적했다.
-
-**출처**: [한국일보](https://www.hankookilbo.com/News/Read/A2025071007400005702?ref=log.ramoo.net), [한겨레](https://www.hani.co.kr/arti/politics/politics_general/1208020.html?ref=log.ramoo.net)
-
-![흰색 재킷을 입은 강선우 후보자](/images/off-duty/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/photo-01.jpg)
-
-출처 :[https://www.nocutnews.co.kr/news/6367282](https://www.nocutnews.co.kr/news/6367282?ref=log.ramoo.net)
-
-## 결론: 사실 확인과 공정한 논의의 필요성
-
-강선우 후보자를 둘러싼 보좌진 갑질 논란은 여전히 진행 중이며, 사실 확인과 공정한 논의가 필요하다. 초기 보도가 자극적이었던 점은 부정할 수 없으나, 다수의 증언과 자료는 의혹의 심각성을 보여준다. 반면, 강 후보자의 반박과 후속 보도는 과장된 측면을 지적하며 균형 잡힌 시각을 요구한다. 이 사건은 국회의원의 권력 남용, 보좌진의 노동 환경, 언론의 책임 등 다층적인 문제를 드러냈다. 노컷뉴스는 이 논란이 단순한 개인적 문제가 아닌, 구조적 개선을 요구하는 계기가 되어야 한다고 강조했다. 앞으로의 인사청문회와 법적 절차를 통해 진실이 명확히 밝혀지길 기대한다.
-
-**출처**: [노컷뉴스](https://www.nocutnews.co.kr/news/6367282?ref=log.ramoo.net)
-
-
---------------------------------------------------------------------------------
-title: "Weekly News (2025년 7월 18일)"
-url: https://www.ramoo.net/news/weekly-news-2025nyeon-7weol-18il/index.md
-date: "2025-07-19"
-description: 이재명 대통령은 전국적인 폭우 피해로 인해 부산 타운홀 미팅 일정을 취소하고 피해 상황 점검에 집중했다.
---------------------------------------------------------------------------------
-
-- **특검 수사 확대**: 김건희 특검과 채 상병 특검팀은 국민의힘 친윤계 의원인 권성동, 이철규 의원의 사무실을 압수수색하며 수사를 본격화했다. 김건희 특검팀은 통일교 관련 청탁 의혹으로 가평 통일교 본부 등을 압수수색했다. 국민의힘은 이를 "야당 탄압"이라 반발하며, 우원식 국회의장은 기관 간 협조를 통한 임의제출 형식을 권고했다.
-- **장관 임명 및 인사청문회**: 이재명 대통령은 구윤철 경제부총리 겸 기획재정부 장관, 김정관 산업통상자원부 장관, 조현 외교부 장관, 정성호 법무부 장관 후보자 임명안을 재가했다. 윤호중 행정안전부 장관 후보자는 인사청문회에서 검찰 수사·기소권 분리를 검찰 개혁의 핵심 원칙으로 재확인했다. 강선우 여성가족부 장관 후보자의 ‘병원 갑질 의혹’ 논란도 제기되었다.
-- **더불어민주당 당대표 선거**: 정청래·박찬대 의원이 당대표 선거 일정 조정을 요청했다. 박 의원은 폭우 피해로 인해 전당대회 연기를, 정 의원은 조기 경선을 제안하며 대립했다.
-
-{{< youtube RO9gXSnkMHg >}}
-
-## 경제
-
-- **집중호우 피해**: 중부 및 남부지방의 극한호우로 농경지 약 2만 90헥타르(축구장 2만 8천 개 규모)가 침수되었다. 광주·전남 지역에서는 490㎜ 이상의 비로 2명 실종, 도로·건물 침수, 가축 폐사 등이 발생했다. 정부와 금융기관은 피해 복구를 위해 80억 원 이상의 성금을 지원했다.
-- **소비쿠폰 지급**: 민생회복 소비쿠폰 지급이 7월 21일부터 시작된다. GS25 등 편의점 4사는 생필품 및 먹거리 할인 행사를 준비하며 지역경제 활성화를 도모한다.
-- **부동산 시장**: 서울 집값이 6월 0.95% 상승하며 82개월 만에 최대 상승폭을 기록했다. 수도권 전셋값은 23개월 연속 상승세다.
-- **기업 동향**: 삼성전자 주가가 이재용 회장의 사법 리스크 해소와 HBM 공급 기대감으로 6만7800원까지 상승, ‘7만전자’를 눈앞에 두었다. 세미파이브는 코스닥 상장 예비심사를 청구하며 반도체 디자인하우스로서의 성장 가능성을 보였다. 반면, 증권주는 밸류에이션 부담으로 하락세를 보였다.
-
-![오산 옹벽 붕괴로 드러난 토사와 도로 아래 잔해](/images/off-duty/news/weekly-news-2025nyeon-7weol-18il/photo-01.webp)
-
-([https://www.hani.co.kr/arti/area/capital/1208475.html](https://www.hani.co.kr/arti/area/capital/1208475.html?ref=log.ramoo.net)) - 오산 옹벽 붕괴 사고
-
-## 시사
-
-- **오산 옹벽 붕괴 사고**: 7월 16일 오산시 가장교차로 고가도로 옹벽 붕괴로 사망 사고가 발생했다. 7년 전 유사 사고 전력이 있었으며, 4월 정밀안전점검에서 균열이 발견되었으나 보수가 미흡했다는 지적이 나왔다. 국토부는 사고조사위를 구성해 원인 규명에 나섰다.
-- **감염병 예방 조치**: 집중호우로 인한 풍수해 감염병 우려가 커지며, 질병관리청은 지자체에 감염병 예방법 홍보와 모기 방제를 요청했다.
-- **윤석열 전 대통령 관련**: 윤 전 대통령의 구속적부심이 기각되었으며, 지지자들은 서울역 일대에서 석방 촉구 집회를 열었다. 국가인권위에는 윤 전 대통령의 독방 에어컨 설치 요구 진정서가 40건 이상 접수되었다.
-
-
---------------------------------------------------------------------------------
 title: "Exurban"
 url: https://www.ramoo.net/exurban/index.md
 description: 전원주택·건축·인테리어와 교외 생활을 위한 기록
@@ -3388,6 +5693,18 @@ url: https://www.ramoo.net/tags/cidr/index.md
 <no value>
 
 --------------------------------------------------------------------------------
+title: "CIO"
+url: https://www.ramoo.net/tags/cio/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "CISO"
+url: https://www.ramoo.net/tags/ciso/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
 title: "Cloudflare"
 url: https://www.ramoo.net/tags/cloudflare/index.md
 --------------------------------------------------------------------------------
@@ -3498,6 +5815,12 @@ url: https://www.ramoo.net/tags/ipv4/index.md
 --------------------------------------------------------------------------------
 title: "IPv6"
 url: https://www.ramoo.net/tags/ipv6/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "KAIST"
+url: https://www.ramoo.net/tags/kaist/index.md
 --------------------------------------------------------------------------------
 <no value>
 
@@ -3772,6 +6095,12 @@ url: https://www.ramoo.net/tags/%EA%B8%88%EB%A6%AC/index.md
 <no value>
 
 --------------------------------------------------------------------------------
+title: "김용대"
+url: https://www.ramoo.net/tags/%EA%B9%80%EC%9A%A9%EB%8C%80/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
 title: "내 IP 확인"
 url: https://www.ramoo.net/tags/%EB%82%B4-ip-%ED%99%95%EC%9D%B8/index.md
 --------------------------------------------------------------------------------
@@ -3792,6 +6121,12 @@ url: https://www.ramoo.net/tags/%EB%B0%A9%ED%99%94%EB%B2%BD/index.md
 --------------------------------------------------------------------------------
 title: "배당주"
 url: https://www.ramoo.net/tags/%EB%B0%B0%EB%8B%B9%EC%A3%BC/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "보안"
+url: https://www.ramoo.net/tags/%EB%B3%B4%EC%95%88/index.md
 --------------------------------------------------------------------------------
 <no value>
 
@@ -3870,6 +6205,12 @@ url: https://www.ramoo.net/tags/%EC%9E%A5%EA%B8%B0%ED%88%AC%EC%9E%90/index.md
 --------------------------------------------------------------------------------
 title: "전원주택"
 url: https://www.ramoo.net/tags/%EC%A0%84%EC%9B%90%EC%A3%BC%ED%83%9D/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "정보보호"
+url: https://www.ramoo.net/tags/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8/index.md
 --------------------------------------------------------------------------------
 <no value>
 

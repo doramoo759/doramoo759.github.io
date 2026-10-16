@@ -8,6 +8,17 @@
 - [Contact](https://www.ramoo.net/contact/index.md): Contact information for ramoo.net.
 - [블로그](https://www.ramoo.net/blog/index.md): 투자·경제, 시사, 전원생활, 개발·서버와 전자기기 취미까지 ramoo.net에 기록한 글을 모아 봅니다.
 
+## News
+- [News](https://www.ramoo.net/news/index.md): 시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
+
+- [김용대 KAIST 교수님의 금융회사 보안 뚫린 이유 소설로 풍자](https://www.ramoo.net/news/security-beyond-tools-a-conversation/index.md): 지디넷코리아에 실린 김용대 KAIST 교수의 보안 풍자 소설을 인물 아이콘과 채팅 말풍선으로 재구성했다. 프롤로그부터 에필로그까지 대사와 지문을 순서대로 읽을 수 있다.
+- [동료에게 듣고 찾아본 인천 구월동 흉기 난동 사건](https://www.ramoo.net/news/incheon-guwol-stabbing-news/index.md): 직장 동료에게 소식을 듣고 찾아본 인천 구월동 상업시설 흉기 난동 사건. 기사 네 편과 저녁 후속 보도를 바탕으로 사건 경위와 달라진 내용을 정리하고 관련 영상을 남겼다.
+- [노벨상까지 내놓으라는 트럼프, 후대는 어떻게 기억할까](https://www.ramoo.net/news/trump-nobel-peace-prize-icc-sanctions/index.md): 트럼프의 노벨평화상 불만과 미국의 ICC 제재를 다룬 기사 세 편을 짧게 정리하고, 국가 지도자의 책임에 대한 생각을 남긴다.
+- [트럼프, 유네스코 탈퇴 결정… "친팔레스타인·친중국 성향"](https://www.ramoo.net/news/teureompeu-yuneseuko-taltoe-gyeoljeong-cinpalreseutain-cinjunggug-seonghyang/index.md): "상식적인 정책과 완전히 어긋나…미국 최우선으로 생각할 것" 2023년 조 바이든 전 대통령 재가입 이후 2년 만
+- ["지금 이 난리에!" 시민들 분노…'덩실덩실' 구리시장 "술은 안 마셨다" / SBS 8뉴스](https://www.ramoo.net/news/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/index.md): 참 이 물난리에 잠깐 참석이라도 하지 말았어야 한다. 그 시간에 야유회 참석 안 한다고 누가 뭐라 하겠는가.. 같은 시간 공무원들은 비상 근무를 하고 있었다는데
+- [Weekly hot issue - 강선우 후보자를 둘러싼 보좌진 갑질 논란](https://www.ramoo.net/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/index.md): 최근 강선우 여성가족부 장관 후보자를 둘러싼 ‘보좌진 갑질 논란’이 정치권을 흔들고 있습니다. 이번 논란은 인사청문회 과정에서 전·현직 보좌진들의 폭로로 촉발되었습니다.
+- [Weekly News (2025년 7월 18일)](https://www.ramoo.net/news/weekly-news-2025nyeon-7weol-18il/index.md): 이재명 대통령은 전국적인 폭우 피해로 인해 부산 타운홀 미팅 일정을 취소하고 피해 상황 점검에 집중했다.
+
 ## Pages
 - [Pages](https://www.ramoo.net/pages/index.md)
 
@@ -71,16 +82,6 @@
 - [주린이 벗어나기 2탄: 배당주와 성장주를 보며 든 생각](https://www.ramoo.net/money/jurini-dividend-vs-growth-2/index.md): 배당과 성장에서 기대하는 것, 투자 기간, 복리 계산, 숏커버를 공부한 메모.
 - [주린이 벗어나기 1탄: PER, PBR, PSR을 읽을 때 놓치기 쉬운 것](https://www.ramoo.net/money/jurini-indicators-1/index.md): PER, PBR, PSR을 볼 때 이익·자산·매출에서 같이 확인할 내용을 적은 공부 메모.
 
-## News
-- [News](https://www.ramoo.net/news/index.md): 시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
-
-- [동료에게 듣고 찾아본 인천 구월동 흉기 난동 사건](https://www.ramoo.net/news/incheon-guwol-stabbing-news/index.md): 직장 동료에게 소식을 듣고 찾아본 인천 구월동 상업시설 흉기 난동 사건. 기사 네 편과 저녁 후속 보도를 바탕으로 사건 경위와 달라진 내용을 정리하고 관련 영상을 남겼다.
-- [노벨상까지 내놓으라는 트럼프, 후대는 어떻게 기억할까](https://www.ramoo.net/news/trump-nobel-peace-prize-icc-sanctions/index.md): 트럼프의 노벨평화상 불만과 미국의 ICC 제재를 다룬 기사 세 편을 짧게 정리하고, 국가 지도자의 책임에 대한 생각을 남긴다.
-- [트럼프, 유네스코 탈퇴 결정… "친팔레스타인·친중국 성향"](https://www.ramoo.net/news/teureompeu-yuneseuko-taltoe-gyeoljeong-cinpalreseutain-cinjunggug-seonghyang/index.md): "상식적인 정책과 완전히 어긋나…미국 최우선으로 생각할 것" 2023년 조 바이든 전 대통령 재가입 이후 2년 만
-- ["지금 이 난리에!" 시민들 분노…'덩실덩실' 구리시장 "술은 안 마셨다" / SBS 8뉴스](https://www.ramoo.net/news/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/index.md): 참 이 물난리에 잠깐 참석이라도 하지 말았어야 한다. 그 시간에 야유회 참석 안 한다고 누가 뭐라 하겠는가.. 같은 시간 공무원들은 비상 근무를 하고 있었다는데
-- [Weekly hot issue - 강선우 후보자를 둘러싼 보좌진 갑질 논란](https://www.ramoo.net/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/index.md): 최근 강선우 여성가족부 장관 후보자를 둘러싼 ‘보좌진 갑질 논란’이 정치권을 흔들고 있습니다. 이번 논란은 인사청문회 과정에서 전·현직 보좌진들의 폭로로 촉발되었습니다.
-- [Weekly News (2025년 7월 18일)](https://www.ramoo.net/news/weekly-news-2025nyeon-7weol-18il/index.md): 이재명 대통령은 전국적인 폭우 피해로 인해 부산 타운홀 미팅 일정을 취소하고 피해 상황 점검에 집중했다.
-
 ## Exurban
 - [Exurban](https://www.ramoo.net/exurban/index.md): 전원주택·건축·인테리어와 교외 생활을 위한 기록
 
@@ -110,6 +111,8 @@
 - [Apache Guacamole](https://www.ramoo.net/tags/apache-guacamole/index.md)
 - [Certbot](https://www.ramoo.net/tags/certbot/index.md)
 - [CIDR](https://www.ramoo.net/tags/cidr/index.md)
+- [CIO](https://www.ramoo.net/tags/cio/index.md)
+- [CISO](https://www.ramoo.net/tags/ciso/index.md)
 - [Cloudflare](https://www.ramoo.net/tags/cloudflare/index.md)
 - [Distributed Systems](https://www.ramoo.net/tags/distributed-systems/index.md)
 - [DNS](https://www.ramoo.net/tags/dns/index.md)
@@ -129,6 +132,7 @@
 - [IpTIME](https://www.ramoo.net/tags/iptime/index.md)
 - [IPv4](https://www.ramoo.net/tags/ipv4/index.md)
 - [IPv6](https://www.ramoo.net/tags/ipv6/index.md)
+- [KAIST](https://www.ramoo.net/tags/kaist/index.md)
 - [LACP](https://www.ramoo.net/tags/lacp/index.md)
 - [Let's Encrypt](https://www.ramoo.net/tags/lets-encrypt/index.md)
 - [Life](https://www.ramoo.net/tags/life/index.md)
@@ -174,10 +178,12 @@
 - [국제형사재판소](https://www.ramoo.net/tags/%EA%B5%AD%EC%A0%9C%ED%98%95%EC%82%AC%EC%9E%AC%ED%8C%90%EC%86%8C/index.md)
 - [근로소득세](https://www.ramoo.net/tags/%EA%B7%BC%EB%A1%9C%EC%86%8C%EB%93%9D%EC%84%B8/index.md)
 - [금리](https://www.ramoo.net/tags/%EA%B8%88%EB%A6%AC/index.md)
+- [김용대](https://www.ramoo.net/tags/%EA%B9%80%EC%9A%A9%EB%8C%80/index.md)
 - [내 IP 확인](https://www.ramoo.net/tags/%EB%82%B4-ip-%ED%99%95%EC%9D%B8/index.md)
 - [노벨평화상](https://www.ramoo.net/tags/%EB%85%B8%EB%B2%A8%ED%8F%89%ED%99%94%EC%83%81/index.md)
 - [방화벽](https://www.ramoo.net/tags/%EB%B0%A9%ED%99%94%EB%B2%BD/index.md)
 - [배당주](https://www.ramoo.net/tags/%EB%B0%B0%EB%8B%B9%EC%A3%BC/index.md)
+- [보안](https://www.ramoo.net/tags/%EB%B3%B4%EC%95%88/index.md)
 - [부동산](https://www.ramoo.net/tags/%EB%B6%80%EB%8F%99%EC%82%B0/index.md)
 - [사건사고](https://www.ramoo.net/tags/%EC%82%AC%EA%B1%B4%EC%82%AC%EA%B3%A0/index.md)
 - [사설 IP](https://www.ramoo.net/tags/%EC%82%AC%EC%84%A4-ip/index.md)
@@ -191,6 +197,7 @@
 - [인천](https://www.ramoo.net/tags/%EC%9D%B8%EC%B2%9C/index.md)
 - [장기투자](https://www.ramoo.net/tags/%EC%9E%A5%EA%B8%B0%ED%88%AC%EC%9E%90/index.md)
 - [전원주택](https://www.ramoo.net/tags/%EC%A0%84%EC%9B%90%EC%A3%BC%ED%83%9D/index.md)
+- [정보보호](https://www.ramoo.net/tags/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8/index.md)
 - [주식](https://www.ramoo.net/tags/%EC%A3%BC%EC%8B%9D/index.md)
 - [주택 스크랩](https://www.ramoo.net/tags/%EC%A3%BC%ED%83%9D-%EC%8A%A4%ED%81%AC%EB%9E%A9/index.md)
 - [주택공급](https://www.ramoo.net/tags/%EC%A3%BC%ED%83%9D%EA%B3%B5%EA%B8%89/index.md)
