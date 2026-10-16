@@ -37,17 +37,17 @@ description: 투자·경제, 시사, 전원생활, 개발·서버와 전자기�
 투자·경제, 시사, 전원생활, 개발·서버와 전자기기 취미까지 ramoo.net에 기록한 글을 모아 봅니다.
 
 --------------------------------------------------------------------------------
-title: "Work"
-url: https://www.ramoo.net/work/index.md
-description: 프로그래밍·서버 구축·개발 도구와 업무 문제 해결 기록
+title: "Hobby"
+url: https://www.ramoo.net/hobby/index.md
+description: 프로그래밍·서버 구축·개발 도구부터 맥·전자기기 사용기, 개인 NAS와 홈 네트워크 경험까지 담은 기록입니다.
 --------------------------------------------------------------------------------
 
-네트워크 연결을 확인할 때는 [내 IP 주소 확인하기 — 공인 IP 조회와 위치 지도](/work/check-my-ip/)에서 현재 IP와 통신사 정보를 바로 볼 수 있습니다.
+네트워크 연결을 확인할 때는 [내 IP 주소 확인하기 — 공인 IP 조회와 위치 지도](/hobby/check-my-ip/)에서 현재 IP와 통신사 정보를 바로 볼 수 있습니다.
 
 
 --------------------------------------------------------------------------------
 title: "IPv4 CIDR·서브넷 계산기: IP 범위 확인과 클래스 A·B·C 이해하기"
-url: https://www.ramoo.net/work/cidr-subnet-calculator/index.md
+url: https://www.ramoo.net/hobby/cidr-subnet-calculator/index.md
 date: "2026-10-15"
 description: IPv4 주소와 CIDR 프리픽스로 네트워크 시작·끝, 서브넷 마스크, 브로드캐스트와 호스트 수를 계산합니다. IP 클래스 A·B·C의 의미와 방화벽·공유기 설정 예시도 설명합니다.
 --------------------------------------------------------------------------------
@@ -162,7 +162,7 @@ description: IPv4 주소와 CIDR 프리픽스로 네트워크 시작·끝, 서�
 
 규칙을 적용하기 전에는 출발지·목적지 방향, 포트와 프로토콜, 허용·차단 동작 및 규칙 순서를 확인합니다. 특히 관리 화면의 접근 규칙을 수정한다면 기존 설정을 기록하고 복구 가능한 접속 경로를 확보합니다. `0.0.0.0/0` 허용은 의도한 서비스만 대상으로 사용해야 합니다.
 
-인터넷에서 집의 NAS에 접속하도록 허용할 때는 외부에서 보이는 출발지 공인 IP와 내부 PC의 사설 IP를 혼동하지 않아야 합니다. 현재 연결의 외부 주소는 [내 IP 주소 확인 도구](/work/check-my-ip/)로 확인할 수 있습니다. 지역별 정책을 설정하는 상황은 [시놀로지 NAS 방화벽 설정 글](/work/synology-region-firewall/)도 참고할 수 있습니다.
+인터넷에서 집의 NAS에 접속하도록 허용할 때는 외부에서 보이는 출발지 공인 IP와 내부 PC의 사설 IP를 혼동하지 않아야 합니다. 현재 연결의 외부 주소는 [내 IP 주소 확인 도구](/hobby/check-my-ip/)로 확인할 수 있습니다. 지역별 정책을 설정하는 상황은 [시놀로지 NAS 방화벽 설정 글](/hobby/synology-region-firewall/)도 참고할 수 있습니다.
 
 ### 공유기의 LAN·DHCP 범위를 정할 때
 
@@ -191,7 +191,7 @@ CIDR 계산은 서로 다른 네트워크의 범위가 겹치는지 검토할 �
 
 --------------------------------------------------------------------------------
 title: "내 IP 주소 확인하기"
-url: https://www.ramoo.net/work/check-my-ip/index.md
+url: https://www.ramoo.net/hobby/check-my-ip/index.md
 date: "2026-10-14"
 description: 내 IP 주소를 무료로 확인하세요. 공인 IP 조회, IPv4·IPv6 구분, IP 위치 지도, 통신사·ASN과 연결 정보를 확인하고 주소를 바로 복사할 수 있습니다.
 --------------------------------------------------------------------------------
@@ -260,15 +260,15 @@ IP 위치는 네트워크 대역에 연결된 지리 정보를 기반으로 추�
 
 ## 함께 읽으면 좋은 네트워크 글
 
-- [Synology DNS Server 설치와 A·PTR 레코드 설정](/work/synology-dns-server/)
-- [Synology NAS의 지역별 방화벽 설정 기록](/work/synology-region-firewall/)
+- [Synology DNS Server 설치와 A·PTR 레코드 설정](/hobby/synology-dns-server/)
+- [Synology NAS의 지역별 방화벽 설정 기록](/hobby/synology-region-firewall/)
 
 {{< ip-check-tags >}}
 
 
 --------------------------------------------------------------------------------
 title: "웹 브라우저 기반 원격 접속 Apache Guacamole 사내망 구축 및 RDP/SSH 테스트"
-url: https://www.ramoo.net/work/apache-guacamole-intro/index.md
+url: https://www.ramoo.net/hobby/apache-guacamole-intro/index.md
 date: "2026-04-24"
 description: 브라우저 SSH 접속은 편했지만 LDAP 연동과 계정·세션 관리가 걸렸다. 사내망 테스트에서 멈춘 기록.
 --------------------------------------------------------------------------------
@@ -309,7 +309,7 @@ LDAP 연동에서 불안정한 부분이 있었다. 테스트에서는 다시 �
 
 --------------------------------------------------------------------------------
 title: "FlatBuffers 기본 개념과 Ubuntu 22.04 빌드 메모"
-url: https://www.ramoo.net/work/flatbuffers-in-real-systems/index.md
+url: https://www.ramoo.net/hobby/flatbuffers-in-real-systems/index.md
 date: "2026-04-23"
 description: FlatBuffers가 버퍼를 읽는 방식과 스키마·생성 코드, Ubuntu 22.04 소스 빌드 명령.
 --------------------------------------------------------------------------------
@@ -373,7 +373,7 @@ sudo ldconfig
 
 --------------------------------------------------------------------------------
 title: "ZeroMQ를 살펴보며 적어 둔 메시징 패턴"
-url: https://www.ramoo.net/work/zeromq-patterns/index.md
+url: https://www.ramoo.net/hobby/zeromq-patterns/index.md
 date: "2026-04-23"
 description: REQ/REP, PUB/SUB, PUSH/PULL, PAIR의 메시지 흐름과 애플리케이션에서 정할 부분.
 --------------------------------------------------------------------------------
@@ -411,8 +411,78 @@ ZeroMQ는 프로그램 안에서 메시지를 주고받는 데 쓰는 라이브�
 
 
 --------------------------------------------------------------------------------
+title: "시놀로지 DS918+ USB 2.5G 랜카드 설치 후기와 인식 불안정으로 원복한 이유"
+url: https://www.ramoo.net/hobby/ds918-plus-25g-upgrade/index.md
+date: "2022-11-16"
+description: ipTIME U2500과 r8152 드라이버로 구성한 DS918+ 2.5G 연결. 설치 과정과 전송 속도, 철거한 이유.
+--------------------------------------------------------------------------------
+
+![DS918+ 2.5G 네트워크 구성 이미지](/images/server/ds918-25g/cover.png)
+
+PC에서 2.5G LAN을 쓸 수 있으니 DS918+도 같은 속도로 연결해 보고 싶었다. NAS를 바꾸는 대신 USB LAN 어댑터와 2.5G 스위칭 허브를 붙였다.
+
+속도는 잘 나왔다. PC에서 NAS로 복사할 때 약 290MB/s, 반대 방향은 약 220MB/s였다. 다만 쓰다 보니 간헐적으로 네트워크가 먹통이 됐고, 결국 어댑터를 빼고 원래 구성으로 돌아갔다.
+
+## 사용한 장비
+
+- 2.5G LAN을 지원하는 PC
+- ipTIME USB 3.0 U2500 (`RTL8156` 칩셋)
+- 2.5G 스위칭 허브
+- Synology DS918+
+
+DSM에서 USB LAN을 쓰려면 별도 드라이버가 필요하다. 어댑터를 고를 때는 [r8152 호환 목록](https://github.com/bb-qq/r8152/wiki/Compatibility)을 확인했다.
+
+내 DS918+에서는 후면 USB 포트의 인식이 불안정했고, 전면 포트에서는 비교적 잘 잡혔다. 그래서 전면 포트에 연결해서 사용했다.
+
+## r8152 드라이버 설치
+
+[bb-qq/r8152 릴리스](https://github.com/bb-qq/r8152/releases)에서 NAS 모델과 DSM 버전에 맞는 `spk` 파일을 받는다. DSM 패키지 센터의 **수동 설치**로 진행하면 된다.
+
+![DSM 패키지 수동 설치 화면](/images/server/ds918-25g/manual-install.webp)
+
+설치 중 오류가 나서 SSH로 접속해 아래 명령을 실행한 뒤 다시 설치했다. 당시 사용한 패키지에서 필요한 조치였다.
+
+```bash
+sudo install -m 4755 -o root -D /var/packages/r8152/target/r8152/spk_su /opt/sbin/spk_su
+```
+
+설치가 끝나면 패키지 센터에서 드라이버 상태를 확인한다.
+
+![DSM r8152 드라이버 설치 확인](/images/server/ds918-25g/driver-installed.webp)
+
+## 인터페이스 설정과 연결
+
+제어판의 **네트워크 인터페이스**에 USB LAN이 추가된 것을 확인하고, 편집 화면에서 `Jumbo Frame`을 `9K`로 설정했다. 아래는 당시 사용한 설정이다.
+
+![점보 프레임 9K 설정 화면](/images/server/ds918-25g/jumbo-frame.webp)
+
+PC와 NAS를 직접 연결해 수동 IP를 잡는 방법도 있지만, 나는 2.5G 스위칭 허브에 연결했다.
+
+![2.5G 스위칭 허브 구성 예시 1](/images/server/ds918-25g/switch-01.webp)
+
+![2.5G 스위칭 허브 구성 예시 2](/images/server/ds918-25g/switch-02.webp)
+
+이 구성에서 측정한 전송 속도는 다음과 같다. 내 환경에서 파일을 복사하며 확인한 수치이다.
+
+| 방향 | 전송 속도 |
+| --- | --- |
+| PC → NAS | 약 290MB/s |
+| NAS → PC | 약 220MB/s |
+
+1GbE로 쓰던 때보다 파일 복사는 확실히 빨라졌다.
+
+## 결국 철거했다
+
+처음에는 잘 썼지만, 사용을 이어 가면서 간헐적으로 네트워크가 멈추는 문제가 생겼다. 드라이버를 중지했다가 다시 로드하면 복구됐다. 계속 켜 두는 NAS에서 그 작업을 반복해야 한다는 게 불편했다.
+
+전면 포트를 써야 하는 것도 마음에 걸렸다. 어댑터와 랜선이 앞에 계속 꽂혀 있으니 케이블 정리가 깔끔하지 않았다.
+
+속도만 보면 아쉬운 업그레이드는 아니었다. 그래도 내 NAS에서는 안정성과 케이블 정리 문제 때문에 오래 유지하지 못했다.
+
+
+--------------------------------------------------------------------------------
 title: "Synology GitLab CE 컨테이너 업데이트 메모"
-url: https://www.ramoo.net/work/synology-gitlab-docker-update/index.md
+url: https://www.ramoo.net/hobby/synology-gitlab-docker-update/index.md
 date: "2022-03-22"
 description: GitLab CE 14.8.3에서 14.8.4로 업데이트할 때 사용한 DSM Docker 화면과 설정 내보내기·가져오기 기록.
 --------------------------------------------------------------------------------
@@ -486,7 +556,7 @@ GitLab CE를 Docker Registry에서 받아 설치해 두었다. 설치한 이미�
 
 --------------------------------------------------------------------------------
 title: "시놀로지 DNS Server 구축 및 내부 도메인 레코드 설정 방법"
-url: https://www.ramoo.net/work/synology-dns-server/index.md
+url: https://www.ramoo.net/hobby/synology-dns-server/index.md
 date: "2021-07-31"
 description: DSM 7.0에서 DNS Server를 설치하고 정방향 영역, A·PTR 레코드, 네임서버 설정을 살펴본 기록.
 --------------------------------------------------------------------------------
@@ -587,12 +657,12 @@ NAS에 직접 물었을 때 레코드가 나오는지, 일반 DNS 조회에서�
 
 ## 현재 외부 IP 확인
 
-인터넷에서 보이는 현재 주소가 궁금하다면 [내 IP 주소 확인하기](/work/check-my-ip/)에서 공인 IP와 네트워크 정보를 조회할 수 있습니다. 기기의 내부 주소와 외부에 표시되는 주소가 다를 수 있으므로 DNS 레코드를 설정할 때 사용할 주소를 구분해서 확인합니다.
+인터넷에서 보이는 현재 주소가 궁금하다면 [내 IP 주소 확인하기](/hobby/check-my-ip/)에서 공인 IP와 네트워크 정보를 조회할 수 있습니다. 기기의 내부 주소와 외부에 표시되는 주소가 다를 수 있으므로 DNS 레코드를 설정할 때 사용할 주소를 구분해서 확인합니다.
 
 
 --------------------------------------------------------------------------------
 title: "C++ std::tuple 활용법: 함수에서 여러 값 반환하고 std::tie로 받는 방법"
-url: https://www.ramoo.net/work/cpp11-tuple/index.md
+url: https://www.ramoo.net/hobby/cpp11-tuple/index.md
 date: "2021-06-26"
 description: 함수 결과를 tuple로 묶고 get과 tie로 꺼내는 예제. 마지막 구조적 바인딩은 C++17 문법이다.
 --------------------------------------------------------------------------------
@@ -642,7 +712,7 @@ int main()
 
 --------------------------------------------------------------------------------
 title: "C++ 람다를 쓰며 적어 둔 메모"
-url: https://www.ramoo.net/work/cpp11-lambda/index.md
+url: https://www.ramoo.net/hobby/cpp11-lambda/index.md
 date: "2021-01-30"
 description: 캡처 방식과 std::function 콜백, 정렬에 람다를 쓰는 형태를 적어 둔 메모.
 --------------------------------------------------------------------------------
@@ -733,7 +803,7 @@ int main()
 
 --------------------------------------------------------------------------------
 title: "맥(Mac)에서 Let's Encrypt 와일드카드 SSL 인증서 발급 후 시놀로지 NAS 적용 가이드"
-url: https://www.ramoo.net/work/synology-wildcard-certbot-mac/index.md
+url: https://www.ramoo.net/hobby/synology-wildcard-certbot-mac/index.md
 date: "2021-01-09"
 description: Mac에서 Certbot을 실행하고 NAS DNS에 TXT 레코드를 추가한 뒤 인증서를 가져온 기록. 2021년 화면 기준.
 --------------------------------------------------------------------------------
@@ -833,12 +903,126 @@ IMPORTANT NOTES:
 
 자동 갱신도 알아봤지만, 당시에는 수동으로 3개월마다 하기로 했다. 핑계 삼아 관리도 할 겸.
 
-관련 메모: [Synology DNS Server 설정](/work/synology-dns-server/)
+관련 메모: [Synology DNS Server 설정](/hobby/synology-dns-server/)
+
+
+--------------------------------------------------------------------------------
+title: "TL-SG2008로 DS918+ 링크통합을 시도했다"
+url: https://www.ramoo.net/hobby/tl-sg2008-lacp/index.md
+date: "2021-01-01"
+description: DS918+의 두 LAN 포트를 쓰려고 고른 TL-SG2008. 동적 링크통합에서 오류가 나 설정을 바꿨다.
+--------------------------------------------------------------------------------
+
+DS918+에는 LAN 포트가 두 개 있다. 하나만 쓰고 있자니 허전해서 둘 다 써 볼 생각으로 LACP를 구성해 보기로 했다.
+
+LACP를 지원하는 스위치를 찾다가 TL-SG2008을 골랐다.
+
+## 가격이 마음에 들었다
+
+집에서 취미로 쓰는 장비라 비싼 제품은 부담스럽다. 당시에는 국내에서 7만 원 이하로 살 수 있었다. 2020년 12월 구매 기준이다.
+
+![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 1](/images/server/blog-nas/tl-sg2008-lacp/photo-01.jpg)
+
+제품 사양의 프로토콜 항목에 `IEEE 802.3ad`가 있는지 봤다. 링크통합을 지원하는지 확인하면서 살펴본 부분이다.
+
+![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 2](/images/server/blog-nas/tl-sg2008-lacp/photo-02.png)
+
+## 실제 연결 결과
+
+생각처럼 동작할까 싶어서 연결했다.
+
+![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 3](/images/server/blog-nas/tl-sg2008-lacp/photo-03.png)
+
+동적 Link Aggregation에서는 오류와 경고가 나왔다. 결국 원문에서 'v1'이라고 적어 둔 방식으로 바꿔 사용했다. 당시 기록에는 그 설정 이름을 더 자세히 남기지 않았다.
+
+![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 4](/images/server/blog-nas/tl-sg2008-lacp/photo-04.png)
+
+아쉬움은 있지만 가격을 생각하면 용서가 된다.
+
+
+--------------------------------------------------------------------------------
+title: "LG 43UN700 43인치 4K 모니터 실사용기 — 맥북 연결 및 CalDigit DP 색상 왜곡 해결법"
+url: https://www.ramoo.net/hobby/lg-43un700-monitor/index.md
+date: "2021-01-01"
+description: 큰 화면과 USB-C 허브 기능은 편했다. CalDigit TS3 Plus에 연결했을 때 붉게 보이던 화면은 DP 설정을 바꿔 해결했다.
+--------------------------------------------------------------------------------
+
+LG 43UN700을 약 2주 사용하고 적은 후기다. 설치 기사가 빠르게 설치해 주고 가서 언박싱 사진은 없다.
+
+## 크기
+
+회사에서 40인치 커브드 모니터를 쓰고 있어 큰 화면 자체는 익숙했다. 42.5인치라 조금 더 큰 느낌이지만 적당해 보였다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 1](/images/off-duty/lg-43un700-monitor/photo-01.jpg)
+
+모니터 아래에 놓인 CalDigit TS3 Plus와 비교하면 크기가 짐작된다.
+
+## 색상 때문에 한참 헤맸다
+
+기존 모니터의 색감이 좋지 않아 MacBook 화면과 맞추는 데 시간을 쓰곤 했다. 그래서 이번에는 색상을 중요하게 봤다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 2](/images/off-duty/lg-43un700-monitor/photo-02.png)
+
+그런데 연결하니 화면이 붉게 보였다. 방법을 찾아보고 서비스센터에도 문의했지만 제품에는 이상이 없다는 답변이었다. 아마존 후기에서도 비슷한 이야기를 보고 며칠은 그냥 쓰다가 원인을 찾았다.
+
+내 구성에서는 모니터의 DP 버전과 CalDigit TS3 Plus 연결이 관련 있었다. 모니터의 DP 설정을 1.2로 낮춘 뒤 원하는 색상을 볼 수 있었다. USB-C로 연결했는데 왜 DP 단자 설정의 영향을 받는지는 당시에도 잘 모르겠었다.
+
+DP 1.4에서 HDR이 자동으로 켜지면 색상 조정 메뉴를 쓸 수 없어 더 답답했다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 3](/images/off-duty/lg-43un700-monitor/photo-03.png)
+
+## 연결과 편의 기능
+
+USB 허브 기능이 의외로 마음에 들었다. USB-C 하나로 화면과 USB 기기를 연결해서 별도 허브를 치웠다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 4](/images/off-duty/lg-43un700-monitor/photo-04.png)
+
+앱으로 모니터를 제어하는 기능도 있었다. 여러 입력을 쓰면 편하겠지만 MacBook 하나만 연결해서 실제로 써 보지는 않았다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 5](/images/off-duty/lg-43un700-monitor/photo-05.png)
+
+높이 조절이 없는 것은 아쉽다. 큰 모니터를 책상에 올려 놓으면 높이를 낮춰야 편한데, 위를 올려다보게 되면 불편하다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 6](/images/off-duty/lg-43un700-monitor/photo-06.png)
+
+큰 화면과 USB-C 연결, 별도 스피커가 필요 없을 정도의 소리는 괜찮았다. 다만 모니터가 두꺼워 TV 프레임을 그대로 쓴 것 같은 느낌이었다.
+
+
+--------------------------------------------------------------------------------
+title: "ipTIME A3004NS-M 가성비 기가 와이파이 공유기 실사용기: 간이 NAS 끄고 공유기로만 쓴 이유"
+url: https://www.ramoo.net/hobby/iptime-a3004ns-m/index.md
+date: "2020-07-26"
+description: VPN과 USB 간이 NAS에서는 문제가 있었지만, 공유기 기능만 쓰니 안정적이었다. 2020년 사용 기록.
+--------------------------------------------------------------------------------
+
+사용하던 공유기가 오래돼서 ipTIME A3004NS-M을 골랐다. 가격과 기능을 보고 적당하겠다 싶어 산 5만 원대 가정용 공유기다.
+
+![ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다 — 화면 1](/images/server/blog-nas/iptime-a3004ns-m/photo-01.png)
+
+우연히 같은 제품을 두 개 샀다. 거실에 놓고 쓴 지 1년쯤 됐을 때의 기록이다.
+
+## VPN과 간이 NAS는 포기
+
+처음 한두 달은 회사에서 VPN이 필요해서 써 봤다. 연결이 하루를 못 가고 자주 끊겨서 포기했다.
+
+USB 3.0에 저장 장치를 붙여 간이 NAS로도 써 봤지만, 3개월을 못 가고 제품이 먹통이 됐다.
+
+고장 난 제품은 A/S를 보내고, 다른 한 대를 거실에 두었다. 이번에는 공유기 기능 외에는 쓰지 않았다.
+
+![ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다 — 화면 2](/images/server/blog-nas/iptime-a3004ns-m/photo-02.png)
+
+## 공유기로만 쓰니 안정적이었다
+
+그렇게 8개월 동안 한 번도 끊기지 않고 돌아갔다. 당연한 일이라고 할 수도 있지만 기대가 크지 않았던 만큼 의외로 만족했다.
+
+고장 났던 제품은 일반 인터넷 연결도 자주 끊겨 새벽에 재부팅하도록 설정해 쓰고 있었다.
+
+사용량이 많지는 않았다. BTV, 인터넷, 휴대폰 3~4대, NAS 연결, 가끔 토렌트 정도다. 내 환경에서는 공유기 본래 기능만 쓸 때 꽤 잘 버텼다.
 
 
 --------------------------------------------------------------------------------
 title: "C++11 push_back vs emplace_back 차이점과 객체 생성 최적화 원리"
-url: https://www.ramoo.net/work/cpp11-emplace/index.md
+url: https://www.ramoo.net/hobby/cpp11-emplace/index.md
 date: "2020-04-17"
 description: 생성자 인자를 바로 넘겨 원소를 만드는 emplace_back과 push_back을 비교한 코드 조각.
 --------------------------------------------------------------------------------
@@ -868,7 +1052,7 @@ void main(){
 
 --------------------------------------------------------------------------------
 title: "SSL For Free에서 와일드카드 인증서를 받았던 기록"
-url: https://www.ramoo.net/work/synology-wildcard-sslforfree/index.md
+url: https://www.ramoo.net/hobby/synology-wildcard-sslforfree/index.md
 date: "2019-12-11"
 description: 2019년에 SSL For Free에서 와일드카드 인증서를 발급했던 기록. 이후에는 Mac의 Certbot으로 바꿨다.
 --------------------------------------------------------------------------------
@@ -895,12 +1079,84 @@ description: 2019년에 SSL For Free에서 와일드카드 인증서를 발급�
 
 메일 주소를 입력하면 만료 전에 알림을 받을 수 있다고 했다.
 
-이후에는 Mac에서 직접 발급하는 방식으로 바꿨다. 그 기록은 [Certbot으로 발급해 NAS에 적용한 메모](/work/synology-wildcard-certbot-mac/)에 남겼다.
+이후에는 Mac에서 직접 발급하는 방식으로 바꿨다. 그 기록은 [Certbot으로 발급해 NAS에 적용한 메모](/hobby/synology-wildcard-certbot-mac/)에 남겼다.
+
+
+--------------------------------------------------------------------------------
+title: "시놀로지 DS918+ RAM 메모리 16GB 업그레이드 방법 및 호환 메모리 확인기"
+url: https://www.ramoo.net/hobby/ds918-memory-upgrade/index.md
+date: "2019-11-02"
+description: DS918+에 CT2K102464BF186D 메모리를 장착한 기록. 사용 중 느낀 변화와 남은 기존 메모리 이야기.
+--------------------------------------------------------------------------------
+
+DS918+를 사고 메모리를 늘리려고 알아봤다. 아무 메모리나 사서 꽂으면 되는 것은 아니어서 아래 모델을 골랐다.
+
+```text
+DDR3L 1866 MT/s (PC3-14900)
+Unbuffered SODIMM 204-Pin
+CT2K102464BF186D
+```
+
+![DS918+ 메모리 업그레이드 — 화면 1](/images/server/blog-nas/ds918-memory-upgrade/photo-01.jpeg)
+
+아마존에서 샀다. 처음에는 8GB 하나만 사려고 했는데, 해외에서 오는 김에 세트로 주문했다.
+
+## 장착 후
+
+메모리 용량이 많이 남았다. 돈을 너무 쓴 건 아닌가 싶었지만 체감상 확실히 빠릿해진 느낌이었다.
+
+![DS918+ 메모리 업그레이드 — 화면 2](/images/server/blog-nas/ds918-memory-upgrade/photo-02.png)
+
+당시 사용 중에는 안정적으로 동작했다. 메모리가 넉넉하니 이것저것 올리는 데 부담이 줄어 만족했다.
+
+기존 Synology 4GB 메모리는 어떻게 처분할지 고민이었다.
+
+
+--------------------------------------------------------------------------------
+title: "macOS 카탈리나에서 아이튠즈(iTunes) 사라졌을 때 아이폰 백업 및 동기화 방법"
+url: https://www.ramoo.net/hobby/macos-catalina-itunes/index.md
+date: "2019-11-01"
+description: iTunes를 찾다가 Catalina에서는 Finder로 기기를 동기화한다는 것을 알게 됐다.
+--------------------------------------------------------------------------------
+
+개발하다 앱에 파일을 올릴 일이 있어 iTunes를 찾았는데 아무리 봐도 없었다.
+
+![Catalina에서 사라진 iTunes를 찾다가 — 화면 1](/images/off-duty/macos-catalina-itunes/photo-01.png)
+
+macOS Catalina에서는 iTunes의 기능이 나뉘고, 기기 동기화는 Finder에서 할 수 있었다.
+
+Finder를 열면 왼쪽에 연결한 기기가 나타난다. 선택하면 예전에 iTunes에서 보던 동기화 화면이 나온다.
+
+![Catalina에서 사라진 iTunes를 찾다가 — 화면 2](/images/off-duty/macos-catalina-itunes/photo-02.png)
+
+찾았으니 이제 하던 일을 계속한다.
+
+
+--------------------------------------------------------------------------------
+title: "Mac Finder 숨김 파일·폴더 보기 단축키(Cmd+Shift+.) 및 터미널 명령어 정리"
+url: https://www.ramoo.net/hobby/mac-finder-hidden-files/index.md
+date: "2019-10-29"
+description: 한 번 설정하고 잊기 쉬운 Finder 숨김 파일 표시 명령과 재실행 방법.
+--------------------------------------------------------------------------------
+
+Finder에서 숨김 파일을 표시하는 명령을 적어 둔다. 한 번 설정하면 다시 만질 일이 별로 없어서 잊기 쉽다.
+
+터미널에서 실행한다.
+
+```bash
+defaults write com.apple.Finder AppleShowAllFiles TRUE
+```
+
+Finder를 다시 실행하면 숨김 파일이 보인다.
+
+```bash
+killall Finder
+```
 
 
 --------------------------------------------------------------------------------
 title: "Mac에 Jenkins를 설치했던 기록"
-url: https://www.ramoo.net/work/mac-jenkins-install/index.md
+url: https://www.ramoo.net/hobby/mac-jenkins-install/index.md
 date: "2019-10-29"
 description: Homebrew로 Jenkins를 설치하고 Java 8 오류를 해결했던 2019년 기록.
 --------------------------------------------------------------------------------
@@ -960,7 +1216,7 @@ Xcode로 `homebrew.mxcl.jenkins.plist`를 열어 주소와 포트를 바꿨다.
 
 --------------------------------------------------------------------------------
 title: "시놀로지(Synology) NAS 해외 IP 및 특정 국가 접속 차단 방화벽 설정 방법"
-url: https://www.ramoo.net/work/synology-region-firewall/index.md
+url: https://www.ramoo.net/hobby/synology-region-firewall/index.md
 date: "2019-10-27"
 description: 반복되는 admin 로그인 시도를 보고 DSM 방화벽에서 지역별 규칙을 만들었다. 이후 특정 포트만 차단하도록 바꿨다.
 --------------------------------------------------------------------------------
@@ -987,7 +1243,25 @@ NAS에 admin 계정으로 로그인하려는 흔적이 계속 보여서 IP 위�
 
 ## 내 네트워크의 IP 확인
 
-지금 사용하는 인터넷 연결의 IP와 추정 위치는 [내 IP 주소 확인하기 — 공인 IP·통신사·위치 지도](/work/check-my-ip/)에서 볼 수 있습니다. 현재 방문자의 연결을 조회하는 도구이며, 위에서 사용한 임의 IP 위치 조회 도구와는 용도가 다릅니다.
+지금 사용하는 인터넷 연결의 IP와 추정 위치는 [내 IP 주소 확인하기 — 공인 IP·통신사·위치 지도](/hobby/check-my-ip/)에서 볼 수 있습니다. 현재 방문자의 연결을 조회하는 도구이며, 위에서 사용한 임의 IP 위치 조회 도구와는 용도가 다릅니다.
+
+
+--------------------------------------------------------------------------------
+title: "맥 타임머신(Time Machine) 최초 백업 속도 느릴 때 원인과 해결 팁"
+url: https://www.ramoo.net/hobby/mac-time-machine-speed/index.md
+date: "2019-09-26"
+description: 업데이트 문제를 Time Machine으로 복원한 뒤 백업 속도를 조정해 본 기록.
+--------------------------------------------------------------------------------
+
+Mac을 업데이트하다 한 번 날려 먹은 적이 있다. 그때 Time Machine으로 복원하고 안도의 한숨을 쉬었다.
+
+이후로 꾸준히 백업하고 있지만 속도가 느려서, 당시 찾아 쓴 명령을 적어 둔다.
+
+```bash
+sudo sysctl debug.lowpri_throttle_enabled=0
+```
+
+낮은 우선순위 작업의 제한을 조정하는 설정이다. 내 환경에서는 엄청나게 빨라지는 정도는 아니었지만 어느 정도 효과가 있었다.
 
 
 --------------------------------------------------------------------------------
@@ -1700,15 +1974,15 @@ PSR은 시가총액을 매출액으로 나눈 값이다. 아직 이익이 나지
 
 
 --------------------------------------------------------------------------------
-title: "Gossip"
-url: https://www.ramoo.net/gossip/index.md
+title: "News"
+url: https://www.ramoo.net/news/index.md
 description: 시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
 --------------------------------------------------------------------------------
 시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
 
 --------------------------------------------------------------------------------
 title: "동료에게 듣고 찾아본 인천 구월동 흉기 난동 사건"
-url: https://www.ramoo.net/gossip/incheon-guwol-stabbing-news/index.md
+url: https://www.ramoo.net/news/incheon-guwol-stabbing-news/index.md
 date: "2026-10-13"
 description: 직장 동료에게 소식을 듣고 찾아본 인천 구월동 상업시설 흉기 난동 사건. 기사 네 편과 저녁 후속 보도를 바탕으로 사건 경위와 달라진 내용을 정리하고 관련 영상을 남겼다.
 --------------------------------------------------------------------------------
@@ -1766,7 +2040,7 @@ description: 직장 동료에게 소식을 듣고 찾아본 인천 구월동 상
 
 --------------------------------------------------------------------------------
 title: "노벨상까지 내놓으라는 트럼프, 후대는 어떻게 기억할까"
-url: https://www.ramoo.net/gossip/trump-nobel-peace-prize-icc-sanctions/index.md
+url: https://www.ramoo.net/news/trump-nobel-peace-prize-icc-sanctions/index.md
 date: "2026-10-12"
 description: 트럼프의 노벨평화상 불만과 미국의 ICC 제재를 다룬 기사 세 편을 짧게 정리하고, 국가 지도자의 책임에 대한 생각을 남긴다.
 --------------------------------------------------------------------------------
@@ -1818,7 +2092,7 @@ MBC 뉴스데스크는 트럼프가 여러 전쟁을 끝냈다며 노벨평화�
 
 --------------------------------------------------------------------------------
 title: "트럼프, 유네스코 탈퇴 결정… "친팔레스타인·친중국 성향""
-url: https://www.ramoo.net/gossip/teureompeu-yuneseuko-taltoe-gyeoljeong-cinpalreseutain-cinjunggug-seonghyang/index.md
+url: https://www.ramoo.net/news/teureompeu-yuneseuko-taltoe-gyeoljeong-cinpalreseutain-cinjunggug-seonghyang/index.md
 date: "2025-07-22"
 description: "상식적인 정책과 완전히 어긋나…미국 최우선으로 생각할 것" 2023년 조 바이든 전 대통령 재가입 이후 2년 만
 --------------------------------------------------------------------------------
@@ -1842,7 +2116,7 @@ description: "상식적인 정책과 완전히 어긋나…미국 최우선으�
 
 --------------------------------------------------------------------------------
 title: ""지금 이 난리에!" 시민들 분노…'덩실덩실' 구리시장 "술은 안 마셨다" / SBS 8뉴스"
-url: https://www.ramoo.net/gossip/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/index.md
+url: https://www.ramoo.net/news/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/index.md
 date: "2025-07-21"
 description: 참 이 물난리에 잠깐 참석이라도 하지 말았어야 한다. 그 시간에 야유회 참석 안 한다고 누가 뭐라 하겠는가.. 같은 시간 공무원들은 비상 근무를 하고 있었다는데
 --------------------------------------------------------------------------------
@@ -1856,7 +2130,7 @@ description: 참 이 물난리에 잠깐 참석이라도 하지 말았어야 한
 
 --------------------------------------------------------------------------------
 title: "Weekly hot issue - 강선우 후보자를 둘러싼 보좌진 갑질 논란"
-url: https://www.ramoo.net/gossip/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/index.md
+url: https://www.ramoo.net/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/index.md
 date: "2025-07-21"
 description: 최근 강선우 여성가족부 장관 후보자를 둘러싼 ‘보좌진 갑질 논란’이 정치권을 흔들고 있습니다. 이번 논란은 인사청문회 과정에서 전·현직 보좌진들의 폭로로 촉발되었습니다.
 --------------------------------------------------------------------------------
@@ -1906,7 +2180,7 @@ description: 최근 강선우 여성가족부 장관 후보자를 둘러싼 ‘�
 
 --------------------------------------------------------------------------------
 title: "Weekly News (2025년 7월 18일)"
-url: https://www.ramoo.net/gossip/weekly-news-2025nyeon-7weol-18il/index.md
+url: https://www.ramoo.net/news/weekly-news-2025nyeon-7weol-18il/index.md
 date: "2025-07-19"
 description: 이재명 대통령은 전국적인 폭우 피해로 인해 부산 타운홀 미팅 일정을 취소하고 피해 상황 점검에 집중했다.
 --------------------------------------------------------------------------------
@@ -2261,12 +2535,6 @@ ramoo.net is my personal blog about work, hobbies, investing and the occasional 
 
 This page introduces the blog in English. Most full articles are written in Korean.
 
-## Development and server operations
-
-Practical notes from software development and server administration, including problems I encounter and what I learn while solving them.
-
-[Explore Work](/work/)
-
 ## Building a country home
 
 Notes about country homes, land, architecture, interiors and the decisions involved in planning a home.
@@ -2291,11 +2559,11 @@ These links lead to the Korean articles. Market observations and policy discussi
 
 News, social issues and personal commentary on stories that make me stop and think.
 
-[Explore Gossip](/gossip/)
+[Explore News](/news/)
 
 ## Hobbies and personal technology
 
-Hands-on experiences with Macs, electronic devices, NAS hardware upgrades and home networking.
+Practical notes from software development and server administration, alongside hands-on experiences with Macs, electronic devices, NAS hardware upgrades and home networking.
 
 [Explore Hobby](/hobby/)
 
@@ -2569,287 +2837,6 @@ description: 특이해서 기록하지만 내 기준에는 집이 너무 크다.
 
 
 --------------------------------------------------------------------------------
-title: "Hobby"
-url: https://www.ramoo.net/hobby/index.md
-description: 맥·전자기기 사용기, 개인 NAS와 홈 네트워크 경험
---------------------------------------------------------------------------------
-맥·전자기기 사용기, 개인 NAS와 홈 네트워크 경험
-
---------------------------------------------------------------------------------
-title: "시놀로지 DS918+ USB 2.5G 랜카드 설치 후기와 인식 불안정으로 원복한 이유"
-url: https://www.ramoo.net/hobby/ds918-plus-25g-upgrade/index.md
-date: "2022-11-16"
-description: ipTIME U2500과 r8152 드라이버로 구성한 DS918+ 2.5G 연결. 설치 과정과 전송 속도, 철거한 이유.
---------------------------------------------------------------------------------
-
-![DS918+ 2.5G 네트워크 구성 이미지](/images/server/ds918-25g/cover.png)
-
-PC에서 2.5G LAN을 쓸 수 있으니 DS918+도 같은 속도로 연결해 보고 싶었다. NAS를 바꾸는 대신 USB LAN 어댑터와 2.5G 스위칭 허브를 붙였다.
-
-속도는 잘 나왔다. PC에서 NAS로 복사할 때 약 290MB/s, 반대 방향은 약 220MB/s였다. 다만 쓰다 보니 간헐적으로 네트워크가 먹통이 됐고, 결국 어댑터를 빼고 원래 구성으로 돌아갔다.
-
-## 사용한 장비
-
-- 2.5G LAN을 지원하는 PC
-- ipTIME USB 3.0 U2500 (`RTL8156` 칩셋)
-- 2.5G 스위칭 허브
-- Synology DS918+
-
-DSM에서 USB LAN을 쓰려면 별도 드라이버가 필요하다. 어댑터를 고를 때는 [r8152 호환 목록](https://github.com/bb-qq/r8152/wiki/Compatibility)을 확인했다.
-
-내 DS918+에서는 후면 USB 포트의 인식이 불안정했고, 전면 포트에서는 비교적 잘 잡혔다. 그래서 전면 포트에 연결해서 사용했다.
-
-## r8152 드라이버 설치
-
-[bb-qq/r8152 릴리스](https://github.com/bb-qq/r8152/releases)에서 NAS 모델과 DSM 버전에 맞는 `spk` 파일을 받는다. DSM 패키지 센터의 **수동 설치**로 진행하면 된다.
-
-![DSM 패키지 수동 설치 화면](/images/server/ds918-25g/manual-install.webp)
-
-설치 중 오류가 나서 SSH로 접속해 아래 명령을 실행한 뒤 다시 설치했다. 당시 사용한 패키지에서 필요한 조치였다.
-
-```bash
-sudo install -m 4755 -o root -D /var/packages/r8152/target/r8152/spk_su /opt/sbin/spk_su
-```
-
-설치가 끝나면 패키지 센터에서 드라이버 상태를 확인한다.
-
-![DSM r8152 드라이버 설치 확인](/images/server/ds918-25g/driver-installed.webp)
-
-## 인터페이스 설정과 연결
-
-제어판의 **네트워크 인터페이스**에 USB LAN이 추가된 것을 확인하고, 편집 화면에서 `Jumbo Frame`을 `9K`로 설정했다. 아래는 당시 사용한 설정이다.
-
-![점보 프레임 9K 설정 화면](/images/server/ds918-25g/jumbo-frame.webp)
-
-PC와 NAS를 직접 연결해 수동 IP를 잡는 방법도 있지만, 나는 2.5G 스위칭 허브에 연결했다.
-
-![2.5G 스위칭 허브 구성 예시 1](/images/server/ds918-25g/switch-01.webp)
-
-![2.5G 스위칭 허브 구성 예시 2](/images/server/ds918-25g/switch-02.webp)
-
-이 구성에서 측정한 전송 속도는 다음과 같다. 내 환경에서 파일을 복사하며 확인한 수치이다.
-
-| 방향 | 전송 속도 |
-| --- | --- |
-| PC → NAS | 약 290MB/s |
-| NAS → PC | 약 220MB/s |
-
-1GbE로 쓰던 때보다 파일 복사는 확실히 빨라졌다.
-
-## 결국 철거했다
-
-처음에는 잘 썼지만, 사용을 이어 가면서 간헐적으로 네트워크가 멈추는 문제가 생겼다. 드라이버를 중지했다가 다시 로드하면 복구됐다. 계속 켜 두는 NAS에서 그 작업을 반복해야 한다는 게 불편했다.
-
-전면 포트를 써야 하는 것도 마음에 걸렸다. 어댑터와 랜선이 앞에 계속 꽂혀 있으니 케이블 정리가 깔끔하지 않았다.
-
-속도만 보면 아쉬운 업그레이드는 아니었다. 그래도 내 NAS에서는 안정성과 케이블 정리 문제 때문에 오래 유지하지 못했다.
-
-
---------------------------------------------------------------------------------
-title: "TL-SG2008로 DS918+ 링크통합을 시도했다"
-url: https://www.ramoo.net/hobby/tl-sg2008-lacp/index.md
-date: "2021-01-01"
-description: DS918+의 두 LAN 포트를 쓰려고 고른 TL-SG2008. 동적 링크통합에서 오류가 나 설정을 바꿨다.
---------------------------------------------------------------------------------
-
-DS918+에는 LAN 포트가 두 개 있다. 하나만 쓰고 있자니 허전해서 둘 다 써 볼 생각으로 LACP를 구성해 보기로 했다.
-
-LACP를 지원하는 스위치를 찾다가 TL-SG2008을 골랐다.
-
-## 가격이 마음에 들었다
-
-집에서 취미로 쓰는 장비라 비싼 제품은 부담스럽다. 당시에는 국내에서 7만 원 이하로 살 수 있었다. 2020년 12월 구매 기준이다.
-
-![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 1](/images/server/blog-nas/tl-sg2008-lacp/photo-01.jpg)
-
-제품 사양의 프로토콜 항목에 `IEEE 802.3ad`가 있는지 봤다. 링크통합을 지원하는지 확인하면서 살펴본 부분이다.
-
-![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 2](/images/server/blog-nas/tl-sg2008-lacp/photo-02.png)
-
-## 실제 연결 결과
-
-생각처럼 동작할까 싶어서 연결했다.
-
-![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 3](/images/server/blog-nas/tl-sg2008-lacp/photo-03.png)
-
-동적 Link Aggregation에서는 오류와 경고가 나왔다. 결국 원문에서 'v1'이라고 적어 둔 방식으로 바꿔 사용했다. 당시 기록에는 그 설정 이름을 더 자세히 남기지 않았다.
-
-![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 4](/images/server/blog-nas/tl-sg2008-lacp/photo-04.png)
-
-아쉬움은 있지만 가격을 생각하면 용서가 된다.
-
-
---------------------------------------------------------------------------------
-title: "LG 43UN700 43인치 4K 모니터 실사용기 — 맥북 연결 및 CalDigit DP 색상 왜곡 해결법"
-url: https://www.ramoo.net/hobby/lg-43un700-monitor/index.md
-date: "2021-01-01"
-description: 큰 화면과 USB-C 허브 기능은 편했다. CalDigit TS3 Plus에 연결했을 때 붉게 보이던 화면은 DP 설정을 바꿔 해결했다.
---------------------------------------------------------------------------------
-
-LG 43UN700을 약 2주 사용하고 적은 후기다. 설치 기사가 빠르게 설치해 주고 가서 언박싱 사진은 없다.
-
-## 크기
-
-회사에서 40인치 커브드 모니터를 쓰고 있어 큰 화면 자체는 익숙했다. 42.5인치라 조금 더 큰 느낌이지만 적당해 보였다.
-
-![LG 43UN700 모니터, 2주 사용 기록 — 화면 1](/images/off-duty/lg-43un700-monitor/photo-01.jpg)
-
-모니터 아래에 놓인 CalDigit TS3 Plus와 비교하면 크기가 짐작된다.
-
-## 색상 때문에 한참 헤맸다
-
-기존 모니터의 색감이 좋지 않아 MacBook 화면과 맞추는 데 시간을 쓰곤 했다. 그래서 이번에는 색상을 중요하게 봤다.
-
-![LG 43UN700 모니터, 2주 사용 기록 — 화면 2](/images/off-duty/lg-43un700-monitor/photo-02.png)
-
-그런데 연결하니 화면이 붉게 보였다. 방법을 찾아보고 서비스센터에도 문의했지만 제품에는 이상이 없다는 답변이었다. 아마존 후기에서도 비슷한 이야기를 보고 며칠은 그냥 쓰다가 원인을 찾았다.
-
-내 구성에서는 모니터의 DP 버전과 CalDigit TS3 Plus 연결이 관련 있었다. 모니터의 DP 설정을 1.2로 낮춘 뒤 원하는 색상을 볼 수 있었다. USB-C로 연결했는데 왜 DP 단자 설정의 영향을 받는지는 당시에도 잘 모르겠었다.
-
-DP 1.4에서 HDR이 자동으로 켜지면 색상 조정 메뉴를 쓸 수 없어 더 답답했다.
-
-![LG 43UN700 모니터, 2주 사용 기록 — 화면 3](/images/off-duty/lg-43un700-monitor/photo-03.png)
-
-## 연결과 편의 기능
-
-USB 허브 기능이 의외로 마음에 들었다. USB-C 하나로 화면과 USB 기기를 연결해서 별도 허브를 치웠다.
-
-![LG 43UN700 모니터, 2주 사용 기록 — 화면 4](/images/off-duty/lg-43un700-monitor/photo-04.png)
-
-앱으로 모니터를 제어하는 기능도 있었다. 여러 입력을 쓰면 편하겠지만 MacBook 하나만 연결해서 실제로 써 보지는 않았다.
-
-![LG 43UN700 모니터, 2주 사용 기록 — 화면 5](/images/off-duty/lg-43un700-monitor/photo-05.png)
-
-높이 조절이 없는 것은 아쉽다. 큰 모니터를 책상에 올려 놓으면 높이를 낮춰야 편한데, 위를 올려다보게 되면 불편하다.
-
-![LG 43UN700 모니터, 2주 사용 기록 — 화면 6](/images/off-duty/lg-43un700-monitor/photo-06.png)
-
-큰 화면과 USB-C 연결, 별도 스피커가 필요 없을 정도의 소리는 괜찮았다. 다만 모니터가 두꺼워 TV 프레임을 그대로 쓴 것 같은 느낌이었다.
-
-
---------------------------------------------------------------------------------
-title: "ipTIME A3004NS-M 가성비 기가 와이파이 공유기 실사용기: 간이 NAS 끄고 공유기로만 쓴 이유"
-url: https://www.ramoo.net/hobby/iptime-a3004ns-m/index.md
-date: "2020-07-26"
-description: VPN과 USB 간이 NAS에서는 문제가 있었지만, 공유기 기능만 쓰니 안정적이었다. 2020년 사용 기록.
---------------------------------------------------------------------------------
-
-사용하던 공유기가 오래돼서 ipTIME A3004NS-M을 골랐다. 가격과 기능을 보고 적당하겠다 싶어 산 5만 원대 가정용 공유기다.
-
-![ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다 — 화면 1](/images/server/blog-nas/iptime-a3004ns-m/photo-01.png)
-
-우연히 같은 제품을 두 개 샀다. 거실에 놓고 쓴 지 1년쯤 됐을 때의 기록이다.
-
-## VPN과 간이 NAS는 포기
-
-처음 한두 달은 회사에서 VPN이 필요해서 써 봤다. 연결이 하루를 못 가고 자주 끊겨서 포기했다.
-
-USB 3.0에 저장 장치를 붙여 간이 NAS로도 써 봤지만, 3개월을 못 가고 제품이 먹통이 됐다.
-
-고장 난 제품은 A/S를 보내고, 다른 한 대를 거실에 두었다. 이번에는 공유기 기능 외에는 쓰지 않았다.
-
-![ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다 — 화면 2](/images/server/blog-nas/iptime-a3004ns-m/photo-02.png)
-
-## 공유기로만 쓰니 안정적이었다
-
-그렇게 8개월 동안 한 번도 끊기지 않고 돌아갔다. 당연한 일이라고 할 수도 있지만 기대가 크지 않았던 만큼 의외로 만족했다.
-
-고장 났던 제품은 일반 인터넷 연결도 자주 끊겨 새벽에 재부팅하도록 설정해 쓰고 있었다.
-
-사용량이 많지는 않았다. BTV, 인터넷, 휴대폰 3~4대, NAS 연결, 가끔 토렌트 정도다. 내 환경에서는 공유기 본래 기능만 쓸 때 꽤 잘 버텼다.
-
-
---------------------------------------------------------------------------------
-title: "시놀로지 DS918+ RAM 메모리 16GB 업그레이드 방법 및 호환 메모리 확인기"
-url: https://www.ramoo.net/hobby/ds918-memory-upgrade/index.md
-date: "2019-11-02"
-description: DS918+에 CT2K102464BF186D 메모리를 장착한 기록. 사용 중 느낀 변화와 남은 기존 메모리 이야기.
---------------------------------------------------------------------------------
-
-DS918+를 사고 메모리를 늘리려고 알아봤다. 아무 메모리나 사서 꽂으면 되는 것은 아니어서 아래 모델을 골랐다.
-
-```text
-DDR3L 1866 MT/s (PC3-14900)
-Unbuffered SODIMM 204-Pin
-CT2K102464BF186D
-```
-
-![DS918+ 메모리 업그레이드 — 화면 1](/images/server/blog-nas/ds918-memory-upgrade/photo-01.jpeg)
-
-아마존에서 샀다. 처음에는 8GB 하나만 사려고 했는데, 해외에서 오는 김에 세트로 주문했다.
-
-## 장착 후
-
-메모리 용량이 많이 남았다. 돈을 너무 쓴 건 아닌가 싶었지만 체감상 확실히 빠릿해진 느낌이었다.
-
-![DS918+ 메모리 업그레이드 — 화면 2](/images/server/blog-nas/ds918-memory-upgrade/photo-02.png)
-
-당시 사용 중에는 안정적으로 동작했다. 메모리가 넉넉하니 이것저것 올리는 데 부담이 줄어 만족했다.
-
-기존 Synology 4GB 메모리는 어떻게 처분할지 고민이었다.
-
-
---------------------------------------------------------------------------------
-title: "macOS 카탈리나에서 아이튠즈(iTunes) 사라졌을 때 아이폰 백업 및 동기화 방법"
-url: https://www.ramoo.net/hobby/macos-catalina-itunes/index.md
-date: "2019-11-01"
-description: iTunes를 찾다가 Catalina에서는 Finder로 기기를 동기화한다는 것을 알게 됐다.
---------------------------------------------------------------------------------
-
-개발하다 앱에 파일을 올릴 일이 있어 iTunes를 찾았는데 아무리 봐도 없었다.
-
-![Catalina에서 사라진 iTunes를 찾다가 — 화면 1](/images/off-duty/macos-catalina-itunes/photo-01.png)
-
-macOS Catalina에서는 iTunes의 기능이 나뉘고, 기기 동기화는 Finder에서 할 수 있었다.
-
-Finder를 열면 왼쪽에 연결한 기기가 나타난다. 선택하면 예전에 iTunes에서 보던 동기화 화면이 나온다.
-
-![Catalina에서 사라진 iTunes를 찾다가 — 화면 2](/images/off-duty/macos-catalina-itunes/photo-02.png)
-
-찾았으니 이제 하던 일을 계속한다.
-
-
---------------------------------------------------------------------------------
-title: "Mac Finder 숨김 파일·폴더 보기 단축키(Cmd+Shift+.) 및 터미널 명령어 정리"
-url: https://www.ramoo.net/hobby/mac-finder-hidden-files/index.md
-date: "2019-10-29"
-description: 한 번 설정하고 잊기 쉬운 Finder 숨김 파일 표시 명령과 재실행 방법.
---------------------------------------------------------------------------------
-
-Finder에서 숨김 파일을 표시하는 명령을 적어 둔다. 한 번 설정하면 다시 만질 일이 별로 없어서 잊기 쉽다.
-
-터미널에서 실행한다.
-
-```bash
-defaults write com.apple.Finder AppleShowAllFiles TRUE
-```
-
-Finder를 다시 실행하면 숨김 파일이 보인다.
-
-```bash
-killall Finder
-```
-
-
---------------------------------------------------------------------------------
-title: "맥 타임머신(Time Machine) 최초 백업 속도 느릴 때 원인과 해결 팁"
-url: https://www.ramoo.net/hobby/mac-time-machine-speed/index.md
-date: "2019-09-26"
-description: 업데이트 문제를 Time Machine으로 복원한 뒤 백업 속도를 조정해 본 기록.
---------------------------------------------------------------------------------
-
-Mac을 업데이트하다 한 번 날려 먹은 적이 있다. 그때 Time Machine으로 복원하고 안도의 한숨을 쉬었다.
-
-이후로 꾸준히 백업하고 있지만 속도가 느려서, 당시 찾아 쓴 명령을 적어 둔다.
-
-```bash
-sudo sysctl debug.lowpri_throttle_enabled=0
-```
-
-낮은 우선순위 작업의 제한을 조정하는 설정이다. 내 환경에서는 엄청나게 빨라지는 정도는 아니었지만 어느 정도 효과가 있었다.
-
-
---------------------------------------------------------------------------------
 title: "Authors"
 url: https://www.ramoo.net/authors/index.md
 --------------------------------------------------------------------------------
@@ -2883,12 +2870,6 @@ url: https://www.ramoo.net/categories/exurban/index.md
 <no value>
 
 --------------------------------------------------------------------------------
-title: "Gossip"
-url: https://www.ramoo.net/categories/gossip/index.md
---------------------------------------------------------------------------------
-<no value>
-
---------------------------------------------------------------------------------
 title: "Hobby"
 url: https://www.ramoo.net/categories/hobby/index.md
 --------------------------------------------------------------------------------
@@ -2901,8 +2882,8 @@ url: https://www.ramoo.net/categories/money/index.md
 <no value>
 
 --------------------------------------------------------------------------------
-title: "Work"
-url: https://www.ramoo.net/categories/work/index.md
+title: "News"
+url: https://www.ramoo.net/categories/news/index.md
 --------------------------------------------------------------------------------
 <no value>
 

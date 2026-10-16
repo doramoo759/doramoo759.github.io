@@ -8,12 +8,6 @@ ramoo.net is my personal blog about work, hobbies, investing and the occasional 
 
 This page introduces the blog in English. Most full articles are written in Korean.
 
-## Development and server operations
-
-Practical notes from software development and server administration, including problems I encounter and what I learn while solving them.
-
-[Explore Work](/work/)
-
 ## Building a country home
 
 Notes about country homes, land, architecture, interiors and the decisions involved in planning a home.
@@ -38,11 +32,11 @@ These links lead to the Korean articles. Market observations and policy discussi
 
 News, social issues and personal commentary on stories that make me stop and think.
 
-[Explore Gossip](/gossip/)
+[Explore News](/news/)
 
 ## Hobbies and personal technology
 
-Hands-on experiences with Macs, electronic devices, NAS hardware upgrades and home networking.
+Practical notes from software development and server administration, alongside hands-on experiences with Macs, electronic devices, NAS hardware upgrades and home networking.
 
 [Explore Hobby](/hobby/)
 

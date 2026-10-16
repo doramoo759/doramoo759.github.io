@@ -1,4 +1,0 @@
-# Gossip
-
-
-<no value>

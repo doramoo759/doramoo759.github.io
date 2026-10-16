@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ramoo.net</title><link>https://www.ramoo.net/</link><description>투자·경제, 시사, 전원생활, 개발·서버와 취미를 기록하는 Ramoo의 개인 블로그입니다.</description><language>ko-kr</language><atom:link href="https://www.ramoo.net/index.xml" rel="self" type="application/rss+xml"/><item><title>IPv4 CIDR·서브넷 계산기: IP 범위 확인과 클래스 A·B·C 이해하기</title><link>https://www.ramoo.net/work/cidr-subnet-calculator/</link><pubDate>Thu, 15 Oct 2026 09:17:05 +0900</pubDate><guid>https://www.ramoo.net/work/cidr-subnet-calculator/</guid><description>&lt;link rel="stylesheet" href="https://www.ramoo.net/css/cidr-calculator.min.cd043509367b5b1fcb182516821caf05feb1676fdf3efcba52992922ab64e13b.css" integrity="sha256-zQQ1CTZ7Wx/LGCUWghyvBf6xZ2/fPvy6UpkpIqtk4Ts=" crossorigin="anonymous"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ramoo.net</title><link>https://www.ramoo.net/</link><description>투자·경제, 시사, 전원생활, 개발·서버와 취미를 기록하는 Ramoo의 개인 블로그입니다.</description><language>ko-kr</language><atom:link href="https://www.ramoo.net/index.xml" rel="self" type="application/rss+xml"/><item><title>IPv4 CIDR·서브넷 계산기: IP 범위 확인과 클래스 A·B·C 이해하기</title><link>https://www.ramoo.net/hobby/cidr-subnet-calculator/</link><pubDate>Thu, 15 Oct 2026 09:17:05 +0900</pubDate><guid>https://www.ramoo.net/hobby/cidr-subnet-calculator/</guid><description>&lt;link rel="stylesheet" href="https://www.ramoo.net/css/cidr-calculator.min.cd043509367b5b1fcb182516821caf05feb1676fdf3efcba52992922ab64e13b.css" integrity="sha256-zQQ1CTZ7Wx/LGCUWghyvBf6xZ2/fPvy6UpkpIqtk4Ts=" crossorigin="anonymous"&gt;
 &lt;section id="cidr-calculator" class="cidr-calculator not-prose" data-cidr-calculator aria-labelledby="cidr-heading"&gt;
 &lt;header&gt;&lt;span class="cidr-eyebrow"&gt;IPv4 NETWORK TOOL&lt;/span&gt;&lt;h2 id="cidr-heading"&gt;CIDR · 서브넷 계산기&lt;/h2&gt;&lt;p&gt;IP 주소와 프리픽스로 네트워크 시작·끝, 서브넷 마스크와 호스트 범위를 계산합니다. 계산은 브라우저에서 실행하며 입력값을 서버로 전송하지 않습니다.&lt;/p&gt;&lt;/header&gt;
 &lt;form novalidate&gt;
@@ -327,8 +327,8 @@ target="_blank"
 target="_blank"
 &gt;AWS 보안 그룹 규칙 공식 문서&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;규칙을 적용하기 전에는 출발지·목적지 방향, 포트와 프로토콜, 허용·차단 동작 및 규칙 순서를 확인합니다. 특히 관리 화면의 접근 규칙을 수정한다면 기존 설정을 기록하고 복구 가능한 접속 경로를 확보합니다. &lt;code&gt;0.0.0.0/0&lt;/code&gt; 허용은 의도한 서비스만 대상으로 사용해야 합니다.&lt;/p&gt;
-&lt;p&gt;인터넷에서 집의 NAS에 접속하도록 허용할 때는 외부에서 보이는 출발지 공인 IP와 내부 PC의 사설 IP를 혼동하지 않아야 합니다. 현재 연결의 외부 주소는 &lt;a href="https://www.ramoo.net/work/check-my-ip/"
-&gt;내 IP 주소 확인 도구&lt;/a&gt;로 확인할 수 있습니다. 지역별 정책을 설정하는 상황은 &lt;a href="https://www.ramoo.net/work/synology-region-firewall/"
+&lt;p&gt;인터넷에서 집의 NAS에 접속하도록 허용할 때는 외부에서 보이는 출발지 공인 IP와 내부 PC의 사설 IP를 혼동하지 않아야 합니다. 현재 연결의 외부 주소는 &lt;a href="https://www.ramoo.net/hobby/check-my-ip/"
+&gt;내 IP 주소 확인 도구&lt;/a&gt;로 확인할 수 있습니다. 지역별 정책을 설정하는 상황은 &lt;a href="https://www.ramoo.net/hobby/synology-region-firewall/"
 &gt;시놀로지 NAS 방화벽 설정 글&lt;/a&gt;도 참고할 수 있습니다.&lt;/p&gt;
 &lt;h3 id="공유기의-landhcp-범위를-정할-때"&gt;공유기의 LAN·DHCP 범위를 정할 때&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;서브넷은 LAN의 주소 경계를 정하고, DHCP 범위는 그 안에서 자동 배정할 일부 주소를 정합니다.&lt;/strong&gt; 두 범위가 항상 같은 것은 아닙니다.&lt;/p&gt;
@@ -468,7 +468,7 @@ target="_blank"
 &gt;한국은행 ECOS&lt;/a&gt;의 코스피·외국인 순매수·거래대금(&lt;code&gt;802Y001&lt;/code&gt;, 작성기관 한국거래소), 원/달러 매매기준율(&lt;code&gt;731Y001&lt;/code&gt;, 작성기관 서울외국환중개)을 대상으로 합니다. 제공처의 공식 통계와 ramoo.net 자체 계산 결과를 구분합니다. 이 페이지의 점수는 초기 연구 모델의 산출물이며, 통계 작성기관의 공식 지수나 승인·보증을 의미하지 않습니다.&lt;/p&gt;
 &lt;p&gt;정규화 방식·가중치에 따라 합성 지표가 달라질 수 있으므로 기간과 비중의 민감도를 함께 검토합니다. 방법론의 일반 원칙은 &lt;a href="https://www.oecd.org/en/publications/handbook-on-constructing-composite-indicators_533411815016.html"
 target="_blank"
-&gt;OECD 합성 지표 안내&lt;/a&gt;를 참고했습니다. 이 지표의 세 가지 요인과 구간은 ramoo.net의 연구 설계입니다.&lt;/p&gt;</description></item><item><title>내 IP 주소 확인하기</title><link>https://www.ramoo.net/work/check-my-ip/</link><pubDate>Wed, 14 Oct 2026 12:00:00 +0900</pubDate><guid>https://www.ramoo.net/work/check-my-ip/</guid><description>&lt;p&gt;내 IP 주소가 궁금할 때 브라우저에서 **공인 IP(외부 아이피)**를 바로 확인하는 무료 도구입니다. 현재 연결의 IPv4·IPv6 주소, 통신사·ASN, 시간대와 IP 위치 지도를 조회하고 주소를 복사할 수 있습니다.&lt;/p&gt;
+&gt;OECD 합성 지표 안내&lt;/a&gt;를 참고했습니다. 이 지표의 세 가지 요인과 구간은 ramoo.net의 연구 설계입니다.&lt;/p&gt;</description></item><item><title>내 IP 주소 확인하기</title><link>https://www.ramoo.net/hobby/check-my-ip/</link><pubDate>Wed, 14 Oct 2026 12:00:00 +0900</pubDate><guid>https://www.ramoo.net/hobby/check-my-ip/</guid><description>&lt;p&gt;내 IP 주소가 궁금할 때 브라우저에서 **공인 IP(외부 아이피)**를 바로 확인하는 무료 도구입니다. 현재 연결의 IPv4·IPv6 주소, 통신사·ASN, 시간대와 IP 위치 지도를 조회하고 주소를 복사할 수 있습니다.&lt;/p&gt;
 &lt;p&gt;페이지를 열면 현재 네트워크를 자동 조회합니다. VPN을 켜거나 와이파이·모바일 데이터를 바꾼 뒤 &lt;strong&gt;다시 조회&lt;/strong&gt;를 누르면 변경된 IP를 확인할 수 있습니다.&lt;/p&gt;
 &lt;link rel="stylesheet" href="https://www.ramoo.net/vendor/leaflet/leaflet.a7837102824184820dfa198d1ebcd109ff6d0ff9a2672a074b9a1b4d147d04c6.css" integrity="sha256-p4NxAoJBhIIN&amp;#43;hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous"&gt;&lt;link rel="stylesheet" href="https://www.ramoo.net/css/ip-check.min.f31edc5a911ff5bc6d16ef8a659ee31f9c9a47fe986d0bcba613ac72d196ac69.css" integrity="sha256-8x7cWpEf9bxtFu&amp;#43;KZZ7jH5yaR/6YbQvLphOsctGWrGk=" crossorigin="anonymous"&gt;
 &lt;section id="ip-check" class="ip-check not-prose" data-ip-check data-nosnippet data-endpoint="https://api.ramoo.net/ip" aria-label="내 공인 IP와 네트워크 정보" aria-busy="true"&gt;
@@ -578,9 +578,9 @@ target="_blank"
 &lt;p&gt;인터넷 연결과 브라우저의 JavaScript 설정을 확인하고 &lt;strong&gt;다시 조회&lt;/strong&gt;를 눌러보세요. 응답이 지연되거나 API에 접근할 수 없으면 오류 안내가 표시됩니다. 일부 위치·네트워크 정보가 제공되지 않으면 해당 항목만 ‘정보 없음’으로 나옵니다.&lt;/p&gt;
 &lt;h2 id="함께-읽으면-좋은-네트워크-글"&gt;함께 읽으면 좋은 네트워크 글&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.ramoo.net/work/synology-dns-server/"
+&lt;li&gt;&lt;a href="https://www.ramoo.net/hobby/synology-dns-server/"
 &gt;Synology DNS Server 설치와 A·PTR 레코드 설정&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.ramoo.net/work/synology-region-firewall/"
+&lt;li&gt;&lt;a href="https://www.ramoo.net/hobby/synology-region-firewall/"
 &gt;Synology NAS의 지역별 방화벽 설정 기록&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;nav class="ip-check-tags not-prose" aria-label="IP 확인 관련 주제"&gt;
@@ -650,7 +650,7 @@ target="_blank"
 &lt;p&gt;이 조건이 보여야 현실성이 있다고 믿을 수 있을 것 같다. 공급 발표는 빠르게 할 수 있어도, 실제 입주까지의 시간을 건너뛸 수는 없으니까.&lt;/p&gt;
 &lt;h2 id="지지하기-때문에-더-듣고-싶은-설명"&gt;지지하기 때문에 더 듣고 싶은 설명&lt;/h2&gt;
 &lt;p&gt;집값을 안정시키고 투기를 줄이겠다는 의도는 이해한다. 그러나 국민에게 집은 오랜 시간 모은 돈이고 삶의 터전이다. 세금과 대출 조건이 빠르게 달라질 때 생활 계획에 어떤 충격이 생기는지도 같이 살펴야 한다고 생각한다.&lt;/p&gt;
-&lt;p&gt;나는 여전히 이재명 대통령을 지지한다. 잘한 일은 잘했다고 말하고 싶다. 동시에 약속과 달라진 부분에는 이유와 일정, 영향을 받는 사람들에 대한 설명이 필요하다. 근로소득세는 실제 개편으로, 주택 공급은 실제 입주로 이어졌으면 한다. 그 결과를 보고 납득하고 싶다.&lt;/p&gt;</description></item><item><title>동료에게 듣고 찾아본 인천 구월동 흉기 난동 사건</title><link>https://www.ramoo.net/gossip/incheon-guwol-stabbing-news/</link><pubDate>Tue, 13 Oct 2026 21:14:00 +0900</pubDate><guid>https://www.ramoo.net/gossip/incheon-guwol-stabbing-news/</guid><description>&lt;p&gt;직장 동료가 인천 구월동에서 흉기 난동 사건이 났다는 소식을 알려줬다. 무슨 일이 있었던 건지 궁금해 기사를 찾아봤다. 처음에는 짧은 속보부터 읽었는데, 후속 기사를 보니 마트와 식당, 영화관이 함께 있는 건물에서 일어난 사건이었다.&lt;/p&gt;
+&lt;p&gt;나는 여전히 이재명 대통령을 지지한다. 잘한 일은 잘했다고 말하고 싶다. 동시에 약속과 달라진 부분에는 이유와 일정, 영향을 받는 사람들에 대한 설명이 필요하다. 근로소득세는 실제 개편으로, 주택 공급은 실제 입주로 이어졌으면 한다. 그 결과를 보고 납득하고 싶다.&lt;/p&gt;</description></item><item><title>동료에게 듣고 찾아본 인천 구월동 흉기 난동 사건</title><link>https://www.ramoo.net/news/incheon-guwol-stabbing-news/</link><pubDate>Tue, 13 Oct 2026 21:14:00 +0900</pubDate><guid>https://www.ramoo.net/news/incheon-guwol-stabbing-news/</guid><description>&lt;p&gt;직장 동료가 인천 구월동에서 흉기 난동 사건이 났다는 소식을 알려줬다. 무슨 일이 있었던 건지 궁금해 기사를 찾아봤다. 처음에는 짧은 속보부터 읽었는데, 후속 기사를 보니 마트와 식당, 영화관이 함께 있는 건물에서 일어난 사건이었다.&lt;/p&gt;
 &lt;p&gt;평소처럼 장을 보거나 식사를 하던 사람들이 갑자기 피해를 입었다는데 참담하고 그 자리에 있던 사람들 얼마나 무서웠들까 여튼 뭔일인가 기사 정리해 본다.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://image.ramoo.net/images/off-duty/news/incheon-guwol-stabbing/cover-mbc.png" alt="MBC의 인천 구월동 상가 흉기 난동 사건 보도 화면" loading="lazy" decoding="async" class="img-fluid"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;이미지 출처: &lt;a href="https://imnews.imbc.com/news/2026/society/article/6857673_36919.html"
@@ -1471,7 +1471,7 @@ target="_blank"
 &lt;/div&gt;
 &lt;p&gt;&lt;em&gt;출처: &lt;a href="https://www.youtube.com/watch?v=Zv8AvOh2v4E"
 target="_blank"
-&gt;MBCNEWS 공식 YouTube — 2026년 10월 12일 한국은행 국정감사 중계&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>노벨상까지 내놓으라는 트럼프, 후대는 어떻게 기억할까</title><link>https://www.ramoo.net/gossip/trump-nobel-peace-prize-icc-sanctions/</link><pubDate>Mon, 12 Oct 2026 20:02:00 +0900</pubDate><guid>https://www.ramoo.net/gossip/trump-nobel-peace-prize-icc-sanctions/</guid><description>&lt;p&gt;&lt;img src="https://image.ramoo.net/images/off-duty/news/trump-nobel-peace-prize-icc-sanctions/cover-16x9.jpg" alt="복도를 걸어가는 트럼프의 뒷모습" loading="lazy" decoding="async" class="img-fluid"&gt;&lt;/p&gt;
+&gt;MBCNEWS 공식 YouTube — 2026년 10월 12일 한국은행 국정감사 중계&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>노벨상까지 내놓으라는 트럼프, 후대는 어떻게 기억할까</title><link>https://www.ramoo.net/news/trump-nobel-peace-prize-icc-sanctions/</link><pubDate>Mon, 12 Oct 2026 20:02:00 +0900</pubDate><guid>https://www.ramoo.net/news/trump-nobel-peace-prize-icc-sanctions/</guid><description>&lt;p&gt;&lt;img src="https://image.ramoo.net/images/off-duty/news/trump-nobel-peace-prize-icc-sanctions/cover-16x9.jpg" alt="복도를 걸어가는 트럼프의 뒷모습" loading="lazy" decoding="async" class="img-fluid"&gt;&lt;/p&gt;
 &lt;p&gt;뉴스를 읽다가 참 대단하다는 생각이 들었다. 감탄보다는 어이없다는 쪽에 가까운 대단함이다. 아무리 천조국의 대통령이라지만, 노벨평화상까지 이렇게 대놓고 달라고 할 일인가 싶다. 상을 받지 못한 뒤 내놓는 말과 행동을 보니, 후대가 이 장면을 어떻게 기억할지 벌써 눈에 선하다.&lt;/p&gt;
 &lt;h2 id="평화에-대한-평가마저-거래가-되는-걸까"&gt;평화에 대한 평가마저 거래가 되는 걸까&lt;/h2&gt;
 &lt;p&gt;상을 받고 싶은 마음이야 누구에게나 있을 수 있다. 하지만 국가 지도자가 자신에게 상을 주지 않았다고 선정 기관을 공격하고, 몇 개를 받아야 한다고 계산하는 모습을 보니 씁쓸하다. 평화를 위해 무엇을 했는지보다 자신이 얼마나 인정받았는지가 더 앞에 놓인 것처럼 느껴진다.&lt;/p&gt;
@@ -1656,7 +1656,7 @@ height="821" /&gt;
 &lt;p&gt;여기서도 특정 비율 하나를 안전선으로 정하기보다는 같은 업종의 회사와 비교하고, 어떤 부채와 자산이 들어 있는지 봐야 한다. 만기가 가까운 부채를 갚을 현금이 있는지도 별개의 문제다.&lt;/p&gt;
 &lt;p&gt;싼 종목을 골라내는 공식으로 외우기에는 지표마다 빠지는 부분이 많다. 숫자가 눈에 들어오면 재무제표를 더 읽어 보는 출발점 정도로 쓴다.&lt;/p&gt;
 &lt;p&gt;관련 메모: &lt;a href="https://www.ramoo.net/money/jurini-dividend-vs-growth-2/"
-&gt;배당주와 성장주&lt;/a&gt;&lt;/p&gt;</description></item><item><title>웹 브라우저 기반 원격 접속 Apache Guacamole 사내망 구축 및 RDP/SSH 테스트</title><link>https://www.ramoo.net/work/apache-guacamole-intro/</link><pubDate>Fri, 24 Apr 2026 18:00:00 +0900</pubDate><guid>https://www.ramoo.net/work/apache-guacamole-intro/</guid><description>&lt;p&gt;&lt;img src="https://image.ramoo.net/images/server/apache-guacamole-cover.webp" alt="Apache Guacamole 소개 이미지" loading="lazy" decoding="async" class="img-fluid"&gt;&lt;/p&gt;
+&gt;배당주와 성장주&lt;/a&gt;&lt;/p&gt;</description></item><item><title>웹 브라우저 기반 원격 접속 Apache Guacamole 사내망 구축 및 RDP/SSH 테스트</title><link>https://www.ramoo.net/hobby/apache-guacamole-intro/</link><pubDate>Fri, 24 Apr 2026 18:00:00 +0900</pubDate><guid>https://www.ramoo.net/hobby/apache-guacamole-intro/</guid><description>&lt;p&gt;&lt;img src="https://image.ramoo.net/images/server/apache-guacamole-cover.webp" alt="Apache Guacamole 소개 이미지" loading="lazy" decoding="async" class="img-fluid"&gt;&lt;/p&gt;
 &lt;p&gt;사내 서버에 Apache Guacamole를 설치해서 원격접속을 테스트했다. 사내망에서만 접근할 수 있게 열어 두었고, 기본 기능을 확인한 뒤 정식 운영으로 이어가지는 않았다.&lt;/p&gt;
 &lt;p&gt;브라우저에서 SSH에 접속할 수 있는 건 편했다. 다만 LDAP 연동이 기대만큼 안정적이지 않았고, 계정과 세션을 관리할 부담도 있었다.&lt;/p&gt;
 &lt;h2 id="브라우저로-원격접속하기"&gt;브라우저로 원격접속하기&lt;/h2&gt;
@@ -1678,7 +1678,7 @@ target="_blank"
 &lt;h2 id="운영까지-가져가지-않은-이유"&gt;운영까지 가져가지 않은 이유&lt;/h2&gt;
 &lt;p&gt;LDAP 연동에서 불안정한 부분이 있었다. 테스트에서는 다시 확인해 보면 되지만, 실제 운영에서 계정 연동이 흔들리면 접속 자체에 문제가 생긴다. 이 상태로 운영을 시작하기는 어려웠다.&lt;/p&gt;
 &lt;p&gt;보안과 사용자 관리도 걸렸다. 누가 어떤 서버에 접근할 수 있는지 정하고, 계정이 바뀔 때 권한을 수정하고, 로그와 세션 기록도 관리해야 한다. 사용자가 로그아웃하지 않고 세션을 남겨 두거나 인증 정보를 노출하는 상황도 고려해야 했다.&lt;/p&gt;
-&lt;p&gt;웹으로 접속을 모으는 편의성은 확인했다. 하지만 당시 테스트한 환경에서는 그 편의성만으로 운영 부담을 감수하기는 어렵다고 판단했다. 기본 기능을 확인한 기록으로 남겨 둔다.&lt;/p&gt;</description></item><item><title>FlatBuffers 기본 개념과 Ubuntu 22.04 빌드 메모</title><link>https://www.ramoo.net/work/flatbuffers-in-real-systems/</link><pubDate>Thu, 23 Apr 2026 22:18:00 +0900</pubDate><guid>https://www.ramoo.net/work/flatbuffers-in-real-systems/</guid><description>&lt;p&gt;
+&lt;p&gt;웹으로 접속을 모으는 편의성은 확인했다. 하지만 당시 테스트한 환경에서는 그 편의성만으로 운영 부담을 감수하기는 어렵다고 판단했다. 기본 기능을 확인한 기록으로 남겨 둔다.&lt;/p&gt;</description></item><item><title>FlatBuffers 기본 개념과 Ubuntu 22.04 빌드 메모</title><link>https://www.ramoo.net/hobby/flatbuffers-in-real-systems/</link><pubDate>Thu, 23 Apr 2026 22:18:00 +0900</pubDate><guid>https://www.ramoo.net/hobby/flatbuffers-in-real-systems/</guid><description>&lt;p&gt;
 &lt;picture&gt;
 &lt;source
 srcset="https://image.ramoo.net/images/tech/flatbuffer-cover_hu_b63d1c8fcee9bc7f.webp"
@@ -1728,7 +1728,7 @@ target="_blank"
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;설치 후 라이브러리 캐시를 갱신한다.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo make install
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo ldconfig
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;위 명령은 저장소의 기본 브랜치를 받는다. 특정 버전을 계속 사용할 프로젝트라면 사용할 태그를 정해 두는 편이 재현하기 쉽다.&lt;/p&gt;</description></item><item><title>ZeroMQ를 살펴보며 적어 둔 메시징 패턴</title><link>https://www.ramoo.net/work/zeromq-patterns/</link><pubDate>Thu, 23 Apr 2026 22:05:00 +0900</pubDate><guid>https://www.ramoo.net/work/zeromq-patterns/</guid><description>&lt;p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;위 명령은 저장소의 기본 브랜치를 받는다. 특정 버전을 계속 사용할 프로젝트라면 사용할 태그를 정해 두는 편이 재현하기 쉽다.&lt;/p&gt;</description></item><item><title>ZeroMQ를 살펴보며 적어 둔 메시징 패턴</title><link>https://www.ramoo.net/hobby/zeromq-patterns/</link><pubDate>Thu, 23 Apr 2026 22:05:00 +0900</pubDate><guid>https://www.ramoo.net/hobby/zeromq-patterns/</guid><description>&lt;p&gt;
 &lt;picture&gt;
 &lt;source
 srcset="https://image.ramoo.net/images/tech/zeromq-cover_hu_b209bdc9b1506ab5.webp"
@@ -2094,7 +2094,7 @@ height="709" /&gt;
 &lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=cg9G01GnYes"
 target="_blank"
 &gt;감성주택 — 실전 건축 강의, 건축 디테일&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;영상과 캡처 화면에 포함된 제3자 자료의 권리는 원저작자에게 있다.&lt;/p&gt;</description></item><item><title>트럼프, 유네스코 탈퇴 결정… "친팔레스타인·친중국 성향"</title><link>https://www.ramoo.net/gossip/teureompeu-yuneseuko-taltoe-gyeoljeong-cinpalreseutain-cinjunggug-seonghyang/</link><pubDate>Tue, 22 Jul 2025 22:48:12 +0900</pubDate><guid>https://www.ramoo.net/gossip/teureompeu-yuneseuko-taltoe-gyeoljeong-cinpalreseutain-cinjunggug-seonghyang/</guid><description>&lt;p&gt;6년 전에도 새해 첫날 유네스코 동반 탈퇴 하더니 이번에 또 다시 탈퇴를 선언했다.&lt;/p&gt;
+&lt;p&gt;영상과 캡처 화면에 포함된 제3자 자료의 권리는 원저작자에게 있다.&lt;/p&gt;</description></item><item><title>트럼프, 유네스코 탈퇴 결정… "친팔레스타인·친중국 성향"</title><link>https://www.ramoo.net/news/teureompeu-yuneseuko-taltoe-gyeoljeong-cinpalreseutain-cinjunggug-seonghyang/</link><pubDate>Tue, 22 Jul 2025 22:48:12 +0900</pubDate><guid>https://www.ramoo.net/news/teureompeu-yuneseuko-taltoe-gyeoljeong-cinpalreseutain-cinjunggug-seonghyang/</guid><description>&lt;p&gt;6년 전에도 새해 첫날 유네스코 동반 탈퇴 하더니 이번에 또 다시 탈퇴를 선언했다.&lt;/p&gt;
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
 &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/fviZIxRy4GA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -2152,11 +2152,11 @@ height="702" /&gt;
 &lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=y5LuxksulEM"
 target="_blank"
 &gt;더존하우징 — 창원 주택전시장 45평 전원주택&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;영상과 캡처 화면에 포함된 제3자 자료의 권리는 원저작자에게 있다.&lt;/p&gt;</description></item><item><title>"지금 이 난리에!" 시민들 분노…'덩실덩실' 구리시장 "술은 안 마셨다" / SBS 8뉴스</title><link>https://www.ramoo.net/gossip/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/</link><pubDate>Mon, 21 Jul 2025 22:54:52 +0900</pubDate><guid>https://www.ramoo.net/gossip/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/</guid><description>&lt;p&gt;참 이 물난리에 잠깐 참석이라도 하지 말았어야 한다. 그 시간에 야유회 참석 안 한다고 누가 뭐라 하겠는가..&lt;/p&gt;
+&lt;p&gt;영상과 캡처 화면에 포함된 제3자 자료의 권리는 원저작자에게 있다.&lt;/p&gt;</description></item><item><title>"지금 이 난리에!" 시민들 분노…'덩실덩실' 구리시장 "술은 안 마셨다" / SBS 8뉴스</title><link>https://www.ramoo.net/news/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/</link><pubDate>Mon, 21 Jul 2025 22:54:52 +0900</pubDate><guid>https://www.ramoo.net/news/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/</guid><description>&lt;p&gt;참 이 물난리에 잠깐 참석이라도 하지 말았어야 한다. 그 시간에 야유회 참석 안 한다고 누가 뭐라 하겠는가..&lt;/p&gt;
 &lt;p&gt;같은 시간 공무원들은 비상 근무를 하고 있었다는데&lt;/p&gt;
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
 &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/RHf-hbwz1PE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Weekly hot issue - 강선우 후보자를 둘러싼 보좌진 갑질 논란</title><link>https://www.ramoo.net/gossip/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/</link><pubDate>Mon, 21 Jul 2025 22:31:33 +0900</pubDate><guid>https://www.ramoo.net/gossip/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/</guid><description>&lt;h2 id="강선우-후보자와-보좌진-갑질-논란"&gt;강선우 후보자와 보좌진 갑질 논란&lt;/h2&gt;
+&lt;/div&gt;</description></item><item><title>Weekly hot issue - 강선우 후보자를 둘러싼 보좌진 갑질 논란</title><link>https://www.ramoo.net/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/</link><pubDate>Mon, 21 Jul 2025 22:31:33 +0900</pubDate><guid>https://www.ramoo.net/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/</guid><description>&lt;h2 id="강선우-후보자와-보좌진-갑질-논란"&gt;강선우 후보자와 보좌진 갑질 논란&lt;/h2&gt;
 &lt;p&gt;최근 강선우 여성가족부 장관 후보자를 둘러싼 보좌진 갑질 의혹이 정치권과 언론을 뜨겁게 달구고 있다. 2025년 7월 9일 SBS의 단독 보도를 시작으로, 강 후보자가 보좌진에게 사적인 일을 지시하고 잦은 인사 교체를 통해 부당한 대우를 했다는 주장이 제기되었다. 이 논란은 단순한 개인적 비판을 넘어, 국회의원의 권력 남용과 보좌진의 노동 환경 문제를 조명하며 사회적 논의로 확산되고 있다. 본 글에서는 국내 10개 주요 언론사의 보도를 바탕으로 이 사건의 전말을 사실에 근거하여 살펴보고, 각 문단마다 출처를 명시한다.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: &lt;a href="https://news.sbs.co.kr/news/endPage.do?news_id=N1008171091&amp;amp;ref=log.ramoo.net"
 target="_blank"
@@ -2245,7 +2245,7 @@ height="1005" /&gt;
 &lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=5FJlLZODRMQ"
 target="_blank"
 &gt;EBS 건축탐구 집 — 충주, 경사면을 살린 집&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;영상과 캡처 화면에 포함된 제3자 자료의 권리는 원저작자에게 있다.&lt;/p&gt;</description></item><item><title>Weekly News (2025년 7월 18일)</title><link>https://www.ramoo.net/gossip/weekly-news-2025nyeon-7weol-18il/</link><pubDate>Sat, 19 Jul 2025 14:56:57 +0900</pubDate><guid>https://www.ramoo.net/gossip/weekly-news-2025nyeon-7weol-18il/</guid><description>&lt;ul&gt;
+&lt;p&gt;영상과 캡처 화면에 포함된 제3자 자료의 권리는 원저작자에게 있다.&lt;/p&gt;</description></item><item><title>Weekly News (2025년 7월 18일)</title><link>https://www.ramoo.net/news/weekly-news-2025nyeon-7weol-18il/</link><pubDate>Sat, 19 Jul 2025 14:56:57 +0900</pubDate><guid>https://www.ramoo.net/news/weekly-news-2025nyeon-7weol-18il/</guid><description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;특검 수사 확대&lt;/strong&gt;: 김건희 특검과 채 상병 특검팀은 국민의힘 친윤계 의원인 권성동, 이철규 의원의 사무실을 압수수색하며 수사를 본격화했다. 김건희 특검팀은 통일교 관련 청탁 의혹으로 가평 통일교 본부 등을 압수수색했다. 국민의힘은 이를 &amp;ldquo;야당 탄압&amp;quot;이라 반발하며, 우원식 국회의장은 기관 간 협조를 통한 임의제출 형식을 권고했다.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;장관 임명 및 인사청문회&lt;/strong&gt;: 이재명 대통령은 구윤철 경제부총리 겸 기획재정부 장관, 김정관 산업통상자원부 장관, 조현 외교부 장관, 정성호 법무부 장관 후보자 임명안을 재가했다. 윤호중 행정안전부 장관 후보자는 인사청문회에서 검찰 수사·기소권 분리를 검찰 개혁의 핵심 원칙으로 재확인했다. 강선우 여성가족부 장관 후보자의 ‘병원 갑질 의혹’ 논란도 제기되었다.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;더불어민주당 당대표 선거&lt;/strong&gt;: 정청래·박찬대 의원이 당대표 선거 일정 조정을 요청했다. 박 의원은 폭우 피해로 인해 전당대회 연기를, 정 의원은 조기 경선을 제안하며 대립했다.&lt;/li&gt;
@@ -2343,7 +2343,7 @@ target="_blank"
 &lt;h2 id="결국-철거했다"&gt;결국 철거했다&lt;/h2&gt;
 &lt;p&gt;처음에는 잘 썼지만, 사용을 이어 가면서 간헐적으로 네트워크가 멈추는 문제가 생겼다. 드라이버를 중지했다가 다시 로드하면 복구됐다. 계속 켜 두는 NAS에서 그 작업을 반복해야 한다는 게 불편했다.&lt;/p&gt;
 &lt;p&gt;전면 포트를 써야 하는 것도 마음에 걸렸다. 어댑터와 랜선이 앞에 계속 꽂혀 있으니 케이블 정리가 깔끔하지 않았다.&lt;/p&gt;
-&lt;p&gt;속도만 보면 아쉬운 업그레이드는 아니었다. 그래도 내 NAS에서는 안정성과 케이블 정리 문제 때문에 오래 유지하지 못했다.&lt;/p&gt;</description></item><item><title>Synology GitLab CE 컨테이너 업데이트 메모</title><link>https://www.ramoo.net/work/synology-gitlab-docker-update/</link><pubDate>Tue, 22 Mar 2022 22:58:10 +0900</pubDate><guid>https://www.ramoo.net/work/synology-gitlab-docker-update/</guid><description>&lt;p&gt;GitLab CE를 Docker Registry에서 받아 설치해 두었다. 설치한 이미지를 업데이트하는 방법을 찾아보다가 기록으로 남긴다.&lt;/p&gt;
+&lt;p&gt;속도만 보면 아쉬운 업그레이드는 아니었다. 그래도 내 NAS에서는 안정성과 케이블 정리 문제 때문에 오래 유지하지 못했다.&lt;/p&gt;</description></item><item><title>Synology GitLab CE 컨테이너 업데이트 메모</title><link>https://www.ramoo.net/hobby/synology-gitlab-docker-update/</link><pubDate>Tue, 22 Mar 2022 22:58:10 +0900</pubDate><guid>https://www.ramoo.net/hobby/synology-gitlab-docker-update/</guid><description>&lt;p&gt;GitLab CE를 Docker Registry에서 받아 설치해 두었다. 설치한 이미지를 업데이트하는 방법을 찾아보다가 기록으로 남긴다.&lt;/p&gt;
 &lt;p&gt;2022년에 &lt;code&gt;14.8.3-ce.0&lt;/code&gt;에서 &lt;code&gt;14.8.4-ce.0&lt;/code&gt;으로 바꿀 때 사용한 DSM Docker 화면 기준이다.&lt;/p&gt;
 &lt;h2 id="새-이미지-받기"&gt;새 이미지 받기&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;DSM &amp;gt; Docker &amp;gt; Registry&lt;/code&gt;에서 gitlab을 검색해 필요한 버전을 다운로드한다.&lt;/p&gt;
@@ -2615,7 +2615,7 @@ width="1074"
 height="335" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
-&lt;p&gt;다른 Docker 이미지도 설정을 내보내고 이미지 버전을 바꾸는 방식으로 교체할 수 있다. 다만 애플리케이션마다 데이터와 버전 호환 조건은 따로 확인할 것.&lt;/p&gt;</description></item><item><title>시놀로지 DNS Server 구축 및 내부 도메인 레코드 설정 방법</title><link>https://www.ramoo.net/work/synology-dns-server/</link><pubDate>Sat, 31 Jul 2021 18:22:36 +0900</pubDate><guid>https://www.ramoo.net/work/synology-dns-server/</guid><description>&lt;p&gt;
+&lt;p&gt;다른 Docker 이미지도 설정을 내보내고 이미지 버전을 바꾸는 방식으로 교체할 수 있다. 다만 애플리케이션마다 데이터와 버전 호환 조건은 따로 확인할 것.&lt;/p&gt;</description></item><item><title>시놀로지 DNS Server 구축 및 내부 도메인 레코드 설정 방법</title><link>https://www.ramoo.net/hobby/synology-dns-server/</link><pubDate>Sat, 31 Jul 2021 18:22:36 +0900</pubDate><guid>https://www.ramoo.net/hobby/synology-dns-server/</guid><description>&lt;p&gt;
 &lt;picture&gt;
 &lt;source
 srcset="https://image.ramoo.net/images/server/synology-dns/cover-synology-dns-server_hu_e28963c8599f3c25.webp"
@@ -2696,8 +2696,8 @@ target="_blank"
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;dig example.com NS
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;NAS에 직접 물었을 때 레코드가 나오는지, 일반 DNS 조회에서도 설정이 반영되는지를 나눠 확인하면 문제가 생긴 위치를 찾기 쉽다.&lt;/p&gt;
 &lt;h2 id="현재-외부-ip-확인"&gt;현재 외부 IP 확인&lt;/h2&gt;
-&lt;p&gt;인터넷에서 보이는 현재 주소가 궁금하다면 &lt;a href="https://www.ramoo.net/work/check-my-ip/"
-&gt;내 IP 주소 확인하기&lt;/a&gt;에서 공인 IP와 네트워크 정보를 조회할 수 있습니다. 기기의 내부 주소와 외부에 표시되는 주소가 다를 수 있으므로 DNS 레코드를 설정할 때 사용할 주소를 구분해서 확인합니다.&lt;/p&gt;</description></item><item><title>C++ std::tuple 활용법: 함수에서 여러 값 반환하고 std::tie로 받는 방법</title><link>https://www.ramoo.net/work/cpp11-tuple/</link><pubDate>Sat, 26 Jun 2021 00:01:55 +0900</pubDate><guid>https://www.ramoo.net/work/cpp11-tuple/</guid><description>&lt;p&gt;함수에서 결과 두 개를 반환해야 할 때가 있다. 결과를 받을 변수를 참조로 넘기는 방법도 있지만, &lt;code&gt;std::tuple&lt;/code&gt;로 묶으면 간결하게 쓸 수 있다.&lt;/p&gt;
+&lt;p&gt;인터넷에서 보이는 현재 주소가 궁금하다면 &lt;a href="https://www.ramoo.net/hobby/check-my-ip/"
+&gt;내 IP 주소 확인하기&lt;/a&gt;에서 공인 IP와 네트워크 정보를 조회할 수 있습니다. 기기의 내부 주소와 외부에 표시되는 주소가 다를 수 있으므로 DNS 레코드를 설정할 때 사용할 주소를 구분해서 확인합니다.&lt;/p&gt;</description></item><item><title>C++ std::tuple 활용법: 함수에서 여러 값 반환하고 std::tie로 받는 방법</title><link>https://www.ramoo.net/hobby/cpp11-tuple/</link><pubDate>Sat, 26 Jun 2021 00:01:55 +0900</pubDate><guid>https://www.ramoo.net/hobby/cpp11-tuple/</guid><description>&lt;p&gt;함수에서 결과 두 개를 반환해야 할 때가 있다. 결과를 받을 변수를 참조로 넘기는 방법도 있지만, &lt;code&gt;std::tuple&lt;/code&gt;로 묶으면 간결하게 쓸 수 있다.&lt;/p&gt;
 &lt;p&gt;짝수 여부와 짝수일 때 1을 더한 값을 함께 반환하는 예제를 적어 두었다.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-cpp" data-lang="cpp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#include&lt;/span&gt; &lt;span style="color:#75715e"&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span style="color:#75715e"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#include&lt;/span&gt; &lt;span style="color:#75715e"&gt;&amp;lt;tuple&amp;gt;&lt;/span&gt;&lt;span style="color:#75715e"&gt;
@@ -2730,7 +2730,7 @@ target="_blank"
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;std::get&amp;lt;index&amp;gt;(instance)&lt;/code&gt;로 각 원소에 접근한다. &lt;code&gt;std::tie&lt;/code&gt;로 여러 값을 한 번에 풀어 받을 수도 있다.&lt;/p&gt;
 &lt;p&gt;마지막 &lt;code&gt;auto [bis_even, val]&lt;/code&gt; 형태는 C++17의 구조적 바인딩이다. &lt;code&gt;tuple&lt;/code&gt; 자체는 C++11부터 사용할 수 있지만 이 부분은 버전이 다르다.&lt;/p&gt;
-&lt;p&gt;원문 예제의 &lt;code&gt;myResult&lt;/code&gt;, &lt;code&gt;myValue&lt;/code&gt;는 사용하는 곳에서 따로 선언해야 한다.&lt;/p&gt;</description></item><item><title>C++ 람다를 쓰며 적어 둔 메모</title><link>https://www.ramoo.net/work/cpp11-lambda/</link><pubDate>Sat, 30 Jan 2021 14:57:11 +0900</pubDate><guid>https://www.ramoo.net/work/cpp11-lambda/</guid><description>&lt;p&gt;람다는 이름 없는 함수처럼 쓸 수 있다. 사용 빈도가 늘어나서 필요한 내용을 적어 둔다.&lt;/p&gt;
+&lt;p&gt;원문 예제의 &lt;code&gt;myResult&lt;/code&gt;, &lt;code&gt;myValue&lt;/code&gt;는 사용하는 곳에서 따로 선언해야 한다.&lt;/p&gt;</description></item><item><title>C++ 람다를 쓰며 적어 둔 메모</title><link>https://www.ramoo.net/hobby/cpp11-lambda/</link><pubDate>Sat, 30 Jan 2021 14:57:11 +0900</pubDate><guid>https://www.ramoo.net/hobby/cpp11-lambda/</guid><description>&lt;p&gt;람다는 이름 없는 함수처럼 쓸 수 있다. 사용 빈도가 늘어나서 필요한 내용을 적어 둔다.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://en.cppreference.com/w/cpp/language/lambda"
 target="_blank"
 &gt;람다 설명&lt;/a&gt;&lt;/p&gt;
@@ -2795,7 +2795,7 @@ target="_blank"
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; a &lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt; b;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; });
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>맥(Mac)에서 Let's Encrypt 와일드카드 SSL 인증서 발급 후 시놀로지 NAS 적용 가이드</title><link>https://www.ramoo.net/work/synology-wildcard-certbot-mac/</link><pubDate>Sat, 09 Jan 2021 00:42:09 +0900</pubDate><guid>https://www.ramoo.net/work/synology-wildcard-certbot-mac/</guid><description>&lt;p&gt;예전에는 인증서를 발급해 주는 사이트를 이용했다. 유료로 바뀐 뒤에는 Mac에서 직접 발급해 NAS에 적용하고 있다.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>맥(Mac)에서 Let's Encrypt 와일드카드 SSL 인증서 발급 후 시놀로지 NAS 적용 가이드</title><link>https://www.ramoo.net/hobby/synology-wildcard-certbot-mac/</link><pubDate>Sat, 09 Jan 2021 00:42:09 +0900</pubDate><guid>https://www.ramoo.net/hobby/synology-wildcard-certbot-mac/</guid><description>&lt;p&gt;예전에는 인증서를 발급해 주는 사이트를 이용했다. 유료로 바뀐 뒤에는 Mac에서 직접 발급해 NAS에 적용하고 있다.&lt;/p&gt;
 &lt;p&gt;3개월마다 갱신할 때 방법을 다시 찾곤 해서 적어 둔다. 아래는 2021년에 사용한 Certbot과 DSM 화면 기준이다.&lt;/p&gt;
 &lt;h2 id="mac에서-certbot-설치"&gt;Mac에서 Certbot 설치&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;brew install certbot
@@ -3007,7 +3007,7 @@ height="1144" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
 &lt;p&gt;자동 갱신도 알아봤지만, 당시에는 수동으로 3개월마다 하기로 했다. 핑계 삼아 관리도 할 겸.&lt;/p&gt;
-&lt;p&gt;관련 메모: &lt;a href="https://www.ramoo.net/work/synology-dns-server/"
+&lt;p&gt;관련 메모: &lt;a href="https://www.ramoo.net/hobby/synology-dns-server/"
 &gt;Synology DNS Server 설정&lt;/a&gt;&lt;/p&gt;</description></item><item><title>TL-SG2008로 DS918+ 링크통합을 시도했다</title><link>https://www.ramoo.net/hobby/tl-sg2008-lacp/</link><pubDate>Fri, 01 Jan 2021 15:56:22 +0900</pubDate><guid>https://www.ramoo.net/hobby/tl-sg2008-lacp/</guid><description>&lt;p&gt;DS918+에는 LAN 포트가 두 개 있다. 하나만 쓰고 있자니 허전해서 둘 다 써 볼 생각으로 LACP를 구성해 보기로 했다.&lt;/p&gt;
 &lt;p&gt;LACP를 지원하는 스위치를 찾다가 TL-SG2008을 골랐다.&lt;/p&gt;
 &lt;h2 id="가격이-마음에-들었다"&gt;가격이 마음에 들었다&lt;/h2&gt;
@@ -3286,7 +3286,7 @@ height="550" /&gt;
 &lt;h2 id="공유기로만-쓰니-안정적이었다"&gt;공유기로만 쓰니 안정적이었다&lt;/h2&gt;
 &lt;p&gt;그렇게 8개월 동안 한 번도 끊기지 않고 돌아갔다. 당연한 일이라고 할 수도 있지만 기대가 크지 않았던 만큼 의외로 만족했다.&lt;/p&gt;
 &lt;p&gt;고장 났던 제품은 일반 인터넷 연결도 자주 끊겨 새벽에 재부팅하도록 설정해 쓰고 있었다.&lt;/p&gt;
-&lt;p&gt;사용량이 많지는 않았다. BTV, 인터넷, 휴대폰 3~4대, NAS 연결, 가끔 토렌트 정도다. 내 환경에서는 공유기 본래 기능만 쓸 때 꽤 잘 버텼다.&lt;/p&gt;</description></item><item><title>C++11 push_back vs emplace_back 차이점과 객체 생성 최적화 원리</title><link>https://www.ramoo.net/work/cpp11-emplace/</link><pubDate>Fri, 17 Apr 2020 23:29:01 +0900</pubDate><guid>https://www.ramoo.net/work/cpp11-emplace/</guid><description>&lt;p&gt;&lt;code&gt;vector&lt;/code&gt;에 원소를 넣을 때 보통 &lt;code&gt;push_back&lt;/code&gt;을 쓴다. C++11에서는 생성자 인자를 바로 전달할 수 있는 &lt;code&gt;emplace_back&lt;/code&gt;도 있다.&lt;/p&gt;
+&lt;p&gt;사용량이 많지는 않았다. BTV, 인터넷, 휴대폰 3~4대, NAS 연결, 가끔 토렌트 정도다. 내 환경에서는 공유기 본래 기능만 쓸 때 꽤 잘 버텼다.&lt;/p&gt;</description></item><item><title>C++11 push_back vs emplace_back 차이점과 객체 생성 최적화 원리</title><link>https://www.ramoo.net/hobby/cpp11-emplace/</link><pubDate>Fri, 17 Apr 2020 23:29:01 +0900</pubDate><guid>https://www.ramoo.net/hobby/cpp11-emplace/</guid><description>&lt;p&gt;&lt;code&gt;vector&lt;/code&gt;에 원소를 넣을 때 보통 &lt;code&gt;push_back&lt;/code&gt;을 쓴다. C++11에서는 생성자 인자를 바로 전달할 수 있는 &lt;code&gt;emplace_back&lt;/code&gt;도 있다.&lt;/p&gt;
 &lt;p&gt;당시 적어 둔 비교 예제다. &lt;code&gt;AClass&lt;/code&gt; 정의는 생략된 코드 조각이다.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-cpp" data-lang="cpp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;void&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;main&lt;/span&gt;(){
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;vector&lt;span style="color:#f92672"&gt;&amp;lt;&lt;/span&gt;AClass&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt; vA;
@@ -3297,7 +3297,7 @@ height="550" /&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; va.emplace_back(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;,&lt;span style="color:#e6db74"&gt;&amp;#34;a&amp;#34;&lt;/span&gt;);
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;emplace_back&lt;/code&gt;은 컨테이너 안에서 원소를 생성한다. 임시 객체를 만든 뒤 옮기는 일을 줄일 수 있다는 점을 기억해 둔다.&lt;/p&gt;
-&lt;p&gt;다만 &lt;code&gt;vector&lt;/code&gt;가 커지면서 재할당되면 기존 원소의 이동이나 복사가 생길 수 있으니, 호출 전체에서 이동이 전혀 없다고 생각하면 안 된다.&lt;/p&gt;</description></item><item><title>SSL For Free에서 와일드카드 인증서를 받았던 기록</title><link>https://www.ramoo.net/work/synology-wildcard-sslforfree/</link><pubDate>Wed, 11 Dec 2019 22:20:13 +0900</pubDate><guid>https://www.ramoo.net/work/synology-wildcard-sslforfree/</guid><description>&lt;p&gt;블로그를 처음 만들 때 인증서를 살 생각으로 가격을 알아봤다. 여러 도메인을 쓰려니 비용이 올라가 최소 30만 원 이상이 필요해서 무료 발급 방법을 찾았다.&lt;/p&gt;
+&lt;p&gt;다만 &lt;code&gt;vector&lt;/code&gt;가 커지면서 재할당되면 기존 원소의 이동이나 복사가 생길 수 있으니, 호출 전체에서 이동이 전혀 없다고 생각하면 안 된다.&lt;/p&gt;</description></item><item><title>SSL For Free에서 와일드카드 인증서를 받았던 기록</title><link>https://www.ramoo.net/hobby/synology-wildcard-sslforfree/</link><pubDate>Wed, 11 Dec 2019 22:20:13 +0900</pubDate><guid>https://www.ramoo.net/hobby/synology-wildcard-sslforfree/</guid><description>&lt;p&gt;블로그를 처음 만들 때 인증서를 살 생각으로 가격을 알아봤다. 여러 도메인을 쓰려니 비용이 올라가 최소 30만 원 이상이 필요해서 무료 발급 방법을 찾았다.&lt;/p&gt;
 &lt;p&gt;당시에는 SSL For Free에서 와일드카드 인증서를 받을 수 있었다. 대신 3개월마다 갱신해야 했다. 아래는 2019년에 이용했던 화면과 절차다.&lt;/p&gt;
 &lt;h2 id="도메인-입력"&gt;도메인 입력&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://www.sslforfree.com/"
@@ -3354,7 +3354,7 @@ height="600" /&gt;
 &lt;p&gt;도메인을 관리하는 DNS에 안내된 TXT 레코드를 추가한다. 당시 화면에서는 TTL을 1로 설정하라고 했지만 설정 항목이 없어 반영될 때까지 기다렸다.&lt;/p&gt;
 &lt;p&gt;입력한 도메인의 &lt;code&gt;_acme-challenge&lt;/code&gt; 확인 버튼으로 레코드가 조회되는지 확인한 뒤 인증서를 다운로드했다.&lt;/p&gt;
 &lt;p&gt;메일 주소를 입력하면 만료 전에 알림을 받을 수 있다고 했다.&lt;/p&gt;
-&lt;p&gt;이후에는 Mac에서 직접 발급하는 방식으로 바꿨다. 그 기록은 &lt;a href="https://www.ramoo.net/work/synology-wildcard-certbot-mac/"
+&lt;p&gt;이후에는 Mac에서 직접 발급하는 방식으로 바꿨다. 그 기록은 &lt;a href="https://www.ramoo.net/hobby/synology-wildcard-certbot-mac/"
 &gt;Certbot으로 발급해 NAS에 적용한 메모&lt;/a&gt;에 남겼다.&lt;/p&gt;</description></item><item><title>시놀로지 DS918+ RAM 메모리 16GB 업그레이드 방법 및 호환 메모리 확인기</title><link>https://www.ramoo.net/hobby/ds918-memory-upgrade/</link><pubDate>Sat, 02 Nov 2019 11:19:46 +0900</pubDate><guid>https://www.ramoo.net/hobby/ds918-memory-upgrade/</guid><description>&lt;p&gt;DS918+를 사고 메모리를 늘리려고 알아봤다. 아무 메모리나 사서 꽂으면 되는 것은 아니어서 아래 모델을 골랐다.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;DDR3L 1866 MT/s (PC3-14900)
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Unbuffered SODIMM 204-Pin
@@ -3463,7 +3463,7 @@ height="1134" /&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;defaults write com.apple.Finder AppleShowAllFiles TRUE
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Finder를 다시 실행하면 숨김 파일이 보인다.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;killall Finder
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Mac에 Jenkins를 설치했던 기록</title><link>https://www.ramoo.net/work/mac-jenkins-install/</link><pubDate>Tue, 29 Oct 2019 01:35:45 +0900</pubDate><guid>https://www.ramoo.net/work/mac-jenkins-install/</guid><description>&lt;p&gt;2019년에 Mac에 Jenkins를 설치했던 기록이다. 당시 Homebrew와 Java 8을 기준으로 적어 둔 명령이다.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Mac에 Jenkins를 설치했던 기록</title><link>https://www.ramoo.net/hobby/mac-jenkins-install/</link><pubDate>Tue, 29 Oct 2019 01:35:45 +0900</pubDate><guid>https://www.ramoo.net/hobby/mac-jenkins-install/</guid><description>&lt;p&gt;2019년에 Mac에 Jenkins를 설치했던 기록이다. 당시 Homebrew와 Java 8을 기준으로 적어 둔 명령이다.&lt;/p&gt;
 &lt;h2 id="homebrew-설치"&gt;Homebrew 설치&lt;/h2&gt;
 &lt;p&gt;이미 설치되어 있다면 넘어간다. 당시 사용한 설치 명령은 아래와 같다.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;/usr/bin/ruby -e &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;
@@ -3506,7 +3506,7 @@ height="359" /&gt;
 &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;--httpListenAddress=127.0.0.1 → --httpListenAddress=0.0.0.0
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;--httpPort=8080 → --httpPort=9090
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;그 뒤 포트 포워딩이나 nginx 리버스 프록시를 통해 접속하는 구성을 생각했다.&lt;/p&gt;</description></item><item><title>시놀로지(Synology) NAS 해외 IP 및 특정 국가 접속 차단 방화벽 설정 방법</title><link>https://www.ramoo.net/work/synology-region-firewall/</link><pubDate>Sun, 27 Oct 2019 23:04:26 +0900</pubDate><guid>https://www.ramoo.net/work/synology-region-firewall/</guid><description>&lt;p&gt;NAS에 admin 계정으로 로그인하려는 흔적이 계속 보여서 IP 위치를 찾아봤다.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;그 뒤 포트 포워딩이나 nginx 리버스 프록시를 통해 접속하는 구성을 생각했다.&lt;/p&gt;</description></item><item><title>시놀로지(Synology) NAS 해외 IP 및 특정 국가 접속 차단 방화벽 설정 방법</title><link>https://www.ramoo.net/hobby/synology-region-firewall/</link><pubDate>Sun, 27 Oct 2019 23:04:26 +0900</pubDate><guid>https://www.ramoo.net/hobby/synology-region-firewall/</guid><description>&lt;p&gt;NAS에 admin 계정으로 로그인하려는 흔적이 계속 보여서 IP 위치를 찾아봤다.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.ipvoid.com/ip-to-google-maps/"
 target="_blank"
 &gt;IP 주소를 지도에서 확인하는 도구&lt;/a&gt;&lt;/p&gt;
@@ -3563,7 +3563,7 @@ height="608" /&gt;
 &lt;p&gt;지역이나 IP 주소로 규칙을 만들 수 있었다.&lt;/p&gt;
 &lt;p&gt;처음에는 모든 포트를 막았는데, 다시 생각해 보니 그럴 필요는 없을 것 같았다. 글을 쓴 뒤 특정 포트만 차단하는 것으로 바꿨다.&lt;/p&gt;
 &lt;h2 id="내-네트워크의-ip-확인"&gt;내 네트워크의 IP 확인&lt;/h2&gt;
-&lt;p&gt;지금 사용하는 인터넷 연결의 IP와 추정 위치는 &lt;a href="https://www.ramoo.net/work/check-my-ip/"
+&lt;p&gt;지금 사용하는 인터넷 연결의 IP와 추정 위치는 &lt;a href="https://www.ramoo.net/hobby/check-my-ip/"
 &gt;내 IP 주소 확인하기 — 공인 IP·통신사·위치 지도&lt;/a&gt;에서 볼 수 있습니다. 현재 방문자의 연결을 조회하는 도구이며, 위에서 사용한 임의 IP 위치 조회 도구와는 용도가 다릅니다.&lt;/p&gt;</description></item><item><title>맥 타임머신(Time Machine) 최초 백업 속도 느릴 때 원인과 해결 팁</title><link>https://www.ramoo.net/hobby/mac-time-machine-speed/</link><pubDate>Thu, 26 Sep 2019 15:51:51 +0900</pubDate><guid>https://www.ramoo.net/hobby/mac-time-machine-speed/</guid><description>&lt;p&gt;Mac을 업데이트하다 한 번 날려 먹은 적이 있다. 그때 Time Machine으로 복원하고 안도의 한숨을 쉬었다.&lt;/p&gt;
 &lt;p&gt;이후로 꾸준히 백업하고 있지만 속도가 느려서, 당시 찾아 쓴 명령을 적어 둔다.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo sysctl debug.lowpri_throttle_enabled&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;
