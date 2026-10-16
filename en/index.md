@@ -1,8 +1,8 @@
 # ramoo.net in English
 
+date: 2026-10-16
 
 > A personal blog from Korea covering investing, news and commentary, country living, software development, servers and technology hobbies.
-
 
 ramoo.net is my personal blog about work, hobbies, investing and the occasional detour. I write down what I learn while developing software, running servers, planning a country home and following financial markets. I also keep notes about travel and everyday life so I can return to them later.
 

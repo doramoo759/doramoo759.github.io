@@ -8,6 +8,32 @@
 - [Contact](https://www.ramoo.net/contact/index.md): Contact information for ramoo.net.
 - [블로그](https://www.ramoo.net/blog/index.md): 투자·경제, 시사, 전원생활, 개발·서버와 전자기기 취미까지 ramoo.net에 기록한 글을 모아 봅니다.
 
+## Pages
+- [Pages](https://www.ramoo.net/pages/index.md)
+
+- [Donate](https://www.ramoo.net/donate/index.md): Ways to donate to ramoo.net through Ko-fi or a KakaoPay QR code in Korea.
+- [기부](https://www.ramoo.net/ko/donate/index.md): Ko-fi와 국내 카카오페이 QR을 통해 ramoo.net의 콘텐츠 제작에 기부하는 방법을 안내합니다.
+- [AI·크롤링 정책](https://www.ramoo.net/ko/ai-crawling-policy/index.md): 검색 색인, 자동 수집, AI 학습과 데이터셋 이용의 허용 범위를 안내합니다.
+- [ramoo.net in English](https://www.ramoo.net/en/index.md): A personal blog from Korea covering investing, news and commentary, country living, software development, servers and technology hobbies.
+- [ramoo.net 소개](https://www.ramoo.net/ko/en/index.md): 투자·경제, 시사, 전원생활과 개발·취미를 기록하는 ramoo.net 블로그 소개입니다.
+- [개인정보처리방침](https://www.ramoo.net/ko/privacy-policy/index.md): ramoo.net의 방문 통계, 문의 정보, 외부 서비스와 개인정보 권리 행사 안내.
+- [면책고지](https://www.ramoo.net/ko/disclaimer/index.md): ramoo.net의 정보·기술 안내와 외부 서비스 이용 시 고려할 한계를 설명합니다.
+- [문의](https://www.ramoo.net/ko/contact/index.md): ramoo.net 운영자에게 문의하고 개인정보 처리와 답변 안내를 확인하는 페이지입니다.
+- [소개](https://www.ramoo.net/ko/about/index.md): ramoo와 개발·취미·재테크 기록을 남기는 개인 블로그에 관한 소개입니다.
+- [오픈소스](https://www.ramoo.net/ko/open-source/index.md): ramoo.net의 구축·유지에 사용하는 오픈소스와 콘텐츠 라이선스를 안내합니다.
+- [이용약관](https://www.ramoo.net/ko/terms/index.md): ramoo.net 이용과 콘텐츠 재사용, 외부 서비스 및 관련 정책을 안내합니다.
+- [제3자 권리 고지](https://www.ramoo.net/ko/third-party-notices/index.md): ramoo.net에서 사용하는 소프트웨어와 외부 자료의 출처·라이선스를 안내합니다.
+- [콘텐츠 이용허락](https://www.ramoo.net/ko/license/index.md): ramoo.net 원본 콘텐츠의 재사용 허용 범위, 출처 표시와 제한을 안내합니다.
+- [쿠키 정책](https://www.ramoo.net/ko/cookie-policy/index.md): ramoo.net의 방문 통계 동의, 쿠키·로컬 저장소 및 설정 변경 방법.
+- [AI & Crawling Policy](https://www.ramoo.net/ai-crawling-policy/index.md): Conditions for search indexing, automated collection, AI training, and dataset use.
+- [Content License](https://www.ramoo.net/license/index.md): Permissions and restrictions for reusing original ramoo.net content.
+- [Cookie Policy](https://www.ramoo.net/cookie-policy/index.md): Analytics consent, cookies, browser storage, and preference controls on ramoo.net.
+- [Disclaimer](https://www.ramoo.net/disclaimer/index.md): Limitations of the information, instructions, and external services mentioned on ramoo.net.
+- [Open Source](https://www.ramoo.net/open-source/index.md): Open-source tools used to build and maintain ramoo.net.
+- [Privacy Policy](https://www.ramoo.net/privacy-policy/index.md): How ramoo.net handles analytics, inquiries, external services, and privacy requests.
+- [Terms of Use](https://www.ramoo.net/terms/index.md): Rules for accessing and using ramoo.net.
+- [Third-Party Notices](https://www.ramoo.net/third-party-notices/index.md): Attribution and license references for software and external assets used by ramoo.net.
+
 ## Hobby
 - [Hobby](https://www.ramoo.net/hobby/index.md): 프로그래밍·서버 구축·개발 도구부터 맥·전자기기 사용기, 개인 NAS와 홈 네트워크 경험까지 담은 기록입니다.
 
@@ -54,19 +80,6 @@
 - ["지금 이 난리에!" 시민들 분노…'덩실덩실' 구리시장 "술은 안 마셨다" / SBS 8뉴스](https://www.ramoo.net/news/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/index.md): 참 이 물난리에 잠깐 참석이라도 하지 말았어야 한다. 그 시간에 야유회 참석 안 한다고 누가 뭐라 하겠는가.. 같은 시간 공무원들은 비상 근무를 하고 있었다는데
 - [Weekly hot issue - 강선우 후보자를 둘러싼 보좌진 갑질 논란](https://www.ramoo.net/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/index.md): 최근 강선우 여성가족부 장관 후보자를 둘러싼 ‘보좌진 갑질 논란’이 정치권을 흔들고 있습니다. 이번 논란은 인사청문회 과정에서 전·현직 보좌진들의 폭로로 촉발되었습니다.
 - [Weekly News (2025년 7월 18일)](https://www.ramoo.net/news/weekly-news-2025nyeon-7weol-18il/index.md): 이재명 대통령은 전국적인 폭우 피해로 인해 부산 타운홀 미팅 일정을 취소하고 피해 상황 점검에 집중했다.
-
-## Pages
-- [Pages](https://www.ramoo.net/pages/index.md)
-
-- [AI & Crawling Policy](https://www.ramoo.net/ai-crawling-policy/index.md): Conditions for search indexing, automated collection, AI training, and dataset use.
-- [Content License](https://www.ramoo.net/license/index.md): Permissions and restrictions for reusing original ramoo.net content.
-- [Cookie Policy](https://www.ramoo.net/cookie-policy/index.md): Cookies, browser storage, and controls available to visitors to ramoo.net.
-- [Disclaimer](https://www.ramoo.net/disclaimer/index.md): Limitations of the information, instructions, and external services mentioned on ramoo.net.
-- [Open Source](https://www.ramoo.net/open-source/index.md): Open-source tools used to build and maintain ramoo.net.
-- [Privacy Policy](https://www.ramoo.net/privacy-policy/index.md): How ramoo.net handles visitor information and third-party services.
-- [Terms of Use](https://www.ramoo.net/terms/index.md): Rules for accessing and using ramoo.net.
-- [Third-Party Notices](https://www.ramoo.net/third-party-notices/index.md): Attribution and license references for software and external assets used by ramoo.net.
-- [ramoo.net in English](https://www.ramoo.net/en/index.md): A personal blog from Korea covering investing, news and commentary, country living, software development, servers and technology hobbies.
 
 ## Exurban
 - [Exurban](https://www.ramoo.net/exurban/index.md): 전원주택·건축·인테리어와 교외 생활을 위한 기록

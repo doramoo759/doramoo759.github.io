@@ -4,7 +4,6 @@ date: 2026-01-01
 
 > Open-source tools used to build and maintain ramoo.net.
 
-
 ramoo.net is built with open-source software. The main tools include Hugo for static-site generation, the Hugoplate theme, Tailwind CSS, and Prettier, along with Hugo modules and npm packages.
 
 ## Software and content licenses
@@ -21,5 +20,5 @@ For questions about software attribution or license notices, see the [Contact pa
 
 ---
 
-Last updated: October 9, 2026
+Last updated: October 16, 2026
 

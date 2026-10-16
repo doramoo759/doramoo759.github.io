@@ -4,7 +4,6 @@ date: 2026-01-01
 
 > Rules for accessing and using ramoo.net.
 
-
 These terms govern use of ramoo.net. By using the site, you agree to these terms.
 
 ## Site content and availability
@@ -33,5 +32,5 @@ Updates to these terms will be published here.
 
 ---
 
-Last updated: October 9, 2026
+Last updated: October 16, 2026
 

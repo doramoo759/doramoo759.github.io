@@ -4,7 +4,6 @@ date: 2026-01-01
 
 > Permissions and restrictions for reusing original ramoo.net content.
 
-
 Unless otherwise stated, original articles, example code, original images, diagrams, and other original editorial material on ramoo.net are copyrighted by ramoo. This page sets out the permissions granted for reusing that material.
 
 ## Permitted reuse
@@ -50,5 +49,5 @@ For reuse or licensing questions, see the [Contact page](/contact/). Updates wil
 
 ---
 
-Last updated: October 9, 2026
+Last updated: October 16, 2026
 

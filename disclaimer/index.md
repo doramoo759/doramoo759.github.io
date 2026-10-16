@@ -4,7 +4,6 @@ date: 2026-01-01
 
 > Limitations of the information, instructions, and external services mentioned on ramoo.net.
 
-
 Content on ramoo.net is provided for general information and reference. It records personal experience and study notes, which may not apply to another environment or situation.
 
 ## Accuracy and currency
@@ -29,5 +28,5 @@ For rules on using the site, see the [Terms of Use](/terms/).
 
 ---
 
-Last updated: October 9, 2026
+Last updated: October 16, 2026
 

@@ -4,7 +4,6 @@ date: 2026-01-01
 
 > Attribution and license references for software and external assets used by ramoo.net.
 
-
 The software and third-party assets used by ramoo.net remain subject to their owners' rights and upstream licenses.
 
 ## Main software components
@@ -34,5 +33,5 @@ For copyright, attribution, or asset questions, see the [Contact page](/contact/
 
 ---
 
-Last updated: October 9, 2026
+Last updated: October 16, 2026
 

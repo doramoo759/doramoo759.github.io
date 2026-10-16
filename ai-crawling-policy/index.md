@@ -4,7 +4,6 @@ date: 2026-01-01
 
 > Conditions for search indexing, automated collection, AI training, and dataset use.
 
-
 This policy addresses automated access to ramoo.net content. Reuse and attribution requirements are set out in the [Content License](/license/).
 
 ## Search indexing
@@ -33,5 +32,5 @@ For collection, training, or dataset uses that need separate permission, see the
 
 ---
 
-Last updated: October 9, 2026
+Last updated: October 16, 2026
 
