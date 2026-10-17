@@ -8,20 +8,15 @@
 - [Contact](https://www.ramoo.net/contact/index.md): Contact information for ramoo.net.
 - [블로그](https://www.ramoo.net/blog/index.md): 투자·경제, 시사, 전원생활, 개발·서버와 전자기기 취미까지 ramoo.net에 기록한 글을 모아 봅니다.
 
-## News
-- [News](https://www.ramoo.net/news/index.md): 시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
-
-- [김용대 KAIST 교수님의 금융회사 보안 뚫린 이유 소설로 풍자](https://www.ramoo.net/news/security-beyond-tools-a-conversation/index.md): 지디넷코리아에 실린 김용대 KAIST 교수의 보안 풍자 소설을 인물 아이콘과 채팅 말풍선으로 재구성했다. 프롤로그부터 에필로그까지 대사와 지문을 순서대로 읽을 수 있다.
-- [동료에게 듣고 찾아본 인천 구월동 흉기 난동 사건](https://www.ramoo.net/news/incheon-guwol-stabbing-news/index.md): 직장 동료에게 소식을 듣고 찾아본 인천 구월동 상업시설 흉기 난동 사건. 기사 네 편과 저녁 후속 보도를 바탕으로 사건 경위와 달라진 내용을 정리하고 관련 영상을 남겼다.
-- [노벨상까지 내놓으라는 트럼프, 후대는 어떻게 기억할까](https://www.ramoo.net/news/trump-nobel-peace-prize-icc-sanctions/index.md): 트럼프의 노벨평화상 불만과 미국의 ICC 제재를 다룬 기사 세 편을 짧게 정리하고, 국가 지도자의 책임에 대한 생각을 남긴다.
-- [트럼프, 유네스코 탈퇴 결정… "친팔레스타인·친중국 성향"](https://www.ramoo.net/news/teureompeu-yuneseuko-taltoe-gyeoljeong-cinpalreseutain-cinjunggug-seonghyang/index.md): "상식적인 정책과 완전히 어긋나…미국 최우선으로 생각할 것" 2023년 조 바이든 전 대통령 재가입 이후 2년 만
-- ["지금 이 난리에!" 시민들 분노…'덩실덩실' 구리시장 "술은 안 마셨다" / SBS 8뉴스](https://www.ramoo.net/news/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/index.md): 참 이 물난리에 잠깐 참석이라도 하지 말았어야 한다. 그 시간에 야유회 참석 안 한다고 누가 뭐라 하겠는가.. 같은 시간 공무원들은 비상 근무를 하고 있었다는데
-- [Weekly hot issue - 강선우 후보자를 둘러싼 보좌진 갑질 논란](https://www.ramoo.net/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/index.md): 최근 강선우 여성가족부 장관 후보자를 둘러싼 ‘보좌진 갑질 논란’이 정치권을 흔들고 있습니다. 이번 논란은 인사청문회 과정에서 전·현직 보좌진들의 폭로로 촉발되었습니다.
-- [Weekly News (2025년 7월 18일)](https://www.ramoo.net/news/weekly-news-2025nyeon-7weol-18il/index.md): 이재명 대통령은 전국적인 폭우 피해로 인해 부산 타운홀 미팅 일정을 취소하고 피해 상황 점검에 집중했다.
-
 ## Pages
 - [Pages](https://www.ramoo.net/pages/index.md)
 
+- [S&P 500 지수 매수·매도 기술적 분석](https://www.ramoo.net/markets/sp500-analysis/index.md): S&P 500 지수(SP:SPX)의 일봉 매수·매도 기술적 분석 게이지를 확인합니다. SPY ETF의 가격·분석과 구분해 지수 자체의 종합 신호를 표시합니다.
+- [국제유가 WTI CFD 차트와 기술적 분석](https://www.ramoo.net/markets/wti/index.md): WTI 원유 선물에 연동된 FXCM USOIL CFD의 가격 차트와 매수·매도 기술적 분석입니다. 원유 현물가격이나 특정 선물 계약의 정산가와 구분해 확인하세요.
+- [S&P 500 ETF (SPY) 차트와 기술적 분석](https://www.ramoo.net/markets/sp500/index.md): S&P 500 지수를 추종하는 SPDR S&P 500 ETF(SPY)의 달러 표시 가격 차트와 기술적 분석입니다. S&P 500 지수 자체의 수치와는 다릅니다.
+- [나스닥 100 ETF (QQQ) 차트와 기술적 분석](https://www.ramoo.net/markets/nasdaq100/index.md): 나스닥 100 지수를 추종하는 Invesco QQQ ETF의 달러 표시 가격 차트와 기술적 분석입니다. 나스닥 100 지수 자체의 수치와는 다릅니다.
+- [시장 지표 차트와 기술적 분석](https://www.ramoo.net/markets/index.md): S&P 500 지수를 추종하는 SPDR S&P 500 ETF(SPY)의 달러 표시 가격 차트와 기술적 분석입니다. S&P 500 지수 자체의 수치와는 다릅니다.
+- [원/달러 환율 차트와 기술적 분석](https://www.ramoo.net/markets/usd-krw/index.md): 미국 달러당 원화 환율의 가격 흐름과 TradingView 기술적 분석입니다. 은행의 현찰·송금 환율이나 한국은행의 기준환율과 다를 수 있습니다.
 - [Donate](https://www.ramoo.net/donate/index.md): Ways to donate to ramoo.net through Ko-fi or a KakaoPay QR code in Korea.
 - [기부](https://www.ramoo.net/ko/donate/index.md): Ko-fi와 국내 카카오페이 QR을 통해 ramoo.net의 콘텐츠 제작에 기부하는 방법을 안내합니다.
 - [AI·크롤링 정책](https://www.ramoo.net/ko/ai-crawling-policy/index.md): 검색 색인, 자동 수집, AI 학습과 데이터셋 이용의 허용 범위를 안내합니다.
@@ -44,6 +39,17 @@
 - [Privacy Policy](https://www.ramoo.net/privacy-policy/index.md): How ramoo.net handles analytics, inquiries, external services, and privacy requests.
 - [Terms of Use](https://www.ramoo.net/terms/index.md): Rules for accessing and using ramoo.net.
 - [Third-Party Notices](https://www.ramoo.net/third-party-notices/index.md): Attribution and license references for software and external assets used by ramoo.net.
+
+## News
+- [News](https://www.ramoo.net/news/index.md): 시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
+
+- [김용대 KAIST 교수님의 금융회사 보안 뚫린 이유 소설로 풍자](https://www.ramoo.net/news/security-beyond-tools-a-conversation/index.md): 지디넷코리아에 실린 김용대 KAIST 교수의 보안 풍자 소설을 인물 아이콘과 채팅 말풍선으로 재구성했다. 프롤로그부터 에필로그까지 대사와 지문을 순서대로 읽을 수 있다.
+- [동료에게 듣고 찾아본 인천 구월동 흉기 난동 사건](https://www.ramoo.net/news/incheon-guwol-stabbing-news/index.md): 직장 동료에게 소식을 듣고 찾아본 인천 구월동 상업시설 흉기 난동 사건. 기사 네 편과 저녁 후속 보도를 바탕으로 사건 경위와 달라진 내용을 정리하고 관련 영상을 남겼다.
+- [노벨상까지 내놓으라는 트럼프, 후대는 어떻게 기억할까](https://www.ramoo.net/news/trump-nobel-peace-prize-icc-sanctions/index.md): 트럼프의 노벨평화상 불만과 미국의 ICC 제재를 다룬 기사 세 편을 짧게 정리하고, 국가 지도자의 책임에 대한 생각을 남긴다.
+- [트럼프, 유네스코 탈퇴 결정… "친팔레스타인·친중국 성향"](https://www.ramoo.net/news/teureompeu-yuneseuko-taltoe-gyeoljeong-cinpalreseutain-cinjunggug-seonghyang/index.md): "상식적인 정책과 완전히 어긋나…미국 최우선으로 생각할 것" 2023년 조 바이든 전 대통령 재가입 이후 2년 만
+- ["지금 이 난리에!" 시민들 분노…'덩실덩실' 구리시장 "술은 안 마셨다" / SBS 8뉴스](https://www.ramoo.net/news/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/index.md): 참 이 물난리에 잠깐 참석이라도 하지 말았어야 한다. 그 시간에 야유회 참석 안 한다고 누가 뭐라 하겠는가.. 같은 시간 공무원들은 비상 근무를 하고 있었다는데
+- [Weekly hot issue - 강선우 후보자를 둘러싼 보좌진 갑질 논란](https://www.ramoo.net/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/index.md): 최근 강선우 여성가족부 장관 후보자를 둘러싼 ‘보좌진 갑질 논란’이 정치권을 흔들고 있습니다. 이번 논란은 인사청문회 과정에서 전·현직 보좌진들의 폭로로 촉발되었습니다.
+- [Weekly News (2025년 7월 18일)](https://www.ramoo.net/news/weekly-news-2025nyeon-7weol-18il/index.md): 이재명 대통령은 전국적인 폭우 피해로 인해 부산 타운홀 미팅 일정을 취소하고 피해 상황 점검에 집중했다.
 
 ## Hobby
 - [Hobby](https://www.ramoo.net/hobby/index.md): 프로그래밍·서버 구축·개발 도구부터 맥·전자기기 사용기, 개인 NAS와 홈 네트워크 경험까지 담은 기록입니다.

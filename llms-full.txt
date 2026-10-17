@@ -35,6 +35,941 @@ description: 투자·경제, 시사, 전원생활, 개발·서버와 전자기�
 투자·경제, 시사, 전원생활, 개발·서버와 전자기기 취미까지 ramoo.net에 기록한 글을 모아 봅니다.
 
 --------------------------------------------------------------------------------
+title: "Pages"
+url: https://www.ramoo.net/pages/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "S&P 500 지수 매수·매도 기술적 분석"
+url: https://www.ramoo.net/markets/sp500-analysis/index.md
+date: "2026-10-17"
+description: S&P 500 지수(SP:SPX)의 일봉 매수·매도 기술적 분석 게이지를 확인합니다. SPY ETF의 가격·분석과 구분해 지수 자체의 종합 신호를 표시합니다.
+--------------------------------------------------------------------------------
+
+## 어떤 신호인가요?
+
+이 페이지는 **S&P 500 지수 자체(`SP:SPX`)**에 대한 [TradingView 기술적 분석](https://www.tradingview.com/symbols/SP-SPX/technicals/)입니다. [SPY ETF 차트와 분석](/markets/sp500/)은 별도 페이지에서 제공합니다.
+
+게이지는 선택한 시간 간격의 이동평균과 오실레이터를 종합한 신호입니다. 기본 시간 간격은 일봉이며, 큰 게이지에서 다른 간격으로 바꿀 수 있습니다. 매수·매도 표시는 투자 성과를 보장하거나 개인별 매매 지시를 제공하지 않습니다.
+
+관측 시각·지연·휴장 안내는 위젯에서 확인하세요. 데이터가 없거나 연결이 끊기면 현재의 유효한 신호로 해석하지 마세요. [TradingView 원문 기술적 분석](https://www.tradingview.com/symbols/SP-SPX/technicals/)에서도 확인할 수 있습니다.
+
+
+--------------------------------------------------------------------------------
+title: "국제유가 WTI CFD 차트와 기술적 분석"
+url: https://www.ramoo.net/markets/wti/index.md
+date: "2026-10-17"
+description: WTI 원유 선물에 연동된 FXCM USOIL CFD의 가격 차트와 매수·매도 기술적 분석입니다. 원유 현물가격이나 특정 선물 계약의 정산가와 구분해 확인하세요.
+--------------------------------------------------------------------------------
+
+## 어떤 국제유가를 표시하나요?
+
+이 페이지는 TradingView의 **FXCM USOIL(`FX:USOIL`) CFD**를 표시합니다. 가격 단위는 배럴당 미국 달러입니다. [FXCM의 상품 설명](https://www.fxcm.com/uk/help/commodities-usoil/)에 따르면 USOIL의 기초상품은 CME에서 거래되는 경질 원유 선물이며, WTI는 원유 가격의 기준으로 쓰이는 유종입니다.
+
+CFD는 제공사의 선물 연동 상품입니다. 원유 현물가격이나 특정 월물의 거래소 공식 정산가와 동일한 값으로 해석하지 마세요. 참조 월물과 만기 조건은 제공사 안내를 따릅니다. [FXCM USOIL 상품 조건](https://www.fxcm.com/uk/help/commodities-usoil/)에서 확인할 수 있습니다.
+
+## 차트와 게이지 읽기
+
+차트에서 기간과 표시 방식을 바꿀 수 있습니다. 기술적 분석 게이지는 선택한 시간 간격의 이동평균·오실레이터 종합 신호이며, 차트와 게이지의 시간 간격은 각각 선택합니다. 매수·매도 표시는 투자 성과를 보장하거나 개인별 매매 지시를 제공하지 않습니다.
+
+관측 시각·시세 지연·휴장 안내는 각 위젯에서 확인하세요. 데이터가 없거나 연결이 끊기면 현재 시세나 유효한 신호로 판단하지 마세요. 자료·차트: [TradingView USOIL](https://www.tradingview.com/symbols/USOIL/?exchange=FX).
+
+
+--------------------------------------------------------------------------------
+title: "S&P 500 ETF (SPY) 차트와 기술적 분석"
+url: https://www.ramoo.net/markets/sp500/index.md
+date: "2026-10-17"
+description: S&P 500 지수를 추종하는 SPDR S&P 500 ETF(SPY)의 달러 표시 가격 차트와 기술적 분석입니다. S&P 500 지수 자체의 수치와는 다릅니다.
+--------------------------------------------------------------------------------
+
+## 차트와 게이지 읽기
+
+S&P 500 지수를 추종하는 SPDR S&P 500 ETF(SPY)의 달러 표시 가격 차트와 기술적 분석입니다. S&P 500 지수 자체의 수치와는 다릅니다. [State Street의 SPY 안내](https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-500-etf-trust-spy)에서 추종 지수를 확인할 수 있습니다.
+
+기술적 분석 게이지는 선택한 시간 간격의 이동평균과 오실레이터를 종합한 TradingView의 신호입니다. 차트와 게이지의 시간 간격은 각각 선택합니다. 매수·매도 표시는 투자 성과를 보장하거나 개인에게 맞춘 매매 지시를 제공하지 않습니다.
+
+시세의 관측 시각, 지연 및 휴장 표시는 각 위젯에서 확인하세요. 위젯에 데이터가 없거나 연결이 끊기면 표시된 수치를 현재 시세로 판단하지 마세요. [TradingView에서 S&P 500 확인하기](https://www.tradingview.com/symbols/AMEX-SPY/)에서도 확인할 수 있습니다.
+
+자료·차트: [TradingView](https://www.tradingview.com/symbols/AMEX-SPY/). [기술적 분석 위젯 안내](https://www.tradingview.com/widget-docs/widgets/symbol-details/technical-analysis/), [인터랙티브 차트 안내](https://www.tradingview.com/widget-docs/widgets/charts/advanced-chart/).
+
+
+--------------------------------------------------------------------------------
+title: "나스닥 100 ETF (QQQ) 차트와 기술적 분석"
+url: https://www.ramoo.net/markets/nasdaq100/index.md
+date: "2026-10-17"
+description: 나스닥 100 지수를 추종하는 Invesco QQQ ETF의 달러 표시 가격 차트와 기술적 분석입니다. 나스닥 100 지수 자체의 수치와는 다릅니다.
+--------------------------------------------------------------------------------
+
+## 차트와 게이지 읽기
+
+나스닥 100 지수를 추종하는 Invesco QQQ ETF의 달러 표시 가격 차트와 기술적 분석입니다. 나스닥 100 지수 자체의 수치와는 다릅니다. [Invesco의 QQQ 안내](https://www.invesco.com/qqq-etf/en/home.html)에서 추종 지수를 확인할 수 있습니다.
+
+기술적 분석 게이지는 선택한 시간 간격의 이동평균과 오실레이터를 종합한 TradingView의 신호입니다. 차트와 게이지의 시간 간격은 각각 선택합니다. 매수·매도 표시는 투자 성과를 보장하거나 개인에게 맞춘 매매 지시를 제공하지 않습니다.
+
+시세의 관측 시각, 지연 및 휴장 표시는 각 위젯에서 확인하세요. 위젯에 데이터가 없거나 연결이 끊기면 표시된 수치를 현재 시세로 판단하지 마세요. [TradingView에서 나스닥 100 ETF (QQQ) 확인하기](https://www.tradingview.com/symbols/NASDAQ-QQQ/)에서도 확인할 수 있습니다.
+
+자료·차트: [TradingView](https://www.tradingview.com/symbols/NASDAQ-QQQ/). [기술적 분석 위젯 안내](https://www.tradingview.com/widget-docs/widgets/symbol-details/technical-analysis/), [인터랙티브 차트 안내](https://www.tradingview.com/widget-docs/widgets/charts/advanced-chart/).
+
+
+--------------------------------------------------------------------------------
+title: "시장 지표 차트와 기술적 분석"
+url: https://www.ramoo.net/markets/index.md
+date: "2026-10-17"
+description: S&P 500 지수를 추종하는 SPDR S&P 500 ETF(SPY)의 달러 표시 가격 차트와 기술적 분석입니다. S&P 500 지수 자체의 수치와는 다릅니다.
+--------------------------------------------------------------------------------
+
+## 차트와 게이지 읽기
+
+S&P 500 지수를 추종하는 SPDR S&P 500 ETF(SPY)의 달러 표시 가격 차트와 기술적 분석입니다. S&P 500 지수 자체의 수치와는 다릅니다. [State Street의 SPY 안내](https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-500-etf-trust-spy)에서 추종 지수를 확인할 수 있습니다.
+
+기술적 분석 게이지는 선택한 시간 간격의 이동평균과 오실레이터를 종합한 TradingView의 신호입니다. 차트와 게이지의 시간 간격은 각각 선택합니다. 매수·매도 표시는 투자 성과를 보장하거나 개인에게 맞춘 매매 지시를 제공하지 않습니다.
+
+시세의 관측 시각, 지연 및 휴장 표시는 각 위젯에서 확인하세요. 위젯에 데이터가 없거나 연결이 끊기면 표시된 수치를 현재 시세로 판단하지 마세요. [TradingView에서 S&P 500 확인하기](https://www.tradingview.com/symbols/AMEX-SPY/)에서도 확인할 수 있습니다.
+
+자료·차트: [TradingView](https://www.tradingview.com/symbols/AMEX-SPY/). [기술적 분석 위젯 안내](https://www.tradingview.com/widget-docs/widgets/symbol-details/technical-analysis/), [인터랙티브 차트 안내](https://www.tradingview.com/widget-docs/widgets/charts/advanced-chart/).
+
+
+--------------------------------------------------------------------------------
+title: "원/달러 환율 차트와 기술적 분석"
+url: https://www.ramoo.net/markets/usd-krw/index.md
+date: "2026-10-17"
+description: 미국 달러당 원화 환율의 가격 흐름과 TradingView 기술적 분석입니다. 은행의 현찰·송금 환율이나 한국은행의 기준환율과 다를 수 있습니다.
+--------------------------------------------------------------------------------
+
+## 차트와 게이지 읽기
+
+미국 달러당 원화 환율의 가격 흐름과 TradingView 기술적 분석입니다. 은행의 현찰·송금 환율이나 한국은행의 기준환율과 다를 수 있습니다.
+
+기술적 분석 게이지는 선택한 시간 간격의 이동평균과 오실레이터를 종합한 TradingView의 신호입니다. 차트와 게이지의 시간 간격은 각각 선택합니다. 매수·매도 표시는 투자 성과를 보장하거나 개인에게 맞춘 매매 지시를 제공하지 않습니다.
+
+시세의 관측 시각, 지연 및 휴장 표시는 각 위젯에서 확인하세요. 위젯에 데이터가 없거나 연결이 끊기면 표시된 수치를 현재 시세로 판단하지 마세요. [TradingView에서 원/달러 환율 확인하기](https://www.tradingview.com/symbols/USDKRW/)에서도 확인할 수 있습니다.
+
+자료·차트: [TradingView](https://www.tradingview.com/symbols/USDKRW/). [기술적 분석 위젯 안내](https://www.tradingview.com/widget-docs/widgets/symbol-details/technical-analysis/), [인터랙티브 차트 안내](https://www.tradingview.com/widget-docs/widgets/charts/advanced-chart/).
+
+
+--------------------------------------------------------------------------------
+title: "Donate"
+url: https://www.ramoo.net/donate/index.md
+date: "2026-10-17"
+description: Ways to donate to ramoo.net through Ko-fi or a KakaoPay QR code in Korea.
+--------------------------------------------------------------------------------
+
+## Ways to help
+
+If these articles are useful to you, you can make a donation below.
+
+Thank you for reading and supporting ramoo.net.
+
+### Ko-fi
+
+Use the button below to donate via Ko-fi.
+
+{{< kofi-button >}}
+
+---
+
+### Donate from Korea · KakaoPay
+
+On your phone, tap the button to open KakaoPay. You can also scan the QR code.
+
+{{< donate-qr >}}
+
+
+--------------------------------------------------------------------------------
+title: "기부"
+url: https://www.ramoo.net/ko/donate/index.md
+date: "2026-10-17"
+description: Ko-fi와 국내 카카오페이 QR을 통해 ramoo.net의 콘텐츠 제작에 기부하는 방법을 안내합니다.
+--------------------------------------------------------------------------------
+
+## 도움을 주는 방법
+
+글이 도움이 되었다면 블로그에 기부할 수 있습니다. 읽어 주시고 응원해 주셔서 감사합니다.
+
+### Ko-fi
+
+아래 버튼에서 기부할 수 있습니다.
+
+{{< kofi-button >}}
+
+---
+
+### 한국에서 기부하기 · 카카오페이
+
+휴대폰에서는 아래 버튼을 누르세요. PC에서는 카카오페이로 QR 코드를 스캔할 수 있습니다.
+
+{{< donate-qr >}}
+
+
+--------------------------------------------------------------------------------
+title: "AI·크롤링 정책"
+url: https://www.ramoo.net/ko/ai-crawling-policy/index.md
+date: "2026-10-16"
+description: 검색 색인, 자동 수집, AI 학습과 데이터셋 이용의 허용 범위를 안내합니다.
+--------------------------------------------------------------------------------
+
+이 정책은 ramoo.net 콘텐츠에 대한 자동 접근을 다룹니다. 재사용과 출처 표시 조건은 [콘텐츠 이용허락](/ko/license/)에서 안내합니다.
+
+## 검색 색인
+
+검색 색인, 검색 미리보기와 원문 링크 제공을 위한 일반적인 검색엔진 크롤링은 허용합니다.
+
+## 제한적인 수집과 AI 이용
+
+콘텐츠 이용허락에 따라 기술 검토를 위한 제한적 자동 수집, 개인 학습을 위한 일부 인용, 원문 링크가 포함된 요약을 허용합니다.
+
+AI 학습, 데이터셋 작성과 텍스트 수집에 이용할 때는 출처를 밝히고 원문 링크를 유지해야 합니다. 출처 표시만으로 아래에서 제한한 대량 이용이 허용되지는 않습니다.
+
+## 제한되는 이용
+
+별도 허락 없이 다음 행위를 하지 마세요.
+
+- 위에서 허용한 일반적인 검색 색인을 제외하고 사이트 전체나 많은 페이지를 대량 수집하는 행위
+- 사이트 콘텐츠 전체를 별도 데이터셋, 유료 서비스 또는 폐쇄형 지식 저장소에 복제하는 행위
+- 원문 링크 없이 AI 답변, 문서나 데이터셋에 콘텐츠를 이용하는 행위
+- 과도한 요청으로 사이트 운영을 방해하는 행위
+- 출처를 숨기거나 다른 사람이 작성한 것처럼 제시하는 행위
+
+## 허락 요청
+
+별도 허락이 필요한 수집, 학습 또는 데이터셋 이용은 [문의 페이지](/ko/contact/)로 연락하세요.
+
+최종 수정일: 2026년 10월 16일
+
+
+--------------------------------------------------------------------------------
+title: "ramoo.net in English"
+url: https://www.ramoo.net/en/index.md
+date: "2026-10-16"
+description: A personal blog from Korea covering investing, news and commentary, country living, software development, servers and technology hobbies.
+--------------------------------------------------------------------------------
+ramoo.net is my personal blog about work, hobbies, investing and the occasional detour. I write down what I learn while developing software, running servers, planning a country home and following financial markets. I also keep notes about travel and everyday life so I can return to them later.
+
+This page introduces the blog in English. Most full articles are written in Korean.
+
+## Building a country home
+
+Notes about country homes, land, architecture, interiors and the decisions involved in planning a home.
+
+[Explore Exurban](/exurban/)
+
+## Investing and personal finance
+
+My research notes on stocks, income funds, interest rates, housing and economic policy. I look at the data and risks behind attractive headlines and share my own perspective.
+
+[Explore Money](/money/)
+
+Recent articles include:
+
+- [PIMCO Dynamic Income Fund (PDI): NAV, interest rates and a buying strategy](/money/pdi-nav-rate-outlook/). An analysis of an insider purchase, monthly distributions, leverage, the premium or discount to net asset value, and interest-rate and credit risks.
+- [Bank of Korea rate outlook: implications for housing and stocks](/money/bok-rate-hike-property-stock-outlook/). A discussion of further rate increases and how borrowing costs can affect households and financial markets.
+- [President Lee Jae-myung's housing tax promises and policy changes](/money/lee-housing-tax-promises/). My perspective as a supporter on earned income tax reform, property taxation and the feasibility of housing supply plans, with related videos.
+
+These links lead to the Korean articles. Market observations and policy discussions reflect the dates stated in each article.
+
+## News and commentary
+
+News, social issues and personal commentary on stories that make me stop and think.
+
+[Explore News](/news/)
+
+## Hobbies and personal technology
+
+Practical notes from software development and server administration, alongside hands-on experiences with Macs, electronic devices, NAS hardware upgrades and home networking.
+
+[Explore Hobby](/hobby/)
+
+[한국어 홈페이지 · Korean homepage](/)
+
+
+--------------------------------------------------------------------------------
+title: "ramoo.net 소개"
+url: https://www.ramoo.net/ko/en/index.md
+date: "2026-10-16"
+description: 투자·경제, 시사, 전원생활과 개발·취미를 기록하는 ramoo.net 블로그 소개입니다.
+--------------------------------------------------------------------------------
+
+ramoo.net은 일, 취미, 재테크와 가끔의 딴짓을 기록하는 개인 블로그입니다. 소프트웨어를 개발하고 서버를 운영하며, 전원주택을 계획하고 금융시장을 살펴보면서 배운 내용을 적습니다. 나중에 다시 꺼내 볼 여행과 일상 메모도 남깁니다.
+
+이 페이지는 블로그를 소개합니다. 대부분의 전체 게시글은 한국어로 작성되어 있습니다.
+
+## 전원주택 짓기
+
+전원주택, 토지, 건축, 인테리어와 집을 계획하며 내리는 선택에 관한 기록입니다.
+
+[Exurban 둘러보기](/exurban/)
+
+## 투자와 재테크
+
+주식, 인컴 펀드, 금리, 주택과 경제정책에 관한 학습 메모입니다. 눈길을 끄는 제목 뒤의 데이터와 위험을 살피고 개인적인 관점을 정리합니다.
+
+[Money 둘러보기](/money/)
+
+최근 글은 다음과 같습니다.
+
+- [PIMCO Dynamic Income Fund(PDI): NAV, 금리와 매수 전략](/money/pdi-nav-rate-outlook/). 내부자 매수, 월 분배금, 레버리지, 순자산가치 대비 프리미엄·할인, 금리·신용 위험을 분석합니다.
+- [한국은행 금리 전망: 주택과 주식에 미치는 영향](/money/bok-rate-hike-property-stock-outlook/). 추가 금리 인상과 차입 비용이 가계·금융시장에 미치는 영향을 살펴봅니다.
+- [이재명 대통령의 주택 세금 공약과 정책 변화](/money/lee-housing-tax-promises/). 지지자의 관점에서 근로소득세 개편, 부동산 과세와 주택 공급 계획의 실현 가능성을 관련 영상과 함께 정리합니다.
+
+위 링크는 한국어 글로 연결됩니다. 시장 관측과 정책 논의는 각 글에 표시된 시점을 기준으로 합니다.
+
+## 뉴스와 의견
+
+잠시 멈춰 생각하게 만드는 뉴스, 사회 이슈와 개인적인 의견을 기록합니다.
+
+[News 둘러보기](/news/)
+
+## 취미와 개인 기술
+
+소프트웨어 개발과 서버 운영의 실용 메모, Mac과 전자기기 사용 경험, NAS 하드웨어 업그레이드와 홈 네트워크 이야기를 다룹니다.
+
+[Hobby 둘러보기](/hobby/)
+
+[한국어 홈페이지](/)
+
+
+--------------------------------------------------------------------------------
+title: "개인정보처리방침"
+url: https://www.ramoo.net/ko/privacy-policy/index.md
+date: "2026-10-16"
+description: ramoo.net의 방문 통계, 문의 정보, 외부 서비스와 개인정보 권리 행사 안내.
+--------------------------------------------------------------------------------
+ramoo.net은 ramoo가 운영하는 개인 블로그입니다. 회원가입 기능은 제공하지 않습니다. 이 방침은 사이트 방문, 문의, 댓글 및 외부 기능 이용 시 처리되는 정보를 설명합니다.
+
+## 처리하는 정보와 목적
+
+| 구분 | 처리되는 정보 | 목적 |
+| --- | --- | --- |
+| 페이지 제공·보안 | IP 주소, 요청 URL·시각, 브라우저·기기 및 연결 정보 | 페이지와 이미지 제공, 오류 확인, 부정 접속 방지 |
+| 문의 | 이름, 이메일 주소, 문의 내용과 답변 기록 | 문의 확인, 답변 및 후속 문의 처리 |
+| 방문 통계 | 방문 페이지, 방문·이벤트 시각, 브라우저·기기 및 통계용 식별 정보 | 사이트 이용 현황 파악과 개선 |
+| 댓글 | 공개 GitHub 프로필, 댓글·반응 | GitHub Discussions 기반 댓글 제공 |
+| IP 확인 도구 | 공인 IP, IP 기반 추정 위치·네트워크, 요청 헤더·연결 정보 | 현재 접속의 IP·네트워크 정보 표시 |
+
+사이트 운영에 필요하지 않은 민감정보, 비밀번호, 주민등록번호 등은 문의나 댓글에 입력하지 마세요.
+
+## Google Analytics 방문 통계
+
+현재 사이트에는 Google Analytics 4가 설정되어 있습니다. **방문자가 방문 통계를 허용한 뒤에만 Google 분석 태그를 불러옵니다.** 선택 전이나 거부 상태에서는 이 사이트의 분석 태그를 불러오지 않습니다. 광고용 Google Signals와 광고 개인화 신호는 코드에서 비활성화합니다.
+
+허용·거부는 [쿠키 정책의 방문 통계 설정](/ko/cookie-policy/#방문-통계-설정)에서 변경할 수 있습니다. 거부하면 이후 이 사이트의 분석 전송을 중단하고 접근 가능한 Analytics 쿠키를 삭제합니다. 이미 전송된 정보가 자동 삭제되는 것은 아닙니다. 브라우저의 Do Not Track 신호는 저장된 명시적 선택이 없는 경우 거부로 처리합니다.
+
+Google AdSense와 별도의 Google Tag Manager 컨테이너는 현재 활성화되어 있지 않습니다. 분석 태그의 파일 주소에 `googletagmanager.com`이 포함되더라도 Tag Manager 컨테이너 사용을 뜻하지는 않습니다. Google의 정보 처리에 관해서는 [Google 개인정보처리방침](https://policies.google.com/privacy)과 [Analytics 데이터 보호 안내](https://support.google.com/analytics/answer/6004245)를 참고하세요.
+
+## 문의와 Formspree
+
+문의 폼의 이름·이메일 주소·문의 내용은 전송 버튼을 누를 때 HTTPS 요청으로 Formspree, Inc.에 전달되고 운영자가 문의에 답변하는 데 사용합니다. 문의는 선택 사항이며 동의하지 않으면 폼을 통한 문의를 전송할 수 없습니다.
+
+Formspree는 미국 및 서비스를 운영하는 다른 국가에서 정보를 처리한다고 안내합니다. 서비스는 스팸·부정 이용 방지 등을 위해 IP, 브라우저, 접속 시각 같은 요청 정보를 추가 처리할 수 있습니다. 제공자의 처리와 해외 처리에 관한 설명은 [Formspree 개인정보처리방침](https://formspree.io/legal/privacy-policy/)에서 확인할 수 있습니다.
+
+**운영자가 관리하는 문의 내용과 답변 이메일은 답변 완료 후 90일 이내에 삭제합니다.** 삭제 요청이 먼저 접수되면 본인 확인에 필요한 최소한의 확인 후 처리합니다. Formspree 수신함과 운영자의 이메일에 남은 사본도 삭제 대상에 포함합니다. 제공자가 보안·법적 의무에 따라 별도로 관리하는 로그와 백업에는 해당 제공자의 보관 정책이 적용되므로 모두 같은 시점에 삭제된다고 보장하지 않습니다.
+
+## 사이트 제공과 외부 기능
+
+- **GitHub·Cloudflare:** 사이트 배포, 이미지 전달, API 연결 및 보안 처리 과정에서 접속 정보가 처리될 수 있습니다. [GitHub 개인정보처리방침](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement), [Cloudflare 개인정보처리방침](https://www.cloudflare.com/privacypolicy/)을 참고하세요. 제공자가 관리하는 로그의 보관 기간은 해당 서비스와 실제 설정에 따릅니다.
+- **TradingView:** 홈의 시세 위젯은 페이지를 열면 TradingView에 연결됩니다. 공식 FAQ는 위젯이 쿠키를 설정하지 않으며, 위젯 제공을 위해 삽입된 페이지 URL, 위젯 종류, 표시 종목과 IP 주소를 처리한다고 설명합니다. [공식 위젯 FAQ](https://www.tradingview.com/widget-docs/faq/general/#do-tradingview-widgets-set-cookies), [개인정보처리방침](https://www.tradingview.com/privacy-policy/)을 참고하세요. 방문 통계 거부는 이 시세 연결을 차단하는 설정이 아닙니다.
+- **IP 확인 API:** IP 확인 페이지를 열거나 다시 조회하면 브라우저가 `https://api.ramoo.net/ip`에 요청하여 공인 IP, 대략적인 위치·네트워크·연결 정보를 표시합니다. 조회 결과를 브라우저의 쿠키나 로컬 저장소에 보관하지 않으며, 조회 요청에는 브라우저 인증정보를 포함하지 않습니다. API·호스팅 계층의 접속 로그까지 저장되지 않는다는 뜻은 아닙니다. API·호스팅 제공자의 접속 로그에는 해당 제공자의 운영·보관 정책이 적용됩니다.
+- **OpenStreetMap:** IP 기반 추정 위치가 있을 때 지도 타일을 `tile.openstreetmap.org`에서 가져옵니다. 이 요청으로 IP 주소와 요청 헤더, 타일 좌표로 알 수 있는 표시 지역이 지도 제공자에게 전달될 수 있습니다. 브라우저 GPS 위치 권한을 요청하는 기능은 아닙니다. [OSMF 개인정보처리방침](https://osmfoundation.org/wiki/Privacy_Policy)을 참고하세요.
+- **Giscus·GitHub 댓글:** 댓글 위젯 로딩 시 Giscus에 연결됩니다. 댓글 작성에는 GitHub 로그인과 승인이 필요하며 댓글·반응은 공개 GitHub Discussions에 저장됩니다. 공개 프로필과 작성 내용은 다른 방문자도 볼 수 있습니다. [Giscus 설명](https://giscus.app/ko)과 GitHub 개인정보처리방침을 참고하세요.
+- **기타 외부 콘텐츠:** 게시글의 외부 영상·리소스를 불러오거나 링크를 방문하면 해당 제공자에게 접속 정보가 전달될 수 있습니다. 해당 서비스의 자체 정책이 적용됩니다.
+
+## 보관과 삭제, 권리 행사
+
+문의 정보는 위의 90일 기준에 따라 운영자가 Formspree 수신함과 이메일에서 삭제합니다. 방문 통계 선택은 브라우저에 180일간 유효한 설정으로 보관하며, 테마 설정과 쿠키는 [쿠키 정책](/ko/cookie-policy/)에서 설명합니다. Google Analytics 서버에 저장된 통계와 외부 제공자의 로그 보관은 각 계정 설정과 제공자 정책에 따릅니다.
+
+자신의 개인정보에 대한 열람·정정·삭제, 처리 정지, 동의 철회 또는 문의를 원하면 [Contact](/ko/contact/)에서 문의 종류와 요청 내용을 보내 주세요. 운영자는 요청자 확인에 필요한 최소 정보만 확인하고 요청을 처리하여 답변합니다. 방문 통계 동의는 쿠키 정책 페이지에서 직접 철회할 수 있습니다. GitHub 공개 댓글은 해당 계정의 댓글 관리 기능으로 수정·삭제할 수 있으며 운영자에게도 문의할 수 있습니다.
+
+개인정보 문의 담당: ramoo · [문의 페이지](/ko/contact/). 다른 사람의 개인정보나 불필요한 신분증 사본은 보내지 마세요.
+
+## 변경 안내
+
+방침이 바뀌면 이 페이지의 수정일과 내용을 갱신합니다.
+
+최종 수정일: 2026년 10월 16일
+
+
+--------------------------------------------------------------------------------
+title: "면책고지"
+url: https://www.ramoo.net/ko/disclaimer/index.md
+date: "2026-10-16"
+description: ramoo.net의 정보·기술 안내와 외부 서비스 이용 시 고려할 한계를 설명합니다.
+--------------------------------------------------------------------------------
+
+ramoo.net의 콘텐츠는 일반적인 정보와 참고 자료로 제공합니다. 개인 경험과 학습 내용을 기록한 것으로, 다른 환경이나 상황에는 적용되지 않을 수 있습니다.
+
+## 정확성과 최신성
+
+작성자는 정확한 정보를 제공하려고 노력하지만 완전성, 신뢰성, 최신성을 보장하지는 않습니다. 소프트웨어, 하드웨어, 서비스와 관련 정보는 글 작성 후 바뀔 수 있습니다.
+
+## 기술 안내
+
+코드, 명령어, 설정과 설치 절차는 환경에 따라 다르게 동작할 수 있습니다. 운영 시스템에 적용하기 전에 검토하고 테스트하세요.
+
+콘텐츠를 참고해 수행한 변경은 이용자의 책임입니다. 관련 법률이 허용하는 범위에서 작성자는 그로 인한 서비스 중단, 데이터 손실, 보안 문제 또는 기타 손실에 책임을 지지 않습니다.
+
+## 외부 서비스와 링크
+
+외부 사이트, 제품과 서비스를 소개하는 것은 품질, 가용성 또는 정확성을 보장한다는 뜻이 아닙니다. 해당 제공자의 약관과 정책이 적용됩니다.
+
+## 광고와 제휴 링크
+
+사이트에는 광고나 제휴 링크가 포함될 수 있고 이를 통해 수익을 얻을 수 있습니다. 이러한 링크는 제품이나 서비스의 특정 결과를 보장하지 않습니다.
+
+사이트 이용 규칙은 [이용약관](/ko/terms/)에서 확인하세요.
+
+최종 수정일: 2026년 10월 16일
+
+
+--------------------------------------------------------------------------------
+title: "문의"
+url: https://www.ramoo.net/ko/contact/index.md
+date: "2026-10-16"
+description: ramoo.net 운영자에게 문의하고 개인정보 처리와 답변 안내를 확인하는 페이지입니다.
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+title: "소개"
+url: https://www.ramoo.net/ko/about/index.md
+date: "2026-10-16"
+description: ramoo와 개발·취미·재테크 기록을 남기는 개인 블로그에 관한 소개입니다.
+--------------------------------------------------------------------------------
+
+저는 소프트웨어 개발을 업으로 삼는 시니어 개발자입니다. 관심 있는 것들에 관한 생각과 메모를 가끔 남겨 두려고 이 사이트를 만들었습니다.
+
+꾸준히 사이트를 업데이트하는 일은 쉽지 않지만, 계속 기록해 보려고 합니다.
+
+
+--------------------------------------------------------------------------------
+title: "오픈소스"
+url: https://www.ramoo.net/ko/open-source/index.md
+date: "2026-10-16"
+description: ramoo.net의 구축·유지에 사용하는 오픈소스와 콘텐츠 라이선스를 안내합니다.
+--------------------------------------------------------------------------------
+
+ramoo.net은 오픈소스 소프트웨어로 만들었습니다. 주요 도구로 정적 사이트 생성기 Hugo, Hugoplate 테마, Tailwind CSS, Prettier와 Hugo 모듈·npm 패키지를 사용합니다.
+
+## 소프트웨어와 콘텐츠 라이선스
+
+각 소프트웨어 구성요소에는 원 프로젝트의 라이선스가 적용됩니다. 주요 구성요소, 라이선스 링크와 외부 자료는 [제3자 권리 고지](/ko/third-party-notices/)에서 확인할 수 있습니다.
+
+이러한 소프트웨어 라이선스가 블로그 글, 원본 예제와 원본 이미지에 자동으로 적용되지는 않습니다. 해당 자료의 재사용에는 [콘텐츠 이용허락](/ko/license/)이 적용됩니다. 별도 라이선스를 명시한 예제는 해당 라이선스를 따릅니다.
+
+## 라이선스 기록
+
+소프트웨어에 포함된 저작권 고지, 라이선스 전문과 재배포 조건은 필요한 경우 보존해야 합니다. 이 소개는 각 구성요소와 함께 배포되는 라이선스를 대체하지 않습니다.
+
+소프트웨어의 출처 표시와 라이선스 고지는 [문의 페이지](/ko/contact/)로 문의하세요.
+
+최종 수정일: 2026년 10월 16일
+
+
+--------------------------------------------------------------------------------
+title: "이용약관"
+url: https://www.ramoo.net/ko/terms/index.md
+date: "2026-10-16"
+description: ramoo.net 이용과 콘텐츠 재사용, 외부 서비스 및 관련 정책을 안내합니다.
+--------------------------------------------------------------------------------
+
+이 약관은 ramoo.net 이용에 적용됩니다. 사이트를 이용하면 이 약관에 동의하는 것으로 봅니다.
+
+## 콘텐츠와 서비스 제공
+
+사이트에는 개인 메모, 기술 정보, 경험과 그 밖의 콘텐츠를 게시합니다. 페이지와 서비스는 사전 안내 없이 변경되거나 중단될 수 있습니다.
+
+정보의 정확성, 기술 안내, 콘텐츠에 의존할 때의 한계는 [면책고지](/ko/disclaimer/)에서 설명합니다.
+
+## 허용되는 이용
+
+불법적인 목적으로 이용하거나 사이트 운영을 방해하고, 가용성을 해치는 요청을 보내지 마세요.
+
+복사와 재배포에는 [콘텐츠 이용허락](/ko/license/)의 허용 범위와 제한이 적용됩니다. 자동 접근에는 [AI·크롤링 정책](/ko/ai-crawling-policy/)도 적용됩니다.
+
+## 권리와 이용허락
+
+별도 표시가 없으면 원본 콘텐츠의 권리는 작성자에게 있습니다. 제3자 자료에는 해당 권리자의 권리와 라이선스가 적용됩니다. 콘텐츠 재사용은 [콘텐츠 이용허락](/ko/license/)에서, 소프트웨어와 외부 자료는 [제3자 권리 고지](/ko/third-party-notices/)에서 안내합니다.
+
+## 관련 정책
+
+방문자 정보에는 [개인정보처리방침](/ko/privacy-policy/)과 [쿠키 정책](/ko/cookie-policy/)이 적용됩니다. 외부 사이트에는 해당 사이트의 약관과 정책이 적용됩니다.
+
+## 변경
+
+약관이 변경되면 이 페이지에 게시합니다.
+
+최종 수정일: 2026년 10월 16일
+
+
+--------------------------------------------------------------------------------
+title: "제3자 권리 고지"
+url: https://www.ramoo.net/ko/third-party-notices/index.md
+date: "2026-10-16"
+description: ramoo.net에서 사용하는 소프트웨어와 외부 자료의 출처·라이선스를 안내합니다.
+--------------------------------------------------------------------------------
+
+ramoo.net에서 사용하는 소프트웨어와 제3자 자료에는 해당 권리자의 권리와 원 프로젝트의 라이선스가 적용됩니다.
+
+## 주요 소프트웨어
+
+| 구성요소 | 용도 | 라이선스 |
+| --- | --- | --- |
+| [Hugo](https://gohugo.io/) | 정적 사이트 생성기 | [Apache License 2.0](https://github.com/gohugoio/hugo/blob/master/LICENSE) |
+| [Zeon Studio의 Hugoplate](https://github.com/zeon-studio/hugoplate) | 테마와 프로젝트 기본 구조 | [MIT](https://github.com/zeon-studio/hugoplate/blob/main/LICENSE) |
+| [Tailwind CSS](https://tailwindcss.com/) | CSS 도구 | [MIT](https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE) |
+| [Prettier](https://prettier.io/) | 소스 포맷팅 | [MIT](https://github.com/prettier/prettier/blob/main/LICENSE) |
+
+추가 Hugo 모듈, 프런트엔드 라이브러리와 간접 의존성에는 각각의 라이선스가 적용됩니다. 이 표는 주요 구성요소만 소개하며 전체 의존성 목록이나 소프트웨어에 포함된 저작권 고지·라이선스 전문을 대체하지 않습니다.
+
+## 외부 자료와 출처 표시
+
+제품명, 로고, 상표, 제품 디자인, 스크린샷과 서비스 화면에는 제3자 소유 자료가 포함될 수 있습니다. 사이트는 해당 요소의 소유권을 주장하지 않습니다.
+
+외부 이미지나 자료의 출처와 권리 표시는 관련 글 또는 자료 고지에 기록해야 합니다. 원본 라이선스에서 요구하는 경우 원문 URL, 제작자·배포자, 라이선스 링크와 변경 내용을 포함합니다.
+
+## 사이트 원본 콘텐츠
+
+작성자의 원본 자료에 대한 이용허락은 [콘텐츠 이용허락](/ko/license/)에서 설명합니다. 소프트웨어와 콘텐츠 라이선스의 구분은 [오픈소스](/ko/open-source/)에서 확인할 수 있습니다.
+
+## 문의
+
+저작권, 출처 표시와 외부 자료는 [문의 페이지](/ko/contact/)로 문의하세요.
+
+최종 수정일: 2026년 10월 16일
+
+
+--------------------------------------------------------------------------------
+title: "콘텐츠 이용허락"
+url: https://www.ramoo.net/ko/license/index.md
+date: "2026-10-16"
+description: ramoo.net 원본 콘텐츠의 재사용 허용 범위, 출처 표시와 제한을 안내합니다.
+--------------------------------------------------------------------------------
+
+별도 표시가 없으면 ramoo.net의 원본 글, 예제 코드, 원본 이미지, 도표와 기타 원본 편집 콘텐츠의 저작권은 ramoo에게 있습니다. 이 페이지는 해당 자료의 재사용 허용 범위를 설명합니다.
+
+## 허용되는 재사용
+
+다음 조건을 지키면 학습, 기술 검토, 문서 작성, 내부 교육, 블로그 인용과 상업적 참고 목적으로 원본 콘텐츠를 인용·공유·수정·요약·번역하거나 재사용할 수 있습니다.
+
+- 원문 페이지 링크를 포함합니다.
+- 수정·요약·번역 등 변경한 내용이 있으면 표시합니다.
+- 변경한 내용을 작성자의 원래 발언이나 견해인 것처럼 제시하지 않습니다.
+
+가능하면 출처에 사이트명, 원문 제목, 원문 URL과 작성자를 포함하세요. 글의 일부만 인용하더라도 원문 링크를 표시해야 합니다.
+
+## 제한
+
+다음 행위는 위 허용 범위에 포함되지 않습니다.
+
+- 출처를 숨기거나 작성자를 잘못 표시하는 행위
+- 별도 허락 없이 글 전체를 다른 사이트나 문서에 재게시하는 행위
+- 전체 사본을 유료 상품, 강의 자료, 전자책 또는 회원 전용 콘텐츠로 재판매하는 행위
+- 악성코드, 피싱, 스팸 또는 불법 서비스 운영에 이용하는 행위
+
+상업적 재사용도 위 조건 안에서 허용됩니다. 전체 사본의 재판매나 재게시를 허락하는 것은 아닙니다.
+
+## 코드와 설정 예제
+
+원본 예제는 별도 라이선스가 명시되지 않았다면 이 조건으로 사용할 수 있습니다. 오픈소스 프로젝트에서 가져온 예제에는 해당 프로젝트의 라이선스가 적용됩니다. 예제 적용 시 기술적 위험과 책임은 [면책고지](/ko/disclaimer/)에서 설명합니다.
+
+## 제3자 자료
+
+이 이용허락은 작성자에게 권리가 있는 자료에만 적용됩니다. 제품명, 상표, 로고, 서비스 화면, 제3자 저작물이 포함된 스크린샷과 외부 이미지는 별도 권리의 대상일 수 있습니다.
+
+외부 이미지를 편집해도 원본의 라이선스 의무가 없어지지 않습니다. 필요한 출처와 변경 표시를 포함해 원본 라이선스를 준수하세요. 관련 소프트웨어와 자료 정보는 [제3자 권리 고지](/ko/third-party-notices/)에서 확인할 수 있습니다.
+
+## 자동 수집
+
+자동 수집, AI 학습과 데이터셋 이용에는 [AI·크롤링 정책](/ko/ai-crawling-policy/)의 추가 조건이 적용됩니다.
+
+## 문의와 변경
+
+재사용이나 라이선스는 [문의 페이지](/ko/contact/)를 이용하세요. 변경 사항은 이 페이지에 게시하며 이후의 콘텐츠 이용에 적용합니다.
+
+© 2026 ramoo. 위에서 명시적으로 허용했거나 별도 라이선스로 허용한 경우를 제외한 권리는 유보합니다.
+
+최종 수정일: 2026년 10월 16일
+
+
+--------------------------------------------------------------------------------
+title: "쿠키 정책"
+url: https://www.ramoo.net/ko/cookie-policy/index.md
+date: "2026-10-16"
+description: ramoo.net의 방문 통계 동의, 쿠키·로컬 저장소 및 설정 변경 방법.
+--------------------------------------------------------------------------------
+이 정책은 ramoo.net의 쿠키와 브라우저 저장소, 방문 통계 선택 방법을 설명합니다. 개인정보 전반에 관한 내용은 [개인정보처리방침](/ko/privacy-policy/)을 참고하세요.
+
+## 방문 통계 설정
+
+Google Analytics 4는 방문 통계를 허용한 뒤에만 불러옵니다. 선택 전과 거부 상태에서는 이 사이트의 Google 분석 태그를 불러오지 않습니다. 아래에서 언제든지 선택을 바꿀 수 있으며, 거부해도 글과 주요 기능을 이용할 수 있습니다.
+
+{{< analytics-settings >}}
+
+거부하면 이후 분석 전송을 중단하고 브라우저에서 접근 가능한 Analytics 쿠키를 삭제합니다. 이미 Google에 전송된 기록이 자동 삭제되는 것은 아닙니다. 거부 전에 불러온 분석 파일은 현재 탭 메모리에 남을 수 있으며 다음 페이지부터는 불러오지 않습니다. 브라우저의 다른 사이트 데이터까지 삭제하지는 않습니다.
+
+## 현재 사용하는 저장소
+
+| 항목 | 용도 | 보관·제어 |
+| --- | --- | --- |
+| `ramoo.analytics-consent.v1` · localStorage | 방문 통계 허용·거부 선택과 선택 시각 저장 | 선택 후 180일간 유효. 만료 시 재선택하며 브라우저 데이터 삭제로 제거 가능 |
+| `theme` · localStorage | 밝은·어두운 화면 선택 유지 | 자동 만료 없음. 테마 변경 또는 브라우저 데이터 삭제로 변경·제거 가능 |
+| `_ga`, `_ga_*` 등 Analytics 쿠키 | 허용한 방문자의 방문 통계 식별·세션 처리 | Google의 기본 설정과 서비스 설정에 따름. Google은 대표 `_ga` 쿠키의 기본 기간을 2년으로 안내하며 갱신될 수 있음. 이 사이트에서 거부하거나 브라우저에서 삭제 가능 |
+
+저장소가 차단되면 방문 통계 선택은 현재 페이지에서만 적용될 수 있습니다. 명시적으로 저장한 선택이 없는 상태에서 브라우저가 Do Not Track을 보내면 분석을 거부한 것으로 처리합니다.
+
+이 설정은 브라우저·사이트 주소별로 저장됩니다. 다른 기기·브라우저나 별도의 호스트 주소에서는 다시 선택해야 할 수 있습니다. 현재 Google AdSense와 별도의 Google Tag Manager 컨테이너는 활성화되어 있지 않으며, 테마의 기본 쿠키 배너 대신 위의 방문 통계 설정을 사용합니다.
+
+참고: [Google의 쿠키 사용 설명](https://policies.google.com/technologies/cookies), [Google 태그 쿠키 설정](https://developers.google.com/tag-platform/security/guides/customize-cookies).
+
+## 외부 서비스
+
+- TradingView 공식 위젯 FAQ는 위젯 자체가 쿠키를 설정하지 않는다고 안내합니다. 쿠키가 없어도 위젯 요청 과정에서 IP와 삽입 페이지 정보 등이 처리됩니다. [공식 FAQ](https://www.tradingview.com/widget-docs/faq/general/#do-tradingview-widgets-set-cookies)를 참고하세요.
+- Giscus·GitHub 댓글 로그인, 문의 전송을 받는 Formspree, 외부 영상 및 보안 서비스에는 각 제공자의 저장소·개인정보 정책이 적용될 수 있습니다. 모든 제공자가 같은 쿠키를 사용한다고 단정하지 않습니다.
+- IP 확인 도구는 조회 결과를 브라우저 쿠키나 로컬 저장소에 저장하지 않습니다. 지도 이미지 등 리소스는 브라우저 캐시에 남을 수 있습니다.
+
+방문 통계 거부는 외부 시세·지도·댓글·문의 서비스의 연결을 일괄 차단하는 기능이 아닙니다. 외부 서비스의 정보 처리 범위는 [개인정보처리방침](/ko/privacy-policy/)에서 확인할 수 있습니다.
+
+## 브라우저에서 삭제·차단하기
+
+브라우저의 개인정보·사이트 데이터 설정에서 쿠키와 로컬 저장소를 확인하거나 삭제할 수 있습니다. 타사 쿠키 차단 기능도 사용할 수 있습니다. 삭제하면 저장된 테마·통계 선택이 초기화될 수 있으며 일부 외부 기능이 영향을 받을 수 있습니다.
+
+정책을 변경하면 이 페이지의 내용과 수정일을 갱신합니다.
+
+최종 수정일: 2026년 10월 16일
+
+
+--------------------------------------------------------------------------------
+title: "AI & Crawling Policy"
+url: https://www.ramoo.net/ai-crawling-policy/index.md
+date: "2026-01-01"
+description: Conditions for search indexing, automated collection, AI training, and dataset use.
+--------------------------------------------------------------------------------
+This policy addresses automated access to ramoo.net content. Reuse and attribution requirements are set out in the [Content License](/license/).
+
+## Search indexing
+
+Ordinary search-engine crawling for indexing, search previews, and links to the original pages is permitted.
+
+## Limited collection and AI use
+
+Limited automated collection for technical review, partial quotations for personal study, and summaries that link to the original page are permitted under the Content License.
+
+Use for AI training, dataset preparation, or text collection must identify the source and retain links to the original pages. Attribution alone does not authorize the bulk uses restricted below.
+
+## Restricted uses
+
+Without separate permission, do not:
+
+- Collect the entire site or large numbers of pages in bulk, except for ordinary search indexing described above.
+- Reproduce complete site content in a separate dataset, paid service, or closed knowledge base.
+- Use content in AI answers, documents, or datasets without original source links.
+- Send excessive requests that disrupt the site.
+- Conceal the source or present the material as another author's work.
+
+## Permission requests
+
+For collection, training, or dataset uses that need separate permission, see the [Contact page](/contact/).
+
+---
+
+Last updated: October 16, 2026
+
+
+--------------------------------------------------------------------------------
+title: "Content License"
+url: https://www.ramoo.net/license/index.md
+date: "2026-01-01"
+description: Permissions and restrictions for reusing original ramoo.net content.
+--------------------------------------------------------------------------------
+Unless otherwise stated, original articles, example code, original images, diagrams, and other original editorial material on ramoo.net are copyrighted by ramoo. This page sets out the permissions granted for reusing that material.
+
+## Permitted reuse
+
+You may quote, share, adapt, summarize, translate, or reuse original content for learning, technical review, documentation, internal training, blog citations, and commercial reference purposes, subject to these conditions:
+
+- Include a link to the original page.
+- Identify changes when you modify, summarize, translate, or otherwise adapt the material.
+- Do not present altered content as the author's original words or views.
+
+Attribution should include the site name, original title, original URL, and author where practical. A quotation of only part of an article must still link to its source.
+
+## Restrictions
+
+These permissions do not allow:
+
+- Hiding the source or misrepresenting authorship.
+- Republishing an entire article on another site or in another document without separate permission.
+- Reselling complete copies as paid products, course materials, ebooks, or members-only content.
+- Using the content to operate malware, phishing, spam, or unlawful services.
+
+Commercial reuse is permitted within the conditions above; it does not grant permission to resell or republish complete copies.
+
+## Code and configuration examples
+
+Original examples may be used under these conditions unless a separate license is stated. Examples copied from an open-source project remain governed by that project's license. Technical risks and responsibility for applying examples are described in the [Disclaimer](/disclaimer/).
+
+## Third-party material
+
+This license grants rights only to material owned by the author. Product names, trademarks, logos, service interfaces, screenshots containing third-party works, and externally sourced images may be subject to separate rights.
+
+Editing an external image does not remove its original license obligations. Follow the source license, including attribution and modification notices where required. See [Third-Party Notices](/third-party-notices/) for related software and asset information.
+
+## Automated collection
+
+The [AI & Crawling Policy](/ai-crawling-policy/) sets out additional conditions for automated collection, AI training, and dataset use.
+
+## Questions and changes
+
+For reuse or licensing questions, see the [Contact page](/contact/). Updates will be published here and apply to subsequent use of the content.
+
+© 2026 ramoo. Rights are reserved except for the permissions expressly granted above or in a separate license.
+
+---
+
+Last updated: October 16, 2026
+
+
+--------------------------------------------------------------------------------
+title: "Cookie Policy"
+url: https://www.ramoo.net/cookie-policy/index.md
+date: "2026-01-01"
+description: Analytics consent, cookies, browser storage, and preference controls on ramoo.net.
+--------------------------------------------------------------------------------
+This policy explains cookies and browser storage on ramoo.net and how to manage analytics preferences. For information about personal information generally, see the [Privacy Policy](/privacy-policy/).
+
+## Analytics preferences
+
+Google Analytics 4 loads only after you accept analytics. The site's Google analytics tag does not load before you make a choice or when you decline. You can change your choice below at any time. Declining does not prevent you from reading articles or using the site's main features.
+
+{{< analytics-settings >}}
+
+Declining stops subsequent analytics transmission and removes accessible Analytics cookies. It does not automatically delete records already sent to Google. An analytics script loaded before you decline may remain in the current tab's memory; it will not be loaded on subsequent pages. Other browser site data is not deleted.
+
+## Current browser storage
+
+| Item | Purpose | Retention and controls |
+| --- | --- | --- |
+| `ramoo.analytics-consent.v1` in localStorage | Store your analytics choice and the time it was made | Valid for 180 days after your choice. You are asked again after expiration. Remove it by deleting browser site data. |
+| `theme` in localStorage | Remember light or dark appearance | No automatic expiration. Change it with the theme control or remove it by deleting browser site data. |
+| Analytics cookies such as `_ga` and `_ga_*` | Identify visits and handle sessions for visitors who accept analytics | Subject to Google's defaults and service settings. Google describes a two-year default lifetime for the main `_ga` cookie, which may be renewed. Decline analytics here or delete cookies in your browser. |
+
+If browser storage is blocked, your analytics choice may apply only to the current page. If no explicit choice is saved and your browser sends Do Not Track, analytics is treated as declined.
+
+Preferences are stored separately for each browser and site address. You may need to choose again on another device, browser, or hostname. Google AdSense and a separate Google Tag Manager container are not currently enabled. The analytics controls above replace the theme's default cookie banner.
+
+References: [How Google uses cookies](https://policies.google.com/technologies/cookies), [Google tag cookie configuration](https://developers.google.com/tag-platform/security/guides/customize-cookies).
+
+## External services
+
+- TradingView's official widget FAQ states that its widgets do not set cookies. Even without cookies, widget requests process information including your IP address and the embedding page. See the [official FAQ](https://www.tradingview.com/widget-docs/faq/general/#do-tradingview-widgets-set-cookies).
+- Giscus and GitHub comment sign-in, Formspree inquiry handling, external videos, and security services may use storage subject to their providers' own policies. This does not mean that every provider uses the same cookies.
+- The IP lookup tool does not store results in browser cookies or local storage. Map images and other resources may remain in the browser cache.
+
+Declining analytics does not block all connections to external market widgets, maps, comments, or inquiry services. See the [Privacy Policy](/privacy-policy/) for information about these providers.
+
+## Browser controls
+
+Use your browser's privacy or site-data settings to inspect or delete cookies and local storage. You can also use third-party cookie blocking controls. Deleting site data may reset saved theme and analytics preferences, and blocking storage may affect some external features.
+
+Changes to this policy will be published here with an updated revision date.
+
+Last updated: October 16, 2026
+
+
+--------------------------------------------------------------------------------
+title: "Disclaimer"
+url: https://www.ramoo.net/disclaimer/index.md
+date: "2026-01-01"
+description: Limitations of the information, instructions, and external services mentioned on ramoo.net.
+--------------------------------------------------------------------------------
+Content on ramoo.net is provided for general information and reference. It records personal experience and study notes, which may not apply to another environment or situation.
+
+## Accuracy and currency
+
+The author aims to provide accurate information but does not guarantee its completeness, reliability, or currency. Software, hardware, services, and available information can change after a post is written.
+
+## Technical instructions
+
+Code, commands, configurations, and installation procedures may behave differently in your environment. Evaluate and test them before applying them to a live system.
+
+You are responsible for changes you make based on the content. To the extent permitted by applicable law, the author is not liable for resulting downtime, data loss, security issues, or other losses.
+
+## External services and links
+
+References to external websites, products, or services do not guarantee their quality, availability, or accuracy. Those services are governed by their providers' own terms and policies.
+
+## Advertising and affiliate links
+
+The site may include advertisements or affiliate links and may receive revenue from them. Such links do not guarantee a particular result from a product or service.
+
+For rules on using the site, see the [Terms of Use](/terms/).
+
+---
+
+Last updated: October 16, 2026
+
+
+--------------------------------------------------------------------------------
+title: "Open Source"
+url: https://www.ramoo.net/open-source/index.md
+date: "2026-01-01"
+description: Open-source tools used to build and maintain ramoo.net.
+--------------------------------------------------------------------------------
+ramoo.net is built with open-source software. The main tools include Hugo for static-site generation, the Hugoplate theme, Tailwind CSS, and Prettier, along with Hugo modules and npm packages.
+
+## Software and content licenses
+
+Each software component is governed by its own upstream license. The [Third-Party Notices](/third-party-notices/) page is the reference for the main components, license links, and external assets used by the site.
+
+Those software licenses do not automatically apply to blog articles, original examples, or original images. Reuse of that material is covered by the [Content License](/license/). Examples with a separate stated license follow that license.
+
+## License records
+
+Copyright notices, license texts, and redistribution conditions supplied with software must be preserved where required. This overview does not replace the licenses distributed with individual components.
+
+For questions about software attribution or license notices, see the [Contact page](/contact/).
+
+---
+
+Last updated: October 16, 2026
+
+
+--------------------------------------------------------------------------------
+title: "Privacy Policy"
+url: https://www.ramoo.net/privacy-policy/index.md
+date: "2026-01-01"
+description: How ramoo.net handles analytics, inquiries, external services, and privacy requests.
+--------------------------------------------------------------------------------
+ramoo.net is a personal blog operated by ramoo. The site does not offer account registration. This policy explains information processed when you visit the site, submit an inquiry, use comments, or access external features.
+
+## Information and purposes
+
+| Activity | Information processed | Purpose |
+| --- | --- | --- |
+| Page delivery and security | IP address, requested URL and time, browser, device, and connection information | Deliver pages and images, investigate errors, and prevent abuse |
+| Inquiries | Name, email address, message, and reply records | Respond to inquiries and follow-up questions |
+| Analytics | Pages visited, visit and event times, browser and device information, and analytics identifiers | Understand site usage and improve the site |
+| Comments | Public GitHub profile, comments, and reactions | Provide comments through GitHub Discussions |
+| IP lookup tool | Public IP address, IP-based approximate location and network information, request headers, and connection information | Display information about your current connection |
+
+Do not include unnecessary sensitive information, passwords, or national identification numbers in inquiries or comments.
+
+## Google Analytics
+
+Google Analytics 4 is configured for this site. **The Google analytics tag loads only after you accept analytics.** It does not load while you have not made a choice or have declined. Google Signals and advertising personalization signals are disabled in the site's code.
+
+You can change your choice in the [Cookie Policy's analytics preferences](/cookie-policy/#analytics-preferences). Declining stops subsequent analytics transmission from this site and removes accessible Analytics cookies. It does not automatically delete information already transmitted. A browser's Do Not Track signal is treated as a refusal when there is no explicitly saved choice.
+
+Google AdSense and a separate Google Tag Manager container are not currently enabled. The analytics script's `googletagmanager.com` address does not by itself mean that a Tag Manager container is in use. See the [Google Privacy Policy](https://policies.google.com/privacy) and [Analytics data protection information](https://support.google.com/analytics/answer/6004245).
+
+## Inquiries and Formspree
+
+When you submit the contact form, your name, email address, and message are sent to Formspree, Inc. over HTTPS and used by the operator to respond. Submitting an inquiry is optional. Without consent, you cannot send an inquiry through the form.
+
+Formspree states that it processes information in the United States and other countries where it operates. It may also process request information, such as IP address, browser, and access time, to prevent spam and abuse. See the [Formspree Privacy Policy](https://formspree.io/legal/privacy-policy/) for its processing and international handling of information.
+
+**Inquiry records and reply emails managed by the site operator are deleted within 90 days after the inquiry has been answered.** If you request deletion earlier, the request is handled after the minimum verification needed to confirm your identity. Copies in the Formspree inbox and the operator's email are included. Provider-managed security or legally required logs and backups follow the provider's own retention policies; deletion at the same time is not guaranteed.
+
+## Site delivery and external features
+
+- **GitHub and Cloudflare:** Connection information may be processed during site deployment, image delivery, API access, and security operations. See the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) and [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/). Provider-managed log retention depends on the service and its actual settings.
+- **TradingView:** Opening the homepage connects to TradingView to load market widgets. Its official FAQ states that widgets do not set cookies and process the embedding page URL, widget type, displayed symbol, and IP address to provide the widget. See the [widget FAQ](https://www.tradingview.com/widget-docs/faq/general/#do-tradingview-widgets-set-cookies) and [Privacy Policy](https://www.tradingview.com/privacy-policy/). Declining analytics does not block this market-data connection.
+- **IP lookup API:** Opening the IP lookup page or refreshing the lookup sends a request to `https://api.ramoo.net/ip` to display your public IP and approximate location, network, and connection information. Results are not saved in browser cookies or local storage, and the lookup request omits browser credentials. This does not mean that the API or hosting layer keeps no access logs. Such logs are subject to the API and hosting providers' operating and retention policies.
+- **OpenStreetMap:** When an IP-based approximate location is available, the map fetches tiles from `tile.openstreetmap.org`. Requests may disclose your IP address, request headers, and the displayed area indicated by tile coordinates to the map provider. The feature does not request browser GPS permission. See the [OSMF Privacy Policy](https://osmfoundation.org/wiki/Privacy_Policy).
+- **Giscus and GitHub comments:** Loading the comment widget connects to Giscus. Posting requires GitHub sign-in and authorization. Comments and reactions are stored in public GitHub Discussions, where other visitors can see your public profile and posts. See [Giscus](https://giscus.app/) and the GitHub Privacy Statement.
+- **Other external content:** Loading external videos or resources in articles, or following external links, may send connection information to those providers. Their own policies apply.
+
+## Retention, deletion, and your requests
+
+The operator deletes inquiries from the Formspree inbox and email under the 90-day rule above. Your analytics choice is saved in your browser with a validity period of 180 days. Theme settings and cookies are described in the [Cookie Policy](/cookie-policy/). Retention of analytics on Google's servers and logs held by external providers depends on account settings and provider policies.
+
+To request access, correction, deletion, restriction of processing, or withdrawal of consent, or to ask a privacy question, use [Contact](/contact/) and describe your request. The operator will verify only the minimum information needed to confirm your identity, handle the request, and respond. You can withdraw analytics consent directly on the Cookie Policy page. You can edit or delete public GitHub comments through your GitHub account's comment controls or contact the operator.
+
+Privacy contact: ramoo, through the [Contact page](/contact/). Do not send someone else's personal information or unnecessary copies of identification documents.
+
+## Changes
+
+Changes to this policy will be published here with an updated revision date.
+
+Last updated: October 16, 2026
+
+
+--------------------------------------------------------------------------------
+title: "Terms of Use"
+url: https://www.ramoo.net/terms/index.md
+date: "2026-01-01"
+description: Rules for accessing and using ramoo.net.
+--------------------------------------------------------------------------------
+These terms govern use of ramoo.net. By using the site, you agree to these terms.
+
+## Site content and availability
+
+The site publishes personal notes, technical information, experiences, and other content. Pages and services may be changed or discontinued without prior notice.
+
+Limitations concerning accuracy, technical instructions, and reliance on the content are described in the [Disclaimer](/disclaimer/).
+
+## Acceptable use
+
+Do not use the site for unlawful purposes, interfere with its operation, or send requests that disrupt its availability.
+
+Copying and redistribution must follow the permissions and restrictions in the [Content License](/license/). Automated access is also subject to the [AI & Crawling Policy](/ai-crawling-policy/).
+
+## Ownership and permissions
+
+Original content belongs to its author unless otherwise indicated. Third-party material remains subject to its owner's rights and applicable license. The [Content License](/license/) explains reuse of site content, while [Third-Party Notices](/third-party-notices/) identify software and external assets.
+
+## Related policies
+
+Visitor information is covered by the [Privacy Policy](/privacy-policy/) and [Cookie Policy](/cookie-policy/). External websites linked from this site have their own terms and policies.
+
+## Changes
+
+Updates to these terms will be published here.
+
+---
+
+Last updated: October 16, 2026
+
+
+--------------------------------------------------------------------------------
+title: "Third-Party Notices"
+url: https://www.ramoo.net/third-party-notices/index.md
+date: "2026-01-01"
+description: Attribution and license references for software and external assets used by ramoo.net.
+--------------------------------------------------------------------------------
+The software and third-party assets used by ramoo.net remain subject to their owners' rights and upstream licenses.
+
+## Main software components
+
+| Component | Role | License reference |
+| --- | --- | --- |
+| [Hugo](https://gohugo.io/) | Static-site generator | [Apache License 2.0](https://github.com/gohugoio/hugo/blob/master/LICENSE) |
+| [Hugoplate by Zeon Studio](https://github.com/zeon-studio/hugoplate) | Theme and project scaffold | [MIT](https://github.com/zeon-studio/hugoplate/blob/main/LICENSE) |
+| [Tailwind CSS](https://tailwindcss.com/) | CSS tooling | [MIT](https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE) |
+| [Prettier](https://prettier.io/) | Source formatting | [MIT](https://github.com/prettier/prettier/blob/main/LICENSE) |
+
+Additional Hugo modules, frontend libraries, and transitive dependencies retain their own licenses. This table lists the main components; it is not a complete dependency inventory or a replacement for the copyright notices and license texts supplied with the software.
+
+## External assets and attribution
+
+Product names, logos, trademarks, product designs, screenshots, and captured service interfaces may contain material owned by third parties. This site does not claim ownership of those elements.
+
+For externally sourced images or assets, source information and attribution should be recorded with the relevant article or asset notice. Where the source license requires it, this includes the original URL, creator or distributor, license link, and a description of changes.
+
+## Site-owned content
+
+Permissions for the author's original material are described in the [Content License](/license/). The [Open Source](/open-source/) page explains how the site's software and content licenses are distinguished.
+
+## Questions
+
+For copyright, attribution, or asset questions, see the [Contact page](/contact/).
+
+---
+
+Last updated: October 16, 2026
+
+
+--------------------------------------------------------------------------------
 title: "News"
 url: https://www.ramoo.net/news/index.md
 description: 시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
@@ -2576,833 +3511,6 @@ description: 이재명 대통령은 전국적인 폭우 피해로 인해 부산 
 
 
 --------------------------------------------------------------------------------
-title: "Pages"
-url: https://www.ramoo.net/pages/index.md
---------------------------------------------------------------------------------
-<no value>
-
---------------------------------------------------------------------------------
-title: "Donate"
-url: https://www.ramoo.net/donate/index.md
-date: "2026-10-17"
-description: Ways to donate to ramoo.net through Ko-fi or a KakaoPay QR code in Korea.
---------------------------------------------------------------------------------
-
-## Ways to help
-
-If these articles are useful to you, you can make a donation below.
-
-Thank you for reading and supporting ramoo.net.
-
-### Ko-fi
-
-Use the button below to donate via Ko-fi.
-
-{{< kofi-button >}}
-
----
-
-### Donate from Korea · KakaoPay
-
-On your phone, tap the button to open KakaoPay. You can also scan the QR code.
-
-{{< donate-qr >}}
-
-
---------------------------------------------------------------------------------
-title: "기부"
-url: https://www.ramoo.net/ko/donate/index.md
-date: "2026-10-17"
-description: Ko-fi와 국내 카카오페이 QR을 통해 ramoo.net의 콘텐츠 제작에 기부하는 방법을 안내합니다.
---------------------------------------------------------------------------------
-
-## 도움을 주는 방법
-
-글이 도움이 되었다면 블로그에 기부할 수 있습니다. 읽어 주시고 응원해 주셔서 감사합니다.
-
-### Ko-fi
-
-아래 버튼에서 기부할 수 있습니다.
-
-{{< kofi-button >}}
-
----
-
-### 한국에서 기부하기 · 카카오페이
-
-휴대폰에서는 아래 버튼을 누르세요. PC에서는 카카오페이로 QR 코드를 스캔할 수 있습니다.
-
-{{< donate-qr >}}
-
-
---------------------------------------------------------------------------------
-title: "AI·크롤링 정책"
-url: https://www.ramoo.net/ko/ai-crawling-policy/index.md
-date: "2026-10-16"
-description: 검색 색인, 자동 수집, AI 학습과 데이터셋 이용의 허용 범위를 안내합니다.
---------------------------------------------------------------------------------
-
-이 정책은 ramoo.net 콘텐츠에 대한 자동 접근을 다룹니다. 재사용과 출처 표시 조건은 [콘텐츠 이용허락](/ko/license/)에서 안내합니다.
-
-## 검색 색인
-
-검색 색인, 검색 미리보기와 원문 링크 제공을 위한 일반적인 검색엔진 크롤링은 허용합니다.
-
-## 제한적인 수집과 AI 이용
-
-콘텐츠 이용허락에 따라 기술 검토를 위한 제한적 자동 수집, 개인 학습을 위한 일부 인용, 원문 링크가 포함된 요약을 허용합니다.
-
-AI 학습, 데이터셋 작성과 텍스트 수집에 이용할 때는 출처를 밝히고 원문 링크를 유지해야 합니다. 출처 표시만으로 아래에서 제한한 대량 이용이 허용되지는 않습니다.
-
-## 제한되는 이용
-
-별도 허락 없이 다음 행위를 하지 마세요.
-
-- 위에서 허용한 일반적인 검색 색인을 제외하고 사이트 전체나 많은 페이지를 대량 수집하는 행위
-- 사이트 콘텐츠 전체를 별도 데이터셋, 유료 서비스 또는 폐쇄형 지식 저장소에 복제하는 행위
-- 원문 링크 없이 AI 답변, 문서나 데이터셋에 콘텐츠를 이용하는 행위
-- 과도한 요청으로 사이트 운영을 방해하는 행위
-- 출처를 숨기거나 다른 사람이 작성한 것처럼 제시하는 행위
-
-## 허락 요청
-
-별도 허락이 필요한 수집, 학습 또는 데이터셋 이용은 [문의 페이지](/ko/contact/)로 연락하세요.
-
-최종 수정일: 2026년 10월 16일
-
-
---------------------------------------------------------------------------------
-title: "ramoo.net in English"
-url: https://www.ramoo.net/en/index.md
-date: "2026-10-16"
-description: A personal blog from Korea covering investing, news and commentary, country living, software development, servers and technology hobbies.
---------------------------------------------------------------------------------
-ramoo.net is my personal blog about work, hobbies, investing and the occasional detour. I write down what I learn while developing software, running servers, planning a country home and following financial markets. I also keep notes about travel and everyday life so I can return to them later.
-
-This page introduces the blog in English. Most full articles are written in Korean.
-
-## Building a country home
-
-Notes about country homes, land, architecture, interiors and the decisions involved in planning a home.
-
-[Explore Exurban](/exurban/)
-
-## Investing and personal finance
-
-My research notes on stocks, income funds, interest rates, housing and economic policy. I look at the data and risks behind attractive headlines and share my own perspective.
-
-[Explore Money](/money/)
-
-Recent articles include:
-
-- [PIMCO Dynamic Income Fund (PDI): NAV, interest rates and a buying strategy](/money/pdi-nav-rate-outlook/). An analysis of an insider purchase, monthly distributions, leverage, the premium or discount to net asset value, and interest-rate and credit risks.
-- [Bank of Korea rate outlook: implications for housing and stocks](/money/bok-rate-hike-property-stock-outlook/). A discussion of further rate increases and how borrowing costs can affect households and financial markets.
-- [President Lee Jae-myung's housing tax promises and policy changes](/money/lee-housing-tax-promises/). My perspective as a supporter on earned income tax reform, property taxation and the feasibility of housing supply plans, with related videos.
-
-These links lead to the Korean articles. Market observations and policy discussions reflect the dates stated in each article.
-
-## News and commentary
-
-News, social issues and personal commentary on stories that make me stop and think.
-
-[Explore News](/news/)
-
-## Hobbies and personal technology
-
-Practical notes from software development and server administration, alongside hands-on experiences with Macs, electronic devices, NAS hardware upgrades and home networking.
-
-[Explore Hobby](/hobby/)
-
-[한국어 홈페이지 · Korean homepage](/)
-
-
---------------------------------------------------------------------------------
-title: "ramoo.net 소개"
-url: https://www.ramoo.net/ko/en/index.md
-date: "2026-10-16"
-description: 투자·경제, 시사, 전원생활과 개발·취미를 기록하는 ramoo.net 블로그 소개입니다.
---------------------------------------------------------------------------------
-
-ramoo.net은 일, 취미, 재테크와 가끔의 딴짓을 기록하는 개인 블로그입니다. 소프트웨어를 개발하고 서버를 운영하며, 전원주택을 계획하고 금융시장을 살펴보면서 배운 내용을 적습니다. 나중에 다시 꺼내 볼 여행과 일상 메모도 남깁니다.
-
-이 페이지는 블로그를 소개합니다. 대부분의 전체 게시글은 한국어로 작성되어 있습니다.
-
-## 전원주택 짓기
-
-전원주택, 토지, 건축, 인테리어와 집을 계획하며 내리는 선택에 관한 기록입니다.
-
-[Exurban 둘러보기](/exurban/)
-
-## 투자와 재테크
-
-주식, 인컴 펀드, 금리, 주택과 경제정책에 관한 학습 메모입니다. 눈길을 끄는 제목 뒤의 데이터와 위험을 살피고 개인적인 관점을 정리합니다.
-
-[Money 둘러보기](/money/)
-
-최근 글은 다음과 같습니다.
-
-- [PIMCO Dynamic Income Fund(PDI): NAV, 금리와 매수 전략](/money/pdi-nav-rate-outlook/). 내부자 매수, 월 분배금, 레버리지, 순자산가치 대비 프리미엄·할인, 금리·신용 위험을 분석합니다.
-- [한국은행 금리 전망: 주택과 주식에 미치는 영향](/money/bok-rate-hike-property-stock-outlook/). 추가 금리 인상과 차입 비용이 가계·금융시장에 미치는 영향을 살펴봅니다.
-- [이재명 대통령의 주택 세금 공약과 정책 변화](/money/lee-housing-tax-promises/). 지지자의 관점에서 근로소득세 개편, 부동산 과세와 주택 공급 계획의 실현 가능성을 관련 영상과 함께 정리합니다.
-
-위 링크는 한국어 글로 연결됩니다. 시장 관측과 정책 논의는 각 글에 표시된 시점을 기준으로 합니다.
-
-## 뉴스와 의견
-
-잠시 멈춰 생각하게 만드는 뉴스, 사회 이슈와 개인적인 의견을 기록합니다.
-
-[News 둘러보기](/news/)
-
-## 취미와 개인 기술
-
-소프트웨어 개발과 서버 운영의 실용 메모, Mac과 전자기기 사용 경험, NAS 하드웨어 업그레이드와 홈 네트워크 이야기를 다룹니다.
-
-[Hobby 둘러보기](/hobby/)
-
-[한국어 홈페이지](/)
-
-
---------------------------------------------------------------------------------
-title: "개인정보처리방침"
-url: https://www.ramoo.net/ko/privacy-policy/index.md
-date: "2026-10-16"
-description: ramoo.net의 방문 통계, 문의 정보, 외부 서비스와 개인정보 권리 행사 안내.
---------------------------------------------------------------------------------
-ramoo.net은 ramoo가 운영하는 개인 블로그입니다. 회원가입 기능은 제공하지 않습니다. 이 방침은 사이트 방문, 문의, 댓글 및 외부 기능 이용 시 처리되는 정보를 설명합니다.
-
-## 처리하는 정보와 목적
-
-| 구분 | 처리되는 정보 | 목적 |
-| --- | --- | --- |
-| 페이지 제공·보안 | IP 주소, 요청 URL·시각, 브라우저·기기 및 연결 정보 | 페이지와 이미지 제공, 오류 확인, 부정 접속 방지 |
-| 문의 | 이름, 이메일 주소, 문의 내용과 답변 기록 | 문의 확인, 답변 및 후속 문의 처리 |
-| 방문 통계 | 방문 페이지, 방문·이벤트 시각, 브라우저·기기 및 통계용 식별 정보 | 사이트 이용 현황 파악과 개선 |
-| 댓글 | 공개 GitHub 프로필, 댓글·반응 | GitHub Discussions 기반 댓글 제공 |
-| IP 확인 도구 | 공인 IP, IP 기반 추정 위치·네트워크, 요청 헤더·연결 정보 | 현재 접속의 IP·네트워크 정보 표시 |
-
-사이트 운영에 필요하지 않은 민감정보, 비밀번호, 주민등록번호 등은 문의나 댓글에 입력하지 마세요.
-
-## Google Analytics 방문 통계
-
-현재 사이트에는 Google Analytics 4가 설정되어 있습니다. **방문자가 방문 통계를 허용한 뒤에만 Google 분석 태그를 불러옵니다.** 선택 전이나 거부 상태에서는 이 사이트의 분석 태그를 불러오지 않습니다. 광고용 Google Signals와 광고 개인화 신호는 코드에서 비활성화합니다.
-
-허용·거부는 [쿠키 정책의 방문 통계 설정](/ko/cookie-policy/#방문-통계-설정)에서 변경할 수 있습니다. 거부하면 이후 이 사이트의 분석 전송을 중단하고 접근 가능한 Analytics 쿠키를 삭제합니다. 이미 전송된 정보가 자동 삭제되는 것은 아닙니다. 브라우저의 Do Not Track 신호는 저장된 명시적 선택이 없는 경우 거부로 처리합니다.
-
-Google AdSense와 별도의 Google Tag Manager 컨테이너는 현재 활성화되어 있지 않습니다. 분석 태그의 파일 주소에 `googletagmanager.com`이 포함되더라도 Tag Manager 컨테이너 사용을 뜻하지는 않습니다. Google의 정보 처리에 관해서는 [Google 개인정보처리방침](https://policies.google.com/privacy)과 [Analytics 데이터 보호 안내](https://support.google.com/analytics/answer/6004245)를 참고하세요.
-
-## 문의와 Formspree
-
-문의 폼의 이름·이메일 주소·문의 내용은 전송 버튼을 누를 때 HTTPS 요청으로 Formspree, Inc.에 전달되고 운영자가 문의에 답변하는 데 사용합니다. 문의는 선택 사항이며 동의하지 않으면 폼을 통한 문의를 전송할 수 없습니다.
-
-Formspree는 미국 및 서비스를 운영하는 다른 국가에서 정보를 처리한다고 안내합니다. 서비스는 스팸·부정 이용 방지 등을 위해 IP, 브라우저, 접속 시각 같은 요청 정보를 추가 처리할 수 있습니다. 제공자의 처리와 해외 처리에 관한 설명은 [Formspree 개인정보처리방침](https://formspree.io/legal/privacy-policy/)에서 확인할 수 있습니다.
-
-**운영자가 관리하는 문의 내용과 답변 이메일은 답변 완료 후 90일 이내에 삭제합니다.** 삭제 요청이 먼저 접수되면 본인 확인에 필요한 최소한의 확인 후 처리합니다. Formspree 수신함과 운영자의 이메일에 남은 사본도 삭제 대상에 포함합니다. 제공자가 보안·법적 의무에 따라 별도로 관리하는 로그와 백업에는 해당 제공자의 보관 정책이 적용되므로 모두 같은 시점에 삭제된다고 보장하지 않습니다.
-
-## 사이트 제공과 외부 기능
-
-- **GitHub·Cloudflare:** 사이트 배포, 이미지 전달, API 연결 및 보안 처리 과정에서 접속 정보가 처리될 수 있습니다. [GitHub 개인정보처리방침](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement), [Cloudflare 개인정보처리방침](https://www.cloudflare.com/privacypolicy/)을 참고하세요. 제공자가 관리하는 로그의 보관 기간은 해당 서비스와 실제 설정에 따릅니다.
-- **TradingView:** 홈의 시세 위젯은 페이지를 열면 TradingView에 연결됩니다. 공식 FAQ는 위젯이 쿠키를 설정하지 않으며, 위젯 제공을 위해 삽입된 페이지 URL, 위젯 종류, 표시 종목과 IP 주소를 처리한다고 설명합니다. [공식 위젯 FAQ](https://www.tradingview.com/widget-docs/faq/general/#do-tradingview-widgets-set-cookies), [개인정보처리방침](https://www.tradingview.com/privacy-policy/)을 참고하세요. 방문 통계 거부는 이 시세 연결을 차단하는 설정이 아닙니다.
-- **IP 확인 API:** IP 확인 페이지를 열거나 다시 조회하면 브라우저가 `https://api.ramoo.net/ip`에 요청하여 공인 IP, 대략적인 위치·네트워크·연결 정보를 표시합니다. 조회 결과를 브라우저의 쿠키나 로컬 저장소에 보관하지 않으며, 조회 요청에는 브라우저 인증정보를 포함하지 않습니다. API·호스팅 계층의 접속 로그까지 저장되지 않는다는 뜻은 아닙니다. API·호스팅 제공자의 접속 로그에는 해당 제공자의 운영·보관 정책이 적용됩니다.
-- **OpenStreetMap:** IP 기반 추정 위치가 있을 때 지도 타일을 `tile.openstreetmap.org`에서 가져옵니다. 이 요청으로 IP 주소와 요청 헤더, 타일 좌표로 알 수 있는 표시 지역이 지도 제공자에게 전달될 수 있습니다. 브라우저 GPS 위치 권한을 요청하는 기능은 아닙니다. [OSMF 개인정보처리방침](https://osmfoundation.org/wiki/Privacy_Policy)을 참고하세요.
-- **Giscus·GitHub 댓글:** 댓글 위젯 로딩 시 Giscus에 연결됩니다. 댓글 작성에는 GitHub 로그인과 승인이 필요하며 댓글·반응은 공개 GitHub Discussions에 저장됩니다. 공개 프로필과 작성 내용은 다른 방문자도 볼 수 있습니다. [Giscus 설명](https://giscus.app/ko)과 GitHub 개인정보처리방침을 참고하세요.
-- **기타 외부 콘텐츠:** 게시글의 외부 영상·리소스를 불러오거나 링크를 방문하면 해당 제공자에게 접속 정보가 전달될 수 있습니다. 해당 서비스의 자체 정책이 적용됩니다.
-
-## 보관과 삭제, 권리 행사
-
-문의 정보는 위의 90일 기준에 따라 운영자가 Formspree 수신함과 이메일에서 삭제합니다. 방문 통계 선택은 브라우저에 180일간 유효한 설정으로 보관하며, 테마 설정과 쿠키는 [쿠키 정책](/ko/cookie-policy/)에서 설명합니다. Google Analytics 서버에 저장된 통계와 외부 제공자의 로그 보관은 각 계정 설정과 제공자 정책에 따릅니다.
-
-자신의 개인정보에 대한 열람·정정·삭제, 처리 정지, 동의 철회 또는 문의를 원하면 [Contact](/ko/contact/)에서 문의 종류와 요청 내용을 보내 주세요. 운영자는 요청자 확인에 필요한 최소 정보만 확인하고 요청을 처리하여 답변합니다. 방문 통계 동의는 쿠키 정책 페이지에서 직접 철회할 수 있습니다. GitHub 공개 댓글은 해당 계정의 댓글 관리 기능으로 수정·삭제할 수 있으며 운영자에게도 문의할 수 있습니다.
-
-개인정보 문의 담당: ramoo · [문의 페이지](/ko/contact/). 다른 사람의 개인정보나 불필요한 신분증 사본은 보내지 마세요.
-
-## 변경 안내
-
-방침이 바뀌면 이 페이지의 수정일과 내용을 갱신합니다.
-
-최종 수정일: 2026년 10월 16일
-
-
---------------------------------------------------------------------------------
-title: "면책고지"
-url: https://www.ramoo.net/ko/disclaimer/index.md
-date: "2026-10-16"
-description: ramoo.net의 정보·기술 안내와 외부 서비스 이용 시 고려할 한계를 설명합니다.
---------------------------------------------------------------------------------
-
-ramoo.net의 콘텐츠는 일반적인 정보와 참고 자료로 제공합니다. 개인 경험과 학습 내용을 기록한 것으로, 다른 환경이나 상황에는 적용되지 않을 수 있습니다.
-
-## 정확성과 최신성
-
-작성자는 정확한 정보를 제공하려고 노력하지만 완전성, 신뢰성, 최신성을 보장하지는 않습니다. 소프트웨어, 하드웨어, 서비스와 관련 정보는 글 작성 후 바뀔 수 있습니다.
-
-## 기술 안내
-
-코드, 명령어, 설정과 설치 절차는 환경에 따라 다르게 동작할 수 있습니다. 운영 시스템에 적용하기 전에 검토하고 테스트하세요.
-
-콘텐츠를 참고해 수행한 변경은 이용자의 책임입니다. 관련 법률이 허용하는 범위에서 작성자는 그로 인한 서비스 중단, 데이터 손실, 보안 문제 또는 기타 손실에 책임을 지지 않습니다.
-
-## 외부 서비스와 링크
-
-외부 사이트, 제품과 서비스를 소개하는 것은 품질, 가용성 또는 정확성을 보장한다는 뜻이 아닙니다. 해당 제공자의 약관과 정책이 적용됩니다.
-
-## 광고와 제휴 링크
-
-사이트에는 광고나 제휴 링크가 포함될 수 있고 이를 통해 수익을 얻을 수 있습니다. 이러한 링크는 제품이나 서비스의 특정 결과를 보장하지 않습니다.
-
-사이트 이용 규칙은 [이용약관](/ko/terms/)에서 확인하세요.
-
-최종 수정일: 2026년 10월 16일
-
-
---------------------------------------------------------------------------------
-title: "문의"
-url: https://www.ramoo.net/ko/contact/index.md
-date: "2026-10-16"
-description: ramoo.net 운영자에게 문의하고 개인정보 처리와 답변 안내를 확인하는 페이지입니다.
---------------------------------------------------------------------------------
-
-
---------------------------------------------------------------------------------
-title: "소개"
-url: https://www.ramoo.net/ko/about/index.md
-date: "2026-10-16"
-description: ramoo와 개발·취미·재테크 기록을 남기는 개인 블로그에 관한 소개입니다.
---------------------------------------------------------------------------------
-
-저는 소프트웨어 개발을 업으로 삼는 시니어 개발자입니다. 관심 있는 것들에 관한 생각과 메모를 가끔 남겨 두려고 이 사이트를 만들었습니다.
-
-꾸준히 사이트를 업데이트하는 일은 쉽지 않지만, 계속 기록해 보려고 합니다.
-
-
---------------------------------------------------------------------------------
-title: "오픈소스"
-url: https://www.ramoo.net/ko/open-source/index.md
-date: "2026-10-16"
-description: ramoo.net의 구축·유지에 사용하는 오픈소스와 콘텐츠 라이선스를 안내합니다.
---------------------------------------------------------------------------------
-
-ramoo.net은 오픈소스 소프트웨어로 만들었습니다. 주요 도구로 정적 사이트 생성기 Hugo, Hugoplate 테마, Tailwind CSS, Prettier와 Hugo 모듈·npm 패키지를 사용합니다.
-
-## 소프트웨어와 콘텐츠 라이선스
-
-각 소프트웨어 구성요소에는 원 프로젝트의 라이선스가 적용됩니다. 주요 구성요소, 라이선스 링크와 외부 자료는 [제3자 권리 고지](/ko/third-party-notices/)에서 확인할 수 있습니다.
-
-이러한 소프트웨어 라이선스가 블로그 글, 원본 예제와 원본 이미지에 자동으로 적용되지는 않습니다. 해당 자료의 재사용에는 [콘텐츠 이용허락](/ko/license/)이 적용됩니다. 별도 라이선스를 명시한 예제는 해당 라이선스를 따릅니다.
-
-## 라이선스 기록
-
-소프트웨어에 포함된 저작권 고지, 라이선스 전문과 재배포 조건은 필요한 경우 보존해야 합니다. 이 소개는 각 구성요소와 함께 배포되는 라이선스를 대체하지 않습니다.
-
-소프트웨어의 출처 표시와 라이선스 고지는 [문의 페이지](/ko/contact/)로 문의하세요.
-
-최종 수정일: 2026년 10월 16일
-
-
---------------------------------------------------------------------------------
-title: "이용약관"
-url: https://www.ramoo.net/ko/terms/index.md
-date: "2026-10-16"
-description: ramoo.net 이용과 콘텐츠 재사용, 외부 서비스 및 관련 정책을 안내합니다.
---------------------------------------------------------------------------------
-
-이 약관은 ramoo.net 이용에 적용됩니다. 사이트를 이용하면 이 약관에 동의하는 것으로 봅니다.
-
-## 콘텐츠와 서비스 제공
-
-사이트에는 개인 메모, 기술 정보, 경험과 그 밖의 콘텐츠를 게시합니다. 페이지와 서비스는 사전 안내 없이 변경되거나 중단될 수 있습니다.
-
-정보의 정확성, 기술 안내, 콘텐츠에 의존할 때의 한계는 [면책고지](/ko/disclaimer/)에서 설명합니다.
-
-## 허용되는 이용
-
-불법적인 목적으로 이용하거나 사이트 운영을 방해하고, 가용성을 해치는 요청을 보내지 마세요.
-
-복사와 재배포에는 [콘텐츠 이용허락](/ko/license/)의 허용 범위와 제한이 적용됩니다. 자동 접근에는 [AI·크롤링 정책](/ko/ai-crawling-policy/)도 적용됩니다.
-
-## 권리와 이용허락
-
-별도 표시가 없으면 원본 콘텐츠의 권리는 작성자에게 있습니다. 제3자 자료에는 해당 권리자의 권리와 라이선스가 적용됩니다. 콘텐츠 재사용은 [콘텐츠 이용허락](/ko/license/)에서, 소프트웨어와 외부 자료는 [제3자 권리 고지](/ko/third-party-notices/)에서 안내합니다.
-
-## 관련 정책
-
-방문자 정보에는 [개인정보처리방침](/ko/privacy-policy/)과 [쿠키 정책](/ko/cookie-policy/)이 적용됩니다. 외부 사이트에는 해당 사이트의 약관과 정책이 적용됩니다.
-
-## 변경
-
-약관이 변경되면 이 페이지에 게시합니다.
-
-최종 수정일: 2026년 10월 16일
-
-
---------------------------------------------------------------------------------
-title: "제3자 권리 고지"
-url: https://www.ramoo.net/ko/third-party-notices/index.md
-date: "2026-10-16"
-description: ramoo.net에서 사용하는 소프트웨어와 외부 자료의 출처·라이선스를 안내합니다.
---------------------------------------------------------------------------------
-
-ramoo.net에서 사용하는 소프트웨어와 제3자 자료에는 해당 권리자의 권리와 원 프로젝트의 라이선스가 적용됩니다.
-
-## 주요 소프트웨어
-
-| 구성요소 | 용도 | 라이선스 |
-| --- | --- | --- |
-| [Hugo](https://gohugo.io/) | 정적 사이트 생성기 | [Apache License 2.0](https://github.com/gohugoio/hugo/blob/master/LICENSE) |
-| [Zeon Studio의 Hugoplate](https://github.com/zeon-studio/hugoplate) | 테마와 프로젝트 기본 구조 | [MIT](https://github.com/zeon-studio/hugoplate/blob/main/LICENSE) |
-| [Tailwind CSS](https://tailwindcss.com/) | CSS 도구 | [MIT](https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE) |
-| [Prettier](https://prettier.io/) | 소스 포맷팅 | [MIT](https://github.com/prettier/prettier/blob/main/LICENSE) |
-
-추가 Hugo 모듈, 프런트엔드 라이브러리와 간접 의존성에는 각각의 라이선스가 적용됩니다. 이 표는 주요 구성요소만 소개하며 전체 의존성 목록이나 소프트웨어에 포함된 저작권 고지·라이선스 전문을 대체하지 않습니다.
-
-## 외부 자료와 출처 표시
-
-제품명, 로고, 상표, 제품 디자인, 스크린샷과 서비스 화면에는 제3자 소유 자료가 포함될 수 있습니다. 사이트는 해당 요소의 소유권을 주장하지 않습니다.
-
-외부 이미지나 자료의 출처와 권리 표시는 관련 글 또는 자료 고지에 기록해야 합니다. 원본 라이선스에서 요구하는 경우 원문 URL, 제작자·배포자, 라이선스 링크와 변경 내용을 포함합니다.
-
-## 사이트 원본 콘텐츠
-
-작성자의 원본 자료에 대한 이용허락은 [콘텐츠 이용허락](/ko/license/)에서 설명합니다. 소프트웨어와 콘텐츠 라이선스의 구분은 [오픈소스](/ko/open-source/)에서 확인할 수 있습니다.
-
-## 문의
-
-저작권, 출처 표시와 외부 자료는 [문의 페이지](/ko/contact/)로 문의하세요.
-
-최종 수정일: 2026년 10월 16일
-
-
---------------------------------------------------------------------------------
-title: "콘텐츠 이용허락"
-url: https://www.ramoo.net/ko/license/index.md
-date: "2026-10-16"
-description: ramoo.net 원본 콘텐츠의 재사용 허용 범위, 출처 표시와 제한을 안내합니다.
---------------------------------------------------------------------------------
-
-별도 표시가 없으면 ramoo.net의 원본 글, 예제 코드, 원본 이미지, 도표와 기타 원본 편집 콘텐츠의 저작권은 ramoo에게 있습니다. 이 페이지는 해당 자료의 재사용 허용 범위를 설명합니다.
-
-## 허용되는 재사용
-
-다음 조건을 지키면 학습, 기술 검토, 문서 작성, 내부 교육, 블로그 인용과 상업적 참고 목적으로 원본 콘텐츠를 인용·공유·수정·요약·번역하거나 재사용할 수 있습니다.
-
-- 원문 페이지 링크를 포함합니다.
-- 수정·요약·번역 등 변경한 내용이 있으면 표시합니다.
-- 변경한 내용을 작성자의 원래 발언이나 견해인 것처럼 제시하지 않습니다.
-
-가능하면 출처에 사이트명, 원문 제목, 원문 URL과 작성자를 포함하세요. 글의 일부만 인용하더라도 원문 링크를 표시해야 합니다.
-
-## 제한
-
-다음 행위는 위 허용 범위에 포함되지 않습니다.
-
-- 출처를 숨기거나 작성자를 잘못 표시하는 행위
-- 별도 허락 없이 글 전체를 다른 사이트나 문서에 재게시하는 행위
-- 전체 사본을 유료 상품, 강의 자료, 전자책 또는 회원 전용 콘텐츠로 재판매하는 행위
-- 악성코드, 피싱, 스팸 또는 불법 서비스 운영에 이용하는 행위
-
-상업적 재사용도 위 조건 안에서 허용됩니다. 전체 사본의 재판매나 재게시를 허락하는 것은 아닙니다.
-
-## 코드와 설정 예제
-
-원본 예제는 별도 라이선스가 명시되지 않았다면 이 조건으로 사용할 수 있습니다. 오픈소스 프로젝트에서 가져온 예제에는 해당 프로젝트의 라이선스가 적용됩니다. 예제 적용 시 기술적 위험과 책임은 [면책고지](/ko/disclaimer/)에서 설명합니다.
-
-## 제3자 자료
-
-이 이용허락은 작성자에게 권리가 있는 자료에만 적용됩니다. 제품명, 상표, 로고, 서비스 화면, 제3자 저작물이 포함된 스크린샷과 외부 이미지는 별도 권리의 대상일 수 있습니다.
-
-외부 이미지를 편집해도 원본의 라이선스 의무가 없어지지 않습니다. 필요한 출처와 변경 표시를 포함해 원본 라이선스를 준수하세요. 관련 소프트웨어와 자료 정보는 [제3자 권리 고지](/ko/third-party-notices/)에서 확인할 수 있습니다.
-
-## 자동 수집
-
-자동 수집, AI 학습과 데이터셋 이용에는 [AI·크롤링 정책](/ko/ai-crawling-policy/)의 추가 조건이 적용됩니다.
-
-## 문의와 변경
-
-재사용이나 라이선스는 [문의 페이지](/ko/contact/)를 이용하세요. 변경 사항은 이 페이지에 게시하며 이후의 콘텐츠 이용에 적용합니다.
-
-© 2026 ramoo. 위에서 명시적으로 허용했거나 별도 라이선스로 허용한 경우를 제외한 권리는 유보합니다.
-
-최종 수정일: 2026년 10월 16일
-
-
---------------------------------------------------------------------------------
-title: "쿠키 정책"
-url: https://www.ramoo.net/ko/cookie-policy/index.md
-date: "2026-10-16"
-description: ramoo.net의 방문 통계 동의, 쿠키·로컬 저장소 및 설정 변경 방법.
---------------------------------------------------------------------------------
-이 정책은 ramoo.net의 쿠키와 브라우저 저장소, 방문 통계 선택 방법을 설명합니다. 개인정보 전반에 관한 내용은 [개인정보처리방침](/ko/privacy-policy/)을 참고하세요.
-
-## 방문 통계 설정
-
-Google Analytics 4는 방문 통계를 허용한 뒤에만 불러옵니다. 선택 전과 거부 상태에서는 이 사이트의 Google 분석 태그를 불러오지 않습니다. 아래에서 언제든지 선택을 바꿀 수 있으며, 거부해도 글과 주요 기능을 이용할 수 있습니다.
-
-{{< analytics-settings >}}
-
-거부하면 이후 분석 전송을 중단하고 브라우저에서 접근 가능한 Analytics 쿠키를 삭제합니다. 이미 Google에 전송된 기록이 자동 삭제되는 것은 아닙니다. 거부 전에 불러온 분석 파일은 현재 탭 메모리에 남을 수 있으며 다음 페이지부터는 불러오지 않습니다. 브라우저의 다른 사이트 데이터까지 삭제하지는 않습니다.
-
-## 현재 사용하는 저장소
-
-| 항목 | 용도 | 보관·제어 |
-| --- | --- | --- |
-| `ramoo.analytics-consent.v1` · localStorage | 방문 통계 허용·거부 선택과 선택 시각 저장 | 선택 후 180일간 유효. 만료 시 재선택하며 브라우저 데이터 삭제로 제거 가능 |
-| `theme` · localStorage | 밝은·어두운 화면 선택 유지 | 자동 만료 없음. 테마 변경 또는 브라우저 데이터 삭제로 변경·제거 가능 |
-| `_ga`, `_ga_*` 등 Analytics 쿠키 | 허용한 방문자의 방문 통계 식별·세션 처리 | Google의 기본 설정과 서비스 설정에 따름. Google은 대표 `_ga` 쿠키의 기본 기간을 2년으로 안내하며 갱신될 수 있음. 이 사이트에서 거부하거나 브라우저에서 삭제 가능 |
-
-저장소가 차단되면 방문 통계 선택은 현재 페이지에서만 적용될 수 있습니다. 명시적으로 저장한 선택이 없는 상태에서 브라우저가 Do Not Track을 보내면 분석을 거부한 것으로 처리합니다.
-
-이 설정은 브라우저·사이트 주소별로 저장됩니다. 다른 기기·브라우저나 별도의 호스트 주소에서는 다시 선택해야 할 수 있습니다. 현재 Google AdSense와 별도의 Google Tag Manager 컨테이너는 활성화되어 있지 않으며, 테마의 기본 쿠키 배너 대신 위의 방문 통계 설정을 사용합니다.
-
-참고: [Google의 쿠키 사용 설명](https://policies.google.com/technologies/cookies), [Google 태그 쿠키 설정](https://developers.google.com/tag-platform/security/guides/customize-cookies).
-
-## 외부 서비스
-
-- TradingView 공식 위젯 FAQ는 위젯 자체가 쿠키를 설정하지 않는다고 안내합니다. 쿠키가 없어도 위젯 요청 과정에서 IP와 삽입 페이지 정보 등이 처리됩니다. [공식 FAQ](https://www.tradingview.com/widget-docs/faq/general/#do-tradingview-widgets-set-cookies)를 참고하세요.
-- Giscus·GitHub 댓글 로그인, 문의 전송을 받는 Formspree, 외부 영상 및 보안 서비스에는 각 제공자의 저장소·개인정보 정책이 적용될 수 있습니다. 모든 제공자가 같은 쿠키를 사용한다고 단정하지 않습니다.
-- IP 확인 도구는 조회 결과를 브라우저 쿠키나 로컬 저장소에 저장하지 않습니다. 지도 이미지 등 리소스는 브라우저 캐시에 남을 수 있습니다.
-
-방문 통계 거부는 외부 시세·지도·댓글·문의 서비스의 연결을 일괄 차단하는 기능이 아닙니다. 외부 서비스의 정보 처리 범위는 [개인정보처리방침](/ko/privacy-policy/)에서 확인할 수 있습니다.
-
-## 브라우저에서 삭제·차단하기
-
-브라우저의 개인정보·사이트 데이터 설정에서 쿠키와 로컬 저장소를 확인하거나 삭제할 수 있습니다. 타사 쿠키 차단 기능도 사용할 수 있습니다. 삭제하면 저장된 테마·통계 선택이 초기화될 수 있으며 일부 외부 기능이 영향을 받을 수 있습니다.
-
-정책을 변경하면 이 페이지의 내용과 수정일을 갱신합니다.
-
-최종 수정일: 2026년 10월 16일
-
-
---------------------------------------------------------------------------------
-title: "AI & Crawling Policy"
-url: https://www.ramoo.net/ai-crawling-policy/index.md
-date: "2026-01-01"
-description: Conditions for search indexing, automated collection, AI training, and dataset use.
---------------------------------------------------------------------------------
-This policy addresses automated access to ramoo.net content. Reuse and attribution requirements are set out in the [Content License](/license/).
-
-## Search indexing
-
-Ordinary search-engine crawling for indexing, search previews, and links to the original pages is permitted.
-
-## Limited collection and AI use
-
-Limited automated collection for technical review, partial quotations for personal study, and summaries that link to the original page are permitted under the Content License.
-
-Use for AI training, dataset preparation, or text collection must identify the source and retain links to the original pages. Attribution alone does not authorize the bulk uses restricted below.
-
-## Restricted uses
-
-Without separate permission, do not:
-
-- Collect the entire site or large numbers of pages in bulk, except for ordinary search indexing described above.
-- Reproduce complete site content in a separate dataset, paid service, or closed knowledge base.
-- Use content in AI answers, documents, or datasets without original source links.
-- Send excessive requests that disrupt the site.
-- Conceal the source or present the material as another author's work.
-
-## Permission requests
-
-For collection, training, or dataset uses that need separate permission, see the [Contact page](/contact/).
-
----
-
-Last updated: October 16, 2026
-
-
---------------------------------------------------------------------------------
-title: "Content License"
-url: https://www.ramoo.net/license/index.md
-date: "2026-01-01"
-description: Permissions and restrictions for reusing original ramoo.net content.
---------------------------------------------------------------------------------
-Unless otherwise stated, original articles, example code, original images, diagrams, and other original editorial material on ramoo.net are copyrighted by ramoo. This page sets out the permissions granted for reusing that material.
-
-## Permitted reuse
-
-You may quote, share, adapt, summarize, translate, or reuse original content for learning, technical review, documentation, internal training, blog citations, and commercial reference purposes, subject to these conditions:
-
-- Include a link to the original page.
-- Identify changes when you modify, summarize, translate, or otherwise adapt the material.
-- Do not present altered content as the author's original words or views.
-
-Attribution should include the site name, original title, original URL, and author where practical. A quotation of only part of an article must still link to its source.
-
-## Restrictions
-
-These permissions do not allow:
-
-- Hiding the source or misrepresenting authorship.
-- Republishing an entire article on another site or in another document without separate permission.
-- Reselling complete copies as paid products, course materials, ebooks, or members-only content.
-- Using the content to operate malware, phishing, spam, or unlawful services.
-
-Commercial reuse is permitted within the conditions above; it does not grant permission to resell or republish complete copies.
-
-## Code and configuration examples
-
-Original examples may be used under these conditions unless a separate license is stated. Examples copied from an open-source project remain governed by that project's license. Technical risks and responsibility for applying examples are described in the [Disclaimer](/disclaimer/).
-
-## Third-party material
-
-This license grants rights only to material owned by the author. Product names, trademarks, logos, service interfaces, screenshots containing third-party works, and externally sourced images may be subject to separate rights.
-
-Editing an external image does not remove its original license obligations. Follow the source license, including attribution and modification notices where required. See [Third-Party Notices](/third-party-notices/) for related software and asset information.
-
-## Automated collection
-
-The [AI & Crawling Policy](/ai-crawling-policy/) sets out additional conditions for automated collection, AI training, and dataset use.
-
-## Questions and changes
-
-For reuse or licensing questions, see the [Contact page](/contact/). Updates will be published here and apply to subsequent use of the content.
-
-© 2026 ramoo. Rights are reserved except for the permissions expressly granted above or in a separate license.
-
----
-
-Last updated: October 16, 2026
-
-
---------------------------------------------------------------------------------
-title: "Cookie Policy"
-url: https://www.ramoo.net/cookie-policy/index.md
-date: "2026-01-01"
-description: Analytics consent, cookies, browser storage, and preference controls on ramoo.net.
---------------------------------------------------------------------------------
-This policy explains cookies and browser storage on ramoo.net and how to manage analytics preferences. For information about personal information generally, see the [Privacy Policy](/privacy-policy/).
-
-## Analytics preferences
-
-Google Analytics 4 loads only after you accept analytics. The site's Google analytics tag does not load before you make a choice or when you decline. You can change your choice below at any time. Declining does not prevent you from reading articles or using the site's main features.
-
-{{< analytics-settings >}}
-
-Declining stops subsequent analytics transmission and removes accessible Analytics cookies. It does not automatically delete records already sent to Google. An analytics script loaded before you decline may remain in the current tab's memory; it will not be loaded on subsequent pages. Other browser site data is not deleted.
-
-## Current browser storage
-
-| Item | Purpose | Retention and controls |
-| --- | --- | --- |
-| `ramoo.analytics-consent.v1` in localStorage | Store your analytics choice and the time it was made | Valid for 180 days after your choice. You are asked again after expiration. Remove it by deleting browser site data. |
-| `theme` in localStorage | Remember light or dark appearance | No automatic expiration. Change it with the theme control or remove it by deleting browser site data. |
-| Analytics cookies such as `_ga` and `_ga_*` | Identify visits and handle sessions for visitors who accept analytics | Subject to Google's defaults and service settings. Google describes a two-year default lifetime for the main `_ga` cookie, which may be renewed. Decline analytics here or delete cookies in your browser. |
-
-If browser storage is blocked, your analytics choice may apply only to the current page. If no explicit choice is saved and your browser sends Do Not Track, analytics is treated as declined.
-
-Preferences are stored separately for each browser and site address. You may need to choose again on another device, browser, or hostname. Google AdSense and a separate Google Tag Manager container are not currently enabled. The analytics controls above replace the theme's default cookie banner.
-
-References: [How Google uses cookies](https://policies.google.com/technologies/cookies), [Google tag cookie configuration](https://developers.google.com/tag-platform/security/guides/customize-cookies).
-
-## External services
-
-- TradingView's official widget FAQ states that its widgets do not set cookies. Even without cookies, widget requests process information including your IP address and the embedding page. See the [official FAQ](https://www.tradingview.com/widget-docs/faq/general/#do-tradingview-widgets-set-cookies).
-- Giscus and GitHub comment sign-in, Formspree inquiry handling, external videos, and security services may use storage subject to their providers' own policies. This does not mean that every provider uses the same cookies.
-- The IP lookup tool does not store results in browser cookies or local storage. Map images and other resources may remain in the browser cache.
-
-Declining analytics does not block all connections to external market widgets, maps, comments, or inquiry services. See the [Privacy Policy](/privacy-policy/) for information about these providers.
-
-## Browser controls
-
-Use your browser's privacy or site-data settings to inspect or delete cookies and local storage. You can also use third-party cookie blocking controls. Deleting site data may reset saved theme and analytics preferences, and blocking storage may affect some external features.
-
-Changes to this policy will be published here with an updated revision date.
-
-Last updated: October 16, 2026
-
-
---------------------------------------------------------------------------------
-title: "Disclaimer"
-url: https://www.ramoo.net/disclaimer/index.md
-date: "2026-01-01"
-description: Limitations of the information, instructions, and external services mentioned on ramoo.net.
---------------------------------------------------------------------------------
-Content on ramoo.net is provided for general information and reference. It records personal experience and study notes, which may not apply to another environment or situation.
-
-## Accuracy and currency
-
-The author aims to provide accurate information but does not guarantee its completeness, reliability, or currency. Software, hardware, services, and available information can change after a post is written.
-
-## Technical instructions
-
-Code, commands, configurations, and installation procedures may behave differently in your environment. Evaluate and test them before applying them to a live system.
-
-You are responsible for changes you make based on the content. To the extent permitted by applicable law, the author is not liable for resulting downtime, data loss, security issues, or other losses.
-
-## External services and links
-
-References to external websites, products, or services do not guarantee their quality, availability, or accuracy. Those services are governed by their providers' own terms and policies.
-
-## Advertising and affiliate links
-
-The site may include advertisements or affiliate links and may receive revenue from them. Such links do not guarantee a particular result from a product or service.
-
-For rules on using the site, see the [Terms of Use](/terms/).
-
----
-
-Last updated: October 16, 2026
-
-
---------------------------------------------------------------------------------
-title: "Open Source"
-url: https://www.ramoo.net/open-source/index.md
-date: "2026-01-01"
-description: Open-source tools used to build and maintain ramoo.net.
---------------------------------------------------------------------------------
-ramoo.net is built with open-source software. The main tools include Hugo for static-site generation, the Hugoplate theme, Tailwind CSS, and Prettier, along with Hugo modules and npm packages.
-
-## Software and content licenses
-
-Each software component is governed by its own upstream license. The [Third-Party Notices](/third-party-notices/) page is the reference for the main components, license links, and external assets used by the site.
-
-Those software licenses do not automatically apply to blog articles, original examples, or original images. Reuse of that material is covered by the [Content License](/license/). Examples with a separate stated license follow that license.
-
-## License records
-
-Copyright notices, license texts, and redistribution conditions supplied with software must be preserved where required. This overview does not replace the licenses distributed with individual components.
-
-For questions about software attribution or license notices, see the [Contact page](/contact/).
-
----
-
-Last updated: October 16, 2026
-
-
---------------------------------------------------------------------------------
-title: "Privacy Policy"
-url: https://www.ramoo.net/privacy-policy/index.md
-date: "2026-01-01"
-description: How ramoo.net handles analytics, inquiries, external services, and privacy requests.
---------------------------------------------------------------------------------
-ramoo.net is a personal blog operated by ramoo. The site does not offer account registration. This policy explains information processed when you visit the site, submit an inquiry, use comments, or access external features.
-
-## Information and purposes
-
-| Activity | Information processed | Purpose |
-| --- | --- | --- |
-| Page delivery and security | IP address, requested URL and time, browser, device, and connection information | Deliver pages and images, investigate errors, and prevent abuse |
-| Inquiries | Name, email address, message, and reply records | Respond to inquiries and follow-up questions |
-| Analytics | Pages visited, visit and event times, browser and device information, and analytics identifiers | Understand site usage and improve the site |
-| Comments | Public GitHub profile, comments, and reactions | Provide comments through GitHub Discussions |
-| IP lookup tool | Public IP address, IP-based approximate location and network information, request headers, and connection information | Display information about your current connection |
-
-Do not include unnecessary sensitive information, passwords, or national identification numbers in inquiries or comments.
-
-## Google Analytics
-
-Google Analytics 4 is configured for this site. **The Google analytics tag loads only after you accept analytics.** It does not load while you have not made a choice or have declined. Google Signals and advertising personalization signals are disabled in the site's code.
-
-You can change your choice in the [Cookie Policy's analytics preferences](/cookie-policy/#analytics-preferences). Declining stops subsequent analytics transmission from this site and removes accessible Analytics cookies. It does not automatically delete information already transmitted. A browser's Do Not Track signal is treated as a refusal when there is no explicitly saved choice.
-
-Google AdSense and a separate Google Tag Manager container are not currently enabled. The analytics script's `googletagmanager.com` address does not by itself mean that a Tag Manager container is in use. See the [Google Privacy Policy](https://policies.google.com/privacy) and [Analytics data protection information](https://support.google.com/analytics/answer/6004245).
-
-## Inquiries and Formspree
-
-When you submit the contact form, your name, email address, and message are sent to Formspree, Inc. over HTTPS and used by the operator to respond. Submitting an inquiry is optional. Without consent, you cannot send an inquiry through the form.
-
-Formspree states that it processes information in the United States and other countries where it operates. It may also process request information, such as IP address, browser, and access time, to prevent spam and abuse. See the [Formspree Privacy Policy](https://formspree.io/legal/privacy-policy/) for its processing and international handling of information.
-
-**Inquiry records and reply emails managed by the site operator are deleted within 90 days after the inquiry has been answered.** If you request deletion earlier, the request is handled after the minimum verification needed to confirm your identity. Copies in the Formspree inbox and the operator's email are included. Provider-managed security or legally required logs and backups follow the provider's own retention policies; deletion at the same time is not guaranteed.
-
-## Site delivery and external features
-
-- **GitHub and Cloudflare:** Connection information may be processed during site deployment, image delivery, API access, and security operations. See the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) and [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/). Provider-managed log retention depends on the service and its actual settings.
-- **TradingView:** Opening the homepage connects to TradingView to load market widgets. Its official FAQ states that widgets do not set cookies and process the embedding page URL, widget type, displayed symbol, and IP address to provide the widget. See the [widget FAQ](https://www.tradingview.com/widget-docs/faq/general/#do-tradingview-widgets-set-cookies) and [Privacy Policy](https://www.tradingview.com/privacy-policy/). Declining analytics does not block this market-data connection.
-- **IP lookup API:** Opening the IP lookup page or refreshing the lookup sends a request to `https://api.ramoo.net/ip` to display your public IP and approximate location, network, and connection information. Results are not saved in browser cookies or local storage, and the lookup request omits browser credentials. This does not mean that the API or hosting layer keeps no access logs. Such logs are subject to the API and hosting providers' operating and retention policies.
-- **OpenStreetMap:** When an IP-based approximate location is available, the map fetches tiles from `tile.openstreetmap.org`. Requests may disclose your IP address, request headers, and the displayed area indicated by tile coordinates to the map provider. The feature does not request browser GPS permission. See the [OSMF Privacy Policy](https://osmfoundation.org/wiki/Privacy_Policy).
-- **Giscus and GitHub comments:** Loading the comment widget connects to Giscus. Posting requires GitHub sign-in and authorization. Comments and reactions are stored in public GitHub Discussions, where other visitors can see your public profile and posts. See [Giscus](https://giscus.app/) and the GitHub Privacy Statement.
-- **Other external content:** Loading external videos or resources in articles, or following external links, may send connection information to those providers. Their own policies apply.
-
-## Retention, deletion, and your requests
-
-The operator deletes inquiries from the Formspree inbox and email under the 90-day rule above. Your analytics choice is saved in your browser with a validity period of 180 days. Theme settings and cookies are described in the [Cookie Policy](/cookie-policy/). Retention of analytics on Google's servers and logs held by external providers depends on account settings and provider policies.
-
-To request access, correction, deletion, restriction of processing, or withdrawal of consent, or to ask a privacy question, use [Contact](/contact/) and describe your request. The operator will verify only the minimum information needed to confirm your identity, handle the request, and respond. You can withdraw analytics consent directly on the Cookie Policy page. You can edit or delete public GitHub comments through your GitHub account's comment controls or contact the operator.
-
-Privacy contact: ramoo, through the [Contact page](/contact/). Do not send someone else's personal information or unnecessary copies of identification documents.
-
-## Changes
-
-Changes to this policy will be published here with an updated revision date.
-
-Last updated: October 16, 2026
-
-
---------------------------------------------------------------------------------
-title: "Terms of Use"
-url: https://www.ramoo.net/terms/index.md
-date: "2026-01-01"
-description: Rules for accessing and using ramoo.net.
---------------------------------------------------------------------------------
-These terms govern use of ramoo.net. By using the site, you agree to these terms.
-
-## Site content and availability
-
-The site publishes personal notes, technical information, experiences, and other content. Pages and services may be changed or discontinued without prior notice.
-
-Limitations concerning accuracy, technical instructions, and reliance on the content are described in the [Disclaimer](/disclaimer/).
-
-## Acceptable use
-
-Do not use the site for unlawful purposes, interfere with its operation, or send requests that disrupt its availability.
-
-Copying and redistribution must follow the permissions and restrictions in the [Content License](/license/). Automated access is also subject to the [AI & Crawling Policy](/ai-crawling-policy/).
-
-## Ownership and permissions
-
-Original content belongs to its author unless otherwise indicated. Third-party material remains subject to its owner's rights and applicable license. The [Content License](/license/) explains reuse of site content, while [Third-Party Notices](/third-party-notices/) identify software and external assets.
-
-## Related policies
-
-Visitor information is covered by the [Privacy Policy](/privacy-policy/) and [Cookie Policy](/cookie-policy/). External websites linked from this site have their own terms and policies.
-
-## Changes
-
-Updates to these terms will be published here.
-
----
-
-Last updated: October 16, 2026
-
-
---------------------------------------------------------------------------------
-title: "Third-Party Notices"
-url: https://www.ramoo.net/third-party-notices/index.md
-date: "2026-01-01"
-description: Attribution and license references for software and external assets used by ramoo.net.
---------------------------------------------------------------------------------
-The software and third-party assets used by ramoo.net remain subject to their owners' rights and upstream licenses.
-
-## Main software components
-
-| Component | Role | License reference |
-| --- | --- | --- |
-| [Hugo](https://gohugo.io/) | Static-site generator | [Apache License 2.0](https://github.com/gohugoio/hugo/blob/master/LICENSE) |
-| [Hugoplate by Zeon Studio](https://github.com/zeon-studio/hugoplate) | Theme and project scaffold | [MIT](https://github.com/zeon-studio/hugoplate/blob/main/LICENSE) |
-| [Tailwind CSS](https://tailwindcss.com/) | CSS tooling | [MIT](https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE) |
-| [Prettier](https://prettier.io/) | Source formatting | [MIT](https://github.com/prettier/prettier/blob/main/LICENSE) |
-
-Additional Hugo modules, frontend libraries, and transitive dependencies retain their own licenses. This table lists the main components; it is not a complete dependency inventory or a replacement for the copyright notices and license texts supplied with the software.
-
-## External assets and attribution
-
-Product names, logos, trademarks, product designs, screenshots, and captured service interfaces may contain material owned by third parties. This site does not claim ownership of those elements.
-
-For externally sourced images or assets, source information and attribution should be recorded with the relevant article or asset notice. Where the source license requires it, this includes the original URL, creator or distributor, license link, and a description of changes.
-
-## Site-owned content
-
-Permissions for the author's original material are described in the [Content License](/license/). The [Open Source](/open-source/) page explains how the site's software and content licenses are distinguished.
-
-## Questions
-
-For copyright, attribution, or asset questions, see the [Contact page](/contact/).
-
----
-
-Last updated: October 16, 2026
-
-
---------------------------------------------------------------------------------
 title: "Hobby"
 url: https://www.ramoo.net/hobby/index.md
 description: 프로그래밍·서버 구축·개발 도구부터 맥·전자기기 사용기, 개인 NAS와 홈 네트워크 경험까지 담은 기록입니다.
@@ -4682,7 +4790,11 @@ description: 코스피 모멘텀·외국인 수급·원/달러 환율로 살펴�
 
 ## 데이터 기준일과 갱신 주기
 
-자료 수집은 **매주 토요일 오후 7시 17분(한국 시간)**과 수동 실행으로 진행하도록 구성했습니다. 수집 시각과 실제 자료 기준일은 다릅니다. 공개 점수가 준비되면 마지막 계산 기준일과 갱신 시각을 따로 표시하며, 수집 실패 시 이전 값을 오늘의 새 점수로 표시하지 않습니다.
+자료 수집은 **매일 오전 9시 17분(한국 시간)**에 자동 실행하도록 설정되어 있으며, 필요하면 수동으로도 실행합니다. 주말·공휴일에도 수집을 실행하지만, 실제 실행과 사이트 반영은 지연될 수 있습니다.
+
+자동 수집은 한국 시간 기준 전날까지의 최근 14일 자료를 다시 조회해 지연 공표되거나 수정된 자료를 확인합니다. 제공처의 공표 시점에 따라 전날 자료가 아직 없을 수 있으므로, 매일 수집한다고 매일 새 기준일의 점수가 나오는 것은 아닙니다.
+
+대시보드의 **데이터 기준일**은 점수 계산에 사용한 자료의 날짜이며, **결과 생성 시각**은 공개 결과를 생성한 시각입니다. 새 관측값이 없으면 수집일을 기준일로 바꾸지 않습니다. 수집이나 검증에 실패하면 이전 정상 결과와 실제 기준일을 유지합니다.
 
 현재 과거 자료를 다시 조회하면 당시 공표값이 아닌 수정된 값이 포함될 수 있습니다. 과거 점수의 재구성과 당시 실제 이용 가능했던 점수의 검증은 구분합니다. 이 한계는 [St. Louis Fed의 데이터 수정·빈티지 설명](https://www.stlouisfed.org/publications/page-one-economics/2022/08/01/data-revisions-with-fred)에서도 확인할 수 있습니다.
 
