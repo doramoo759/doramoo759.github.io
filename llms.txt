@@ -11,7 +11,7 @@
 ## Hobby
 - [Hobby](https://www.ramoo.net/hobby/index.md): 프로그래밍·서버 구축·개발 도구부터 맥·전자기기 사용기, 개인 NAS와 홈 네트워크 경험까지 담은 기록입니다.
 
-- [로또 6/45 최근 10회 당첨번호 통계: 미출현 번호·빈도 그래프와 번호 자동 추천기](https://www.ramoo.net/hobby/lotto-645-analyzer/index.md): 동행복권 로또 6/45 최신 10회(1236회~1245회) 당첨번호 전수 분석. 11개의 미출현 번호, 최다 출현 13번, 1~45번 빈도 차트 및 통계 기반 스마트 번호 자동 추천기를 제공합니다.
+- [로또 번호 생성기 | 최근 10회 당첨번호·미출현 번호 통계](https://www.ramoo.net/hobby/lotto-645-analyzer/index.md): 동행복권 로또 6/45 최신 10회(1236회~1245회) 당첨번호 전수 분석. 11개의 미출현 번호, 최다 출현 13번, 1~45번 빈도 차트 및 통계 기반 스마트 번호 자동 추천기를 제공합니다.
 - [IPv4 CIDR·서브넷 계산기: IP 범위 확인과 클래스 A·B·C 이해하기](https://www.ramoo.net/hobby/cidr-subnet-calculator/index.md): IPv4 주소와 CIDR 프리픽스로 네트워크 시작·끝, 서브넷 마스크, 브로드캐스트와 호스트 수를 계산합니다. IP 클래스 A·B·C의 의미와 방화벽·공유기 설정 예시도 설명합니다.
 - [내 IP 주소 확인하기](https://www.ramoo.net/hobby/check-my-ip/index.md): 내 IP 주소를 무료로 확인하세요. 공인 IP 조회, IPv4·IPv6 구분, IP 위치 지도, 통신사·ASN과 연결 정보를 확인하고 주소를 바로 복사할 수 있습니다.
 - [웹 브라우저 기반 원격 접속 Apache Guacamole 사내망 구축 및 RDP/SSH 테스트](https://www.ramoo.net/hobby/apache-guacamole-intro/index.md): 브라우저 SSH 접속은 편했지만 LDAP 연동과 계정·세션 관리가 걸렸다. 사내망 테스트에서 멈춘 기록.
