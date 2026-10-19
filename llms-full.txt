@@ -35,1300 +35,204 @@ description: 투자·경제, 시사, 전원생활, 개발·서버와 전자기�
 투자·경제, 시사, 전원생활, 개발·서버와 전자기기 취미까지 ramoo.net에 기록한 글을 모아 봅니다.
 
 --------------------------------------------------------------------------------
-title: "Hobby"
-url: https://www.ramoo.net/hobby/index.md
-description: 프로그래밍·서버 구축·개발 도구부터 맥·전자기기 사용기, 개인 NAS와 홈 네트워크 경험까지 담은 기록입니다.
---------------------------------------------------------------------------------
-
-네트워크 연결을 확인할 때는 [내 IP 주소 확인하기 — 공인 IP 조회와 위치 지도](/hobby/check-my-ip/)에서 현재 IP와 통신사 정보를 바로 볼 수 있습니다.
-
-
---------------------------------------------------------------------------------
-title: "Powerball Number Generator & Latest Winning Numbers"
-url: https://www.ramoo.net/hobby/powerball-number-generator/index.md
-date: "2026-10-19"
-description: Generate Powerball picks, check recent winning numbers, and explore white and red ball frequencies. Draw dates and schedules use U.S. Eastern Time.
---------------------------------------------------------------------------------
-
-Generate Powerball picks, browse recent winning numbers, and compare your numbers with the latest result. All drawing dates and scheduled drawing times below use **U.S. Eastern Time (ET)**.
-
-{{< powerball-analyzer >}}
-
-## How the generator works
-
-Choose **five different white ball numbers from 1 to 69** and **one red Powerball from 1 to 26**. The red ball comes from a separate pool, so it can have the same number as a white ball. These are the rules described on the [official Powerball website](https://www.powerball.com/).
-
-The generator uses your browser's cryptographic random source. Each eligible white ball has an equal chance of selection within your chosen constraints; the red ball is selected separately. Fixed and excluded numbers only control which combinations the tool can generate. They do not improve the odds of winning. Generated picks stay in your browser and are not lottery entries.
-
-Use the frequency window to explore the most recent 10, 30, or 100 drawings. White ball counts and red Powerball counts are calculated separately. Past frequency, long absences, and apparent patterns do not predict a future drawing.
-
-## Drawing schedule and result updates
-
-Powerball drawings are scheduled for **Monday, Wednesday, and Saturday at 10:59 p.m. Eastern Time**, according to the [official game information](https://www.powerball.com/). Eastern Time follows U.S. daylight saving time; the next drawing shown above is a scheduled drawing, and delays are possible.
-
-Results on this page come from the [New York State Gaming Commission's public Powerball dataset](https://data.ny.gov/Government-Finance/Lottery-Powerball-Winning-Numbers-Beginning-2010/d6yy-54nr). Its metadata lists a posting frequency of three times weekly, without promising a precise posting time. This site checks at 11:25 p.m. on drawing nights, 12:25 a.m. the following day, and 9:25 a.m. daily, all in Eastern Time. These are collection targets; source publication, scheduled execution, and site deployment can be delayed. If collection fails, the last verified results and their original date remain visible.
-
-The checker reports number matches against the latest result saved on this page. It does not validate tickets, Power Play eligibility, Double Play results, or prize claims. Always confirm results and prize eligibility with your lottery's official records.
-
-## A note on independent drawings
-
-For the current 5/69 + 1/26 format, the number of possible jackpot combinations is `C(69, 5) × 26 = 292,201,338`. Every valid combination has the same jackpot probability in a fair drawing. This independent tool is for information and entertainment and is not affiliated with Powerball or a lottery operator.
-
-
---------------------------------------------------------------------------------
-title: "로또 번호 생성기 | 최근 10회 당첨번호·미출현 번호 통계"
-url: https://www.ramoo.net/hobby/lotto-645-analyzer/index.md
-date: "2026-10-17"
-description: 동행복권 로또 6/45 최신 10회(1236회~1245회) 당첨번호 전수 분석. 11개의 미출현 번호, 최다 출현 13번, 1~45번 빈도 차트 및 통계 기반 스마트 번호 자동 추천기를 제공합니다.
---------------------------------------------------------------------------------
-
-동행복권 로또 6/45 최근 10회차 당첨번호와 출현 통계를 바탕으로 심심해서 만들어본 추첨기입니다.
-
-로또 사러 갈 때 가볍게 훑어보거나 참고용으로 즐겨보세요. 즐로또 하세요~ ✨
-
-{{< lotto-analyzer >}}
-
----
-
-## 추천 알고리즘 전략 간략 소개
-
-위 추첨기는 4가지 통계적 가중치를 기반으로 번호를 조합합니다.
-
-* **🎯 통계 밸런스 추천 (권장)**: 번호대 구간 분산, 번호합 100~170 구간, 홀짝 3:3 또는 2:4 균형 및 미출현수 1-2개를 적절히 배합한 최적 밸런스 조합.
-* **🔥 핫 넘버 집중 전략**: 최근 10회 동안 3회 이상 자주 출현한 빈출 번호에 가중치를 부여하여 흐름을 타는 조합.
-* **❄️ 콜드 넘버 반등 전략**: 10주간 출현하지 않은 11개의 미출현 번호 중 2-3개를 필수로 포함해 반등을 노리는 조합.
-* **⚡ 연속번호(연번) 포함 전략**: 통계상 50% 확률로 발생하는 연속된 두 숫자(N, N+1 1쌍)를 반드시 포함하는 조합.
-* **🎲 완전 무작위 랜덤**: 아무런 통계 가중치 없이 1~45번 중 순수 무작위 추출 (기계 자동 방식).
-
-원하는 번호를 **고정수**(반드시 포함)나 **제외수**(배제)로 지정해 5게임을 뽑아보세요. 모두 대박 나시길 바랍니다! 🍀
-
-
-
---------------------------------------------------------------------------------
-title: "IPv4 CIDR·서브넷 계산기: IP 범위 확인과 클래스 A·B·C 이해하기"
-url: https://www.ramoo.net/hobby/cidr-subnet-calculator/index.md
-date: "2026-10-15"
-description: IPv4 주소와 CIDR 프리픽스로 네트워크 시작·끝, 서브넷 마스크, 브로드캐스트와 호스트 수를 계산합니다. IP 클래스 A·B·C의 의미와 방화벽·공유기 설정 예시도 설명합니다.
---------------------------------------------------------------------------------
-
-{{< cidr-calculator >}}
-
-## 계산기 사용법과 결과 읽기
-
-**IPv4 주소와 `/24` 같은 프리픽스를 입력하면, 그 주소가 속한 네트워크의 시작과 끝을 확인할 수 있습니다.** 주소에 `192.168.1.130/26`처럼 프리픽스를 붙여도 됩니다. 이 경우 드롭다운보다 주소에 쓴 `/26`이 우선합니다.
-
-1. IP 주소를 입력하고 프리픽스를 선택한 뒤 **계산하기**를 누릅니다.
-2. **클래스 A·B·C 예시**를 누르면 해당 클래스의 역사적 기본 프리픽스와 사설 IP 예제가 채워집니다. 이후 값을 바꿔 원하는 범위를 계산할 수 있습니다.
-3. 방화벽에 넣을 범위는 **정규화된 네트워크 CIDR**과 **전체 주소 범위**를 확인합니다.
-4. 공유기에서 기기에 할당할 주소는 **호스트 주소 범위**를 참고하되, 게이트웨이와 예약 주소를 추가로 제외합니다.
-5. **CIDR 복사**로 정규화된 결과를 복사합니다. 자동 복사가 안 되는 브라우저에서는 결과를 직접 선택해 복사합니다.
-
-예를 들어 `192.168.1.130/26`의 계산 결과는 다음과 같습니다. 입력한 IP가 네트워크의 시작 주소일 필요는 없습니다.
-
-| 항목 | 결과 |
-| :--- | :--- |
-| 정규화된 CIDR | `192.168.1.128/26` |
-| 전체 주소 범위 | `192.168.1.128` ~ `192.168.1.191` |
-| 서브넷 마스크 | `255.255.255.192` |
-| 와일드카드 마스크 | `0.0.0.63` |
-| 네트워크 주소 | `192.168.1.128` |
-| 브로드캐스트 주소 | `192.168.1.191` |
-| 일반 LAN 호스트 범위 | `192.168.1.129` ~ `192.168.1.190` |
-| 전체 주소 / 이론상 호스트 수 | 64개 / 62개 |
-
-이 도구는 IPv4만 지원합니다. 계산은 브라우저의 JavaScript로 실행하며 입력값을 계산용 서버나 외부 API로 전송하지 않습니다. IP의 실제 할당 상태나 접속 가능 여부를 조회하는 도구는 아닙니다.
-
-## CIDR이란? /24는 무엇을 뜻할까?
-
-**CIDR(Classless Inter-Domain Routing)은 고정된 IP 클래스 대신 프리픽스로 주소 블록을 표현하고 라우팅에 사용하는 방식입니다.** `192.168.1.0/24`의 `/24`는 IPv4의 32비트 중 앞의 24비트가 네트워크 부분이라는 뜻입니다. 나머지 8비트가 달라질 수 있으므로 이 블록에는 `2^8 = 256`개의 주소가 들어갑니다. [RFC 4632의 프리픽스 표기 설명](https://www.rfc-editor.org/rfc/rfc4632.html#section-3.1)
-
-프리픽스 숫자가 커질수록 주소 범위는 작아집니다. `/24`에서 `/26`으로 바꾸면 고정되는 비트가 2개 늘어나고, 블록 크기는 256개에서 64개로 줄어듭니다.
-
-| 프리픽스 | 서브넷 마스크 | 블록의 전체 주소 수 | 일반 LAN의 이론상 호스트 수 |
-| :--- | :--- | ---: | ---: |
-| `/8` | `255.0.0.0` | 16,777,216 | 16,777,214 |
-| `/16` | `255.255.0.0` | 65,536 | 65,534 |
-| `/24` | `255.255.255.0` | 256 | 254 |
-| `/25` | `255.255.255.128` | 128 | 126 |
-| `/26` | `255.255.255.192` | 64 | 62 |
-| `/30` | `255.255.255.252` | 4 | 2 |
-| `/31` | `255.255.255.254` | 2 | 2 — 지원되는 P2P 링크 기준 |
-| `/32` | `255.255.255.255` | 1 | 1 — 단일 주소 |
-
-주소 수는 비트 수로 계산한 값입니다. 큰 블록이 특수 용도 대역을 포함할 수 있으므로, 위 수치를 실제 배정 가능한 장비 수로 해석하면 안 됩니다.
-
-### /0·/31·/32는 별도로 이해하기
-
-- **`0.0.0.0/0`**: IPv4 전체인 `0.0.0.0` ~ `255.255.255.255`를 나타냅니다. 라우팅에서는 기본 경로를 표현하며, 방화벽의 출발지 조건으로 사용하면 IPv4 전체에 매칭됩니다. IPv6 전체는 별도의 `::/0`입니다.
-- **`/31`**: 두 주소를 포함합니다. RFC 3021 방식의 점대점(Point-to-Point, P2P) 링크에서는 두 주소 모두를 종단 주소로 사용하므로 일반적인 ‘네트워크·브로드캐스트 2개 제외’를 적용하지 않습니다. 장비 지원이 필요합니다. [RFC 3021](https://www.rfc-editor.org/rfc/rfc3021.html)
-- **`/32`**: IPv4 주소 하나를 나타냅니다. 특정 호스트만 지정하는 경로나 방화벽 조건에 사용합니다. [RFC 4632의 주소 블록 크기 표](https://www.rfc-editor.org/rfc/rfc4632.html#section-3.1)
-
-## 서브넷이란? 서브넷 마스크와 무엇이 다를까?
-
-**서브넷(subnet)은 IP 네트워크를 논리적으로 나눈 하위 네트워크입니다.** 서브넷 마스크는 IP 주소에서 네트워크 부분과 호스트 부분을 구분하는 값입니다. CIDR의 `/24`와 마스크 `255.255.255.0`은 같은 네트워크 비트 길이를 표현합니다. 서브넷을 나누는 개념과 주소 마스크의 배경은 [RFC 950](https://www.rfc-editor.org/rfc/rfc950.html)에 설명되어 있습니다.
-
-예를 들어 `192.168.1.0/24`를 `/26`으로 나누면 아래 네 블록이 됩니다. 각 블록은 64개 주소를 포함하고 경계가 64 단위로 맞춰집니다.
-
-| 서브넷 | 전체 범위 | 일반 LAN 호스트 범위 |
-| :--- | :--- | :--- |
-| `192.168.1.0/26` | `.0` ~ `.63` | `.1` ~ `.62` |
-| `192.168.1.64/26` | `.64` ~ `.127` | `.65` ~ `.126` |
-| `192.168.1.128/26` | `.128` ~ `.191` | `.129` ~ `.190` |
-| `192.168.1.192/26` | `.192` ~ `.255` | `.193` ~ `.254` |
-
-표의 `.128` 등은 앞의 `192.168.1`을 생략한 표기입니다. 서브넷을 실제로 분리하려면 주소 계획뿐 아니라 공유기·라우터 인터페이스, VLAN과 라우팅, 방화벽 정책도 환경에 맞게 설정해야 합니다. 계산기에서 범위를 나누는 것만으로 네트워크가 분리되지는 않습니다.
-
-## IP 클래스 A·B·C·D·E는 무엇일까?
-
-**IP 클래스는 IPv4 주소의 앞쪽 비트로 용도와 기본 네트워크 크기를 구분하던 역사적 분류입니다.** 오늘날 CIDR 계산에서는 클래스보다 명시한 프리픽스가 우선합니다. `10.1.2.3/24`도 유효하며, 앞자리가 클래스 A 영역이라고 해서 반드시 `/8`로 계산하지 않습니다. [RFC 791의 주소 형식](https://www.rfc-editor.org/rfc/rfc791.html#section-3.2), [RFC 4632의 클래스 없는 주소 체계](https://www.rfc-editor.org/rfc/rfc4632.html#section-3)
-
-| 클래스 | 첫 옥텟 / 전체 분류 범위 | 역사적 기본 마스크 | 의미 |
-| :--- | :--- | :--- | :--- |
-| A | 0~127 / `0.0.0.0` ~ `127.255.255.255` | `/8` · `255.0.0.0` | 과거 큰 유니캐스트 네트워크 분류. `0/8`, `127/8`은 특수 용도 |
-| B | 128~191 / `128.0.0.0` ~ `191.255.255.255` | `/16` · `255.255.0.0` | 과거 중간 크기 유니캐스트 네트워크 분류 |
-| C | 192~223 / `192.0.0.0` ~ `223.255.255.255` | `/24` · `255.255.255.0` | 과거 작은 유니캐스트 네트워크 분류 |
-| D | 224~239 / `224.0.0.0` ~ `239.255.255.255` | 일반 호스트용 기본 마스크 없음 | 멀티캐스트 주소 영역 |
-| E | 240~255 / `240.0.0.0` ~ `255.255.255.255` | 일반 호스트용 기본 마스크 없음 | 예약 영역. `255.255.255.255`는 제한 브로드캐스트 |
-
-옥텟(octet)은 8비트 단위입니다. IPv4의 점으로 구분한 숫자 하나가 한 옥텟이고 값은 0~255입니다. 위 범위는 **분류 범위**이지 전부 일반 장비에 배정할 수 있다는 뜻은 아닙니다. A 클래스의 일반 네트워크 첫 숫자를 1~126으로 설명하는 자료는 특수한 `0/8`과 루프백 `127/8`을 제외한 것입니다. D·E 영역과 예외는 [IANA IPv4 주소 공간](https://www.iana.org/assignments/ipv4-address-space/)과 [특수 용도 주소 등록부](https://www.iana.org/assignments/iana-ipv4-special-registry/)에서 확인할 수 있습니다.
-
-### 클래스와 사설 IP는 다른 기준이다
-
-**사설 IP는 A·B·C 클래스 전체가 아니라 RFC 1918에서 정한 세 주소 블록입니다.** 따라서 “클래스 B니까 사설 IP” 또는 “192로 시작하니까 사설 IP”라고 판단하면 안 됩니다. [RFC 1918](https://www.rfc-editor.org/rfc/rfc1918.html#section-3)
-
-| 사설 대역 | 전체 범위 | 주의할 점 |
-| :--- | :--- | :--- |
-| `10.0.0.0/8` | `10.0.0.0` ~ `10.255.255.255` | 내부에서 `/16`, `/24` 등으로 나누어 사용할 수 있음 |
-| `172.16.0.0/12` | `172.16.0.0` ~ `172.31.255.255` | `172`로 시작하는 모든 주소가 사설은 아님 |
-| `192.168.0.0/16` | `192.168.0.0` ~ `192.168.255.255` | `192` 전체가 아니라 `192.168` 대역 |
-
-계산기의 ‘IP 용도’는 입력 주소 하나의 주요 대역만 분류합니다. 입력 IP가 사설이어도 선택한 CIDR 전체가 사설인 것은 아닙니다. 예를 들어 `192.168.1.10/8`의 결과인 `192.0.0.0/8`은 사설 대역 밖까지 포함합니다. 사설이 아닌 주소에도 문서 예제용·예약 주소 등이 있어, ‘사설 IP 아님’이 곧 실제 공인 IP 할당을 뜻하지는 않습니다.
-
-## CIDR 계산은 언제 사용할까?
-
-### 방화벽에서 허용·차단 범위를 입력할 때
-
-**CIDR을 요구하는 입력란에서는 허용하려는 IP가 몇 개나 포함되는지 확인하는 데 사용합니다.** 다음은 주소 조건을 설명하기 위한 예시이며 실제 장비에 적용한 설정은 아닙니다.
-
-| 목적 | CIDR 입력 예시 | 매칭되는 주소 |
-| :--- | :--- | :--- |
-| 특정 내부 PC 한 대 | `192.168.1.10/32` | `192.168.1.10` 하나 |
-| 내부망 한 블록 | `192.168.1.0/24` | `192.168.1.0` ~ `192.168.1.255` |
-| 더 작은 내부망 | `192.168.1.128/26` | `192.168.1.128` ~ `192.168.1.191` |
-| IPv4 전체 | `0.0.0.0/0` | 모든 IPv4 주소 |
-
-방화벽의 CIDR 매칭은 호스트 할당 수와 다릅니다. `/24` 조건은 주소 블록 전체에 매칭되며, 일반 LAN의 호스트 주소 수인 254개로 범위가 줄어들지 않습니다. 클라우드의 구체적인 예로 AWS 보안 그룹은 출발지·목적지에 IPv4 CIDR을 지정하고, 단일 IPv4는 `/32`로 표현합니다. [AWS 보안 그룹 규칙 공식 문서](https://docs.aws.amazon.com/vpc/latest/userguide/security-group-rules.html)
-
-규칙을 적용하기 전에는 출발지·목적지 방향, 포트와 프로토콜, 허용·차단 동작 및 규칙 순서를 확인합니다. 특히 관리 화면의 접근 규칙을 수정한다면 기존 설정을 기록하고 복구 가능한 접속 경로를 확보합니다. `0.0.0.0/0` 허용은 의도한 서비스만 대상으로 사용해야 합니다.
-
-인터넷에서 집의 NAS에 접속하도록 허용할 때는 외부에서 보이는 출발지 공인 IP와 내부 PC의 사설 IP를 혼동하지 않아야 합니다. 현재 연결의 외부 주소는 [내 IP 주소 확인 도구](/hobby/check-my-ip/)로 확인할 수 있습니다. 지역별 정책을 설정하는 상황은 [시놀로지 NAS 방화벽 설정 글](/hobby/synology-region-firewall/)도 참고할 수 있습니다.
-
-### 공유기의 LAN·DHCP 범위를 정할 때
-
-**서브넷은 LAN의 주소 경계를 정하고, DHCP 범위는 그 안에서 자동 배정할 일부 주소를 정합니다.** 두 범위가 항상 같은 것은 아닙니다.
-
-예를 들어 공유기 LAN을 `192.168.10.1/24`로 설정한다고 가정하면 네트워크는 `192.168.10.0/24`, 일반 호스트 범위는 `192.168.10.1` ~ `192.168.10.254`입니다. 공유기가 `.1`을 사용하므로 다른 기기에 같은 주소를 배정하면 안 됩니다. DHCP 풀을 `.100` ~ `.199`로 정하면 양 끝을 포함해 100개 주소를 자동 배정 대상으로 잡는 예가 됩니다. 실제 입력 형식과 예약 처리 방식은 공유기 문서를 확인하세요.
-
-### VPN·VPC·정적 경로의 대역을 정할 때
-
-CIDR 계산은 서로 다른 네트워크의 범위가 겹치는지 검토할 때도 도움이 됩니다. 예를 들어 집과 VPN 반대편에서 모두 `192.168.1.0/24`를 사용한다면, 같은 목적지 주소가 어느 쪽인지 라우팅 충돌을 검토해야 합니다. 먼저 양쪽 대역의 시작·끝을 확인하고 주소 계획과 경로를 결정합니다. 이 계산기는 입력한 블록 하나를 계산하며, 여러 블록의 중복 검사나 라우팅 설정을 자동 수행하지는 않습니다.
-
-## 자주 헷갈리는 점
-
-### 192.168.1.10/24를 입력했는데 왜 192.168.1.0/24로 바뀌나요?
-
-네트워크 CIDR은 블록의 시작 주소로 정규화하기 때문입니다. `.10`은 이 블록 안의 호스트 주소이며, 해당 `/24` 블록의 시작은 `.0`입니다. 방화벽이나 API에 따라 호스트 비트가 있는 CIDR을 정규화하거나 거절할 수 있으므로 계산 결과의 네트워크 CIDR을 확인하세요.
-
-### /24의 254개 호스트는 모두 DHCP로 배정할 수 있나요?
-
-반드시 그렇지는 않습니다. 254개는 일반 LAN에서 네트워크·브로드캐스트 주소를 뺀 수입니다. 공유기 주소, 수동 고정 IP와 예약 주소 등을 제외하면 실제 DHCP 풀은 더 작아질 수 있습니다.
-
-### 192.168.1.10부터 192.168.1.20까지를 CIDR 하나로 쓸 수 있나요?
-
-정확히 그 범위만 CIDR 하나로 표현할 수는 없습니다. 하나의 CIDR은 2의 거듭제곱 크기이며 시작 경계도 맞아야 합니다. 이 예는 11개 주소이므로 여러 CIDR로 분할하거나 장비가 지원하는 시작·끝 범위 입력을 사용해야 합니다. 이 도구는 임의 범위를 여러 CIDR로 변환하는 기능은 제공하지 않습니다.
-
-
---------------------------------------------------------------------------------
-title: "내 IP 주소 확인하기"
-url: https://www.ramoo.net/hobby/check-my-ip/index.md
-date: "2026-10-14"
-description: 내 IP 주소를 무료로 확인하세요. 공인 IP 조회, IPv4·IPv6 구분, IP 위치 지도, 통신사·ASN과 연결 정보를 확인하고 주소를 바로 복사할 수 있습니다.
---------------------------------------------------------------------------------
-
-내 IP 주소가 궁금할 때 브라우저에서 **공인 IP(외부 아이피)**를 바로 확인하는 무료 도구입니다. 현재 연결의 IPv4·IPv6 주소, 통신사·ASN, 시간대와 IP 위치 지도를 조회하고 주소를 복사할 수 있습니다.
-
-페이지를 열면 현재 네트워크를 자동 조회합니다. VPN을 켜거나 와이파이·모바일 데이터를 바꾼 뒤 **다시 조회**를 누르면 변경된 IP를 확인할 수 있습니다.
-
-{{< ip-check >}}
-
-## 내 IP 주소 확인 방법
-
-1. 위 조회 도구에서 **공인 IP 주소**를 확인합니다. 별도 프로그램을 설치하지 않아도 됩니다.
-2. **IP 주소 복사**를 누르면 표시된 주소를 클립보드로 복사할 수 있습니다.
-3. 네트워크나 VPN 연결을 바꾼 뒤 **다시 조회**를 누르면 현재 연결을 다시 확인합니다.
-4. **즐겨찾기 추가**를 누르면 PC·모바일에 맞는 저장 방법을 안내합니다. 자주 확인할 때 현재 페이지를 북마크로 저장해두면 편리합니다.
-5. 위도·경도가 제공되면 지도에서 대략적인 위치를 봅니다. **세계 지도**와 **내 위치로** 버튼으로 표시 범위를 바꿀 수 있습니다.
-
-
-## 공인 IP 조회 결과와 네트워크 정보 읽기
-
-- **공인 IP**는 인터넷에서 보이는 현재 연결의 주소입니다. 같은 공유기를 사용하는 기기들은 같은 IPv4 주소를 공유할 수 있습니다.
-- **네트워크 운영 기관**은 IP 대역을 운영하는 통신사나 기관입니다. VPN을 사용하면 VPN 출구의 IP와 네트워크가 표시될 수 있습니다.
-- **위치 정보**는 IP 기반 추정입니다. 실제 위치, GPS 좌표나 정확한 집 주소를 의미하지 않으며, 일부 정보는 제공되지 않을 수 있습니다. 위도·경도가 있으면 국가·해안선 지도에 추정 위치를 표시합니다.
-- **HTTP·TLS 정보**는 이 브라우저와 API 사이의 연결 정보입니다. 브라우저나 접속 환경에 따라 달라집니다.
-
-## 공인 IP와 사설 IP는 무엇이 다를까?
-
-기기의 `192.168.x.x`, `10.x.x.x` 같은 주소는 보통 내부망에서 사용하는 사설 IP입니다. 이 페이지는 브라우저의 요청이 인터넷에 나갈 때 사용하는 공인 IP를 보여줍니다. IPv6 환경에서는 IPv6 주소가 표시될 수 있습니다.
-
-Windows에서 명령 프롬프트의 `ipconfig`로 확인하는 어댑터 주소와 이 페이지의 외부 IP가 다를 수 있습니다. [Microsoft의 ipconfig 안내](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ipconfig)는 기기의 IP·서브넷·기본 게이트웨이 확인 방법을 설명합니다.
-
-## 내 IP 확인에 관한 자주 묻는 질문
-
-### IP 주소 확인은 무료인가요?
-
-이 페이지의 IP 조회와 지도 보기는 무료이며 회원가입이나 별도 앱 설치가 필요하지 않습니다. IP 주소를 확인하려면 브라우저에서 JavaScript를 사용할 수 있어야 합니다.
-
-### 컴퓨터와 휴대폰의 공인 IP가 같을 수 있나요?
-
-두 기기가 같은 공유기의 와이파이를 사용하고 같은 IPv4 연결로 인터넷에 나간다면 같은 공인 IP가 표시될 수 있습니다. 휴대폰을 모바일 데이터로 전환하거나 VPN을 사용하면 다른 IP가 표시될 수 있습니다.
-
-### IP 위치 지도와 실제 위치가 다른 이유는 무엇인가요?
-
-IP 위치는 네트워크 대역에 연결된 지리 정보를 기반으로 추정합니다. 통신사나 VPN 출구의 위치가 표시될 수 있으며 실제 집 주소나 GPS 위치를 의미하지 않습니다. 지도는 국가·해안선을 보여주는 개략도입니다.
-
-### IPv4와 IPv6를 동시에 확인할 수 있나요?
-
-이 도구는 현재 API 요청에 사용된 주소를 표시하므로 IPv4 또는 IPv6 중 하나가 나옵니다. 점으로 구분한 숫자 주소는 IPv4, 콜론을 포함한 주소는 IPv6입니다. 한 번의 조회로 두 주소를 모두 확인하는 기능은 제공하지 않습니다.
-
-### VPN을 켜면 내 IP가 바뀌나요?
-
-브라우저의 요청이 VPN을 통해 나가면 VPN 출구 IP가 표시될 수 있습니다. VPN 연결 전후에 다시 조회해서 비교하세요. 분할 터널링 등 설정에 따라 브라우저 요청이 VPN을 사용하지 않을 수도 있습니다.
-
-### 공유기를 재부팅하면 공인 IP가 바뀌나요?
-
-바뀔 수 있지만 항상 바뀌는 것은 아닙니다. 고정 IP 사용 여부와 통신사의 주소 할당 방식에 따라 이전 IP를 다시 받을 수도 있습니다. 네트워크를 다시 연결한 뒤 재조회해서 확인하세요.
-
-### 다른 사람의 IP나 정확한 주소도 조회할 수 있나요?
-
-이 페이지는 현재 방문자의 연결 정보를 확인하는 도구입니다. 임의의 IP를 입력해 다른 사람의 위치를 찾는 기능은 없으며, IP만으로 정확한 개인 주소를 알 수 있는 도구도 아닙니다.
-
-### IP 조회가 안 되면 어떻게 하나요?
-
-인터넷 연결과 브라우저의 JavaScript 설정을 확인하고 **다시 조회**를 눌러보세요. 응답이 지연되거나 API에 접근할 수 없으면 오류 안내가 표시됩니다. 일부 위치·네트워크 정보가 제공되지 않으면 해당 항목만 ‘정보 없음’으로 나옵니다.
-
-## 함께 읽으면 좋은 네트워크 글
-
-- [Synology DNS Server 설치와 A·PTR 레코드 설정](/hobby/synology-dns-server/)
-- [Synology NAS의 지역별 방화벽 설정 기록](/hobby/synology-region-firewall/)
-
-{{< ip-check-tags >}}
-
-
---------------------------------------------------------------------------------
-title: "웹 브라우저 기반 원격 접속 Apache Guacamole 사내망 구축 및 RDP/SSH 테스트"
-url: https://www.ramoo.net/hobby/apache-guacamole-intro/index.md
-date: "2026-04-24"
-description: 브라우저 SSH 접속은 편했지만 LDAP 연동과 계정·세션 관리가 걸렸다. 사내망 테스트에서 멈춘 기록.
---------------------------------------------------------------------------------
-
-![Apache Guacamole 소개 이미지](/images/server/apache-guacamole-cover.webp)
-
-사내 서버에 Apache Guacamole를 설치해서 원격접속을 테스트했다. 사내망에서만 접근할 수 있게 열어 두었고, 기본 기능을 확인한 뒤 정식 운영으로 이어가지는 않았다.
-
-브라우저에서 SSH에 접속할 수 있는 건 편했다. 다만 LDAP 연동이 기대만큼 안정적이지 않았고, 계정과 세션을 관리할 부담도 있었다.
-
-## 브라우저로 원격접속하기
-
-Guacamole는 웹에서 RDP, VNC, SSH 연결을 사용할 수 있게 해 주는 도구다. 접속하는 PC에 별도 클라이언트를 설치하지 않아도 된다. 관리자가 계정별로 연결 대상을 등록하면 사용자는 로그인해서 자신에게 허용된 장비를 선택한다.
-
-[공식 사이트](https://guacamole.apache.org/)와 [설치·운영 매뉴얼](https://guacamole.apache.org/doc/gug/)을 참고했다. 아래는 공식 사이트의 데모 영상이다.
-
-<div style="margin: 2rem 0;">
-  <video controls preload="metadata" style="width: 100%; border-radius: 12px;">
-    <source src="https://guacamole.apache.org/videos/guacamole-0.9.4-demo.mp4" type="video/mp4" />
-    브라우저가 동영상 재생을 지원하지 않는다.
-  </video>
-</div>
-
-## 테스트에서 확인한 기능
-
-관리자 로그인, 계정별 연결 목록, SSH 접속, 연결 로그, 세션 재생, 사용자 설정을 확인했다. 현재 연결된 세션을 관리자가 종료하는 기능도 있다.
-
-접속 대상과 이력을 한 화면에서 볼 수 있다는 점은 좋았다. 사용자마다 원격접속 프로그램을 준비할 필요도 줄어든다.
-
-## 운영까지 가져가지 않은 이유
-
-LDAP 연동에서 불안정한 부분이 있었다. 테스트에서는 다시 확인해 보면 되지만, 실제 운영에서 계정 연동이 흔들리면 접속 자체에 문제가 생긴다. 이 상태로 운영을 시작하기는 어려웠다.
-
-보안과 사용자 관리도 걸렸다. 누가 어떤 서버에 접근할 수 있는지 정하고, 계정이 바뀔 때 권한을 수정하고, 로그와 세션 기록도 관리해야 한다. 사용자가 로그아웃하지 않고 세션을 남겨 두거나 인증 정보를 노출하는 상황도 고려해야 했다.
-
-웹으로 접속을 모으는 편의성은 확인했다. 하지만 당시 테스트한 환경에서는 그 편의성만으로 운영 부담을 감수하기는 어렵다고 판단했다. 기본 기능을 확인한 기록으로 남겨 둔다.
-
-
---------------------------------------------------------------------------------
-title: "FlatBuffers 기본 개념과 Ubuntu 22.04 빌드 메모"
-url: https://www.ramoo.net/hobby/flatbuffers-in-real-systems/index.md
-date: "2026-04-23"
-description: FlatBuffers가 버퍼를 읽는 방식과 스키마·생성 코드, Ubuntu 22.04 소스 빌드 명령.
---------------------------------------------------------------------------------
-
-![FlatBuffers 개념과 설치 가이드 이미지](images/tech/flatbuffer-cover.png)
-
-FlatBuffers에서 눈여겨볼 부분은 데이터를 읽는 방식이다. 직렬화된 버퍼를 객체로 전부 풀어 놓지 않고, 필요한 필드에 직접 접근한다.
-
-기본 개념과 Ubuntu 22.04에서 소스로 빌드하는 방법을 적어 둔다. 성능 측정과 실제 적용 후기는 아직 없다.
-
-## 버퍼를 읽기까지
-
-먼저 `.fbs` 파일에 데이터 구조를 정의한다. 테이블, 구조체, 열거형, 벡터 같은 타입을 쓸 수 있다. `flatc`로 이 스키마에서 언어별 코드를 생성하고, 애플리케이션은 생성된 API로 버퍼를 만들거나 읽는다.
-
-읽을 때 전체 데이터를 별도 객체로 변환하는 과정이 필요 없다는 것이 특징이다. 흔히 말하는 zero-copy 읽기가 이 부분이다. 필요한 데이터에 접근하므로 읽기 비용과 추가 메모리 할당을 줄이는 데 도움이 된다. 자세한 설명은 [FlatBuffers 공식 문서](https://flatbuffers.dev/)에 있다.
-
-스키마를 여러 언어에서 공유할 수 있다는 점도 쓸모가 있다. C++ 프로그램과 다른 언어로 만든 프로그램이 같은 데이터 형식을 써야 할 때, `.fbs`를 기준으로 코드를 생성할 수 있다.
-
-## 쓰기 전에 생각할 점
-
-스키마 파일과 생성 코드를 함께 관리해야 한다. 데이터 구조가 바뀌면 이미 배포한 프로그램과의 호환성도 확인해야 한다.
-
-직렬화된 데이터를 수정할 때는 새 버퍼를 만들어야 하는 경우가 있다. 사람이 파일을 열어 값을 고치는 용도라면 JSON 같은 텍스트 형식이 더 편할 수 있다.
-
-게임 리소스, 센서 데이터, 네트워크 메시지처럼 읽기 비용을 줄이고 싶은 곳에서 검토할 수 있다. 다만 이 글에는 다른 형식과 비교한 벤치마크가 없으므로, 어느 정도 빨라지는지는 실제 데이터로 따로 확인해야 한다.
-
-## Ubuntu 22.04에서 소스 빌드
-
-빌드 도구를 설치한다.
-
-```bash
-sudo apt update
-sudo apt install -y cmake g++ zlib1g-dev
-```
-
-소스를 받은 뒤 빌드 디렉토리를 만든다.
-
-```bash
-git clone https://github.com/google/flatbuffers.git
-cd flatbuffers
-mkdir build
-cd build
-```
-
-`flatc` 빌드와 설치 옵션을 켜고 Release로 빌드한다.
-
-```bash
-cmake .. -DCMAKE_BUILD_TYPE=Release -DFLATBUFFERS_BUILD_FLATC=ON -DFLATBUFFERS_INSTALL=ON
-make -j$(nproc)
-```
-
-설치 후 라이브러리 캐시를 갱신한다.
-
-```bash
-sudo make install
-sudo ldconfig
-```
-
-위 명령은 저장소의 기본 브랜치를 받는다. 특정 버전을 계속 사용할 프로젝트라면 사용할 태그를 정해 두는 편이 재현하기 쉽다.
-
-
---------------------------------------------------------------------------------
-title: "ZeroMQ를 살펴보며 적어 둔 메시징 패턴"
-url: https://www.ramoo.net/hobby/zeromq-patterns/index.md
-date: "2026-04-23"
-description: REQ/REP, PUB/SUB, PUSH/PULL, PAIR의 메시지 흐름과 애플리케이션에서 정할 부분.
---------------------------------------------------------------------------------
-
-![ZeroMQ 개념과 메시징 패턴 이미지](images/tech/zeromq-cover.png)
-
-ZeroMQ는 프로그램 안에서 메시지를 주고받는 데 쓰는 라이브러리다. 별도 브로커를 설치하지 않고 프로세스나 장비 사이를 연결할 수 있다.
-
-처음 살펴볼 때는 소켓 종류부터 보면 이해하기 편하다. 연결된 상대에게 메시지를 어떤 방식으로 보낼지가 소켓 패턴에 따라 달라진다.
-
-## 메시지를 어떻게 나눠 보낼까
-
-| 패턴 | 메시지 흐름 |
-| --- | --- |
-| `REQ/REP` | 요청을 보내고 응답을 받는다. |
-| `PUB/SUB` | 발행한 메시지를 구독자들에게 전달한다. |
-| `PUSH/PULL` | 작업을 여러 수신자에게 나눠 보낸다. |
-| `PAIR` | 두 소켓을 1:1로 연결한다. |
-
-요청 하나에 응답 하나가 필요한 통신이라면 `REQ/REP`, 여러 곳으로 데이터를 내보내려면 `PUB/SUB`, 작업을 나눠 처리하려면 `PUSH/PULL`부터 살펴볼 수 있다. 예제와 각 패턴의 제약은 [ZeroMQ Guide 첫 장](https://zguide.zeromq.org/docs/chapter1/)에 나온다.
-
-## 별도 브로커 없이 시작할 수 있다
-
-메시징 서버를 따로 운영하지 않아도 된다는 점은 작은 구성에서 편하다. 애플리케이션에 라이브러리를 넣고 소켓을 연결해 통신을 시작할 수 있다. 서로 다른 프로세스나 머신을 연결할 수 있고, 여러 언어의 바인딩도 있다.
-
-전송과 큐 처리를 라이브러리에 맡기고 메시지 흐름에 집중할 수 있다. 센서 값을 모으거나, 프로세스끼리 작업을 나누거나, 내부 서비스 사이에 메시지를 전달하는 구성을 생각해 볼 수 있다.
-
-## 애플리케이션에서 정할 부분도 있다
-
-브로커 설치가 없다고 해서 시스템 설계까지 끝나는 것은 아니다. 상대가 끊겼을 때 어떻게 처리할지, 응답을 얼마나 기다릴지, 메시지를 다시 보낼지 같은 동작은 별도로 정해야 한다.
-
-패턴마다 메시지를 전달하는 방식과 제약이 다르다. `PUB/SUB`로 보낸 메시지를 모든 구독자가 반드시 받는다고 가정하거나, `REQ/REP`의 순서를 무시하면 기대와 다르게 동작할 수 있다. 적용 전에 사용할 패턴의 예제를 먼저 실행해 볼 것.
-
-여기에는 기본 패턴만 적었다. 실제 구성에 적용하려면 정상 송수신뿐 아니라 연결이 끊기거나 수신이 늦어지는 경우도 함께 확인해야 한다.
-
-
---------------------------------------------------------------------------------
-title: "시놀로지 DS918+ USB 2.5G 랜카드 설치 후기와 인식 불안정으로 원복한 이유"
-url: https://www.ramoo.net/hobby/ds918-plus-25g-upgrade/index.md
-date: "2022-11-16"
-description: ipTIME U2500과 r8152 드라이버로 구성한 DS918+ 2.5G 연결. 설치 과정과 전송 속도, 철거한 이유.
---------------------------------------------------------------------------------
-
-![DS918+ 2.5G 네트워크 구성 이미지](/images/server/ds918-25g/cover.png)
-
-PC에서 2.5G LAN을 쓸 수 있으니 DS918+도 같은 속도로 연결해 보고 싶었다. NAS를 바꾸는 대신 USB LAN 어댑터와 2.5G 스위칭 허브를 붙였다.
-
-속도는 잘 나왔다. PC에서 NAS로 복사할 때 약 290MB/s, 반대 방향은 약 220MB/s였다. 다만 쓰다 보니 간헐적으로 네트워크가 먹통이 됐고, 결국 어댑터를 빼고 원래 구성으로 돌아갔다.
-
-## 사용한 장비
-
-- 2.5G LAN을 지원하는 PC
-- ipTIME USB 3.0 U2500 (`RTL8156` 칩셋)
-- 2.5G 스위칭 허브
-- Synology DS918+
-
-DSM에서 USB LAN을 쓰려면 별도 드라이버가 필요하다. 어댑터를 고를 때는 [r8152 호환 목록](https://github.com/bb-qq/r8152/wiki/Compatibility)을 확인했다.
-
-내 DS918+에서는 후면 USB 포트의 인식이 불안정했고, 전면 포트에서는 비교적 잘 잡혔다. 그래서 전면 포트에 연결해서 사용했다.
-
-## r8152 드라이버 설치
-
-[bb-qq/r8152 릴리스](https://github.com/bb-qq/r8152/releases)에서 NAS 모델과 DSM 버전에 맞는 `spk` 파일을 받는다. DSM 패키지 센터의 **수동 설치**로 진행하면 된다.
-
-![DSM 패키지 수동 설치 화면](/images/server/ds918-25g/manual-install.webp)
-
-설치 중 오류가 나서 SSH로 접속해 아래 명령을 실행한 뒤 다시 설치했다. 당시 사용한 패키지에서 필요한 조치였다.
-
-```bash
-sudo install -m 4755 -o root -D /var/packages/r8152/target/r8152/spk_su /opt/sbin/spk_su
-```
-
-설치가 끝나면 패키지 센터에서 드라이버 상태를 확인한다.
-
-![DSM r8152 드라이버 설치 확인](/images/server/ds918-25g/driver-installed.webp)
-
-## 인터페이스 설정과 연결
-
-제어판의 **네트워크 인터페이스**에 USB LAN이 추가된 것을 확인하고, 편집 화면에서 `Jumbo Frame`을 `9K`로 설정했다. 아래는 당시 사용한 설정이다.
-
-![점보 프레임 9K 설정 화면](/images/server/ds918-25g/jumbo-frame.webp)
-
-PC와 NAS를 직접 연결해 수동 IP를 잡는 방법도 있지만, 나는 2.5G 스위칭 허브에 연결했다.
-
-![2.5G 스위칭 허브 구성 예시 1](/images/server/ds918-25g/switch-01.webp)
-
-![2.5G 스위칭 허브 구성 예시 2](/images/server/ds918-25g/switch-02.webp)
-
-이 구성에서 측정한 전송 속도는 다음과 같다. 내 환경에서 파일을 복사하며 확인한 수치이다.
-
-| 방향 | 전송 속도 |
-| --- | --- |
-| PC → NAS | 약 290MB/s |
-| NAS → PC | 약 220MB/s |
-
-1GbE로 쓰던 때보다 파일 복사는 확실히 빨라졌다.
-
-## 결국 철거했다
-
-처음에는 잘 썼지만, 사용을 이어 가면서 간헐적으로 네트워크가 멈추는 문제가 생겼다. 드라이버를 중지했다가 다시 로드하면 복구됐다. 계속 켜 두는 NAS에서 그 작업을 반복해야 한다는 게 불편했다.
-
-전면 포트를 써야 하는 것도 마음에 걸렸다. 어댑터와 랜선이 앞에 계속 꽂혀 있으니 케이블 정리가 깔끔하지 않았다.
-
-속도만 보면 아쉬운 업그레이드는 아니었다. 그래도 내 NAS에서는 안정성과 케이블 정리 문제 때문에 오래 유지하지 못했다.
-
-
---------------------------------------------------------------------------------
-title: "Synology GitLab CE 컨테이너 업데이트 메모"
-url: https://www.ramoo.net/hobby/synology-gitlab-docker-update/index.md
-date: "2022-03-22"
-description: GitLab CE 14.8.3에서 14.8.4로 업데이트할 때 사용한 DSM Docker 화면과 설정 내보내기·가져오기 기록.
---------------------------------------------------------------------------------
-
-GitLab CE를 Docker Registry에서 받아 설치해 두었다. 설치한 이미지를 업데이트하는 방법을 찾아보다가 기록으로 남긴다.
-
-2022년에 `14.8.3-ce.0`에서 `14.8.4-ce.0`으로 바꿀 때 사용한 DSM Docker 화면 기준이다.
-
-## 새 이미지 받기
-
-`DSM > Docker > Registry`에서 gitlab을 검색해 필요한 버전을 다운로드한다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 1](/images/server/blog-nas/synology-gitlab-docker-update/photo-01.png)
-
-`latest`보다 버전을 지정해 두는 편이 다음 업데이트 때 관리하기 편하다. 당시에는 `14.8.4-ce.0`을 받았다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 2](/images/server/blog-nas/synology-gitlab-docker-update/photo-02.png)
-
-## 설정 내보내기
-
-`DSM > Docker > Container`에서 기존 GitLab CE 컨테이너를 선택하고, 우클릭 메뉴의 `설정 > 내보내기`를 선택한다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 3](/images/server/blog-nas/synology-gitlab-docker-update/photo-03.png)
-
-적당한 폴더를 골라 내보낸다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 4](/images/server/blog-nas/synology-gitlab-docker-update/photo-04.png)
-
-선택한 폴더에 JSON 파일이 생긴다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 5](/images/server/blog-nas/synology-gitlab-docker-update/photo-05.png)
-
-텍스트 편집기로 연다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 6](/images/server/blog-nas/synology-gitlab-docker-update/photo-06.png)
-
-이미지 이름의 버전을 새로 받은 버전으로 바꾸고 저장한다.
-
-```json
-"image": "gitlab/gitlab-ce:14.8.3-ce.0"
-```
-
-위 값을 다음과 같이 바꿨다.
-
-```json
-"image": "gitlab/gitlab-ce:14.8.4-ce.0"
-```
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 7](/images/server/blog-nas/synology-gitlab-docker-update/photo-07.png)
-
-## 컨테이너 교체
-
-기존 컨테이너를 중지한다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 8](/images/server/blog-nas/synology-gitlab-docker-update/photo-08.png)
-
-중지한 컨테이너를 삭제한다. 삭제하기 전에는 데이터를 백업하고, 버전 사이에 필요한 마이그레이션 경로도 확인해야 한다. 내보낸 설정 파일만으로 데이터 백업을 대신할 수는 없다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 9](/images/server/blog-nas/synology-gitlab-docker-update/photo-09.png)
-
-`DSM > Docker > Container > 설정 > 가져오기`에서 수정한 파일을 선택한다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 10](/images/server/blog-nas/synology-gitlab-docker-update/photo-10.png)
-
-새 버전으로 GitLab CE를 실행한다.
-
-![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 11](/images/server/blog-nas/synology-gitlab-docker-update/photo-11.png)
-
-다른 Docker 이미지도 설정을 내보내고 이미지 버전을 바꾸는 방식으로 교체할 수 있다. 다만 애플리케이션마다 데이터와 버전 호환 조건은 따로 확인할 것.
-
-
---------------------------------------------------------------------------------
-title: "시놀로지 DNS Server 구축 및 내부 도메인 레코드 설정 방법"
-url: https://www.ramoo.net/hobby/synology-dns-server/index.md
-date: "2021-07-31"
-description: DSM 7.0에서 DNS Server를 설치하고 정방향 영역, A·PTR 레코드, 네임서버 설정을 살펴본 기록.
---------------------------------------------------------------------------------
-
-![Synology DNS Server 메인 화면](images/server/synology-dns/cover-synology-dns-server.png)
-
-Synology NAS의 DNS Server 패키지를 설치하고 영역과 레코드를 설정한 기록이다. DSM 7.0, `DNS Server 9.11.23-6069` 기준이라 다른 버전에서는 화면이 달라질 수 있다.
-
-예시에는 `example.com`과 `12.23.34.56`을 사용했다. 설정할 때는 사용할 도메인과 서버 IP로 바꿔야 한다.
-
-## 패키지 설치
-
-패키지 센터에서 `DNS Server`를 설치한다.
-
-![DNS Server 설치 화면](/images/server/synology-dns/step-01-install.webp)
-
-{{< notice "info" >}}
-다른 네트워크에서 조회하려면 공유기와 방화벽 설정도 필요하다. DNS에 사용하는 UDP·TCP 53번을 조회가 필요한 범위에 허용한다. 내부망에서만 쓸 때는 인터넷에 포트를 열 필요가 없다.
-{{< /notice >}}
-
-## 정방향 영역 만들기
-
-도메인 이름으로 IP를 조회하는 영역이다. **생성 > Master 영역 설정**으로 들어간다.
-
-![Master 영역 생성 시작 화면](/images/server/synology-dns/step-02-zone-start.webp)
-
-당시 외부 네임서버 구성 예시에서는 아래처럼 입력했다.
-
-- 도메인 유형: `정방향 영역`
-- 도메인 이름: 사용할 도메인
-- 마스터 DNS 서버: 공인 IP 주소
-
-![정방향 영역 설정 화면](/images/server/synology-dns/step-02-forward-zone.webp)
-
-내부망 DNS를 구성한다면 서버 주소와 레코드에는 그 환경에서 접근할 수 있는 내부 IP를 사용한다.
-
-영역이 만들어지면 목록에 나타난다.
-
-![정방향 영역 생성 완료 화면](/images/server/synology-dns/step-02-forward-complete.webp)
-
-## A 레코드 추가
-
-`example.com`을 선택하고 **편집 > 리소스 레코드 > 생성 > A 유형**으로 들어간다. 예를 들어 `www.example.com`에 연결할 IP를 등록한다.
-
-![정방향 리소스 레코드 진입 화면](/images/server/synology-dns/step-04-records-menu.webp)
-
-![A 레코드 생성 화면](/images/server/synology-dns/step-04-a-record.webp)
-
-TTL은 조회한 레코드를 캐시에 보관하는 시간이다. 주소를 바꾼 뒤에도 이전 조회 결과가 남을 수 있으니, 변경할 때는 이 값도 함께 확인한다.
-
-## 역방향 영역과 PTR 레코드
-
-역방향은 IP로 이름을 조회할 때 사용한다. IPv4에서는 주소를 거꾸로 적고 `in-addr.arpa`를 붙인다. 예를 들어 `12.23.34.56`의 PTR 조회 이름은 `56.34.23.12.in-addr.arpa`이다. [Cloudflare의 PTR 설명](https://www.cloudflare.com/learning/dns/dns-records/dns-ptr-record/)에 예시가 있다.
-
-`12.23.34.0/24` 범위의 역방향 영역이라면 이름은 `34.23.12.in-addr.arpa`이고, 그 안에 `56`에 해당하는 PTR을 추가하는 식이다. 이전 글의 `56.34.23` 예시는 주소 순서가 잘못되어 수정했다. 아래 이미지는 당시 화면으로, 입력값보다 메뉴 위치를 참고하면 된다.
-
-![정방향과 역방향 영역 목록](/images/server/synology-dns/step-03-zones-list.webp)
-
-역방향 영역을 선택한 뒤 **편집 > 리소스 레코드 > 생성 > PTR 유형**에서 IP에 대응하는 이름을 등록한다.
-
-![역방향 리소스 레코드 진입 화면](/images/server/synology-dns/step-05-ptr-menu.webp)
-
-![PTR 레코드 생성 화면](/images/server/synology-dns/step-05-ptr-record.webp)
-
-내부 DNS에서 조회할 PTR을 등록하는 것과 공인 IP의 인터넷 역방향 조회를 설정하는 것은 별개다. 공인 IP의 PTR은 IP 관리 주체에 확인해야 한다.
-
-## 외부 네임서버로 사용할 경우
-
-내부 장비의 이름을 조회하는 용도라면 도메인 등록 업체의 네임서버를 변경할 필요가 없다. 클라이언트가 NAS의 DNS를 조회하도록 설정하면 된다.
-
-소유한 도메인의 외부 네임서버로 NAS를 쓰려는 경우에는 등록 업체에서 네임서버 설정을 변경한다. 당시에는 whois의 설정 화면을 사용했다.
-
-![도메인 등록 업체의 네임서버 설정 화면](/images/server/synology-dns/step-06-provider.webp)
-
-![네임서버 설정 예시](/images/server/synology-dns/step-06-example.webp)
-
-등록 업체가 요구하는 네임서버 수와 등록 조건도 확인해야 한다. DDNS 주소가 있다는 것만으로 외부 위임 설정까지 끝나는 것은 아니다.
-
-## 조회 확인
-
-먼저 NAS의 DNS를 직접 지정해서 등록한 레코드를 확인한다. 아래의 `NAS_DNS_IP`는 실제 DNS 서버 주소로 바꾼다.
-
-```bash
-nslookup www.example.com NAS_DNS_IP
-dig @NAS_DNS_IP www.example.com A
-dig @NAS_DNS_IP -x 12.23.34.56
-```
-
-외부 네임서버까지 변경했다면 외부 네트워크에서도 조회한다.
-
-```bash
-nslookup example.com
-dig example.com
-dig example.com NS
-```
-
-NAS에 직접 물었을 때 레코드가 나오는지, 일반 DNS 조회에서도 설정이 반영되는지를 나눠 확인하면 문제가 생긴 위치를 찾기 쉽다.
-
-## 현재 외부 IP 확인
-
-인터넷에서 보이는 현재 주소가 궁금하다면 [내 IP 주소 확인하기](/hobby/check-my-ip/)에서 공인 IP와 네트워크 정보를 조회할 수 있습니다. 기기의 내부 주소와 외부에 표시되는 주소가 다를 수 있으므로 DNS 레코드를 설정할 때 사용할 주소를 구분해서 확인합니다.
-
-
---------------------------------------------------------------------------------
-title: "C++ std::tuple 활용법: 함수에서 여러 값 반환하고 std::tie로 받는 방법"
-url: https://www.ramoo.net/hobby/cpp11-tuple/index.md
-date: "2021-06-26"
-description: 함수 결과를 tuple로 묶고 get과 tie로 꺼내는 예제. 마지막 구조적 바인딩은 C++17 문법이다.
---------------------------------------------------------------------------------
-
-함수에서 결과 두 개를 반환해야 할 때가 있다. 결과를 받을 변수를 참조로 넘기는 방법도 있지만, `std::tuple`로 묶으면 간결하게 쓸 수 있다.
-
-짝수 여부와 짝수일 때 1을 더한 값을 함께 반환하는 예제를 적어 두었다.
-
-```cpp
-#include <iostream>
-#include <tuple>
-
-std::tuple<bool,int> isEvenAdd(int val) {
-    bool bis_even = (val % 2 == 0);
-    int ret = val;
-    if (bis_even) {
-        ret = val+1;
-    }
-    return std::make_tuple(bis_even, ret);
-}
-
-int main()
-{
-    auto ret = isEvenAdd(10);
-    std::cout << "ret contains: ";
-    std::cout << std::get<0>(ret) << ' ';
-    std::cout << std::get<1>(ret) << '\n';
-    
-    std::tie (myResult, myValue) = ret;
-    std::cout << "tie contains: ";
-    std::cout << myResult << ' ';
-    std::cout << myValue << '\n';
-    
-    auto [bis_even, val] = isEvenAdd(11);
-    std::cout << "auto tie contains: ";
-    std::cout << bis_even << ' ';
-    std::cout << val << '\n';
-}
-```
-
-`std::get<index>(instance)`로 각 원소에 접근한다. `std::tie`로 여러 값을 한 번에 풀어 받을 수도 있다.
-
-마지막 `auto [bis_even, val]` 형태는 C++17의 구조적 바인딩이다. `tuple` 자체는 C++11부터 사용할 수 있지만 이 부분은 버전이 다르다.
-
-원문 예제의 `myResult`, `myValue`는 사용하는 곳에서 따로 선언해야 한다.
-
-
---------------------------------------------------------------------------------
-title: "C++ 람다를 쓰며 적어 둔 메모"
-url: https://www.ramoo.net/hobby/cpp11-lambda/index.md
-date: "2021-01-30"
-description: 캡처 방식과 std::function 콜백, 정렬에 람다를 쓰는 형태를 적어 둔 메모.
---------------------------------------------------------------------------------
-
-람다는 이름 없는 함수처럼 쓸 수 있다. 사용 빈도가 늘어나서 필요한 내용을 적어 둔다.
-
-[람다 설명](https://en.cppreference.com/w/cpp/language/lambda)
-
-## 형태와 캡처
-
-```cpp
-[capture] (params) -> return_type { body }
-[capture] (params) { body }
-```
-
-- `[&]`: 필요한 주변 자동 변수를 참조로 캡처한다.
-- `[=]`: 필요한 주변 자동 변수를 복사로 캡처한다.
-- `[&, a]`: 기본은 참조 캡처, `a`만 복사한다.
-- `[=, &a]`: 기본은 복사 캡처, `a`만 참조로 잡는다.
-- `[&, &a]`: 기본 참조 캡처와 같은 방식을 중복 지정해서 오류가 난다.
-
-복사로 캡처한 값을 람다 안에서 바꾸려면 `mutable` 같은 조건도 확인해야 한다.
-
-## 저장과 콜백
-
-`std::function`에 담아 둘 수 있다.
-
-```cpp
-#include <vector>
-#include <functional>
-std::function<int(int)> func = [](int i)->int{ return i+1; };
-```
-
-콜백을 받는 형태로도 쓸 수 있다. 아래는 당시 적어 둔 코드 조각이다.
-
-```cpp
-class Foo {
-public:
-	void SetCallback(std::function<void(const char*)> cb){
-		m_fcb = std::move(cb);
-	}
-	void ReqPrint(const char* pszText){
-		m_fcb(pszText);
-	}
-	
-private:
-	std::function<void(const char*)>	m_fcb;	
-}
-
-int main(){
-	Foo	_f;
-	_f.SetCallback([](const char* pszText){
-		std::cout << "callback: " << pszText << '\n';
-	});
-	
-	_f.ReqPrint("myFoo");
-	
-	return 0;
-}
-```
-
-## 정렬에 사용
-
-비교용 함수 객체를 따로 만드는 대신 람다를 넘기면 짧게 쓸 수 있다.
-
-```cpp
-#include <algorithm>
-#include <functional>
-#include <array>
- 
-int main()
-{
-    std::array<int, 10> s = {5, 7, 4, 2, 8, 6, 1, 9, 0, 3};
- 
-	// case 1 
-    struct {
-        bool operator()(int a, int b) const { return a < b; }
-    } customLess;
-    std::sort(s.begin(), s.end(), customLess);
-
- 	// case 2
-    std::sort(s.begin(), s.end(), [](int a, int b) {
-        return a > b;
-    });
-}
-```
-
-
---------------------------------------------------------------------------------
-title: "맥(Mac)에서 Let's Encrypt 와일드카드 SSL 인증서 발급 후 시놀로지 NAS 적용 가이드"
-url: https://www.ramoo.net/hobby/synology-wildcard-certbot-mac/index.md
-date: "2021-01-09"
-description: Mac에서 Certbot을 실행하고 NAS DNS에 TXT 레코드를 추가한 뒤 인증서를 가져온 기록. 2021년 화면 기준.
---------------------------------------------------------------------------------
-
-예전에는 인증서를 발급해 주는 사이트를 이용했다. 유료로 바뀐 뒤에는 Mac에서 직접 발급해 NAS에 적용하고 있다.
-
-3개월마다 갱신할 때 방법을 다시 찾곤 해서 적어 둔다. 아래는 2021년에 사용한 Certbot과 DSM 화면 기준이다.
-
-## Mac에서 Certbot 설치
-
-```bash
-brew install certbot
-```
-
-설치가 끝나면 수동 발급 명령을 실행한다.
-
-```bash
-sudo certbot certonly --manual
-```
-
-인증받을 도메인을 입력한다. 와일드카드는 `*.도메인이름` 형식이다.
-
-```text
-Saving debug log to /var/log/letsencrypt/letsencrypt.log
-Plugins selected: Authenticator manual, Installer None
-Please enter in your domain name(s) (comma and/or space separated)  (Enter 'c'
-to cancel): *.ramoo.net
-```
-
-## DNS TXT 레코드 추가
-
-Certbot이 안내한 이름과 값으로 TXT 레코드를 등록한다. 아래 값은 당시 실행 결과다. 다음 발급 때는 새로 출력된 값을 써야 한다.
-
-```text
-Cert is due for renewal, auto-renewing...
-Renewing an existing certificate for *.ramoo.net
-Performing the following challenges:
-dns-01 challenge for ramoo.net
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Please deploy a DNS TXT record under the name
-_acme-challenge.ramoo.net with the following value:
-
-IfxVNiyITgNqAAyfb6hVlRZ0PIKqIHxZD_Li-isWfbs
-
-Before continuing, verify the record is deployed.
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Press Enter to Continue
-```
-
-NAS에서 DNS 서버를 운영하고 있어서 여기에 추가했다.
-
-![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 1](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-01.png)
-
-Certbot에 출력된 값으로 레코드를 등록한다.
-
-![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 2](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-02.png)
-
-등록한 뒤 콘솔에서 Enter를 눌러 진행한다.
-
-```text
-Waiting for verification...
-Cleaning up challenges
-
-IMPORTANT NOTES:
- - Congratulations! Your certificate and chain have been saved at:
-   /etc/letsencrypt/live/ramoo.net/fullchain.pem
-   Your key file has been saved at:
-   /etc/letsencrypt/live/ramoo.net/privkey.pem
-   Your cert will expire on 2021-04-08. To obtain a new or tweaked
-   version of this certificate in the future, simply run certbot
-   again. To non-interactively renew *all* of your certificates, run
-   "certbot renew"
- - If you like Certbot, please consider supporting our work by:
-
-   Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
-   Donating to EFF:                    https://eff.org/donate-le
-```
-
-검증이 끝나면 `/etc/letsencrypt/live/ramoo.net/`에 인증서 파일이 생성된다. 필요한 파일 3개를 따로 복사해 둔다.
-
-## NAS에 인증서 적용
-
-발급한 인증서를 NAS에 가져온다.
-
-![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 3](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-03.png)
-
-![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 4](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-04.png)
-
-![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 5](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-05.png)
-
-![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 6](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-06.png)
-
-확인을 누르고 적용된 인증서를 확인한다.
-
-![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 7](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-07.png)
-
-자동 갱신도 알아봤지만, 당시에는 수동으로 3개월마다 하기로 했다. 핑계 삼아 관리도 할 겸.
-
-관련 메모: [Synology DNS Server 설정](/hobby/synology-dns-server/)
-
-
---------------------------------------------------------------------------------
-title: "TL-SG2008로 DS918+ 링크통합을 시도했다"
-url: https://www.ramoo.net/hobby/tl-sg2008-lacp/index.md
-date: "2021-01-01"
-description: DS918+의 두 LAN 포트를 쓰려고 고른 TL-SG2008. 동적 링크통합에서 오류가 나 설정을 바꿨다.
---------------------------------------------------------------------------------
-
-DS918+에는 LAN 포트가 두 개 있다. 하나만 쓰고 있자니 허전해서 둘 다 써 볼 생각으로 LACP를 구성해 보기로 했다.
-
-LACP를 지원하는 스위치를 찾다가 TL-SG2008을 골랐다.
-
-## 가격이 마음에 들었다
-
-집에서 취미로 쓰는 장비라 비싼 제품은 부담스럽다. 당시에는 국내에서 7만 원 이하로 살 수 있었다. 2020년 12월 구매 기준이다.
-
-![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 1](/images/server/blog-nas/tl-sg2008-lacp/photo-01.jpg)
-
-제품 사양의 프로토콜 항목에 `IEEE 802.3ad`가 있는지 봤다. 링크통합을 지원하는지 확인하면서 살펴본 부분이다.
-
-![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 2](/images/server/blog-nas/tl-sg2008-lacp/photo-02.png)
-
-## 실제 연결 결과
-
-생각처럼 동작할까 싶어서 연결했다.
-
-![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 3](/images/server/blog-nas/tl-sg2008-lacp/photo-03.png)
-
-동적 Link Aggregation에서는 오류와 경고가 나왔다. 결국 원문에서 'v1'이라고 적어 둔 방식으로 바꿔 사용했다. 당시 기록에는 그 설정 이름을 더 자세히 남기지 않았다.
-
-![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 4](/images/server/blog-nas/tl-sg2008-lacp/photo-04.png)
-
-아쉬움은 있지만 가격을 생각하면 용서가 된다.
-
-
---------------------------------------------------------------------------------
-title: "LG 43UN700 43인치 4K 모니터 실사용기 — 맥북 연결 및 CalDigit DP 색상 왜곡 해결법"
-url: https://www.ramoo.net/hobby/lg-43un700-monitor/index.md
-date: "2021-01-01"
-description: 큰 화면과 USB-C 허브 기능은 편했다. CalDigit TS3 Plus에 연결했을 때 붉게 보이던 화면은 DP 설정을 바꿔 해결했다.
---------------------------------------------------------------------------------
-
-LG 43UN700을 약 2주 사용하고 적은 후기다. 설치 기사가 빠르게 설치해 주고 가서 언박싱 사진은 없다.
-
-## 크기
-
-회사에서 40인치 커브드 모니터를 쓰고 있어 큰 화면 자체는 익숙했다. 42.5인치라 조금 더 큰 느낌이지만 적당해 보였다.
-
-![LG 43UN700 모니터, 2주 사용 기록 — 화면 1](/images/off-duty/lg-43un700-monitor/photo-01.jpg)
-
-모니터 아래에 놓인 CalDigit TS3 Plus와 비교하면 크기가 짐작된다.
-
-## 색상 때문에 한참 헤맸다
-
-기존 모니터의 색감이 좋지 않아 MacBook 화면과 맞추는 데 시간을 쓰곤 했다. 그래서 이번에는 색상을 중요하게 봤다.
-
-![LG 43UN700 모니터, 2주 사용 기록 — 화면 2](/images/off-duty/lg-43un700-monitor/photo-02.png)
-
-그런데 연결하니 화면이 붉게 보였다. 방법을 찾아보고 서비스센터에도 문의했지만 제품에는 이상이 없다는 답변이었다. 아마존 후기에서도 비슷한 이야기를 보고 며칠은 그냥 쓰다가 원인을 찾았다.
-
-내 구성에서는 모니터의 DP 버전과 CalDigit TS3 Plus 연결이 관련 있었다. 모니터의 DP 설정을 1.2로 낮춘 뒤 원하는 색상을 볼 수 있었다. USB-C로 연결했는데 왜 DP 단자 설정의 영향을 받는지는 당시에도 잘 모르겠었다.
-
-DP 1.4에서 HDR이 자동으로 켜지면 색상 조정 메뉴를 쓸 수 없어 더 답답했다.
-
-![LG 43UN700 모니터, 2주 사용 기록 — 화면 3](/images/off-duty/lg-43un700-monitor/photo-03.png)
-
-## 연결과 편의 기능
-
-USB 허브 기능이 의외로 마음에 들었다. USB-C 하나로 화면과 USB 기기를 연결해서 별도 허브를 치웠다.
-
-![LG 43UN700 모니터, 2주 사용 기록 — 화면 4](/images/off-duty/lg-43un700-monitor/photo-04.png)
-
-앱으로 모니터를 제어하는 기능도 있었다. 여러 입력을 쓰면 편하겠지만 MacBook 하나만 연결해서 실제로 써 보지는 않았다.
-
-![LG 43UN700 모니터, 2주 사용 기록 — 화면 5](/images/off-duty/lg-43un700-monitor/photo-05.png)
-
-높이 조절이 없는 것은 아쉽다. 큰 모니터를 책상에 올려 놓으면 높이를 낮춰야 편한데, 위를 올려다보게 되면 불편하다.
-
-![LG 43UN700 모니터, 2주 사용 기록 — 화면 6](/images/off-duty/lg-43un700-monitor/photo-06.png)
-
-큰 화면과 USB-C 연결, 별도 스피커가 필요 없을 정도의 소리는 괜찮았다. 다만 모니터가 두꺼워 TV 프레임을 그대로 쓴 것 같은 느낌이었다.
-
-
---------------------------------------------------------------------------------
-title: "ipTIME A3004NS-M 가성비 기가 와이파이 공유기 실사용기: 간이 NAS 끄고 공유기로만 쓴 이유"
-url: https://www.ramoo.net/hobby/iptime-a3004ns-m/index.md
-date: "2020-07-26"
-description: VPN과 USB 간이 NAS에서는 문제가 있었지만, 공유기 기능만 쓰니 안정적이었다. 2020년 사용 기록.
---------------------------------------------------------------------------------
-
-사용하던 공유기가 오래돼서 ipTIME A3004NS-M을 골랐다. 가격과 기능을 보고 적당하겠다 싶어 산 5만 원대 가정용 공유기다.
-
-![ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다 — 화면 1](/images/server/blog-nas/iptime-a3004ns-m/photo-01.png)
-
-우연히 같은 제품을 두 개 샀다. 거실에 놓고 쓴 지 1년쯤 됐을 때의 기록이다.
-
-## VPN과 간이 NAS는 포기
-
-처음 한두 달은 회사에서 VPN이 필요해서 써 봤다. 연결이 하루를 못 가고 자주 끊겨서 포기했다.
-
-USB 3.0에 저장 장치를 붙여 간이 NAS로도 써 봤지만, 3개월을 못 가고 제품이 먹통이 됐다.
-
-고장 난 제품은 A/S를 보내고, 다른 한 대를 거실에 두었다. 이번에는 공유기 기능 외에는 쓰지 않았다.
-
-![ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다 — 화면 2](/images/server/blog-nas/iptime-a3004ns-m/photo-02.png)
-
-## 공유기로만 쓰니 안정적이었다
-
-그렇게 8개월 동안 한 번도 끊기지 않고 돌아갔다. 당연한 일이라고 할 수도 있지만 기대가 크지 않았던 만큼 의외로 만족했다.
-
-고장 났던 제품은 일반 인터넷 연결도 자주 끊겨 새벽에 재부팅하도록 설정해 쓰고 있었다.
-
-사용량이 많지는 않았다. BTV, 인터넷, 휴대폰 3~4대, NAS 연결, 가끔 토렌트 정도다. 내 환경에서는 공유기 본래 기능만 쓸 때 꽤 잘 버텼다.
-
-
---------------------------------------------------------------------------------
-title: "C++11 push_back vs emplace_back 차이점과 객체 생성 최적화 원리"
-url: https://www.ramoo.net/hobby/cpp11-emplace/index.md
-date: "2020-04-17"
-description: 생성자 인자를 바로 넘겨 원소를 만드는 emplace_back과 push_back을 비교한 코드 조각.
---------------------------------------------------------------------------------
-
-`vector`에 원소를 넣을 때 보통 `push_back`을 쓴다. C++11에서는 생성자 인자를 바로 전달할 수 있는 `emplace_back`도 있다.
-
-당시 적어 둔 비교 예제다. `AClass` 정의는 생략된 코드 조각이다.
-
-```cpp
-void main(){
-    std::vector<AClass> vA;
-    va.push_back(AClass(1,"a"));
-}
-```
-
-```cpp
-void main(){
-    std::vector<AClass>	va;
-    va.emplace_back(1,"a");
-}
-```
-
-`emplace_back`은 컨테이너 안에서 원소를 생성한다. 임시 객체를 만든 뒤 옮기는 일을 줄일 수 있다는 점을 기억해 둔다.
-
-다만 `vector`가 커지면서 재할당되면 기존 원소의 이동이나 복사가 생길 수 있으니, 호출 전체에서 이동이 전혀 없다고 생각하면 안 된다.
-
-
---------------------------------------------------------------------------------
-title: "SSL For Free에서 와일드카드 인증서를 받았던 기록"
-url: https://www.ramoo.net/hobby/synology-wildcard-sslforfree/index.md
-date: "2019-12-11"
-description: 2019년에 SSL For Free에서 와일드카드 인증서를 발급했던 기록. 이후에는 Mac의 Certbot으로 바꿨다.
---------------------------------------------------------------------------------
-
-블로그를 처음 만들 때 인증서를 살 생각으로 가격을 알아봤다. 여러 도메인을 쓰려니 비용이 올라가 최소 30만 원 이상이 필요해서 무료 발급 방법을 찾았다.
-
-당시에는 SSL For Free에서 와일드카드 인증서를 받을 수 있었다. 대신 3개월마다 갱신해야 했다. 아래는 2019년에 이용했던 화면과 절차다.
-
-## 도메인 입력
-
-[SSL For Free](https://www.sslforfree.com/)에 접속해 원하는 도메인을 입력했다. 와일드카드는 `*.도메인이름` 형식으로 넣는다.
-
-![SSL For Free에서 와일드카드 인증서를 받았던 기록 — 화면 1](/images/server/blog-nas/synology-wildcard-sslforfree/photo-01.png)
-
-## TXT 레코드로 도메인 확인
-
-수동 도메인 확인을 선택해서 TXT 레코드를 받는다.
-
-![SSL For Free에서 와일드카드 인증서를 받았던 기록 — 화면 2](/images/server/blog-nas/synology-wildcard-sslforfree/photo-02.png)
-
-도메인을 관리하는 DNS에 안내된 TXT 레코드를 추가한다. 당시 화면에서는 TTL을 1로 설정하라고 했지만 설정 항목이 없어 반영될 때까지 기다렸다.
-
-입력한 도메인의 `_acme-challenge` 확인 버튼으로 레코드가 조회되는지 확인한 뒤 인증서를 다운로드했다.
-
-메일 주소를 입력하면 만료 전에 알림을 받을 수 있다고 했다.
-
-이후에는 Mac에서 직접 발급하는 방식으로 바꿨다. 그 기록은 [Certbot으로 발급해 NAS에 적용한 메모](/hobby/synology-wildcard-certbot-mac/)에 남겼다.
-
-
---------------------------------------------------------------------------------
-title: "시놀로지 DS918+ RAM 메모리 16GB 업그레이드 방법 및 호환 메모리 확인기"
-url: https://www.ramoo.net/hobby/ds918-memory-upgrade/index.md
-date: "2019-11-02"
-description: DS918+에 CT2K102464BF186D 메모리를 장착한 기록. 사용 중 느낀 변화와 남은 기존 메모리 이야기.
---------------------------------------------------------------------------------
-
-DS918+를 사고 메모리를 늘리려고 알아봤다. 아무 메모리나 사서 꽂으면 되는 것은 아니어서 아래 모델을 골랐다.
-
-```text
-DDR3L 1866 MT/s (PC3-14900)
-Unbuffered SODIMM 204-Pin
-CT2K102464BF186D
-```
-
-![DS918+ 메모리 업그레이드 — 화면 1](/images/server/blog-nas/ds918-memory-upgrade/photo-01.jpeg)
-
-아마존에서 샀다. 처음에는 8GB 하나만 사려고 했는데, 해외에서 오는 김에 세트로 주문했다.
-
-## 장착 후
-
-메모리 용량이 많이 남았다. 돈을 너무 쓴 건 아닌가 싶었지만 체감상 확실히 빠릿해진 느낌이었다.
-
-![DS918+ 메모리 업그레이드 — 화면 2](/images/server/blog-nas/ds918-memory-upgrade/photo-02.png)
-
-당시 사용 중에는 안정적으로 동작했다. 메모리가 넉넉하니 이것저것 올리는 데 부담이 줄어 만족했다.
-
-기존 Synology 4GB 메모리는 어떻게 처분할지 고민이었다.
-
-
---------------------------------------------------------------------------------
-title: "macOS 카탈리나에서 아이튠즈(iTunes) 사라졌을 때 아이폰 백업 및 동기화 방법"
-url: https://www.ramoo.net/hobby/macos-catalina-itunes/index.md
-date: "2019-11-01"
-description: iTunes를 찾다가 Catalina에서는 Finder로 기기를 동기화한다는 것을 알게 됐다.
---------------------------------------------------------------------------------
-
-개발하다 앱에 파일을 올릴 일이 있어 iTunes를 찾았는데 아무리 봐도 없었다.
-
-![Catalina에서 사라진 iTunes를 찾다가 — 화면 1](/images/off-duty/macos-catalina-itunes/photo-01.png)
-
-macOS Catalina에서는 iTunes의 기능이 나뉘고, 기기 동기화는 Finder에서 할 수 있었다.
-
-Finder를 열면 왼쪽에 연결한 기기가 나타난다. 선택하면 예전에 iTunes에서 보던 동기화 화면이 나온다.
-
-![Catalina에서 사라진 iTunes를 찾다가 — 화면 2](/images/off-duty/macos-catalina-itunes/photo-02.png)
-
-찾았으니 이제 하던 일을 계속한다.
-
-
---------------------------------------------------------------------------------
-title: "Mac Finder 숨김 파일·폴더 보기 단축키(Cmd+Shift+.) 및 터미널 명령어 정리"
-url: https://www.ramoo.net/hobby/mac-finder-hidden-files/index.md
-date: "2019-10-29"
-description: 한 번 설정하고 잊기 쉬운 Finder 숨김 파일 표시 명령과 재실행 방법.
---------------------------------------------------------------------------------
-
-Finder에서 숨김 파일을 표시하는 명령을 적어 둔다. 한 번 설정하면 다시 만질 일이 별로 없어서 잊기 쉽다.
-
-터미널에서 실행한다.
-
-```bash
-defaults write com.apple.Finder AppleShowAllFiles TRUE
-```
-
-Finder를 다시 실행하면 숨김 파일이 보인다.
-
-```bash
-killall Finder
-```
-
-
---------------------------------------------------------------------------------
-title: "Mac에 Jenkins를 설치했던 기록"
-url: https://www.ramoo.net/hobby/mac-jenkins-install/index.md
-date: "2019-10-29"
-description: Homebrew로 Jenkins를 설치하고 Java 8 오류를 해결했던 2019년 기록.
---------------------------------------------------------------------------------
-
-2019년에 Mac에 Jenkins를 설치했던 기록이다. 당시 Homebrew와 Java 8을 기준으로 적어 둔 명령이다.
-
-## Homebrew 설치
-
-이미 설치되어 있다면 넘어간다. 당시 사용한 설치 명령은 아래와 같다.
-
-```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-## Jenkins 설치
-
-```bash
-brew install jenkins
-```
-
-설치 중 다음 오류를 만났다.
-
-```text
-jenkins: Java 1.8 is required to install this formula.
-Install AdoptOpenJDK 8 with Homebrew Cask:
-brew cask install homebrew/cask-versions/adoptopenjdk8
-Error: An unsatisfied requirement failed this build.
-```
-
-Java 8을 설치한 뒤 다시 진행했다.
-
-```bash
-brew cask install homebrew/cask-versions/adoptopenjdk8
-```
-
-설치가 끝나면 `http://localhost:8080`에서 확인한다. 초기 비밀번호는 사용자 폴더의 `.jenkins/secrets/initialAdminPassword`에서 찾는다.
-
-## 접속 주소와 포트
-
-아래 경로로 이동했다.
-
-```bash
-cd /usr/local/opt/jenkins
-```
-
-Xcode로 `homebrew.mxcl.jenkins.plist`를 열어 주소와 포트를 바꿨다.
-
-![Mac에 Jenkins를 설치했던 기록 — 화면 1](/images/off-duty/mac-jenkins-install/photo-01.png)
-
-```text
---httpListenAddress=127.0.0.1 → --httpListenAddress=0.0.0.0
---httpPort=8080 → --httpPort=9090
-```
-
-그 뒤 포트 포워딩이나 nginx 리버스 프록시를 통해 접속하는 구성을 생각했다.
-
-
---------------------------------------------------------------------------------
-title: "시놀로지(Synology) NAS 해외 IP 및 특정 국가 접속 차단 방화벽 설정 방법"
-url: https://www.ramoo.net/hobby/synology-region-firewall/index.md
-date: "2019-10-27"
-description: 반복되는 admin 로그인 시도를 보고 DSM 방화벽에서 지역별 규칙을 만들었다. 이후 특정 포트만 차단하도록 바꿨다.
---------------------------------------------------------------------------------
-
-NAS에 admin 계정으로 로그인하려는 흔적이 계속 보여서 IP 위치를 찾아봤다.
-
-[IP 주소를 지도에서 확인하는 도구](https://www.ipvoid.com/ip-to-google-maps/)
-
-2단계 인증을 켜 두고 비밀번호도 간단하게 쓰지 않았지만, 계속 시도가 보이니 기분이 좋지는 않았다.
-
-## DSM 방화벽 설정
-
-하는 김에 방화벽에서 특정 지역을 차단했다.
-
-`DSM > 제어판 > 보안 > 방화벽 > 방화벽 프로파일 규칙 편집`
-
-![Synology NAS에서 특정 지역 접속을 차단했다 — 화면 1](/images/server/blog-nas/synology-region-firewall/photo-01.png)
-
-![Synology NAS에서 특정 지역 접속을 차단했다 — 화면 2](/images/server/blog-nas/synology-region-firewall/photo-02.png)
-
-지역이나 IP 주소로 규칙을 만들 수 있었다.
-
-처음에는 모든 포트를 막았는데, 다시 생각해 보니 그럴 필요는 없을 것 같았다. 글을 쓴 뒤 특정 포트만 차단하는 것으로 바꿨다.
-
-## 내 네트워크의 IP 확인
-
-지금 사용하는 인터넷 연결의 IP와 추정 위치는 [내 IP 주소 확인하기 — 공인 IP·통신사·위치 지도](/hobby/check-my-ip/)에서 볼 수 있습니다. 현재 방문자의 연결을 조회하는 도구이며, 위에서 사용한 임의 IP 위치 조회 도구와는 용도가 다릅니다.
-
-
---------------------------------------------------------------------------------
-title: "맥 타임머신(Time Machine) 최초 백업 속도 느릴 때 원인과 해결 팁"
-url: https://www.ramoo.net/hobby/mac-time-machine-speed/index.md
-date: "2019-09-26"
-description: 업데이트 문제를 Time Machine으로 복원한 뒤 백업 속도를 조정해 본 기록.
---------------------------------------------------------------------------------
-
-Mac을 업데이트하다 한 번 날려 먹은 적이 있다. 그때 Time Machine으로 복원하고 안도의 한숨을 쉬었다.
-
-이후로 꾸준히 백업하고 있지만 속도가 느려서, 당시 찾아 쓴 명령을 적어 둔다.
-
-```bash
-sudo sysctl debug.lowpri_throttle_enabled=0
-```
-
-낮은 우선순위 작업의 제한을 조정하는 설정이다. 내 환경에서는 엄청나게 빨라지는 정도는 아니었지만 어느 정도 효과가 있었다.
-
-
---------------------------------------------------------------------------------
 title: "News"
 url: https://www.ramoo.net/news/index.md
 description: 시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
 --------------------------------------------------------------------------------
 시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
+
+--------------------------------------------------------------------------------
+title: "Trump Feeling the Heat? The $5,000 Midterm Pitch Has Entered the Chat"
+url: https://www.ramoo.net/news/trump-5000-midterms-en/index.md
+date: "2026-10-19"
+description: Trump’s $5,000 midterm promise, red-state rallies, and what a Republican defeat could mean for legislation, appointments, and his remaining presidency.
+--------------------------------------------------------------------------------
+
+The November 3 midterms are getting closer, and Donald Trump has brought a very large number to the campaign: **US$5,000 (about ₩6.71 million at the October 9, 2026 exchange rate)**.
+
+For a president trying to help his party hold Congress, it is certainly an attention grabber. But is this a confidence move—or the political equivalent of hitting the big red button?
+
+*News roundup and personal commentary, checked October 19, 2026. The quotation below is brief; the other news excerpts are summaries, not copied articles or social-media posts.*
+
+![Original editorial cartoon of Trump pulling a long ribbon of $5,000 promise coupons while a Republican elephant checks a clipboard marked Congress](/static-images/news/trump-5000-midterms-cartoon.webp)
+
+*An original AI-generated editorial illustration, not a photograph of an actual event.*
+
+## News reshared: a $5,000 promise, with a very large “if”
+
+> “we’re going to get you $5,000”
+>
+> — Donald Trump, quoted in [AP’s September 18 report](https://www.ap.org/news-highlights/elections/2026/trump-pushes-his-5000-dividend-pledge-if-gop-wins-midterms-republican-candidates-not-as-much/).
+
+The offer was conditional on Republicans keeping both chambers of Congress. AP found little sign that competitive-race candidates were making the pledge their own; Democrats questioned whether it would materialize. **That is a campaign promise, not an approved payment.** [AP, September 18](https://www.ap.org/news-highlights/elections/2026/trump-pushes-his-5000-dividend-pledge-if-gop-wins-midterms-republican-candidates-not-as-much/)
+
+[The Guardian reported accusations of vote-buying](https://www.theguardian.com/us-news/2026/sep/10/trump-5000-midterm-cash-dividend-response). That describes critics’ reaction, not a criminal conviction.
+
+There is also an awkward institutional detail. House Speaker Mike Johnson said Congress would need to approve the proposal, while Trump had suggested otherwise. AP reported a potential price tag above US$1 trillion (about ₩1,342 trillion at the same exchange rate). [AP, September 13](https://www.ap.org/news-highlights/elections/2026/house-speaker-mike-johnson-says-trumps-5000-dividend-needs-congressional-approval/)
+
+**My take:** the headline fits on a campaign sign. The funding plan, eligibility rules, and legislative votes need a little more room.
+
+KRW equivalents use **₩1,342.13 per US$1 on October 9, 2026**, from the [Federal Reserve exchange-rate series DEXKOUS on FRED](https://fred.stlouisfed.org/series/DEXKOUS). US$5,000 converts to ₩6,710,650, rounded above to ₩6.71 million. The observation date differs from this article’s publication date; conversion fees are excluded.
+
+## News reshared: why start with the home crowd?
+
+AP’s September 25 reporting described an early-October itinerary beginning in **Alabama and Oklahoma**, after Trump promised visits to **35 competitive races**. Organizers said the locations could also reach neighboring media markets. This was a report about that itinerary—not proof that every battleground visit was canceled. [AP reporting, republished by WBHM](https://www.wbhm.org/local-news/2026-09-27/trump-said-he-would-campaign-in-midterm-battlegrounds-hell-be-in-deep-red-alabama-instead)
+
+“Thirty-five races” does not mean 35 swing states. And Texas was part of the neighboring-market rationale for the Oklahoma stop, rather than the second location in that reported pair.
+
+**My read:** big crowds have two possible jobs: project momentum and persuade people who already like you to actually show up. A rally can look like a victory lap while doing defensive work. That is an interpretation of the strategy, not a window into Trump’s private state of mind.
+
+## The pressure behind the performance
+
+The October 8–12 AP-NORC survey found **36% job approval among registered voters**. On preferred House control, Democrats led Republicans **47% to 38%**. The overall study interviewed 1,119 adults; those voter figures are a subgroup. A national preference poll is not a seat forecast. [AP-NORC, October 15](https://apnorc.org/projects/ahead-of-the-midterms-most-voters-cite-the-economy-and-cost-of-living-as-top-issues-and-favor-political-change/)
+
+That gives the “feeling the heat?” question some substance. It does not establish that any single issue caused the approval number, or that the election is already decided.
+
+## If Republicans lose, what happens next?
+
+*The following is my scenario analysis, not a forecast from AP or a claim that the result is settled. “Lose” also needs a definition: losing one chamber and losing both produce different constraints.*
+
+### House lost, Senate held: expect a more expensive political negotiation
+
+A Democratic House would give the opposition a gatekeeping role over new legislation. Bills generally need approval from both chambers before reaching the president. [House guide to lawmaking](https://www.house.gov/the-house-explained/the-legislative-process)
+
+**My expectation:** tougher spending negotiations and more confrontational oversight. A large new payment plan would need a bargain, not just a rally announcement. A shutdown would be a risk if funding talks failed, not an automatic consequence of the election. A Republican Senate would still matter for appointments.
+
+### Senate lost: the personnel pipeline becomes a pressure point
+
+The Senate considers presidential nominations for federal judges and many senior executive positions. [Senate guide to nominations](https://www.senate.gov/about/powers-procedures/nominations.htm)
+
+**My expectation:** nominees face more resistance, negotiation, or delay. That would not automatically remove officials already in office. If Democrats took both chambers, the administration would face opposition control of both legislative agendas as well as Senate confirmations.
+
+### Both lost: confrontation, selective deals, and a fight over 2028
+
+I would expect the White House to lean harder on actions it can take under existing executive authority, while Congress presses for concessions. Those powers still have statutory and constitutional limits; executive orders are not a substitute for every blocked bill. Trump would also retain the veto, and overriding it generally requires two-thirds in each chamber. [Senate explanation of vetoes](https://www.senate.gov/about/research-tools/glossary.htm#veto)
+
+Inside the GOP, a poor result could intensify arguments over whether to defend Trump’s approach or put distance between it and the next presidential campaign. That could weaken his leverage without ending his influence over the base. Narrow deals on specific issues would remain possible; permanent gridlock is not the only scenario.
+
+### Would defeat mean impeachment—or immediate removal?
+
+No automatic chain reaction. The House can approve impeachment articles by a simple majority, but conviction and removal require two-thirds of senators present. A partisan majority alone does not establish grounds or guarantee those votes. [Senate guide to impeachment](https://www.senate.gov/about/powers-procedures/impeachment.htm)
+
+**My base case after a meaningful GOP defeat:** Trump stays president, but governing becomes more contested. The $5,000 proposal could fade, shrink, or reappear as a bargaining chip. Its condition would have failed as originally pitched; whether any revised payment emerges would depend on a new proposal and the necessary approvals. I would watch the size of the defeat, the congressional margins, and the first funding negotiations before declaring a full lame-duck presidency.
+
+## My real question: will stocks go up?
+
+After all the political drama, this is where my attention lands: **what does it mean for stocks?**
+
+My view is that **a Republican defeat would not automatically be bearish, but it would not establish a bullish case either**. Fidelity’s midterm analysis emphasizes policy uncertainty and fundamentals such as earnings, business investment, and economic conditions over the winning party. Historical post-election gains are not a promise about this election. [Fidelity on midterms and stocks](https://www.fidelity.com/learning-center/trading-investing/the-surprising-truth-about-midterms-and-stocks)
+
+**Here are the paths I would watch—not price forecasts:**
+
+- **A supportive outcome:** a clear result reduces uncertainty about major policy changes, while interest rates stabilize and corporate earnings improve. Political gridlock could coexist with rising share prices.
+- **A difficult outcome:** prolonged funding fights or renewed tariff and foreign-policy conflict raises business costs and inflation concerns. Divided government would not make those risks disappear.
+- **An expected outcome:** if markets had already anticipated a GOP defeat, the next earnings outlook or move in yields could matter more than the result itself.
+
+The $5,000 proposal is also more complicated than “cash payments lift stocks.” Spending could support consumption, while additional fiscal, inflation, or interest-rate pressure could work against valuations. Scrapping payments could reduce both the expected consumption boost and the fiscal burden. **Those are competing mechanisms in my scenario, not a quantified forecast.**
+
+I would watch **Treasury yields, earnings expectations, and actual policy proposals** before treating a victory speech as a market signal. A broad index and an individual company need not react alike.
+
+**My conclusion: political gridlock is not an automatic sell signal. Less election uncertainty, stable rates, and improving earnings could create room for gains.** The election result alone leaves too many variables unresolved to make it my reason to buy. I am watching the politics, but looking to earnings and rates for the investment story.
+
+
+--------------------------------------------------------------------------------
+title: "트럼프 다급했나? ‘공화당 이기면 5,000달러’ 공약 등판"
+url: https://www.ramoo.net/news/trump-5000-midterms-ko/index.md
+date: "2026-10-19"
+description: 트럼프의 5,000달러 공약과 텃밭 유세를 외신으로 짚고, 공화당이 하원·상원에서 패배할 경우의 입법·인사·탄핵 변수를 개인적인 시나리오로 살펴봅니다.
+--------------------------------------------------------------------------------
+
+11월 3일 미국 중간선거가 다가오는데, 트럼프가 선거판에 꽤 큼직한 숫자를 꺼내 들었다. **5,000달러(한화 약 671만 원, 2026년 10월 9일 환율 기준).**
+
+공화당이 의회를 지키면 돈을 주겠다는 이야기다. 관심 끄는 능력 하나는 여전하다. 그런데 이거, 자신감의 표현일까? 아니면 선거판의 빨간 비상 버튼을 누른 걸까?
+
+*2026년 10월 19일 확인한 기사들을 짧게 옮겨 읽고 개인적인 생각을 붙였다. 아래 직접 인용 외에는 기사 요약이며, 실제 SNS 게시물을 재현한 것은 아니다.*
+
+![5,000달러 공약 쿠폰을 길게 뽑는 트럼프와 의회 승인 여부를 확인하는 공화당 코끼리를 그린 독자 제작 시사 카툰](/static-images/news/trump-5000-midterms-cartoon.webp)
+
+*AI로 제작한 독자적인 시사 풍자 그림이다. 실제 현장 사진이나 돈을 주고받은 장면이 아니다.*
+
+## 기사 리트윗 ① 5,000달러라니, 그런데 조건이 붙습니다
+
+> “여러분에게 5,000달러를 드리겠습니다.”
+>
+> — [AP 9월 18일 기사](https://www.ap.org/news-highlights/elections/2026/trump-pushes-his-5000-dividend-pledge-if-gop-wins-midterms-republican-candidates-not-as-much/)에 실린 트럼프 발언 일부를 번역.
+
+조건은 **공화당의 상·하원 유지**다. AP에 따르면 경합 지역 후보들이 이 공약을 전면에 내세우는 움직임은 제한적이었고, 민주당은 실제 이행 여부를 의심했다. **이미 지급이 확정된 지원금으로 받아들이면 곤란하다.** [AP · 9월 18일](https://www.ap.org/news-highlights/elections/2026/trump-pushes-his-5000-dividend-pledge-if-gop-wins-midterms-republican-candidates-not-as-much/)
+
+[가디언은 ‘매표’ 비판을 전했다](https://www.theguardian.com/us-news/2026/sep/10/trump-5000-midterm-cash-dividend-response). 이는 비판자들의 평가이며, 위법 판결을 뜻하지 않는다.
+
+현실적인 관문도 있다. 마이크 존슨 하원의장은 의회 승인이 필요하다고 밝혔지만, 트럼프는 앞서 다른 취지로 말했다. AP가 전한 예상 비용은 1조 달러(한화 약 1,342조 원, 같은 날짜 환율 기준)를 넘는다. [AP · 9월 13일](https://www.ap.org/news-highlights/elections/2026/house-speaker-mike-johnson-says-trumps-5000-dividend-needs-congressional-approval/)
+
+공약 문구는 현수막 한 장이면 끝난다. 재원과 지급 대상, 의회 표결까지 적으려면 현수막이 꽤 길어지겠다.
+
+한화 환산은 [미 연준 환율 자료를 제공하는 FRED의 DEXKOUS](https://fred.stlouisfed.org/series/DEXKOUS)에서 확인한 **2026년 10월 9일 1달러=1,342.13원**을 적용했다. 5,000달러는 6,710,650원으로, 읽기 쉽게 약 671만 원으로 반올림했다. 환율 관측일과 글 작성일은 다르며 실제 환전 수수료는 반영하지 않았다.
+
+## 기사 리트윗 ② 경합지보다 먼저 간다는 곳이 ‘우리 동네’?
+
+AP의 9월 25일 보도는 ‘35개 경합 선거 방문’ 약속과 달리, 10월 초 일정이 **앨라배마·오클라호마**에서 시작한다고 전했다. 주최 측은 인접 지역의 미디어 시장에도 영향을 줄 수 있다고 설명했다. 당시 동선에 관한 보도이지, 모든 경합지 방문을 취소했다는 확인은 아니다. [AP 보도 · WBHM 재게재](https://www.wbhm.org/local-news/2026-09-27/trump-said-he-would-campaign-in-midterm-battlegrounds-hell-be-in-deep-red-alabama-instead)
+
+여기서 두 가지는 구분해야 한다.
+
+- **35개 경합주가 아니라 35개 경합 선거·선거구**다.
+- 보도된 두 방문지는 **앨라배마와 오클라호마**다. 텍사스는 오클라호마 방문의 인접 미디어 시장 설명에 등장한다.
+
+**필자가 느낀점:** 내 편이 많은 곳에서 큰 함성을 만드는 일에는 두 가지 효과를 기대할 수 있다. 기세가 살아 있다는 그림을 만들고, 원래 좋아하던 사람을 투표장까지 움직이게 하는 것. 겉으로는 축제인데, 속으로는 집안 단속일 수도 있다는 이야기다.
+
+다만 이건 동선에 대한 해석이다. 트럼프 본인의 속마음을 확인했다는 뜻은 아니다.
+
+## 숫자를 보면 ‘다급했나?’라는 말이 나오는 이유
+
+10월 8~12일 AP-NORC 조사에서 **등록 유권자의 트럼프 직무 지지율은 36%**였다. 하원 다수당 선호는 **민주당 47%, 공화당 38%**였다. 전체 조사는 성인 1,119명을 대상으로 했으며, 위 수치는 그중 등록 유권자에 관한 결과다. 전국 단위 선호가 곧 의석수 예측은 아니다. [AP-NORC · 10월 15일](https://apnorc.org/projects/ahead-of-the-midterms-most-voters-cite-the-economy-and-cost-of-living-as-top-issues-and-favor-political-change/)
+
+그러니 선거 전략이 급해 보인다는 해석에는 근거가 있다. 그렇다고 국채나 대외 정세 중 어느 하나가 이 숫자를 만들었다고 단정하거나, 벌써 승패가 끝났다고 말할 수는 없다.
+
+## 그래서 공화당이 지면? 대통령은 남지만, 협상은 더 어려워진다
+
+*아래는 외신이 확정한 미래가 아니라, 의회 제도를 바탕으로 정리한 개인적인 시나리오다. ‘패배’도 하원만 잃는지, 상원까지 잃는지부터 나눠 봐야 한다.*
+
+### 하원만 내주면: 법안마다 야당과 가격 협상
+
+민주당이 하원을 차지하면 새 법안을 통과시키는 길목에 야당이 서게 된다. 일반적인 법률안은 상·하원 모두의 승인을 거쳐 대통령에게 간다. [미 하원 입법 절차 안내](https://www.house.gov/the-house-explained/the-legislative-process)
+
+**내 예상:** 지출 협상은 더 팽팽해지고, 행정부를 겨냥한 조사·청문회 공방도 거칠어질 가능성이 있다. 거액의 현금 지급안 역시 유세장에서 선언한 뒤 밀어붙이기보다, 야당과 조건을 맞추는 과제가 될 것 같다. 예산 협상이 깨지면 셧다운 위험이 커질 수 있지만, 선거에서 졌다고 자동으로 정부가 멈추는 것은 아니다. 상원을 지킨다면 인사 문제에서는 여전히 공화당이 중요한 역할을 한다.
+
+### 상원을 내주면: 사람 임명하는 일부터 까다로워진다
+
+연방 판사와 주요 행정부 인사의 지명은 상원의 인준 대상이다. [미 상원 인준 권한 안내](https://www.senate.gov/about/powers-procedures/nominations.htm)
+
+**내 예상:** 지명자마다 반발과 협상, 인준 지연이 늘어날 수 있다. 이미 일하는 인사들이 선거 결과만으로 자동 해임되는 것은 아니다. 상·하원을 모두 잃으면 입법 의제와 상원 인준 양쪽에서 야당의 견제를 받게 된다.
+
+### 양원 모두 내주면: 강대강 공방 속에 작은 거래가 남을 듯
+
+개인적으로는 백악관이 기존 행정 권한으로 할 수 있는 조치에 더 기대고, 의회는 양보를 요구하는 장면이 많아질 것 같다. 다만 행정명령에도 법률·헌법상 한계가 있으니, 막힌 법안을 전부 우회할 수 있다고 보면 곤란하다. 대통령의 거부권도 남는다. 이를 뒤집으려면 원칙적으로 상·하원 각각 3분의 2의 찬성이 필요하다. [미 상원 거부권 안내](https://www.senate.gov/about/research-tools/glossary.htm#veto)
+
+공화당 안에서는 ‘트럼프 노선을 더 지켜야 하나, 다음 대선을 생각해 거리를 둬야 하나’라는 책임 공방이 커질 수 있다. 그렇다고 강성 지지층에 대한 영향력까지 곧바로 사라진다고 보기는 어렵다. 사안마다 작은 타협을 하는 길도 남아 있으니, 무조건 모든 국정이 마비된다고 예측하고 싶지는 않다.
+
+### 그럼 탄핵? 선거 패배에서 곧바로 이어지는 코스는 아니다
+
+하원의 탄핵소추 의결은 단순 과반으로 가능하지만, 상원에서 유죄 판단과 파면에 이르려면 출석 의원 3분의 2가 필요하다. 야당이 다수당이 됐다는 사실만으로 탄핵 사유나 그 표가 확보되는 것은 아니다. [미 상원 탄핵 절차 안내](https://www.senate.gov/about/powers-procedures/impeachment.htm)
+
+**공화당이 의미 있는 패배를 했을 때 내가 우선 예상하는 그림은 ‘대통령직 유지 + 더 어려워진 국정 운영’이다.** 5,000달러 공약은 흐지부지되거나 규모를 줄여 다시 나오거나, 협상 카드가 될 수 있다. 원래 내건 승리 조건은 성립하지 않았을 테니, 수정된 지급안이 나온다면 별도의 설계와 필요한 승인이 관건이다. 패배 폭과 의석 차이, 첫 예산 협상을 보고 나서야 ‘레임덕’의 깊이도 가늠할 수 있지 않을까.
+
+## 결국 내가 궁금한 건 하나다. 그래서 주식은 오를까?
+
+정치 이야기를 길게 했지만, 솔직히 내 관심은 여기로 돌아온다. **그래서 내 주식에는 좋은 일이냐는 것.**
+
+내 생각은 **‘공화당 패배가 곧 증시 악재는 아니다. 다만 그것만으로 상승을 점칠 수도 없다’** 쪽이다. 피델리티는 중간선거와 증시의 관계를 설명하면서, 어느 당이 이겼느냐보다 정책 불확실성과 기업 이익·투자·경기 여건을 더 중요하게 봤다. 과거 선거 뒤 상승 사례가 이번에도 오른다는 보장은 아니다. [Fidelity · 중간선거와 주식시장](https://www.fidelity.com/learning-center/trading-investing/the-surprising-truth-about-midterms-and-stocks)
+
+**내가 나눠 볼 시나리오는 이렇다.** 아래는 가격 예측이 아니라 가능한 경로다.
+
+- **상승에 우호적인 쪽:** 결과가 명확하게 확정되고, 시장이 우려하던 급격한 정책 변화 가능성이 줄어드는 경우다. 여기에 금리 안정과 기업 실적 개선까지 붙는다면, 정치권은 시끄러워도 주가는 오를 수 있다고 본다.
+- **반대로 부담이 되는 쪽:** 예산 충돌과 정책 공방이 길어지거나, 관세·대외 갈등이 다시 비용과 물가를 자극하는 경우다. 분점정부라는 이름만으로 이런 위험이 사라지지는 않는다.
+- **이미 예상한 결과라면:** 공화당 패배가 주가에 어느 정도 반영돼 있었다면, 실제 결과보다 다음 실적 발표나 금리 변화에 시장이 더 크게 반응할 수도 있다.
+
+5,000달러 지급안도 ‘돈 풀면 주식 오른다’ 한 줄로 끝낼 수 없다. 소비에는 도움이 될 수 있지만, 재정·물가·금리 부담이 커진다면 주식 평가에는 반대 방향의 힘이 생길 수 있다. 지급안이 무산돼도 소비 기대와 재정 부담이 함께 줄어들 수 있으니, 어느 효과가 더 큰지 봐야 한다. **이 역시 현재 수치로 검증한 예측이 아닌 개인적인 시나리오다.**
+
+그래서 내가 먼저 볼 것은 승리 연설보다 **미 국채금리의 반응, 기업들의 이익 전망, 실제 정책안**이다. 미국 증시 전체와 개별 종목의 반응도 같다고 가정하지 않겠다.
+
+**내 결론은 ‘정치적 교착이 곧 주가 하락은 아니다. 선거 불확실성이 걷히고 금리와 실적이 받쳐주면 상승할 여지는 있다’ 정도다.** 선거 결과만 보고 매수 버튼을 누를 근거로 삼기에는, 아직 빠진 숫자가 많다. 관심은 선거에, 판단은 실적과 금리에 두고 보려 한다.
+
 
 --------------------------------------------------------------------------------
 title: "김용대 KAIST 교수님의 금융회사 보안 뚫린 이유 소설로 풍자"
@@ -3865,6 +2769,1295 @@ description: 이재명 대통령은 전국적인 폭우 피해로 인해 부산 
 
 
 --------------------------------------------------------------------------------
+title: "Hobby"
+url: https://www.ramoo.net/hobby/index.md
+description: 프로그래밍·서버 구축·개발 도구부터 맥·전자기기 사용기, 개인 NAS와 홈 네트워크 경험까지 담은 기록입니다.
+--------------------------------------------------------------------------------
+
+네트워크 연결을 확인할 때는 [내 IP 주소 확인하기 — 공인 IP 조회와 위치 지도](/hobby/check-my-ip/)에서 현재 IP와 통신사 정보를 바로 볼 수 있습니다.
+
+
+--------------------------------------------------------------------------------
+title: "Powerball Number Generator & Latest Winning Numbers"
+url: https://www.ramoo.net/hobby/powerball-number-generator/index.md
+date: "2026-10-19"
+description: Generate Powerball picks, check recent winning numbers, and explore white and red ball frequencies. Draw dates and schedules use U.S. Eastern Time.
+--------------------------------------------------------------------------------
+
+Generate Powerball picks, browse recent winning numbers, and compare your numbers with the latest result. All drawing dates and scheduled drawing times below use **U.S. Eastern Time (ET)**.
+
+{{< powerball-analyzer >}}
+
+## How the generator works
+
+Choose **five different white ball numbers from 1 to 69** and **one red Powerball from 1 to 26**. The red ball comes from a separate pool, so it can have the same number as a white ball. These are the rules described on the [official Powerball website](https://www.powerball.com/).
+
+The generator uses your browser's cryptographic random source. Each eligible white ball has an equal chance of selection within your chosen constraints; the red ball is selected separately. Fixed and excluded numbers only control which combinations the tool can generate. They do not improve the odds of winning. Generated picks stay in your browser and are not lottery entries.
+
+Use the frequency window to explore the most recent 10, 30, or 100 drawings. White ball counts and red Powerball counts are calculated separately. Past frequency, long absences, and apparent patterns do not predict a future drawing.
+
+## Drawing schedule and result updates
+
+Powerball drawings are scheduled for **Monday, Wednesday, and Saturday at 10:59 p.m. Eastern Time**, according to the [official game information](https://www.powerball.com/). Eastern Time follows U.S. daylight saving time; the next drawing shown above is a scheduled drawing, and delays are possible.
+
+Results on this page come from the [New York State Gaming Commission's public Powerball dataset](https://data.ny.gov/Government-Finance/Lottery-Powerball-Winning-Numbers-Beginning-2010/d6yy-54nr). Its metadata lists a posting frequency of three times weekly, without promising a precise posting time. This site checks at 11:25 p.m. on drawing nights, 12:25 a.m. the following day, and 9:25 a.m. daily, all in Eastern Time. These are collection targets; source publication, scheduled execution, and site deployment can be delayed. If collection fails, the last verified results and their original date remain visible.
+
+The checker reports number matches against the latest result saved on this page. It does not validate tickets, Power Play eligibility, Double Play results, or prize claims. Always confirm results and prize eligibility with your lottery's official records.
+
+## A note on independent drawings
+
+For the current 5/69 + 1/26 format, the number of possible jackpot combinations is `C(69, 5) × 26 = 292,201,338`. Every valid combination has the same jackpot probability in a fair drawing. This independent tool is for information and entertainment and is not affiliated with Powerball or a lottery operator.
+
+
+--------------------------------------------------------------------------------
+title: "로또 번호 생성기 | 최근 10회 당첨번호·미출현 번호 통계"
+url: https://www.ramoo.net/hobby/lotto-645-analyzer/index.md
+date: "2026-10-17"
+description: 동행복권 로또 6/45 최신 10회(1236회~1245회) 당첨번호 전수 분석. 11개의 미출현 번호, 최다 출현 13번, 1~45번 빈도 차트 및 통계 기반 스마트 번호 자동 추천기를 제공합니다.
+--------------------------------------------------------------------------------
+
+동행복권 로또 6/45 최근 10회차 당첨번호와 출현 통계를 바탕으로 심심해서 만들어본 추첨기입니다.
+
+로또 사러 갈 때 가볍게 훑어보거나 참고용으로 즐겨보세요. 즐로또 하세요~ ✨
+
+{{< lotto-analyzer >}}
+
+---
+
+## 추천 알고리즘 전략 간략 소개
+
+위 추첨기는 4가지 통계적 가중치를 기반으로 번호를 조합합니다.
+
+* **🎯 통계 밸런스 추천 (권장)**: 번호대 구간 분산, 번호합 100~170 구간, 홀짝 3:3 또는 2:4 균형 및 미출현수 1-2개를 적절히 배합한 최적 밸런스 조합.
+* **🔥 핫 넘버 집중 전략**: 최근 10회 동안 3회 이상 자주 출현한 빈출 번호에 가중치를 부여하여 흐름을 타는 조합.
+* **❄️ 콜드 넘버 반등 전략**: 10주간 출현하지 않은 11개의 미출현 번호 중 2-3개를 필수로 포함해 반등을 노리는 조합.
+* **⚡ 연속번호(연번) 포함 전략**: 통계상 50% 확률로 발생하는 연속된 두 숫자(N, N+1 1쌍)를 반드시 포함하는 조합.
+* **🎲 완전 무작위 랜덤**: 아무런 통계 가중치 없이 1~45번 중 순수 무작위 추출 (기계 자동 방식).
+
+원하는 번호를 **고정수**(반드시 포함)나 **제외수**(배제)로 지정해 5게임을 뽑아보세요. 모두 대박 나시길 바랍니다! 🍀
+
+
+
+--------------------------------------------------------------------------------
+title: "IPv4 CIDR·서브넷 계산기: IP 범위 확인과 클래스 A·B·C 이해하기"
+url: https://www.ramoo.net/hobby/cidr-subnet-calculator/index.md
+date: "2026-10-15"
+description: IPv4 주소와 CIDR 프리픽스로 네트워크 시작·끝, 서브넷 마스크, 브로드캐스트와 호스트 수를 계산합니다. IP 클래스 A·B·C의 의미와 방화벽·공유기 설정 예시도 설명합니다.
+--------------------------------------------------------------------------------
+
+{{< cidr-calculator >}}
+
+## 계산기 사용법과 결과 읽기
+
+**IPv4 주소와 `/24` 같은 프리픽스를 입력하면, 그 주소가 속한 네트워크의 시작과 끝을 확인할 수 있습니다.** 주소에 `192.168.1.130/26`처럼 프리픽스를 붙여도 됩니다. 이 경우 드롭다운보다 주소에 쓴 `/26`이 우선합니다.
+
+1. IP 주소를 입력하고 프리픽스를 선택한 뒤 **계산하기**를 누릅니다.
+2. **클래스 A·B·C 예시**를 누르면 해당 클래스의 역사적 기본 프리픽스와 사설 IP 예제가 채워집니다. 이후 값을 바꿔 원하는 범위를 계산할 수 있습니다.
+3. 방화벽에 넣을 범위는 **정규화된 네트워크 CIDR**과 **전체 주소 범위**를 확인합니다.
+4. 공유기에서 기기에 할당할 주소는 **호스트 주소 범위**를 참고하되, 게이트웨이와 예약 주소를 추가로 제외합니다.
+5. **CIDR 복사**로 정규화된 결과를 복사합니다. 자동 복사가 안 되는 브라우저에서는 결과를 직접 선택해 복사합니다.
+
+예를 들어 `192.168.1.130/26`의 계산 결과는 다음과 같습니다. 입력한 IP가 네트워크의 시작 주소일 필요는 없습니다.
+
+| 항목 | 결과 |
+| :--- | :--- |
+| 정규화된 CIDR | `192.168.1.128/26` |
+| 전체 주소 범위 | `192.168.1.128` ~ `192.168.1.191` |
+| 서브넷 마스크 | `255.255.255.192` |
+| 와일드카드 마스크 | `0.0.0.63` |
+| 네트워크 주소 | `192.168.1.128` |
+| 브로드캐스트 주소 | `192.168.1.191` |
+| 일반 LAN 호스트 범위 | `192.168.1.129` ~ `192.168.1.190` |
+| 전체 주소 / 이론상 호스트 수 | 64개 / 62개 |
+
+이 도구는 IPv4만 지원합니다. 계산은 브라우저의 JavaScript로 실행하며 입력값을 계산용 서버나 외부 API로 전송하지 않습니다. IP의 실제 할당 상태나 접속 가능 여부를 조회하는 도구는 아닙니다.
+
+## CIDR이란? /24는 무엇을 뜻할까?
+
+**CIDR(Classless Inter-Domain Routing)은 고정된 IP 클래스 대신 프리픽스로 주소 블록을 표현하고 라우팅에 사용하는 방식입니다.** `192.168.1.0/24`의 `/24`는 IPv4의 32비트 중 앞의 24비트가 네트워크 부분이라는 뜻입니다. 나머지 8비트가 달라질 수 있으므로 이 블록에는 `2^8 = 256`개의 주소가 들어갑니다. [RFC 4632의 프리픽스 표기 설명](https://www.rfc-editor.org/rfc/rfc4632.html#section-3.1)
+
+프리픽스 숫자가 커질수록 주소 범위는 작아집니다. `/24`에서 `/26`으로 바꾸면 고정되는 비트가 2개 늘어나고, 블록 크기는 256개에서 64개로 줄어듭니다.
+
+| 프리픽스 | 서브넷 마스크 | 블록의 전체 주소 수 | 일반 LAN의 이론상 호스트 수 |
+| :--- | :--- | ---: | ---: |
+| `/8` | `255.0.0.0` | 16,777,216 | 16,777,214 |
+| `/16` | `255.255.0.0` | 65,536 | 65,534 |
+| `/24` | `255.255.255.0` | 256 | 254 |
+| `/25` | `255.255.255.128` | 128 | 126 |
+| `/26` | `255.255.255.192` | 64 | 62 |
+| `/30` | `255.255.255.252` | 4 | 2 |
+| `/31` | `255.255.255.254` | 2 | 2 — 지원되는 P2P 링크 기준 |
+| `/32` | `255.255.255.255` | 1 | 1 — 단일 주소 |
+
+주소 수는 비트 수로 계산한 값입니다. 큰 블록이 특수 용도 대역을 포함할 수 있으므로, 위 수치를 실제 배정 가능한 장비 수로 해석하면 안 됩니다.
+
+### /0·/31·/32는 별도로 이해하기
+
+- **`0.0.0.0/0`**: IPv4 전체인 `0.0.0.0` ~ `255.255.255.255`를 나타냅니다. 라우팅에서는 기본 경로를 표현하며, 방화벽의 출발지 조건으로 사용하면 IPv4 전체에 매칭됩니다. IPv6 전체는 별도의 `::/0`입니다.
+- **`/31`**: 두 주소를 포함합니다. RFC 3021 방식의 점대점(Point-to-Point, P2P) 링크에서는 두 주소 모두를 종단 주소로 사용하므로 일반적인 ‘네트워크·브로드캐스트 2개 제외’를 적용하지 않습니다. 장비 지원이 필요합니다. [RFC 3021](https://www.rfc-editor.org/rfc/rfc3021.html)
+- **`/32`**: IPv4 주소 하나를 나타냅니다. 특정 호스트만 지정하는 경로나 방화벽 조건에 사용합니다. [RFC 4632의 주소 블록 크기 표](https://www.rfc-editor.org/rfc/rfc4632.html#section-3.1)
+
+## 서브넷이란? 서브넷 마스크와 무엇이 다를까?
+
+**서브넷(subnet)은 IP 네트워크를 논리적으로 나눈 하위 네트워크입니다.** 서브넷 마스크는 IP 주소에서 네트워크 부분과 호스트 부분을 구분하는 값입니다. CIDR의 `/24`와 마스크 `255.255.255.0`은 같은 네트워크 비트 길이를 표현합니다. 서브넷을 나누는 개념과 주소 마스크의 배경은 [RFC 950](https://www.rfc-editor.org/rfc/rfc950.html)에 설명되어 있습니다.
+
+예를 들어 `192.168.1.0/24`를 `/26`으로 나누면 아래 네 블록이 됩니다. 각 블록은 64개 주소를 포함하고 경계가 64 단위로 맞춰집니다.
+
+| 서브넷 | 전체 범위 | 일반 LAN 호스트 범위 |
+| :--- | :--- | :--- |
+| `192.168.1.0/26` | `.0` ~ `.63` | `.1` ~ `.62` |
+| `192.168.1.64/26` | `.64` ~ `.127` | `.65` ~ `.126` |
+| `192.168.1.128/26` | `.128` ~ `.191` | `.129` ~ `.190` |
+| `192.168.1.192/26` | `.192` ~ `.255` | `.193` ~ `.254` |
+
+표의 `.128` 등은 앞의 `192.168.1`을 생략한 표기입니다. 서브넷을 실제로 분리하려면 주소 계획뿐 아니라 공유기·라우터 인터페이스, VLAN과 라우팅, 방화벽 정책도 환경에 맞게 설정해야 합니다. 계산기에서 범위를 나누는 것만으로 네트워크가 분리되지는 않습니다.
+
+## IP 클래스 A·B·C·D·E는 무엇일까?
+
+**IP 클래스는 IPv4 주소의 앞쪽 비트로 용도와 기본 네트워크 크기를 구분하던 역사적 분류입니다.** 오늘날 CIDR 계산에서는 클래스보다 명시한 프리픽스가 우선합니다. `10.1.2.3/24`도 유효하며, 앞자리가 클래스 A 영역이라고 해서 반드시 `/8`로 계산하지 않습니다. [RFC 791의 주소 형식](https://www.rfc-editor.org/rfc/rfc791.html#section-3.2), [RFC 4632의 클래스 없는 주소 체계](https://www.rfc-editor.org/rfc/rfc4632.html#section-3)
+
+| 클래스 | 첫 옥텟 / 전체 분류 범위 | 역사적 기본 마스크 | 의미 |
+| :--- | :--- | :--- | :--- |
+| A | 0~127 / `0.0.0.0` ~ `127.255.255.255` | `/8` · `255.0.0.0` | 과거 큰 유니캐스트 네트워크 분류. `0/8`, `127/8`은 특수 용도 |
+| B | 128~191 / `128.0.0.0` ~ `191.255.255.255` | `/16` · `255.255.0.0` | 과거 중간 크기 유니캐스트 네트워크 분류 |
+| C | 192~223 / `192.0.0.0` ~ `223.255.255.255` | `/24` · `255.255.255.0` | 과거 작은 유니캐스트 네트워크 분류 |
+| D | 224~239 / `224.0.0.0` ~ `239.255.255.255` | 일반 호스트용 기본 마스크 없음 | 멀티캐스트 주소 영역 |
+| E | 240~255 / `240.0.0.0` ~ `255.255.255.255` | 일반 호스트용 기본 마스크 없음 | 예약 영역. `255.255.255.255`는 제한 브로드캐스트 |
+
+옥텟(octet)은 8비트 단위입니다. IPv4의 점으로 구분한 숫자 하나가 한 옥텟이고 값은 0~255입니다. 위 범위는 **분류 범위**이지 전부 일반 장비에 배정할 수 있다는 뜻은 아닙니다. A 클래스의 일반 네트워크 첫 숫자를 1~126으로 설명하는 자료는 특수한 `0/8`과 루프백 `127/8`을 제외한 것입니다. D·E 영역과 예외는 [IANA IPv4 주소 공간](https://www.iana.org/assignments/ipv4-address-space/)과 [특수 용도 주소 등록부](https://www.iana.org/assignments/iana-ipv4-special-registry/)에서 확인할 수 있습니다.
+
+### 클래스와 사설 IP는 다른 기준이다
+
+**사설 IP는 A·B·C 클래스 전체가 아니라 RFC 1918에서 정한 세 주소 블록입니다.** 따라서 “클래스 B니까 사설 IP” 또는 “192로 시작하니까 사설 IP”라고 판단하면 안 됩니다. [RFC 1918](https://www.rfc-editor.org/rfc/rfc1918.html#section-3)
+
+| 사설 대역 | 전체 범위 | 주의할 점 |
+| :--- | :--- | :--- |
+| `10.0.0.0/8` | `10.0.0.0` ~ `10.255.255.255` | 내부에서 `/16`, `/24` 등으로 나누어 사용할 수 있음 |
+| `172.16.0.0/12` | `172.16.0.0` ~ `172.31.255.255` | `172`로 시작하는 모든 주소가 사설은 아님 |
+| `192.168.0.0/16` | `192.168.0.0` ~ `192.168.255.255` | `192` 전체가 아니라 `192.168` 대역 |
+
+계산기의 ‘IP 용도’는 입력 주소 하나의 주요 대역만 분류합니다. 입력 IP가 사설이어도 선택한 CIDR 전체가 사설인 것은 아닙니다. 예를 들어 `192.168.1.10/8`의 결과인 `192.0.0.0/8`은 사설 대역 밖까지 포함합니다. 사설이 아닌 주소에도 문서 예제용·예약 주소 등이 있어, ‘사설 IP 아님’이 곧 실제 공인 IP 할당을 뜻하지는 않습니다.
+
+## CIDR 계산은 언제 사용할까?
+
+### 방화벽에서 허용·차단 범위를 입력할 때
+
+**CIDR을 요구하는 입력란에서는 허용하려는 IP가 몇 개나 포함되는지 확인하는 데 사용합니다.** 다음은 주소 조건을 설명하기 위한 예시이며 실제 장비에 적용한 설정은 아닙니다.
+
+| 목적 | CIDR 입력 예시 | 매칭되는 주소 |
+| :--- | :--- | :--- |
+| 특정 내부 PC 한 대 | `192.168.1.10/32` | `192.168.1.10` 하나 |
+| 내부망 한 블록 | `192.168.1.0/24` | `192.168.1.0` ~ `192.168.1.255` |
+| 더 작은 내부망 | `192.168.1.128/26` | `192.168.1.128` ~ `192.168.1.191` |
+| IPv4 전체 | `0.0.0.0/0` | 모든 IPv4 주소 |
+
+방화벽의 CIDR 매칭은 호스트 할당 수와 다릅니다. `/24` 조건은 주소 블록 전체에 매칭되며, 일반 LAN의 호스트 주소 수인 254개로 범위가 줄어들지 않습니다. 클라우드의 구체적인 예로 AWS 보안 그룹은 출발지·목적지에 IPv4 CIDR을 지정하고, 단일 IPv4는 `/32`로 표현합니다. [AWS 보안 그룹 규칙 공식 문서](https://docs.aws.amazon.com/vpc/latest/userguide/security-group-rules.html)
+
+규칙을 적용하기 전에는 출발지·목적지 방향, 포트와 프로토콜, 허용·차단 동작 및 규칙 순서를 확인합니다. 특히 관리 화면의 접근 규칙을 수정한다면 기존 설정을 기록하고 복구 가능한 접속 경로를 확보합니다. `0.0.0.0/0` 허용은 의도한 서비스만 대상으로 사용해야 합니다.
+
+인터넷에서 집의 NAS에 접속하도록 허용할 때는 외부에서 보이는 출발지 공인 IP와 내부 PC의 사설 IP를 혼동하지 않아야 합니다. 현재 연결의 외부 주소는 [내 IP 주소 확인 도구](/hobby/check-my-ip/)로 확인할 수 있습니다. 지역별 정책을 설정하는 상황은 [시놀로지 NAS 방화벽 설정 글](/hobby/synology-region-firewall/)도 참고할 수 있습니다.
+
+### 공유기의 LAN·DHCP 범위를 정할 때
+
+**서브넷은 LAN의 주소 경계를 정하고, DHCP 범위는 그 안에서 자동 배정할 일부 주소를 정합니다.** 두 범위가 항상 같은 것은 아닙니다.
+
+예를 들어 공유기 LAN을 `192.168.10.1/24`로 설정한다고 가정하면 네트워크는 `192.168.10.0/24`, 일반 호스트 범위는 `192.168.10.1` ~ `192.168.10.254`입니다. 공유기가 `.1`을 사용하므로 다른 기기에 같은 주소를 배정하면 안 됩니다. DHCP 풀을 `.100` ~ `.199`로 정하면 양 끝을 포함해 100개 주소를 자동 배정 대상으로 잡는 예가 됩니다. 실제 입력 형식과 예약 처리 방식은 공유기 문서를 확인하세요.
+
+### VPN·VPC·정적 경로의 대역을 정할 때
+
+CIDR 계산은 서로 다른 네트워크의 범위가 겹치는지 검토할 때도 도움이 됩니다. 예를 들어 집과 VPN 반대편에서 모두 `192.168.1.0/24`를 사용한다면, 같은 목적지 주소가 어느 쪽인지 라우팅 충돌을 검토해야 합니다. 먼저 양쪽 대역의 시작·끝을 확인하고 주소 계획과 경로를 결정합니다. 이 계산기는 입력한 블록 하나를 계산하며, 여러 블록의 중복 검사나 라우팅 설정을 자동 수행하지는 않습니다.
+
+## 자주 헷갈리는 점
+
+### 192.168.1.10/24를 입력했는데 왜 192.168.1.0/24로 바뀌나요?
+
+네트워크 CIDR은 블록의 시작 주소로 정규화하기 때문입니다. `.10`은 이 블록 안의 호스트 주소이며, 해당 `/24` 블록의 시작은 `.0`입니다. 방화벽이나 API에 따라 호스트 비트가 있는 CIDR을 정규화하거나 거절할 수 있으므로 계산 결과의 네트워크 CIDR을 확인하세요.
+
+### /24의 254개 호스트는 모두 DHCP로 배정할 수 있나요?
+
+반드시 그렇지는 않습니다. 254개는 일반 LAN에서 네트워크·브로드캐스트 주소를 뺀 수입니다. 공유기 주소, 수동 고정 IP와 예약 주소 등을 제외하면 실제 DHCP 풀은 더 작아질 수 있습니다.
+
+### 192.168.1.10부터 192.168.1.20까지를 CIDR 하나로 쓸 수 있나요?
+
+정확히 그 범위만 CIDR 하나로 표현할 수는 없습니다. 하나의 CIDR은 2의 거듭제곱 크기이며 시작 경계도 맞아야 합니다. 이 예는 11개 주소이므로 여러 CIDR로 분할하거나 장비가 지원하는 시작·끝 범위 입력을 사용해야 합니다. 이 도구는 임의 범위를 여러 CIDR로 변환하는 기능은 제공하지 않습니다.
+
+
+--------------------------------------------------------------------------------
+title: "내 IP 주소 확인하기"
+url: https://www.ramoo.net/hobby/check-my-ip/index.md
+date: "2026-10-14"
+description: 내 IP 주소를 무료로 확인하세요. 공인 IP 조회, IPv4·IPv6 구분, IP 위치 지도, 통신사·ASN과 연결 정보를 확인하고 주소를 바로 복사할 수 있습니다.
+--------------------------------------------------------------------------------
+
+내 IP 주소가 궁금할 때 브라우저에서 **공인 IP(외부 아이피)**를 바로 확인하는 무료 도구입니다. 현재 연결의 IPv4·IPv6 주소, 통신사·ASN, 시간대와 IP 위치 지도를 조회하고 주소를 복사할 수 있습니다.
+
+페이지를 열면 현재 네트워크를 자동 조회합니다. VPN을 켜거나 와이파이·모바일 데이터를 바꾼 뒤 **다시 조회**를 누르면 변경된 IP를 확인할 수 있습니다.
+
+{{< ip-check >}}
+
+## 내 IP 주소 확인 방법
+
+1. 위 조회 도구에서 **공인 IP 주소**를 확인합니다. 별도 프로그램을 설치하지 않아도 됩니다.
+2. **IP 주소 복사**를 누르면 표시된 주소를 클립보드로 복사할 수 있습니다.
+3. 네트워크나 VPN 연결을 바꾼 뒤 **다시 조회**를 누르면 현재 연결을 다시 확인합니다.
+4. **즐겨찾기 추가**를 누르면 PC·모바일에 맞는 저장 방법을 안내합니다. 자주 확인할 때 현재 페이지를 북마크로 저장해두면 편리합니다.
+5. 위도·경도가 제공되면 지도에서 대략적인 위치를 봅니다. **세계 지도**와 **내 위치로** 버튼으로 표시 범위를 바꿀 수 있습니다.
+
+
+## 공인 IP 조회 결과와 네트워크 정보 읽기
+
+- **공인 IP**는 인터넷에서 보이는 현재 연결의 주소입니다. 같은 공유기를 사용하는 기기들은 같은 IPv4 주소를 공유할 수 있습니다.
+- **네트워크 운영 기관**은 IP 대역을 운영하는 통신사나 기관입니다. VPN을 사용하면 VPN 출구의 IP와 네트워크가 표시될 수 있습니다.
+- **위치 정보**는 IP 기반 추정입니다. 실제 위치, GPS 좌표나 정확한 집 주소를 의미하지 않으며, 일부 정보는 제공되지 않을 수 있습니다. 위도·경도가 있으면 국가·해안선 지도에 추정 위치를 표시합니다.
+- **HTTP·TLS 정보**는 이 브라우저와 API 사이의 연결 정보입니다. 브라우저나 접속 환경에 따라 달라집니다.
+
+## 공인 IP와 사설 IP는 무엇이 다를까?
+
+기기의 `192.168.x.x`, `10.x.x.x` 같은 주소는 보통 내부망에서 사용하는 사설 IP입니다. 이 페이지는 브라우저의 요청이 인터넷에 나갈 때 사용하는 공인 IP를 보여줍니다. IPv6 환경에서는 IPv6 주소가 표시될 수 있습니다.
+
+Windows에서 명령 프롬프트의 `ipconfig`로 확인하는 어댑터 주소와 이 페이지의 외부 IP가 다를 수 있습니다. [Microsoft의 ipconfig 안내](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ipconfig)는 기기의 IP·서브넷·기본 게이트웨이 확인 방법을 설명합니다.
+
+## 내 IP 확인에 관한 자주 묻는 질문
+
+### IP 주소 확인은 무료인가요?
+
+이 페이지의 IP 조회와 지도 보기는 무료이며 회원가입이나 별도 앱 설치가 필요하지 않습니다. IP 주소를 확인하려면 브라우저에서 JavaScript를 사용할 수 있어야 합니다.
+
+### 컴퓨터와 휴대폰의 공인 IP가 같을 수 있나요?
+
+두 기기가 같은 공유기의 와이파이를 사용하고 같은 IPv4 연결로 인터넷에 나간다면 같은 공인 IP가 표시될 수 있습니다. 휴대폰을 모바일 데이터로 전환하거나 VPN을 사용하면 다른 IP가 표시될 수 있습니다.
+
+### IP 위치 지도와 실제 위치가 다른 이유는 무엇인가요?
+
+IP 위치는 네트워크 대역에 연결된 지리 정보를 기반으로 추정합니다. 통신사나 VPN 출구의 위치가 표시될 수 있으며 실제 집 주소나 GPS 위치를 의미하지 않습니다. 지도는 국가·해안선을 보여주는 개략도입니다.
+
+### IPv4와 IPv6를 동시에 확인할 수 있나요?
+
+이 도구는 현재 API 요청에 사용된 주소를 표시하므로 IPv4 또는 IPv6 중 하나가 나옵니다. 점으로 구분한 숫자 주소는 IPv4, 콜론을 포함한 주소는 IPv6입니다. 한 번의 조회로 두 주소를 모두 확인하는 기능은 제공하지 않습니다.
+
+### VPN을 켜면 내 IP가 바뀌나요?
+
+브라우저의 요청이 VPN을 통해 나가면 VPN 출구 IP가 표시될 수 있습니다. VPN 연결 전후에 다시 조회해서 비교하세요. 분할 터널링 등 설정에 따라 브라우저 요청이 VPN을 사용하지 않을 수도 있습니다.
+
+### 공유기를 재부팅하면 공인 IP가 바뀌나요?
+
+바뀔 수 있지만 항상 바뀌는 것은 아닙니다. 고정 IP 사용 여부와 통신사의 주소 할당 방식에 따라 이전 IP를 다시 받을 수도 있습니다. 네트워크를 다시 연결한 뒤 재조회해서 확인하세요.
+
+### 다른 사람의 IP나 정확한 주소도 조회할 수 있나요?
+
+이 페이지는 현재 방문자의 연결 정보를 확인하는 도구입니다. 임의의 IP를 입력해 다른 사람의 위치를 찾는 기능은 없으며, IP만으로 정확한 개인 주소를 알 수 있는 도구도 아닙니다.
+
+### IP 조회가 안 되면 어떻게 하나요?
+
+인터넷 연결과 브라우저의 JavaScript 설정을 확인하고 **다시 조회**를 눌러보세요. 응답이 지연되거나 API에 접근할 수 없으면 오류 안내가 표시됩니다. 일부 위치·네트워크 정보가 제공되지 않으면 해당 항목만 ‘정보 없음’으로 나옵니다.
+
+## 함께 읽으면 좋은 네트워크 글
+
+- [Synology DNS Server 설치와 A·PTR 레코드 설정](/hobby/synology-dns-server/)
+- [Synology NAS의 지역별 방화벽 설정 기록](/hobby/synology-region-firewall/)
+
+{{< ip-check-tags >}}
+
+
+--------------------------------------------------------------------------------
+title: "웹 브라우저 기반 원격 접속 Apache Guacamole 사내망 구축 및 RDP/SSH 테스트"
+url: https://www.ramoo.net/hobby/apache-guacamole-intro/index.md
+date: "2026-04-24"
+description: 브라우저 SSH 접속은 편했지만 LDAP 연동과 계정·세션 관리가 걸렸다. 사내망 테스트에서 멈춘 기록.
+--------------------------------------------------------------------------------
+
+![Apache Guacamole 소개 이미지](/images/server/apache-guacamole-cover.webp)
+
+사내 서버에 Apache Guacamole를 설치해서 원격접속을 테스트했다. 사내망에서만 접근할 수 있게 열어 두었고, 기본 기능을 확인한 뒤 정식 운영으로 이어가지는 않았다.
+
+브라우저에서 SSH에 접속할 수 있는 건 편했다. 다만 LDAP 연동이 기대만큼 안정적이지 않았고, 계정과 세션을 관리할 부담도 있었다.
+
+## 브라우저로 원격접속하기
+
+Guacamole는 웹에서 RDP, VNC, SSH 연결을 사용할 수 있게 해 주는 도구다. 접속하는 PC에 별도 클라이언트를 설치하지 않아도 된다. 관리자가 계정별로 연결 대상을 등록하면 사용자는 로그인해서 자신에게 허용된 장비를 선택한다.
+
+[공식 사이트](https://guacamole.apache.org/)와 [설치·운영 매뉴얼](https://guacamole.apache.org/doc/gug/)을 참고했다. 아래는 공식 사이트의 데모 영상이다.
+
+<div style="margin: 2rem 0;">
+  <video controls preload="metadata" style="width: 100%; border-radius: 12px;">
+    <source src="https://guacamole.apache.org/videos/guacamole-0.9.4-demo.mp4" type="video/mp4" />
+    브라우저가 동영상 재생을 지원하지 않는다.
+  </video>
+</div>
+
+## 테스트에서 확인한 기능
+
+관리자 로그인, 계정별 연결 목록, SSH 접속, 연결 로그, 세션 재생, 사용자 설정을 확인했다. 현재 연결된 세션을 관리자가 종료하는 기능도 있다.
+
+접속 대상과 이력을 한 화면에서 볼 수 있다는 점은 좋았다. 사용자마다 원격접속 프로그램을 준비할 필요도 줄어든다.
+
+## 운영까지 가져가지 않은 이유
+
+LDAP 연동에서 불안정한 부분이 있었다. 테스트에서는 다시 확인해 보면 되지만, 실제 운영에서 계정 연동이 흔들리면 접속 자체에 문제가 생긴다. 이 상태로 운영을 시작하기는 어려웠다.
+
+보안과 사용자 관리도 걸렸다. 누가 어떤 서버에 접근할 수 있는지 정하고, 계정이 바뀔 때 권한을 수정하고, 로그와 세션 기록도 관리해야 한다. 사용자가 로그아웃하지 않고 세션을 남겨 두거나 인증 정보를 노출하는 상황도 고려해야 했다.
+
+웹으로 접속을 모으는 편의성은 확인했다. 하지만 당시 테스트한 환경에서는 그 편의성만으로 운영 부담을 감수하기는 어렵다고 판단했다. 기본 기능을 확인한 기록으로 남겨 둔다.
+
+
+--------------------------------------------------------------------------------
+title: "FlatBuffers 기본 개념과 Ubuntu 22.04 빌드 메모"
+url: https://www.ramoo.net/hobby/flatbuffers-in-real-systems/index.md
+date: "2026-04-23"
+description: FlatBuffers가 버퍼를 읽는 방식과 스키마·생성 코드, Ubuntu 22.04 소스 빌드 명령.
+--------------------------------------------------------------------------------
+
+![FlatBuffers 개념과 설치 가이드 이미지](images/tech/flatbuffer-cover.png)
+
+FlatBuffers에서 눈여겨볼 부분은 데이터를 읽는 방식이다. 직렬화된 버퍼를 객체로 전부 풀어 놓지 않고, 필요한 필드에 직접 접근한다.
+
+기본 개념과 Ubuntu 22.04에서 소스로 빌드하는 방법을 적어 둔다. 성능 측정과 실제 적용 후기는 아직 없다.
+
+## 버퍼를 읽기까지
+
+먼저 `.fbs` 파일에 데이터 구조를 정의한다. 테이블, 구조체, 열거형, 벡터 같은 타입을 쓸 수 있다. `flatc`로 이 스키마에서 언어별 코드를 생성하고, 애플리케이션은 생성된 API로 버퍼를 만들거나 읽는다.
+
+읽을 때 전체 데이터를 별도 객체로 변환하는 과정이 필요 없다는 것이 특징이다. 흔히 말하는 zero-copy 읽기가 이 부분이다. 필요한 데이터에 접근하므로 읽기 비용과 추가 메모리 할당을 줄이는 데 도움이 된다. 자세한 설명은 [FlatBuffers 공식 문서](https://flatbuffers.dev/)에 있다.
+
+스키마를 여러 언어에서 공유할 수 있다는 점도 쓸모가 있다. C++ 프로그램과 다른 언어로 만든 프로그램이 같은 데이터 형식을 써야 할 때, `.fbs`를 기준으로 코드를 생성할 수 있다.
+
+## 쓰기 전에 생각할 점
+
+스키마 파일과 생성 코드를 함께 관리해야 한다. 데이터 구조가 바뀌면 이미 배포한 프로그램과의 호환성도 확인해야 한다.
+
+직렬화된 데이터를 수정할 때는 새 버퍼를 만들어야 하는 경우가 있다. 사람이 파일을 열어 값을 고치는 용도라면 JSON 같은 텍스트 형식이 더 편할 수 있다.
+
+게임 리소스, 센서 데이터, 네트워크 메시지처럼 읽기 비용을 줄이고 싶은 곳에서 검토할 수 있다. 다만 이 글에는 다른 형식과 비교한 벤치마크가 없으므로, 어느 정도 빨라지는지는 실제 데이터로 따로 확인해야 한다.
+
+## Ubuntu 22.04에서 소스 빌드
+
+빌드 도구를 설치한다.
+
+```bash
+sudo apt update
+sudo apt install -y cmake g++ zlib1g-dev
+```
+
+소스를 받은 뒤 빌드 디렉토리를 만든다.
+
+```bash
+git clone https://github.com/google/flatbuffers.git
+cd flatbuffers
+mkdir build
+cd build
+```
+
+`flatc` 빌드와 설치 옵션을 켜고 Release로 빌드한다.
+
+```bash
+cmake .. -DCMAKE_BUILD_TYPE=Release -DFLATBUFFERS_BUILD_FLATC=ON -DFLATBUFFERS_INSTALL=ON
+make -j$(nproc)
+```
+
+설치 후 라이브러리 캐시를 갱신한다.
+
+```bash
+sudo make install
+sudo ldconfig
+```
+
+위 명령은 저장소의 기본 브랜치를 받는다. 특정 버전을 계속 사용할 프로젝트라면 사용할 태그를 정해 두는 편이 재현하기 쉽다.
+
+
+--------------------------------------------------------------------------------
+title: "ZeroMQ를 살펴보며 적어 둔 메시징 패턴"
+url: https://www.ramoo.net/hobby/zeromq-patterns/index.md
+date: "2026-04-23"
+description: REQ/REP, PUB/SUB, PUSH/PULL, PAIR의 메시지 흐름과 애플리케이션에서 정할 부분.
+--------------------------------------------------------------------------------
+
+![ZeroMQ 개념과 메시징 패턴 이미지](images/tech/zeromq-cover.png)
+
+ZeroMQ는 프로그램 안에서 메시지를 주고받는 데 쓰는 라이브러리다. 별도 브로커를 설치하지 않고 프로세스나 장비 사이를 연결할 수 있다.
+
+처음 살펴볼 때는 소켓 종류부터 보면 이해하기 편하다. 연결된 상대에게 메시지를 어떤 방식으로 보낼지가 소켓 패턴에 따라 달라진다.
+
+## 메시지를 어떻게 나눠 보낼까
+
+| 패턴 | 메시지 흐름 |
+| --- | --- |
+| `REQ/REP` | 요청을 보내고 응답을 받는다. |
+| `PUB/SUB` | 발행한 메시지를 구독자들에게 전달한다. |
+| `PUSH/PULL` | 작업을 여러 수신자에게 나눠 보낸다. |
+| `PAIR` | 두 소켓을 1:1로 연결한다. |
+
+요청 하나에 응답 하나가 필요한 통신이라면 `REQ/REP`, 여러 곳으로 데이터를 내보내려면 `PUB/SUB`, 작업을 나눠 처리하려면 `PUSH/PULL`부터 살펴볼 수 있다. 예제와 각 패턴의 제약은 [ZeroMQ Guide 첫 장](https://zguide.zeromq.org/docs/chapter1/)에 나온다.
+
+## 별도 브로커 없이 시작할 수 있다
+
+메시징 서버를 따로 운영하지 않아도 된다는 점은 작은 구성에서 편하다. 애플리케이션에 라이브러리를 넣고 소켓을 연결해 통신을 시작할 수 있다. 서로 다른 프로세스나 머신을 연결할 수 있고, 여러 언어의 바인딩도 있다.
+
+전송과 큐 처리를 라이브러리에 맡기고 메시지 흐름에 집중할 수 있다. 센서 값을 모으거나, 프로세스끼리 작업을 나누거나, 내부 서비스 사이에 메시지를 전달하는 구성을 생각해 볼 수 있다.
+
+## 애플리케이션에서 정할 부분도 있다
+
+브로커 설치가 없다고 해서 시스템 설계까지 끝나는 것은 아니다. 상대가 끊겼을 때 어떻게 처리할지, 응답을 얼마나 기다릴지, 메시지를 다시 보낼지 같은 동작은 별도로 정해야 한다.
+
+패턴마다 메시지를 전달하는 방식과 제약이 다르다. `PUB/SUB`로 보낸 메시지를 모든 구독자가 반드시 받는다고 가정하거나, `REQ/REP`의 순서를 무시하면 기대와 다르게 동작할 수 있다. 적용 전에 사용할 패턴의 예제를 먼저 실행해 볼 것.
+
+여기에는 기본 패턴만 적었다. 실제 구성에 적용하려면 정상 송수신뿐 아니라 연결이 끊기거나 수신이 늦어지는 경우도 함께 확인해야 한다.
+
+
+--------------------------------------------------------------------------------
+title: "시놀로지 DS918+ USB 2.5G 랜카드 설치 후기와 인식 불안정으로 원복한 이유"
+url: https://www.ramoo.net/hobby/ds918-plus-25g-upgrade/index.md
+date: "2022-11-16"
+description: ipTIME U2500과 r8152 드라이버로 구성한 DS918+ 2.5G 연결. 설치 과정과 전송 속도, 철거한 이유.
+--------------------------------------------------------------------------------
+
+![DS918+ 2.5G 네트워크 구성 이미지](/images/server/ds918-25g/cover.png)
+
+PC에서 2.5G LAN을 쓸 수 있으니 DS918+도 같은 속도로 연결해 보고 싶었다. NAS를 바꾸는 대신 USB LAN 어댑터와 2.5G 스위칭 허브를 붙였다.
+
+속도는 잘 나왔다. PC에서 NAS로 복사할 때 약 290MB/s, 반대 방향은 약 220MB/s였다. 다만 쓰다 보니 간헐적으로 네트워크가 먹통이 됐고, 결국 어댑터를 빼고 원래 구성으로 돌아갔다.
+
+## 사용한 장비
+
+- 2.5G LAN을 지원하는 PC
+- ipTIME USB 3.0 U2500 (`RTL8156` 칩셋)
+- 2.5G 스위칭 허브
+- Synology DS918+
+
+DSM에서 USB LAN을 쓰려면 별도 드라이버가 필요하다. 어댑터를 고를 때는 [r8152 호환 목록](https://github.com/bb-qq/r8152/wiki/Compatibility)을 확인했다.
+
+내 DS918+에서는 후면 USB 포트의 인식이 불안정했고, 전면 포트에서는 비교적 잘 잡혔다. 그래서 전면 포트에 연결해서 사용했다.
+
+## r8152 드라이버 설치
+
+[bb-qq/r8152 릴리스](https://github.com/bb-qq/r8152/releases)에서 NAS 모델과 DSM 버전에 맞는 `spk` 파일을 받는다. DSM 패키지 센터의 **수동 설치**로 진행하면 된다.
+
+![DSM 패키지 수동 설치 화면](/images/server/ds918-25g/manual-install.webp)
+
+설치 중 오류가 나서 SSH로 접속해 아래 명령을 실행한 뒤 다시 설치했다. 당시 사용한 패키지에서 필요한 조치였다.
+
+```bash
+sudo install -m 4755 -o root -D /var/packages/r8152/target/r8152/spk_su /opt/sbin/spk_su
+```
+
+설치가 끝나면 패키지 센터에서 드라이버 상태를 확인한다.
+
+![DSM r8152 드라이버 설치 확인](/images/server/ds918-25g/driver-installed.webp)
+
+## 인터페이스 설정과 연결
+
+제어판의 **네트워크 인터페이스**에 USB LAN이 추가된 것을 확인하고, 편집 화면에서 `Jumbo Frame`을 `9K`로 설정했다. 아래는 당시 사용한 설정이다.
+
+![점보 프레임 9K 설정 화면](/images/server/ds918-25g/jumbo-frame.webp)
+
+PC와 NAS를 직접 연결해 수동 IP를 잡는 방법도 있지만, 나는 2.5G 스위칭 허브에 연결했다.
+
+![2.5G 스위칭 허브 구성 예시 1](/images/server/ds918-25g/switch-01.webp)
+
+![2.5G 스위칭 허브 구성 예시 2](/images/server/ds918-25g/switch-02.webp)
+
+이 구성에서 측정한 전송 속도는 다음과 같다. 내 환경에서 파일을 복사하며 확인한 수치이다.
+
+| 방향 | 전송 속도 |
+| --- | --- |
+| PC → NAS | 약 290MB/s |
+| NAS → PC | 약 220MB/s |
+
+1GbE로 쓰던 때보다 파일 복사는 확실히 빨라졌다.
+
+## 결국 철거했다
+
+처음에는 잘 썼지만, 사용을 이어 가면서 간헐적으로 네트워크가 멈추는 문제가 생겼다. 드라이버를 중지했다가 다시 로드하면 복구됐다. 계속 켜 두는 NAS에서 그 작업을 반복해야 한다는 게 불편했다.
+
+전면 포트를 써야 하는 것도 마음에 걸렸다. 어댑터와 랜선이 앞에 계속 꽂혀 있으니 케이블 정리가 깔끔하지 않았다.
+
+속도만 보면 아쉬운 업그레이드는 아니었다. 그래도 내 NAS에서는 안정성과 케이블 정리 문제 때문에 오래 유지하지 못했다.
+
+
+--------------------------------------------------------------------------------
+title: "Synology GitLab CE 컨테이너 업데이트 메모"
+url: https://www.ramoo.net/hobby/synology-gitlab-docker-update/index.md
+date: "2022-03-22"
+description: GitLab CE 14.8.3에서 14.8.4로 업데이트할 때 사용한 DSM Docker 화면과 설정 내보내기·가져오기 기록.
+--------------------------------------------------------------------------------
+
+GitLab CE를 Docker Registry에서 받아 설치해 두었다. 설치한 이미지를 업데이트하는 방법을 찾아보다가 기록으로 남긴다.
+
+2022년에 `14.8.3-ce.0`에서 `14.8.4-ce.0`으로 바꿀 때 사용한 DSM Docker 화면 기준이다.
+
+## 새 이미지 받기
+
+`DSM > Docker > Registry`에서 gitlab을 검색해 필요한 버전을 다운로드한다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 1](/images/server/blog-nas/synology-gitlab-docker-update/photo-01.png)
+
+`latest`보다 버전을 지정해 두는 편이 다음 업데이트 때 관리하기 편하다. 당시에는 `14.8.4-ce.0`을 받았다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 2](/images/server/blog-nas/synology-gitlab-docker-update/photo-02.png)
+
+## 설정 내보내기
+
+`DSM > Docker > Container`에서 기존 GitLab CE 컨테이너를 선택하고, 우클릭 메뉴의 `설정 > 내보내기`를 선택한다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 3](/images/server/blog-nas/synology-gitlab-docker-update/photo-03.png)
+
+적당한 폴더를 골라 내보낸다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 4](/images/server/blog-nas/synology-gitlab-docker-update/photo-04.png)
+
+선택한 폴더에 JSON 파일이 생긴다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 5](/images/server/blog-nas/synology-gitlab-docker-update/photo-05.png)
+
+텍스트 편집기로 연다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 6](/images/server/blog-nas/synology-gitlab-docker-update/photo-06.png)
+
+이미지 이름의 버전을 새로 받은 버전으로 바꾸고 저장한다.
+
+```json
+"image": "gitlab/gitlab-ce:14.8.3-ce.0"
+```
+
+위 값을 다음과 같이 바꿨다.
+
+```json
+"image": "gitlab/gitlab-ce:14.8.4-ce.0"
+```
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 7](/images/server/blog-nas/synology-gitlab-docker-update/photo-07.png)
+
+## 컨테이너 교체
+
+기존 컨테이너를 중지한다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 8](/images/server/blog-nas/synology-gitlab-docker-update/photo-08.png)
+
+중지한 컨테이너를 삭제한다. 삭제하기 전에는 데이터를 백업하고, 버전 사이에 필요한 마이그레이션 경로도 확인해야 한다. 내보낸 설정 파일만으로 데이터 백업을 대신할 수는 없다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 9](/images/server/blog-nas/synology-gitlab-docker-update/photo-09.png)
+
+`DSM > Docker > Container > 설정 > 가져오기`에서 수정한 파일을 선택한다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 10](/images/server/blog-nas/synology-gitlab-docker-update/photo-10.png)
+
+새 버전으로 GitLab CE를 실행한다.
+
+![Synology GitLab CE 컨테이너 업데이트 메모 — 화면 11](/images/server/blog-nas/synology-gitlab-docker-update/photo-11.png)
+
+다른 Docker 이미지도 설정을 내보내고 이미지 버전을 바꾸는 방식으로 교체할 수 있다. 다만 애플리케이션마다 데이터와 버전 호환 조건은 따로 확인할 것.
+
+
+--------------------------------------------------------------------------------
+title: "시놀로지 DNS Server 구축 및 내부 도메인 레코드 설정 방법"
+url: https://www.ramoo.net/hobby/synology-dns-server/index.md
+date: "2021-07-31"
+description: DSM 7.0에서 DNS Server를 설치하고 정방향 영역, A·PTR 레코드, 네임서버 설정을 살펴본 기록.
+--------------------------------------------------------------------------------
+
+![Synology DNS Server 메인 화면](images/server/synology-dns/cover-synology-dns-server.png)
+
+Synology NAS의 DNS Server 패키지를 설치하고 영역과 레코드를 설정한 기록이다. DSM 7.0, `DNS Server 9.11.23-6069` 기준이라 다른 버전에서는 화면이 달라질 수 있다.
+
+예시에는 `example.com`과 `12.23.34.56`을 사용했다. 설정할 때는 사용할 도메인과 서버 IP로 바꿔야 한다.
+
+## 패키지 설치
+
+패키지 센터에서 `DNS Server`를 설치한다.
+
+![DNS Server 설치 화면](/images/server/synology-dns/step-01-install.webp)
+
+{{< notice "info" >}}
+다른 네트워크에서 조회하려면 공유기와 방화벽 설정도 필요하다. DNS에 사용하는 UDP·TCP 53번을 조회가 필요한 범위에 허용한다. 내부망에서만 쓸 때는 인터넷에 포트를 열 필요가 없다.
+{{< /notice >}}
+
+## 정방향 영역 만들기
+
+도메인 이름으로 IP를 조회하는 영역이다. **생성 > Master 영역 설정**으로 들어간다.
+
+![Master 영역 생성 시작 화면](/images/server/synology-dns/step-02-zone-start.webp)
+
+당시 외부 네임서버 구성 예시에서는 아래처럼 입력했다.
+
+- 도메인 유형: `정방향 영역`
+- 도메인 이름: 사용할 도메인
+- 마스터 DNS 서버: 공인 IP 주소
+
+![정방향 영역 설정 화면](/images/server/synology-dns/step-02-forward-zone.webp)
+
+내부망 DNS를 구성한다면 서버 주소와 레코드에는 그 환경에서 접근할 수 있는 내부 IP를 사용한다.
+
+영역이 만들어지면 목록에 나타난다.
+
+![정방향 영역 생성 완료 화면](/images/server/synology-dns/step-02-forward-complete.webp)
+
+## A 레코드 추가
+
+`example.com`을 선택하고 **편집 > 리소스 레코드 > 생성 > A 유형**으로 들어간다. 예를 들어 `www.example.com`에 연결할 IP를 등록한다.
+
+![정방향 리소스 레코드 진입 화면](/images/server/synology-dns/step-04-records-menu.webp)
+
+![A 레코드 생성 화면](/images/server/synology-dns/step-04-a-record.webp)
+
+TTL은 조회한 레코드를 캐시에 보관하는 시간이다. 주소를 바꾼 뒤에도 이전 조회 결과가 남을 수 있으니, 변경할 때는 이 값도 함께 확인한다.
+
+## 역방향 영역과 PTR 레코드
+
+역방향은 IP로 이름을 조회할 때 사용한다. IPv4에서는 주소를 거꾸로 적고 `in-addr.arpa`를 붙인다. 예를 들어 `12.23.34.56`의 PTR 조회 이름은 `56.34.23.12.in-addr.arpa`이다. [Cloudflare의 PTR 설명](https://www.cloudflare.com/learning/dns/dns-records/dns-ptr-record/)에 예시가 있다.
+
+`12.23.34.0/24` 범위의 역방향 영역이라면 이름은 `34.23.12.in-addr.arpa`이고, 그 안에 `56`에 해당하는 PTR을 추가하는 식이다. 이전 글의 `56.34.23` 예시는 주소 순서가 잘못되어 수정했다. 아래 이미지는 당시 화면으로, 입력값보다 메뉴 위치를 참고하면 된다.
+
+![정방향과 역방향 영역 목록](/images/server/synology-dns/step-03-zones-list.webp)
+
+역방향 영역을 선택한 뒤 **편집 > 리소스 레코드 > 생성 > PTR 유형**에서 IP에 대응하는 이름을 등록한다.
+
+![역방향 리소스 레코드 진입 화면](/images/server/synology-dns/step-05-ptr-menu.webp)
+
+![PTR 레코드 생성 화면](/images/server/synology-dns/step-05-ptr-record.webp)
+
+내부 DNS에서 조회할 PTR을 등록하는 것과 공인 IP의 인터넷 역방향 조회를 설정하는 것은 별개다. 공인 IP의 PTR은 IP 관리 주체에 확인해야 한다.
+
+## 외부 네임서버로 사용할 경우
+
+내부 장비의 이름을 조회하는 용도라면 도메인 등록 업체의 네임서버를 변경할 필요가 없다. 클라이언트가 NAS의 DNS를 조회하도록 설정하면 된다.
+
+소유한 도메인의 외부 네임서버로 NAS를 쓰려는 경우에는 등록 업체에서 네임서버 설정을 변경한다. 당시에는 whois의 설정 화면을 사용했다.
+
+![도메인 등록 업체의 네임서버 설정 화면](/images/server/synology-dns/step-06-provider.webp)
+
+![네임서버 설정 예시](/images/server/synology-dns/step-06-example.webp)
+
+등록 업체가 요구하는 네임서버 수와 등록 조건도 확인해야 한다. DDNS 주소가 있다는 것만으로 외부 위임 설정까지 끝나는 것은 아니다.
+
+## 조회 확인
+
+먼저 NAS의 DNS를 직접 지정해서 등록한 레코드를 확인한다. 아래의 `NAS_DNS_IP`는 실제 DNS 서버 주소로 바꾼다.
+
+```bash
+nslookup www.example.com NAS_DNS_IP
+dig @NAS_DNS_IP www.example.com A
+dig @NAS_DNS_IP -x 12.23.34.56
+```
+
+외부 네임서버까지 변경했다면 외부 네트워크에서도 조회한다.
+
+```bash
+nslookup example.com
+dig example.com
+dig example.com NS
+```
+
+NAS에 직접 물었을 때 레코드가 나오는지, 일반 DNS 조회에서도 설정이 반영되는지를 나눠 확인하면 문제가 생긴 위치를 찾기 쉽다.
+
+## 현재 외부 IP 확인
+
+인터넷에서 보이는 현재 주소가 궁금하다면 [내 IP 주소 확인하기](/hobby/check-my-ip/)에서 공인 IP와 네트워크 정보를 조회할 수 있습니다. 기기의 내부 주소와 외부에 표시되는 주소가 다를 수 있으므로 DNS 레코드를 설정할 때 사용할 주소를 구분해서 확인합니다.
+
+
+--------------------------------------------------------------------------------
+title: "C++ std::tuple 활용법: 함수에서 여러 값 반환하고 std::tie로 받는 방법"
+url: https://www.ramoo.net/hobby/cpp11-tuple/index.md
+date: "2021-06-26"
+description: 함수 결과를 tuple로 묶고 get과 tie로 꺼내는 예제. 마지막 구조적 바인딩은 C++17 문법이다.
+--------------------------------------------------------------------------------
+
+함수에서 결과 두 개를 반환해야 할 때가 있다. 결과를 받을 변수를 참조로 넘기는 방법도 있지만, `std::tuple`로 묶으면 간결하게 쓸 수 있다.
+
+짝수 여부와 짝수일 때 1을 더한 값을 함께 반환하는 예제를 적어 두었다.
+
+```cpp
+#include <iostream>
+#include <tuple>
+
+std::tuple<bool,int> isEvenAdd(int val) {
+    bool bis_even = (val % 2 == 0);
+    int ret = val;
+    if (bis_even) {
+        ret = val+1;
+    }
+    return std::make_tuple(bis_even, ret);
+}
+
+int main()
+{
+    auto ret = isEvenAdd(10);
+    std::cout << "ret contains: ";
+    std::cout << std::get<0>(ret) << ' ';
+    std::cout << std::get<1>(ret) << '\n';
+    
+    std::tie (myResult, myValue) = ret;
+    std::cout << "tie contains: ";
+    std::cout << myResult << ' ';
+    std::cout << myValue << '\n';
+    
+    auto [bis_even, val] = isEvenAdd(11);
+    std::cout << "auto tie contains: ";
+    std::cout << bis_even << ' ';
+    std::cout << val << '\n';
+}
+```
+
+`std::get<index>(instance)`로 각 원소에 접근한다. `std::tie`로 여러 값을 한 번에 풀어 받을 수도 있다.
+
+마지막 `auto [bis_even, val]` 형태는 C++17의 구조적 바인딩이다. `tuple` 자체는 C++11부터 사용할 수 있지만 이 부분은 버전이 다르다.
+
+원문 예제의 `myResult`, `myValue`는 사용하는 곳에서 따로 선언해야 한다.
+
+
+--------------------------------------------------------------------------------
+title: "C++ 람다를 쓰며 적어 둔 메모"
+url: https://www.ramoo.net/hobby/cpp11-lambda/index.md
+date: "2021-01-30"
+description: 캡처 방식과 std::function 콜백, 정렬에 람다를 쓰는 형태를 적어 둔 메모.
+--------------------------------------------------------------------------------
+
+람다는 이름 없는 함수처럼 쓸 수 있다. 사용 빈도가 늘어나서 필요한 내용을 적어 둔다.
+
+[람다 설명](https://en.cppreference.com/w/cpp/language/lambda)
+
+## 형태와 캡처
+
+```cpp
+[capture] (params) -> return_type { body }
+[capture] (params) { body }
+```
+
+- `[&]`: 필요한 주변 자동 변수를 참조로 캡처한다.
+- `[=]`: 필요한 주변 자동 변수를 복사로 캡처한다.
+- `[&, a]`: 기본은 참조 캡처, `a`만 복사한다.
+- `[=, &a]`: 기본은 복사 캡처, `a`만 참조로 잡는다.
+- `[&, &a]`: 기본 참조 캡처와 같은 방식을 중복 지정해서 오류가 난다.
+
+복사로 캡처한 값을 람다 안에서 바꾸려면 `mutable` 같은 조건도 확인해야 한다.
+
+## 저장과 콜백
+
+`std::function`에 담아 둘 수 있다.
+
+```cpp
+#include <vector>
+#include <functional>
+std::function<int(int)> func = [](int i)->int{ return i+1; };
+```
+
+콜백을 받는 형태로도 쓸 수 있다. 아래는 당시 적어 둔 코드 조각이다.
+
+```cpp
+class Foo {
+public:
+	void SetCallback(std::function<void(const char*)> cb){
+		m_fcb = std::move(cb);
+	}
+	void ReqPrint(const char* pszText){
+		m_fcb(pszText);
+	}
+	
+private:
+	std::function<void(const char*)>	m_fcb;	
+}
+
+int main(){
+	Foo	_f;
+	_f.SetCallback([](const char* pszText){
+		std::cout << "callback: " << pszText << '\n';
+	});
+	
+	_f.ReqPrint("myFoo");
+	
+	return 0;
+}
+```
+
+## 정렬에 사용
+
+비교용 함수 객체를 따로 만드는 대신 람다를 넘기면 짧게 쓸 수 있다.
+
+```cpp
+#include <algorithm>
+#include <functional>
+#include <array>
+ 
+int main()
+{
+    std::array<int, 10> s = {5, 7, 4, 2, 8, 6, 1, 9, 0, 3};
+ 
+	// case 1 
+    struct {
+        bool operator()(int a, int b) const { return a < b; }
+    } customLess;
+    std::sort(s.begin(), s.end(), customLess);
+
+ 	// case 2
+    std::sort(s.begin(), s.end(), [](int a, int b) {
+        return a > b;
+    });
+}
+```
+
+
+--------------------------------------------------------------------------------
+title: "맥(Mac)에서 Let's Encrypt 와일드카드 SSL 인증서 발급 후 시놀로지 NAS 적용 가이드"
+url: https://www.ramoo.net/hobby/synology-wildcard-certbot-mac/index.md
+date: "2021-01-09"
+description: Mac에서 Certbot을 실행하고 NAS DNS에 TXT 레코드를 추가한 뒤 인증서를 가져온 기록. 2021년 화면 기준.
+--------------------------------------------------------------------------------
+
+예전에는 인증서를 발급해 주는 사이트를 이용했다. 유료로 바뀐 뒤에는 Mac에서 직접 발급해 NAS에 적용하고 있다.
+
+3개월마다 갱신할 때 방법을 다시 찾곤 해서 적어 둔다. 아래는 2021년에 사용한 Certbot과 DSM 화면 기준이다.
+
+## Mac에서 Certbot 설치
+
+```bash
+brew install certbot
+```
+
+설치가 끝나면 수동 발급 명령을 실행한다.
+
+```bash
+sudo certbot certonly --manual
+```
+
+인증받을 도메인을 입력한다. 와일드카드는 `*.도메인이름` 형식이다.
+
+```text
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Plugins selected: Authenticator manual, Installer None
+Please enter in your domain name(s) (comma and/or space separated)  (Enter 'c'
+to cancel): *.ramoo.net
+```
+
+## DNS TXT 레코드 추가
+
+Certbot이 안내한 이름과 값으로 TXT 레코드를 등록한다. 아래 값은 당시 실행 결과다. 다음 발급 때는 새로 출력된 값을 써야 한다.
+
+```text
+Cert is due for renewal, auto-renewing...
+Renewing an existing certificate for *.ramoo.net
+Performing the following challenges:
+dns-01 challenge for ramoo.net
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Please deploy a DNS TXT record under the name
+_acme-challenge.ramoo.net with the following value:
+
+IfxVNiyITgNqAAyfb6hVlRZ0PIKqIHxZD_Li-isWfbs
+
+Before continuing, verify the record is deployed.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Press Enter to Continue
+```
+
+NAS에서 DNS 서버를 운영하고 있어서 여기에 추가했다.
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 1](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-01.png)
+
+Certbot에 출력된 값으로 레코드를 등록한다.
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 2](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-02.png)
+
+등록한 뒤 콘솔에서 Enter를 눌러 진행한다.
+
+```text
+Waiting for verification...
+Cleaning up challenges
+
+IMPORTANT NOTES:
+ - Congratulations! Your certificate and chain have been saved at:
+   /etc/letsencrypt/live/ramoo.net/fullchain.pem
+   Your key file has been saved at:
+   /etc/letsencrypt/live/ramoo.net/privkey.pem
+   Your cert will expire on 2021-04-08. To obtain a new or tweaked
+   version of this certificate in the future, simply run certbot
+   again. To non-interactively renew *all* of your certificates, run
+   "certbot renew"
+ - If you like Certbot, please consider supporting our work by:
+
+   Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+   Donating to EFF:                    https://eff.org/donate-le
+```
+
+검증이 끝나면 `/etc/letsencrypt/live/ramoo.net/`에 인증서 파일이 생성된다. 필요한 파일 3개를 따로 복사해 둔다.
+
+## NAS에 인증서 적용
+
+발급한 인증서를 NAS에 가져온다.
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 3](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-03.png)
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 4](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-04.png)
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 5](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-05.png)
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 6](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-06.png)
+
+확인을 누르고 적용된 인증서를 확인한다.
+
+![Mac에서 와일드카드 인증서를 발급해 NAS에 적용했다 — 화면 7](/images/server/blog-nas/synology-wildcard-certbot-mac/photo-07.png)
+
+자동 갱신도 알아봤지만, 당시에는 수동으로 3개월마다 하기로 했다. 핑계 삼아 관리도 할 겸.
+
+관련 메모: [Synology DNS Server 설정](/hobby/synology-dns-server/)
+
+
+--------------------------------------------------------------------------------
+title: "TL-SG2008로 DS918+ 링크통합을 시도했다"
+url: https://www.ramoo.net/hobby/tl-sg2008-lacp/index.md
+date: "2021-01-01"
+description: DS918+의 두 LAN 포트를 쓰려고 고른 TL-SG2008. 동적 링크통합에서 오류가 나 설정을 바꿨다.
+--------------------------------------------------------------------------------
+
+DS918+에는 LAN 포트가 두 개 있다. 하나만 쓰고 있자니 허전해서 둘 다 써 볼 생각으로 LACP를 구성해 보기로 했다.
+
+LACP를 지원하는 스위치를 찾다가 TL-SG2008을 골랐다.
+
+## 가격이 마음에 들었다
+
+집에서 취미로 쓰는 장비라 비싼 제품은 부담스럽다. 당시에는 국내에서 7만 원 이하로 살 수 있었다. 2020년 12월 구매 기준이다.
+
+![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 1](/images/server/blog-nas/tl-sg2008-lacp/photo-01.jpg)
+
+제품 사양의 프로토콜 항목에 `IEEE 802.3ad`가 있는지 봤다. 링크통합을 지원하는지 확인하면서 살펴본 부분이다.
+
+![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 2](/images/server/blog-nas/tl-sg2008-lacp/photo-02.png)
+
+## 실제 연결 결과
+
+생각처럼 동작할까 싶어서 연결했다.
+
+![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 3](/images/server/blog-nas/tl-sg2008-lacp/photo-03.png)
+
+동적 Link Aggregation에서는 오류와 경고가 나왔다. 결국 원문에서 'v1'이라고 적어 둔 방식으로 바꿔 사용했다. 당시 기록에는 그 설정 이름을 더 자세히 남기지 않았다.
+
+![TL-SG2008로 DS918+ 링크통합을 시도했다 — 화면 4](/images/server/blog-nas/tl-sg2008-lacp/photo-04.png)
+
+아쉬움은 있지만 가격을 생각하면 용서가 된다.
+
+
+--------------------------------------------------------------------------------
+title: "LG 43UN700 43인치 4K 모니터 실사용기 — 맥북 연결 및 CalDigit DP 색상 왜곡 해결법"
+url: https://www.ramoo.net/hobby/lg-43un700-monitor/index.md
+date: "2021-01-01"
+description: 큰 화면과 USB-C 허브 기능은 편했다. CalDigit TS3 Plus에 연결했을 때 붉게 보이던 화면은 DP 설정을 바꿔 해결했다.
+--------------------------------------------------------------------------------
+
+LG 43UN700을 약 2주 사용하고 적은 후기다. 설치 기사가 빠르게 설치해 주고 가서 언박싱 사진은 없다.
+
+## 크기
+
+회사에서 40인치 커브드 모니터를 쓰고 있어 큰 화면 자체는 익숙했다. 42.5인치라 조금 더 큰 느낌이지만 적당해 보였다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 1](/images/off-duty/lg-43un700-monitor/photo-01.jpg)
+
+모니터 아래에 놓인 CalDigit TS3 Plus와 비교하면 크기가 짐작된다.
+
+## 색상 때문에 한참 헤맸다
+
+기존 모니터의 색감이 좋지 않아 MacBook 화면과 맞추는 데 시간을 쓰곤 했다. 그래서 이번에는 색상을 중요하게 봤다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 2](/images/off-duty/lg-43un700-monitor/photo-02.png)
+
+그런데 연결하니 화면이 붉게 보였다. 방법을 찾아보고 서비스센터에도 문의했지만 제품에는 이상이 없다는 답변이었다. 아마존 후기에서도 비슷한 이야기를 보고 며칠은 그냥 쓰다가 원인을 찾았다.
+
+내 구성에서는 모니터의 DP 버전과 CalDigit TS3 Plus 연결이 관련 있었다. 모니터의 DP 설정을 1.2로 낮춘 뒤 원하는 색상을 볼 수 있었다. USB-C로 연결했는데 왜 DP 단자 설정의 영향을 받는지는 당시에도 잘 모르겠었다.
+
+DP 1.4에서 HDR이 자동으로 켜지면 색상 조정 메뉴를 쓸 수 없어 더 답답했다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 3](/images/off-duty/lg-43un700-monitor/photo-03.png)
+
+## 연결과 편의 기능
+
+USB 허브 기능이 의외로 마음에 들었다. USB-C 하나로 화면과 USB 기기를 연결해서 별도 허브를 치웠다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 4](/images/off-duty/lg-43un700-monitor/photo-04.png)
+
+앱으로 모니터를 제어하는 기능도 있었다. 여러 입력을 쓰면 편하겠지만 MacBook 하나만 연결해서 실제로 써 보지는 않았다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 5](/images/off-duty/lg-43un700-monitor/photo-05.png)
+
+높이 조절이 없는 것은 아쉽다. 큰 모니터를 책상에 올려 놓으면 높이를 낮춰야 편한데, 위를 올려다보게 되면 불편하다.
+
+![LG 43UN700 모니터, 2주 사용 기록 — 화면 6](/images/off-duty/lg-43un700-monitor/photo-06.png)
+
+큰 화면과 USB-C 연결, 별도 스피커가 필요 없을 정도의 소리는 괜찮았다. 다만 모니터가 두꺼워 TV 프레임을 그대로 쓴 것 같은 느낌이었다.
+
+
+--------------------------------------------------------------------------------
+title: "ipTIME A3004NS-M 가성비 기가 와이파이 공유기 실사용기: 간이 NAS 끄고 공유기로만 쓴 이유"
+url: https://www.ramoo.net/hobby/iptime-a3004ns-m/index.md
+date: "2020-07-26"
+description: VPN과 USB 간이 NAS에서는 문제가 있었지만, 공유기 기능만 쓰니 안정적이었다. 2020년 사용 기록.
+--------------------------------------------------------------------------------
+
+사용하던 공유기가 오래돼서 ipTIME A3004NS-M을 골랐다. 가격과 기능을 보고 적당하겠다 싶어 산 5만 원대 가정용 공유기다.
+
+![ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다 — 화면 1](/images/server/blog-nas/iptime-a3004ns-m/photo-01.png)
+
+우연히 같은 제품을 두 개 샀다. 거실에 놓고 쓴 지 1년쯤 됐을 때의 기록이다.
+
+## VPN과 간이 NAS는 포기
+
+처음 한두 달은 회사에서 VPN이 필요해서 써 봤다. 연결이 하루를 못 가고 자주 끊겨서 포기했다.
+
+USB 3.0에 저장 장치를 붙여 간이 NAS로도 써 봤지만, 3개월을 못 가고 제품이 먹통이 됐다.
+
+고장 난 제품은 A/S를 보내고, 다른 한 대를 거실에 두었다. 이번에는 공유기 기능 외에는 쓰지 않았다.
+
+![ipTIME A3004NS-M, 공유기로만 쓰니 괜찮았다 — 화면 2](/images/server/blog-nas/iptime-a3004ns-m/photo-02.png)
+
+## 공유기로만 쓰니 안정적이었다
+
+그렇게 8개월 동안 한 번도 끊기지 않고 돌아갔다. 당연한 일이라고 할 수도 있지만 기대가 크지 않았던 만큼 의외로 만족했다.
+
+고장 났던 제품은 일반 인터넷 연결도 자주 끊겨 새벽에 재부팅하도록 설정해 쓰고 있었다.
+
+사용량이 많지는 않았다. BTV, 인터넷, 휴대폰 3~4대, NAS 연결, 가끔 토렌트 정도다. 내 환경에서는 공유기 본래 기능만 쓸 때 꽤 잘 버텼다.
+
+
+--------------------------------------------------------------------------------
+title: "C++11 push_back vs emplace_back 차이점과 객체 생성 최적화 원리"
+url: https://www.ramoo.net/hobby/cpp11-emplace/index.md
+date: "2020-04-17"
+description: 생성자 인자를 바로 넘겨 원소를 만드는 emplace_back과 push_back을 비교한 코드 조각.
+--------------------------------------------------------------------------------
+
+`vector`에 원소를 넣을 때 보통 `push_back`을 쓴다. C++11에서는 생성자 인자를 바로 전달할 수 있는 `emplace_back`도 있다.
+
+당시 적어 둔 비교 예제다. `AClass` 정의는 생략된 코드 조각이다.
+
+```cpp
+void main(){
+    std::vector<AClass> vA;
+    va.push_back(AClass(1,"a"));
+}
+```
+
+```cpp
+void main(){
+    std::vector<AClass>	va;
+    va.emplace_back(1,"a");
+}
+```
+
+`emplace_back`은 컨테이너 안에서 원소를 생성한다. 임시 객체를 만든 뒤 옮기는 일을 줄일 수 있다는 점을 기억해 둔다.
+
+다만 `vector`가 커지면서 재할당되면 기존 원소의 이동이나 복사가 생길 수 있으니, 호출 전체에서 이동이 전혀 없다고 생각하면 안 된다.
+
+
+--------------------------------------------------------------------------------
+title: "SSL For Free에서 와일드카드 인증서를 받았던 기록"
+url: https://www.ramoo.net/hobby/synology-wildcard-sslforfree/index.md
+date: "2019-12-11"
+description: 2019년에 SSL For Free에서 와일드카드 인증서를 발급했던 기록. 이후에는 Mac의 Certbot으로 바꿨다.
+--------------------------------------------------------------------------------
+
+블로그를 처음 만들 때 인증서를 살 생각으로 가격을 알아봤다. 여러 도메인을 쓰려니 비용이 올라가 최소 30만 원 이상이 필요해서 무료 발급 방법을 찾았다.
+
+당시에는 SSL For Free에서 와일드카드 인증서를 받을 수 있었다. 대신 3개월마다 갱신해야 했다. 아래는 2019년에 이용했던 화면과 절차다.
+
+## 도메인 입력
+
+[SSL For Free](https://www.sslforfree.com/)에 접속해 원하는 도메인을 입력했다. 와일드카드는 `*.도메인이름` 형식으로 넣는다.
+
+![SSL For Free에서 와일드카드 인증서를 받았던 기록 — 화면 1](/images/server/blog-nas/synology-wildcard-sslforfree/photo-01.png)
+
+## TXT 레코드로 도메인 확인
+
+수동 도메인 확인을 선택해서 TXT 레코드를 받는다.
+
+![SSL For Free에서 와일드카드 인증서를 받았던 기록 — 화면 2](/images/server/blog-nas/synology-wildcard-sslforfree/photo-02.png)
+
+도메인을 관리하는 DNS에 안내된 TXT 레코드를 추가한다. 당시 화면에서는 TTL을 1로 설정하라고 했지만 설정 항목이 없어 반영될 때까지 기다렸다.
+
+입력한 도메인의 `_acme-challenge` 확인 버튼으로 레코드가 조회되는지 확인한 뒤 인증서를 다운로드했다.
+
+메일 주소를 입력하면 만료 전에 알림을 받을 수 있다고 했다.
+
+이후에는 Mac에서 직접 발급하는 방식으로 바꿨다. 그 기록은 [Certbot으로 발급해 NAS에 적용한 메모](/hobby/synology-wildcard-certbot-mac/)에 남겼다.
+
+
+--------------------------------------------------------------------------------
+title: "시놀로지 DS918+ RAM 메모리 16GB 업그레이드 방법 및 호환 메모리 확인기"
+url: https://www.ramoo.net/hobby/ds918-memory-upgrade/index.md
+date: "2019-11-02"
+description: DS918+에 CT2K102464BF186D 메모리를 장착한 기록. 사용 중 느낀 변화와 남은 기존 메모리 이야기.
+--------------------------------------------------------------------------------
+
+DS918+를 사고 메모리를 늘리려고 알아봤다. 아무 메모리나 사서 꽂으면 되는 것은 아니어서 아래 모델을 골랐다.
+
+```text
+DDR3L 1866 MT/s (PC3-14900)
+Unbuffered SODIMM 204-Pin
+CT2K102464BF186D
+```
+
+![DS918+ 메모리 업그레이드 — 화면 1](/images/server/blog-nas/ds918-memory-upgrade/photo-01.jpeg)
+
+아마존에서 샀다. 처음에는 8GB 하나만 사려고 했는데, 해외에서 오는 김에 세트로 주문했다.
+
+## 장착 후
+
+메모리 용량이 많이 남았다. 돈을 너무 쓴 건 아닌가 싶었지만 체감상 확실히 빠릿해진 느낌이었다.
+
+![DS918+ 메모리 업그레이드 — 화면 2](/images/server/blog-nas/ds918-memory-upgrade/photo-02.png)
+
+당시 사용 중에는 안정적으로 동작했다. 메모리가 넉넉하니 이것저것 올리는 데 부담이 줄어 만족했다.
+
+기존 Synology 4GB 메모리는 어떻게 처분할지 고민이었다.
+
+
+--------------------------------------------------------------------------------
+title: "macOS 카탈리나에서 아이튠즈(iTunes) 사라졌을 때 아이폰 백업 및 동기화 방법"
+url: https://www.ramoo.net/hobby/macos-catalina-itunes/index.md
+date: "2019-11-01"
+description: iTunes를 찾다가 Catalina에서는 Finder로 기기를 동기화한다는 것을 알게 됐다.
+--------------------------------------------------------------------------------
+
+개발하다 앱에 파일을 올릴 일이 있어 iTunes를 찾았는데 아무리 봐도 없었다.
+
+![Catalina에서 사라진 iTunes를 찾다가 — 화면 1](/images/off-duty/macos-catalina-itunes/photo-01.png)
+
+macOS Catalina에서는 iTunes의 기능이 나뉘고, 기기 동기화는 Finder에서 할 수 있었다.
+
+Finder를 열면 왼쪽에 연결한 기기가 나타난다. 선택하면 예전에 iTunes에서 보던 동기화 화면이 나온다.
+
+![Catalina에서 사라진 iTunes를 찾다가 — 화면 2](/images/off-duty/macos-catalina-itunes/photo-02.png)
+
+찾았으니 이제 하던 일을 계속한다.
+
+
+--------------------------------------------------------------------------------
+title: "Mac Finder 숨김 파일·폴더 보기 단축키(Cmd+Shift+.) 및 터미널 명령어 정리"
+url: https://www.ramoo.net/hobby/mac-finder-hidden-files/index.md
+date: "2019-10-29"
+description: 한 번 설정하고 잊기 쉬운 Finder 숨김 파일 표시 명령과 재실행 방법.
+--------------------------------------------------------------------------------
+
+Finder에서 숨김 파일을 표시하는 명령을 적어 둔다. 한 번 설정하면 다시 만질 일이 별로 없어서 잊기 쉽다.
+
+터미널에서 실행한다.
+
+```bash
+defaults write com.apple.Finder AppleShowAllFiles TRUE
+```
+
+Finder를 다시 실행하면 숨김 파일이 보인다.
+
+```bash
+killall Finder
+```
+
+
+--------------------------------------------------------------------------------
+title: "Mac에 Jenkins를 설치했던 기록"
+url: https://www.ramoo.net/hobby/mac-jenkins-install/index.md
+date: "2019-10-29"
+description: Homebrew로 Jenkins를 설치하고 Java 8 오류를 해결했던 2019년 기록.
+--------------------------------------------------------------------------------
+
+2019년에 Mac에 Jenkins를 설치했던 기록이다. 당시 Homebrew와 Java 8을 기준으로 적어 둔 명령이다.
+
+## Homebrew 설치
+
+이미 설치되어 있다면 넘어간다. 당시 사용한 설치 명령은 아래와 같다.
+
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+## Jenkins 설치
+
+```bash
+brew install jenkins
+```
+
+설치 중 다음 오류를 만났다.
+
+```text
+jenkins: Java 1.8 is required to install this formula.
+Install AdoptOpenJDK 8 with Homebrew Cask:
+brew cask install homebrew/cask-versions/adoptopenjdk8
+Error: An unsatisfied requirement failed this build.
+```
+
+Java 8을 설치한 뒤 다시 진행했다.
+
+```bash
+brew cask install homebrew/cask-versions/adoptopenjdk8
+```
+
+설치가 끝나면 `http://localhost:8080`에서 확인한다. 초기 비밀번호는 사용자 폴더의 `.jenkins/secrets/initialAdminPassword`에서 찾는다.
+
+## 접속 주소와 포트
+
+아래 경로로 이동했다.
+
+```bash
+cd /usr/local/opt/jenkins
+```
+
+Xcode로 `homebrew.mxcl.jenkins.plist`를 열어 주소와 포트를 바꿨다.
+
+![Mac에 Jenkins를 설치했던 기록 — 화면 1](/images/off-duty/mac-jenkins-install/photo-01.png)
+
+```text
+--httpListenAddress=127.0.0.1 → --httpListenAddress=0.0.0.0
+--httpPort=8080 → --httpPort=9090
+```
+
+그 뒤 포트 포워딩이나 nginx 리버스 프록시를 통해 접속하는 구성을 생각했다.
+
+
+--------------------------------------------------------------------------------
+title: "시놀로지(Synology) NAS 해외 IP 및 특정 국가 접속 차단 방화벽 설정 방법"
+url: https://www.ramoo.net/hobby/synology-region-firewall/index.md
+date: "2019-10-27"
+description: 반복되는 admin 로그인 시도를 보고 DSM 방화벽에서 지역별 규칙을 만들었다. 이후 특정 포트만 차단하도록 바꿨다.
+--------------------------------------------------------------------------------
+
+NAS에 admin 계정으로 로그인하려는 흔적이 계속 보여서 IP 위치를 찾아봤다.
+
+[IP 주소를 지도에서 확인하는 도구](https://www.ipvoid.com/ip-to-google-maps/)
+
+2단계 인증을 켜 두고 비밀번호도 간단하게 쓰지 않았지만, 계속 시도가 보이니 기분이 좋지는 않았다.
+
+## DSM 방화벽 설정
+
+하는 김에 방화벽에서 특정 지역을 차단했다.
+
+`DSM > 제어판 > 보안 > 방화벽 > 방화벽 프로파일 규칙 편집`
+
+![Synology NAS에서 특정 지역 접속을 차단했다 — 화면 1](/images/server/blog-nas/synology-region-firewall/photo-01.png)
+
+![Synology NAS에서 특정 지역 접속을 차단했다 — 화면 2](/images/server/blog-nas/synology-region-firewall/photo-02.png)
+
+지역이나 IP 주소로 규칙을 만들 수 있었다.
+
+처음에는 모든 포트를 막았는데, 다시 생각해 보니 그럴 필요는 없을 것 같았다. 글을 쓴 뒤 특정 포트만 차단하는 것으로 바꿨다.
+
+## 내 네트워크의 IP 확인
+
+지금 사용하는 인터넷 연결의 IP와 추정 위치는 [내 IP 주소 확인하기 — 공인 IP·통신사·위치 지도](/hobby/check-my-ip/)에서 볼 수 있습니다. 현재 방문자의 연결을 조회하는 도구이며, 위에서 사용한 임의 IP 위치 조회 도구와는 용도가 다릅니다.
+
+
+--------------------------------------------------------------------------------
+title: "맥 타임머신(Time Machine) 최초 백업 속도 느릴 때 원인과 해결 팁"
+url: https://www.ramoo.net/hobby/mac-time-machine-speed/index.md
+date: "2019-09-26"
+description: 업데이트 문제를 Time Machine으로 복원한 뒤 백업 속도를 조정해 본 기록.
+--------------------------------------------------------------------------------
+
+Mac을 업데이트하다 한 번 날려 먹은 적이 있다. 그때 Time Machine으로 복원하고 안도의 한숨을 쉬었다.
+
+이후로 꾸준히 백업하고 있지만 속도가 느려서, 당시 찾아 쓴 명령을 적어 둔다.
+
+```bash
+sudo sysctl debug.lowpri_throttle_enabled=0
+```
+
+낮은 우선순위 작업의 제한을 조정하는 설정이다. 내 환경에서는 엄청나게 빨라지는 정도는 아니었지만 어느 정도 효과가 있었다.
+
+
+--------------------------------------------------------------------------------
 title: "Money"
 url: https://www.ramoo.net/money/index.md
 description: 주식·ETF·배당·금리와 시장 심리를 공부한 기록입니다. 투자 지표와 포트폴리오 메모, 한국 시장 심리 대시보드를 모았습니다.
@@ -4907,6 +5100,18 @@ url: https://www.ramoo.net/tags/2.5g/index.md
 <no value>
 
 --------------------------------------------------------------------------------
+title: "2026 Midterms"
+url: https://www.ramoo.net/tags/2026-midterms/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "2026 중간선거"
+url: https://www.ramoo.net/tags/2026-%EC%A4%91%EA%B0%84%EC%84%A0%EA%B1%B0/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
 title: "A3004NS-M"
 url: https://www.ramoo.net/tags/a3004ns-m/index.md
 --------------------------------------------------------------------------------
@@ -4949,6 +5154,12 @@ url: https://www.ramoo.net/tags/cloudflare/index.md
 <no value>
 
 --------------------------------------------------------------------------------
+title: "Commentary"
+url: https://www.ramoo.net/tags/commentary/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
 title: "Distributed Systems"
 url: https://www.ramoo.net/tags/distributed-systems/index.md
 --------------------------------------------------------------------------------
@@ -4969,6 +5180,12 @@ url: https://www.ramoo.net/tags/docker/index.md
 --------------------------------------------------------------------------------
 title: "Domain"
 url: https://www.ramoo.net/tags/domain/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "Donald Trump"
+url: https://www.ramoo.net/tags/donald-trump/index.md
 --------------------------------------------------------------------------------
 <no value>
 
@@ -5267,6 +5484,12 @@ url: https://www.ramoo.net/tags/ubuntu-22.04/index.md
 <no value>
 
 --------------------------------------------------------------------------------
+title: "US Politics"
+url: https://www.ramoo.net/tags/us-politics/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
 title: "USB LAN"
 url: https://www.ramoo.net/tags/usb-lan/index.md
 --------------------------------------------------------------------------------
@@ -5405,6 +5628,12 @@ url: https://www.ramoo.net/tags/%EB%A1%9C%EB%98%90-%ED%86%B5%EA%B3%84/index.md
 <no value>
 
 --------------------------------------------------------------------------------
+title: "미국 정치"
+url: https://www.ramoo.net/tags/%EB%AF%B8%EA%B5%AD-%EC%A0%95%EC%B9%98/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
 title: "미출현 번호"
 url: https://www.ramoo.net/tags/%EB%AF%B8%EC%B6%9C%ED%98%84-%EB%B2%88%ED%98%B8/index.md
 --------------------------------------------------------------------------------
@@ -5465,8 +5694,20 @@ url: https://www.ramoo.net/tags/%EC%88%8F%EC%BB%A4%EB%B2%84/index.md
 <no value>
 
 --------------------------------------------------------------------------------
+title: "시사 의견"
+url: https://www.ramoo.net/tags/%EC%8B%9C%EC%82%AC-%EC%9D%98%EA%B2%AC/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
 title: "시장심리"
 url: https://www.ramoo.net/tags/%EC%8B%9C%EC%9E%A5%EC%8B%AC%EB%A6%AC/index.md
+--------------------------------------------------------------------------------
+<no value>
+
+--------------------------------------------------------------------------------
+title: "외신 읽기"
+url: https://www.ramoo.net/tags/%EC%99%B8%EC%8B%A0-%EC%9D%BD%EA%B8%B0/index.md
 --------------------------------------------------------------------------------
 <no value>
 
