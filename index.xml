@@ -6833,12 +6833,85 @@ width="2376"
 height="1134" /&gt;
 &lt;/picture&gt;
 &lt;/p&gt;
-&lt;p&gt;찾았으니 이제 하던 일을 계속한다.&lt;/p&gt;</description></item><item><title>Mac Finder 숨김 파일·폴더 보기 단축키(Cmd+Shift+.) 및 터미널 명령어 정리</title><link>https://www.ramoo.net/hobby/mac-finder-hidden-files/</link><pubDate>Tue, 29 Oct 2019 01:46:25 +0900</pubDate><guid>https://www.ramoo.net/hobby/mac-finder-hidden-files/</guid><description>&lt;p&gt;Finder에서 숨김 파일을 표시하는 명령을 적어 둔다. 한 번 설정하면 다시 만질 일이 별로 없어서 잊기 쉽다.&lt;/p&gt;
-&lt;p&gt;터미널에서 실행한다.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;defaults write com.apple.Finder AppleShowAllFiles TRUE
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Finder를 다시 실행하면 숨김 파일이 보인다.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;killall Finder
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Mac에 Jenkins를 설치했던 기록</title><link>https://www.ramoo.net/hobby/mac-jenkins-install/</link><pubDate>Tue, 29 Oct 2019 01:35:45 +0900</pubDate><guid>https://www.ramoo.net/hobby/mac-jenkins-install/</guid><description>&lt;p&gt;2019년에 Mac에 Jenkins를 설치했던 기록이다. 당시 Homebrew와 Java 8을 기준으로 적어 둔 명령이다.&lt;/p&gt;
+&lt;p&gt;찾았으니 이제 하던 일을 계속한다.&lt;/p&gt;</description></item><item><title>Mac Finder 숨김 파일 보기: 단축키·터미널 명령과 Linux·Windows 비교</title><link>https://www.ramoo.net/hobby/mac-finder-hidden-files/</link><pubDate>Tue, 29 Oct 2019 01:46:25 +0900</pubDate><guid>https://www.ramoo.net/hobby/mac-finder-hidden-files/</guid><description>&lt;p&gt;Mac Finder에서 숨김 파일을 보려면 **&lt;code&gt;Command(⌘) + Shift(⇧) + .&lt;/code&gt;**을 누른다. 마지막 키는 마침표다. 같은 단축키를 다시 누르면 숨김 파일이 보이지 않는 상태로 돌아간다.&lt;/p&gt;
+&lt;p&gt;원래는 한 번 설정하고 잊기 쉬운 Finder 터미널 명령을 적어 둔 글이었다. 단축키로 처리하는 방법과 원복 방법을 보완하고, Linux와 Windows에서는 같은 작업을 어떻게 하는지 함께 정리했다.&lt;/p&gt;
+&lt;h2 id="운영체제별-숨김-파일-표시-방법"&gt;운영체제별 숨김 파일 표시 방법&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;환경&lt;/th&gt;
+&lt;th&gt;표시 방법&lt;/th&gt;
+&lt;th&gt;다시 숨기는 방법&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Mac Finder&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Command + Shift + .&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;같은 단축키를 다시 누른다&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Linux의 GNOME 파일 관리자&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Ctrl + H&lt;/code&gt; 또는 메뉴의 숨김 파일 표시&lt;/td&gt;
+&lt;td&gt;같은 단축키를 다시 누르거나 메뉴 선택을 해제한다&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Windows 11 파일 탐색기&lt;/td&gt;
+&lt;td&gt;보기 → 표시 → 숨긴 항목&lt;/td&gt;
+&lt;td&gt;숨긴 항목의 선택을 해제한다&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Linux는 배포판 이름보다 &lt;strong&gt;어떤 파일 관리자를 사용하는지&lt;/strong&gt;가 중요하다. 위의 &lt;code&gt;Ctrl + H&lt;/code&gt;는 GNOME의 파일 관리자 기준이며, 다른 파일 관리자에서는 단축키나 메뉴 위치가 다를 수 있다.&lt;/p&gt;
+&lt;p&gt;이 글의 Mac 명령은 2019년 메모를 바탕으로 보완했다. Linux·Windows 설명은 문서 기반이며, 이번 수정에서 각 운영체제의 화면을 직접 실행해 검증한 것은 아니다. Windows 메뉴는 Windows 11 기준이다.&lt;/p&gt;
+&lt;h2 id="mac-finder에서-단축키로-보기"&gt;Mac: Finder에서 단축키로 보기&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Finder를 열고 확인할 폴더로 이동한다.&lt;/li&gt;
+&lt;li&gt;Finder 창을 선택한 상태에서 &lt;code&gt;Command + Shift + .&lt;/code&gt;을 누른다.&lt;/li&gt;
+&lt;li&gt;해당 폴더에 숨김 항목이 있다면 표시되는지 확인한다.&lt;/li&gt;
+&lt;li&gt;확인이 끝나면 같은 단축키를 다시 눌러 숨긴다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;예를 들어 개발 프로젝트의 &lt;code&gt;.git&lt;/code&gt; 폴더나 &lt;code&gt;.gitignore&lt;/code&gt; 파일처럼 이름 앞에 점이 붙은 항목을 확인할 때 쓸 수 있다. 해당 폴더에 숨김 항목이 없다면 단축키를 눌러도 눈에 띄는 변화가 없을 수 있다.&lt;/p&gt;
+&lt;p&gt;반응이 없다면 먼저 Finder 창에 입력 초점이 있는지 확인한다. 이어서 영문 입력 상태와 키보드의 마침표 키를 확인한다. 키보드 배열이나 단축키 충돌에 따른 차이는 &lt;a href="https://discussions.apple.com/thread/250756110"
+target="_blank"
+&gt;Apple 지원 커뮤니티의 Catalina 사용자 사례&lt;/a&gt;에도 기록돼 있다. 이 링크는 Apple의 공식 지원 사양이 아닌 사용자 경험 공유다.&lt;/p&gt;
+&lt;h2 id="mac-터미널에서-표시-설정하기"&gt;Mac: 터미널에서 표시 설정하기&lt;/h2&gt;
+&lt;p&gt;터미널 앱을 열고 다음 명령을 한 줄씩 실행한다. 현재 사용자 Finder 설정을 바꾸는 작업이므로 &lt;code&gt;sudo&lt;/code&gt;는 필요하지 않으며, 특정 폴더로 이동할 필요도 없다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;defaults write com.apple.finder AppleShowAllFiles -bool true
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;killall Finder
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;첫 줄은 숨김 파일 표시 설정을 켜고, 두 번째 줄은 Finder를 종료해 다시 시작하도록 한다. Finder 창이 잠시 사라질 수 있으므로 파일 복사나 이동이 끝난 뒤 실행한다. 다시 열린 Finder에서 숨김 항목이 있는 폴더를 확인하면 된다.&lt;/p&gt;
+&lt;p&gt;원래 메모에서는 &lt;code&gt;com.apple.Finder&lt;/code&gt;와 &lt;code&gt;TRUE&lt;/code&gt; 표기를 사용했다. 위 예제는 설정 도메인을 &lt;code&gt;com.apple.finder&lt;/code&gt;로 쓰고, &lt;code&gt;-bool true&lt;/code&gt;로 참·거짓 값임을 명시했다.&lt;/p&gt;
+&lt;h3 id="다시-숨기기"&gt;다시 숨기기&lt;/h3&gt;
+&lt;p&gt;숨김 파일 표시를 끄려면 다음과 같이 실행한다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;defaults write com.apple.finder AppleShowAllFiles -bool false
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;killall Finder
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;이 명령은 숨김 파일 표시를 끄는 방법이다. 수정 전에 표시를 켜 둔 상태였다면 기존 설정과 달라지므로, 작업 전에 어떤 상태였는지 확인해 두는 편이 좋다. 단축키로 해결된다면 터미널 설정을 추가로 바꿀 필요는 없다.&lt;/p&gt;
+&lt;h2 id="linux-점으로-시작하는-파일과-gnome의-ctrlh"&gt;Linux: 점으로 시작하는 파일과 GNOME의 Ctrl+H&lt;/h2&gt;
+&lt;p&gt;Linux에서는 &lt;code&gt;.bashrc&lt;/code&gt;, &lt;code&gt;.config&lt;/code&gt;처럼 &lt;strong&gt;이름이 점(&lt;code&gt;.&lt;/code&gt;)으로 시작하는 파일·디렉터리&lt;/strong&gt;를 기본 목록에서 숨기는 관례가 있다. Ubuntu 등에서 GNOME의 파일 관리자를 사용한다면 폴더를 연 뒤 &lt;code&gt;Ctrl + H&lt;/code&gt;를 눌러 표시를 전환할 수 있다. 메뉴의 **숨김 파일 표시(Show Hidden Files)**를 선택해도 된다. &lt;a href="https://help.gnome.org/gnome-help/files-hidden.html"
+target="_blank"
+&gt;GNOME 공식 도움말&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;터미널에서는 확인할 디렉터리로 이동한 뒤 다음 명령을 사용한다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ls -la
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;-l&lt;/code&gt;은 자세한 목록, &lt;code&gt;-a&lt;/code&gt;는 점으로 시작하는 항목을 포함해 표시하는 옵션이다. &lt;code&gt;.&lt;/code&gt;은 현재 디렉터리, &lt;code&gt;..&lt;/code&gt;는 상위 디렉터리를 뜻하므로 목록에서 함께 보일 수 있다. 이 둘을 제외하면서 숨김 항목을 보려면 &lt;code&gt;ls -lA&lt;/code&gt;를 사용한다. &lt;a href="https://www.gnu.org/software/coreutils/manual/html_node/Which-files-are-listed.html"
+target="_blank"
+&gt;GNU ls 옵션 설명&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ls&lt;/code&gt;는 목록을 조회하는 명령이라 파일 관리자의 표시 설정을 바꾸지 않는다. 이후 &lt;code&gt;ls&lt;/code&gt;만 실행하면 기본 목록으로 확인할 수 있다.&lt;/p&gt;
+&lt;h2 id="windows-11-파일-탐색기의-숨긴-항목"&gt;Windows 11: 파일 탐색기의 숨긴 항목&lt;/h2&gt;
+&lt;p&gt;Windows 11에서는 다음 순서로 설정한다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;Windows 키 + E&lt;/code&gt;로 파일 탐색기를 연다.&lt;/li&gt;
+&lt;li&gt;상단의 &lt;strong&gt;보기 → 표시 → 숨긴 항목&lt;/strong&gt;을 선택한다.&lt;/li&gt;
+&lt;li&gt;확인할 폴더에서 숨김 항목이 표시되는지 확인한다.&lt;/li&gt;
+&lt;li&gt;다시 숨기려면 같은 메뉴의 선택을 해제한다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Microsoft의 &lt;a href="https://support.microsoft.com/en-gb/windows/experience/fileexplorer/file-explorer-in-windows?nochrome=true"
+target="_blank"
+&gt;파일 탐색기 공식 안내&lt;/a&gt;에 나온 경로다. Windows 10은 &lt;strong&gt;보기 → 옵션 → 폴더 및 검색 옵션 변경 → 보기&lt;/strong&gt;에서 &lt;strong&gt;숨김 파일, 폴더 및 드라이브 표시&lt;/strong&gt;를 선택하는 경로로 안내돼 있다.&lt;/p&gt;
+&lt;p&gt;Windows는 파일의 &lt;strong&gt;숨김 속성&lt;/strong&gt;을 사용하므로, Linux처럼 파일명 앞에 점을 붙이는 것만으로 같은 의미의 숨김 설정이 되지는 않는다. 또한 숨긴 항목 표시와 보호된 운영체제 파일 표시는 별도 설정이다. 일반적인 숨김 파일 확인을 위해 보호된 운영체제 파일까지 표시할 필요는 없다.&lt;/p&gt;
+&lt;h2 id="표시-설정과-파일-접근-권한은-다르다"&gt;표시 설정과 파일 접근 권한은 다르다&lt;/h2&gt;
+&lt;p&gt;숨김 파일을 표시하는 작업은 파일을 삭제하거나 이름을 바꾸는 작업이 아니다. 반대로 파일을 숨겨 둔다고 다른 사용자의 접근이 차단되는 것도 아니다. 접근을 제한하려면 파일 권한이나 암호화처럼 별도의 보호 방법이 필요하다.&lt;/p&gt;
+&lt;p&gt;설정 파일을 수정하려는 경우에는 먼저 복사본을 보관한다. 특히 &lt;code&gt;.git&lt;/code&gt;이나 시스템 설정 폴더는 숨김 항목이라는 이유만으로 정리하거나 삭제하지 않는다. 필요한 항목만 확인한 뒤 표시 설정을 되돌리면 된다.&lt;/p&gt;
+&lt;p&gt;P.S. 이 글을 처음 쓸 때만 해도 Mac을 참 많이 썼는데, 지금은 Ubuntu Linux를 주로 쓰고 있다. 손에 익었던 Mac 단축키도 하나둘 가물가물해진다. 잊어버릴까 봐 적어 둔 글을 이제는 내가 다시 찾아보게 된다. 역시 안 쓰면 잊는다.&lt;/p&gt;</description></item><item><title>Mac에 Jenkins를 설치했던 기록</title><link>https://www.ramoo.net/hobby/mac-jenkins-install/</link><pubDate>Tue, 29 Oct 2019 01:35:45 +0900</pubDate><guid>https://www.ramoo.net/hobby/mac-jenkins-install/</guid><description>&lt;p&gt;2019년에 Mac에 Jenkins를 설치했던 기록이다. 당시 Homebrew와 Java 8을 기준으로 적어 둔 명령이다.&lt;/p&gt;
 &lt;h2 id="homebrew-설치"&gt;Homebrew 설치&lt;/h2&gt;
 &lt;p&gt;이미 설치되어 있다면 넘어간다. 당시 사용한 설치 명령은 아래와 같다.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;/usr/bin/ruby -e &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;
