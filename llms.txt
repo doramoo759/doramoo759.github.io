@@ -17,7 +17,7 @@
 - [동료에게 듣고 찾아본 인천 구월동 흉기 난동 사건](https://www.ramoo.net/news/incheon-guwol-stabbing-news/index.md): 직장 동료에게 소식을 듣고 찾아본 인천 구월동 상업시설 흉기 난동 사건. 기사 네 편과 저녁 후속 보도를 바탕으로 사건 경위와 달라진 내용을 정리하고 관련 영상을 남겼다.
 - [노벨상까지 내놓으라는 트럼프, 후대는 어떻게 기억할까](https://www.ramoo.net/news/trump-nobel-peace-prize-icc-sanctions/index.md): 트럼프의 노벨평화상 불만과 미국의 ICC 제재를 다룬 기사 세 편을 짧게 정리하고, 국가 지도자의 책임에 대한 생각을 남긴다.
 - [트럼프, 유네스코 탈퇴 결정… "친팔레스타인·친중국 성향"](https://www.ramoo.net/news/teureompeu-yuneseuko-taltoe-gyeoljeong-cinpalreseutain-cinjunggug-seonghyang/index.md): "상식적인 정책과 완전히 어긋나…미국 최우선으로 생각할 것" 2023년 조 바이든 전 대통령 재가입 이후 2년 만
-- ["지금 이 난리에!" 시민들 분노…'덩실덩실' 구리시장 "술은 안 마셨다" / SBS 8뉴스](https://www.ramoo.net/news/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/index.md): 참 이 물난리에 잠깐 참석이라도 하지 말았어야 한다. 그 시간에 야유회 참석 안 한다고 누가 뭐라 하겠는가.. 같은 시간 공무원들은 비상 근무를 하고 있었다는데
+- ["지금 이 난리에!" 시민들 분노…'덩실덩실' 구리시장 "술은 안 마셨다" / SBS 8뉴스](https://www.ramoo.net/news/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/index.md): 2025년 7월 구리시장 야유회 참석 논란의 경위와 해명, 공식 사과를 정리한다. 홍수주의보 해제와 비상근무 종료를 구분하고 재난 대응의 쟁점을 살펴본다.
 - [Weekly hot issue - 강선우 후보자를 둘러싼 보좌진 갑질 논란](https://www.ramoo.net/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/index.md): 최근 강선우 여성가족부 장관 후보자를 둘러싼 ‘보좌진 갑질 논란’이 정치권을 흔들고 있습니다. 이번 논란은 인사청문회 과정에서 전·현직 보좌진들의 폭로로 촉발되었습니다.
 - [Weekly News (2025년 7월 18일)](https://www.ramoo.net/news/weekly-news-2025nyeon-7weol-18il/index.md): 이재명 대통령은 전국적인 폭우 피해로 인해 부산 타운홀 미팅 일정을 취소하고 피해 상황 점검에 집중했다.
 
@@ -25,7 +25,7 @@
 - [Hobby](https://www.ramoo.net/hobby/index.md): 프로그래밍·서버 구축·개발 도구부터 맥·전자기기 사용기, 개인 NAS와 홈 네트워크 경험까지 담은 기록입니다.
 
 - [Powerball Number Generator & Latest Winning Numbers](https://www.ramoo.net/hobby/powerball-number-generator/index.md): Generate Powerball picks, check recent winning numbers, and explore white and red ball frequencies. Draw dates and schedules use U.S. Eastern Time.
-- [로또 번호 생성기 | 최근 10회 당첨번호·미출현 번호 통계](https://www.ramoo.net/hobby/lotto-645-analyzer/index.md): 동행복권 로또 6/45 최신 10회(1236회~1245회) 당첨번호 전수 분석. 11개의 미출현 번호, 최다 출현 13번, 1~45번 빈도 차트 및 통계 기반 스마트 번호 자동 추천기를 제공합니다.
+- [로또 번호 생성기 | 최근 10회 당첨번호·미출현 번호 통계](https://www.ramoo.net/hobby/lotto-645-analyzer/index.md): 재미로 즐기는 로또 6/45 번호 생성기입니다. 최근 10회 당첨번호와 미출현·출현 빈도를 살펴보고, 5가지 방식과 고정수·제외수로 원하는 조합을 만들어 보세요.
 - [IPv4 CIDR·서브넷 계산기: IP 범위 확인과 클래스 A·B·C 이해하기](https://www.ramoo.net/hobby/cidr-subnet-calculator/index.md): IPv4 주소와 CIDR 프리픽스로 네트워크 시작·끝, 서브넷 마스크, 브로드캐스트와 호스트 수를 계산합니다. IP 클래스 A·B·C의 의미와 방화벽·공유기 설정 예시도 설명합니다.
 - [내 IP 주소 확인하기](https://www.ramoo.net/hobby/check-my-ip/index.md): 내 IP 주소를 무료로 확인하세요. 공인 IP 조회, IPv4·IPv6 구분, IP 위치 지도, 통신사·ASN과 연결 정보를 확인하고 주소를 바로 복사할 수 있습니다.
 - [웹 브라우저 기반 원격 접속 Apache Guacamole 사내망 구축 및 RDP/SSH 테스트](https://www.ramoo.net/hobby/apache-guacamole-intro/index.md): 브라우저 SSH 접속은 편했지만 LDAP 연동과 계정·세션 관리가 걸렸다. 사내망 테스트에서 멈춘 기록.
