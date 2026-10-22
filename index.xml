@@ -6791,110 +6791,223 @@ height="600" /&gt;
 &lt;p&gt;입력한 도메인의 &lt;code&gt;_acme-challenge&lt;/code&gt; 확인 버튼으로 레코드가 조회되는지 확인한 뒤 인증서를 다운로드했다.&lt;/p&gt;
 &lt;p&gt;메일 주소를 입력하면 만료 전에 알림을 받을 수 있다고 했다.&lt;/p&gt;
 &lt;p&gt;이후에는 Mac에서 직접 발급하는 방식으로 바꿨다. 그 기록은 &lt;a href="https://www.ramoo.net/hobby/synology-wildcard-certbot-mac/"
-&gt;Certbot으로 발급해 NAS에 적용한 메모&lt;/a&gt;에 남겼다.&lt;/p&gt;</description></item><item><title>시놀로지 DS918+ RAM 메모리 16GB 업그레이드 방법 및 호환 메모리 확인기</title><link>https://www.ramoo.net/hobby/ds918-memory-upgrade/</link><pubDate>Sat, 02 Nov 2019 11:19:46 +0900</pubDate><guid>https://www.ramoo.net/hobby/ds918-memory-upgrade/</guid><description>&lt;p&gt;DS918+를 사고 메모리를 늘리려고 알아봤다. 아무 메모리나 사서 꽂으면 되는 것은 아니어서 아래 모델을 골랐다.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;DDR3L 1866 MT/s (PC3-14900)
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Unbuffered SODIMM 204-Pin
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;CT2K102464BF186D
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
-&lt;picture&gt;
-&lt;source
-srcset="https://image.ramoo.net/images/server/blog-nas/ds918-memory-upgrade/photo-01_hu_ae547e2aefdf879f.webp"
-media="(max-width: 575px)" /&gt;
-&lt;source
-srcset="https://image.ramoo.net/images/server/blog-nas/ds918-memory-upgrade/photo-01_hu_a5a0248dcab32cd6.webp"
-media="(max-width: 767px)" /&gt;
-&lt;source
-srcset="https://image.ramoo.net/images/server/blog-nas/ds918-memory-upgrade/photo-01_hu_d0eb81543dfd3b20.webp"
-media="(max-width: 991px)" /&gt;
-&lt;source
-srcset="https://image.ramoo.net/images/server/blog-nas/ds918-memory-upgrade/photo-01_hu_3bf8d65ab47faaa4.webp"
-/&gt;
-&lt;img
-loading="lazy" decoding="async"
-src="https://image.ramoo.net/images/server/blog-nas/ds918-memory-upgrade/photo-01_hu_3bf8d65ab47faaa4.webp"
-class=" img-fluid img"
-alt="DS918&amp;#43; 메모리 업그레이드 — 화면 1"
-width="1242"
-height="2208" /&gt;
-&lt;/picture&gt;
-&lt;/p&gt;
-&lt;p&gt;아마존에서 샀다. 처음에는 8GB 하나만 사려고 했는데, 해외에서 오는 김에 세트로 주문했다.&lt;/p&gt;
-&lt;h2 id="장착-후"&gt;장착 후&lt;/h2&gt;
-&lt;p&gt;메모리 용량이 많이 남았다. 돈을 너무 쓴 건 아닌가 싶었지만 체감상 확실히 빠릿해진 느낌이었다.&lt;/p&gt;
+&gt;Certbot으로 발급해 NAS에 적용한 메모&lt;/a&gt;에 남겼다.&lt;/p&gt;</description></item><item><title>시놀로지 DS918+ 메모리 16GB 업그레이드 후기와 장착 방법</title><link>https://www.ramoo.net/hobby/ds918-memory-upgrade/</link><pubDate>Sat, 02 Nov 2019 11:19:46 +0900</pubDate><guid>https://www.ramoo.net/hobby/ds918-memory-upgrade/</guid><description>&lt;p&gt;DS918+를 사고 메모리를 늘리려고 알아봤다. 아무 메모리나 사서 꽂으면 되는 것은 아니어서 규격과 모델을 찾아보고 Crucial 메모리를 골랐다. 처음에는 8GB 하나만 사려고 했는데, 해외에서 오는 김에 아예 세트로 주문했다.&lt;/p&gt;
+&lt;p&gt;8GB 두 개로 구성하니 DSM에서 합계 16GB로 인식됐다. 사용하면서 체감상 빠릿해진 느낌도 있어 만족하고 있다. 다만 &lt;strong&gt;DS918+의 공식 확장 용량은 최대 8GB&lt;/strong&gt;다. 내가 쓰는 16GB 구성과 제조사가 지원하는 구성은 구분해서 볼 필요가 있다.&lt;/p&gt;
+&lt;h2 id="구입한-메모리와-구성"&gt;구입한 메모리와 구성&lt;/h2&gt;
+&lt;p&gt;내가 고른 모델은 &lt;strong&gt;CT2K102464BF186D&lt;/strong&gt;다. 아마존에서 16GB 키트, 즉 8GB 두 개 묶음으로 주문했다.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;항목&lt;/th&gt;
+&lt;th&gt;구성&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;NAS&lt;/td&gt;
+&lt;td&gt;Synology DS918+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;기존 메모리&lt;/td&gt;
+&lt;td&gt;Synology 4GB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;구입한 모델&lt;/td&gt;
+&lt;td&gt;Crucial CT2K102464BF186D&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;새 구성&lt;/td&gt;
+&lt;td&gt;8GB × 2, 합계 16GB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;메모리 규격&lt;/td&gt;
+&lt;td&gt;DDR3L, 1866 MT/s, PC3-14900&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;형태&lt;/td&gt;
+&lt;td&gt;Unbuffered SO-DIMM, 204핀&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;p&gt;
-&lt;picture&gt;
-&lt;source
-srcset="https://image.ramoo.net/images/server/blog-nas/ds918-memory-upgrade/photo-02_hu_18ec66ee64bdf8.webp"
-media="(max-width: 575px)" /&gt;
-&lt;source
-srcset="https://image.ramoo.net/images/server/blog-nas/ds918-memory-upgrade/photo-02_hu_feff7a465fb2335.webp"
-media="(max-width: 767px)" /&gt;
-&lt;source
-srcset="https://image.ramoo.net/images/server/blog-nas/ds918-memory-upgrade/photo-02_hu_1782a0bb43be2b85.webp"
-media="(max-width: 991px)" /&gt;
-&lt;source
-srcset="https://image.ramoo.net/images/server/blog-nas/ds918-memory-upgrade/photo-02_hu_54d8ce834ca27524.webp"
-/&gt;
 &lt;img
-loading="lazy" decoding="async"
-src="https://image.ramoo.net/images/server/blog-nas/ds918-memory-upgrade/photo-02_hu_54d8ce834ca27524.webp"
-class=" img-fluid img"
-alt="DS918&amp;#43; 메모리 업그레이드 — 화면 2"
-width="2076"
-height="1184" /&gt;
-&lt;/picture&gt;
+src="https://image.ramoo.net/images/server/blog-nas/ds918-memory-upgrade/memory-order-alpha-v3.webp"
+loading="lazy"
+decoding="async"
+alt="아마존 주문 화면의 16GB 키트와 8GB 두 개 옵션을 보존한 이미지"
+class="img-fluid img"
+width=""
+height="" /&gt;
 &lt;/p&gt;
-&lt;p&gt;당시 사용 중에는 안정적으로 동작했다. 메모리가 넉넉하니 이것저것 올리는 데 부담이 줄어 만족했다.&lt;/p&gt;
-&lt;p&gt;기존 Synology 4GB 메모리는 어떻게 처분할지 고민이었다.&lt;/p&gt;</description></item><item><title>macOS 카탈리나에서 아이튠즈(iTunes) 사라졌을 때 아이폰 백업 및 동기화 방법</title><link>https://www.ramoo.net/hobby/macos-catalina-itunes/</link><pubDate>Fri, 01 Nov 2019 02:18:33 +0900</pubDate><guid>https://www.ramoo.net/hobby/macos-catalina-itunes/</guid><description>&lt;p&gt;개발하다 앱에 파일을 올릴 일이 있어 iTunes를 찾았는데 아무리 봐도 없었다.&lt;/p&gt;
+&lt;p&gt;위 화면에서는 16GB 키트를 선택한 것을 확인할 수 있다. 상품 대표 사진만으로 실물 모듈의 품번까지 확인되는 것은 아니다. 모델명과 주문 옵션을 같이 확인하는 편이 좋다. 상품 제목이나 검색어가 비슷해도 용량·동작 속도·키트 구성이 다를 수 있다. 같은 이름의 판매 페이지가 보인다고 이 글과 같은 물건이라고 생각하지 말고, 선택한 옵션과 받아 본 모듈의 품번까지 대조해야 한다.&lt;/p&gt;
+&lt;h2 id="공식-최대-8gb와-내가-쓰는-16gb는-다르다"&gt;공식 최대 8GB와 내가 쓰는 16GB는 다르다&lt;/h2&gt;
+&lt;p&gt;Synology의 &lt;a href="https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/18-year/DS918%2B/enu/Synology_DS918_Plus_Data_Sheet_enu.pdf"
+target="_blank"
+&gt;DS918+ 데이터시트&lt;/a&gt;에는 기본 메모리가 4GB DDR3L SO-DIMM이며 최대 8GB까지 확장할 수 있다고 적혀 있다. &lt;a href="https://www.synology.com/en-uk/company/news/article/Synology_XS_Plus_Value_series"
+target="_blank"
+&gt;제품 발표 자료&lt;/a&gt;에도 DS918+의 확장 용량은 8GB로 안내되어 있다.&lt;/p&gt;
+&lt;p&gt;따라서 8GB 두 개로 16GB를 만드는 것은 공식 범위를 넘어선 구성이다. 내 DS918+에서 인식되고 사용 중 문제가 없었다고 해서 모든 DS918+나 같은 규격의 다른 메모리까지 호환된다고 보장할 수는 없다.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://global.download.synology.com/download/Document/Hardware/HIG/DiskStation/18-year/DS918%2B/enu/Syno_QIG_DS918_Plus_enu.pdf"
+target="_blank"
+&gt;하드웨어 설치 가이드&lt;/a&gt;는 기본 메모리를 제거하지 말라고 안내하며, 비정품 사용 시 보증·기술 지원에도 제한을 둔다. 기존 4GB를 교체하는 내 구성은 공식 추가 장착 방식과 다르다.&lt;/p&gt;
+&lt;h2 id="메모리-슬롯과-장착할-때-확인할-것"&gt;메모리 슬롯과 장착할 때 확인할 것&lt;/h2&gt;
+&lt;p&gt;메모리 슬롯은 전면 트레이 네 개를 빼면 본체 안쪽에서 보인다. 바닥의 M.2 SSD 슬롯과는 다르다. &lt;a href="https://global.download.synology.com/download/Document/Hardware/HIG/DiskStation/18-year/DS918%2B/enu/Syno_QIG_DS918_Plus_enu.pdf"
+target="_blank"
+&gt;설치 가이드 8~9쪽&lt;/a&gt;에서 그림을 확인할 수 있다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;중요한 데이터의 백업을 확인하고 DSM에서 정상 종료한다.&lt;/li&gt;
+&lt;li&gt;전원이 꺼진 뒤 전원선과 연결된 케이블을 분리한다.&lt;/li&gt;
+&lt;li&gt;드라이브 트레이를 빼고 순서를 유지해 둔다.&lt;/li&gt;
+&lt;li&gt;메모리 가장자리를 잡고 금색 접점의 홈과 슬롯 방향을 맞춘다.&lt;/li&gt;
+&lt;li&gt;슬롯에 끝까지 넣은 뒤 적당한 힘으로 눌러 고정한다. 잘 들어가지 않으면 방향과 걸쇠부터 확인한다.&lt;/li&gt;
+&lt;li&gt;트레이를 원래 위치에 넣고 케이블을 연결한 뒤 전원을 켠다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;접점과 다른 내부 부품은 만지지 않는다. 모듈을 뺄 때는 양쪽 걸쇠를 벌려 풀고 가장자리를 잡는다. 위 위치·고정 방식은 공식 가이드를 참고한 설명이며, 16GB 구성은 제조사 권장 범위를 벗어난다.&lt;/p&gt;
+&lt;h2 id="dsm에서-16gb로-인식되는지-확인"&gt;DSM에서 16GB로 인식되는지 확인&lt;/h2&gt;
+&lt;p&gt;전원을 켠 뒤 DSM에 접속해 &lt;strong&gt;제어판 → 정보 센터&lt;/strong&gt;에서 총 물리적 메모리를 확인한다. 내 리소스 모니터 화면에서도 합계가 &lt;strong&gt;16GB&lt;/strong&gt;로 표시됐다.&lt;/p&gt;
 &lt;p&gt;
-&lt;picture&gt;
-&lt;source
-srcset="https://image.ramoo.net/images/off-duty/macos-catalina-itunes/photo-01_hu_3289c01c1d6e1d77.webp"
-media="(max-width: 575px)" /&gt;
-&lt;source
-srcset="https://image.ramoo.net/images/off-duty/macos-catalina-itunes/photo-01_hu_9632dea9bea07862.webp"
-media="(max-width: 767px)" /&gt;
-&lt;source
-srcset="https://image.ramoo.net/images/off-duty/macos-catalina-itunes/photo-01_hu_6961d95bb58b017d.webp"
-media="(max-width: 991px)" /&gt;
-&lt;source
-srcset="https://image.ramoo.net/images/off-duty/macos-catalina-itunes/photo-01_hu_3ba935794047d1dd.webp"
-/&gt;
 &lt;img
-loading="lazy" decoding="async"
-src="https://image.ramoo.net/images/off-duty/macos-catalina-itunes/photo-01_hu_3ba935794047d1dd.webp"
-class=" img-fluid img"
-alt="Catalina에서 사라진 iTunes를 찾다가 — 화면 1"
-width="1740"
-height="1016" /&gt;
-&lt;/picture&gt;
+src="https://image.ramoo.net/images/server/blog-nas/ds918-memory-upgrade/memory-status-alpha-v3.webp"
+loading="lazy"
+decoding="async"
+alt="합계 16GB와 사용량 16%가 표시된 실제 DSM 리소스 모니터 화면"
+class="img-fluid img"
+width=""
+height="" /&gt;
 &lt;/p&gt;
-&lt;p&gt;macOS Catalina에서는 iTunes의 기능이 나뉘고, 기기 동기화는 Finder에서 할 수 있었다.&lt;/p&gt;
-&lt;p&gt;Finder를 열면 왼쪽에 연결한 기기가 나타난다. 선택하면 예전에 iTunes에서 보던 동기화 화면이 나온다.&lt;/p&gt;
+&lt;p&gt;이 화면에는 사용된 공간, 캐시된 영역, 남은 영역이 따로 표시되어 있다. 합계 16GB로 인식됐다는 것은 확인할 수 있지만, 사용량 16%라는 숫자는 캡처한 순간의 상태다. 이것을 4GB와 16GB의 성능 비교나 장시간 안정성 검사 결과로 볼 수는 없다. 화면에 나오지 않는 DSM 세부 빌드나 모듈 리비전까지 확인되는 것도 아니다.&lt;/p&gt;
+&lt;h2 id="메모리-검사와-문제가-생겼을-때"&gt;메모리 검사와 문제가 생겼을 때&lt;/h2&gt;
+&lt;p&gt;용량이 제대로 잡히는 것과 메모리에 오류가 없는지는 별도로 확인할 부분이다. Synology Assistant에는 메모리 검사 기능이 있다. &lt;a href="https://kb.synology.com/en-id/DSM/help/Assistant/assistant?version=6"
+target="_blank"
+&gt;Assistant 도움말&lt;/a&gt;과 &lt;a href="https://kb.synology.com/en-sg/DSM/tutorial/How_can_I_run_a_memory_test_on_my_Synology_NAS"
+target="_blank"
+&gt;Synology의 메모리 검사 안내&lt;/a&gt;를 참고할 수 있다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;PC나 Mac에서 Synology Assistant를 열고 설정에서 메모리 검사 기능을 활성화한다.&lt;/li&gt;
+&lt;li&gt;사용할 NAS를 선택하고 메모리 검사를 실행한다.&lt;/li&gt;
+&lt;li&gt;검사 중에는 NAS가 재시작되고 서비스를 사용할 수 없으므로 진행 중인 작업을 먼저 정리한다. Assistant도 종료하지 않는다.&lt;/li&gt;
+&lt;li&gt;끝난 뒤 상태 표시와 오류 메시지를 확인한다. 검사 뒤 NAS가 검색된다는 이유만으로 오류가 없었다고 판단하지 않는다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;내 사용 소감은 인식 용량과 사용하는 동안의 체감에 관한 것이다. 이 글에 별도의 검사 통과 화면이나 반복 검사 결과를 남긴 것은 아니므로, 검사 기능을 소개하는 내용과 내 검증 결과를 혼동하지 않았으면 한다.&lt;/p&gt;
+&lt;p&gt;부팅되지 않거나 사용 중 재시작 같은 문제가 생긴다면 새 메모리를 계속 쓰기보다 기존 구성으로 되돌려 원인을 나누어 보는 편이 좋다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;정상 종료할 수 있으면 종료하고, 전원과 케이블을 분리한 상태에서 장착 상태를 확인한다.&lt;/li&gt;
+&lt;li&gt;새 모듈을 빼고 기존 Synology 4GB 메모리를 원래 슬롯에 되돌린다.&lt;/li&gt;
+&lt;li&gt;트레이를 같은 순서로 넣고 연결한 뒤, 부팅과 DSM 접속이 정상인지 확인한다.&lt;/li&gt;
+&lt;li&gt;기존 구성에서도 문제가 이어지면 다른 원인도 확인하고 제조사 지원을 받는다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;메모리 교체를 위해 볼륨을 새로 만들거나 디스크를 초기화할 이유는 없다. 부팅 중 설치·초기화 안내가 나온다면 그대로 진행하지 말고 드라이브와 연결 상태부터 확인해야 한다. 문제를 확인하는 동안에도 기존 메모리는 버리지 않고 보관해 두는 편이 좋겠다.&lt;/p&gt;
+&lt;h2 id="써-보니-어떤가"&gt;써 보니 어떤가&lt;/h2&gt;
+&lt;p&gt;메모리가 넉넉해지니 이것저것 올리는 데 부담이 줄었다. 돈을 너무 쓴 건 아닌가 싶기도 했지만, 쓰는 입장에서는 빠릿해진 느낌이 있어 만족스럽다. 다만 별도로 처리 시간이나 전송 속도를 재 본 것은 아니라 ‘얼마나 빨라졌다’고 숫자로 말할 수는 없다. 메모리를 늘렸다고 디스크나 네트워크 속도까지 함께 올라가는 것도 아니다.&lt;/p&gt;
+&lt;p&gt;공식 최대 용량은 8GB이고, 내가 사용한 16GB는 그 범위를 벗어난 개인 사례라는 점은 다시 구분해 두고 싶다. 기존 Synology 4GB 메모리는 어떻게 처분할까 싶었는데, 원래 구성으로 돌아갈 때를 생각하면 당분간 가지고 있어야겠다.&lt;/p&gt;</description></item><item><title>macOS 카탈리나에서 아이튠즈(iTunes) 사라졌을 때 아이폰 백업 및 동기화 방법</title><link>https://www.ramoo.net/hobby/macos-catalina-itunes/</link><pubDate>Fri, 01 Nov 2019 02:18:33 +0900</pubDate><guid>https://www.ramoo.net/hobby/macos-catalina-itunes/</guid><description>&lt;p&gt;개발하다 앱에 파일을 올릴 일이 있어 iTunes를 찾았는데 아무리 봐도 없었다. 평소 자주 열던 앱은 아니지만, 막상 필요할 때 보이지 않으니 어디서부터 찾아야 할지 잠깐 막막했다.&lt;/p&gt;
+&lt;p&gt;답은 Finder에 있었다. macOS 카탈리나(Catalina)에서는 iTunes의 기능이 나뉘었고, 아이폰 백업과 동기화는 Finder에서 할 수 있었다. 폴더를 열 때 쓰던 Finder에서 아이폰까지 관리하게 된 셈이다.&lt;/p&gt;
 &lt;p&gt;
-&lt;picture&gt;
-&lt;source
-srcset="https://image.ramoo.net/images/off-duty/macos-catalina-itunes/photo-02_hu_ac8534d983db77d2.webp"
-media="(max-width: 575px)" /&gt;
-&lt;source
-srcset="https://image.ramoo.net/images/off-duty/macos-catalina-itunes/photo-02_hu_2c189b51d170820a.webp"
-media="(max-width: 767px)" /&gt;
-&lt;source
-srcset="https://image.ramoo.net/images/off-duty/macos-catalina-itunes/photo-02_hu_8a7b875672e371d1.webp"
-media="(max-width: 991px)" /&gt;
-&lt;source
-srcset="https://image.ramoo.net/images/off-duty/macos-catalina-itunes/photo-02_hu_5ddbfa8c2f767b90.webp"
-/&gt;
 &lt;img
-loading="lazy" decoding="async"
-src="https://image.ramoo.net/images/off-duty/macos-catalina-itunes/photo-02_hu_5ddbfa8c2f767b90.webp"
-class=" img-fluid img"
-alt="Catalina에서 사라진 iTunes를 찾다가 — 화면 2"
-width="2376"
-height="1134" /&gt;
-&lt;/picture&gt;
+src="https://image.ramoo.net/images/off-duty/macos-catalina-itunes/itunes-changes-v2.webp"
+loading="lazy"
+decoding="async"
+alt="macOS Catalina에서 iTunes의 기능이 여러 앱과 Finder로 나뉜다는 안내"
+class="img-fluid img"
+width=""
+height="" /&gt;
 &lt;/p&gt;
-&lt;p&gt;찾았으니 이제 하던 일을 계속한다.&lt;/p&gt;</description></item><item><title>Mac Finder 숨김 파일 보기: 단축키·터미널 명령과 Linux·Windows 비교</title><link>https://www.ramoo.net/hobby/mac-finder-hidden-files/</link><pubDate>Tue, 29 Oct 2019 01:46:25 +0900</pubDate><guid>https://www.ramoo.net/hobby/mac-finder-hidden-files/</guid><description>&lt;p&gt;Mac Finder에서 숨김 파일을 보려면 **&lt;code&gt;Command(⌘) + Shift(⇧) + .&lt;/code&gt;**을 누른다. 마지막 키는 마침표다. 같은 단축키를 다시 누르면 숨김 파일이 보이지 않는 상태로 돌아간다.&lt;/p&gt;
+&lt;p&gt;이때 사용한 환경은 2019년의 macOS Catalina였다. 아래 연결·백업 절차는 Apple 공식 지원 문서를 기준으로 설명한다. 최근 macOS에서 직접 다시 시험한 사용기는 아니므로, 버전에 따라 화면 모양이나 문구가 다르면 함께 연결한 공식 안내를 참고하면 된다.&lt;/p&gt;
+&lt;h2 id="아이폰을-연결하고-finder에서-선택하기"&gt;아이폰을 연결하고 Finder에서 선택하기&lt;/h2&gt;
+&lt;p&gt;먼저 데이터 전송이 가능한 USB 케이블로 아이폰과 Mac을 연결한다. 충전이 된다고 해서 파일 전송도 가능한 케이블인 것은 아니니, 기기가 나타나지 않으면 케이블부터 확인하는 편이 좋다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;아이폰을 연결하고 잠금을 해제한다.&lt;/li&gt;
+&lt;li&gt;Finder를 열고 왼쪽 사이드바의 &lt;strong&gt;위치&lt;/strong&gt;에서 아이폰 이름을 선택한다.&lt;/li&gt;
+&lt;li&gt;Mac에서 신뢰 여부를 물으면 &lt;strong&gt;신뢰&lt;/strong&gt;를 누른다.&lt;/li&gt;
+&lt;li&gt;아이폰에도 ‘이 컴퓨터를 신뢰하겠습니까?’라는 안내가 나오면, 본인이 사용하는 Mac인지 확인한 뒤 &lt;strong&gt;신뢰&lt;/strong&gt;를 누르고 기기 암호를 입력한다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;기기를 선택하면 오른쪽에 일반, 음악, 사진, 파일 등의 탭이 나타난다. 예전에 iTunes에서 보던 기기 관리 화면을 이제 여기서 여는 것이다. 최근 Mac에서는 액세서리 연결을 허용할지 묻는 창이 나올 수도 있다. 이 경우에는 연결한 기기를 확인하고 허용하면 된다. 연결과 신뢰 설정은 &lt;a href="https://support.apple.com/ko-kr/108796"
+target="_blank"
+&gt;Apple의 Mac 백업 안내&lt;/a&gt;에서 확인할 수 있다.&lt;/p&gt;
+&lt;p&gt;
+&lt;img
+src="https://image.ramoo.net/images/off-duty/macos-catalina-itunes/finder-backup-v2.webp"
+loading="lazy"
+decoding="async"
+alt="2019년 Catalina의 Finder에서 iPhone 6s Plus를 선택한 일반 탭과 백업 설정"
+class="img-fluid img"
+width=""
+height="" /&gt;
+&lt;/p&gt;
+&lt;h2 id="백업과-동기화는-용도가-다르다"&gt;백업과 동기화는 용도가 다르다&lt;/h2&gt;
+&lt;p&gt;같은 창에 버튼이 모여 있어도 백업과 동기화가 하는 일은 다르다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;백업&lt;/strong&gt;은 나중에 기기를 교체하거나 문제가 생겼을 때 복원할 수 있도록 데이터를 보관하는 작업이다. &lt;strong&gt;동기화&lt;/strong&gt;는 Mac에서 선택한 음악이나 사진 같은 콘텐츠를 아이폰에 반영하는 작업이다. ‘동기화’를 눌렀다는 이유만으로 복원용 백업까지 끝났다고 생각하면 곤란하다.&lt;/p&gt;
+&lt;p&gt;예를 들어 기기를 바꾸기 전에 데이터를 남겨 두려는 목적이라면 백업을, Mac에 있는 음악을 아이폰에 넣으려는 목적이라면 해당 콘텐츠의 동기화를 선택한다. Apple도 &lt;a href="https://support.apple.com/ko-kr/108796"
+target="_blank"
+&gt;백업&lt;/a&gt;과 &lt;a href="https://support.apple.com/ko-kr/102471"
+target="_blank"
+&gt;콘텐츠 동기화&lt;/a&gt;를 별도 절차로 안내한다.&lt;/p&gt;
+&lt;h2 id="mac에-로컬-백업-남기기"&gt;Mac에 로컬 백업 남기기&lt;/h2&gt;
+&lt;p&gt;Finder에서 아이폰을 선택한 다음 &lt;strong&gt;일반&lt;/strong&gt; 탭을 연다. 백업 영역에는 iCloud에 백업하는 선택지와 이 Mac에 백업하는 선택지가 있다. 컴퓨터에 백업을 남기려면 저장 대상이 Mac으로 되어 있는지 먼저 확인한다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;iPhone의 모든 데이터를 이 Mac에 백업&lt;/strong&gt;하는 항목을 선택한다.&lt;/li&gt;
+&lt;li&gt;건강·활동 데이터 등을 함께 보관하려면 &lt;strong&gt;로컬 백업 암호화&lt;/strong&gt;를 선택하고 암호를 설정한다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;지금 백업&lt;/strong&gt;을 누른다.&lt;/li&gt;
+&lt;li&gt;작업이 끝날 때까지 케이블 연결을 유지한다.&lt;/li&gt;
+&lt;li&gt;백업 영역에 표시되는 &lt;strong&gt;마지막 백업 날짜와 시간&lt;/strong&gt;이 이번 작업 시점으로 바뀌었는지 확인한다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;버튼을 누른 것과 백업이 완료된 것은 다르다. 연결을 해제하기 전에 마지막 백업 시각까지 보는 습관을 들이면, 백업이 남았는지 애매한 상태를 피할 수 있다. 완료 시각을 확인하는 방법은 &lt;a href="https://support.apple.com/ko-kr/108796"
+target="_blank"
+&gt;Apple의 Finder 백업 절차&lt;/a&gt;에 나와 있다.&lt;/p&gt;
+&lt;p&gt;다만 화면에 ‘모든 데이터’라고 적혀 있어도 아이폰의 모든 내용을 빠짐없이 복제하는 것은 아니다. Mac에서 동기화해 넣은 음악·사진이나 iCloud에 이미 저장된 데이터 등은 컴퓨터 백업에서 제외될 수 있다. 원본 보관함과 클라우드 데이터도 함께 관리해야 한다. 포함·제외 항목은 &lt;a href="https://support.apple.com/ko-kr/108771"
+target="_blank"
+&gt;Apple의 백업 방식 비교&lt;/a&gt;에서 확인할 수 있다.&lt;/p&gt;
+&lt;h3 id="로컬-백업-암호는-따로-보관해-두기"&gt;로컬 백업 암호는 따로 보관해 두기&lt;/h3&gt;
+&lt;p&gt;암호화된 로컬 백업은 일반 백업에 포함되지 않는 저장된 암호, Wi-Fi 설정, 건강 데이터 등을 담을 수 있다. 반면 Face ID나 Touch ID 정보, 기기 암호까지 복사하는 것은 아니다.&lt;/p&gt;
+&lt;p&gt;여기서 설정하는 암호는 나중에 해당 백업을 복원할 때 필요하다. 아이폰 잠금 암호나 Apple 계정 암호로 대신할 수 있다고 생각하지 말고, 백업용으로 정한 암호를 안전한 암호 관리자 등에 보관해 두는 편이 좋다. 암호를 잊은 뒤 새 백업 암호를 설정하더라도, 이전에 암호화한 백업이 열리는 것은 아니다.&lt;/p&gt;
+&lt;p&gt;백업 후에는 &lt;strong&gt;일반 → 백업 관리&lt;/strong&gt;에서 해당 백업의 날짜와 자물쇠 표시를 확인할 수 있다. 암호화 범위와 확인 방법은 &lt;a href="https://support.apple.com/ko-kr/108353"
+target="_blank"
+&gt;Apple의 백업 암호화 안내&lt;/a&gt;를 참고하면 된다.&lt;/p&gt;
+&lt;h2 id="음악과-사진은-필요한-항목을-골라-동기화하기"&gt;음악과 사진은 필요한 항목을 골라 동기화하기&lt;/h2&gt;
+&lt;p&gt;음악을 넣고 싶다면 Finder의 아이폰 화면에서 &lt;strong&gt;음악&lt;/strong&gt; 탭을 연다. 사진을 옮기려면 &lt;strong&gt;사진&lt;/strong&gt; 탭에서 대상을 고른다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;원하는 콘텐츠 탭에서 동기화 체크상자를 켠다.&lt;/li&gt;
+&lt;li&gt;전체 보관함을 넣을지, 일부 플레이리스트나 앨범만 넣을지 선택한다.&lt;/li&gt;
+&lt;li&gt;선택한 대상이 맞는지 확인한 뒤 &lt;strong&gt;적용&lt;/strong&gt;을 누른다.&lt;/li&gt;
+&lt;li&gt;자동으로 시작되지 않으면 &lt;strong&gt;동기화&lt;/strong&gt;를 누르고 완료될 때까지 기다린다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;처음에는 필요한 항목부터 고르는 편이 관리하기 수월하다. iCloud 사진이나 Apple Music의 보관함 동기화를 사용하는 경우에는 Finder에서 수동으로 동기화하는 항목과 화면이 달라질 수 있다. 현재 사용하는 방식은 &lt;a href="https://support.apple.com/ko-kr/102471"
+target="_blank"
+&gt;Apple의 Finder 동기화 안내&lt;/a&gt;와 함께 확인하면 된다.&lt;/p&gt;
+&lt;p&gt;특히 다른 Mac에서 관리하던 아이폰을 연결했을 때는 안내창을 그냥 넘기지 않는 것이 좋다. &lt;strong&gt;‘지우기 및 동기화’는 선택한 유형의 기존 콘텐츠를 지우고, 지금 연결한 Mac의 콘텐츠로 바꾼다는 뜻이다.&lt;/strong&gt; 아이폰 전체를 초기화한다는 의미는 아니지만, 그 안에만 남아 있는 음악 등을 보존하는 버튼도 아니다. 이 동작 역시 &lt;a href="https://support.apple.com/ko-kr/102471"
+target="_blank"
+&gt;Apple 공식 문서의 ‘도움이 필요한 경우’&lt;/a&gt;에 설명되어 있다.&lt;/p&gt;
+&lt;h2 id="앱에-파일을-넣으려면-파일-탭으로"&gt;앱에 파일을 넣으려면 ‘파일’ 탭으로&lt;/h2&gt;
+&lt;p&gt;처음 iTunes를 찾았던 이유처럼 특정 앱에 파일을 넣으려는 경우라면 &lt;strong&gt;파일&lt;/strong&gt; 탭을 보면 된다. 음악이나 사진 보관함을 동기화하는 작업과는 경로가 조금 다르다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Finder에서 연결한 아이폰을 선택한다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;파일&lt;/strong&gt; 탭을 열고 파일을 받을 앱을 찾는다.&lt;/li&gt;
+&lt;li&gt;Mac에 있는 파일을 해당 앱으로 드래그한다.&lt;/li&gt;
+&lt;li&gt;복사가 끝나면 아이폰에서 그 앱을 열어 파일을 확인한다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;모든 앱이 여기에 나타나는 것은 아니다. Finder 파일 공유를 지원하는 앱만 사용할 수 있고, 파일 형식도 해당 앱에서 열 수 있어야 한다. 반대로 아이폰의 파일을 Mac으로 가져오려면 앱 옆의 삼각형을 펼쳐 파일을 확인한 뒤 Mac의 폴더로 드래그하면 된다. 자세한 지원 조건은 &lt;a href="https://support.apple.com/ko-kr/119585"
+target="_blank"
+&gt;Apple의 Finder 파일 공유 안내&lt;/a&gt;에 정리되어 있다.&lt;/p&gt;
+&lt;h2 id="finder에-아이폰이-보이지-않을-때"&gt;Finder에 아이폰이 보이지 않을 때&lt;/h2&gt;
+&lt;p&gt;기기 이름 자체가 없다면 백업 설정을 찾기 전에 연결부터 확인해야 한다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;아이폰 잠금과 신뢰 설정을 확인한다.&lt;/strong&gt; 아이폰 화면에 응답을 기다리는 안내가 없는지 살펴본다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Finder 사이드바를 확인한다.&lt;/strong&gt; 왼쪽 목록이 보이지 않으면 &lt;strong&gt;보기 → 사이드바 보기&lt;/strong&gt;를 선택한다. Catalina에서는 &lt;strong&gt;Finder → 환경설정 → 사이드바&lt;/strong&gt;에서 표시할 기기 항목도 확인할 수 있다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;케이블과 USB 포트를 바꿔 본다.&lt;/strong&gt; 데이터 전송을 지원하는 다른 케이블이나 다른 포트로 연결해 본다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;계속 인식하지 못하면 소프트웨어와 지원 범위를 확인한다.&lt;/strong&gt; Mac과 아이폰의 업데이트 상태를 확인하고, 오래된 Catalina 환경이라면 현재 기기와의 연결 문제를 당시 사용 경험만으로 판단하지 않는다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;사이드바 설정은 &lt;a href="https://support.apple.com/ko-kr/guide/mac-help/mchlp1039/10.15/mac/10.15"
+target="_blank"
+&gt;Catalina 사용 설명서&lt;/a&gt;, 연결 문제는 &lt;a href="https://support.apple.com/ko-kr/108643"
+target="_blank"
+&gt;Apple의 기기 인식 문제 해결 안내&lt;/a&gt;를 참고하면 된다. 연결이 안 된다는 이유로 곧바로 아이폰을 초기화할 필요는 없다.&lt;/p&gt;
+&lt;h2 id="백업-복원과-iphone-초기화는-누르기-전에-확인하기"&gt;‘백업 복원’과 ‘iPhone 초기화’는 누르기 전에 확인하기&lt;/h2&gt;
+&lt;p&gt;백업만 남기려는 상황이라면 &lt;strong&gt;지금 백업&lt;/strong&gt;을 사용하면 된다. &lt;strong&gt;백업 복원&lt;/strong&gt;은 저장해 둔 백업의 데이터를 기기에 되돌리는 작업이고, &lt;strong&gt;iPhone 초기화&lt;/strong&gt;는 데이터를 지우고 기기를 초기 상태로 돌리는 작업이다. Apple의 &lt;a href="https://support.apple.com/ko-kr/118107"
+target="_blank"
+&gt;초기 설정값 복원 안내&lt;/a&gt;도 기기의 정보와 설정이 제거된다고 설명한다.&lt;/p&gt;
+&lt;p&gt;복원은 현재 데이터에 예전 데이터를 단순히 덧붙이는 작업으로 생각하면 안 된다. 복원할 백업의 날짜를 확인하고, 그 이후 생긴 데이터 중 따로 보관해야 할 것이 없는지 먼저 살펴보는 편이 좋다. 암호화된 백업이라면 당시 설정한 암호도 준비해야 한다. 복원이 필요한 상황에서는 &lt;a href="https://support.apple.com/ko-kr/118105"
+target="_blank"
+&gt;Apple의 백업 복원 안내&lt;/a&gt;에 따라 진행한다.&lt;/p&gt;
+&lt;p&gt;iTunes가 안 보여서 한참 찾았지만, 기기를 선택하는 위치를 알고 나니 다음에 어디를 열어야 할지는 분명해졌다. Catalina에서 아이폰을 연결했다면 우선 Finder의 왼쪽 사이드바부터 보면 된다.&lt;/p&gt;</description></item><item><title>Mac Finder 숨김 파일 보기: 단축키·터미널 명령과 Linux·Windows 비교</title><link>https://www.ramoo.net/hobby/mac-finder-hidden-files/</link><pubDate>Tue, 29 Oct 2019 01:46:25 +0900</pubDate><guid>https://www.ramoo.net/hobby/mac-finder-hidden-files/</guid><description>&lt;p&gt;Mac Finder에서 숨김 파일을 보려면 **&lt;code&gt;Command(⌘) + Shift(⇧) + .&lt;/code&gt;**을 누른다. 마지막 키는 마침표다. 같은 단축키를 다시 누르면 숨김 파일이 보이지 않는 상태로 돌아간다.&lt;/p&gt;
 &lt;p&gt;원래는 한 번 설정하고 잊기 쉬운 Finder 터미널 명령을 적어 둔 글이었다. 단축키로 처리하는 방법과 원복 방법을 보완하고, Linux와 Windows에서는 같은 작업을 어떻게 하는지 함께 정리했다.&lt;/p&gt;
 &lt;h2 id="운영체제별-숨김-파일-표시-방법"&gt;운영체제별 숨김 파일 표시 방법&lt;/h2&gt;
 &lt;table&gt;
@@ -7073,7 +7186,109 @@ height="608" /&gt;
 &lt;p&gt;처음에는 모든 포트를 막았는데, 다시 생각해 보니 그럴 필요는 없을 것 같았다. 글을 쓴 뒤 특정 포트만 차단하는 것으로 바꿨다.&lt;/p&gt;
 &lt;h2 id="내-네트워크의-ip-확인"&gt;내 네트워크의 IP 확인&lt;/h2&gt;
 &lt;p&gt;지금 사용하는 인터넷 연결의 IP와 추정 위치는 &lt;a href="https://www.ramoo.net/hobby/check-my-ip/"
-&gt;내 IP 주소 확인하기 — 공인 IP·통신사·위치 지도&lt;/a&gt;에서 볼 수 있습니다. 현재 방문자의 연결을 조회하는 도구이며, 위에서 사용한 임의 IP 위치 조회 도구와는 용도가 다릅니다.&lt;/p&gt;</description></item><item><title>맥 타임머신(Time Machine) 최초 백업 속도 느릴 때 원인과 해결 팁</title><link>https://www.ramoo.net/hobby/mac-time-machine-speed/</link><pubDate>Thu, 26 Sep 2019 15:51:51 +0900</pubDate><guid>https://www.ramoo.net/hobby/mac-time-machine-speed/</guid><description>&lt;p&gt;Mac을 업데이트하다 한 번 날려 먹은 적이 있다. 그때 Time Machine으로 복원하고 안도의 한숨을 쉬었다.&lt;/p&gt;
-&lt;p&gt;이후로 꾸준히 백업하고 있지만 속도가 느려서, 당시 찾아 쓴 명령을 적어 둔다.&lt;/p&gt;
+&gt;내 IP 주소 확인하기 — 공인 IP·통신사·위치 지도&lt;/a&gt;에서 볼 수 있습니다. 현재 방문자의 연결을 조회하는 도구이며, 위에서 사용한 임의 IP 위치 조회 도구와는 용도가 다릅니다.&lt;/p&gt;</description></item><item><title>맥 타임머신(Time Machine) 백업이 느릴 때 확인할 것</title><link>https://www.ramoo.net/hobby/mac-time-machine-speed/</link><pubDate>Thu, 26 Sep 2019 15:51:51 +0900</pubDate><guid>https://www.ramoo.net/hobby/mac-time-machine-speed/</guid><description>&lt;p&gt;Mac을 업데이트하다 한 번 날려 먹은 적이 있다. 그때 Time Machine으로 복원하고 안도의 한숨을 쉬었다. 평소에는 백업이 돌아가는지도 크게 신경 쓰지 않았는데, 막상 복원이 필요해지니 백업을 남겨 둔 보람이 있었다.&lt;/p&gt;
+&lt;p&gt;그 뒤로는 꾸준히 백업하고 있다. 다만 백업이 끝나기를 기다리다 보면 속도가 답답할 때가 있다. 조금이라도 빨라질 방법이 없을까 싶어 터미널 명령도 찾아 써 봤다.&lt;/p&gt;
+&lt;p&gt;내 환경에서는 엄청나게 빨라지는 정도는 아니었지만 어느 정도 효과는 있는 듯했다. 따로 시간을 재거나 전송 속도를 기록한 것은 아니라 어디까지나 체감이다. 명령 하나로 해결된다고 기대하기보다는, 백업이 느려질 만한 부분부터 살펴보는 편이 좋겠다.&lt;/p&gt;
+&lt;h2 id="첫-백업은-시간을-넉넉하게-잡기"&gt;첫 백업은 시간을 넉넉하게 잡기&lt;/h2&gt;
+&lt;p&gt;처음 백업할 때는 이후 백업의 기준이 되는 데이터를 옮겨야 한다. 다음부터는 마지막 백업 이후 바뀐 항목을 백업하므로 첫 백업과 평소 백업의 소요 시간이 같지는 않다. Apple의 &lt;a href="https://support.apple.com/ko-kr/104984"
+target="_blank"
+&gt;Time Machine 백업 안내&lt;/a&gt;에서도 첫 백업은 예상보다 오래 걸릴 수 있다고 설명한다.&lt;/p&gt;
+&lt;p&gt;총용량과 함께 파일 수와 파일의 성격도 살펴볼 만하다. 큰 파일 몇 개를 복사하는 작업과 작은 파일을 수없이 확인하고 옮기는 작업은 다르다. 개발 프로젝트처럼 작은 파일이 많은 폴더라면 용량만 보고 예상한 시간과 실제 진행이 다를 수 있다. 그렇다고 파일 수가 내 Mac의 원인이라고 단정할 수는 없고, 확인할 항목 하나로 생각하면 된다.&lt;/p&gt;
+&lt;p&gt;‘준비 중’이라는 표시가 보인다고 곧바로 멈췄다고 판단할 필요도 없다. 준비 단계인지 실제로 복사하는 중인지 먼저 보고, 진행 상태가 바뀌는지 확인한다. 첫 백업이라면 Mac을 당장 들고 나갈 일이 없는 때에 시작하는 편이 마음 편하다.&lt;/p&gt;
+&lt;h2 id="디스크보다-연결이-느린-것은-아닌지"&gt;디스크보다 연결이 느린 것은 아닌지&lt;/h2&gt;
+&lt;p&gt;백업 디스크가 어디에 연결되어 있는지부터 보면 확인할 부분을 나누기 쉽다.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;백업 환경&lt;/th&gt;
+&lt;th&gt;확인할 부분&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;외장 HDD·SSD&lt;/td&gt;
+&lt;td&gt;디스크뿐 아니라 케이블과 포트의 연결 규격&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;USB 허브나 독을 거친 외장 디스크&lt;/td&gt;
+&lt;td&gt;Mac에 직접 연결해도 같은지&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NAS 등 네트워크 백업&lt;/td&gt;
+&lt;td&gt;Wi-Fi 신호와 유선 연결 가능 여부&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;다른 작업에도 쓰는 백업 디스크&lt;/td&gt;
+&lt;td&gt;파일 복사나 검사 작업이 동시에 돌아가는지&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+&lt;img
+src="https://image.ramoo.net/images/off-duty/mac-time-machine-speed/backup-bottlenecks-v2.webp"
+loading="lazy"
+decoding="async"
+alt="외장 디스크 연결, NAS 네트워크, 파일 작업량을 나누어 살펴보는 설명용 일러스트"
+class="img-fluid img"
+width=""
+height="" /&gt;
+&lt;/p&gt;
+&lt;p&gt;외장 SSD를 쓴다고 연결 경로의 제약까지 없어지는 것은 아니다. 디스크를 바꾸기 전에 케이블과 포트를 살펴보고, 허브를 사용하고 있다면 Mac에 직접 연결해 비교해 볼 만하다. Apple의 &lt;a href="https://support.apple.com/ko-kr/102220"
+target="_blank"
+&gt;백업 연결 문제 안내&lt;/a&gt;에서도 외장 디스크의 직접 연결을 안내한다.&lt;/p&gt;
+&lt;p&gt;NAS에 백업한다면 Mac에서 NAS까지의 네트워크도 확인 대상이다. 유선 연결이 가능하면 같은 조건에서 비교해 무선 구간의 영향을 구분해 볼 수 있다. &lt;a href="https://support.apple.com/ko-kr/102184"
+target="_blank"
+&gt;백업 시간이 오래 걸릴 때의 안내&lt;/a&gt;에도 네트워크 성능이 속도에 영향을 준다고 나와 있다.&lt;/p&gt;
+&lt;h2 id="백업하는-동안-다른-작업도-살펴보기"&gt;백업하는 동안 다른 작업도 살펴보기&lt;/h2&gt;
+&lt;p&gt;Time Machine은 Mac을 사용하는 동안 백그라운드에서 작동한다. 작업을 계속할 수 있다는 점은 편하지만, 다른 작업이 바쁘면 백업에 쓸 자원도 달라진다.&lt;/p&gt;
+&lt;p&gt;대용량 파일 복사나 영상 내보내기 같은 작업은 잠시 미뤄 두고 비교해 볼 만하다. 노트북이라면 전원에 연결하고, 발열이 심한 상태에서는 식힐 시간을 주는 편이 좋다. Apple의 &lt;a href="https://support.apple.com/ko-kr/guide/mac-help/mh15140/mac"
+target="_blank"
+&gt;Time Machine 속도 관련 설명&lt;/a&gt;도 작업량, 온도, 배터리 상태에 따라 속도가 낮아질 수 있다고 안내한다.&lt;/p&gt;
+&lt;p&gt;가상 머신의 디스크 이미지처럼 크고 자주 바뀌는 파일도 살펴볼 만하다. &lt;a href="https://support.apple.com/ko-kr/102184"
+target="_blank"
+&gt;Apple의 안내&lt;/a&gt;에는 자주 갱신되는 대용량 파일과 백업 디스크를 계속 사용하는 앱을 확인하라는 내용이 있다. 바이러스 검사나 다른 앱이 같은 디스크를 읽고 있다면 해당 앱의 설정도 함께 살펴본다.&lt;/p&gt;
+&lt;p&gt;속도를 올리려고 중요한 폴더를 무작정 백업 대상에서 빼지는 말자. 제외한 항목은 이후 백업에 담기지 않는다. 다시 받을 수 있는 파일인지, 다른 곳에 백업해 둔 파일인지 먼저 확인해야 한다. 백업은 빨리 끝났는데 필요한 파일이 빠져 있으면 곤란하다.&lt;/p&gt;
+&lt;h2 id="속도를-조정하려고-써-본-명령"&gt;속도를 조정하려고 써 본 명령&lt;/h2&gt;
+&lt;p&gt;내가 찾아 쓴 명령은 이것이다.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo sysctl debug.lowpri_throttle_enabled&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;낮은 우선순위 작업의 제한을 조정하는 설정이다. 내 환경에서는 엄청나게 빨라지는 정도는 아니었지만 어느 정도 효과가 있었다.&lt;/p&gt;</description></item></channel></rss>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;sysctl&lt;/code&gt;은 커널 설정값을 조회하거나 변경하는 도구다. 위 명령은 &lt;code&gt;sudo&lt;/code&gt;로 관리자 권한을 얻어 값을 바꾸는 것이므로 단순히 백업 상태를 보는 명령과는 다르다. 기본 동작은 &lt;a href="https://github.com/apple-oss-distributions/system_cmds/blob/main/sysctl/sysctl.8"
+target="_blank"
+&gt;sysctl 매뉴얼&lt;/a&gt;을 참고할 수 있다.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;debug.lowpri_throttle_enabled&lt;/code&gt;는 낮은 우선순위의 디스크 입출력 제한과 관련된 값이다. &lt;a href="https://github.com/apple-oss-distributions/xnu/blob/main/bsd/miscfs/specfs/spec_vnops.c"
+target="_blank"
+&gt;Apple의 XNU 커널 소스&lt;/a&gt;에서도 값이 &lt;code&gt;0&lt;/code&gt;이면 해당 제한 처리를 건너뛰는 코드를 볼 수 있다.&lt;/p&gt;
+&lt;p&gt;Time Machine만의 속도 옵션은 아니므로 다른 작업과의 디스크 경합이나 응답성에도 영향을 줄 수 있다. 디스크나 네트워크가 느린 문제를 해결해 주는 명령도 아니다. 내 쪽에서는 조금 나아진 듯했지만, 사용하는 macOS와 백업 환경이 다르면 결과도 다를 수 있다. 앞에서 적은 연결과 작업량부터 확인하는 편이 낫겠다.&lt;/p&gt;
+&lt;h3 id="변경-전-값을-기록하고-끝나면-되돌리기"&gt;변경 전 값을 기록하고, 끝나면 되돌리기&lt;/h3&gt;
+&lt;p&gt;이런 설정은 바꾸기 전에 원래 값을 적어 두어야 한다. Mac의 터미널에서 다음 명령으로 조회할 수 있다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sysctl debug.lowpri_throttle_enabled
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;항목을 찾을 수 없다는 오류가 나오면 그 환경에서는 이 방법을 적용할 수 있다고 전제하지 말고 중단한다. 값이 조회된다는 것만으로 변경이 허용되거나 백업이 빨라진다는 뜻도 아니다.&lt;/p&gt;
+&lt;p&gt;이미 설정을 바꿨고 변경 전 값이 &lt;code&gt;1&lt;/code&gt;이었다면 &lt;code&gt;sudo sysctl debug.lowpri_throttle_enabled=1&lt;/code&gt;로 되돌린 뒤 다시 조회해 확인한다. 다른 값이었다면 기록해 둔 값을 사용해야 한다. 예제에 &lt;code&gt;1&lt;/code&gt;이 적혀 있다고 무조건 그 값으로 돌리는 것은 피하자. 원래 값을 모르면 이 글만으로 되돌릴 값을 알아낼 수는 없다.&lt;/p&gt;
+&lt;p&gt;위 명령 자체가 영구 설정 파일을 만드는 것은 아니다. 재부팅한 뒤에도 같은 값이 유지되는지는 조회해서 확인해야 한다. 별도로 자동 실행 설정을 추가했다면 그것도 함께 살펴본다. 재부팅하면 알아서 원하는 상태가 됐을 것이라고 생각하기보다 실제 값을 확인하는 편이 확실하다.&lt;/p&gt;
+&lt;h2 id="마지막에는-백업이-끝났는지-확인하기"&gt;마지막에는 백업이 끝났는지 확인하기&lt;/h2&gt;
+&lt;p&gt;연결을 바꾸거나 설정을 조정했다면 마지막에는 백업이 실제로 끝났는지 확인한다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;메뉴 막대의 &lt;strong&gt;Time Machine&lt;/strong&gt; 메뉴를 연다.&lt;/li&gt;
+&lt;li&gt;진행 중이라면 현재 상태와 복사 진행량을 확인한다.&lt;/li&gt;
+&lt;li&gt;완료된 뒤 &lt;strong&gt;최근 백업 날짜와 시간&lt;/strong&gt;이 이번 백업 시점으로 바뀌었는지 확인한다.&lt;/li&gt;
+&lt;li&gt;실패 메시지가 나오면 문구를 확인하고, 단순히 느린 경우와 나눠서 원인을 찾는다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+&lt;img
+src="https://image.ramoo.net/images/off-duty/mac-time-machine-speed/backup-completion-v2.webp"
+loading="lazy"
+decoding="async"
+alt="Time Machine 백업 완료와 마지막 백업 시각 확인을 표현한 설명용 일러스트"
+class="img-fluid img"
+width=""
+height="" /&gt;
+&lt;/p&gt;
+&lt;p&gt;진행 상태와 마지막 백업 시각을 확인하는 방법은 &lt;a href="https://support.apple.com/ko-kr/104984"
+target="_blank"
+&gt;Apple의 Time Machine 안내&lt;/a&gt;를 참고하면 된다. 설정을 살펴볼 때는 &lt;strong&gt;시스템 환경설정 → Time Machine&lt;/strong&gt;으로 들어가면 된다.&lt;/p&gt;
+&lt;p&gt;속도를 비교하고 싶다면 같은 연결 방식과 비슷한 작업 조건에서 시작·종료 시각을 적어 두는 편이 좋다. 첫 백업과 변경분만 저장하는 다음 백업을 비교하면 설정 효과를 잘못 판단할 수 있다. 나도 ‘몇 배 빨라졌다’고 할 만큼 측정한 것은 아니라, 이 부분은 참고 정도로 봐 주면 좋겠다.&lt;/p&gt;
+&lt;h2 id="느리다고-백업-디스크부터-지우지는-말기"&gt;느리다고 백업 디스크부터 지우지는 말기&lt;/h2&gt;
+&lt;p&gt;기존 백업을 지우고 처음부터 다시 시작하면 이미 남겨 둔 복원 지점도 잃게 된다. 속도가 느리다는 이유만으로 디스크를 포맷하는 것은 피하는 편이 좋겠다. 디스크를 지우면 그 안의 백업과 다른 데이터도 함께 사라진다.&lt;/p&gt;
+&lt;p&gt;연결이 끊기거나 백업이 계속 실패한다면 속도 조정보다 연결 상태, 저장 공간, 오류 메시지부터 확인한다. 필요한 경우 &lt;a href="https://support.apple.com/ko-kr/102220"
+target="_blank"
+&gt;Apple의 백업·복원 문제 해결 안내&lt;/a&gt;를 참고하고, 기존 백업을 보존해야 한다면 다른 디스크에 새 백업을 만드는 방법도 생각해 볼 수 있다.&lt;/p&gt;
+&lt;p&gt;한 번 복원해 보고 나니 조금 빨라졌다는 체감보다 필요한 날에 꺼내 쓸 백업이 남아 있는지가 더 중요하게 느껴진다. 백업이 느려 답답하더라도, 끝난 뒤 마지막 백업 시각까지는 꼭 확인해 두려고 한다.&lt;/p&gt;</description></item></channel></rss>
