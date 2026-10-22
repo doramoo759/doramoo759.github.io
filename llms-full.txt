@@ -4325,7 +4325,7 @@ Mac을 업데이트하다 한 번 날려 먹은 적이 있다. 그때 Time Machi
 | NAS 등 네트워크 백업 | Wi-Fi 신호와 유선 연결 가능 여부 |
 | 다른 작업에도 쓰는 백업 디스크 | 파일 복사나 검사 작업이 동시에 돌아가는지 |
 
-![외장 디스크 연결, NAS 네트워크, 파일 작업량을 나누어 살펴보는 설명용 일러스트](/images/off-duty/mac-time-machine-speed/backup-bottlenecks-v2.webp)
+![외장 디스크 연결, NAS 네트워크, 파일 작업량을 나누어 살펴보는 설명용 일러스트](/images/off-duty/mac-time-machine-speed/backup-bottlenecks-v3.webp)
 
 외장 SSD를 쓴다고 연결 경로의 제약까지 없어지는 것은 아니다. 디스크를 바꾸기 전에 케이블과 포트를 살펴보고, 허브를 사용하고 있다면 Mac에 직접 연결해 비교해 볼 만하다. Apple의 [백업 연결 문제 안내](https://support.apple.com/ko-kr/102220)에서도 외장 디스크의 직접 연결을 안내한다.
 
@@ -4378,7 +4378,7 @@ sysctl debug.lowpri_throttle_enabled
 3. 완료된 뒤 **최근 백업 날짜와 시간**이 이번 백업 시점으로 바뀌었는지 확인한다.
 4. 실패 메시지가 나오면 문구를 확인하고, 단순히 느린 경우와 나눠서 원인을 찾는다.
 
-![Time Machine 백업 완료와 마지막 백업 시각 확인을 표현한 설명용 일러스트](/images/off-duty/mac-time-machine-speed/backup-completion-v2.webp)
+![Time Machine 백업 완료와 마지막 백업 시각 확인을 표현한 설명용 일러스트](/images/off-duty/mac-time-machine-speed/backup-completion-v4.webp)
 
 진행 상태와 마지막 백업 시각을 확인하는 방법은 [Apple의 Time Machine 안내](https://support.apple.com/ko-kr/104984)를 참고하면 된다. 설정을 살펴볼 때는 **시스템 환경설정 → Time Machine**으로 들어가면 된다.
 
