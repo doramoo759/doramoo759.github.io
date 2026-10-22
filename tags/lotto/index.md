@@ -1,4 +1,0 @@
-# Lotto
-
-
-<no value>
