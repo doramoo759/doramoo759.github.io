@@ -8,22 +8,11 @@
 - [Contact](https://www.ramoo.net/contact/index.md): Contact information for ramoo.net.
 - [블로그](https://www.ramoo.net/blog/index.md): 투자·경제, 시사, 전원생활, 개발·서버와 전자기기 취미까지 ramoo.net에 기록한 글을 모아 봅니다.
 
-## News
-- [News](https://www.ramoo.net/news/index.md): 시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
-
-- [Trump Feeling the Heat? The $5,000 Midterm Pitch Has Entered the Chat](https://www.ramoo.net/news/trump-5000-midterms-en/index.md): Trump’s $5,000 midterm promise, red-state rallies, and what a Republican defeat could mean for legislation, appointments, and his remaining presidency.
-- [트럼프 다급했나? ‘공화당 이기면 5,000달러’ 공약 등판](https://www.ramoo.net/news/trump-5000-midterms-ko/index.md): 트럼프의 5,000달러 공약과 텃밭 유세를 외신으로 짚고, 공화당이 하원·상원에서 패배할 경우의 입법·인사·탄핵 변수를 개인적인 시나리오로 살펴봅니다.
-- [김용대 KAIST 교수님의 금융회사 보안 뚫린 이유 소설로 풍자](https://www.ramoo.net/news/security-beyond-tools-a-conversation/index.md): 지디넷코리아에 실린 김용대 KAIST 교수의 보안 풍자 소설을 인물 아이콘과 채팅 말풍선으로 재구성했다. 프롤로그부터 에필로그까지 대사와 지문을 순서대로 읽을 수 있다.
-- [동료에게 듣고 찾아본 인천 구월동 흉기 난동 사건](https://www.ramoo.net/news/incheon-guwol-stabbing-news/index.md): 직장 동료에게 소식을 듣고 찾아본 인천 구월동 상업시설 흉기 난동 사건. 기사 네 편과 저녁 후속 보도를 바탕으로 사건 경위와 달라진 내용을 정리하고 관련 영상을 남겼다.
-- [노벨상까지 내놓으라는 트럼프, 후대는 어떻게 기억할까](https://www.ramoo.net/news/trump-nobel-peace-prize-icc-sanctions/index.md): 트럼프의 노벨평화상 불만과 미국의 ICC 제재를 다룬 기사 세 편을 짧게 정리하고, 국가 지도자의 책임에 대한 생각을 남긴다.
-- [트럼프, 유네스코 탈퇴 결정… "친팔레스타인·친중국 성향"](https://www.ramoo.net/news/teureompeu-yuneseuko-taltoe-gyeoljeong-cinpalreseutain-cinjunggug-seonghyang/index.md): "상식적인 정책과 완전히 어긋나…미국 최우선으로 생각할 것" 2023년 조 바이든 전 대통령 재가입 이후 2년 만
-- ["지금 이 난리에!" 시민들 분노…'덩실덩실' 구리시장 "술은 안 마셨다" / SBS 8뉴스](https://www.ramoo.net/news/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/index.md): 2025년 7월 구리시장 야유회 참석 논란의 경위와 해명, 공식 사과를 정리한다. 홍수주의보 해제와 비상근무 종료를 구분하고 재난 대응의 쟁점을 살펴본다.
-- [Weekly hot issue - 강선우 후보자를 둘러싼 보좌진 갑질 논란](https://www.ramoo.net/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/index.md): 최근 강선우 여성가족부 장관 후보자를 둘러싼 ‘보좌진 갑질 논란’이 정치권을 흔들고 있습니다. 이번 논란은 인사청문회 과정에서 전·현직 보좌진들의 폭로로 촉발되었습니다.
-- [Weekly News (2025년 7월 18일)](https://www.ramoo.net/news/weekly-news-2025nyeon-7weol-18il/index.md): 이재명 대통령은 전국적인 폭우 피해로 인해 부산 타운홀 미팅 일정을 취소하고 피해 상황 점검에 집중했다.
-
 ## Hobby
 - [Hobby](https://www.ramoo.net/hobby/index.md): 프로그래밍·서버 구축·개발 도구부터 맥·전자기기 사용기, 개인 NAS와 홈 네트워크 경험까지 담은 기록입니다.
 
+- [AI가 찾아낸 PHP2Shell 취약점, PHP·Node.js 업데이트부터 확인하자](https://www.ramoo.net/hobby/php2shell-nodejs-security-ko/index.md): PHP2Shell의 CVE-2026-109618·109619와 Node.js 2026년 10월 취약점을 표로 정리했다. PHP·Node.js 수정 버전, 일본 총리의 사이트 중단 요청, 점검 도구와 보안주 반응을 확인한다.
+- [PHP2Shell: AI-Found PHP Vulnerabilities and Node.js Security Updates](https://www.ramoo.net/hobby/php2shell-nodejs-security-en/index.md): PHP2Shell CVEs, fixed PHP and Node.js versions, Japan's shutdown advice, practical checking tools and the reported cybersecurity-stock reaction.
 - [Powerball Number Generator & Latest Winning Numbers](https://www.ramoo.net/hobby/powerball-number-generator/index.md): Generate Powerball picks, check recent winning numbers, and explore white and red ball frequencies. Draw dates and schedules use U.S. Eastern Time.
 - [로또 번호 생성기 | 최근 10회 당첨번호·미출현 번호 통계](https://www.ramoo.net/hobby/lotto-645-analyzer/index.md): 재미로 즐기는 로또 6/45 번호 생성기입니다. 최근 10회 당첨번호와 미출현·출현 빈도를 살펴보고, 5가지 방식과 고정수·제외수로 원하는 조합을 만들어 보세요.
 - [IPv4 CIDR·서브넷 계산기: IP 범위 확인과 클래스 A·B·C 이해하기](https://www.ramoo.net/hobby/cidr-subnet-calculator/index.md): IPv4 주소와 CIDR 프리픽스로 네트워크 시작·끝, 서브넷 마스크, 브로드캐스트와 호스트 수를 계산합니다. IP 클래스 A·B·C의 의미와 방화벽·공유기 설정 예시도 설명합니다.
@@ -40,7 +29,7 @@
 - [TL-SG2008로 DS918+ 링크통합을 시도했다](https://www.ramoo.net/hobby/tl-sg2008-lacp/index.md): DS918+의 두 LAN 포트를 쓰려고 고른 TL-SG2008. 동적 링크통합에서 오류가 나 설정을 바꿨다.
 - [LG 43UN700 43인치 4K 모니터 실사용기 — 맥북 연결 및 CalDigit DP 색상 왜곡 해결법](https://www.ramoo.net/hobby/lg-43un700-monitor/index.md): 큰 화면과 USB-C 허브 기능은 편했다. CalDigit TS3 Plus에 연결했을 때 붉게 보이던 화면은 DP 설정을 바꿔 해결했다.
 - [ipTIME A3004NS-M 가성비 기가 와이파이 공유기 실사용기: 간이 NAS 끄고 공유기로만 쓴 이유](https://www.ramoo.net/hobby/iptime-a3004ns-m/index.md): VPN과 USB 간이 NAS에서는 문제가 있었지만, 공유기 기능만 쓰니 안정적이었다. 2020년 사용 기록.
-- [C++11 push_back vs emplace_back 차이점과 객체 생성 최적화 원리](https://www.ramoo.net/hobby/cpp11-emplace/index.md): 생성자 인자를 바로 넘겨 원소를 만드는 emplace_back과 push_back을 비교한 코드 조각.
+- [C++11 push_back vs emplace_back 차이: 복사·이동과 vector 재할당](https://www.ramoo.net/hobby/cpp11-emplace/index.md): C++11 vector의 push_back과 emplace_back 차이를 실행 가능한 예제로 비교한다. 생성자 인자 전달, 임시 객체와 복사·이동, reserve와 재할당, noexcept 및 C++17 복사 생략의 범위를 설명한다.
 - [SSL For Free에서 와일드카드 인증서를 받았던 기록](https://www.ramoo.net/hobby/synology-wildcard-sslforfree/index.md): 2019년에 SSL For Free에서 와일드카드 인증서를 발급했던 기록. 이후에는 Mac의 Certbot으로 바꿨다.
 - [시놀로지 DS918+ 메모리 16GB 업그레이드 후기와 장착 방법](https://www.ramoo.net/hobby/ds918-memory-upgrade/index.md): DS918+에 Crucial CT2K102464BF186D 8GB 두 개를 장착한 사용기. 공식 최대 8GB와 개인의 16GB 구성을 구분하고 장착, DSM 용량 확인, 메모리 검사와 원복 방법을 정리했다.
 - [macOS 카탈리나에서 아이튠즈(iTunes) 사라졌을 때 아이폰 백업 및 동기화 방법](https://www.ramoo.net/hobby/macos-catalina-itunes/index.md): macOS Catalina에서는 Finder에서 아이폰을 백업하고 동기화한다. 기기 연결과 신뢰 설정부터 로컬 백업 암호화, 완료 확인, 앱 파일 전송까지 알아본다.
@@ -48,6 +37,21 @@
 - [Mac에 Jenkins를 설치했던 기록](https://www.ramoo.net/hobby/mac-jenkins-install/index.md): Homebrew로 Jenkins를 설치하고 Java 8 오류를 해결했던 2019년 기록.
 - [시놀로지(Synology) NAS 해외 IP 및 특정 국가 접속 차단 방화벽 설정 방법](https://www.ramoo.net/hobby/synology-region-firewall/index.md): 반복되는 admin 로그인 시도를 보고 DSM 방화벽에서 지역별 규칙을 만들었다. 이후 특정 포트만 차단하도록 바꿨다.
 - [맥 타임머신(Time Machine) 백업이 느릴 때 확인할 것](https://www.ramoo.net/hobby/mac-time-machine-speed/index.md): Time Machine 백업이 느릴 때 파일 수, 디스크 연결, 네트워크와 다른 작업을 확인하는 방법. 직접 사용해 본 sysctl 명령의 의미와 설정을 되돌릴 때 주의할 점을 정리했다.
+
+## News
+- [News](https://www.ramoo.net/news/index.md): 시사 뉴스와 사회 이슈를 읽으며 남긴 기록입니다. 국내외 사건의 기사와 관련 영상을 모으고 개인적인 생각을 덧붙였습니다.
+
+- [Is Kim Jong Un Still Alive? What the Death Rumors Show](https://www.ramoo.net/news/kim-jong-un-death-rumors-en/index.md): Is Kim Jong Un still alive? An October 2026 review of death rumors, Beijing hospital claims, state-media photos and what remains unverified.
+- [북한 김정은 사망설 그 진실은?](https://www.ramoo.net/news/kim-jong-un-death-rumors-ko/index.md): 김정은 사망설은 사실일까? 2026년 10월 23일 기준 SNS 소문, 중국 병원 이송설, 북한 공개 사진을 비교하고 김주애·김여정의 후계 가능성과 한반도 영향을 살펴본다.
+- [Trump Feeling the Heat? The $5,000 Midterm Pitch Has Entered the Chat](https://www.ramoo.net/news/trump-5000-midterms-en/index.md): Trump’s $5,000 midterm promise, red-state rallies, and what a Republican defeat could mean for legislation, appointments, and his remaining presidency.
+- [트럼프 다급했나? ‘공화당 이기면 5,000달러’ 공약 등판](https://www.ramoo.net/news/trump-5000-midterms-ko/index.md): 트럼프의 5,000달러 공약과 텃밭 유세를 외신으로 짚고, 공화당이 하원·상원에서 패배할 경우의 입법·인사·탄핵 변수를 개인적인 시나리오로 살펴봅니다.
+- [김용대 KAIST 교수님의 금융회사 보안 뚫린 이유 소설로 풍자](https://www.ramoo.net/news/security-beyond-tools-a-conversation/index.md): 지디넷코리아에 실린 김용대 KAIST 교수의 보안 풍자 소설을 인물 아이콘과 채팅 말풍선으로 재구성했다. 프롤로그부터 에필로그까지 대사와 지문을 순서대로 읽을 수 있다.
+- [동료에게 듣고 찾아본 인천 구월동 흉기 난동 사건](https://www.ramoo.net/news/incheon-guwol-stabbing-news/index.md): 직장 동료에게 소식을 듣고 찾아본 인천 구월동 상업시설 흉기 난동 사건. 기사 네 편과 저녁 후속 보도를 바탕으로 사건 경위와 달라진 내용을 정리하고 관련 영상을 남겼다.
+- [노벨상까지 내놓으라는 트럼프, 후대는 어떻게 기억할까](https://www.ramoo.net/news/trump-nobel-peace-prize-icc-sanctions/index.md): 트럼프의 노벨평화상 불만과 미국의 ICC 제재를 다룬 기사 세 편을 짧게 정리하고, 국가 지도자의 책임에 대한 생각을 남긴다.
+- [트럼프, 유네스코 탈퇴 결정… "친팔레스타인·친중국 성향"](https://www.ramoo.net/news/teureompeu-yuneseuko-taltoe-gyeoljeong-cinpalreseutain-cinjunggug-seonghyang/index.md): "상식적인 정책과 완전히 어긋나…미국 최우선으로 생각할 것" 2023년 조 바이든 전 대통령 재가입 이후 2년 만
+- ["지금 이 난리에!" 시민들 분노…'덩실덩실' 구리시장 "술은 안 마셨다" / SBS 8뉴스](https://www.ramoo.net/news/jigeum-i-nanrie-simindeul-bunno-deongsildeongsil-gurisijang-suleun-an-masyeossda-sbs-8nyuseu/index.md): 2025년 7월 구리시장 야유회 참석 논란의 경위와 해명, 공식 사과를 정리한다. 홍수주의보 해제와 비상근무 종료를 구분하고 재난 대응의 쟁점을 살펴본다.
+- [Weekly hot issue - 강선우 후보자를 둘러싼 보좌진 갑질 논란](https://www.ramoo.net/news/weekly-hot-issue-gangseonu-hubojareul-dulreossan-bojwajin-gabjil-nonran/index.md): 최근 강선우 여성가족부 장관 후보자를 둘러싼 ‘보좌진 갑질 논란’이 정치권을 흔들고 있습니다. 이번 논란은 인사청문회 과정에서 전·현직 보좌진들의 폭로로 촉발되었습니다.
+- [2025년 7월 18일 주간 뉴스 기록: 집중호우·특검 수사·장관 인선](https://www.ramoo.net/news/weekly-news-2025nyeon-7weol-18il/index.md): 2025년 7월 18일을 중심으로 그 주의 집중호우와 오산 옹벽 붕괴, 특검 압수수색, 장관 임명, 소비쿠폰, 서울 집값과 삼성전자 주가를 기록했다. 사건일·보도일·통계 기준일과 후속 메모를 구분했다.
 
 ## Money
 - [Money](https://www.ramoo.net/money/index.md): 주식·ETF·배당·금리와 시장 심리를 공부한 기록입니다. 투자 지표와 포트폴리오 메모, 한국 시장 심리 대시보드를 모았습니다.
@@ -85,16 +89,20 @@
 ## Tags
 - [Tags](https://www.ramoo.net/tags/index.md)
 - [2.5G](https://www.ramoo.net/tags/2.5g/index.md)
+- [2025년 7월](https://www.ramoo.net/tags/2025%EB%85%84-7%EC%9B%94/index.md)
 - [2026 Midterms](https://www.ramoo.net/tags/2026-midterms/index.md)
 - [2026 중간선거](https://www.ramoo.net/tags/2026-%EC%A4%91%EA%B0%84%EC%84%A0%EA%B1%B0/index.md)
 - [A3004NS-M](https://www.ramoo.net/tags/a3004ns-m/index.md)
 - [Apache Guacamole](https://www.ramoo.net/tags/apache-guacamole/index.md)
+- [C++](https://www.ramoo.net/tags/c++/index.md)
+- [C++11](https://www.ramoo.net/tags/c++11/index.md)
 - [Certbot](https://www.ramoo.net/tags/certbot/index.md)
 - [CIDR](https://www.ramoo.net/tags/cidr/index.md)
 - [CIO](https://www.ramoo.net/tags/cio/index.md)
 - [CISO](https://www.ramoo.net/tags/ciso/index.md)
 - [Cloudflare](https://www.ramoo.net/tags/cloudflare/index.md)
 - [Commentary](https://www.ramoo.net/tags/commentary/index.md)
+- [Death Rumors](https://www.ramoo.net/tags/death-rumors/index.md)
 - [Distributed Systems](https://www.ramoo.net/tags/distributed-systems/index.md)
 - [DNS](https://www.ramoo.net/tags/dns/index.md)
 - [Docker](https://www.ramoo.net/tags/docker/index.md)
@@ -115,6 +123,9 @@
 - [IPv4](https://www.ramoo.net/tags/ipv4/index.md)
 - [IPv6](https://www.ramoo.net/tags/ipv6/index.md)
 - [KAIST](https://www.ramoo.net/tags/kaist/index.md)
+- [Kim Jong Un](https://www.ramoo.net/tags/kim-jong-un/index.md)
+- [Kim Ju Ae](https://www.ramoo.net/tags/kim-ju-ae/index.md)
+- [Kim Yo Jong](https://www.ramoo.net/tags/kim-yo-jong/index.md)
 - [LACP](https://www.ramoo.net/tags/lacp/index.md)
 - [Let's Encrypt](https://www.ramoo.net/tags/lets-encrypt/index.md)
 - [Life](https://www.ramoo.net/tags/life/index.md)
@@ -129,20 +140,29 @@
 - [Network](https://www.ramoo.net/tags/network/index.md)
 - [Networking](https://www.ramoo.net/tags/networking/index.md)
 - [News](https://www.ramoo.net/tags/news/index.md)
+- [Node.js](https://www.ramoo.net/tags/node.js/index.md)
+- [North Korea](https://www.ramoo.net/tags/north-korea/index.md)
 - [Number Generator](https://www.ramoo.net/tags/number-generator/index.md)
 - [PBR](https://www.ramoo.net/tags/pbr/index.md)
 - [PDI](https://www.ramoo.net/tags/pdi/index.md)
 - [PER](https://www.ramoo.net/tags/per/index.md)
 - [Performance](https://www.ramoo.net/tags/performance/index.md)
+- [PHP](https://www.ramoo.net/tags/php/index.md)
+- [PHP2Shell](https://www.ramoo.net/tags/php2shell/index.md)
 - [PIMCO](https://www.ramoo.net/tags/pimco/index.md)
 - [Powerball](https://www.ramoo.net/tags/powerball/index.md)
 - [PSR](https://www.ramoo.net/tags/psr/index.md)
 - [RDP](https://www.ramoo.net/tags/rdp/index.md)
 - [Remote Access](https://www.ramoo.net/tags/remote-access/index.md)
 - [RTL8156](https://www.ramoo.net/tags/rtl8156/index.md)
+- [Security](https://www.ramoo.net/tags/security/index.md)
 - [Serialization](https://www.ramoo.net/tags/serialization/index.md)
+- [Server Administration](https://www.ramoo.net/tags/server-administration/index.md)
+- [SNS](https://www.ramoo.net/tags/sns/index.md)
+- [Social Media](https://www.ramoo.net/tags/social-media/index.md)
 - [SSH](https://www.ramoo.net/tags/ssh/index.md)
 - [SSL](https://www.ramoo.net/tags/ssl/index.md)
+- [STL](https://www.ramoo.net/tags/stl/index.md)
 - [Subnet](https://www.ramoo.net/tags/subnet/index.md)
 - [Synology](https://www.ramoo.net/tags/synology/index.md)
 - [System Design](https://www.ramoo.net/tags/system-design/index.md)
@@ -151,6 +171,7 @@
 - [Ubuntu 22.04](https://www.ramoo.net/tags/ubuntu-22.04/index.md)
 - [US Politics](https://www.ramoo.net/tags/us-politics/index.md)
 - [USB LAN](https://www.ramoo.net/tags/usb-lan/index.md)
+- [Vector](https://www.ramoo.net/tags/vector/index.md)
 - [VIX](https://www.ramoo.net/tags/vix/index.md)
 - [VNC](https://www.ramoo.net/tags/vnc/index.md)
 - [VPN](https://www.ramoo.net/tags/vpn/index.md)
@@ -158,6 +179,7 @@
 - [Windows](https://www.ramoo.net/tags/windows/index.md)
 - [ZeroMQ](https://www.ramoo.net/tags/zeromq/index.md)
 - [가치평가](https://www.ramoo.net/tags/%EA%B0%80%EC%B9%98%ED%8F%89%EA%B0%80/index.md)
+- [경제](https://www.ramoo.net/tags/%EA%B2%BD%EC%A0%9C/index.md)
 - [경제전망](https://www.ramoo.net/tags/%EA%B2%BD%EC%A0%9C%EC%A0%84%EB%A7%9D/index.md)
 - [공유기](https://www.ramoo.net/tags/%EA%B3%B5%EC%9C%A0%EA%B8%B0/index.md)
 - [공인 IP](https://www.ramoo.net/tags/%EA%B3%B5%EC%9D%B8-ip/index.md)
@@ -166,7 +188,10 @@
 - [국제형사재판소](https://www.ramoo.net/tags/%EA%B5%AD%EC%A0%9C%ED%98%95%EC%82%AC%EC%9E%AC%ED%8C%90%EC%86%8C/index.md)
 - [근로소득세](https://www.ramoo.net/tags/%EA%B7%BC%EB%A1%9C%EC%86%8C%EB%93%9D%EC%84%B8/index.md)
 - [금리](https://www.ramoo.net/tags/%EA%B8%88%EB%A6%AC/index.md)
+- [김여정](https://www.ramoo.net/tags/%EA%B9%80%EC%97%AC%EC%A0%95/index.md)
 - [김용대](https://www.ramoo.net/tags/%EA%B9%80%EC%9A%A9%EB%8C%80/index.md)
+- [김정은](https://www.ramoo.net/tags/%EA%B9%80%EC%A0%95%EC%9D%80/index.md)
+- [김주애](https://www.ramoo.net/tags/%EA%B9%80%EC%A3%BC%EC%95%A0/index.md)
 - [내 IP 확인](https://www.ramoo.net/tags/%EB%82%B4-ip-%ED%99%95%EC%9D%B8/index.md)
 - [노벨평화상](https://www.ramoo.net/tags/%EB%85%B8%EB%B2%A8%ED%8F%89%ED%99%94%EC%83%81/index.md)
 - [로또](https://www.ramoo.net/tags/%EB%A1%9C%EB%98%90/index.md): 로또 6/45 번호 생성기와 최근 당첨번호·출현 통계를 함께 살펴볼 수 있는 글과 도구를 모았습니다.
@@ -175,8 +200,11 @@
 - [배당주](https://www.ramoo.net/tags/%EB%B0%B0%EB%8B%B9%EC%A3%BC/index.md)
 - [보안](https://www.ramoo.net/tags/%EB%B3%B4%EC%95%88/index.md)
 - [부동산](https://www.ramoo.net/tags/%EB%B6%80%EB%8F%99%EC%82%B0/index.md)
+- [북한](https://www.ramoo.net/tags/%EB%B6%81%ED%95%9C/index.md)
 - [사건사고](https://www.ramoo.net/tags/%EC%82%AC%EA%B1%B4%EC%82%AC%EA%B3%A0/index.md)
+- [사망설](https://www.ramoo.net/tags/%EC%82%AC%EB%A7%9D%EC%84%A4/index.md)
 - [사설 IP](https://www.ramoo.net/tags/%EC%82%AC%EC%84%A4-ip/index.md)
+- [서버 관리](https://www.ramoo.net/tags/%EC%84%9C%EB%B2%84-%EA%B4%80%EB%A6%AC/index.md)
 - [성장주](https://www.ramoo.net/tags/%EC%84%B1%EC%9E%A5%EC%A3%BC/index.md)
 - [세금](https://www.ramoo.net/tags/%EC%84%B8%EA%B8%88/index.md)
 - [숏커버](https://www.ramoo.net/tags/%EC%88%8F%EC%BB%A4%EB%B2%84/index.md)
@@ -190,12 +218,15 @@
 - [장기투자](https://www.ramoo.net/tags/%EC%9E%A5%EA%B8%B0%ED%88%AC%EC%9E%90/index.md)
 - [전원주택](https://www.ramoo.net/tags/%EC%A0%84%EC%9B%90%EC%A3%BC%ED%83%9D/index.md)
 - [정보보호](https://www.ramoo.net/tags/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8/index.md)
+- [주간 뉴스](https://www.ramoo.net/tags/%EC%A3%BC%EA%B0%84-%EB%89%B4%EC%8A%A4/index.md)
 - [주식](https://www.ramoo.net/tags/%EC%A3%BC%EC%8B%9D/index.md)
 - [주택 스크랩](https://www.ramoo.net/tags/%EC%A3%BC%ED%83%9D-%EC%8A%A4%ED%81%AC%EB%9E%A9/index.md)
 - [주택공급](https://www.ramoo.net/tags/%EC%A3%BC%ED%83%9D%EA%B3%B5%EA%B8%89/index.md)
+- [집중호우](https://www.ramoo.net/tags/%EC%A7%91%EC%A4%91%ED%98%B8%EC%9A%B0/index.md)
 - [채권](https://www.ramoo.net/tags/%EC%B1%84%EA%B6%8C/index.md)
 - [코스피](https://www.ramoo.net/tags/%EC%BD%94%EC%8A%A4%ED%94%BC/index.md)
 - [투자기초](https://www.ramoo.net/tags/%ED%88%AC%EC%9E%90%EA%B8%B0%EC%B4%88/index.md)
 - [트럼프](https://www.ramoo.net/tags/%ED%8A%B8%EB%9F%BC%ED%94%84/index.md)
+- [특검](https://www.ramoo.net/tags/%ED%8A%B9%EA%B2%80/index.md)
 - [포트폴리오](https://www.ramoo.net/tags/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/index.md)
 - [한국은행](https://www.ramoo.net/tags/%ED%95%9C%EA%B5%AD%EC%9D%80%ED%96%89/index.md)

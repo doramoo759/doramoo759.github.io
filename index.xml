@@ -1,4 +1,454 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ramoo.net</title><link>https://www.ramoo.net/</link><description>투자·경제, 시사, 전원생활, 개발·서버와 취미를 기록하는 Ramoo의 개인 블로그입니다.</description><language>ko-kr</language><atom:link href="https://www.ramoo.net/index.xml" rel="self" type="application/rss+xml"/><item><title>Trump Feeling the Heat? The $5,000 Midterm Pitch Has Entered the Chat</title><link>https://www.ramoo.net/news/trump-5000-midterms/</link><pubDate>Mon, 19 Oct 2026 20:27:33 +0900</pubDate><guid>https://www.ramoo.net/news/trump-5000-midterms-en/</guid><description>&lt;p&gt;The November 3 midterms are getting closer, and Donald Trump has brought a very large number to the campaign: &lt;strong&gt;US$5,000 (about ₩6.71 million at the October 9, 2026 exchange rate)&lt;/strong&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ramoo.net</title><link>https://www.ramoo.net/</link><description>투자·경제, 시사, 전원생활, 개발·서버와 취미를 기록하는 Ramoo의 개인 블로그입니다.</description><language>ko-kr</language><atom:link href="https://www.ramoo.net/index.xml" rel="self" type="application/rss+xml"/><item><title>PHP2Shell: AI-Found PHP Vulnerabilities and Node.js Security Updates</title><link>https://www.ramoo.net/hobby/php2shell-nodejs-security/</link><pubDate>Fri, 23 Oct 2026 20:38:17 +0900</pubDate><guid>https://www.ramoo.net/hobby/php2shell-nodejs-security-en/</guid><description>&lt;p&gt;
+&lt;img
+src="https://image.ramoo.net/images/tech/php2shell-nodejs-security/cover-en-v2.webp"
+loading="lazy"
+decoding="async"
+alt="A fictional scene of Japanese Prime Minister Sanae Takaichi asking an AI robot for help as it repairs a PHP and JS server shield, with an AI illustration disclosure at upper left and ramoo.net at lower right."
+class="img-fluid img"
+width=""
+height="" /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;An AI-generated fictional scene imagining Japan’s prime minister asking an AI robot for help. It does not depict an actual meeting or statement.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A PHP vulnerability became serious enough for Japan&amp;rsquo;s prime minister to mention taking websites temporarily offline. If PHP sounds like something only an old website uses, PHP2Shell is a reminder to look beneath the application: updated CMS plugins do not patch a vulnerable PHP runtime.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;As checked on October 23, 2026, the first fixed releases to verify are PHP 8.2.35, 8.3.36, 8.4.27 and 8.5.12, plus Node.js 22.23.4, 24.22.1 and 26.12.1.&lt;/strong&gt; Use those or later fixed releases in the respective supported branches, accounting for vendor backports. This is an operator-oriented comparison of public advisories, not a claim that I performed penetration tests. &lt;a href="https://www.php.net/archive/2026.php#2026-10-21-5"
+target="_blank"
+&gt;PHP advisory&lt;/a&gt;, &lt;a href="https://nodejs.org/en/blog/vulnerability/october-2026-security-releases"
+target="_blank"
+&gt;Node.js advisory&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="who-found-php2shell-more-than-one-security-company"&gt;Who found PHP2Shell? More than one security company&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PHP2Shell&lt;/strong&gt; is the name attached to this PHP issue. Wiz Research describes using AI-assisted analysis to demonstrate unauthenticated remote code execution against real applications. Remote code execution, or RCE, means an attacker can cause a server to run attacker-chosen code. &lt;a href="https://www.wiz.io/blog/php2shell-php-rce"
+target="_blank"
+&gt;Wiz&amp;rsquo;s research&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The discovery is not accurately described as one firm&amp;rsquo;s isolated achievement. The PHP Foundation traces early signs of the OOM problem to work connected with a 2024 Quarkslab audit. Calif reported RCE with the same root cause on August 11, 2026; OpenAI reported independently, and Wiz supplied additional findings on August 24. Fixed releases arrived on October 21. &lt;a href="https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"
+target="_blank"
+&gt;PHP Foundation&amp;rsquo;s account&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To me, the important development is AI helping researchers establish practical exploitation of a difficult, longstanding problem. That does not leave administrators more time to patch. It makes a faster defensive response more valuable.&lt;/p&gt;
+&lt;h2 id="the-two-php-vulnerabilities-explained"&gt;The two PHP vulnerabilities explained&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Vulnerability&lt;/th&gt;
+&lt;th&gt;Underlying problem&lt;/th&gt;
+&lt;th&gt;Possible result&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w"
+target="_blank"
+&gt;CVE-2026-109618&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Out-of-memory handling leaves partially initialized internal data that cleanup treats as valid&lt;/td&gt;
+&lt;td&gt;Memory corruption and RCE; a mod_php path was demonstrated before application code runs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp"
+target="_blank"
+&gt;CVE-2026-109619&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A worker retains state referring to a previous request&amp;rsquo;s freed memory&lt;/td&gt;
+&lt;td&gt;Use-after-free, worker crashes and conditional RCE&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;PHP&amp;rsquo;s advance notice rated both &lt;strong&gt;Critical, CVSS v4.0 9.2&lt;/strong&gt;. Its advisory covers web-serving installations including PHP-FPM, mod_php and php-cgi, with mod_php considered particularly high risk. Neither using FPM nor having a secure login is sufficient reason to exclude a deployment. &lt;a href="https://www.php.net/archive/2026.php#2026-10-21-5"
+target="_blank"
+&gt;PHP security guidance&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;An affected installation is not proof of a completed compromise. Results depend on reachable paths, configuration and process privileges. KISA warns of web shells, data theft, defacement and access to internal resources. Secrets readable by the web process and systems it can reach are important limits on potential damage. &lt;a href="https://www.krcert.or.kr/kr/bbs/view.do?bbsId=B0000133&amp;amp;menuNo=205020&amp;amp;nttId=72230&amp;amp;pageIndex=4"
+target="_blank"
+&gt;KISA response guidance&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="fixed-php-versions-by-branch"&gt;Fixed PHP versions by branch&lt;/h2&gt;
+&lt;p&gt;This table lists the first fixed release in each supported branch for both CVEs. Compare within a branch; a numerically larger-looking version from another branch is not a substitute.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;PHP branch&lt;/th&gt;
+&lt;th&gt;Unpatched upstream releases&lt;/th&gt;
+&lt;th&gt;Fixed release&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;8.2&lt;/td&gt;
+&lt;td&gt;Before 8.2.35&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;8.2.35 or later&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8.3&lt;/td&gt;
+&lt;td&gt;Before 8.3.36&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;8.3.36 or later&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8.4&lt;/td&gt;
+&lt;td&gt;Before 8.4.27&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;8.4.27 or later&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8.5&lt;/td&gt;
+&lt;td&gt;Before 8.5.12&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;8.5.12 or later&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8.1 and older&lt;/td&gt;
+&lt;td&gt;Unsupported upstream branches&lt;/td&gt;
+&lt;td&gt;Migrate; verify any distribution or LTS-vendor backport separately&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Source: &lt;a href="https://krcert.or.kr/kr/bbs/view.do?bbsId=B0000133&amp;amp;menuNo=205020&amp;amp;nttId=72227&amp;amp;pageIndex=1"
+target="_blank"
+&gt;KISA&amp;rsquo;s PHP update advisory&lt;/a&gt;. This is not a complete historical affected-version matrix. PHP 8.2 itself reaches security end of life on December 31, 2026, making a migration plan worthwhile alongside the emergency patch. &lt;a href="https://news-web.php.net/php.internals/132889"
+target="_blank"
+&gt;PHP 8.2.35 announcement&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Distributions can backport fixes without adopting the upstream version number. Conversely, installing a new command-line PHP binary does not prove the web worker changed. For hosting, NAS packages and appliances with embedded PHP, check the supplier&amp;rsquo;s CVE-specific notice.&lt;/p&gt;
+&lt;h2 id="did-japans-prime-minister-advise-shutting-websites-down"&gt;Did Japan&amp;rsquo;s prime minister advise shutting websites down?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;The substance of that report is supported.&lt;/strong&gt; J-CAST reported that Prime Minister Sanae Takaichi posted on X on October 21 urging operators to check PHP use and prepare to patch quickly. Where immediate patching was difficult, she described temporarily suspending websites as a way to reduce risk. &lt;a href="https://www.j-cast.com/2026/10/22518636.html"
+target="_blank"
+&gt;J-CAST&amp;rsquo;s October 22 report&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.j-cast.com/2026/10/22518636.html"
+target="_blank"
+&gt;
+&lt;img
+src="https://image.ramoo.net/images/tech/php2shell-nodejs-security/jcast-takaichi-article-capture-v1.webp"
+loading="lazy"
+decoding="async"
+alt="Japanese Prime Minister Sanae Takaichi in the photograph and original caption displayed in J-CAST&amp;rsquo;s report; the caption identifies September 2026 as the photo date."
+class="img-fluid img"
+width=""
+height="" /&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Source: photo-and-caption area captured on October 23 from &lt;a href="https://www.j-cast.com/2026/10/22518636.html"
+target="_blank"
+&gt;J-CAST News&amp;rsquo;s October 22, 2026 report&lt;/a&gt;. The original caption dates this file photograph to September 2026; it does not show the PHP security appeal taking place.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;That is conditional risk-reduction advice, not evidence that every Japanese server was compromised or that all websites received a blanket shutdown order. What interests me is availability becoming an explicit management decision: sometimes a planned interruption protects more than keeping a vulnerable service online.&lt;/p&gt;
+&lt;h2 id="nodejs-security-releases-a-separate-set-of-vulnerabilities"&gt;Node.js security releases: a separate set of vulnerabilities&lt;/h2&gt;
+&lt;p&gt;Node.js also published security releases on October 21. The timing does not mean the PHP flaw spread into Node.js. A particularly important item is &lt;strong&gt;CVE-2026-111497, an out-of-bounds write in the Brotli decoder permitting RCE&lt;/strong&gt;. The announcement credits OpenAI Codex Security researchers. Check whether attacker-controlled compressed data can reach the affected processing path; applications do not all have identical exposure.&lt;/p&gt;
+&lt;p&gt;The following summarizes the ten entries in the &lt;a href="https://nodejs.org/en/blog/vulnerability/october-2026-security-releases"
+target="_blank"
+&gt;Node.js security advisory&lt;/a&gt;. Severity follows that advisory: CVE-2026-106072 is listed as Medium there, although individual release notes group two TLS fixes under High.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVE&lt;/th&gt;
+&lt;th&gt;Severity&lt;/th&gt;
+&lt;th&gt;Function to review&lt;/th&gt;
+&lt;th&gt;Branches&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;CVE-2026-105482&lt;/td&gt;
+&lt;td&gt;High&lt;/td&gt;
+&lt;td&gt;DNS names containing NUL characters&lt;/td&gt;
+&lt;td&gt;22, 24, 26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CVE-2026-105483&lt;/td&gt;
+&lt;td&gt;High&lt;/td&gt;
+&lt;td&gt;TLS hostname validation for fullwidth-digit IPs&lt;/td&gt;
+&lt;td&gt;24, 26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CVE-2026-106069&lt;/td&gt;
+&lt;td&gt;High&lt;/td&gt;
+&lt;td&gt;TLS validation of hostnames loosely resolving to IPs&lt;/td&gt;
+&lt;td&gt;22, 24, 26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CVE-2026-111497&lt;/td&gt;
+&lt;td&gt;High&lt;/td&gt;
+&lt;td&gt;Brotli decoder out-of-bounds write and RCE&lt;/td&gt;
+&lt;td&gt;22, 24, 26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CVE-2026-105481&lt;/td&gt;
+&lt;td&gt;Medium&lt;/td&gt;
+&lt;td&gt;Keep-alive response ordering&lt;/td&gt;
+&lt;td&gt;22, 24, 26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CVE-2026-106072&lt;/td&gt;
+&lt;td&gt;Medium&lt;/td&gt;
+&lt;td&gt;Certificate validation for noncanonical IPv4 hostnames&lt;/td&gt;
+&lt;td&gt;22, 24, 26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CVE-2026-106074&lt;/td&gt;
+&lt;td&gt;Medium&lt;/td&gt;
+&lt;td&gt;Repeated random-cache values across snapshots and single-executable applications&lt;/td&gt;
+&lt;td&gt;22, 24, 26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CVE-2026-106070&lt;/td&gt;
+&lt;td&gt;Low&lt;/td&gt;
+&lt;td&gt;Returned bytes after invalid ZIP-header validation&lt;/td&gt;
+&lt;td&gt;26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CVE-2026-106071&lt;/td&gt;
+&lt;td&gt;Low&lt;/td&gt;
+&lt;td&gt;Permission Model wildcard grants&lt;/td&gt;
+&lt;td&gt;26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CVE-2026-106073&lt;/td&gt;
+&lt;td&gt;Low&lt;/td&gt;
+&lt;td&gt;Permission Model bypass through &lt;code&gt;fs.realpathSync&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;22, 24, 26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Review the features your service actually uses: decompression of external data, outbound TLS connections, and code relying on restricted filesystem permissions. A CVE name alone does not establish an identical application-level outcome everywhere.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Node.js branch&lt;/th&gt;
+&lt;th&gt;Security update&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;22.x&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;&lt;a href="https://nodejs.org/en/blog/release/v22.23.4/"
+target="_blank"
+&gt;22.23.4 or later&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;24.x&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;&lt;a href="https://nodejs.org/en/blog/release/v24.22.1/"
+target="_blank"
+&gt;24.22.1 or later&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;26.x&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;&lt;a href="https://nodejs.org/en/blog/release/v26.12.1/"
+target="_blank"
+&gt;26.12.1 or later&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Unsupported branches need a migration decision. These are patch baselines for this release, not a promise that future advisories will never require a newer version.&lt;/p&gt;
+&lt;h2 id="what-i-would-check-first-as-an-operator"&gt;What I would check first as an operator&lt;/h2&gt;
+&lt;p&gt;I would start with &lt;strong&gt;the runtime serving real requests and the person responsible for it&lt;/strong&gt;, before running an external scanner. Even a personal blog can span managed hosting and independently maintained containers.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Inventory public sites, admin interfaces and forgotten test services. Identify PHP and Node.js, including APIs behind static pages.&lt;/li&gt;
+&lt;li&gt;Match running binaries, packages and containers against official fixes and supplier notices. Compare shell versions with the actual service.&lt;/li&gt;
+&lt;li&gt;Prepare recovery and compatibility checks, deploy patched packages, then restart workers or redeploy containers. Consider limiting access if patching must wait.&lt;/li&gt;
+&lt;li&gt;Recheck versions and important functions. A WAF rule does not replace a runtime patch.&lt;/li&gt;
+&lt;li&gt;Review exposure-period errors, process activity, outbound connections and file changes. For suspected compromise, preserve evidence while isolating, then handle secrets and recovery.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This sequence draws on &lt;a href="https://www.php.net/archive/2026.php#2026-10-21-5"
+target="_blank"
+&gt;PHP&amp;rsquo;s response guidance&lt;/a&gt; and &lt;a href="https://www.krcert.or.kr/kr/bbs/view.do?bbsId=B0000133&amp;amp;menuNo=205020&amp;amp;nttId=72230&amp;amp;pageIndex=4"
+target="_blank"
+&gt;KISA&amp;rsquo;s operational guidance&lt;/a&gt;. Suspected compromise changes the sequence: preserve volatile evidence before restarting. Routine patch maintenance and incident investigation are different situations.&lt;/p&gt;
+&lt;p&gt;These are &lt;strong&gt;example read-only commands&lt;/strong&gt;, to run on the relevant host or inside the service container. They are not results from testing your server.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;php -v
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;node --version
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;node -p &lt;span style="color:#e6db74"&gt;&amp;#39;process.versions.brotli&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The first may show CLI PHP, while a service manager or container can select a different Node binary too. I would use internal administration and deployment records rather than leave a diagnostic &lt;code&gt;phpinfo()&lt;/code&gt; page publicly accessible.&lt;/p&gt;
+&lt;h2 id="checking-sites-and-tools-understand-the-tests-scope"&gt;Checking sites and tools: understand the test&amp;rsquo;s scope&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Resource or tool&lt;/th&gt;
+&lt;th&gt;How to use it&lt;/th&gt;
+&lt;th&gt;Scope and limits&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://www.php2shell.com/"
+target="_blank"
+&gt;PHP2Shell information hub&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Compare CVE and upgrade guidance with your inventory&lt;/td&gt;
+&lt;td&gt;A research and response hub, not a URL-based safety verdict&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://github.com/NCSC-NL/php2shell"
+target="_blank"
+&gt;NCSC-NL product inventory&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Find your supplier or CMS and follow its notices&lt;/td&gt;
+&lt;td&gt;Helps locate embedded PHP; investigation status is not confirmed vulnerability&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://developer.mozilla.org/en-US/observatory"
+target="_blank"
+&gt;MDN HTTP Observatory&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Submit a public domain you administer&lt;/td&gt;
+&lt;td&gt;Tests headers and related controls, not PHP2Shell or Node runtime patch status&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://trivy.dev/docs/latest/guide/scanner/vulnerability/"
+target="_blank"
+&gt;Trivy&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Compare container components against a vulnerability database&lt;/td&gt;
+&lt;td&gt;Coverage and database freshness matter; third-party and source-installed software can create gaps&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://docs.npmjs.com/cli/commands/npm-audit/"
+target="_blank"
+&gt;npm audit&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Audit project dependencies from the project directory&lt;/td&gt;
+&lt;td&gt;Checks npm dependencies; it does not replace upgrading the Node executable&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;A high Observatory score is not certification that software is current; its &lt;a href="https://developer.mozilla.org/en-US/observatory/docs/faq"
+target="_blank"
+&gt;FAQ&lt;/a&gt; explicitly describes that limit. I would trust verified package and running-binary status over an absent version header or a scanner finding nothing.&lt;/p&gt;
+&lt;p&gt;Record the image or package deployed, who restarted the service, and where the running version was verified. That gives the next administrator something more useful than a message saying the update is done.&lt;/p&gt;
+&lt;h2 id="did-cybersecurity-stocks-rise"&gt;Did cybersecurity stocks rise?&lt;/h2&gt;
+&lt;p&gt;Some did. &lt;strong&gt;U.S. figures quoted in reporting and Korean closing results use different observation bases.&lt;/strong&gt; This is not a synchronized return comparison.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Market and basis&lt;/th&gt;
+&lt;th&gt;Stock or fund&lt;/th&gt;
+&lt;th&gt;Reported change from the preceding session&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;U.S. October 21 trading, quoted in an October 22 report; closing figures not independently verified&lt;/td&gt;
+&lt;td&gt;Palo Alto Networks&lt;/td&gt;
+&lt;td&gt;+7.0%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Same basis&lt;/td&gt;
+&lt;td&gt;CrowdStrike&lt;/td&gt;
+&lt;td&gt;+5.2%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Same basis&lt;/td&gt;
+&lt;td&gt;Zscaler&lt;/td&gt;
+&lt;td&gt;+7.8%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Same basis&lt;/td&gt;
+&lt;td&gt;HACK / CIBR cybersecurity ETFs&lt;/td&gt;
+&lt;td&gt;+3.2% / +2.7%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Korea, October 22 close&lt;/td&gt;
+&lt;td&gt;Genians / Monitorapp&lt;/td&gt;
+&lt;td&gt;+1.47% / +3.33%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Korea, October 22 close&lt;/td&gt;
+&lt;td&gt;RaonSecure / Xgate&lt;/td&gt;
+&lt;td&gt;−3.18% / −5.00%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;U.S. figures come from &lt;a href="https://primexbt.com/news/cybersecurity-stocks-jump-after-nsa-and-fbi-warn-of-php-vulnerability/"
+target="_blank"
+&gt;PrimeXBT quoting CNBC&lt;/a&gt;; Korean figures come from &lt;a href="https://www.newsis.com/view/NISX20261022_0003837318"
+target="_blank"
+&gt;Newsis&amp;rsquo; closing-market report&lt;/a&gt;. I did not recompute them from exchange price data. Newsis also discusses financial-sector hacking incidents and a falling broader market.&lt;/p&gt;
+&lt;p&gt;My interpretation is that security-spending expectations helped some names. These observations do not isolate PHP as the cause, and the public stocks are not a list of the firms that discovered the bugs. Growing defensive demand and a particular company&amp;rsquo;s ability to convert it into revenue and profit are separate questions.&lt;/p&gt;
+&lt;p&gt;The first return worth protecting here is safe service uptime. As AI helps accelerate vulnerability research, administrators need shorter paths from inventory to patching and verification. My priority would be connecting the official fixed versions to the actual deployment, while leaving specialist incident analysis to people equipped to do it.&lt;/p&gt;</description></item><item><title>Is Kim Jong Un Still Alive? What the Death Rumors Show</title><link>https://www.ramoo.net/news/kim-jong-un-death-rumors/</link><pubDate>Fri, 23 Oct 2026 20:14:02 +0900</pubDate><guid>https://www.ramoo.net/news/kim-jong-un-death-rumors-en/</guid><description>&lt;p&gt;
+&lt;img
+src="https://image.ramoo.net/images/off-duty/news/kim-jong-un-death-rumors/cover-en-v1.webp"
+loading="lazy"
+decoding="async"
+alt="AI-generated fictional composite of a bewildered Kim Jong Un being watched by Kim Ju Ae and Kim Yo Jong, with an AI disclosure at upper left and the ramoo.net watermark at lower right."
+class="img-fluid img"
+width=""
+height="" /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This is an AI-generated fictional illustration of the article&amp;rsquo;s subject, not a news photograph of the three people together.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Claims that North Korea&amp;rsquo;s leader died in China have been circulating on social media again. A story about treatment at a Beijing hospital acquired details about military alerts and political succession. Read in sequence, the claims can create the impression that a major event has already happened.&lt;/p&gt;
+&lt;p&gt;Yet &lt;strong&gt;the public material reviewed as of October 23, 2026 provides no reliable evidence establishing his death.&lt;/strong&gt; North Korean state media released photographs on October 20, saying he had visited an exhibition in Pyongyang the previous day. South Korean diplomatic and security officials did not provide support for the death claims. &lt;a href="https://www.yna.co.kr/view/AKR20261020116500504?input=feed_police"
+target="_blank"
+&gt;Yonhap, October 20&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I am not a North Korea specialist. Rather than simply accepting a verdict, I wanted to compare the sequence of claims. I distinguish social posts I could read from claims quoted by news outlets. This is a review of public articles and posts, not a statistical collection of all social media. I could not directly verify the original X posts&amp;rsquo; first publication times. Dates below include descriptions in news reports and dates displayed in search results.&lt;/p&gt;
+&lt;h2 id="kim-jong-un-death-rumors-the-october-2026-timeline"&gt;Kim Jong Un death rumors: the October 2026 timeline&lt;/h2&gt;
+&lt;p&gt;The first trap is turning a date inside a rumor into the date of an established event. A post saying someone was transferred to China yesterday documents a claim, not the transfer itself.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Period&lt;/th&gt;
+&lt;th&gt;Traceable circulation or reporting&lt;/th&gt;
+&lt;th&gt;Evidence level&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Around October 18–19&lt;/td&gt;
+&lt;td&gt;Reports describe claims of a brain hemorrhage, transfer to Beijing, and death spreading from X posts by Chinese dissident Xie Wanjun.&lt;/td&gt;
+&lt;td&gt;News outlets quoting social posts; original first-post time unverified&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Search results dated October 19&lt;/td&gt;
+&lt;td&gt;Reddit threads share a coma-and-death story and discuss supposedly hearing news of his death.&lt;/td&gt;
+&lt;td&gt;Posts and comments read; dates are search-result labels&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;October 20&lt;/td&gt;
+&lt;td&gt;News outlets report state media&amp;rsquo;s release of photographs said to show an October 19 exhibition visit.&lt;/td&gt;
+&lt;td&gt;Publication reported; separate from independent verification of the event&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;After the photographs&lt;/td&gt;
+&lt;td&gt;Further reporting describes suspicions that a body double appeared in the images.&lt;/td&gt;
+&lt;td&gt;Evidence that suspicions were raised, not that they were established&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Even the first date requires care. &lt;a href="https://www.ytn.co.kr/_ln/0134_202610211547282448_001"
+target="_blank"
+&gt;YTN&amp;rsquo;s October 21 analysis&lt;/a&gt; identifies an October 18 post as the starting point. Yonhap describes a post from October 19. I could not determine whether those references concern the same post in different time zones or subsequent posts, so I use October 18–19. A minute-by-minute timeline in Korean time would imply precision the material does not support.&lt;/p&gt;
+&lt;p&gt;There are direct traces of online circulation. &lt;a href="https://www.reddit.com/r/northkorea/comments/1xacmna/rumours_kim_jong_un_is_dead_after_falling_into/"
+target="_blank"
+&gt;A thread in Reddit&amp;rsquo;s r/northkorea&lt;/a&gt; shares a tabloid story about coma and death claims. Comments include both reminders of previous rumors and challenges to the source. &lt;a href="https://www.reddit.com/r/redscarepod/comments/1xa9ltb/just_got_word_that_kim_jong_un_is_dead/"
+target="_blank"
+&gt;A thread in r/redscarepod&lt;/a&gt; has a title claiming to have heard news of his death, while a commenter invokes a friend in Beijing. Jokes and satire appear throughout that discussion, so the comment cannot be treated as a genuine inside tip.&lt;/p&gt;
+&lt;p&gt;These threads establish that the rumor was being discussed. Separate communities are not automatically separate reporting sources. They may be recirculating the same article or X claim.&lt;/p&gt;
+&lt;h2 id="did-kim-jong-un-die-in-china-the-hospital-claims-and-evidence"&gt;Did Kim Jong Un die in China? The hospital claims and evidence&lt;/h2&gt;
+&lt;p&gt;The central medical claim was a brain hemorrhage. That should be distinguished from speculation about cardiovascular illness based on weight or appearance. &lt;a href="https://www.ibtimes.co.uk/kim-jong-un-appears-after-death-rumours-1826634"
+target="_blank"
+&gt;IBTimes&amp;rsquo; October 20 report&lt;/a&gt; describes an alleged transfer to Peking Union Medical College Hospital in Beijing, while explaining that hospitalization, surgery and death had not been independently established.&lt;/p&gt;
+&lt;p&gt;A hospital name makes a story sound specific. It does not supply medical records or an identifiable witness. General health concerns, an acute illness, a transfer abroad and death are separate assertions. A plausible first step does not establish the conclusion.&lt;/p&gt;
+&lt;p&gt;Claims of tighter hospital surveillance or access controls are also insufficient evidence of a transfer. Search material surfaced a news quotation of such a claim, but I could not verify a hospital notice, the original post&amp;rsquo;s timestamp, or dated and authenticated on-site material. This article therefore does not record hospital controls as an established event or assign them a position before or after the death rumor.&lt;/p&gt;
+&lt;p&gt;The phrase “North Korea raised its alert level” also risks changing the subject of the allegation. The IBTimes report refers to claims about &lt;strong&gt;China&amp;rsquo;s Northern Theatre Command&lt;/strong&gt; and a Chinese troop deployment to Pyongyang. Neither military claim was independently confirmed. Recasting them as proof that North Korean troops were preparing for Kim&amp;rsquo;s death would go beyond the reporting.&lt;/p&gt;
+&lt;p&gt;I could not find a specific original post or reliable report supporting the story that North Korea requested AI video technology from China. That search limitation does not establish that nobody ever posted it. But placing an untraceable claim at the start of the timeline would create an unsupported explanation for everything that followed, so I left it out.&lt;/p&gt;
+&lt;p&gt;AI facial-recognition and body-double claims made after the photographs are a different matter from a supposed request for video-generation technology. &lt;a href="https://view.asiae.co.kr/en/article/2026102118261524402"
+target="_blank"
+&gt;Asia Business Daily&amp;rsquo;s October 21 follow-up&lt;/a&gt; describes continued body-double suspicions without supporting evidence being established. Saying AI was used is not equivalent to publishing a method and comparison material that others can assess.&lt;/p&gt;
+&lt;h2 id="is-kim-jong-un-still-alive-what-the-state-media-photos-establish"&gt;Is Kim Jong Un still alive? What the state-media photos establish&lt;/h2&gt;
+&lt;p&gt;State media dated the exhibition visit to October 19 and published its account on October 20. The images show Kim with Ri Sol Ju and Kim Ju Ae. The coverage did not directly address the death rumors. It is reasonable to say the photographs challenged the rumors; it would be stronger than the evidence to say they were urgently staged and distributed for that purpose. &lt;a href="https://www.yna.co.kr/view/AKR20261020116500504?input=feed_police"
+target="_blank"
+&gt;Yonhap&amp;rsquo;s report&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There are limits to independently verifying state media material. Those limits do not become evidence of death. Questioning a photograph and establishing a death each require their own evidence.&lt;/p&gt;
+&lt;p&gt;What stands out to me is how the explanation shifts when contrary material appears. An absence of public images becomes concealment; a new photograph becomes a body-double theory. Without specifying what evidence would change the judgment, the discussion can become an exercise in defending a conclusion.&lt;/p&gt;
+&lt;h2 id="similar-rumors-have-appeared-before"&gt;Similar rumors have appeared before&lt;/h2&gt;
+&lt;p&gt;In 2014, a long absence from public view ended with images of Kim using a walking stick. In 2020, his absence from Kim Il Sung&amp;rsquo;s birthday commemorations helped fuel serious-illness and death rumors, followed by coverage of his appearance at a fertilizer factory opening. &lt;a href="https://www.ytn.co.kr/_ln/0134_202610211547282448_001"
+target="_blank"
+&gt;YTN&amp;rsquo;s account&lt;/a&gt; revisits both episodes.&lt;/p&gt;
+&lt;p&gt;Past false rumors do not make every future health report false. They do show why an absence from public view is insufficient to establish death. That distinction matters again here.&lt;/p&gt;
+&lt;p&gt;For background reading, Wikipedia has entries on &lt;a href="https://en.wikipedia.org/wiki/Kim_Jong_Un"
+target="_blank"
+&gt;Kim Jong Un&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Kim_Yo_Jong"
+target="_blank"
+&gt;Kim Yo Jong&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Kim_Ju_Ae"
+target="_blank"
+&gt;Kim Ju Ae&lt;/a&gt;. They are starting points for understanding relationships and following references to original reporting. Its &lt;a href="https://en.wikipedia.org/wiki/Media_coverage_of_North_Korea"
+target="_blank"
+&gt;Media coverage of North Korea&lt;/a&gt; entry discusses information gaps and inaccurate reporting. I have not treated the latest wording of a wiki page as the final authority on whether a leader has died.&lt;/p&gt;
+&lt;h2 id="kim-ju-ae-or-kim-yo-jong-succession-if-a-real-vacancy-occurred"&gt;Kim Ju Ae or Kim Yo Jong: succession if a real vacancy occurred&lt;/h2&gt;
+&lt;p&gt;The following is &lt;strong&gt;my personal scenario analysis, conditional on a death or long-term incapacity actually being confirmed.&lt;/strong&gt; It does not describe events known to be underway now.&lt;/p&gt;
+&lt;p&gt;My first question would be who issues orders and whether the party, military and security institutions follow the same authority. A successor&amp;rsquo;s symbolic position and the institutions&amp;rsquo; actual command arrangements could diverge. Conversely, agreement among the core leadership on preserving the system could produce a more orderly transition than outsiders expect.&lt;/p&gt;
+&lt;p&gt;Treating Kim Ju Ae only as a daughter accompanying her father would overlook current public assessments. &lt;a href="https://world.kbs.co.kr/service/news_view.htm?Seq_Code=203963&amp;amp;id=IK&amp;amp;lang=e"
+target="_blank"
+&gt;KBS WORLD&amp;rsquo;s September 1 report&lt;/a&gt; described lawmakers conveying the National Intelligence Service&amp;rsquo;s assessment that she had effectively been chosen as successor. That assessment is not the same as independently knowing North Korea&amp;rsquo;s procedure for an unexpected vacancy.&lt;/p&gt;
+&lt;p&gt;Possible arrangements include senior officials supporting Kim Ju Ae as the central figure, Kim Yo Jong taking an important coordinating role, or party and military leaders jointly managing an interim period. I do not know which, if any, has been prepared. Family relationships alone cannot establish that Kim Yo Jong would immediately take power.&lt;/p&gt;
+&lt;p&gt;If internal agreement weakened, personnel changes and tighter controls might appear first. For residents, restrictions on movement, market activity and supplies could matter as much as the identity of the leader. There is little basis for assuming a leader&amp;rsquo;s death automatically brings collapse, liberalization or reunification.&lt;/p&gt;
+&lt;h2 id="for-the-korean-peninsula-command-arrangements-may-matter-more-than-a-successors-name"&gt;For the Korean Peninsula, command arrangements may matter more than a successor&amp;rsquo;s name&lt;/h2&gt;
+&lt;p&gt;From South Korea&amp;rsquo;s perspective, uncertainty about military command seems a particularly important risk. Unclear arrangements for nuclear and missile-related orders could lead neighboring states to increase monitoring and readiness.&lt;/p&gt;
+&lt;p&gt;A new leadership might adopt a tougher external posture to strengthen unity, or reduce external activity while concentrating on internal control. Rather than assuming a vacancy must produce a provocation, I would watch actual military activity alongside statements and diplomatic contacts.&lt;/p&gt;
+&lt;p&gt;Misinterpretation is another concern. South Korea, the United States and China might read one another&amp;rsquo;s precautionary measures as preparations to intervene. The same troop movement can look different to different observers. Reliable situation assessment, communication and preventing accidental clashes would matter greatly. Preparing for possible humanitarian needs would also be prudent.&lt;/p&gt;
+&lt;p&gt;If new material emerges, I would compare continuity in public appearances, agreement between genuinely independent sources, South Korean assessments and actual military developments. The number of posts repeating a story matters less than where the story originated and what supports it.&lt;/p&gt;
+&lt;p&gt;For now, the evidence is insufficient to accept the death rumor as fact. The episode nevertheless raises useful questions about what we would need to verify during a real leadership crisis. Curiosity is understandable; convincing detail should not be allowed to replace evidence.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The interpretations and future scenarios in this article are only personal speculation based on public material. Please do not put too much faith in them.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Trump Feeling the Heat? The $5,000 Midterm Pitch Has Entered the Chat</title><link>https://www.ramoo.net/news/trump-5000-midterms/</link><pubDate>Mon, 19 Oct 2026 20:27:33 +0900</pubDate><guid>https://www.ramoo.net/news/trump-5000-midterms-en/</guid><description>&lt;p&gt;The November 3 midterms are getting closer, and Donald Trump has brought a very large number to the campaign: &lt;strong&gt;US$5,000 (about ₩6.71 million at the October 9, 2026 exchange rate)&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;For a president trying to help his party hold Congress, it is certainly an attention grabber. But is this a confidence move—or the political equivalent of hitting the big red button?&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;News roundup and personal commentary, checked October 19, 2026. The quotation below is brief; the other news excerpts are summaries, not copied articles or social-media posts.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://www.ramoo.net/static-images/news/trump-5000-midterms-cartoon.webp" alt="Original editorial cartoon of Trump pulling a long ribbon of $5,000 promise coupons while a Republican elephant checks a clipboard marked Congress" loading="lazy" decoding="async" class="img-fluid"&gt;&lt;/p&gt;
@@ -5681,31 +6131,187 @@ height="1005" /&gt;
 &lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=5FJlLZODRMQ"
 target="_blank"
 &gt;EBS 건축탐구 집 — 충주, 경사면을 살린 집&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;영상과 캡처 화면에 포함된 제3자 자료의 권리는 원저작자에게 있다.&lt;/p&gt;</description></item><item><title>Weekly News (2025년 7월 18일)</title><link>https://www.ramoo.net/news/weekly-news-2025nyeon-7weol-18il/</link><pubDate>Sat, 19 Jul 2025 14:56:57 +0900</pubDate><guid>https://www.ramoo.net/news/weekly-news-2025nyeon-7weol-18il/</guid><description>&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;특검 수사 확대&lt;/strong&gt;: 김건희 특검과 채 상병 특검팀은 국민의힘 친윤계 의원인 권성동, 이철규 의원의 사무실을 압수수색하며 수사를 본격화했다. 김건희 특검팀은 통일교 관련 청탁 의혹으로 가평 통일교 본부 등을 압수수색했다. 국민의힘은 이를 &amp;ldquo;야당 탄압&amp;quot;이라 반발하며, 우원식 국회의장은 기관 간 협조를 통한 임의제출 형식을 권고했다.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;장관 임명 및 인사청문회&lt;/strong&gt;: 이재명 대통령은 구윤철 경제부총리 겸 기획재정부 장관, 김정관 산업통상자원부 장관, 조현 외교부 장관, 정성호 법무부 장관 후보자 임명안을 재가했다. 윤호중 행정안전부 장관 후보자는 인사청문회에서 검찰 수사·기소권 분리를 검찰 개혁의 핵심 원칙으로 재확인했다. 강선우 여성가족부 장관 후보자의 ‘병원 갑질 의혹’ 논란도 제기되었다.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;더불어민주당 당대표 선거&lt;/strong&gt;: 정청래·박찬대 의원이 당대표 선거 일정 조정을 요청했다. 박 의원은 폭우 피해로 인해 전당대회 연기를, 정 의원은 조기 경선을 제안하며 대립했다.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;영상과 캡처 화면에 포함된 제3자 자료의 권리는 원저작자에게 있다.&lt;/p&gt;</description></item><item><title>2025년 7월 18일 주간 뉴스 기록: 집중호우·특검 수사·장관 인선</title><link>https://www.ramoo.net/news/weekly-news-2025nyeon-7weol-18il/</link><pubDate>Sat, 19 Jul 2025 14:56:57 +0900</pubDate><guid>https://www.ramoo.net/news/weekly-news-2025nyeon-7weol-18il/</guid><description>&lt;p&gt;2025년 7월 18일을 중심으로, 그 주에 눈여겨본 소식을 모아 둔다. 집중호우와 오산 옹벽 붕괴 사고가 재난 대응의 긴급성을 드러냈고, 정치권에서는 특검 수사와 새 정부 장관 인선이 동시에 진행됐다. 경제 뉴스에는 소비쿠폰 지급 준비와 서울 주택가격 상승, 반도체 업종에 대한 기대가 함께 올라왔다.&lt;/p&gt;
+&lt;p&gt;이 글은 시간이 흐른 뒤 &lt;strong&gt;그때 어떤 일이 있었고, 무엇을 아직 알지 못했는지&lt;/strong&gt; 되짚어보기 위한 주간 스크랩이다. 주로 7월 14~18일의 소식을 다루며, 최초 게시일은 7월 19일이다. 직함과 부처명은 당시 기준으로 적었다. 다음 날 날씨 영상과 나중에 확인한 결과는 별도 표시해 당시 기록과 구분한다.&lt;/p&gt;
+&lt;h2 id="날짜로-되짚는-그-주의-주요-소식"&gt;날짜로 되짚는 그 주의 주요 소식&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;날짜&lt;/th&gt;
+&lt;th&gt;남겨 둘 소식&lt;/th&gt;
+&lt;th&gt;날짜를 읽는 기준&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;7월 15일&lt;/td&gt;
+&lt;td&gt;서울 주택가격 월간 상승률 0.95% 발표&lt;/td&gt;
+&lt;td&gt;7월 가격이 아니라 &lt;strong&gt;6월 조사 결과&lt;/strong&gt;를 발표한 날&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7월 16일&lt;/td&gt;
+&lt;td&gt;오산 가장교차로 고가도로 옹벽 붕괴&lt;/td&gt;
+&lt;td&gt;사고 발생일. 아래에 연결한 현장 기사는 17일 보도&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7월 17일&lt;/td&gt;
+&lt;td&gt;부산 타운홀 일정 취소 발표, 민주당 경선 일정 재논의 요구&lt;/td&gt;
+&lt;td&gt;폭우 대응이 예정된 정치 일정에 영향을 준 시점&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7월 18일&lt;/td&gt;
+&lt;td&gt;집중호우 점검회의, 특검 압수수색, 장관 4명 임명안 재가&lt;/td&gt;
+&lt;td&gt;같은 날 벌어졌지만 각각 다른 대응·수사·인사 절차&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7월 21일 예정&lt;/td&gt;
+&lt;td&gt;민생회복 소비쿠폰 1차 지급 시작&lt;/td&gt;
+&lt;td&gt;18일 시점에서는 시행을 앞둔 일정&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;각 항목의 원문은 아래 해당 문단에 연결했다. 같은 날짜의 헤드라인에 함께 실렸다는 이유로 서로의 원인과 결과가 되는 것은 아니다.&lt;/p&gt;
+&lt;h2 id="집중호우-부산행-취소와-오산-사고-복구-준비"&gt;집중호우: 부산행 취소와 오산 사고, 복구 준비&lt;/h2&gt;
+&lt;h3 id="대통령-일정은-17일에-바뀌었고-점검회의는-18일에-열렸다"&gt;대통령 일정은 17일에 바뀌었고 점검회의는 18일에 열렸다&lt;/h3&gt;
+&lt;p&gt;이재명 대통령의 7월 18일 부산 타운홀 미팅은 전국적인 폭우 피해 상황을 점검하기 위해 취소됐다. 취소 결정이 보도된 날은 &lt;strong&gt;7월 17일&lt;/strong&gt;이며, 대신 중앙재난안전상황실 서울상황센터를 방문한다는 계획이 발표됐다. &lt;a href="https://www.khan.co.kr/article/202507171728011"
+target="_blank"
+&gt;경향신문, 7월 17일 보도&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;18일에는 실제로 정부와 지자체의 피해·대처 상황을 확인하는 긴급 점검회의가 열렸다. 대통령실은 사고 예방에 행정력을 집중하고 피해 주민 보호와 복구 지원을 준비하도록 했다고 밝혔다. &lt;a href="https://www.korea.kr/briefing/presidentView.do?newsId=148950905"
+target="_blank"
+&gt;대통령실, 7월 18일 브리핑&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;이 주의 소식을 되돌아볼 때, 일정 취소와 회의 개최를 함께 남겨 두는 이유다. 재난 보도는 피해 숫자뿐 아니라 어느 시점에 행정의 우선순위가 바뀌었는지도 보여 준다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;당시 사진 원문:&lt;/strong&gt; &lt;a href="https://www.korea.kr/multi/policyPhotoView.do?bbsKey=67473"
+target="_blank"
+&gt;대통령실 제공 ‘집중호우 대처상황 점검회의’ 사진 모음&lt;/a&gt;. 촬영일은 2025년 7월 18일, 장소는 서울 종로구 정부서울청사로 안내돼 있다.&lt;/p&gt;
+&lt;h3 id="오산-옹벽-붕괴는-16일-발생-17일-현장-보도"&gt;오산 옹벽 붕괴는 16일 발생, 17일 현장 보도&lt;/h3&gt;
+&lt;p&gt;
+&lt;img
+src="https://image.ramoo.net/images/off-duty/news/weekly-news-2025nyeon-7weol-18il/osan-photo-01-v3.webp"
+loading="lazy"
+decoding="async"
+alt="2025년 7월 17일 오산 가장교차로 고가도로 옹벽 붕괴 현장"
+class="img-fluid img"
+width=""
+height="" /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2025년 7월 17일 현장. 사진: 한겨레 이정하 기자. &lt;a href="https://www.hani.co.kr/arti/area/capital/1208475.html"
+target="_blank"
+&gt;원문 기사·사진&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;7월 16일 저녁 오산시 가장동 가장교차로 고가도로 옹벽이 무너져, 아래 도로를 지나던 차량 운전자 1명이 숨졌다. 한겨레의 17일 현장 기사는 사고 전 도로 침하를 우려한 민원, 상부 도로 통제와 하부 도로 우회 유도, 안전점검 및 관리 대응을 쟁점으로 다뤘다. 당시에는 사고 원인과 책임을 조사하는 단계였다. &lt;a href="https://www.hani.co.kr/arti/area/capital/1208475.html"
+target="_blank"
+&gt;한겨레 이정하 기자, 7월 17일 현장 보도&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;현장 사진 원문:&lt;/strong&gt; 같은 기사의 첫 사진은 7월 17일 오전 경찰이 무너진 옹벽 주변을 조사하는 모습이며, 촬영자는 이정하 기자로 표시돼 있다. &lt;a href="https://www.hani.co.kr/arti/area/capital/1208475.html"
+target="_blank"
+&gt;사진과 현장 기사 보기&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;이 기사를 남기는 이유는 강수량과 별개로, 위험 신고가 접수된 뒤 현장에서 무엇을 확인하고 어느 도로를 통제했는지 돌아볼 수 있기 때문이다. 당시 보도에 등장한 의문을 최종 조사 결론과 혼동하지 않도록, 뒤에 나온 결과는 글 마지막에 따로 붙였다.&lt;/p&gt;
+&lt;h3 id="피해-수치는-발표일과-집계-시각을-함께-봐야-한다"&gt;피해 수치는 발표일과 집계 시각을 함께 봐야 한다&lt;/h3&gt;
+&lt;p&gt;농림축산식품부는 7월 18일 자료에서 아래와 같이 밝혔다. 피해 조사가 계속되는 중의 &lt;strong&gt;잠정 집계&lt;/strong&gt;다. &lt;a href="https://www.mafra.go.kr/bbs/home/792/574668/artclView.do"
+target="_blank"
+&gt;농식품부, 호우 대처상황 긴급 점검회의 자료&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;항목&lt;/th&gt;
+&lt;th&gt;당시 발표 수치&lt;/th&gt;
+&lt;th&gt;집계·관측 범위&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;농작물 침수&lt;/td&gt;
+&lt;td&gt;13,033ha&lt;/td&gt;
+&lt;td&gt;7월 17일 지자체 초동조사 기준, 벼·콩·쪽파·수박 등&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;홍성 누적 강수량&lt;/td&gt;
+&lt;td&gt;437.6㎜&lt;/td&gt;
+&lt;td&gt;7월 16일~17일 21시&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;광주 누적 강수량&lt;/td&gt;
+&lt;td&gt;420.8㎜&lt;/td&gt;
+&lt;td&gt;같은 관측 기간&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;당시 수치를 보관하는 목적은 그 시점에 파악한 피해를 남기는 데 있다. 이후 집계가 늘었다고 이 표의 기준일을 바꾸거나, 다른 관측소·기간의 강수량을 한데 더하면 기록의 의미가 달라진다.&lt;/p&gt;
+&lt;p&gt;복구 지원에서는 &lt;strong&gt;KB·신한·하나·우리금융이 각각 20억 원, 합계 80억 원의 성금&lt;/strong&gt;을 내놓는다는 소식도 있었다. 이것은 금융그룹의 기부 규모이며 정부의 전체 복구 예산과 같은 숫자가 아니다. 대출 만기 연장 등 금융지원도 함께 보도됐다. &lt;a href="https://v.daum.net/v/P6nKbO3IjY"
+target="_blank"
+&gt;쿠키뉴스, 7월 18일 보도·다음 게재본&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;질병관리청은 지자체에 풍수해 감염병 예방 홍보·감시 강화·방제를 요청했다. 보도자료는 18일 발표됐지만, 자료에 적힌 지자체 요청일은 &lt;strong&gt;17일&lt;/strong&gt;이다. 복구 현장과 임시 거주시설의 위생 문제가 재난 대응의 다음 과제로 이어졌다는 점도 함께 기록해 둔다. &lt;a href="https://www.kdca.go.kr/kdca/2848/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjQyJTJGMjE1MzMyJTJGYXJ0Y2xWaWV3LmRvJTNG"
+target="_blank"
+&gt;질병관리청, 7월 18일 보도자료&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="특검-수사-권성동이철규-압수수색은-서로-다른-사건"&gt;특검 수사: 권성동·이철규 압수수색은 서로 다른 사건&lt;/h2&gt;
+&lt;p&gt;7월 18일 김건희 특검은 통일교 관련 청탁 의혹 수사를 위해 권성동 의원 사무실과 통일교 관련 시설 등을 압수수색했다. 같은 날 순직해병 특검은 구명 로비 의혹과 관련해 이철규 의원 사무실 등을 압수수색했다. &lt;a href="https://www.hankyung.com/article/2025071878391"
+target="_blank"
+&gt;한국경제, 7월 18일 보도·19일 00:02 수정&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;두 특검이 같은 날 정치권 핵심 인사를 상대로 강제수사에 나섰다는 점에서 묶여 보도됐지만, 수사 대상 의혹과 담당 특검은 구분해야 한다. 이 기록에 남기는 것은 당시의 수사 진행 상황이다. 압수수색 자체를 혐의 입증이나 유죄 판단으로 적지는 않는다.&lt;/p&gt;
+&lt;h2 id="장관-인선과-민주당-경선-일정-논의"&gt;장관 인선과 민주당 경선 일정 논의&lt;/h2&gt;
+&lt;h3 id="장관-4명-임명안-재가와-후보자-청문회"&gt;장관 4명 임명안 재가와 후보자 청문회&lt;/h3&gt;
+&lt;p&gt;7월 18일 밤 대통령실은 구윤철 기획재정부 장관, 김정관 산업통상자원부 장관, 조현 외교부 장관, 정성호 법무부 장관 임명안이 재가됐다고 밝혔다. 구윤철은 경제부총리를 겸하는 인선이었다. &lt;a href="https://www.etnews.com/20250718000318"
+target="_blank"
+&gt;전자신문, 7월 18일 20:56 보도&lt;/a&gt;, &lt;a href="https://view.asiae.co.kr/article/2025071820472317037"
+target="_blank"
+&gt;아시아경제, 같은 날 인선 보도&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;같은 날 윤호중 행정안전부 장관 후보자는 인사청문회에서 검찰의 수사권과 기소권 분리를 개혁의 기본 원칙으로 제시했다. 한쪽에서는 인사 절차가 마무리되고, 다른 쪽에서는 정부 조직과 정책 방향을 검증하는 청문회가 이어진 셈이다. &lt;a href="https://www.newsis.com/view/NISX20250718_0003257387"
+target="_blank"
+&gt;뉴시스, 7월 18일 청문회 보도&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;강선우 여성가족부 장관 후보자의 보좌진·병원 관련 의혹도 그 주 인사 검증의 쟁점이었다. 18일 정은경 보건복지부 장관 후보자 청문회에서도 병원 방역 지침 준수 문제가 질의됐다. 이 대목은 당시 제기된 의혹과 정치적 논란에 관한 기록이며, 각각의 주장 전체가 확인됐다는 의미로 적은 것은 아니다. &lt;a href="https://www.newsis.com/view/NISX20250718_0003257690"
+target="_blank"
+&gt;뉴시스, 7월 18일 보도&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="경선-연기축소-논의도-폭우-대응과-맞물렸다"&gt;경선 연기·축소 논의도 폭우 대응과 맞물렸다&lt;/h3&gt;
+&lt;p&gt;17일 밤 뉴시스 보도에서 정청래 후보는 온라인 대회 등 축소 방안을 언급하며 당의 결정에 따르겠다고 했고, 박찬대 후보는 순회경선을 그대로 진행하는 것이 적절한지 책임 있게 논의해 달라고 요청했다. &lt;a href="https://www.newsis.com/view/NISX20250717_0003256549"
+target="_blank"
+&gt;뉴시스, 7월 17일 22:51 보도&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;따라서 이 시점의 입장을 ‘정청래는 조기 경선, 박찬대는 연기’라는 단순한 대립으로만 남기면 당시 논의가 좁아진다. 재난 대응과 집권여당의 예정된 정치 일정을 어떻게 조정할지가 함께 제기됐다고 읽는 편이 기록에 맞다.&lt;/p&gt;
+&lt;h2 id="생활경제와-시장-지급-준비-지난달-통계-장중-가격"&gt;생활경제와 시장: 지급 준비, 지난달 통계, 장중 가격&lt;/h2&gt;
+&lt;h3 id="소비쿠폰은-7월-21일-시행을-앞둔-소식"&gt;소비쿠폰은 7월 21일 시행을 앞둔 소식&lt;/h3&gt;
+&lt;p&gt;18일 기준으로 민생회복 소비쿠폰은 &lt;strong&gt;7월 21일 1차 지급 시작을 앞두고&lt;/strong&gt; 있었다. 정부는 지급 준비와 콜센터 가동을 안내했고, 편의점 4사는 생필품과 먹거리 할인 행사를 준비했다. &lt;a href="https://gonggam.korea.kr/newsContentView.es?b_list=9&amp;amp;code_cd=0101000000&amp;amp;content=NC002&amp;amp;mid=a12503000000&amp;amp;nPage=207&amp;amp;news_id=5a75b5e1-91e9-433c-b352-202858aaaf6c"
+target="_blank"
+&gt;정부 정책주간지 K-공감, 7월 18일&lt;/a&gt;, &lt;a href="https://www.hankyung.com/article/202507174725i"
+target="_blank"
+&gt;한국경제, 편의점 행사 보도&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;이때의 ‘소비 활성화 기대’와 실제로 얼마나 소비가 늘었는지는 별개의 질문이다. 여기에는 제도 시행을 앞두고 정부와 유통업계가 어떤 준비를 했는지를 남겨 둔다.&lt;/p&gt;
+&lt;h3 id="서울-집값-095는-6월-월간-지표"&gt;서울 집값 0.95%는 6월 월간 지표&lt;/h3&gt;
+&lt;p&gt;7월 15일 발표된 한국부동산원의 6월 전국 주택가격 동향조사에서, 서울 주택 종합 매매가격은 전월보다 &lt;strong&gt;0.95%&lt;/strong&gt;, 서울 아파트는 &lt;strong&gt;1.44%&lt;/strong&gt; 상승한 것으로 보도됐다. 주택 종합 상승률은 2018년 9월 이후 82개월 만에 가장 높은 수준이라는 설명이었다. &lt;a href="https://www.newsis.com/view/NISX20250715_0003252346"
+target="_blank"
+&gt;뉴시스, 7월 15일 보도&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;이는 7월 18일 하루의 상승률도, 서울의 모든 주택이 똑같이 오른 비율도 아니다. 6·27 대출 규제의 효과를 이 숫자 하나로 판단하기보다, 규제 발표 전 시장 흐름이 포함된 월간 조사라는 점을 기억해 둘 만하다.&lt;/p&gt;
+&lt;h3 id="삼성전자-6만7800원은-종가가-아닌-장중-기록"&gt;삼성전자 6만7,800원은 종가가 아닌 장중 기록&lt;/h3&gt;
+&lt;p&gt;18일 오전 한국경제 보도는 삼성전자 보통주가 장중 한때 &lt;strong&gt;6만7,800원&lt;/strong&gt;까지 올랐다고 전했다. 기사에 제시된 오전 10시 28분 거래가는 &lt;strong&gt;6만7,600원&lt;/strong&gt;이다. 따라서 6만7,800원을 이날 종가로 읽으면 안 된다. 전날 이재용 회장에 대한 대법원 무죄 확정이 투자심리에 긍정적으로 작용했다는 해석도 함께 실렸다. &lt;a href="https://www.hankyung.com/article/2025071865356"
+target="_blank"
+&gt;한국경제, 7월 18일 10:40 보도·11:09 수정&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;세미파이브의 코스닥 상장 추진 소식도 같은 주 반도체 뉴스로 남겨 둔다. 회사가 예비심사 신청서를 제출한 날은 &lt;strong&gt;7월 17일&lt;/strong&gt;, 이를 알린 보도는 &lt;strong&gt;18일&lt;/strong&gt;이다. 당시에는 예심 청구 단계였으며 상장 완료를 뜻하지 않았다. &lt;a href="https://www.sedaily.com/NewsView/2GVED8HHC8"
+target="_blank"
+&gt;서울경제, 7월 18일 보도&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;시장 기사에서 쓰인 기대와 해석을 이후의 실적으로 소급해 바꾸지는 않는다. 이 주의 주가와 상장 추진 소식은 당시 투자자들이 무엇에 관심을 두었는지 돌아보는 자료다.&lt;/p&gt;
+&lt;h2 id="윤석열-전-대통령-구속적부심-기각과-수용-환경-논란"&gt;윤석열 전 대통령: 구속적부심 기각과 수용 환경 논란&lt;/h2&gt;
+&lt;p&gt;7월 18일 법원은 윤석열 전 대통령의 구속적부심 청구를 기각했다. 이 절차의 결과는 당시 구속 상태가 유지된다는 것이며, 본안 재판의 유무죄 선고와는 구분된다. &lt;a href="https://www.ytn.co.kr/_ln/0103_202507182102497748"
+target="_blank"
+&gt;YTN, 7월 18일 21:02 보도&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;17일에는 국가인권위원회에 구치소 방의 에어컨 설치 등을 요구하는 진정이 &lt;strong&gt;40여 건 접수됐다&lt;/strong&gt;는 보도도 나왔다. 접수 건수는 당시까지의 수치이며 인권위가 요구를 받아들였다는 뜻은 아니다. &lt;a href="https://www.yna.co.kr/view/AKR20250717145600004"
+target="_blank"
+&gt;연합뉴스, 7월 17일 16:29 보도&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="다음-날-자료--2025년-7월-19일-kbs-날씨"&gt;다음 날 자료 — 2025년 7월 19일 KBS 날씨&lt;/h2&gt;
+&lt;p&gt;아래는 기존에 함께 보관한 KBS News의 7월 19일 날씨 보도다. 제목은 ‘전국 곳곳에 집중호우, 최대 250mm 비 더 내려’로, &lt;strong&gt;18일 이후의 예보 자료&lt;/strong&gt;다. 현재 날씨나 그날까지의 확정 피해 집계로 읽지 않도록 날짜를 따로 적어 둔다. &lt;a href="https://www.youtube.com/watch?v=RO9gXSnkMHg"
+target="_blank"
+&gt;KBS 원본 영상&lt;/a&gt;&lt;/p&gt;
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
 &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/RO9gXSnkMHg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;h2 id="경제"&gt;경제&lt;/h2&gt;
+&lt;h2 id="뒤에-확인한-일--당시-기록과-구분한-후속-메모"&gt;뒤에 확인한 일 — 당시 기록과 구분한 후속 메모&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;집중호우 피해&lt;/strong&gt;: 중부 및 남부지방의 극한호우로 농경지 약 2만 90헥타르(축구장 2만 8천 개 규모)가 침수되었다. 광주·전남 지역에서는 490㎜ 이상의 비로 2명 실종, 도로·건물 침수, 가축 폐사 등이 발생했다. 정부와 금융기관은 피해 복구를 위해 80억 원 이상의 성금을 지원했다.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;소비쿠폰 지급&lt;/strong&gt;: 민생회복 소비쿠폰 지급이 7월 21일부터 시작된다. GS25 등 편의점 4사는 생필품 및 먹거리 할인 행사를 준비하며 지역경제 활성화를 도모한다.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;부동산 시장&lt;/strong&gt;: 서울 집값이 6월 0.95% 상승하며 82개월 만에 최대 상승폭을 기록했다. 수도권 전셋값은 23개월 연속 상승세다.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;기업 동향&lt;/strong&gt;: 삼성전자 주가가 이재용 회장의 사법 리스크 해소와 HBM 공급 기대감으로 6만7800원까지 상승, ‘7만전자’를 눈앞에 두었다. 세미파이브는 코스닥 상장 예비심사를 청구하며 반도체 디자인하우스로서의 성장 가능성을 보였다. 반면, 증권주는 밸류에이션 부담으로 하락세를 보였다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://image.ramoo.net/images/off-duty/news/weekly-news-2025nyeon-7weol-18il/photo-01.webp" alt="오산 옹벽 붕괴로 드러난 토사와 도로 아래 잔해" loading="lazy" decoding="async" class="img-fluid"&gt;&lt;/p&gt;
-&lt;p&gt;(&lt;a href="https://www.hani.co.kr/arti/area/capital/1208475.html?ref=log.ramoo.net"
+&lt;li&gt;&lt;strong&gt;2025년 7월 23일:&lt;/strong&gt; 강선우 후보자는 자진 사퇴했다. 18일의 임명 여부 논란과 이후 결과를 구분하기 위해 덧붙인다. &lt;a href="https://www.newsis.com/view/NISX20250723_0003263809"
 target="_blank"
-&gt;https://www.hani.co.kr/arti/area/capital/1208475.html&lt;/a&gt;) - 오산 옹벽 붕괴 사고&lt;/p&gt;
-&lt;h2 id="시사"&gt;시사&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;오산 옹벽 붕괴 사고&lt;/strong&gt;: 7월 16일 오산시 가장교차로 고가도로 옹벽 붕괴로 사망 사고가 발생했다. 7년 전 유사 사고 전력이 있었으며, 4월 정밀안전점검에서 균열이 발견되었으나 보수가 미흡했다는 지적이 나왔다. 국토부는 사고조사위를 구성해 원인 규명에 나섰다.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;감염병 예방 조치&lt;/strong&gt;: 집중호우로 인한 풍수해 감염병 우려가 커지며, 질병관리청은 지자체에 감염병 예방법 홍보와 모기 방제를 요청했다.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;윤석열 전 대통령 관련&lt;/strong&gt;: 윤 전 대통령의 구속적부심이 기각되었으며, 지지자들은 서울역 일대에서 석방 촉구 집회를 열었다. 국가인권위에는 윤 전 대통령의 독방 에어컨 설치 요구 진정서가 40건 이상 접수되었다.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>시놀로지 DS918+ USB 2.5G 랜카드 설치 후기와 인식 불안정으로 원복한 이유</title><link>https://www.ramoo.net/hobby/ds918-plus-25g-upgrade/</link><pubDate>Wed, 16 Nov 2022 22:58:55 +0900</pubDate><guid>https://www.ramoo.net/hobby/ds918-plus-25g-upgrade/</guid><description>&lt;p&gt;
+&gt;뉴시스, 7월 23일 보도&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2026년 2월 26일:&lt;/strong&gt; 국토교통부는 오산 옹벽 붕괴 사고 조사 결과를 발표했다. 배수 기능 저하와 빗물 유입에 따른 수압 상승, 설계·시공·유지관리 단계의 복합적인 문제를 설명했다. 2025년 7월 현장 보도의 의문과 구별되는 후속 조사 결과다. &lt;a href="https://www.korea.kr/news/policyNewsView.do?newsId=156746281"
+target="_blank"
+&gt;국토교통부 브리핑&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2026년 6월 30일 보도:&lt;/strong&gt; 인권위가 윤 전 대통령의 수용 환경 관련 제3자 진정 104건을 2월 23일 각하한 사실이 보도됐다. 2025년 7월 17일의 40여 건과는 집계 기간이 다른 후속 수치다. &lt;a href="https://v.daum.net/v/20260630161918127"
+target="_blank"
+&gt;주간경향 보도·다음 게재본&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;후속 자료 확인 및 기록 정리: 2026년 10월 23일. 원래의 주간 기록 범위는 2025년 7월 18일 전후로 유지했다.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>시놀로지 DS918+ USB 2.5G 랜카드 설치 후기와 인식 불안정으로 원복한 이유</title><link>https://www.ramoo.net/hobby/ds918-plus-25g-upgrade/</link><pubDate>Wed, 16 Nov 2022 22:58:55 +0900</pubDate><guid>https://www.ramoo.net/hobby/ds918-plus-25g-upgrade/</guid><description>&lt;p&gt;
 &lt;picture&gt;
 &lt;source
 srcset="https://image.ramoo.net/images/server/ds918-25g/cover_hu_e4875b8d8ff8c374.webp"
@@ -6722,18 +7328,185 @@ height="550" /&gt;
 &lt;h2 id="공유기로만-쓰니-안정적이었다"&gt;공유기로만 쓰니 안정적이었다&lt;/h2&gt;
 &lt;p&gt;그렇게 8개월 동안 한 번도 끊기지 않고 돌아갔다. 당연한 일이라고 할 수도 있지만 기대가 크지 않았던 만큼 의외로 만족했다.&lt;/p&gt;
 &lt;p&gt;고장 났던 제품은 일반 인터넷 연결도 자주 끊겨 새벽에 재부팅하도록 설정해 쓰고 있었다.&lt;/p&gt;
-&lt;p&gt;사용량이 많지는 않았다. BTV, 인터넷, 휴대폰 3~4대, NAS 연결, 가끔 토렌트 정도다. 내 환경에서는 공유기 본래 기능만 쓸 때 꽤 잘 버텼다.&lt;/p&gt;</description></item><item><title>C++11 push_back vs emplace_back 차이점과 객체 생성 최적화 원리</title><link>https://www.ramoo.net/hobby/cpp11-emplace/</link><pubDate>Fri, 17 Apr 2020 23:29:01 +0900</pubDate><guid>https://www.ramoo.net/hobby/cpp11-emplace/</guid><description>&lt;p&gt;&lt;code&gt;vector&lt;/code&gt;에 원소를 넣을 때 보통 &lt;code&gt;push_back&lt;/code&gt;을 쓴다. C++11에서는 생성자 인자를 바로 전달할 수 있는 &lt;code&gt;emplace_back&lt;/code&gt;도 있다.&lt;/p&gt;
-&lt;p&gt;당시 적어 둔 비교 예제다. &lt;code&gt;AClass&lt;/code&gt; 정의는 생략된 코드 조각이다.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-cpp" data-lang="cpp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;void&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;main&lt;/span&gt;(){
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;vector&lt;span style="color:#f92672"&gt;&amp;lt;&lt;/span&gt;AClass&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt; vA;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; va.push_back(AClass(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;,&lt;span style="color:#e6db74"&gt;&amp;#34;a&amp;#34;&lt;/span&gt;));
+&lt;p&gt;사용량이 많지는 않았다. BTV, 인터넷, 휴대폰 3~4대, NAS 연결, 가끔 토렌트 정도다. 내 환경에서는 공유기 본래 기능만 쓸 때 꽤 잘 버텼다.&lt;/p&gt;</description></item><item><title>C++11 push_back vs emplace_back 차이: 복사·이동과 vector 재할당</title><link>https://www.ramoo.net/hobby/cpp11-emplace/</link><pubDate>Fri, 17 Apr 2020 23:29:01 +0900</pubDate><guid>https://www.ramoo.net/hobby/cpp11-emplace/</guid><description>&lt;p&gt;&lt;code&gt;push_back&lt;/code&gt;은 넣을 &lt;strong&gt;객체&lt;/strong&gt;를 받고, &lt;code&gt;emplace_back&lt;/code&gt;은 그 객체를 만들 &lt;strong&gt;생성자 인자&lt;/strong&gt;를 받을 수 있다. C++11에서 추가된 &lt;code&gt;emplace_back&lt;/code&gt;의 핵심은 이 차이다. 생성자 인자를 바로 넘기면 별도의 &lt;code&gt;AClass&lt;/code&gt; 임시 객체를 만든 뒤 옮기는 과정을 줄일 수 있다.&lt;/p&gt;
+&lt;p&gt;그렇다고 &lt;code&gt;push_back&lt;/code&gt;을 전부 &lt;code&gt;emplace_back&lt;/code&gt;으로 바꿀 이유는 없다. 이미 만들어진 객체를 넣는지, 새 객체를 그 자리에서 만드는지부터 봐야 한다. 여기에 &lt;code&gt;vector&lt;/code&gt; 재할당까지 섞어 놓으면, 생성자 출력은 많아지는데 정작 어느 비용을 줄였는지 설명하기 어려워진다.&lt;/p&gt;
+&lt;p&gt;이 글에서는 &lt;strong&gt;새 원소를 만드는 비용&lt;/strong&gt;과 &lt;strong&gt;기존 원소를 새 저장 공간으로 옮기는 비용&lt;/strong&gt;을 나눠 살펴본다. 예제는 C++11 문법을 기준으로 하며, 실행 시간의 우열을 측정한 벤치마크는 아니다.&lt;/p&gt;
+&lt;h2 id="push_back과-emplace_back의-차이"&gt;push_back과 emplace_back의 차이&lt;/h2&gt;
+&lt;p&gt;원소 형식이 &lt;code&gt;AClass&lt;/code&gt;라면 &lt;code&gt;push_back&lt;/code&gt;에는 &lt;code&gt;const AClass&amp;amp;&lt;/code&gt;와 &lt;code&gt;AClass&amp;amp;&amp;amp;&lt;/code&gt;를 받는 오버로드가 있다. 보통 이름 있는 객체를 전달하면 복사 생성하고, 이동 가능한 임시 객체나 &lt;code&gt;std::move&lt;/code&gt;로 전달한 객체는 이동 생성한다. 반면 &lt;code&gt;emplace_back&lt;/code&gt;은 전달받은 인자를 전달 참조와 완벽 전달(perfect forwarding)을 통해 원소 생성에 사용한다. &lt;a href="https://learn.microsoft.com/en-us/cpp/standard-library/vector-class?view=msvc-170#emplace_back"
+target="_blank"
+&gt;Microsoft의 vector 문서&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;아래 표는 &lt;strong&gt;추가할 여유 공간이 있고, 복사·이동 생성자가 모두 있는 형식&lt;/strong&gt;을 전제로 한다. 재할당으로 기존 원소가 옮겨지는 비용은 포함하지 않았다.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;호출&lt;/th&gt;
+&lt;th&gt;전달하는 것&lt;/th&gt;
+&lt;th&gt;새 AClass 원소가 만들어지는 방식&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;values.push_back(value)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;이름 있는 기존 객체&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;value&lt;/code&gt;를 복사 생성&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;values.push_back(std::move(value))&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;이동 대상으로 표시한 기존 객체&lt;/td&gt;
+&lt;td&gt;이동 생성&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;values.push_back(AClass(1, &amp;quot;a&amp;quot;))&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;먼저 생성한 임시 객체&lt;/td&gt;
+&lt;td&gt;임시 객체에서 이동 생성&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;values.emplace_back(1, &amp;quot;a&amp;quot;)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;생성자 인자&lt;/td&gt;
+&lt;td&gt;vector의 원소 자리에서 직접 생성&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;values.emplace_back(value)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;기존 객체&lt;/td&gt;
+&lt;td&gt;복사 생성. emplace라는 이름이 복사를 없애 주지는 않음&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;values.emplace_back(AClass(1, &amp;quot;a&amp;quot;))&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;먼저 생성한 임시 객체&lt;/td&gt;
+&lt;td&gt;임시 객체에서 이동 생성&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;code&gt;std::move&lt;/code&gt;는 이동을 직접 수행하는 함수가 아니다. 인자의 값 범주를 바꿔 이동 생성자가 선택될 수 있게 한다. 이동 생성자가 없거나 객체가 &lt;code&gt;const&lt;/code&gt;이면 복사 생성자가 선택될 수도 있다. 따라서 “rvalue를 넘기면 무조건 이동”이라는 설명도 형식의 생성자 구성을 빼놓으면 부정확하다. &lt;a href="https://eel.is/c&amp;#43;&amp;#43;draft/forward"
+target="_blank"
+&gt;C++ 작업 초안의 forward/move 도우미&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="그대로-컴파일해서-확인하는-c11-예제"&gt;그대로 컴파일해서 확인하는 C++11 예제&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;AClass&lt;/code&gt;의 일반 생성자, 복사 생성자, 이동 생성자에 서로 다른 출력을 넣었다. 각 비교는 독립된 &lt;code&gt;vector&lt;/code&gt;에서 시작한다. 1~4번은 빈 컨테이너에 &lt;code&gt;reserve(1)&lt;/code&gt;을 호출해 첫 삽입에서 재할당이 일어나지 않도록 했다.&lt;/p&gt;
+&lt;p&gt;로그는 &lt;code&gt;AClass&lt;/code&gt;의 생성 경로를 보여 준다. 멤버인 &lt;code&gt;std::string&lt;/code&gt; 내부의 할당 횟수나 프로그램 전체의 메모리 비용까지 세는 예제는 아니다. 소멸자 출력도 생략했다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-cpp" data-lang="cpp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#include&lt;/span&gt; &lt;span style="color:#75715e"&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span style="color:#75715e"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#include&lt;/span&gt; &lt;span style="color:#75715e"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;&lt;span style="color:#75715e"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#include&lt;/span&gt; &lt;span style="color:#75715e"&gt;&amp;lt;utility&amp;gt;&lt;/span&gt;&lt;span style="color:#75715e"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#include&lt;/span&gt; &lt;span style="color:#75715e"&gt;&amp;lt;vector&amp;gt;&lt;/span&gt;&lt;span style="color:#75715e"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;AClass&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; AClass(&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; id, std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;string name)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;:&lt;/span&gt; id_(id), name_(std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;move(name)) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;cout &lt;span style="color:#f92672"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;ctor &amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;&amp;lt;&lt;/span&gt; id_ &lt;span style="color:#f92672"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;\n&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; AClass(&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; AClass&lt;span style="color:#f92672"&gt;&amp;amp;&lt;/span&gt; other)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;:&lt;/span&gt; id_(other.id_), name_(other.name_) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;cout &lt;span style="color:#f92672"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;copy &amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;&amp;lt;&lt;/span&gt; id_ &lt;span style="color:#f92672"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;\n&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; AClass(AClass&lt;span style="color:#f92672"&gt;&amp;amp;&amp;amp;&lt;/span&gt; other) &lt;span style="color:#66d9ef"&gt;noexcept&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;:&lt;/span&gt; id_(other.id_), name_(std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;move(other.name_)) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;cout &lt;span style="color:#f92672"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;move &amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;&amp;lt;&lt;/span&gt; id_ &lt;span style="color:#f92672"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;\n&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;private&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; id_;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;string name_;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;};
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;main&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;cout &lt;span style="color:#f92672"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;[1] push_back temporary&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\n&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;vector&lt;span style="color:#f92672"&gt;&amp;lt;&lt;/span&gt;AClass&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt; values;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; values.reserve(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; values.push_back(AClass(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;a&amp;#34;&lt;/span&gt;));
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;cout &lt;span style="color:#f92672"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;[2] emplace_back arguments&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\n&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;vector&lt;span style="color:#f92672"&gt;&amp;lt;&lt;/span&gt;AClass&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt; values;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; values.reserve(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; values.emplace_back(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;a&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;cout &lt;span style="color:#f92672"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;[3] push_back lvalue&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\n&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;vector&lt;span style="color:#f92672"&gt;&amp;lt;&lt;/span&gt;AClass&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt; values;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; values.reserve(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; AClass value(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;a&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; values.push_back(value);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;cout &lt;span style="color:#f92672"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;[4] emplace_back temporary&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\n&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;vector&lt;span style="color:#f92672"&gt;&amp;lt;&lt;/span&gt;AClass&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt; values;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; values.reserve(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; values.emplace_back(AClass(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;a&amp;#34;&lt;/span&gt;));
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;cout &lt;span style="color:#f92672"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;[5] fill capacity&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\n&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;vector&lt;span style="color:#f92672"&gt;&amp;lt;&lt;/span&gt;AClass&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt; values;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; values.reserve(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;while&lt;/span&gt; (values.size() &lt;span style="color:#f92672"&gt;&amp;lt;&lt;/span&gt; values.capacity()) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; values.emplace_back(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;a&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;cout &lt;span style="color:#f92672"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;[5] append beyond capacity&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\n&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; values.emplace_back(&lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;b&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-cpp" data-lang="cpp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;void&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;main&lt;/span&gt;(){
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; std&lt;span style="color:#f92672"&gt;::&lt;/span&gt;vector&lt;span style="color:#f92672"&gt;&amp;lt;&lt;/span&gt;AClass&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt; va;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; va.emplace_back(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;,&lt;span style="color:#e6db74"&gt;&amp;#34;a&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;emplace_back&lt;/code&gt;은 컨테이너 안에서 원소를 생성한다. 임시 객체를 만든 뒤 옮기는 일을 줄일 수 있다는 점을 기억해 둔다.&lt;/p&gt;
-&lt;p&gt;다만 &lt;code&gt;vector&lt;/code&gt;가 커지면서 재할당되면 기존 원소의 이동이나 복사가 생길 수 있으니, 호출 전체에서 이동이 전혀 없다고 생각하면 안 된다.&lt;/p&gt;</description></item><item><title>SSL For Free에서 와일드카드 인증서를 받았던 기록</title><link>https://www.ramoo.net/hobby/synology-wildcard-sslforfree/</link><pubDate>Wed, 11 Dec 2019 22:20:13 +0900</pubDate><guid>https://www.ramoo.net/hobby/synology-wildcard-sslforfree/</guid><description>&lt;p&gt;블로그를 처음 만들 때 인증서를 살 생각으로 가격을 알아봤다. 여러 도메인을 쓰려니 비용이 올라가 최소 30만 원 이상이 필요해서 무료 발급 방법을 찾았다.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href="https://www.ramoo.net/examples/cpp11-emplace.cpp"
+&gt;예제 전체 내려받기&lt;/a&gt;. 파일 이름을 &lt;code&gt;cpp11-emplace.cpp&lt;/code&gt;로 저장한 폴더에서 다음과 같이 실행하면 된다. C++11을 지원하는 컴파일러와 표준 라이브러리가 필요하며 관리자 권한은 필요 없다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;g++ -std&lt;span style="color:#f92672"&gt;=&lt;/span&gt;c++11 -O0 -Wall -Wextra -Wpedantic cpp11-emplace.cpp -o cpp11-emplace
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;./cpp11-emplace
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="직접-실행한-환경과-출력"&gt;직접 실행한 환경과 출력&lt;/h3&gt;
+&lt;p&gt;2026년 10월 23일 Linux x86_64 환경에서 GCC 13.3.0과 Clang 20.1.2로 확인했다. 두 컴파일러 모두 이 환경의 libstdc++를 사용했다. 각각 C++11의 &lt;code&gt;-O0&lt;/code&gt;·&lt;code&gt;-O2&lt;/code&gt;, C++17의 &lt;code&gt;-O2&lt;/code&gt;로 빌드한 여섯 조합에서 경고 없이 컴파일됐고 출력도 같았다. Clang과 libc++ 조합이나 MSVC에서 실행한 결과까지 포함하는 것은 아니다.&lt;/p&gt;
+&lt;p&gt;아래는 GCC 13.3.0, &lt;code&gt;-std=c++11 -O0&lt;/code&gt; 실행 결과다.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[1] push_back temporary
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ctor 1
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;move 1
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[2] emplace_back arguments
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ctor 1
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[3] push_back lvalue
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ctor 1
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;copy 1
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[4] emplace_back temporary
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ctor 1
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;move 1
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[5] fill capacity
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ctor 1
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[5] append beyond capacity
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ctor 2
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;move 1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;1번의 &lt;code&gt;ctor 1&lt;/code&gt;은 임시 객체 생성, &lt;code&gt;move 1&lt;/code&gt;은 그 임시 객체에서 vector 원소를 만드는 과정이다. 2번은 &lt;code&gt;AClass&lt;/code&gt;를 원소 자리에서 바로 생성하므로 &lt;code&gt;ctor 1&lt;/code&gt;만 나온다. 3번에서는 기존 객체를 먼저 만든 뒤 복사한다. 4번처럼 &lt;code&gt;emplace_back&lt;/code&gt;에 이미 만든 임시 객체를 넘기면 1번과 같은 이동이 남는다.&lt;/p&gt;
+&lt;p&gt;여기서 줄어든 것은 &lt;strong&gt;이 예제의 AClass 이동 생성 한 번과 별도 임시 객체의 수명 관리&lt;/strong&gt;다. 이 로그만으로 실제 프로그램이 몇 퍼센트 빨라진다고 말할 수는 없다. &lt;code&gt;int&lt;/code&gt;처럼 복사가 가벼운 형식과 자원 관리 비용이 큰 사용자 정의 형식을 같은 기준으로 평가해서도 안 된다.&lt;/p&gt;
+&lt;h2 id="reserve와-vector-재할당은-별개의-문제다"&gt;reserve와 vector 재할당은 별개의 문제다&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;vector&lt;/code&gt;는 연속된 저장 공간을 사용한다. &lt;code&gt;size()&lt;/code&gt;는 살아 있는 원소의 수이고, &lt;code&gt;capacity()&lt;/code&gt;는 재할당 없이 담을 수 있는 원소 수다. &lt;code&gt;reserve(n)&lt;/code&gt;은 최소 &lt;code&gt;n&lt;/code&gt;개를 담을 공간을 확보하도록 요청하며, 원소 수 자체를 늘리지는 않는다. &lt;code&gt;resize(n)&lt;/code&gt;과 혼동하면 안 된다. &lt;a href="https://eel.is/c&amp;#43;&amp;#43;draft/vector.capacity"
+target="_blank"
+&gt;C++ 작업 초안의 vector.capacity&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;5번에서는 현재 &lt;code&gt;capacity()&lt;/code&gt;만큼 원소를 채운 뒤 하나를 더 넣었다. &lt;code&gt;reserve(1)&lt;/code&gt;이 정확히 1칸만 할당한다고 가정하지 않기 위해 반복문으로 용량을 채웠다. 이 환경에서는 첫 용량이 1이었고, 다음 &lt;code&gt;emplace_back(2, &amp;quot;b&amp;quot;)&lt;/code&gt;에서 새 원소 생성과 기존 원소 이동이 함께 관찰됐다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;emplace_back을 써도 재할당된 저장 공간으로 기존 원소를 옮기는 작업은 남는다.&lt;/strong&gt; 어떤 구현은 새 원소부터 만들고 다른 구현은 세부 처리 순서가 다를 수 있으므로, 로그의 전체 순서를 이식 가능한 규칙으로 외우지 않는 편이 좋다. 용량 증가 비율 역시 이 예제로 일반화할 수 없다.&lt;/p&gt;
+&lt;p&gt;재할당이 발생하면 기존 원소를 가리키던 포인터·참조·반복자가 무효화된다. 속도 비교보다 이 문제를 먼저 확인해야 하는 코드도 많다. 삽입 전 얻은 참조를 다음 삽입 후에도 사용한다면, &lt;code&gt;push_back&lt;/code&gt;을 &lt;code&gt;emplace_back&lt;/code&gt;으로 바꾸는 것만으로 안전해지지 않는다. &lt;a href="https://eel.is/c&amp;#43;&amp;#43;draft/vector.modifiers"
+target="_blank"
+&gt;C++ 작업 초안의 vector.modifiers&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;예상 원소 수를 알고 있다면 적절한 시점에 &lt;code&gt;reserve&lt;/code&gt;를 한 번 적용하는 것이 도움이 될 수 있다. 다만 이미 원소가 있는 vector의 용량을 늘리는 &lt;code&gt;reserve&lt;/code&gt; 자체도 재배치를 일으킬 수 있다. 매 삽입마다 &lt;code&gt;reserve(size() + 1)&lt;/code&gt;을 호출하는 방식은 자연스러운 용량 증가를 방해할 수 있어 피하는 편이 낫다.&lt;/p&gt;
+&lt;h3 id="noexcept가-기존-원소의-이동복사에-영향을-준다"&gt;noexcept가 기존 원소의 이동·복사에 영향을 준다&lt;/h3&gt;
+&lt;p&gt;예제의 이동 생성자에는 &lt;code&gt;noexcept&lt;/code&gt;를 붙였다. 재할당 중 이동이 실패하면 이미 옮긴 원소의 상태를 복원하기 어려울 수 있기 때문이다. 복사할 수 있는 형식에서 이동 생성자가 예외를 던질 가능성이 있으면, libstdc++는 기존 원소를 복사하는 경로를 사용할 수 있다. 설치된 라이브러리의 &lt;code&gt;vector.tcc&lt;/code&gt;에서도 &lt;code&gt;__uninitialized_move_if_noexcept_a&lt;/code&gt; 경로를 확인할 수 있다. &lt;a href="https://github.com/gcc-mirror/gcc/blob/releases/gcc-13.3.0/libstdc%2B%2B-v3/include/bits/vector.tcc"
+target="_blank"
+&gt;GCC 13.3.0의 vector 구현&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;그래서 생성자 로그를 읽을 때는 “내가 새로 넣는 객체의 이동인가, 기존 원소의 재배치인가”를 구분해야 한다. 위 프로그램에서 &lt;code&gt;noexcept&lt;/code&gt;를 빼면 복사 경로가 나타날 수 있지만, 그 결과는 형식과 라이브러리에 따라 달라진다. 이동 생성자에 &lt;code&gt;noexcept&lt;/code&gt;를 붙이는 판단은 실제로 예외를 던지지 않는 구현인지 확인한 뒤 해야 한다.&lt;/p&gt;
+&lt;h2 id="c17-복사-생략이면-push_back의-이동도-없어질까"&gt;C++17 복사 생략이면 push_back의 이동도 없어질까&lt;/h2&gt;
+&lt;p&gt;C++17에서 같은 형식의 prvalue로 객체를 초기화할 때는 결과 객체를 직접 만드는 규칙이 적용되는 경우가 있다. 예를 들어 &lt;code&gt;AClass value = AClass(1, &amp;quot;a&amp;quot;);&lt;/code&gt; 같은 초기화다. 이름 있는 지역 변수를 반환하는 NRVO처럼 조건에 따라 허용되는 복사 생략과도 구분할 필요가 있다. &lt;a href="https://eel.is/c&amp;#43;&amp;#43;draft/dcl.init"
+target="_blank"
+&gt;C++ 작업 초안의 객체 초기화&lt;/a&gt;, &lt;a href="https://eel.is/c&amp;#43;&amp;#43;draft/class.copy.elision"
+target="_blank"
+&gt;복사·이동 생략 규칙&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;하지만 &lt;code&gt;push_back(AClass(1, &amp;quot;a&amp;quot;))&lt;/code&gt;에서는 임시 객체가 함수의 참조 매개변수에 연결되고, vector 안의 별도 원소를 그 객체에서 생성한다. 이 이동이 C++17의 보장된 복사 생략 대상이 되는 것은 아니다. 실제로 위 프로그램도 C++17 &lt;code&gt;-O2&lt;/code&gt;에서 1번의 &lt;code&gt;move 1&lt;/code&gt;을 출력했다.&lt;/p&gt;
+&lt;p&gt;생성자에 출력처럼 관찰 가능한 부수 효과가 없으면 컴파일러가 실제 기계어를 더 단순하게 만들 수 있다. 반대로 복사 생략이 허용되는 다른 문맥에서는 출력이 있는 생성자 호출도 생략될 수 있다. 이 때문에 생성자 로그는 &lt;strong&gt;선택된 생성 경로를 설명하는 도구&lt;/strong&gt;로 보고, 실행 시간 비교와 분리해야 한다. 최적화 옵션을 올리면 모든 예제의 이동 출력이 사라진다고 기대해서는 안 된다.&lt;/p&gt;
+&lt;p&gt;참고로 &lt;code&gt;emplace_back&lt;/code&gt;의 반환형은 C++11·14에서는 &lt;code&gt;void&lt;/code&gt;, C++17부터는 추가된 원소의 참조다. 이 글의 예제는 반환값을 사용하지 않아 두 표준에서 그대로 실행할 수 있다. 이 차이는 GCC 헤더의 표준 버전별 선언에서도 확인할 수 있다. &lt;a href="https://github.com/gcc-mirror/gcc/blob/releases/gcc-13.3.0/libstdc%2B%2B-v3/include/bits/stl_vector.h"
+target="_blank"
+&gt;GCC 13.3.0의 stl_vector.h&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="실무에서-두-함수를-고르는-기준"&gt;실무에서 두 함수를 고르는 기준&lt;/h2&gt;
+&lt;p&gt;나는 호출을 읽었을 때 의도가 드러나는 쪽을 먼저 고른다. 완성된 객체를 추가한다면 &lt;code&gt;push_back(value)&lt;/code&gt;, 더 이상 필요 없는 객체의 자원을 넘긴다면 &lt;code&gt;push_back(std::move(value))&lt;/code&gt;, 생성자 인자로 새 원소를 만든다면 &lt;code&gt;emplace_back(args...)&lt;/code&gt;가 자연스럽다. 이동한 객체의 이후 상태와 사용 가능 범위는 해당 형식의 계약을 확인한다.&lt;/p&gt;
+&lt;p&gt;또 하나의 점검 대상은 생성자 선택이다. 예를 들어 &lt;code&gt;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt;&lt;/code&gt;에서 &lt;code&gt;emplace_back(10)&lt;/code&gt;은 원소가 열 개인 내부 vector를 만든다. 반면 &lt;code&gt;push_back(std::vector&amp;lt;int&amp;gt;{10})&lt;/code&gt;은 값이 10인 원소 하나를 가진 내부 vector를 추가한다. 함수 이름과 중괄호·소괄호를 함께 바꾸면 의미까지 달라질 수 있다는 예다. &lt;a href="https://learn.microsoft.com/en-us/cpp/standard-library/vector-class?view=msvc-170#vector"
+target="_blank"
+&gt;Microsoft의 vector 생성자 설명&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;성능을 확인해야 한다면 같은 데이터와 초기 용량, 같은 컴파일러·표준 라이브러리·최적화 옵션에서 비교한다. 생성자 출력은 시간 측정에서 제거하고, 할당과 재할당을 비교에 포함할지도 먼저 정한다. 기존 코드의 가독성과 의미를 유지한 상태에서 병목을 측정해야 함수 이름만 바꾼 최적화에 머물지 않는다.&lt;/p&gt;
+&lt;h2 id="최근-수정--2026년-10월-23일"&gt;최근 수정 — 2026년 10월 23일&lt;/h2&gt;
+&lt;p&gt;처음에는 C++ 개발 글을 시리즈로 이어 갈 생각이었다. 지금은 그 계획을 이어 가는 데 의미를 두지 않아, 개발 관련 새 글은 당분간 작성하지 않기로 했다. 이 글은 &lt;code&gt;push_back&lt;/code&gt;과 &lt;code&gt;emplace_back&lt;/code&gt;의 차이를 찾아오는 분들이 참고할 수 있는 독립적인 정보 글로 남겨 둔다.&lt;/p&gt;</description></item><item><title>SSL For Free에서 와일드카드 인증서를 받았던 기록</title><link>https://www.ramoo.net/hobby/synology-wildcard-sslforfree/</link><pubDate>Wed, 11 Dec 2019 22:20:13 +0900</pubDate><guid>https://www.ramoo.net/hobby/synology-wildcard-sslforfree/</guid><description>&lt;p&gt;블로그를 처음 만들 때 인증서를 살 생각으로 가격을 알아봤다. 여러 도메인을 쓰려니 비용이 올라가 최소 30만 원 이상이 필요해서 무료 발급 방법을 찾았다.&lt;/p&gt;
 &lt;p&gt;당시에는 SSL For Free에서 와일드카드 인증서를 받을 수 있었다. 대신 3개월마다 갱신해야 했다. 아래는 2019년에 이용했던 화면과 절차다.&lt;/p&gt;
 &lt;h2 id="도메인-입력"&gt;도메인 입력&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://www.sslforfree.com/"
