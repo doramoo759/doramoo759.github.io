@@ -592,16 +592,16 @@ target="_blank"
 &lt;header class="lot-header"&gt;
 &lt;span class="lot-eyebrow"&gt;LOTTO 6/45 STATISTICAL MONITOR&lt;/span&gt;
 &lt;h2 id="lot-main-heading"&gt;로또 6/45 최근 10회 당첨번호&lt;/h2&gt;
-&lt;p&gt;보관 중인 최근 10회차(제1237회 ~ 제1246회) 당첨번호와 &lt;b&gt;미출현 번호&lt;/b&gt;, &lt;b&gt;출현 빈도&lt;/b&gt;를 살펴보고 재미로 번호를 뽑아보세요. 집계 기준은 &lt;b&gt;2026-10-17 추첨&lt;/b&gt;입니다.&lt;/p&gt;
+&lt;p&gt;보관 중인 최근 10회차(제1238회 ~ 제1247회) 당첨번호와 &lt;b&gt;미출현 번호&lt;/b&gt;, &lt;b&gt;출현 빈도&lt;/b&gt;를 살펴보고 재미로 번호를 뽑아보세요. 집계 기준은 &lt;b&gt;2026-10-24 추첨&lt;/b&gt;입니다.&lt;/p&gt;
 &lt;/header&gt;
 &lt;section class="lot-section lot-top-draws" aria-labelledby="lot-draws-heading"&gt;
 &lt;div id="lot-latest-hero" class="lot-latest-hero"&gt;
 &lt;div class="lot-latest-badge"&gt;표시 데이터의 마지막 추첨 결과&lt;/div&gt;
 &lt;div class="lot-latest-title"&gt;
 &lt;h3 id="lot-latest-round" style="margin:0; font-size:clamp(1.2rem, 3vw, 1.6rem); font-weight:800; color:var(--lot-text);"&gt;
-제1246회 1등 당첨번호
+제1247회 1등 당첨번호
 &lt;/h3&gt;
-&lt;span id="lot-latest-date" style="font-size:0.85rem; color:var(--lot-muted);"&gt;2026-10-17 추첨&lt;/span&gt;
+&lt;span id="lot-latest-date" style="font-size:0.85rem; color:var(--lot-muted);"&gt;2026-10-24 추첨&lt;/span&gt;
 &lt;/div&gt;
 &lt;div id="lot-latest-balls" class="lot-ball-wrap lot-ball-wrap-lg" style="margin:0.75rem 0;" aria-label="최근 1등 당첨 번호"&gt;&lt;/div&gt;
 &lt;div id="lot-latest-meta" class="lot-game-meta"&gt;&lt;/div&gt;
@@ -609,7 +609,7 @@ target="_blank"
 &lt;div class="lot-section-head" style="margin-top:1.5rem;"&gt;
 &lt;div&gt;
 &lt;h3 id="lot-draws-heading" class="lot-section-title"&gt;
-&lt;span aria-hidden="true"&gt;📋&lt;/span&gt; 최근 10개 회차 당첨 번호 일람표 (1246회 ~ 1237회)
+&lt;span aria-hidden="true"&gt;📋&lt;/span&gt; 최근 10개 회차 당첨 번호 일람표 (1247회 ~ 1238회)
 &lt;/h3&gt;
 &lt;p class="lot-section-subtitle"&gt;표시된 최근 10회의 당첨번호와 보너스 번호, 합계 및 연번 여부&lt;/p&gt;
 &lt;/div&gt;
@@ -731,7 +731,7 @@ target="_blank"
 &lt;span style="font-size:0.8rem; color:var(--lot-muted);"&gt;10회차 미니 타임라인:&lt;/span&gt;
 &lt;span class="lot-board-legend-item"&gt;&lt;span class="lot-dot-sample active"&gt;&lt;/span&gt; 당첨 출현&lt;/span&gt;
 &lt;span class="lot-board-legend-item"&gt;&lt;span class="lot-dot-sample"&gt;&lt;/span&gt; 미출현&lt;/span&gt;
-&lt;span style="font-size:0.78rem; color:var(--lot-muted); margin-left:auto;"&gt;* 왼쪽부터 최신 1246회 ➔ 1237회 순&lt;/span&gt;
+&lt;span style="font-size:0.78rem; color:var(--lot-muted); margin-left:auto;"&gt;* 왼쪽부터 최신 1247회 ➔ 1238회 순&lt;/span&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id="lot-heatmap-matrix-view" class="lot-hm-matrix-wrap" hidden&gt;
@@ -794,7 +794,7 @@ target="_blank"
 &lt;/section&gt;
 &lt;/section&gt;
 &lt;script type="application/json" id="lot-embedded-data"&gt;
-[{"bonus":6,"date":"2026-10-17","draw":1246,"numbers":[16,22,23,24,27,28]},{"bonus":12,"date":"2026-10-10","draw":1245,"numbers":[4,5,25,28,32,42]},{"bonus":25,"date":"2026-10-03","draw":1244,"numbers":[1,13,18,26,34,38]},{"bonus":35,"date":"2026-09-26","draw":1243,"numbers":[9,18,24,38,43,44]},{"bonus":9,"date":"2026-09-19","draw":1242,"numbers":[2,4,10,16,31,41]},{"bonus":9,"date":"2026-09-12","draw":1241,"numbers":[7,13,16,23,24,43]},{"bonus":27,"date":"2026-09-05","draw":1240,"numbers":[11,13,19,20,31,44]},{"bonus":8,"date":"2026-08-29","draw":1239,"numbers":[11,13,22,32,33,36]},{"bonus":22,"date":"2026-08-22","draw":1238,"numbers":[2,13,18,32,38,42]},{"bonus":36,"date":"2026-08-15","draw":1237,"numbers":[10,20,23,34,37,40]}]
+[{"bonus":24,"date":"2026-10-24","draw":1247,"numbers":[8,14,21,22,42,45]},{"bonus":6,"date":"2026-10-17","draw":1246,"numbers":[16,22,23,24,27,28]},{"bonus":12,"date":"2026-10-10","draw":1245,"numbers":[4,5,25,28,32,42]},{"bonus":25,"date":"2026-10-03","draw":1244,"numbers":[1,13,18,26,34,38]},{"bonus":35,"date":"2026-09-26","draw":1243,"numbers":[9,18,24,38,43,44]},{"bonus":9,"date":"2026-09-19","draw":1242,"numbers":[2,4,10,16,31,41]},{"bonus":9,"date":"2026-09-12","draw":1241,"numbers":[7,13,16,23,24,43]},{"bonus":27,"date":"2026-09-05","draw":1240,"numbers":[11,13,19,20,31,44]},{"bonus":8,"date":"2026-08-29","draw":1239,"numbers":[11,13,22,32,33,36]},{"bonus":22,"date":"2026-08-22","draw":1238,"numbers":[2,13,18,32,38,42]}]
 &lt;/script&gt;
 &lt;script defer src="https://www.ramoo.net/js/lotto-analyzer.min.2c02249db06472399b1813c9af65875201b8017ae23e6fcc08d70b1615393d31.js" integrity="sha256-LAIknbBkcjmbGBPJr2WHUgG4AXriPm/MCNcLFhU5PTE=" crossorigin="anonymous"&gt;&lt;/script&gt;
 &lt;hr&gt;
