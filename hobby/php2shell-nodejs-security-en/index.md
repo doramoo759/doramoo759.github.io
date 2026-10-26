@@ -52,7 +52,7 @@ Distributions can backport fixes without adopting the upstream version number. C
 
 **The substance of that report is supported.** J-CAST reported that Prime Minister Sanae Takaichi posted on X on October 21 urging operators to check PHP use and prepare to patch quickly. Where immediate patching was difficult, she described temporarily suspending websites as a way to reduce risk. [J-CAST's October 22 report](https://www.j-cast.com/2026/10/22518636.html)
 
-[![Japanese Prime Minister Sanae Takaichi in the photograph and original caption displayed in J-CAST's report; the caption identifies September 2026 as the photo date.](/images/tech/php2shell-nodejs-security/jcast-takaichi-article-capture-v1.webp)](https://www.j-cast.com/2026/10/22518636.html)
+[![Japanese Prime Minister Sanae Takaichi in the photograph and original caption displayed in J-CAST's report; the caption identifies September 2026 as the photo date.](/images/tech/php2shell-nodejs-security/jcast-takaichi-article-capture-v2.webp)](https://www.j-cast.com/2026/10/22518636.html)
 
 *Source: photo-and-caption area captured on October 23 from [J-CAST News's October 22, 2026 report](https://www.j-cast.com/2026/10/22518636.html). The original caption dates this file photograph to September 2026; it does not show the PHP security appeal taking place.*
 
