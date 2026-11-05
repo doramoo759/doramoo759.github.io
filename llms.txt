@@ -14,7 +14,7 @@
 - [AI가 찾아낸 PHP2Shell 취약점, PHP·Node.js 업데이트부터 확인하자](https://www.ramoo.net/hobby/php2shell-nodejs-security-ko/index.md): PHP2Shell의 CVE-2026-109618·109619와 Node.js 2026년 10월 취약점을 표로 정리했다. PHP·Node.js 수정 버전, 일본 총리의 사이트 중단 요청, 점검 도구와 보안주 반응을 확인한다.
 - [PHP2Shell: AI-Found PHP Vulnerabilities and Node.js Security Updates](https://www.ramoo.net/hobby/php2shell-nodejs-security-en/index.md): PHP2Shell CVEs, fixed PHP and Node.js versions, Japan's shutdown advice, practical checking tools and the reported cybersecurity-stock reaction.
 - [Powerball Number Generator & Latest Winning Numbers](https://www.ramoo.net/hobby/powerball-number-generator/index.md): Generate Powerball picks, check recent winning numbers, and explore white and red ball frequencies. Draw dates and schedules use U.S. Eastern Time.
-- [로또 번호 생성기 | 최근 10회 당첨번호·미출현 번호 통계](https://www.ramoo.net/hobby/lotto-645-analyzer/index.md): 재미로 즐기는 로또 6/45 번호 생성기입니다. 최근 10회 당첨번호와 미출현·출현 빈도를 살펴보고, 5가지 방식과 고정수·제외수로 원하는 조합을 만들어 보세요.
+- [로또 번호 생성기 | 보너스볼 이동·이월수 패턴 분석](https://www.ramoo.net/hobby/lotto-645-analyzer/index.md): 최근 10회 당첨번호의 보너스볼 이동·이월수·3구 ±6 흐름을 살펴보는 로또 6/45 번호 생성기입니다. 7가지 방식과 고정수·제외수로 참고용 조합을 만들어 보세요.
 - [IPv4 CIDR·서브넷 계산기: IP 범위 확인과 클래스 A·B·C 이해하기](https://www.ramoo.net/hobby/cidr-subnet-calculator/index.md): IPv4 주소와 CIDR 프리픽스로 네트워크 시작·끝, 서브넷 마스크, 브로드캐스트와 호스트 수를 계산합니다. IP 클래스 A·B·C의 의미와 방화벽·공유기 설정 예시도 설명합니다.
 - [내 IP 주소 확인하기](https://www.ramoo.net/hobby/check-my-ip/index.md): 내 IP 주소를 무료로 확인하세요. 공인 IP 조회, IPv4·IPv6 구분, IP 위치 지도, 통신사·ASN과 연결 정보를 확인하고 주소를 바로 복사할 수 있습니다.
 - [웹 브라우저 기반 원격 접속 Apache Guacamole 사내망 구축 및 RDP/SSH 테스트](https://www.ramoo.net/hobby/apache-guacamole-intro/index.md): 브라우저 SSH 접속은 편했지만 LDAP 연동과 계정·세션 관리가 걸렸다. 사내망 테스트에서 멈춘 기록.
